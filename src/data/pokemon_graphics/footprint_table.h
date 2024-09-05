@@ -413,4 +413,7 @@ const u8 *const gMonFootprintTable[] =
     [SPECIES_DEOXYS] = gMonFootprint_Deoxys,
     [SPECIES_CHIMECHO] = gMonFootprint_Chimecho,
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
+    [SPECIES_FUECOCO] = gMonFootprint_Fuecoco,
+    [SPECIES_CROCALOR] = gMonFootprint_Crocalor,
+    [SPECIES_SKELEDIRGE] = gMonFootprint_Skeledirge,
 };

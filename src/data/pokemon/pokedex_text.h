@@ -2319,3 +2319,21 @@ const u8 gDeoxysPokedexText[] = _(
     "extraterrestrial virus exposed to a laser\n"
     "beam. Its body is configured for superior\n"
     "agility and speed.");
+
+const u8 gFuecocoPokedexText[] = _(
+    "Its flame sac is small, so energy is\n"
+    "always leaking out. This energy is\n"
+    "released from the dent atop\n"
+    "Fuecoco's head and flickers to and fro.");
+
+const u8 gCrocalorPokedexText[] = _(
+    "The combination of Crocalor's fire\n"
+    "energy and overflowing vitality has\n"
+    "caused an egg-shaped fireball to\n"
+    "appear on the Pokémon's head.");
+
+const u8 gSkeledirgePokedexText[] = _(
+    "Skeledirge's gentle singing\n"
+    "soothes the souls of all that hear it. It\n"
+    "burns its enemies to a crisp with\n"
+    "flames of over 5,400 degrees Fahrenheit.");

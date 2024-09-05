@@ -1305,6 +1305,9 @@ const u16 gEggMoves[] = {
               MOVE_CURSE,
               MOVE_HYPNOSIS,
               MOVE_DREAM_EATER),
+              
+    egg_moves(FUECOCO,
+              MOVE_DRAGON_RAGE),
 
     EGG_MOVES_TERMINATOR
 };
