@@ -44,6 +44,7 @@
 #include "berry_powder.h"
 #include "mystery_gift.h"
 #include "union_room_chat.h"
+#include "constants/items.h"
 
 extern const u8 EventScript_ResetAllMapFlags[];
 
@@ -100,8 +101,8 @@ static void SetDefaultOptions(void)
 static void ClearPokedexFlags(void)
 {
     gUnusedPokedexU8 = 0;
-    memset(&gSaveBlock2Ptr->pokedex.owned, 0, sizeof(gSaveBlock2Ptr->pokedex.owned));
-    memset(&gSaveBlock2Ptr->pokedex.seen, 0, sizeof(gSaveBlock2Ptr->pokedex.seen));
+    memset(&gSaveBlock1Ptr->dexCaught, 0, sizeof(gSaveBlock1Ptr->dexCaught));
+    memset(&gSaveBlock1Ptr->dexSeen, 0, sizeof(gSaveBlock1Ptr->dexSeen));
 }
 
 void ClearAllContestWinnerPics(void)
@@ -157,6 +158,7 @@ void NewGameInitData(void)
     ResetPokedex();
     ClearFrontierRecord();
     ClearSav1();
+    ClearSav3();
     ClearAllMail();
     gSaveBlock2Ptr->specialSaveWarpFlags = 0;
     gSaveBlock2Ptr->gcnLinkFlags = 0;
@@ -179,9 +181,8 @@ void NewGameInitData(void)
     gPlayerPartyCount = 0;
     ZeroPlayerPartyMons();
     ResetPokemonStorageSystem();
-    ClearRoamerData();
-    ClearRoamerLocationData();
-    gSaveBlock1Ptr->registeredItem = 0;
+    DeactivateAllRoamers();
+    gSaveBlock1Ptr->registeredItem = ITEM_NONE;
     ClearBag();
     NewGameInitPCItems();
     ClearPokeblocks();

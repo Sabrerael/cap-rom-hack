@@ -8,9 +8,9 @@
 
 // The purpose of this struct is for outside applications to be
 // able to access parts of the ROM or its save file, like a public API.
-// In vanilla, it was used by Colosseum and XD to access pokemon graphics.
-// 
-// If this struct is rearranged in any way, it defeats the purpose of 
+// In vanilla, it was used by Colosseum and XD to access Pokémon graphics.
+//
+// If this struct is rearranged in any way, it defeats the purpose of
 // having it at all. Applications like PKHex or streaming HUDs may find
 // these values useful, so there's some potential benefit to keeping it.
 // If there's a compilation problem below, just comment out the assignment
@@ -24,8 +24,8 @@ struct GFRomHeader
     const struct CompressedSpriteSheet * monBackPics;
     const struct CompressedSpritePalette * monNormalPalettes;
     const struct CompressedSpritePalette * monShinyPalettes;
-    const u8 * const * monIcons;
-    const u8 * monIconPaletteIds;
+    const u8 *const * monIcons;
+    const u8 *monIconPaletteIds;
     const struct SpritePalette * monIconPalettes;
     const u8 (* monSpeciesNames)[];
     const u8 (* moveNames)[];
@@ -71,9 +71,9 @@ struct GFRomHeader
     u32 unk18;
     const struct SpeciesInfo * speciesInfo;
     const u8 (* abilityNames)[];
-    const u8 * const * abilityDescriptions;
+    const u8 *const * abilityDescriptions;
     const struct Item * items;
-    const struct BattleMove * moves;
+    const struct MoveInfo * moves;
     const struct CompressedSpriteSheet * ballGfx;
     const struct CompressedSpritePalette * ballPalettes;
     u32 gcnLinkFlagsOffset;
@@ -87,9 +87,11 @@ struct GFRomHeader
     u8 pcItemsCount;
     u32 pcItemsOffset;
     u32 giftRibbonsOffset;
+#if FREE_ENIGMA_BERRY == FALSE
     u32 enigmaBerryOffset;
     u32 enigmaBerrySize;
-    const u8 * moveDescriptions;
+#endif //FREE_ENIGMA_BERRY
+    const u8 *moveDescriptions;
     u32 unk20;
 };
 
@@ -100,21 +102,21 @@ static const struct GFRomHeader sGFRomHeader = {
     .version = GAME_VERSION,
     .language = GAME_LANGUAGE,
     .gameName = "pokemon emerald version",
-    .monFrontPics = gMonFrontPicTable,
-    .monBackPics = gMonBackPicTable,
-    .monNormalPalettes = gMonPaletteTable,
-    .monShinyPalettes = gMonShinyPaletteTable,
-    .monIcons = gMonIconTable,
-    .monIconPaletteIds = gMonIconPaletteIndices,
+    //.monFrontPics = gMonFrontPicTable, // Handled in gSpeciesInfo
+    //.monBackPics = gMonBackPicTable, // Handled in gSpeciesInfo
+    //.monNormalPalettes = gMonPaletteTable, // Handled in gSpeciesInfo
+    //.monShinyPalettes = gMonShinyPaletteTable, // Handled in gSpeciesInfo
+    //.monIcons = gMonIconTable,
+    //.monIconPaletteIds = gMonIconPaletteIndices,
     .monIconPalettes = gMonIconPaletteTable,
-    .monSpeciesNames = gSpeciesNames,
-    .moveNames = gMoveNames,
+    //.monSpeciesNames = gSpeciesNames, // Handled in gSpeciesInfo
+    //.moveNames = gMoveNames, // Handled in gMovesInfo
     .decorations = gDecorations,
     .flagsOffset = offsetof(struct SaveBlock1, flags),
     .varsOffset = offsetof(struct SaveBlock1, vars),
     .pokedexOffset = offsetof(struct SaveBlock2, pokedex),
-    .seen1Offset = offsetof(struct SaveBlock1, seen1),
-    .seen2Offset = offsetof(struct SaveBlock1, seen2),
+    .seen1Offset = offsetof(struct SaveBlock1, dexSeen),
+    .seen2Offset = offsetof(struct SaveBlock1, dexSeen), // dex flags are combined, just provide the same pointer
     .pokedexVar = VAR_NATIONAL_DEX - VARS_START,
     .pokedexFlag = FLAG_RECEIVED_POKEDEX_FROM_BIRCH,
     .mysteryEventFlag = FLAG_SYS_MYSTERY_EVENT_ENABLE,
@@ -151,10 +153,10 @@ static const struct GFRomHeader sGFRomHeader = {
     .externalEventDataOffset = offsetof(struct SaveBlock1, externalEventData),
     .unk18 = 0x00000000,
     .speciesInfo = gSpeciesInfo,
-    .abilityNames = gAbilityNames,
-    .abilityDescriptions = gAbilityDescriptionPointers,
-    .items = gItems,
-    .moves = gBattleMoves,
+    //.abilityNames = gAbilityNames, //handled in gAbilitiesInfo
+    //.abilityDescriptions = gAbilityDescriptionPointers, //handled in gAbilitiesInfo
+    .items = gItemsInfo,
+    .moves = gMovesInfo,
     .ballGfx = gBallSpriteSheets,
     .ballPalettes = gBallSpritePalettes,
     .gcnLinkFlagsOffset = offsetof(struct SaveBlock2, gcnLinkFlags),
@@ -168,8 +170,10 @@ static const struct GFRomHeader sGFRomHeader = {
     .pcItemsCount = PC_ITEMS_COUNT,
     .pcItemsOffset = offsetof(struct SaveBlock1, pcItems),
     .giftRibbonsOffset = offsetof(struct SaveBlock1, giftRibbons),
+#if FREE_ENIGMA_BERRY == FALSE
     .enigmaBerryOffset = offsetof(struct SaveBlock1, enigmaBerry),
     .enigmaBerrySize = sizeof(struct EnigmaBerry),
+#endif //FREE_ENIGMA_BERRY
     .moveDescriptions = NULL,
     .unk20 = 0x00000000, // 0xFFFFFFFF in FRLG
 };

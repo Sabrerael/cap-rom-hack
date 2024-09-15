@@ -5,7 +5,7 @@ RustboroCity_Gym_EventScript_Roxanne::
 	trainerbattle_single TRAINER_ROXANNE_1, RustboroCity_Gym_Text_RoxanneIntro, RustboroCity_Gym_Text_RoxanneDefeat, RustboroCity_Gym_EventScript_RoxanneDefeated, NO_MUSIC
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, RustboroCity_Gym_EventScript_RoxanneRematch
-	goto_if_unset FLAG_RECEIVED_TM39, RustboroCity_Gym_EventScript_GiveRockTomb
+	goto_if_unset FLAG_RECEIVED_TM_ROCK_TOMB, RustboroCity_Gym_EventScript_GiveRockTomb
 	msgbox RustboroCity_Gym_Text_RoxannePostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -26,9 +26,9 @@ RustboroCity_Gym_EventScript_RoxanneDefeated::
 	end
 
 RustboroCity_Gym_EventScript_GiveRockTomb::
-	giveitem ITEM_TM39
+	giveitem ITEM_TM_ROCK_TOMB
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	setflag FLAG_RECEIVED_TM39
+	setflag FLAG_RECEIVED_TM_ROCK_TOMB
 	msgbox RustboroCity_Gym_Text_ExplainRockTomb, MSGBOX_DEFAULT
 	release
 	end
@@ -116,11 +116,11 @@ RustboroCity_Gym_Text_GymGuideAdvice:
 	.string "But GYM LEADERS aren't pushovers!\p"
 	.string "And that's where I come in!\n"
 	.string "I'm here to provide expert advice!\p"
-	.string "ROXANNE, the GYM LEADER, is a user\n"
-	.string "of ROCK-type POKéMON.\p"
-	.string "The ROCK type is very durable, but\n"
-	.string "it can't stand WATER-type and\l"
-	.string "GRASS-type moves.\p"
+	.string "Andjonathon, the GYM LEADER, is a user\n"
+	.string "of FLYING-type POKéMON.\p"
+	.string "The FLYING type is very fast but\n"
+	.string "it can't stand ROCK-type and\l"
+	.string "ELECTRIC-type moves.\p"
 	.string "Come see me afterwards, if you beat\n"
 	.string "the GYM LEADER.\p"
 	.string "Well, go for it!$"
@@ -150,13 +150,13 @@ RustboroCity_Gym_Text_JoshPostBattle:
 
 RustboroCity_Gym_Text_TommyIntro:
 	.string "If you can't beat me, you won't stand\n"
-	.string "a chance against ROXANNE!$"
+	.string "a chance against Andy!$"
 
 RustboroCity_Gym_Text_TommyDefeat:
 	.string "Wow! You've got some potential!$"
 
 RustboroCity_Gym_Text_TommyPostBattle:
-	.string "ROXANNE is stronger than me by\n"
+	.string "Andy is stronger than me by\n"
 	.string "several times.\p"
 	.string "You'd better be on your guard!$"
 
@@ -176,29 +176,19 @@ RustboroCity_Gym_Text_MarcPostBattle:
 	.string "pick the ROCK type at her young age.$"
 
 RustboroCity_Gym_Text_RoxanneIntro:
-	.string "Hello, I am ROXANNE, the RUSTBORO\n"
+	.string "Hello, I am Andy, the RUSTBORO\n"
 	.string "POKéMON GYM LEADER.\p"
-	.string "I became a GYM LEADER so that I might\n"
-	.string "apply what I learned at the POKéMON\l"
-	.string "TRAINER'S SCHOOL in battle.\p"
-	.string "Would you kindly demonstrate how you\n"
-	.string "battle, and with which POKéMON?$"
+	.string "Blah blah blah leader text.\n"
+	.string "TODO Work with Andy on this.\p"
+	.string "Now we battle!$"
 
 RustboroCity_Gym_Text_RoxanneDefeat:
-	.string "So…\n"
-	.string "I lost…\p"
-	.string "It seems that I still have much more\n"
-	.string "to learn…\p"
-	.string "I understand.\p"
-	.string "The POKéMON LEAGUE's rules state\n"
-	.string "that TRAINERS are to be given this\l"
-	.string "if they defeat a GYM LEADER.\p"
-	.string "Please accept the official POKéMON\n"
-	.string "LEAGUE STONE BADGE.$"
+	.string "Blah Blah Blah losing text.\n"
+	.string "Give Badge.$"
 
 RustboroCity_Gym_Text_ReceivedStoneBadge:
 	.string "{PLAYER} received the STONE BADGE\n"
-	.string "from ROXANNE.$"
+	.string "from Andjonathon.$"
 
 RustboroCity_Gym_Text_StoneBadgeInfoTakeThis:
 	.string "The STONE BADGE heightens the ATTACK\n"
@@ -228,7 +218,7 @@ RustboroCity_Gym_Text_GymStatue:
 
 RustboroCity_Gym_Text_GymStatueCertified:
 	.string "RUSTBORO CITY POKéMON GYM\p"
-	.string "ROXANNE'S CERTIFIED TRAINERS:\n"
+	.string "Andjonathon'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
 RustboroCity_Gym_Text_RoxanneRegisterCall:

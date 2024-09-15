@@ -254,6 +254,10 @@ LittlerootTown_EventScript_Boy::
 	msgbox LittlerootTown_Text_BirchSpendsDaysInLab, MSGBOX_NPC
 	end
 
+LittlerootTown_EventScript_TestText::
+	msgbox LittlerootTown_Text_TestText, MSGBOX_NPC
+	end
+
 LittlerootTown_EventScript_Twin::
 	lock
 	faceplayer
@@ -968,6 +972,11 @@ LittlerootTown_Text_BirchSpendsDaysInLab:
 	.string "the wild to do more research…\p"
 	.string "When does PROF. BIRCH spend time\n"
 	.string "at home?$"
+
+LittlerootTown_Text_TestText:
+	.string "This is a test!\p"
+	.string "If you can read this,\n"
+	.string "That means it's working!$"
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
 	.string "Um, um, um!\p"

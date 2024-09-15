@@ -111,8 +111,8 @@ gSpecials::
 	def_special Script_GetCurrentMauvilleMan
 	def_special HasBardSongBeenChanged
 	def_special SaveBardSongLyrics
-	def_special GetHipsterSpokenFlag
-	def_special SetHipsterSpokenFlag
+	def_special HasHipsterTaughtWord
+	def_special SetHipsterTaughtWord
 	def_special HipsterTryTeachWord
 	def_special PlayBardSong
 	def_special SetMauvilleOldManObjEventGfx
@@ -258,7 +258,7 @@ gSpecials::
 	def_special CallSlateportTentFunction
 	def_special ChoosePartyForBattleFrontier
 	def_special ValidateEReaderTrainer
-	def_special GetBestBattleTowerStreak
+	def_special GetBattleTowerSinglesStreak
 	def_special ReducePlayerPartyToSelectedMons
 	def_special BedroomPC
 	def_special PlayerPC
@@ -311,7 +311,7 @@ gSpecials::
 	def_special TryUpdateRusturfTunnelState
 	def_special IsGrassTypeInParty
 	def_special DoContestHallWarp
-	def_special PutZigzagoonInPlayerParty
+	def_special LoadWallyZigzagoon
 	def_special IsStarterInParty
 	def_special CopyCurSecretBaseOwnerName_StrVar1
 	def_special ScriptCheckFreePokemonStorageSpace
@@ -430,7 +430,7 @@ gSpecials::
 	def_special ShowWirelessCommunicationScreen
 	def_special InitUnionRoom
 	def_special BufferUnionRoomPlayerName
-	def_special RetrieveWonderNewsVal
+	def_special WonderNews_GetRewardInfo
 	def_special ChooseMonForWirelessMinigame
 	def_special Script_ResetUnionRoomTrade
 	def_special IsBadEggInParty
@@ -486,11 +486,10 @@ gSpecials::
 	def_special CloseBattleFrontierTutorWindow
 	def_special ScrollableMultichoice_RedrawPersistentMenu
 	def_special ChooseMonForMoveTutor
-	def_special GetBattleFrontierTutorMoveIndex
 	def_special ScrollableMultichoice_ClosePersistentMenu
 	def_special DoDeoxysRockInteraction
 	def_special SetDeoxysRockPalette
-	def_special CreateEventLegalEnemyMon
+	def_special CreateEnemyEventMon
 	def_special StartMirageTowerDisintegration
 	def_special StartMirageTowerShake
 	def_special StartMirageTowerFossilFallAndSink
@@ -535,3 +534,23 @@ gSpecials::
 	def_special RemoveRecordsWindow
 	def_special CloseDeptStoreElevatorWindow
 	def_special TrySetBattleTowerLinkType
+	def_special SetTotemBoost
+	def_special TrySpecialOverworldEvo
+	def_special GetNumberSprayStrength
+	def_special GetSprayId
+	def_special GetLastUsedSprayType
+	def_special TrySkyBattle
+	def_special VsSeekerResetObjectMovementAfterChargeComplete
+	def_special VsSeekerFreezeObjectsAfterChargeComplete
+	def_special PlayerHasMulch
+	def_special Bag_ChooseMulch
+	def_special ObjectEventInteractionApplyMulch
+	def_special ObjectEventInteractionPullBerryWeed
+	def_special ObjectEventInteractionClearBerryPests
+	def_special ObjectEventInteractionBerryHasWeed
+	def_special ObjectEventInteractionBerryHasPests
+	def_special CanWaterBerryPlot
+	def_special Script_GetChosenMonOffensiveEVs
+	def_special Script_GetChosenMonDefensiveEVs
+	def_special Script_GetChosenMonOffensiveIVs
+	def_special Script_GetChosenMonDefensiveIVs

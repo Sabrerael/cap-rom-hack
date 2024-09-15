@@ -2,6 +2,7 @@
 #include "pokenav.h"
 #include "bg.h"
 #include "menu.h"
+#include "palette.h"
 #include "window.h"
 #include "sound.h"
 #include "dynamic_placeholder_text_util.h"
@@ -431,7 +432,7 @@ static u32 LoopedTask_OpenConditionSearchResults(s32 state)
         SetBgTilemapBuffer(1, gfx->buff);
         CopyToBgTilemapBuffer(1, sConditionSearchResultTilemap, 0, 0);
         CopyBgTilemapBufferToVram(1);
-        CopyPaletteIntoBufferUnfaded(sConditionSearchResultFramePal, 0x10, 0x20);
+        CopyPaletteIntoBufferUnfaded(sConditionSearchResultFramePal, BG_PLTT_ID(1), sizeof(sConditionSearchResultFramePal));
         CopyBgTilemapBufferToVram(1);
         return LT_INC_AND_PAUSE;
     case 1:
@@ -443,7 +444,7 @@ static u32 LoopedTask_OpenConditionSearchResults(s32 state)
     case 2:
         if (FreeTempTileDataBuffersIfPossible())
             return LT_PAUSE;
-        CopyPaletteIntoBufferUnfaded(sListBg_Pal, 0x20, 32);
+        CopyPaletteIntoBufferUnfaded(sListBg_Pal, BG_PLTT_ID(2), sizeof(sListBg_Pal));
         CreateSearchResultsList();
         return LT_INC_AND_PAUSE;
     case 3:
@@ -687,12 +688,13 @@ static void CreateSearchResultsList(void)
     CreatePokenavList(&sConditionSearchResultBgTemplates[1], &template, 0);
 }
 
-static void BufferSearchMonListItem(struct PokenavMonListItem * item, u8 * dest)
+static void BufferSearchMonListItem(struct PokenavMonListItem * item, u8 *dest)
 {
     u8 gender;
     u8 level;
-    u8 * s;
-    const u8 * genderStr;
+    u8 *s, *end;
+    const u8 *genderStr;
+    u32 fontId;
 
     // Mon is in party
     if (item->boxId == TOTAL_BOXES_COUNT)
@@ -711,8 +713,6 @@ static void BufferSearchMonListItem(struct PokenavMonListItem * item, u8 * dest)
         GetBoxMonData(mon, MON_DATA_NICKNAME, gStringVar3);
     }
 
-    StringGet_Nickname(gStringVar3);
-    dest = GetStringClearToWidth(dest, FONT_NORMAL, gStringVar3, 60);
     switch (gender)
     {
     default:
@@ -725,6 +725,11 @@ static void BufferSearchMonListItem(struct PokenavMonListItem * item, u8 * dest)
         genderStr = sText_FemaleSymbol;
         break;
     }
+    end = StringGet_Nickname(gStringVar3);
+    fontId = GetFontIdToFit(gStringVar3, FONT_NORMAL, 0, 60);
+    WrapFontIdToFit(gStringVar3, end, FONT_NORMAL, 60);
+    dest = GetStringClearToWidth(dest, fontId, gStringVar3, 60);
+
     s = StringCopy(gStringVar1, genderStr);
     *s++ = CHAR_SLASH;
     *s++ = CHAR_EXTRA_SYMBOL;

@@ -2229,7 +2229,7 @@ Route116_Text_JerryDefeat:
 Route116_Text_JerryPostBattle:
 	.string "I'll have to redo some courses at\n"
 	.string "the TRAINER'S SCHOOL.\l"
-	.string "If I don't, ROXANNE will be steamed.$"
+	.string "If I don't, Andy will be steamed.$"
 
 Route116_Text_JerryRegister1:
 	.string "I learned at the TRAINER'S SCHOOL\n"
@@ -2255,7 +2255,7 @@ Route116_Text_JerryRematchDefeat:
 Route116_Text_JerryPostRematch:
 	.string "I'll have to redo some courses at\n"
 	.string "the TRAINER'S SCHOOL.\l"
-	.string "If I don't, ROXANNE will be steamed.$"
+	.string "If I don't, Andy will be steamed.$"
 
 Route116_Text_KarenIntro:
 	.string "I study at school, and I study on\n"
@@ -2266,7 +2266,7 @@ Route116_Text_KarenDefeat:
 
 Route116_Text_KarenPostBattle:
 	.string "Awww, I'll never become an elegant\n"
-	.string "TRAINER like ROXANNE this way!$"
+	.string "TRAINER like Andy this way!$"
 
 Route116_Text_KarenRegister1:
 	.string "Oh, wow! Isn't that a POKéNAV?\n"
@@ -2285,7 +2285,7 @@ Route116_Text_KarenRematchDefeat:
 	.string "I lost again?$"
 
 Route116_Text_KarenPostRematch:
-	.string "You've beaten ROXANNE?\n"
+	.string "You've beaten Andy?\n"
 	.string "I can't beat you, then. Not yet.$"
 
 Route116_Text_SarahIntro:
@@ -4779,3 +4779,18 @@ Route134_Text_HudsonPostBattle:
 	.string "Our boat drifted out to sea.\p"
 	.string "My buddy's a timid fellow, so I'm\n"
 	.string "worried about him.$"
+
+VSSeeker_Text_BatteryNotChargedNeedXSteps::
+	.string "The battery isn't charged enough.\p"
+	.string "No. of steps required to fully\n"
+	.string "charge the battery: {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+
+VSSeeker_Text_NoTrainersWithinRange::
+	.string "There are no Trainers within range\n"
+	.string "who can battle…\p"
+	.string "The VS Seeker was turned off.{PAUSE_UNTIL_PRESS}$"
+
+VSSeeker_Text_TrainersNotReady::
+	.string "The other Trainers don't appear\n"
+	.string "to be ready for battle.\p"
+	.string "Let's wait till later.{PAUSE_UNTIL_PRESS}$"

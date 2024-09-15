@@ -62,6 +62,10 @@ EWRAM_DATA u8 gApproachingTrainerId = 0;
 static const u8 sEmotion_ExclamationMarkGfx[] = INCBIN_U8("graphics/field_effects/pics/emotion_exclamation.4bpp");
 static const u8 sEmotion_QuestionMarkGfx[] = INCBIN_U8("graphics/field_effects/pics/emotion_question.4bpp");
 static const u8 sEmotion_HeartGfx[] = INCBIN_U8("graphics/field_effects/pics/emotion_heart.4bpp");
+static const u8 sEmotion_DoubleExclamationMarkGfx[] = INCBIN_U8("graphics/field_effects/pics/emotion_double_exclamation.4bpp");
+static const u8 sEmotion_XGfx[] = INCBIN_U8("graphics/field_effects/pics/emote_x.4bpp");
+// HGSS emote graphics ripped by Lemon on The Spriters Resource: https://www.spriters-resource.com/ds_dsi/pokemonheartgoldsoulsilver/sheet/30497/
+static const u8 sEmotion_Gfx[] = INCBIN_U8("graphics/misc/emotes.4bpp");
 
 static u8 (*const sDirectionalApproachDistanceFuncs[])(struct ObjectEvent *trainerObj, s16 range, s16 x, s16 y) =
 {
@@ -131,11 +135,19 @@ static const struct SpriteFrameImage sSpriteImageTable_ExclamationQuestionMark[]
 {
     {
         .data = sEmotion_ExclamationMarkGfx,
-        .size = 0x80
+        .size = sizeof(sEmotion_ExclamationMarkGfx)
     },
     {
         .data = sEmotion_QuestionMarkGfx,
-        .size = 0x80
+        .size = sizeof(sEmotion_QuestionMarkGfx)
+    },
+    {
+        .data = sEmotion_DoubleExclamationMarkGfx,
+        .size = sizeof(sEmotion_DoubleExclamationMarkGfx)
+    },
+    {
+        .data = sEmotion_XGfx,
+        .size = sizeof(sEmotion_XGfx)
     }
 };
 
@@ -143,8 +155,122 @@ static const struct SpriteFrameImage sSpriteImageTable_HeartIcon[] =
 {
     {
         .data = sEmotion_HeartGfx,
-        .size = 0x80
+        .size = sizeof(sEmotion_HeartGfx)
     }
+};
+
+static const struct SpriteFrameImage sSpriteImageTable_Emotes[] =
+{
+    overworld_frame(sEmotion_Gfx, 2, 2, 0), // FOLLOWER_EMOTION_HAPPY
+    overworld_frame(sEmotion_Gfx, 2, 2, 1), // FOLLOWER_EMOTION_HAPPY
+    overworld_frame(sEmotion_Gfx, 2, 2, 2), // FOLLOWER_EMOTION_NEUTRAL
+    overworld_frame(sEmotion_Gfx, 2, 2, 3), // FOLLOWER_EMOTION_NEUTRAL
+    overworld_frame(sEmotion_Gfx, 2, 2, 4), // FOLLOWER_EMOTION_SAD
+    overworld_frame(sEmotion_Gfx, 2, 2, 5), // FOLLOWER_EMOTION_SAD
+    overworld_frame(sEmotion_Gfx, 2, 2, 6), // FOLLOWER_EMOTION_UPSET
+    overworld_frame(sEmotion_Gfx, 2, 2, 7), // FOLLOWER_EMOTION_UPSET
+    overworld_frame(sEmotion_Gfx, 2, 2, 8), // FOLLOWER_EMOTION_ANGRY
+    overworld_frame(sEmotion_Gfx, 2, 2, 9), // FOLLOWER_EMOTION_ANGRY
+    overworld_frame(sEmotion_Gfx, 2, 2, 10), // FOLLOWER_EMOTION_PENSIVE
+    overworld_frame(sEmotion_Gfx, 2, 2, 11), // FOLLOWER_EMOTION_PENSIVE
+    overworld_frame(sEmotion_Gfx, 2, 2, 12), // FOLLOWER_EMOTION_LOVE
+    overworld_frame(sEmotion_Gfx, 2, 2, 13), // FOLLOWER_EMOTION_LOVE
+    overworld_frame(sEmotion_Gfx, 2, 2, 14), // FOLLOWER_EMOTION_SURPRISE
+    overworld_frame(sEmotion_Gfx, 2, 2, 15), // FOLLOWER_EMOTION_SURPRISE
+    overworld_frame(sEmotion_Gfx, 2, 2, 16), // FOLLOWER_EMOTION_CURIOUS
+    overworld_frame(sEmotion_Gfx, 2, 2, 17), // FOLLOWER_EMOTION_CURIOUS
+    overworld_frame(sEmotion_Gfx, 2, 2, 18), // FOLLOWER_EMOTION_MUSIC
+    overworld_frame(sEmotion_Gfx, 2, 2, 19), // FOLLOWER_EMOTION_MUSIC
+    overworld_frame(sEmotion_Gfx, 2, 2, 20), // FOLLOWER_EMOTION_POISONED
+    overworld_frame(sEmotion_Gfx, 2, 2, 21), // FOLLOWER_EMOTION_POISONED
+};
+
+static const union AnimCmd sSpriteAnim_Emotes0[] =
+{
+    ANIMCMD_FRAME(0*2, 30),
+    ANIMCMD_FRAME(0*2+1, 25),
+    ANIMCMD_FRAME(0*2, 30),
+    ANIMCMD_END
+};
+
+static const union AnimCmd sSpriteAnim_Emotes1[] =
+{
+    ANIMCMD_FRAME(1*2, 30),
+    ANIMCMD_FRAME(1*2+1, 25),
+    ANIMCMD_FRAME(1*2, 30),
+    ANIMCMD_END
+};
+
+static const union AnimCmd sSpriteAnim_Emotes2[] =
+{
+    ANIMCMD_FRAME(2*2, 30),
+    ANIMCMD_FRAME(2*2+1, 25),
+    ANIMCMD_FRAME(2*2, 30),
+    ANIMCMD_END
+};
+
+static const union AnimCmd sSpriteAnim_Emotes3[] =
+{
+    ANIMCMD_FRAME(3*2, 30),
+    ANIMCMD_FRAME(3*2+1, 25),
+    ANIMCMD_FRAME(3*2, 30),
+    ANIMCMD_END
+};
+
+static const union AnimCmd sSpriteAnim_Emotes4[] =
+{
+    ANIMCMD_FRAME(4*2, 30),
+    ANIMCMD_FRAME(4*2+1, 25),
+    ANIMCMD_FRAME(4*2, 30),
+    ANIMCMD_END
+};
+
+static const union AnimCmd sSpriteAnim_Emotes5[] =
+{
+    ANIMCMD_FRAME(5*2, 30),
+    ANIMCMD_FRAME(5*2+1, 25),
+    ANIMCMD_FRAME(5*2, 30),
+    ANIMCMD_END
+};
+
+static const union AnimCmd sSpriteAnim_Emotes6[] =
+{
+    ANIMCMD_FRAME(6*2, 30),
+    ANIMCMD_FRAME(6*2+1, 25),
+    ANIMCMD_FRAME(6*2, 30),
+    ANIMCMD_END
+};
+
+static const union AnimCmd sSpriteAnim_Emotes7[] =
+{
+    ANIMCMD_FRAME(7*2, 30),
+    ANIMCMD_FRAME(7*2+1, 25),
+    ANIMCMD_FRAME(7*2, 30),
+    ANIMCMD_END
+};
+
+static const union AnimCmd sSpriteAnim_Emotes8[] =
+{
+    ANIMCMD_FRAME(8*2, 30),
+    ANIMCMD_FRAME(8*2+1, 25),
+    ANIMCMD_FRAME(8*2, 30),
+    ANIMCMD_END
+};
+
+static const union AnimCmd sSpriteAnim_Emotes9[] =
+{
+    ANIMCMD_FRAME(9*2, 30),
+    ANIMCMD_FRAME(9*2+1, 25),
+    ANIMCMD_FRAME(9*2, 30),
+    ANIMCMD_END
+};
+
+static const union AnimCmd sSpriteAnim_Emotes10[] =
+{
+    ANIMCMD_FRAME(10*2, 30),
+    ANIMCMD_FRAME(10*2+1, 25),
+    ANIMCMD_FRAME(10*2, 30),
+    ANIMCMD_END
 };
 
 static const union AnimCmd sSpriteAnim_Icons1[] =
@@ -159,16 +285,46 @@ static const union AnimCmd sSpriteAnim_Icons2[] =
     ANIMCMD_END
 };
 
+
+static const union AnimCmd sSpriteAnim_Icons3[] =
+{
+    ANIMCMD_FRAME(2, 60),
+    ANIMCMD_END
+};
+
+static const union AnimCmd sSpriteAnim_Icons4[] =
+{
+    ANIMCMD_FRAME(3, 60),
+    ANIMCMD_END
+};
+
 static const union AnimCmd *const sSpriteAnimTable_Icons[] =
 {
     sSpriteAnim_Icons1,
-    sSpriteAnim_Icons2
+    sSpriteAnim_Icons2,
+    sSpriteAnim_Icons3,
+    sSpriteAnim_Icons4
+};
+
+static const union AnimCmd *const sSpriteAnimTable_Emotes[] =
+{
+    sSpriteAnim_Emotes0,
+    sSpriteAnim_Emotes1,
+    sSpriteAnim_Emotes2,
+    sSpriteAnim_Emotes3,
+    sSpriteAnim_Emotes4,
+    sSpriteAnim_Emotes5,
+    sSpriteAnim_Emotes6,
+    sSpriteAnim_Emotes7,
+    sSpriteAnim_Emotes8,
+    sSpriteAnim_Emotes9,
+    sSpriteAnim_Emotes10,
 };
 
 static const struct SpriteTemplate sSpriteTemplate_ExclamationQuestionMark =
 {
     .tileTag = TAG_NONE,
-    .paletteTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_MAY,
     .oam = &sOamData_Icons,
     .anims = sSpriteAnimTable_Icons,
     .images = sSpriteImageTable_ExclamationQuestionMark,
@@ -179,10 +335,21 @@ static const struct SpriteTemplate sSpriteTemplate_ExclamationQuestionMark =
 static const struct SpriteTemplate sSpriteTemplate_HeartIcon =
 {
     .tileTag = TAG_NONE,
-    .paletteTag = FLDEFF_PAL_TAG_GENERAL_0,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_1,
     .oam = &sOamData_Icons,
     .anims = sSpriteAnimTable_Icons,
     .images = sSpriteImageTable_HeartIcon,
+    .affineAnims = gDummySpriteAffineAnimTable,
+    .callback = SpriteCB_TrainerIcons
+};
+
+static const struct SpriteTemplate sSpriteTemplate_Emote =
+{
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_EMOTES,
+    .oam = &sOamData_Icons,
+    .anims = sSpriteAnimTable_Emotes,
+    .images = sSpriteImageTable_Emotes,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCB_TrainerIcons
 };
@@ -191,6 +358,9 @@ static const struct SpriteTemplate sSpriteTemplate_HeartIcon =
 bool8 CheckForTrainersWantingBattle(void)
 {
     u8 i;
+
+    if (FlagGet(OW_FLAG_NO_TRAINER_SEE))
+        return FALSE;
 
     gNoOfApproachingTrainers = 0;
     gApproachingTrainerId = 0;
@@ -213,7 +383,7 @@ bool8 CheckForTrainersWantingBattle(void)
 
         if (gNoOfApproachingTrainers > 1)
             break;
-        if (GetMonsStateToDoubles_2() != 0) // one trainer found and cant have a double battle
+        if (GetMonsStateToDoubles_2() != PLAYER_HAS_TWO_USABLE_MONS) // one trainer found and cant have a double battle
             break;
     }
 
@@ -280,7 +450,7 @@ static u8 CheckTrainer(u8 objectEventId)
             || scriptPtr[1] == TRAINER_BATTLE_REMATCH_DOUBLE
             || scriptPtr[1] == TRAINER_BATTLE_CONTINUE_SCRIPT_DOUBLE)
         {
-            if (GetMonsStateToDoubles_2() != 0)
+            if (GetMonsStateToDoubles_2() != PLAYER_HAS_TWO_USABLE_MONS)
                 return 0;
 
             numTrainers = 2;
@@ -595,7 +765,7 @@ static bool8 JumpInPlaceBuriedTrainer(u8 taskId, struct Task *task, struct Objec
     if (gSprites[task->tOutOfAshSpriteId].animCmdIndex == 2)
     {
         trainerObj->fixedPriority = 0;
-        trainerObj->triggerGroundEffectsOnMove = 1;
+        trainerObj->triggerGroundEffectsOnMove = TRUE;
 
         sprite = &gSprites[trainerObj->spriteId];
         sprite->oam.priority = 2;
@@ -627,7 +797,7 @@ static void Task_SetBuriedTrainerMovement(u8 taskId)
     struct Task *task = &gTasks[taskId];
     struct ObjectEvent *objEvent;
 
-    LoadWordFromTwoHalfwords(&task->tObjEvent, (u32 *)&objEvent);
+    LoadWordFromTwoHalfwords((u16*) &task->tObjEvent, (u32 *)&objEvent);
     if (!task->data[7])
     {
         ObjectEventClearHeldMovement(objEvent);
@@ -649,7 +819,7 @@ static void Task_SetBuriedTrainerMovement(u8 taskId)
 // Called when a buried Trainer has the reveal_trainer movement applied, from direct interaction
 void SetBuriedTrainerMovement(struct ObjectEvent *objEvent)
 {
-    StoreWordInTwoHalfwords(&gTasks[CreateTask(Task_SetBuriedTrainerMovement, 0)].tObjEvent, (u32)objEvent);
+    StoreWordInTwoHalfwords((u16*) &gTasks[CreateTask(Task_SetBuriedTrainerMovement, 0)].tObjEvent, (u32)objEvent);
 }
 
 void DoTrainerApproach(void)
@@ -689,8 +859,8 @@ void TryPrepareSecondApproachingTrainer(void)
 #define sLocalId    data[0]
 #define sMapNum     data[1]
 #define sMapGroup   data[2]
-#define sData3      data[3]
-#define sData4      data[4]
+#define sYVelocity  data[3]
+#define sYOffset    data[4]
 #define sFldEffId   data[7]
 
 u8 FldEff_ExclamationMarkIcon(void)
@@ -698,17 +868,35 @@ u8 FldEff_ExclamationMarkIcon(void)
     u8 spriteId = CreateSpriteAtEnd(&sSpriteTemplate_ExclamationQuestionMark, 0, 0, 0x53);
 
     if (spriteId != MAX_SPRITES)
+    {
         SetIconSpriteData(&gSprites[spriteId], FLDEFF_EXCLAMATION_MARK_ICON, 0);
+        UpdateSpritePaletteByTemplate(&sSpriteTemplate_ExclamationQuestionMark, &gSprites[spriteId]);
+    }
 
     return 0;
 }
 
 u8 FldEff_QuestionMarkIcon(void)
 {
-    u8 spriteId = CreateSpriteAtEnd(&sSpriteTemplate_ExclamationQuestionMark, 0, 0, 0x52);
+    u8 spriteId;
+    if (gFieldEffectArguments[7] >= 0)
+    {
+        // Use follower emotes
+        u8 emotion = gFieldEffectArguments[7];
+        spriteId = CreateSpriteAtEnd(&sSpriteTemplate_Emote, 0, 0, 0x52);
+        if (spriteId == MAX_SPRITES)
+            return 0;
+        SetIconSpriteData(&gSprites[spriteId], FLDEFF_EMOTE, emotion); // Set animation based on emotion
+        UpdateSpritePaletteByTemplate(&sSpriteTemplate_Emote, &gSprites[spriteId]);
+        return 0;
+    }
+    spriteId = CreateSpriteAtEnd(&sSpriteTemplate_ExclamationQuestionMark, 0, 0, 0x52);
 
     if (spriteId != MAX_SPRITES)
+    {
         SetIconSpriteData(&gSprites[spriteId], FLDEFF_QUESTION_MARK_ICON, 1);
+        UpdateSpritePaletteByTemplate(&sSpriteTemplate_ExclamationQuestionMark, &gSprites[spriteId]);
+    }
 
     return 0;
 }
@@ -722,8 +910,29 @@ u8 FldEff_HeartIcon(void)
         struct Sprite *sprite = &gSprites[spriteId];
 
         SetIconSpriteData(sprite, FLDEFF_HEART_ICON, 0);
-        sprite->oam.paletteNum = 2;
+        UpdateSpritePaletteByTemplate(&sSpriteTemplate_HeartIcon, sprite);
     }
+
+    return 0;
+}
+
+
+u8 FldEff_DoubleExclMarkIcon(void)
+{
+    u8 spriteId = CreateSpriteAtEnd(&sSpriteTemplate_ExclamationQuestionMark, 0, 0, 0x53);
+
+    if (spriteId != MAX_SPRITES)
+        SetIconSpriteData(&gSprites[spriteId], FLDEFF_EXCLAMATION_MARK_ICON, 2);
+
+    return 0;
+}
+
+u8 FldEff_XIcon(void)
+{
+    u8 spriteId = CreateSpriteAtEnd(&sSpriteTemplate_ExclamationQuestionMark, 0, 0, 0x53);
+
+    if (spriteId != MAX_SPRITES)
+        SetIconSpriteData(&gSprites[spriteId], FLDEFF_EXCLAMATION_MARK_ICON, 3);
 
     return 0;
 }
@@ -736,7 +945,7 @@ static void SetIconSpriteData(struct Sprite *sprite, u16 fldEffId, u8 spriteAnim
     sprite->sLocalId = gFieldEffectArguments[0];
     sprite->sMapNum = gFieldEffectArguments[1];
     sprite->sMapGroup = gFieldEffectArguments[2];
-    sprite->sData3 = -5;
+    sprite->sYVelocity = -5;
     sprite->sFldEffId = fldEffId;
 
     StartSpriteAnim(sprite, spriteAnimNum);
@@ -754,23 +963,23 @@ static void SpriteCB_TrainerIcons(struct Sprite *sprite)
     else
     {
         struct Sprite *objEventSprite = &gSprites[gObjectEvents[objEventId].spriteId];
-        sprite->sData4 += sprite->sData3;
+        sprite->sYOffset += sprite->sYVelocity;
         sprite->x = objEventSprite->x;
         sprite->y = objEventSprite->y - 16;
         sprite->x2 = objEventSprite->x2;
-        sprite->y2 = objEventSprite->y2 + sprite->sData4;
-        if (sprite->sData4)
-            sprite->sData3++;
+        sprite->y2 = objEventSprite->y2 + sprite->sYOffset;
+        if (sprite->sYOffset)
+            sprite->sYVelocity++;
         else
-            sprite->sData3 = 0;
+            sprite->sYVelocity = 0;
     }
 }
 
 #undef sLocalId
 #undef sMapNum
 #undef sMapGroup
-#undef sData3
-#undef sData4
+#undef sYVelocity
+#undef sYOffset
 #undef sFldEffId
 
 u8 GetCurrentApproachingTrainerObjectEventId(void)
