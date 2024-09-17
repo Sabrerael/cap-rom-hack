@@ -757,12 +757,12 @@ const struct Item gItemsInfo[] =
 
     [ITEM_SODA_POP] =
     {
-        .name = _("Soda Pop"),
+        .name = _("NYS Drink"),
         .price = 300,
         .holdEffectParam = 50,
         .description = COMPOUND_STRING(
-            "A fizzy soda drink\n"
-            "that restores HP\n"
+            "An undisclosed energy\n"
+            "drink that restores HP\n"
         #if I_HEALTH_RECOVERY >= GEN_7
             "by 50 points."),
         #else
@@ -1906,7 +1906,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Rare Candy"),
         .pluralName = _("Rare Candies"),
-        .price = (I_PRICE >= GEN_7) ? 10000 : 4800,
+        .price = 10,
         .description = COMPOUND_STRING(
             "Raises the level\n"
             "of a Pokémon by\n"
