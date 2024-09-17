@@ -554,6 +554,9 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex::
 	special SetUnlockedPokedexFlags
 	setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
 	setvar VAR_CABLE_CLUB_TUTORIAL_STATE, 1
+    clearFlag FLAG_HIDE_PLAYERS_HOUSE_2F_BULBASAUR_POKEBALL
+    clearFlag FLAG_HIDE_PLAYERS_HOUSE_2F_CHARMANDER_POKEBALL
+    clearFlag FLAG_HIDE_PLAYERS_HOUSE_2F_SQUIRTLE_POKEBALL
 	return
 
 LittlerootTown_ProfessorBirchsLab_EventScript_PokemonAwait::

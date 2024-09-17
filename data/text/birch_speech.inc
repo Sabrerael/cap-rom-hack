@@ -12,6 +12,8 @@ gText_Birch_Pokemon::
 	.string "$"
 
 gText_Birch_MainSpeech::
+	.string "I put a Bidoof here because Ryan thinks\n"
+	.string "they're dumb.\p"
 	.string "This world is widely inhabited by\n"
 	.string "creatures known as POKéMON.\p"
 	.string "We humans live alongside POKéMON,\n"

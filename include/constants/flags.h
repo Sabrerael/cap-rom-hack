@@ -734,12 +734,12 @@
 #define FLAG_UNUSED_0x2B3  0x2B3 // Unused Flag
 #define FLAG_UNUSED_0x2B4  0x2B4 // Unused Flag
 #define FLAG_UNUSED_0x2B5  0x2B5 // Unused Flag
-#define FLAG_UNUSED_0x2B6  0x2B6 // Unused Flag
-#define FLAG_UNUSED_0x2B7  0x2B7 // Unused Flag
-#define FLAG_UNUSED_0x2B8  0x2B8 // Unused Flag
-#define FLAG_UNUSED_0x2B9  0x2B9 // Unused Flag
-#define FLAG_UNUSED_0x2BA  0x2BA // Unused Flag
-#define FLAG_UNUSED_0x2BB  0x2BB // Unused Flag
+#define FLAG_RECEIVED_BULBASAUR  0x2B6
+#define FLAG_RECEIVED_CHARMANDER  0x2B7
+#define FLAG_RECEIVED_SQUIRTLE  0x2B8 
+#define FLAG_HIDE_PLAYERS_HOUSE_2F_BULBASAUR_POKEBALL  0x2B9
+#define FLAG_HIDE_PLAYERS_HOUSE_2F_CHARMANDER_POKEBALL  0x2BA
+#define FLAG_HIDE_PLAYERS_HOUSE_2F_SQUIRTLE_POKEBALL  0x2BB 
 
 // Event Flags
 #define FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG                      0x2BC

@@ -1,4 +1,7 @@
 .set LOCALID_RIVAL, 1
+.set LOCALID_BULBASAUR_BALL, 19
+.set LOCALID_CHARMANDER_BALL, 18
+.set LOCALID_SQUIRTLE_BALL, 17
 
 LittlerootTown_BrendansHouse_2F_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, LittlerootTown_BrendansHouse_2F_OnTransition
@@ -272,6 +275,180 @@ PlayersHouse_2F_EventScript_GameCube::
 	msgbox PlayersHouse_2F_Text_ItsAGameCube, MSGBOX_SIGN
 	end
 
+PlayersHouse_2F_EventScript_BulbasaurPokeball::
+	lockall
+	msgbox PlayersHouse_2F_Text_TakeBallContainingBulbasaur, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, PlayersHouse_2F_EventScript_LeaveBulbasaur
+	goto PlayersHouse_2F_EventScript_GiveBulbasaur
+	end
+
+PlayersHouse_2F_EventScript_LeaveBulbasaur::
+	msgbox PlayersHouse_2F_Text_LeftPokeBallWhereItWas, MSGBOX_DEFAULT
+	releaseall
+	end
+
+PlayersHouse_2F_EventScript_GiveBulbasaur::
+	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_BULBASAUR
+	givemon SPECIES_BULBASAUR, 5
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, PlayersHouse_2F_EventScript_SendBulbasaurParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, PlayersHouse_2F_EventScript_SendBulbasaurPC
+	goto Common_EventScript_NoMoreRoomForPokemon
+	end
+
+PlayersHouse_2F_EventScript_SendBulbasaurParty::
+	call PlayersHouse_2F_EventScript_ReceivedBulbasaurFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, PlayersHouse_2F_EventScript_ReceivedBulbasaur
+	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	goto PlayersHouse_2F_EventScript_ReceivedBulbasaur
+	end
+
+PlayersHouse_2F_EventScript_SendBulbasaurPC::
+	call PlayersHouse_2F_EventScript_ReceivedBulbasaurFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, PlayersHouse_2F_EventScript_BulbasaurTransferredToPC
+	call Common_EventScript_NameReceivedBoxMon
+	goto PlayersHouse_2F_EventScript_BulbasaurTransferredToPC
+	end
+
+PlayersHouse_2F_EventScript_BulbasaurTransferredToPC::
+	call Common_EventScript_TransferredToPC
+	goto PlayersHouse_2F_EventScript_ReceivedBulbasaur
+	end
+
+PlayersHouse_2F_EventScript_ReceivedBulbasaurFanfare::
+	bufferspeciesname STR_VAR_2, SPECIES_BULBASAUR
+	removeobject LOCALID_BULBASAUR_BALL
+	playfanfare MUS_OBTAIN_ITEM
+	message PlayersHouse_2F_Text_ObtainedBulbasaur
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_BULBASAUR
+	return
+
+PlayersHouse_2F_EventScript_ReceivedBulbasaur::
+	setflag FLAG_HIDE_PLAYERS_HOUSE_2F_BULBASAUR_POKEBALL
+	setflag FLAG_RECEIVED_BULBASAUR
+	releaseall
+	end
+
+PlayersHouse_2F_EventScript_CharmanderPokeball::
+	lockall
+	msgbox PlayersHouse_2F_Text_TakeBallContainingCharmander, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, PlayersHouse_2F_EventScript_LeaveCharmander
+	goto PlayersHouse_2F_EventScript_GiveCharmander
+	end
+
+PlayersHouse_2F_EventScript_LeaveCharmander::
+	msgbox PlayersHouse_2F_Text_LeftPokeBallWhereItWas, MSGBOX_DEFAULT
+	releaseall
+	end
+
+PlayersHouse_2F_EventScript_GiveCharmander::
+	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_CHARMANDER
+	givemon SPECIES_CHARMANDER, 5
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, PlayersHouse_2F_EventScript_SendCharmanderParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, PlayersHouse_2F_EventScript_SendCharmanderPC
+	goto Common_EventScript_NoMoreRoomForPokemon
+	end
+
+PlayersHouse_2F_EventScript_SendCharmanderParty::
+	call PlayersHouse_2F_EventScript_ReceivedCharmanderFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, PlayersHouse_2F_EventScript_ReceivedCharmander
+	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	goto PlayersHouse_2F_EventScript_ReceivedCharmander
+	end
+
+PlayersHouse_2F_EventScript_SendCharmanderPC::
+	call PlayersHouse_2F_EventScript_ReceivedCharmanderFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, PlayersHouse_2F_EventScript_CharmanderTransferredToPC
+	call Common_EventScript_NameReceivedBoxMon
+	goto PlayersHouse_2F_EventScript_CharmanderTransferredToPC
+	end
+
+PlayersHouse_2F_EventScript_CharmanderTransferredToPC::
+	call Common_EventScript_TransferredToPC
+	goto PlayersHouse_2F_EventScript_ReceivedCharmander
+	end
+
+PlayersHouse_2F_EventScript_ReceivedCharmanderFanfare::
+	bufferspeciesname STR_VAR_2, SPECIES_CHARMANDER
+	removeobject LOCALID_CHARMANDER_BALL
+	playfanfare MUS_OBTAIN_ITEM
+	message PlayersHouse_2F_Text_ObtainedCharmander
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_CHARMANDER
+	return
+
+PlayersHouse_2F_EventScript_ReceivedCharmander::
+	setflag FLAG_HIDE_PLAYERS_HOUSE_2F_CHARMANDER_POKEBALL
+	setflag FLAG_RECEIVED_CHARMANDER
+	releaseall
+	end
+
+PlayersHouse_2F_EventScript_SquirtlePokeball::
+	lockall
+	msgbox PlayersHouse_2F_Text_TakeBallContainingSquirtle, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, PlayersHouse_2F_EventScript_LeaveSquirtle
+	goto PlayersHouse_2F_EventScript_GiveSquirtle
+	end
+
+PlayersHouse_2F_EventScript_LeaveSquirtle::
+	msgbox PlayersHouse_2F_Text_LeftPokeBallWhereItWas, MSGBOX_DEFAULT
+	releaseall
+	end
+
+PlayersHouse_2F_EventScript_GiveSquirtle::
+	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_SQUIRTLE
+	givemon SPECIES_SQUIRTLE, 5
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, PlayersHouse_2F_EventScript_SendSquirtleParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, PlayersHouse_2F_EventScript_SendSquirtlePC
+	goto Common_EventScript_NoMoreRoomForPokemon
+	end
+
+PlayersHouse_2F_EventScript_SendSquirtleParty::
+	call PlayersHouse_2F_EventScript_ReceivedSquirtleFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, PlayersHouse_2F_EventScript_ReceivedSquirtle
+	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	goto PlayersHouse_2F_EventScript_ReceivedSquirtle
+	end
+
+PlayersHouse_2F_EventScript_SendSquirtlePC::
+	call PlayersHouse_2F_EventScript_ReceivedSquirtleFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, PlayersHouse_2F_EventScript_SquirtleTransferredToPC
+	call Common_EventScript_NameReceivedBoxMon
+	goto PlayersHouse_2F_EventScript_SquirtleTransferredToPC
+	end
+
+PlayersHouse_2F_EventScript_SquirtleTransferredToPC::
+	call Common_EventScript_TransferredToPC
+	goto PlayersHouse_2F_EventScript_ReceivedSquirtle
+	end
+
+PlayersHouse_2F_EventScript_ReceivedSquirtleFanfare::
+	bufferspeciesname STR_VAR_2, SPECIES_SQUIRTLE
+	removeobject LOCALID_SQUIRTLE_BALL
+	playfanfare MUS_OBTAIN_ITEM
+	message PlayersHouse_2F_Text_ObtainedSquirtle
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_SQUIRTLE
+	return
+
+PlayersHouse_2F_EventScript_ReceivedSquirtle::
+	setflag FLAG_HIDE_PLAYERS_HOUSE_2F_SQUIRTLE_POKEBALL
+	setflag FLAG_RECEIVED_SQUIRTLE
+	releaseall
+	end
+
 PlayersHouse_2F_Text_ClockIsStopped:
 	.string "The clock is stopped…\p"
 	.string "Better set it and start it!$"
@@ -302,3 +479,34 @@ PlayersHouse_2F_Text_ItsAGameCube:
 	.string "It's a Nintendo GameCube.\p"
 	.string "A Game Boy Advance is connected to\n"
 	.string "serve as the Controller.$"
+
+PlayersHouse_2F_Text_TakeBallContainingBulbasaur:
+	.string "{PLAYER} checked the POKé BALL.\p"
+	.string "It contained the POKéMON\n"
+	.string "Bulbasaur.\p"
+	.string "Take the POKé BALL?$"
+
+PlayersHouse_2F_Text_ObtainedBulbasaur:
+	.string "{PLAYER} obtained a Bulbasaur.$"
+
+PlayersHouse_2F_Text_TakeBallContainingCharmander:
+	.string "{PLAYER} checked the POKé BALL.\p"
+	.string "It contained the POKéMON\n"
+	.string "Charmander.\p"
+	.string "Take the POKé BALL?$"
+
+PlayersHouse_2F_Text_ObtainedCharmander:
+	.string "{PLAYER} obtained a Charmander.$"
+
+PlayersHouse_2F_Text_TakeBallContainingSquirtle:
+	.string "{PLAYER} checked the POKé BALL.\p"
+	.string "It contained the POKéMON\n"
+	.string "Squirtle.\p"
+	.string "Take the POKé BALL?$"
+
+PlayersHouse_2F_Text_ObtainedSquirtle:
+	.string "{PLAYER} obtained a Squirtle.$"
+
+PlayersHouse_2F_Text_LeftPokeBallWhereItWas:
+	.string "{PLAYER} left the POKé BALL where\n"
+	.string "it was.$"
