@@ -1,3 +1,13 @@
+# Sabre Rael Changelogs
+- Added Pokeballs containing Bulbasaur, Charmander, and Squirtle to the player's house, obtainable after receiving Pokeballs from the rival
+- Changed the starter Pokemon to account for the gift Bulbasaur
+- Increased starting money amount to 7500, up from 3000
+- Increased amount of Pokeballs received from the rival to 10, up from 5
+- Nerfed the first rival fight by removing the elemental attacks from their Pokemon
+- Updated the wild Pokemon encounters for Route 101, Route 102, and Route 103
+- Added Rare Candies for sale to every PokeMart (this is to make testing easier and will be removed later)
+- Slightly modified the game intro
+
 # Pokeemerald-Expansion Changelogs
 
 ## 1.9.x
