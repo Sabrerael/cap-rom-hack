@@ -7,6 +7,8 @@
 - Updated the wild Pokemon encounters for Route 101, Route 102, and Route 103
 - Added Rare Candies for sale to every PokeMart (this is to make testing easier and will be removed later)
 - Slightly modified the game intro
+- Added some initial Moderator teams and changed the names and class of the Gym Leaders
+
 
 # Pokeemerald-Expansion Changelogs
 

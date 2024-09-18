@@ -4410,6 +4410,26 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
+    },
+    {
+      "id": "LAYOUT_STARTING_TOWN_RYANS_HOUSE_1F",
+      "name": "StartingTown_RyansHouse_1F_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/StartingTown_RyansHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/StartingTown_RyansHouse_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_STARTING_TOWN_RYANS_HOUSE_2F",
+      "name": "StartingTown_RyansHouse_2F_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/StartingTown_RyansHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/StartingTown_RyansHouse_2F/map.bin"
     }
   ]
 }
