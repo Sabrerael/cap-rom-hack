@@ -21,21 +21,21 @@
       "x": 8,
       "y": 8,
       "elevation": 0,
-      "dest_map": "MAP_STARTING_TOWN_RYANS_HOUSE_2F",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_LITTLEROOT_TOWN",
+      "dest_warp_id": "3"
     },
     {
       "x": 9,
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_LITTLEROOT_TOWN",
-      "dest_warp_id": "1"
+      "dest_warp_id": "3"
     },
     {
       "x": 8,
       "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_DYNAMIC",
+      "dest_map": "MAP_STARTING_TOWN_RYANS_HOUSE_2F",
       "dest_warp_id": "0"
     }
   ],
@@ -48,7 +48,7 @@
       "x": 0,
       "y": 2,
       "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "StartingTown_RyansHouse_1F_Fridge"
     }
   ]

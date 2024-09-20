@@ -159,6 +159,13 @@
       "elevation": 0,
       "dest_map": "MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_STARTING_TOWN_RYANS_HOUSE_1F",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

@@ -1078,3 +1078,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/StartingTown_RyansHouse_1F/scripts.inc"
 
 	.include "data/maps/StartingTown_RyansHouse_2F/scripts.inc"
+
+	.include "data/maps/StartingTown/scripts.inc"

@@ -4430,6 +4430,16 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/StartingTown_RyansHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/StartingTown_RyansHouse_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_STARTING_TOWN",
+      "name": "StartingTown_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/StartingTown/border.bin",
+      "blockdata_filepath": "data/layouts/StartingTown/map.bin"
     }
   ]
 }

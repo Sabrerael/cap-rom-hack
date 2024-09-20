@@ -3,11 +3,9 @@ StartingTown_RyansHouse_1F_MapScripts::
 
 
 StartingTown_RyansHouse_1F_Fridge::
-	lockall
-    msgbox StartingTown_RyansHouse_1F_Text_Fridge, MSGBOX_DEFAULT
+    msgbox StartingTown_RyansHouse_1F_Text_Fridge, MSGBOX_SIGN
 	end
 
 StartingTown_RyansHouse_1F_Text_Fridge:
-	.string "The fridge is packed full of\n"
-	.string "Taco Bell and cans of an \p"
-	.string "undisclosed energy drink.$"
+	.string "The fridge is packed full of Taco Bell\n"
+	.string "and cans of an undisclosed energy drink.$"

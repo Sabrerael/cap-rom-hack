@@ -377,6 +377,7 @@ const struct TrainerClass gTrainerClasses[TRAINER_CLASS_COUNT] =
     TRAINER_CLASS(PIKE_QUEEN, "PIKE QUEEN"),
     TRAINER_CLASS(PYRAMID_KING, "PYRAMID KING"),
     TRAINER_CLASS(RS_PROTAG, "{PKMN} TRAINER"),
+    TRAINER_CLASS(MODERATOR, "MODERATOR", 25)
 };
 
 static void (* const sTurnActionsFuncsTable[])(void) =
@@ -5404,6 +5405,7 @@ static void HandleEndTurn_BattleWon(void)
             PlayBGM(MUS_VICTORY_AQUA_MAGMA);
             break;
         case TRAINER_CLASS_LEADER:
+        case TRAINER_CLASS_MODERATOR:
             PlayBGM(MUS_VICTORY_GYM_LEADER);
             break;
         default:

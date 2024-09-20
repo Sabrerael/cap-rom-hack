@@ -1,5 +1,5 @@
 # Sabre Rael Changelogs
-- Added Pokeballs containing Bulbasaur, Charmander, and Squirtle to the player's house, obtainable after receiving Pokeballs from the rival
+- Added a mysterious door to a future area. This area contains Pokeballs containing Bulbasaur, Charmander, and Squirtle, obtainable after receiving Pokeballs from the rival
 - Changed the starter Pokemon to account for the gift Bulbasaur
 - Increased starting money amount to 7500, up from 3000
 - Increased amount of Pokeballs received from the rival to 10, up from 5
