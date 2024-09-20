@@ -1080,3 +1080,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/StartingTown_RyansHouse_2F/scripts.inc"
 
 	.include "data/maps/StartingTown/scripts.inc"
+
+	.include "data/maps/StartingTown_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/StartingTown_PokeMart/scripts.inc"

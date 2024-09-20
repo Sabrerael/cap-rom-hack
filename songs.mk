@@ -336,7 +336,7 @@ $(MID_SUBDIR)/mus_ever_grande.s: %.s: %.mid
 $(MID_SUBDIR)/mus_rayquaza_appears.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G109 -V090
 
-$(MID_SUBDIR)/mus_rg_rocket_hideout.s: %.s: %.mid
+$(MID_SUBDIR)/mus_vs_salsa.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G133 -V090
 
 $(MID_SUBDIR)/mus_rg_follow_me.s: %.s: %.mid

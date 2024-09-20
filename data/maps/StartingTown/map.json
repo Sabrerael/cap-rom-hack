@@ -17,7 +17,34 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 7,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_LITTLEROOT_TOWN",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_STARTING_TOWN_RYANS_HOUSE_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 14,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_STARTING_TOWN",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 14,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_STARTING_TOWN",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

@@ -4551,7 +4551,7 @@ static void DebugAction_Sound_MUS_SelectId(u8 taskId)
     X(MUS_VS_AQUA_MAGMA_LEADER) \
     X(MUS_RG_FOLLOW_ME) \
     X(MUS_RG_GAME_CORNER) \
-    X(MUS_RG_ROCKET_HIDEOUT) \
+    X(MUS_VS_SALSA) \
     X(MUS_RG_GYM) \
     X(MUS_RG_JIGGLYPUFF) \
     X(MUS_RG_INTRO_FIGHT) \

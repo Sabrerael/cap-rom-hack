@@ -625,6 +625,8 @@
   ],
   "gMapGroup_IndoorStartingTown": [
     "StartingTown_RyansHouse_1F",
-    "StartingTown_RyansHouse_2F"
+    "StartingTown_RyansHouse_2F",
+    "StartingTown_PokemonCenter_1F",
+    "StartingTown_PokeMart"
   ]
 }

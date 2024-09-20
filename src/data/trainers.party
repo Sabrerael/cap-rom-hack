@@ -4790,7 +4790,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_ROXANNE_1 ===
 Name: Andy
-Class: Moderator
+Class: Leader
 Pic: Leader Roxanne
 Gender: Male
 Music: Female
@@ -4825,10 +4825,10 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Wish
 - Yawn
 
-Flygon @ Oran Berry
+Gliscor @ Oran Berry
 Level: 15
 Ability: Levitate
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Earthquake
 - Dragonbreath
 - Sand Attack

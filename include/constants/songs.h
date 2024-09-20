@@ -417,7 +417,7 @@
 // FRLG Music
 #define MUS_RG_FOLLOW_ME            484 // MUS_RG_ANNAI
 #define MUS_RG_GAME_CORNER          485 // MUS_RG_SLOT
-#define MUS_RG_ROCKET_HIDEOUT       486 // MUS_RG_AJITO
+#define MUS_VS_SALSA                486 // MUS_RG_AJITO
 #define MUS_RG_GYM                  487 // MUS_RG_GYM
 #define MUS_RG_JIGGLYPUFF           488 // MUS_RG_PURIN
 #define MUS_RG_INTRO_FIGHT          489 // MUS_RG_DEMO

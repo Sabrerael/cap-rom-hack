@@ -487,7 +487,7 @@ gSongTable::
 	song mus_vs_aqua_magma_leader, 0, 0
 	song mus_rg_follow_me, 0, 0
 	song mus_rg_game_corner, 0, 0
-	song mus_rg_rocket_hideout, 0, 0
+	song mus_vs_salsa, 0, 0
 	song mus_rg_gym, 0, 0
 	song mus_rg_jigglypuff, 2, 2
 	song mus_rg_intro_fight, 0, 0

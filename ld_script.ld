@@ -1139,7 +1139,7 @@ SECTIONS {
         sound/songs/midi/mus_vs_aqua_magma_leader.o(.rodata);
         sound/songs/midi/mus_rg_follow_me.o(.rodata);
         sound/songs/midi/mus_rg_game_corner.o(.rodata);
-        sound/songs/midi/mus_rg_rocket_hideout.o(.rodata);
+        sound/songs/midi/mus_vs_salsa.o(.rodata);
         sound/songs/midi/mus_rg_gym.o(.rodata);
         sound/songs/midi/mus_rg_jigglypuff.o(.rodata);
         sound/songs/midi/mus_rg_intro_fight.o(.rodata);

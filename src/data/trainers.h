@@ -11859,7 +11859,7 @@ F_TRAINER_FEMALE |
 #line 4792
         .trainerName = _("Andy"),
 #line 4793
-        .trainerClass = TRAINER_CLASS_MODERATOR,
+        .trainerClass = TRAINER_CLASS_LEADER,
 #line 4794
         .trainerPic = TRAINER_PIC_LEADER_ROXANNE,
         .encounterMusic_gender = 
@@ -11936,12 +11936,12 @@ F_TRAINER_FEMALE |
             },
             {
 #line 4828
-            .species = SPECIES_FLYGON,
+            .species = SPECIES_GLISCOR,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 4828
             .heldItem = ITEM_ORAN_BERRY,
 #line 4831
-            .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
+            .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
 #line 4830
             .ability = ABILITY_LEVITATE,
 #line 4829
