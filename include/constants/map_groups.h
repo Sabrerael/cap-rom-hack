@@ -597,6 +597,7 @@
 #define MAP_STARTING_TOWN_RYANS_HOUSE_2F    (1 | (34 << 8))
 #define MAP_STARTING_TOWN_POKEMON_CENTER_1F (2 | (34 << 8))
 #define MAP_STARTING_TOWN_POKE_MART         (3 | (34 << 8))
+#define MAP_STARTING_TOWN_GYM_LEADER_TEST   (4 | (34 << 8))
 
 #define MAP_GROUPS_COUNT 35
 

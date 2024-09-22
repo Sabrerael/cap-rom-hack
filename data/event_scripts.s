@@ -1084,3 +1084,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/StartingTown_PokemonCenter_1F/scripts.inc"
 
 	.include "data/maps/StartingTown_PokeMart/scripts.inc"
+
+	.include "data/maps/StartingTown_GymLeaderTest/scripts.inc"

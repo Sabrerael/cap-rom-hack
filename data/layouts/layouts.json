@@ -4460,6 +4460,16 @@
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/StartingTown_PokeMart/border.bin",
       "blockdata_filepath": "data/layouts/StartingTown_PokeMart/map.bin"
+    },
+    {
+      "id": "LAYOUT_STARTING_TOWN_GYM_LEADER_TEST",
+      "name": "StartingTown_GymLeaderTest_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_FortreeGym",
+      "border_filepath": "data/layouts/StartingTown_GymLeaderTest/border.bin",
+      "blockdata_filepath": "data/layouts/StartingTown_GymLeaderTest/map.bin"
     }
   ]
 }

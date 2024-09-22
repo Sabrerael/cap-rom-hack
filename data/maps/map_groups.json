@@ -627,6 +627,7 @@
     "StartingTown_RyansHouse_1F",
     "StartingTown_RyansHouse_2F",
     "StartingTown_PokemonCenter_1F",
-    "StartingTown_PokeMart"
+    "StartingTown_PokeMart",
+    "StartingTown_GymLeaderTest"
   ]
 }

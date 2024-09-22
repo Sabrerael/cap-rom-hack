@@ -44,6 +44,13 @@
       "elevation": 0,
       "dest_map": "MAP_STARTING_TOWN",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_STARTING_TOWN_GYM_LEADER_TEST",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

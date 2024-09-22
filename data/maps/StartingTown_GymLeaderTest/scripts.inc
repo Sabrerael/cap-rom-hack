@@ -1,0 +1,172 @@
+StartingTown_GymLeaderTest_MapScripts::
+	.byte 0
+
+StartingTown_GymLeaderTest_UpdateBadgesCollected::
+    goto_if_eq VAR_BADGES_COLLECTED, 0, StartingTown_GymLeaderTest_BadgesCollectedOne
+	goto_if_eq VAR_BADGES_COLLECTED, 1, StartingTown_GymLeaderTest_BadgesCollectedTwo
+	goto_if_eq VAR_BADGES_COLLECTED, 2, StartingTown_GymLeaderTest_BadgesCollectedThree
+	goto_if_eq VAR_BADGES_COLLECTED, 3, StartingTown_GymLeaderTest_BadgesCollectedFour
+	goto_if_eq VAR_BADGES_COLLECTED, 4, StartingTown_GymLeaderTest_BadgesCollectedFive
+	goto_if_eq VAR_BADGES_COLLECTED, 5, StartingTown_GymLeaderTest_BadgesCollectedSix
+	goto_if_eq VAR_BADGES_COLLECTED, 6, StartingTown_GymLeaderTest_BadgesCollectedOSeven
+	goto_if_eq VAR_BADGES_COLLECTED, 7, StartingTown_GymLeaderTest_BadgesCollectedEight
+
+StartingTown_GymLeaderTest_BadgesCollectedOne::
+    setvar VAR_BADGES_COLLECTED, 1
+
+StartingTown_GymLeaderTest_BadgesCollectedTwo::
+    setvar VAR_BADGES_COLLECTED, 2
+
+StartingTown_GymLeaderTest_BadgesCollectedThree::
+    setvar VAR_BADGES_COLLECTED, 3
+
+StartingTown_GymLeaderTest_BadgesCollectedFour::
+    setvar VAR_BADGES_COLLECTED, 4
+
+StartingTown_GymLeaderTest_BadgesCollectedFive::
+    setvar VAR_BADGES_COLLECTED, 5
+
+StartingTown_GymLeaderTest_BadgesCollectedSix::
+    setvar VAR_BADGES_COLLECTED, 6
+
+StartingTown_GymLeaderTest_BadgesCollectedSeven::
+    setvar VAR_BADGES_COLLECTED, 7
+
+StartingTown_GymLeaderTest_BadgesCollectedEight::
+    setvar VAR_BADGES_COLLECTED, 8
+
+StartingTown_GymLeaderTest_EventScript_Roxanne::
+    goto_if_eq VAR_BADGES_COLLECTED, 0, StartingTown_GymLeaderTestEventScript_Roxanne_ZeroBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 1, StartingTown_GymLeaderTestEventScript_Roxanne_OneBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 2, StartingTown_GymLeaderTestEventScript_Roxanne_TwoBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 3, StartingTown_GymLeaderTestEventScript_Roxanne_ThreeBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 4, StartingTown_GymLeaderTestEventScript_Roxanne_FourBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 5, StartingTown_GymLeaderTestEventScript_Roxanne_FiveBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 6, StartingTown_GymLeaderTestEventScript_Roxanne_SixBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 7, StartingTown_GymLeaderTestEventScript_Roxanne_SevenBadge
+
+StartingTown_GymLeaderTestEventScript_Roxanne_ZeroBadge::
+	trainerbattle_single TRAINER_ROXANNE_1, StartingTown_GymLeaderTest_Text_Intro, StartingTown_GymLeaderTest_Text_PostBattle, StartingTown_GymLeaderTest_EventScript_RoxanneDefeated, NO_MUSIC
+	msgbox StartingTown_GymLeaderTest_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+StartingTown_GymLeaderTestEventScript_Roxanne_OneBadge::
+	trainerbattle_single TRAINER_ROXANNE_2, StartingTown_GymLeaderTest_Text_Intro, StartingTown_GymLeaderTest_Text_PostBattle, StartingTown_GymLeaderTest_EventScript_RoxanneDefeated, NO_MUSIC
+	msgbox StartingTown_GymLeaderTest_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+StartingTown_GymLeaderTestEventScript_Roxanne_TwoBadge::
+	trainerbattle_single TRAINER_ROXANNE_3, StartingTown_GymLeaderTest_Text_Intro, StartingTown_GymLeaderTest_Text_PostBattle, StartingTown_GymLeaderTest_EventScript_RoxanneDefeated, NO_MUSIC
+	msgbox StartingTown_GymLeaderTest_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+StartingTown_GymLeaderTestEventScript_Roxanne_ThreeBadge::
+	trainerbattle_single TRAINER_ROXANNE_4, StartingTown_GymLeaderTest_Text_Intro, StartingTown_GymLeaderTest_Text_PostBattle, StartingTown_GymLeaderTest_EventScript_RoxanneDefeated, NO_MUSIC
+	msgbox StartingTown_GymLeaderTest_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+StartingTown_GymLeaderTestEventScript_Roxanne_FourBadge::
+	trainerbattle_single TRAINER_ROXANNE_5, StartingTown_GymLeaderTest_Text_Intro, StartingTown_GymLeaderTest_Text_PostBattle, StartingTown_GymLeaderTest_EventScript_RoxanneDefeated, NO_MUSIC
+	msgbox StartingTown_GymLeaderTest_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+StartingTown_GymLeaderTestEventScript_Roxanne_FiveBadge::
+	trainerbattle_single TRAINER_ROXANNE_6, StartingTown_GymLeaderTest_Text_Intro, StartingTown_GymLeaderTest_Text_PostBattle, StartingTown_GymLeaderTest_EventScript_RoxanneDefeated, NO_MUSIC
+	msgbox StartingTown_GymLeaderTest_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+StartingTown_GymLeaderTestEventScript_Roxanne_SixBadge::
+	trainerbattle_single TRAINER_ROXANNE_7, StartingTown_GymLeaderTest_Text_Intro, StartingTown_GymLeaderTest_Text_PostBattle, StartingTown_GymLeaderTest_EventScript_RoxanneDefeated, NO_MUSIC
+	msgbox StartingTown_GymLeaderTest_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+StartingTown_GymLeaderTestEventScript_Roxanne_SevenBadge::
+	trainerbattle_single TRAINER_ROXANNE_8, StartingTown_GymLeaderTest_Text_Intro, StartingTown_GymLeaderTest_Text_PostBattle, StartingTown_GymLeaderTest_EventScript_RoxanneDefeated, NO_MUSIC
+	msgbox StartingTown_GymLeaderTest_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+StartingTown_GymLeaderTest_EventScript_RoxanneDefeated::
+	setflag FLAG_DEFEATED_RUSTBORO_GYM
+	setflag FLAG_BADGE01_GET
+	call StartingTown_GymLeaderTest_UpdateBadgesCollected
+	release
+	end
+
+StartingTown_GymLeaderTest_EventScript_Juan::
+    goto_if_eq VAR_BADGES_COLLECTED, 0, StartingTown_GymLeaderTestEventScript_Juan_ZeroBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 1, StartingTown_GymLeaderTestEventScript_Juan_OneBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 2, StartingTown_GymLeaderTestEventScript_Juan_TwoBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 3, StartingTown_GymLeaderTestEventScript_Juan_ThreeBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 4, StartingTown_GymLeaderTestEventScript_Juan_FourBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 5, StartingTown_GymLeaderTestEventScript_Juan_FiveBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 6, StartingTown_GymLeaderTestEventScript_Juan_SixBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 7, StartingTown_GymLeaderTestEventScript_Juan_SevenBadge
+
+StartingTown_GymLeaderTestEventScript_Juan_ZeroBadge::
+	trainerbattle_single TRAINER_JUAN_1, StartingTown_GymLeaderTest_Text_Intro, StartingTown_GymLeaderTest_Text_PostBattle, StartingTown_GymLeaderTest_EventScript_JuanDefeated, NO_MUSIC
+	msgbox StartingTown_GymLeaderTest_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+StartingTown_GymLeaderTestEventScript_Juan_OneBadge::
+	trainerbattle_single TRAINER_JUAN_2, StartingTown_GymLeaderTest_Text_Intro, StartingTown_GymLeaderTest_Text_PostBattle, StartingTown_GymLeaderTest_EventScript_JuanDefeated, NO_MUSIC
+	msgbox StartingTown_GymLeaderTest_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+StartingTown_GymLeaderTestEventScript_Juan_TwoBadge::
+	trainerbattle_single TRAINER_JUAN_3, StartingTown_GymLeaderTest_Text_Intro, StartingTown_GymLeaderTest_Text_PostBattle, StartingTown_GymLeaderTest_EventScript_JuanDefeated, NO_MUSIC
+	msgbox StartingTown_GymLeaderTest_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+StartingTown_GymLeaderTestEventScript_Juan_ThreeBadge::
+	trainerbattle_single TRAINER_JUAN_4, StartingTown_GymLeaderTest_Text_Intro, StartingTown_GymLeaderTest_Text_PostBattle, StartingTown_GymLeaderTest_EventScript_JuanDefeated, NO_MUSIC
+	msgbox StartingTown_GymLeaderTest_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+StartingTown_GymLeaderTestEventScript_Juan_FourBadge::
+	trainerbattle_single TRAINER_JUAN_5, StartingTown_GymLeaderTest_Text_Intro, StartingTown_GymLeaderTest_Text_PostBattle, StartingTown_GymLeaderTest_EventScript_JuanDefeated, NO_MUSIC
+	msgbox StartingTown_GymLeaderTest_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+StartingTown_GymLeaderTestEventScript_Juan_FiveBadge::
+	trainerbattle_single TRAINER_JUAN_6, StartingTown_GymLeaderTest_Text_Intro, StartingTown_GymLeaderTest_Text_PostBattle, StartingTown_GymLeaderTest_EventScript_JuanDefeated, NO_MUSIC
+	msgbox StartingTown_GymLeaderTest_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+StartingTown_GymLeaderTestEventScript_Juan_SixBadge::
+	trainerbattle_single TRAINER_JUAN_7, StartingTown_GymLeaderTest_Text_Intro, StartingTown_GymLeaderTest_Text_PostBattle, StartingTown_GymLeaderTest_EventScript_JuanDefeated, NO_MUSIC
+	msgbox StartingTown_GymLeaderTest_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+StartingTown_GymLeaderTestEventScript_Juan_SevenBadge::
+	trainerbattle_single TRAINER_JUAN_8, StartingTown_GymLeaderTest_Text_Intro, StartingTown_GymLeaderTest_Text_PostBattle, StartingTown_GymLeaderTest_EventScript_JuanDefeated, NO_MUSIC
+	msgbox StartingTown_GymLeaderTest_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+StartingTown_GymLeaderTest_EventScript_JuanDefeated::
+	setflag FLAG_DEFEATED_SOOTOPOLIS_GYM
+	setflag FLAG_BADGE08_GET
+	call StartingTown_GymLeaderTest_UpdateBadgesCollected
+	release
+	end
+
+StartingTown_GymLeaderTest_Text_Intro:
+	.string "Let's battle!$"
+
+StartingTown_GymLeaderTest_Text_PostBattle:
+	.string "Good job!$"
