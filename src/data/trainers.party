@@ -4788,354 +4788,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 - Crunch
 
-=== TRAINER_ROXANNE_1 ===
-Name: Andy
-Class: Leader
-Pic: Leader Roxanne
-Gender: Male
-Music: Female
-Items: Potion / Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Doduo
-Level: 12
-Ability: Early Bird
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Drill Peck
-- Tri Attack
-- Aerial Ace
-- Agility
-
-Drifloon
-Level: 13
-Ability: Aftermath
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Air Cutter
-- Protect
-- Payback
-- Ominous Wind
-
-Togetic
-Level: 14
-Ability: Hustle
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Aerial Ace
-- Ancient Power
-- Wish
-- Yawn
-
-Gliscor @ Oran Berry
-Level: 15
-Ability: Levitate
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Magnitude
-- Dragonbreath
-- Sand Attack
-- Fly
-
-=== TRAINER_BRAWLY_1 ===
-Name: BlindJim
-Class: Moderator
-Pic: Leader Brawly
-Gender: Male
-Music: Male
-Items: Super Potion / Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Machop
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Karate Chop
-- Low Kick
-- Seismic Toss
-- Bulk Up
-
-Meditite
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Punch
-- Light Screen
-- Reflect
-- Bulk Up
-
-Makuhita @ Sitrus Berry
-Level: 19
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Arm Thrust
-- Vital Throw
-- Reversal
-- Bulk Up
-
-=== TRAINER_WATTSON_1 ===
-Name: Treble
-Class: Moderator
-Pic: Leader Wattson
-Gender: Female
-Music: Female
-Items: Super Potion / Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Roselia
-Level: 24
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rollout
-- Spark
-- Self Destruct
-- Shock Wave
-
-Breloom
-Level: 24
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Shock Wave
-- Leer
-- Quick Attack
-- Howl
-
-Ludicolo
-Level: 25
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Supersonic
-- Shock Wave
-- Thunder Wave
-- Sonic Boom
-
-Tropius @ Sitrus Berry
-Level: 26
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Quick Attack
-- Thunder Wave
-- Shock Wave
-- Howl
-
-=== TRAINER_FLANNERY_1 ===
-Name: Salsa
-Class: Moderator
-Pic: Leader Flannery
-Gender: Female
-Music: Female
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Numel
-Level: 24
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Overheat
-- Take Down
-- Magnitude
-- Sunny Day
-
-Slugma
-Level: 24
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Overheat
-- Smog
-- Light Screen
-- Sunny Day
-
-Camerupt
-Level: 26
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Overheat
-- Tackle
-- Sunny Day
-- Attract
-
-Torkoal @ White Herb
-Level: 29
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Overheat
-- Sunny Day
-- Body Slam
-- Attract
-
-=== TRAINER_NORMAN_1 ===
-Name: Hermes
-Class: Moderator
-Pic: Leader Norman
-Gender: Male
-Music: Male
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Spinda
-Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Teeter Dance
-- Psybeam
-- Facade
-- Encore
-
-Vigoroth
-Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Facade
-- Encore
-- Feint Attack
-
-Linoone
-Level: 29
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Belly Drum
-- Facade
-- Headbutt
-
-Slaking @ Sitrus Berry
-Level: 31
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Counter
-- Yawn
-- Facade
-- Feint Attack
-
-=== TRAINER_WINONA_1 ===
-Name: Tmoney
-Class: Moderator
-Pic: Leader Winona
-Gender: Female
-Music: Female
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Risky
-
-Swablu
-Level: 29
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Perish Song
-- Mirror Move
-- Safeguard
-- Aerial Ace
-
-Tropius
-Level: 29
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Sunny Day
-- Aerial Ace
-- Solar Beam
-- Synthesis
-
-Pelipper
-Level: 30
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Water Gun
-- Supersonic
-- Protect
-- Aerial Ace
-
-Skarmory
-Level: 31
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Sand Attack
-- Fury Attack
-- Steel Wing
-- Aerial Ace
-
-Altaria @ Oran Berry
-Level: 33
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Dragon Breath
-- Dragon Dance
-- Aerial Ace
-
-=== TRAINER_TATE_AND_LIZA_1 ===
-Name: Tot
-Class: Moderator
-Pic: Leader Tate And Liza
-Gender: Male
-Music: Female
-Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Claydol
-Level: 41
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Earthquake
-- Ancient Power
-- Psychic
-- Light Screen
-
-Xatu
-Level: 41
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Psychic
-- Sunny Day
-- Confuse Ray
-- Calm Mind
-
-Lunatone @ Sitrus Berry
-Level: 42
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Light Screen
-- Psychic
-- Hypnosis
-- Calm Mind
-
-Solrock @ Sitrus Berry
-Level: 42
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sunny Day
-- Solar Beam
-- Psychic
-- Flamethrower
-
-=== TRAINER_JUAN_1 ===
-Name: Sabre
-Class: Moderator
-Pic: Leader Juan
-Gender: Male
-Music: Male
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Duraludon
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Water Pulse
-- Attract
-- Sweet Kiss
-- Flail
-
-Dragalge
-Level: 13
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Rain Dance
-- Water Pulse
-- Amnesia
-- Earthquake
-
-Tyrantrum
-Level: 14
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Encore
-- Body Slam
-- Aurora Beam
-- Water Pulse
-
-Kingdra
-Level: 15
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Water Pulse
-- Crabhammer
-- Taunt
-- Leer
-
-Haxorus
-Level: 16
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-- Water Pulse
-- Double Team
-- Ice Beam
-- Rest
-
 === TRAINER_JERRY_1 ===
 Name: JERRY
 Class: School Kid
@@ -13304,209 +12956,6 @@ Zubat
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_2 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
-Gender: Male
-Music: Magma
-Double Battle: No
-AI: Check Bad Move
-
-Poochyena
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_3 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
-Gender: Male
-Music: Magma
-Double Battle: No
-AI: Check Bad Move
-
-Numel
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_4 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
-Gender: Male
-Music: Magma
-Double Battle: No
-AI: Check Bad Move
-
-Baltoy
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Zubat
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_5 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
-Gender: Male
-Music: Magma
-Double Battle: No
-AI: Check Bad Move
-
-Baltoy
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Numel
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_6 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
-Gender: Male
-Music: Magma
-Double Battle: No
-AI: Check Bad Move
-
-Mightyena
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_7 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
-Gender: Male
-Music: Magma
-Double Battle: No
-AI: Check Bad Move
-
-Zubat
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_8 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
-Gender: Male
-Music: Magma
-Double Battle: No
-AI: Check Bad Move
-
-Poochyena
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_9 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
-Gender: Male
-Music: Magma
-Double Battle: No
-AI: Check Bad Move
-
-Zubat
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_10 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
-Gender: Male
-Music: Magma
-Double Battle: No
-AI: Check Bad Move
-
-Mightyena
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_11 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
-Gender: Male
-Music: Magma
-Double Battle: No
-AI: Check Bad Move
-
-Baltoy
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_12 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
-Gender: Male
-Music: Magma
-Double Battle: No
-AI: Check Bad Move
-
-Numel
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_13 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
-Gender: Male
-Music: Magma
-Double Battle: No
-AI: Check Bad Move
-
-Zubat
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_14 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt F
-Gender: Female
-Music: Magma
-Double Battle: No
-AI: Check Bad Move
-
-Mightyena
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_15 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt F
-Gender: Female
-Music: Magma
-Double Battle: No
-AI: Check Bad Move
-
-Numel
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_16 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt F
-Gender: Female
-Music: Magma
-Double Battle: No
-AI: Check Bad Move
-
-Baltoy
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_TABITHA_MAGMA_HIDEOUT ===
 Name: TABITHA
 Class: Magma Admin
@@ -14177,9 +13626,9 @@ Mudkip
 Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-=== TRAINER_ROXANNE_2 ===
+=== TRAINER_ROXANNE_1 ===
 Name: Andy
-Class: Leader
+Class: Moderator
 Pic: Leader Roxanne
 Gender: Male
 Music: Female
@@ -14188,7 +13637,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Doduo
-Level: 16
+Level: 14
 Ability: Early Bird
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Drill Peck
@@ -14197,7 +13646,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Agility
 
 Drifloon
-Level: 17
+Level: 15
 Ability: Aftermath
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Air Cutter
@@ -14205,1547 +13654,3174 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Payback
 - Ominous Wind
 
+Gliscor @ Oran Berry
+Level: 16
+Ability: Hyper Cutter
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Magnitude
+- Rock Tomb
+- Sand Attack
+- Fly
+
+=== TRAINER_ROXANNE_2 ===
+Name: Andy
+Class: Moderator
+Pic: Leader Roxanne
+Gender: Male
+Music: Female
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Doduo
+Level: 19
+Ability: Early Bird
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Drill Peck
+- Tri Attack
+- Aerial Ace
+- Agility
+
+Drifloon
+Level: 20
+Ability: Aftermath
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Air Cutter
+- Protect
+- Payback
+- Ominous Wind
+
 Togetic
-Level: 18
+Level: 21
 Ability: Hustle
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Aerial Ace
 - Ancient Power
 - Wish
 - Yawn
 
 Gliscor @ Oran Berry
-Level: 19
-Ability: Levitate
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Level: 22
+Ability: Hyper Cutter
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Magnitude
-- Dragonbreath
+- Rock Tomb
 - Sand Attack
 - Fly
 
 === TRAINER_ROXANNE_3 ===
 Name: Andy
-Class: Leader
+Class: Moderator
 Pic: Leader Roxanne
 Gender: Male
 Music: Female
-Items: Potion / Potion
+Items: Super Potion / Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Doduo
-Level: 24
+Level: 25
 Ability: Early Bird
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Drill Peck
 - Tri Attack
 - Aerial Ace
 - Agility
 
 Drifloon
-Level: 25
+Level: 26
 Ability: Aftermath
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Air Cutter
 - Protect
 - Payback
 - Ominous Wind
 
-Togetic
+Togetic @ Oran Berry
 Level: 26
 Ability: Hustle
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Aerial Ace
 - Ancient Power
 - Wish
 - Yawn
 
-Gliscor @ Oran Berry
-Level: 27
-Ability: Levitate
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Gliscor @ Sitrus Berry
+Level: 28
+Ability: Hyper Cutter
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Magnitude
-- Dragonbreath
+- Rock Tomb
 - Sand Attack
 - Fly
 
 === TRAINER_ROXANNE_4 ===
 Name: Andy
-Class: Leader
+Class: Moderator
 Pic: Leader Roxanne
 Gender: Male
 Music: Female
-Items: Potion / Potion
+Items: Super Potion / Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Doduo
-Level: 12
+Dodrio
+Level: 31
 Ability: Early Bird
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Drill Peck
 - Tri Attack
 - Aerial Ace
 - Agility
 
-Drifloon
-Level: 13
+Drifblim @ Sitrus Berry
+Level: 32
 Ability: Aftermath
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Air Cutter
 - Protect
 - Payback
 - Ominous Wind
 
-Togetic
-Level: 14
+Togetic @ Sitrus Berry
+Level: 33
 Ability: Hustle
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Aerial Ace
 - Ancient Power
 - Wish
 - Yawn
 
-Gliscor @ Oran Berry
-Level: 15
-Ability: Levitate
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Magnitude
-- Dragonbreath
+Gliscor @ Yache Berry
+Level: 34
+Ability: Hyper Cutter
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+- Earthquake
+- Rock Tomb
 - Sand Attack
 - Fly
 
 === TRAINER_ROXANNE_5 ===
 Name: Andy
-Class: Leader
+Class: Moderator
 Pic: Leader Roxanne
 Gender: Male
 Music: Female
-Items: Potion / Potion
+Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Doduo
-Level: 12
+Dodrio
+Level: 38
 Ability: Early Bird
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Drill Peck
 - Tri Attack
 - Aerial Ace
 - Agility
 
-Drifloon
-Level: 13
+Drifblim
+Level: 39
 Ability: Aftermath
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Air Cutter
 - Protect
 - Payback
 - Ominous Wind
 
-Togetic
-Level: 14
+Togetic @ Wide Lens
+Level: 39
 Ability: Hustle
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Aerial Ace
 - Ancient Power
 - Wish
 - Yawn
 
-Gliscor @ Oran Berry
-Level: 15
-Ability: Levitate
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Magnitude
+Gliscor @ Yache Berry
+Level: 40
+Ability: Hyper Cutter
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Earthquake
 - Dragonbreath
 - Sand Attack
 - Fly
 
 === TRAINER_ROXANNE_6 ===
 Name: Andy
-Class: Leader
+Class: Moderator
 Pic: Leader Roxanne
 Gender: Male
 Music: Female
-Items: Potion / Potion
+Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Doduo
-Level: 12
+Dodrio
+Level: 44
 Ability: Early Bird
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 - Drill Peck
 - Tri Attack
 - Aerial Ace
 - Agility
 
-Drifloon
-Level: 13
+Skarmory
+Level: 44
+Ability: Sturdy
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Drill Run
+- Steel Wing
+- Aerial Ace
+- Agility
+
+Drifblim @ Leftovers
+Level: 45
 Ability: Aftermath
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 - Air Cutter
 - Protect
 - Payback
 - Ominous Wind
 
-Togetic
-Level: 14
+Togetic @ Wide Lens
+Level: 45
 Ability: Hustle
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 - Aerial Ace
 - Ancient Power
 - Wish
 - Yawn
 
-Gliscor @ Oran Berry
-Level: 15
-Ability: Levitate
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Magnitude
-- Dragonbreath
+Gliscor @ Yache Berry
+Level: 46
+Ability: Hyper Cutter
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Earthquake
+- Rock Tomb
 - Sand Attack
 - Fly
 
 === TRAINER_ROXANNE_7 ===
 Name: Andy
-Class: Leader
+Class: Moderator
 Pic: Leader Roxanne
 Gender: Male
 Music: Female
-Items: Potion / Potion
+Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Doduo
-Level: 12
+Dodrio
+Level: 50
 Ability: Early Bird
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Drill Peck
 - Tri Attack
 - Aerial Ace
 - Agility
 
-Drifloon
-Level: 13
+Skarmory @ Muscle Band
+Level: 50
+Ability: Sturdy
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Drill Run
+- Steel Wing
+- Aerial Ace
+- Agility
+
+Drifblim @ Leftovers
+Level: 51
 Ability: Aftermath
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Air Cutter
 - Protect
 - Payback
 - Ominous Wind
 
-Togetic
-Level: 14
+Togekiss @ Wide Lens
+Level: 51
 Ability: Hustle
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Aerial Ace
 - Ancient Power
 - Wish
 - Yawn
 
-Gliscor @ Oran Berry
-Level: 15
-Ability: Levitate
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Magnitude
-- Dragonbreath
+Gliscor @ Yache Berry
+Level: 52
+Ability: Hyper Cutter
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Earthquake
+- Rock Tomb
 - Sand Attack
 - Fly
 
 === TRAINER_ROXANNE_8 ===
 Name: Andy
-Class: Leader
+Class: Moderator
 Pic: Leader Roxanne
+Gender: Male
+Music: Female
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Dodrio @ ITEM_KINGS_ROCK
+Level: 56
+Ability: Early Bird
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Drill Peck
+- Tri Attack
+- Aerial Ace
+- Agility
+
+Skarmory @ Muscle Band
+Level: 56
+Ability: Sturdy
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Drill Run
+- Steel Wing
+- Aerial Ace
+- Agility
+
+Drifblim @ Leftovers
+Level: 57
+Ability: Aftermath
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Air Cutter
+- Protect
+- Payback
+- Ominous Wind
+
+Togekiss @ Wide Lens
+Level: 57
+Ability: Hustle
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Aerial Ace
+- Ancient Power
+- Wish
+- Yawn
+
+Gliscor @ Yache Berry
+Level: 58
+Ability: Hyper Cutter
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Rock Tomb
+- Sand Attack
+- Fly
+
+=== TRAINER_BRAWLY_1 ===
+Name: BlindJim
+Class: Moderator
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Sandile
+Level: 14
+Ability: Intimidate
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Hone Claws
+- Crunch
+- Bulldoze
+- Shadow Claw
+
+Inkay
+Level: 15
+Ability: Contrary
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Psycho Cut
+- Night Slash
+- Liquidation
+- Pluck
+
+Murkrow @ Oran Berry
+Level: 16
+Ability: Super Luck
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Confuse Ray
+- Protect
+- Foul Play
+- Dual Wingbeat
+
+=== TRAINER_BRAWLY_2 ===
+Name: BlindJim
+Class: Moderator
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Items: Potion / Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Zorua
+Level: 20
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Nasty Plot
+- Night Daze
+- Shadow Ball
+- Burning Jealousy
+
+Sandile
+Level: 21
+Ability: Strong Jaw
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Hone Claws
+- Crunch
+- Bulldoze
+- Shadow Claw
+
+Inkay
+Level: 21
+Ability: Contrary
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Psycho Cut
+- Night Slash
+- Liquidation
+- Pluck
+
+Murkrow @ Oran Berry
+Level: 22
+Ability: Super Luck
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Confuse Ray
+- Protect
+- Foul Play
+- Dual Wingbeat
+
+=== TRAINER_BRAWLY_3 ===
+Name: BlindJim
+Class: Moderator
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Items: Super Potion / Super Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Zorua
+Level: 26
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Nasty Plot
+- Night Daze
+- Shadow Ball
+- Burning Jealousy
+
+Sandile
+Level: 27
+Ability: Strong Jaw
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hone Claws
+- Crunch
+- Bulldoze
+- Shadow Claw
+
+Inkay @ Oran Berry
+Level: 27
+Ability: Contrary
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psycho Cut
+- Night Slash
+- Liquidation
+- Pluck
+
+Honchkrow @ Sitrus Berry
+Level: 28
+Ability: Super Luck
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Swagger
+- Protect
+- Foul Play
+- Dual Wingbeat
+
+=== TRAINER_BRAWLY_4 ===
+Name: BlindJim
+Class: Moderator
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Items: Super Potion / Super Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Zoroark 
+Level: 32
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Nasty Plot
+- Night Daze
+- Shadow Ball
+- Burning Jealousy
+
+Krokorok @ Sitrus Berry
+Level: 33
+Ability: Strong Jaw
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Hone Claws
+- Crunch
+- Bulldoze
+- Shadow Claw
+
+Malamar @ Sitrus Berry
+Level: 33
+Ability: Contrary
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Psycho Cut
+- Night Slash
+- Liquidation
+- Pluck
+
+Honchkrow @ Shell Bell
+Level: 34
+Ability: Super Luck
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+- Swagger
+- Protect
+- Foul Play
+- Dual Wingbeat
+
+=== TRAINER_BRAWLY_5 ===
+Name: BlindJim
+Class: Moderator
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Zoroark
+Level: 38
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Nasty Plot
+- Night Daze
+- Shadow Ball
+- Burning Jealousy
+
+Krokorok
+Level: 39
+Ability: Strong Jaw
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Hone Claws
+- Crunch
+- Bulldoze
+- Shadow Claw
+
+Malamar @ Choice Scarf
+Level: 39
+Ability: Contrary
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Psycho Cut
+- Night Slash
+- Liquidation
+- Pluck
+
+Honchkrow @ Shell Bell
+Level: 40
+Ability: Moxie
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Swagger
+- Protect
+- Foul Play
+- Dual Wingbeat
+
+=== TRAINER_BRAWLY_6 ===
+Name: BlindJim
+Class: Moderator
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Zoroark
+Level: 44
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Nasty Plot
+- Night Daze
+- Shadow Ball
+- Burning Jealousy
+
+Spiritomb
+Level: 44
+Ability: Pressure
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Hex
+- Dark Pulse
+- Will-O-Wisp
+- Protect
+
+Krookodile @ Muscle Band
+Level: 45
+Ability: Strong Jaw
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Hone Claws
+- Crunch
+- Bulldoze
+- Shadow Claw
+
+Malamar @ Choice Scarf
+Level: 45
+Ability: Contrary
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Psycho Cut
+- Night Slash
+- Liquidation
+- Pluck
+
+Honchkrow @ Shell Bell
+Level: 46
+Ability: Moxie
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Swagger
+- Protect
+- Foul Play
+- Dual Wingbeat
+
+=== TRAINER_BRAWLY_7 ===
+Name: BlindJim
+Class: Moderator
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Zoroark
+Level: 50
+Ability: Early Bird
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Nasty Plot
+- Night Daze
+- Shadow Ball
+- Burning Jealousy
+
+Spiritomb @ Leftovers
+Level: 50
+Ability: Pressure
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hex
+- Dark Pulse
+- Will-O-Wisp
+- Protect
+
+Krookodile @ Muscle Band
+Level: 51
+Ability: Strong Jaw
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hone Claws
+- Crunch
+- Bulldoze
+- Shadow Claw
+
+Malamar @ Choice Scarf
+Level: 51
+Ability: Contrary
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Psycho Cut
+- Night Slash
+- Liquidation
+- Pluck
+
+Honchkrow @ Shell Bell
+Level: 52
+Ability: Moxie
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Swagger
+- Protect
+- Foul Play
+- Dual Wingbeat
+
+=== TRAINER_BRAWLY_8 ===
+Name: BlindJim
+Class: Moderator
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Items: Full Restore / Full Restore
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Zoroark @ Wise Glasses
+Level: 56
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Nasty Plot
+- Night Daze
+- Shadow Ball
+- Burning Jealousy
+
+Spiritomb @ Leftovers
+Level: 56
+Ability: Pressure
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Hex
+- Dark Pulse
+- Will-O-Wisp
+- Protect
+
+Krookodile @ Muscle Band
+Level: 57
+Ability: Strong Jaw
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Hone Claws
+- Crunch
+- Bulldoze
+- Shadow Claw
+
+Malamar @ Choice Scarf
+Level: 57
+Ability: Contrary
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Psycho Cut
+- Night Slash
+- Liquidation
+- Pluck
+
+Honchkrow @ Shell Bell
+Level: 58
+Ability: Moxie
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Swagger
+- Protect
+- Foul Play
+- Dual Wingbeat
+
+=== TRAINER_WATTSON_1 ===
+Name: Treble
+Class: Moderator
+Pic: Leader Wattson
+Gender: Female
+Music: Female
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Shroomish
+Level: 14
+Ability: Poison Heal
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Seed Bomb
+- Headbutt
+- Facade
+- Pounce
+
+Lombre
+Level: 15
+Ability: Rain Dish
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Rain Dance
+- Surf
+- Leech Seed
+- Giga Drain
+
+Tropius @ Oran Berry
+Level: 16
+Ability: Chlorophyll
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Petal Blizzard
+- Air Slash
+- Dragon Pulse
+- Sunny Day
+
+=== TRAINER_WATTSON_2 ===
+Name: Treble
+Class: Moderator
+Pic: Leader Wattson
+Gender: Male
+Music: Male
+Items: Potion / Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Roselia
+Level: 20
+Ability: Poison Point
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Leech Seed
+- Sludge Bomb
+- Energy Ball
+- Dazzling Gleam
+
+Shroomish
+Level: 21
+Ability: Poison Heal
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Seed Bomb
+- Headbutt
+- Facade
+- Pounce
+
+Lombre
+Level: 21
+Ability: Rain Dish
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Rain Dance
+- Surf
+- Leech Seed
+- Giga Drain
+
+Tropius @ Oran Berry
+Level: 22
+Ability: Chlorophyll
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Petal Blizzard
+- Air Slash
+- Dragon Pulse
+- Sunny Day
+
+=== TRAINER_WATTSON_3 ===
+Name: Treble
+Class: Moderator
+Pic: Leader Wattson
+Gender: Male
+Music: Male
+Items: Super Potion / Super Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Roselia
+Level: 26
+Ability: Poison Point
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Leech Seed
+- Sludge Bomb
+- Energy Ball
+- Dazzling Gleam
+
+Breloom
+Level: 27
+Ability: Poison Heal
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Seed Bomb
+- Mach Punch
+- Facade
+- Pounce
+
+Ludicolo @ Oran Berry
+Level: 27
+Ability: Rain Dish
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Rain Dance
+- Surf
+- Leech Seed
+- Giga Drain
+
+Tropius @ Sitrus Berry
+Level: 28
+Ability: Chlorophyll
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Petal Blizzard
+- Air Slash
+- Dragon Pulse
+- Sunny Day
+
+=== TRAINER_WATTSON_4 ===
+Name: Treble
+Class: Moderator
+Pic: Leader Wattson
+Gender: Male
+Music: Male
+Items: Super Potion / Super Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Roselia
+Level: 32
+Ability: Poison Point
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Leech Seed
+- Sludge Bomb
+- Energy Ball
+- Dazzling Gleam
+
+Breloom @ Sitrus Berry
+Level: 33
+Ability: Poison Heal
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Seed Bomb
+- Mach Punch
+- Facade
+- Pounce
+
+Ludicolo @ Sitrus Berry
+Level: 33
+Ability: Rain Dish
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Rain Dance
+- Surf
+- Leech Seed
+- Giga Drain
+
+Tropius @ Heat Rock
+Level: 34
+Ability: Chlorophyll
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+- Petal Blizzard
+- Air Slash
+- Dragon Pulse
+- Sunny Day
+
+=== TRAINER_WATTSON_5 ===
+Name: Treble
+Class: Moderator
+Pic: Leader Wattson
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Roselia
+Level: 38
+Ability: Poison Point
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Leech Seed
+- Sludge Bomb
+- Energy Ball
+- Dazzling Gleam
+
+Breloom
+Level: 39
+Ability: Poison Heal
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Seed Bomb
+- Mach Punch
+- Facade
+- Pounce
+
+Ludicolo @ Leftovers
+Level: 39
+Ability: Rain Dish
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Rain Dance
+- Surf
+- Leech Seed
+- Giga Drain
+
+Tropius @ Heat Rock
+Level: 40
+Ability: Chlorophyll
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Petal Blizzard
+- Air Slash
+- Dragon Pulse
+- Sunny Day
+
+=== TRAINER_WATTSON_6 ===
+Name: Treble
+Class: Moderator
+Pic: Leader Wattson
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Roserade
+Level: 44
+Ability: Poison Point
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Grassy Terrain
+- Sludge Bomb
+- Energy Ball
+- Dazzling Gleam
+
+Decidueye
+Level: 44
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Sucker Punch
+- Leaf Blade
+- Spirit Shackle
+- Swords Dance
+
+Breloom @ Toxic Orb
+Level: 45
+Ability: Poison Heal
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Seed Bomb
+- Mach Punch
+- Facade
+- Pounce
+
+Ludicolo @ Leftovers
+Level: 45
+Ability: Rain Dish
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Rain Dance
+- Surf
+- Leech Seed
+- Giga Drain
+
+Tropius @ Heat Rock
+Level: 46
+Ability: Chlorophyll
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Petal Blizzard
+- Air Slash
+- Dragon Pulse
+- Sunny Day
+
+=== TRAINER_WATTSON_7 ===
+Name: Treble
+Class: Moderator
+Pic: Leader Wattson
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Roserade
+Level: 50
+Ability: Poison Point
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Grassy Terrain
+- Sludge Bomb
+- Energy Ball
+- Dazzling Gleam
+
+Decidueye @ Muscle Band
+Level: 50
+Ability: Sturdy
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sucker Punch
+- Leaf Blade
+- Spirit Shackle
+- Swords Dance
+
+Breloom @ Toxic Orb
+Level: 51
+Ability: Poison Heal
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Seed Bomb
+- Mach Punch
+- Facade
+- Pounce
+
+Ludicolo @ Leftovers
+Level: 51
+Ability: Rain Dish
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rain Dance
+- Surf
+- Leech Seed
+- Giga Drain
+
+Tropius @ Heat Rock
+Level: 52
+Ability: Chlorophyll
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Petal Blizzard
+- Air Slash
+- Dragon Pulse
+- Sunny Day
+
+=== TRAINER_WATTSON_8 ===
+Name: Treble
+Class: Moderator
+Pic: Leader Wattson
+Gender: Female
+Music: Female
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Roserade @ Terrain Extender
+Level: 56
+Ability: Poison Point
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Grassy Terrain
+- Sludge Bomb
+- Energy Ball
+- Dazzling Gleam
+
+Decidueye @ Muscle Band
+Level: 56
+Ability: Overgrow
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Sucker Punch
+- Leaf Blade
+- Spirit Shackle
+- Swords Dance
+
+Breloom @ Toxic Orb
+Level: 57
+Ability: Poison Heal
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Seed Bomb
+- Mach Punch
+- Facade
+- Pounce
+
+Ludicolo @ Leftovers
+Level: 57
+Ability: Rain Dish
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Rain Dance
+- Surf
+- Leech Seed
+- Giga Drain
+
+Tropius @ Heat Rock
+Level: 58
+Ability: Chlorophyll
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Petal Blizzard
+- Air Slash
+- Dragon Pulse
+- Sunny Day
+
+=== TRAINER_FLANNERY_1 ===
+Name: Salsa
+Class: Moderator
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Ninetales
+Level: 14
+Ability: Drought
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Energy Ball
+- Heat Wave
+- Scorching Sands
+- Calm Mind
+
+Ceruledge
+Level: 14
+Ability: Flash Fire
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Flame Charge
+- Shadow Claw
+- Bitter Blade
+- X-Scissor
+
+Volcarona
+Level: 15
+Ability: Flame Body
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Overheat
+- Smog
+- Light Screen
+- Sunny Day
+
+Infernape
+Level: 15
+Ability: Blaze
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Thunder Punch
+- Acrobatics
+- Mach Punch
+- Raging Fury
+
+Scovillain @ Oran Berry
+Level: 16
+Ability: Chlorophyll
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sunny Day
+- Solar Beam
+- Flamethrower
+- Zen Headbutt
+
+=== TRAINER_FLANNERY_2 ===
+Name: Salsa
+Class: Moderator
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Items: Potion / Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Ninetales
+Level: 20
+Ability: Drought
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Energy Ball
+- Heat Wave
+- Scorching Sands
+- Calm Mind
+
+Ceruledge
+Level: 20
+Ability: Flash Fire
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Flame Charge
+- Shadow Claw
+- Bitter Blade
+- X-Scissor
+
+Volcarona
+Level: 21
+Ability: Flame Body
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Quiver Dance
+- Fiery Dance
+- Bug Buzz
+- Psychic
+
+Infernape
+Level: 21
+Ability: Blaze
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Thunder Punch
+- Acrobatics
+- Mach Punch
+- Raging Fury
+
+Scovillain @ Oran Berry
+Level: 22
+Ability: Chlorophyll
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Sunny Day
+- Solar Beam
+- Flamethrower
+- Zen Headbutt
+
+=== TRAINER_FLANNERY_3 ===
+Name: Salsa
+Class: Moderator
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Items: Super Potion / Super Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Ninetales
+Level: 26
+Ability: Drought
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Energy Ball
+- Heat Wave
+- Scorching Sands
+- Calm Mind
+
+Ceruledge
+Level: 26
+Ability: Flash Fire
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flame Charge
+- Shadow Claw
+- Bitter Blade
+- X-Scissor
+
+Volcarona
+Level: 27
+Ability: Flame Body
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Quiver Dance
+- Fiery Dance
+- Bug Buzz
+- Psychic
+
+Infernape @ Oran Berry
+Level: 27
+Ability: Blaze
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunder Punch
+- Acrobatics
+- Mach Punch
+- Raging Fury
+
+Scovillain @ Sitrus Berry
+Level: 28
+Ability: Chlorophyll
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Sunny Day
+- Solar Beam
+- Flamethrower
+- Zen Headbutt
+
+=== TRAINER_FLANNERY_4 ===
+Name: Salsa
+Class: Moderator
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Items: Super Potion / Super Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Ninetales
+Level: 32
+Ability: Drought
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Energy Ball
+- Heat Wave
+- Scorching Sands
+- Calm Mind
+
+Ceruledge
+Level: 32
+Ability: Flash Fire
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Flame Charge
+- Shadow Claw
+- Bitter Blade
+- X-Scissor
+
+Volcarona @ Sitrus Berry
+Level: 33
+Ability: Flame Body
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Quiver Dance
+- Fiery Dance
+- Bug Buzz
+- Psychic
+
+Infernape @ Sitrus Berry
+Level: 33
+Ability: Blaze
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Thunder Punch
+- Acrobatics
+- Mach Punch
+- Raging Fury
+
+Scovillain @ Heat Rock
+Level: 34
+Ability: Chlorophyll
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+- Sunny Day
+- Solar Beam
+- Flamethrower
+- Zen Headbutt
+
+=== TRAINER_FLANNERY_5 ===
+Name: Salsa
+Class: Moderator
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Ninetales
+Level: 38
+Ability: Drought
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Energy Ball
+- Heat Wave
+- Scorching Sands
+- Calm Mind
+
+Ceruledge
+Level: 38
+Ability: Flash Fire
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Flame Charge
+- Shadow Claw
+- Bitter Blade
+- X-Scissor
+
+Volcarona
+Level: 39
+Ability: Flame Body
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Quiver Dance
+- Fiery Dance
+- Bug Buzz
+- Psychic
+
+Infernape @ Persim Berry
+Level: 39
+Ability: Blaze
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Thunder Punch
+- Acrobatics
+- Mach Punch
+- Raging Fury
+
+Scovillain @ Heat Rock
+Level: 40
+Ability: Chlorophyll
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Sunny Day
+- Solar Beam
+- Flamethrower
+- Zen Headbutt
+
+=== TRAINER_FLANNERY_6 ===
+Name: Salsa
+Class: Moderator
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Ninetales
+Level: 44
+Ability: Drought
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Energy Ball
+- Heat Wave
+- Scorching Sands
+- Calm Mind
+
+Ceruledge
+Level: 44
+Ability: Flash Fire
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Flame Charge
+- Shadow Claw
+- Bitter Blade
+- X-Scissor
+
+Volcarona @ Wise Glasses
+Level: 45
+Ability: Flame Body
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Quiver Dance
+- Fiery Dance
+- Bug Buzz
+- Psychic
+
+Infernape @ Persim Berry
+Level: 45
+Ability: Blaze
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Thunder Punch
+- Acrobatics
+- Mach Punch
+- Raging Fury
+
+Scovillain @ Heat Rock
+Level: 46
+Ability: Chlorophyll
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Sunny Day
+- Solar Beam
+- Flamethrower
+- Zen Headbutt
+
+=== TRAINER_FLANNERY_7 ===
+Name: Salsa
+Class: Moderator
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Ninetales
+Level: 50
+Ability: Drought
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Energy Ball
+- Heat Wave
+- Scorching Sands
+- Calm Mind
+
+Ceruledge @ Muscle Band
+Level: 50
+Ability: Flash Fire
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flame Charge
+- Shadow Claw
+- Bitter Blade
+- X-Scissor
+
+Volcarona @ Wise Glasses
+Level: 51
+Ability: Flame Body
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Quiver Dance
+- Fiery Dance
+- Bug Buzz
+- Psychic
+
+Infernape @ Persim Berry
+Level: 51
+Ability: Blaze
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Thunder Punch
+- Acrobatics
+- Mach Punch
+- Raging Fury
+
+Scovillain @ Heat Rock
+Level: 52
+Ability: Chlorophyll
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Sunny Day
+- Solar Beam
+- Flamethrower
+- Zen Headbutt
+
+=== TRAINER_FLANNERY_8 ===
+Name: Salsa
+Class: Moderator
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Items: Full Restore / Full Restore
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Ninetales @ Leftovers
+Level: 56
+Ability: Drought
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Energy Ball
+- Heat Wave
+- Scorching Sands
+- Calm Mind
+
+Ceruledge @ Muscle Band
+Level: 56
+Ability: Flash Fire
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Flame Charge
+- Shadow Claw
+- Bitter Blade
+- X-Scissor
+
+Volcarona @ Wise Glasses
+Level: 57
+Ability: Flame Body
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Quiver Dance
+- Fiery Dance
+- Bug Buzz
+- Psychic
+
+Infernape @ Persim Berry
+Level: 57
+Ability: Blaze
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Thunder Punch
+- Acrobatics
+- Mach Punch
+- Raging Fury
+
+Scovillain @ Heat Rock
+Level: 58
+Ability: Chlorophyll
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sunny Day
+- Solar Beam
+- Flamethrower
+- Zen Headbutt
+
+=== TRAINER_NORMAN_1 ===
+Name: Hermes
+Class: Moderator
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Steelix @ Leftovers
+Level: 14
+Ability: Sturdy
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 252 HP / 4 Atk / 252 Spe
+Nature: Careful
+- Stealth Rock
+- Earthquake
+- Heavy Slam
+- Toxic
+
+Lucario @ Choice Band
+Level: 14
+Ability: Inner Focus
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
+Nature: Jolly
+- Extreme Speed
+- Close Combat
+- Meteor Mash
+- Crunch
+
+Scizor @ Life Orb
+Level: 14
+Ability: Technician
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
+Nature: Adamant
+- Swords Dance
+- Bullet Punch
+- Close Combat
+- Knock Off
+
+SPECIES_GOODRA_HISUIAN @ Heavy-Duty Boots
+Level: 15
+Ability: Sap Sipper
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 4 Def / 252 SpA / 252 Spe
+Nature: Timid
+- Draco Meteor
+- Flamethrower
+- Sludge Bomb
+- Dragon Tail
+
+Metagross @ Leftovers
+Level: 15
+Ability: Clear Body
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 252 HP / 160 Atk / 96 Spe
+Nature: Adamant
+- Heavy Slam
+- Psychic Fangs
+- Earthquake
+- Bullet Punch
+
+Gholdengo @ Air Balloon
+Level: 16
+Ability: Good as Gold
+IVs: 24 HP / 0 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 252 SpA / 4 SpD / 252 Spe
+Nature: Timid
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+- Recover
+
+=== TRAINER_NORMAN_2 ===
+Name: Hermes
+Class: Moderator
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Steelix @ Leftovers
+Level: 20
+Ability: Sturdy
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+EVs: 252 HP / 4 Atk / 252 Spe
+Nature: Careful
+- Stealth Rock
+- Earthquake
+- Heavy Slam
+- Toxic
+
+Lucario @ Choice Band
+Level: 20
+Ability: Inner Focus
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
+Nature: Jolly
+- Extreme Speed
+- Close Combat
+- Meteor Mash
+- Crunch
+
+Scizor @ Life Orb
+Level: 20
+Ability: Technician
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
+Nature: Adamant
+- Swords Dance
+- Bullet Punch
+- Close Combat
+- Knock Off
+
+SPECIES_GOODRA_HISUIAN @ Heavy-Duty Boots
+Level: 21
+Ability: Sap Sipper
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+EVs: 4 Def / 252 SpA / 252 Spe
+Nature: Timid
+- Draco Meteor
+- Flamethrower
+- Sludge Bomb
+- Dragon Tail
+
+Metagross @ Leftovers
+Level: 21
+Ability: Clear Body
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+EVs: 252 HP / 160 Atk / 96 Spe
+Nature: Adamant
+- Heavy Slam
+- Psychic Fangs
+- Earthquake
+- Bullet Punch
+
+Gholdengo @ Air Balloon
+Level: 22
+Ability: Good as Gold
+IVs: 26 HP / 0 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+EVs: 252 SpA / 4 SpD / 252 Spe
+Nature: Timid
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+- Recover
+
+=== TRAINER_NORMAN_3 ===
+Name: Hermes
+Class: Moderator
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Items: Super Potion / Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Steelix @ Leftovers
+Level: 26
+Ability: Sturdy
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+EVs: 252 HP / 4 Atk / 252 Spe
+Nature: Careful
+- Stealth Rock
+- Earthquake
+- Heavy Slam
+- Toxic
+
+Lucario @ Choice Band
+Level: 26
+Ability: Inner Focus
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
+Nature: Jolly
+- Extreme Speed
+- Close Combat
+- Meteor Mash
+- Crunch
+
+Scizor @ Life Orb
+Level: 26
+Ability: Technician
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
+Nature: Adamant
+- Swords Dance
+- Bullet Punch
+- Close Combat
+- Knock Off
+
+SPECIES_GOODRA_HISUIAN @ Heavy-Duty Boots
+Level: 27
+Ability: Sap Sipper
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+EVs: 4 Def / 252 SpA / 252 Spe
+Nature: Timid
+- Draco Meteor
+- Flamethrower
+- Sludge Bomb
+- Dragon Tail
+
+Metagross @ Leftovers
+Level: 27
+Ability: Clear Body
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+EVs: 252 HP / 160 Atk / 96 Spe
+Nature: Adamant
+- Heavy Slam
+- Psychic Fangs
+- Earthquake
+- Bullet Punch
+
+Gholdengo @ Air Balloon
+Level: 28
+Ability: Good as Gold
+IVs: 26 HP / 0 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+EVs: 252 SpA / 4 SpD / 252 Spe
+Nature: Timid
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+- Recover
+
+=== TRAINER_NORMAN_4 ===
+Name: Hermes
+Class: Moderator
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Items: Super Potion / Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Steelix @ Leftovers
+Level: 32
+Ability: Sturdy
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 252 HP / 4 Atk / 252 Spe
+Nature: Careful
+- Stealth Rock
+- Earthquake
+- Heavy Slam
+- Toxic
+
+Lucario @ Choice Band
+Level: 32
+Ability: Inner Focus
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
+Nature: Jolly
+- Extreme Speed
+- Close Combat
+- Meteor Mash
+- Crunch
+
+Scizor @ Life Orb
+Level: 32
+Ability: Technician
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
+Nature: Adamant
+- Swords Dance
+- Bullet Punch
+- Close Combat
+- Knock Off
+
+SPECIES_GOODRA_HISUIAN @ Heavy-Duty Boots
+Level: 33
+Ability: Sap Sipper
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 4 Def / 252 SpA / 252 Spe
+Nature: Timid
+- Draco Meteor
+- Flamethrower
+- Sludge Bomb
+- Dragon Tail
+
+Metagross @ Leftovers
+Level: 33
+Ability: Clear Body
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 252 HP / 160 Atk / 96 Spe
+Nature: Adamant
+- Heavy Slam
+- Psychic Fangs
+- Earthquake
+- Bullet Punch
+
+Gholdengo @ Air Balloon
+Level: 34
+Ability: Good as Gold
+IVs: 27 HP / 0 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+EVs: 252 SpA / 4 SpD / 252 Spe
+Nature: Timid
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+- Recover
+
+=== TRAINER_NORMAN_5 ===
+Name: Hermes
+Class: Moderator
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Steelix @ Leftovers
+Level: 38
+Ability: Sturdy
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+EVs: 252 HP / 4 Atk / 252 Spe
+Nature: Careful
+- Stealth Rock
+- Earthquake
+- Heavy Slam
+- Toxic
+
+Lucario @ Choice Band
+Level: 38
+Ability: Inner Focus
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
+Nature: Jolly
+- Extreme Speed
+- Close Combat
+- Meteor Mash
+- Crunch
+
+Scizor @ Life Orb
+Level: 38
+Ability: Technician
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
+Nature: Adamant
+- Swords Dance
+- Bullet Punch
+- Close Combat
+- Knock Off
+
+SPECIES_GOODRA_HISUIAN @ Heavy-Duty Boots
+Level: 39
+Ability: Sap Sipper
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+EVs: 4 Def / 252 SpA / 252 Spe
+Nature: Timid
+- Draco Meteor
+- Flamethrower
+- Sludge Bomb
+- Dragon Tail
+
+Metagross @ Leftovers
+Level: 39
+Ability: Clear Body
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+EVs: 252 HP / 160 Atk / 96 Spe
+Nature: Adamant
+- Heavy Slam
+- Psychic Fangs
+- Earthquake
+- Bullet Punch
+
+Gholdengo @ Air Balloon
+Level: 40
+Ability: Good as Gold
+IVs: 28 HP / 0 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+EVs: 252 SpA / 4 SpD / 252 Spe
+Nature: Timid
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+- Recover
+
+=== TRAINER_NORMAN_6 ===
+Name: Hermes
+Class: Moderator
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Steelix @ Leftovers
+Level: 44
+Ability: Sturdy
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+EVs: 252 HP / 4 Atk / 252 Spe
+Nature: Careful
+- Stealth Rock
+- Earthquake
+- Heavy Slam
+- Toxic
+
+Lucario @ Choice Band
+Level: 44
+Ability: Inner Focus
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
+Nature: Jolly
+- Extreme Speed
+- Close Combat
+- Meteor Mash
+- Crunch
+
+Scizor @ Life Orb
+Level: 44
+Ability: Technician
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
+Nature: Adamant
+- Swords Dance
+- Bullet Punch
+- Close Combat
+- Knock Off
+
+SPECIES_GOODRA_HISUIAN @ Heavy-Duty Boots
+Level: 45
+Ability: Sap Sipper
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+EVs: 4 Def / 252 SpA / 252 Spe
+Nature: Timid
+- Draco Meteor
+- Flamethrower
+- Sludge Bomb
+- Dragon Tail
+
+Metagross @ Leftovers
+Level: 45
+Ability: Clear Body
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+EVs: 252 HP / 160 Atk / 96 Spe
+Nature: Adamant
+- Heavy Slam
+- Psychic Fangs
+- Earthquake
+- Bullet Punch
+
+Gholdengo @ Air Balloon
+Level: 46
+Ability: Good as Gold
+IVs: 29 HP / 0 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+EVs: 252 SpA / 4 SpD / 252 Spe
+Nature: Timid
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+- Recover
+
+=== TRAINER_NORMAN_7 ===
+Name: Hermes
+Class: Moderator
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Steelix @ Leftovers
+Level: 50
+Ability: Sturdy
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 252 HP / 4 Atk / 252 Spe
+Nature: Careful
+- Stealth Rock
+- Earthquake
+- Heavy Slam
+- Toxic
+
+Lucario @ Choice Band
+Level: 50
+Ability: Inner Focus
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
+Nature: Jolly
+- Extreme Speed
+- Close Combat
+- Meteor Mash
+- Crunch
+
+Scizor @ Life Orb
+Level: 50
+Ability: Technician
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
+Nature: Adamant
+- Swords Dance
+- Bullet Punch
+- Close Combat
+- Knock Off
+
+SPECIES_GOODRA_HISUIAN @ Heavy-Duty Boots
+Level: 51
+Ability: Sap Sipper
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 4 Def / 252 SpA / 252 Spe
+Nature: Timid
+- Draco Meteor
+- Flamethrower
+- Sludge Bomb
+- Dragon Tail
+
+Metagross @ Leftovers
+Level: 51
+Ability: Clear Body
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 252 HP / 160 Atk / 96 Spe
+Nature: Adamant
+- Heavy Slam
+- Psychic Fangs
+- Earthquake
+- Bullet Punch
+
+Gholdengo @ Air Balloon
+Level: 52
+Ability: Good as Gold
+IVs: 30 HP / 0 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 252 SpA / 4 SpD / 252 Spe
+Nature: Timid
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+- Recover
+
+=== TRAINER_NORMAN_8 ===
+Name: Hermes
+Class: Moderator
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Steelix @ Leftovers
+Level: 56
+Ability: Sturdy
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+EVs: 252 HP / 4 Atk / 252 Spe
+Nature: Careful
+- Stealth Rock
+- Earthquake
+- Heavy Slam
+- Toxic
+
+Lucario @ Choice Band
+Level: 56
+Ability: Inner Focus
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
+Nature: Jolly
+- Extreme Speed
+- Close Combat
+- Meteor Mash
+- Crunch
+
+Scizor @ Life Orb
+Level: 57
+Ability: Technician
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
+Nature: Adamant
+- Swords Dance
+- Bullet Punch
+- Close Combat
+- Knock Off
+
+SPECIES_GOODRA_HISUIAN @ Heavy-Duty Boots
+Level: 57
+Ability: Sap Sipper
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+EVs: 4 Def / 252 SpA / 252 Spe
+Nature: Timid
+- Draco Meteor
+- Flamethrower
+- Sludge Bomb
+- Dragon Tail
+
+Metagross @ Leftovers
+Level: 57
+Ability: Clear Body
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+EVs: 252 HP / 160 Atk / 96 Spe
+Nature: Adamant
+- Heavy Slam
+- Psychic Fangs
+- Earthquake
+- Bullet Punch
+
+Gholdengo @ Air Balloon
+Level: 58
+Ability: Good as Gold
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 4 SpD / 252 Spe
+Nature: Timid
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+- Recover
+
+=== TRAINER_WINONA_1 ===
+Name: Tmoney
+Class: Moderator
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Risky
+
+Stunfisk @ Quick Claw
+Level: 14
+Ability: Static
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Muddy Water
+- Sludge Wave
+- Thunderbolt
+- Fissure
+
+Kilowattrel @ Magnet
+Level: 14
+Ability: Wind Power
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Discharge
+- Hurricane
+- Roost
+- Electro Ball
+
+Raikou @ Damp Rock
+Level: 14
+Ability: Pressure
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Extrasensory
+- Thunder
+- Rain Dance
+- Extreme Speed
+
+Thundurus @ Wise Glasses
+Level: 15
+Ability: Prankster
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Dark Pulse
+- Nasty Plot
+- Flash Cannon
+- Wildbolt Storm
+
+Zekrom @ Muscle Band
+Level: 15
+Ability: Teravolt
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Rock Slide
+- Shadow Claw
+- Dragon Claw
+- Fusion Bolt
+
+Zapdos @ Leftovers
+Level: 16
+Ability: Pressure
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rain Dance
+- Thunder
+- Ancient Power
+- Hyper Beam
+
+=== TRAINER_WINONA_2 ===
+Name: Tmoney
+Class: Moderator
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Risky
+
+Stunfisk @ Quick Claw
+Level: 20
+Ability: Static
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Muddy Water
+- Sludge Wave
+- Thunderbolt
+- Fissure
+
+Kilowattrel @ Magnet
+Level: 20
+Ability: Wind Power
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Discharge
+- Hurricane
+- Roost
+- Electro Ball
+
+Raikou @ Damp Rock
+Level: 20
+Ability: Pressure
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Extrasensory
+- Thunder
+- Rain Dance
+- Extreme Speed
+
+Thundurus @ Wise Glasses
+Level: 21
+Ability: Prankster
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Dark Pulse
+- Nasty Plot
+- Flash Cannon
+- Wildbolt Storm
+
+Zekrom @ Muscle Band
+Level: 21
+Ability: Teravolt
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Rock Slide
+- Shadow Claw
+- Dragon Claw
+- Fusion Bolt
+
+Zapdos @ Leftovers
+Level: 22
+Ability: Pressure
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Rain Dance
+- Thunder
+- Ancient Power
+- Hyper Beam
+
+=== TRAINER_WINONA_3 ===
+Name: Tmoney
+Class: Moderator
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Items: Super Potion / Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Risky
+
+Stunfisk @ Quick Claw
+Level: 26
+Ability: Static
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Muddy Water
+- Sludge Wave
+- Thunderbolt
+- Fissure
+
+Kilowattrel @ Magnet
+Level: 26
+Ability: Wind Power
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Discharge
+- Hurricane
+- Roost
+- Electro Ball
+
+Raikou @ Damp Rock
+Level: 26
+Ability: Pressure
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Extrasensory
+- Thunder
+- Rain Dance
+- Extreme Speed
+
+Thundurus @ Wise Glasses
+Level: 27
+Ability: Prankster
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Dark Pulse
+- Nasty Plot
+- Flash Cannon
+- Wildbolt Storm
+
+Zekrom @ Muscle Band
+Level: 27
+Ability: Teravolt
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Rock Slide
+- Shadow Claw
+- Dragon Claw
+- Fusion Bolt
+
+Zapdos @ Leftovers
+Level: 28
+Ability: Pressure
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Rain Dance
+- Thunder
+- Ancient Power
+- Hyper Beam
+
+=== TRAINER_WINONA_4 ===
+Name: Tmoney
+Class: Moderator
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Items: Super Potion / Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Risky
+
+Stunfisk @ Quick Claw
+Level: 32
+Ability: Static
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Muddy Water
+- Sludge Wave
+- Thunderbolt
+- Fissure
+
+Kilowattrel @ Magnet
+Level: 32
+Ability: Wind Power
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Discharge
+- Hurricane
+- Roost
+- Electro Ball
+
+Raikou @ Damp Rock
+Level: 32
+Ability: Pressure
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Extrasensory
+- Thunder
+- Rain Dance
+- Extreme Speed
+
+Thundurus @ Wise Glasses
+Level: 33
+Ability: Prankster
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Dark Pulse
+- Nasty Plot
+- Flash Cannon
+- Wildbolt Storm
+
+Zekrom @ Muscle Band
+Level: 33
+Ability: Teravolt
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Rock Slide
+- Shadow Claw
+- Dragon Claw
+- Fusion Bolt
+
+Zapdos @ Leftovers
+Level: 34
+Ability: Pressure
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+- Rain Dance
+- Thunder
+- Ancient Power
+- Hyper Beam
+
+=== TRAINER_WINONA_5 ===
+Name: Tmoney
+Class: Moderator
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Risky
+
+Stunfisk @ Quick Claw
+Level: 38
+Ability: Static
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Muddy Water
+- Sludge Wave
+- Thunderbolt
+- Fissure
+
+Kilowattrel @ Magnet
+Level: 38
+Ability: Wind Power
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Discharge
+- Hurricane
+- Roost
+- Electro Ball
+
+Raikou @ Damp Rock
+Level: 38
+Ability: Pressure
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Extrasensory
+- Thunder
+- Rain Dance
+- Extreme Speed
+
+Thundurus @ Wise Glasses
+Level: 39
+Ability: Prankster
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Dark Pulse
+- Nasty Plot
+- Flash Cannon
+- Wildbolt Storm
+
+Zekrom @ Muscle Band
+Level: 39
+Ability: Teravolt
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Rock Slide
+- Shadow Claw
+- Dragon Claw
+- Fusion Bolt
+
+Zapdos @ Leftovers
+Level: 40
+Ability: Pressure
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Rain Dance
+- Thunder
+- Ancient Power
+- Hyper Beam
+
+=== TRAINER_WINONA_6 ===
+Name: Tmoney
+Class: Moderator
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Risky
+
+Stunfisk @ Quick Claw
+Level: 44
+Ability: Static
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Muddy Water
+- Sludge Wave
+- Thunderbolt
+- Fissure
+
+Kilowattrel @ Magnet
+Level: 44
+Ability: Wind Power
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Discharge
+- Hurricane
+- Roost
+- Electro Ball
+
+Raikou @ Damp Rock
+Level: 44
+Ability: Pressure
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Extrasensory
+- Thunder
+- Rain Dance
+- Extreme Speed
+
+Thundurus @ Wise Glasses
+Level: 45
+Ability: Prankster
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Dark Pulse
+- Nasty Plot
+- Flash Cannon
+- Wildbolt Storm
+
+Zekrom @ Muscle Band
+Level: 45
+Ability: Teravolt
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Rock Slide
+- Shadow Claw
+- Dragon Claw
+- Fusion Bolt
+
+Zapdos @ Leftovers
+Level: 46
+Ability: Pressure
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Rain Dance
+- Thunder
+- Ancient Power
+- Hyper Beam
+
+=== TRAINER_WINONA_7 ===
+Name: Tmoney
+Class: Moderator
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Risky
+
+Stunfisk @ Quick Claw
+Level: 50
+Ability: Static
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Muddy Water
+- Sludge Wave
+- Thunderbolt
+- Fissure
+
+Kilowattrel @ Magnet
+Level: 50
+Ability: Wind Power
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Discharge
+- Hurricane
+- Roost
+- Electro Ball
+
+Raikou @ Damp Rock
+Level: 50
+Ability: Pressure
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Extrasensory
+- Thunder
+- Rain Dance
+- Extreme Speed
+
+Thundurus @ Wise Glasses
+Level: 51
+Ability: Prankster
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dark Pulse
+- Nasty Plot
+- Flash Cannon
+- Wildbolt Storm
+
+Zekrom @ Muscle Band
+Level: 51
+Ability: Teravolt
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rock Slide
+- Shadow Claw
+- Dragon Claw
+- Fusion Bolt
+
+Zapdos @ Leftovers
+Level: 52
+Ability: Pressure
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Rain Dance
+- Thunder
+- Ancient Power
+- Hyper Beam
+
+=== TRAINER_WINONA_8 ===
+Name: Tmoney
+Class: Moderator
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Risky
+
+Stunfisk @ Quick Claw
+Level: 56
+Ability: Static
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Muddy Water
+- Sludge Wave
+- Thunderbolt
+- Fissure
+
+Kilowattrel @ Magnet
+Level: 56
+Ability: Wind Power
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Discharge
+- Hurricane
+- Roost
+- Electro Ball
+
+Raikou @ Damp Rock
+Level: 56
+Ability: Pressure
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Extrasensory
+- Thunder
+- Rain Dance
+- Extreme Speed
+
+Thundurus @ Wise Glasses
+Level: 57
+Ability: Prankster
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Dark Pulse
+- Nasty Plot
+- Flash Cannon
+- Wildbolt Storm
+
+Zekrom @ Muscle Band
+Level: 57
+Ability: Teravolt
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Rock Slide
+- Shadow Claw
+- Dragon Claw
+- Fusion Bolt
+
+Zapdos @ Leftovers
+Level: 58
+Ability: Pressure
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rain Dance
+- Thunder
+- Ancient Power
+- Hyper Beam
+
+=== TRAINER_TATE_AND_LIZA_1 ===
+Name: Tot
+Class: Moderator
+Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
 Items: Potion / Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Doduo
-Level: 12
-Ability: Early Bird
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Drill Peck
-- Tri Attack
-- Aerial Ace
-- Agility
-
-Drifloon
-Level: 13
-Ability: Aftermath
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Air Cutter
-- Protect
-- Payback
-- Ominous Wind
-
-Togetic
+Klefki
 Level: 14
-Ability: Hustle
+Ability: Prankster
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Aerial Ace
-- Ancient Power
-- Wish
-- Yawn
+- Flash Cannon
+- Dazzling Gleam
+- Reflect
+- Light Screen
 
-Gliscor @ Oran Berry
+Mimikyu
+Level: 14
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Hone Claws
+- Play Rough
+- Shadow Sneak
+- Slash
+
+Hatterene
 Level: 15
-Ability: Levitate
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Magnitude
-- Dragonbreath
-- Sand Attack
-- Fly
-
-=== TRAINER_BRAWLY_2 ===
-Name: BRAWLY
-Class: Leader
-Pic: Leader Brawly
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Machamp @ Sitrus Berry
-Level: 33
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Karate Chop
-- Rock Slide
-- Focus Punch
-- Bulk Up
-
-Meditite
-Level: 33
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Healer
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Dazzling Gleam
 - Psychic
-- Light Screen
-- Reflect
-- Focus Punch
+- Giga Drain
+- Calm Mind
 
-Hitmontop
-Level: 35
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Pursuit
-- Counter
-- Protect
-- Triple Kick
-
-Hariyama @ Sitrus Berry
-Level: 37
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fake Out
-- Focus Punch
+Azumarill
+Level: 15
+Ability: Huge Power
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Aqua Tail
 - Belly Drum
-- Earthquake
-
-=== TRAINER_BRAWLY_3 ===
-Name: BRAWLY
-Class: Leader
-Pic: Leader Brawly
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Machamp @ Sitrus Berry
-Level: 38
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Karate Chop
-- Rock Slide
-- Focus Punch
-- Bulk Up
-
-Medicham
-Level: 38
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Light Screen
-- Reflect
-- Focus Punch
-
-Hitmontop
-Level: 40
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Pursuit
-- Counter
-- Protect
-- Triple Kick
-
-Hariyama @ Sitrus Berry
-Level: 42
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fake Out
-- Focus Punch
-- Belly Drum
-- Earthquake
-
-=== TRAINER_BRAWLY_4 ===
-Name: BRAWLY
-Class: Leader
-Pic: Leader Brawly
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Hitmonchan
-Level: 40
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sky Uppercut
-- Protect
-- Fire Punch
-- Ice Punch
-
-Machamp @ Sitrus Berry
-Level: 43
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Karate Chop
-- Rock Slide
-- Focus Punch
-- Bulk Up
-
-Medicham
-Level: 43
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Focus Punch
-- Light Screen
-- Reflect
-- Psychic
-
-Hitmontop
-Level: 45
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Pursuit
-- Counter
-- Protect
-- Triple Kick
-
-Hariyama @ Sitrus Berry
-Level: 47
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fake Out
-- Focus Punch
-- Belly Drum
-- Earthquake
-
-=== TRAINER_BRAWLY_5 ===
-Name: BRAWLY
-Class: Leader
-Pic: Leader Brawly
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Hitmonlee
-Level: 46
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Mega Kick
-- Focus Punch
-- Earthquake
-- Bulk Up
-
-Hitmonchan
-Level: 46
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sky Uppercut
-- Protect
-- Fire Punch
-- Ice Punch
-
-Machamp @ Sitrus Berry
-Level: 48
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Cross Chop
-- Rock Slide
-- Focus Punch
-- Bulk Up
-
-Medicham
-Level: 48
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Focus Punch
-- Light Screen
-- Reflect
-- Psychic
-
-Hitmontop
-Level: 50
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Pursuit
-- Counter
-- Protect
-- Triple Kick
-
-Hariyama @ Sitrus Berry
-Level: 52
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fake Out
-- Focus Punch
-- Belly Drum
-- Earthquake
-
-=== TRAINER_WATTSON_2 ===
-Name: WATTSON
-Class: Leader
-Pic: Leader Wattson
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Mareep
-Level: 36
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder
-- Protect
-- Thunder Wave
-- Light Screen
-
-Electrode
-Level: 36
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rollout
-- Thunder
-- Explosion
-- Rain Dance
-
-Magneton @ Sitrus Berry
-Level: 38
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Supersonic
-- Protect
-- Thunder
-- Rain Dance
-
-Manectric @ Sitrus Berry
-Level: 40
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Bite
-- Thunder Wave
-- Thunder
-- Protect
-
-=== TRAINER_WATTSON_3 ===
-Name: WATTSON
-Class: Leader
-Pic: Leader Wattson
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Pikachu
-Level: 39
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder
-- Slam
-- Rain Dance
-- Shock Wave
-
-Flaaffy
-Level: 41
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder
-- Protect
-- Thunder Wave
-- Light Screen
-
-Electrode
-Level: 41
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rollout
-- Thunder
-- Explosion
-- Rain Dance
-
-Magneton @ Sitrus Berry
-Level: 43
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Supersonic
-- Protect
-- Thunder
-- Rain Dance
-
-Manectric @ Sitrus Berry
-Level: 45
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Bite
-- Thunder Wave
-- Thunder
-- Protect
-
-=== TRAINER_WATTSON_4 ===
-Name: WATTSON
-Class: Leader
-Pic: Leader Wattson
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Raichu
-Level: 44
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder
-- Slam
-- Rain Dance
-- Protect
-
-Ampharos
-Level: 46
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder
-- Protect
-- Thunder Wave
-- Light Screen
-
-Electrode
-Level: 46
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rollout
-- Thunder
-- Explosion
-- Rain Dance
-
-Magneton @ Sitrus Berry
-Level: 48
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Supersonic
-- Protect
-- Thunder
-- Rain Dance
-
-Manectric @ Sitrus Berry
-Level: 50
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Bite
-- Thunder Wave
-- Thunder
-- Protect
-
-=== TRAINER_WATTSON_5 ===
-Name: WATTSON
-Class: Leader
-Pic: Leader Wattson
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Electabuzz
-Level: 50
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Swift
-- Focus Punch
-- Thunder Punch
-- Light Screen
-
-Raichu
-Level: 51
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder
-- Slam
-- Rain Dance
-- Protect
-
-Ampharos
-Level: 51
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder
-- Protect
-- Thunder Wave
-- Light Screen
-
-Electrode
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rollout
-- Thunder
-- Explosion
-- Rain Dance
-
-Magneton @ Sitrus Berry
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Supersonic
-- Protect
-- Thunder
-- Rain Dance
-
-Manectric @ Sitrus Berry
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Bite
-- Thunder Wave
-- Thunder
-- Protect
-
-=== TRAINER_FLANNERY_2 ===
-Name: FLANNERY
-Class: Leader
-Pic: Leader Flannery
-Gender: Female
-Music: Female
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Magcargo @ White Herb
-Level: 38
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Attract
-- Light Screen
-- Rock Slide
-
-Ponyta
-Level: 36
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flamethrower
-- Attract
-- Solar Beam
+- Play Rough
 - Bounce
 
-Camerupt @ White Herb
-Level: 38
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Sunny Day
-- Earthquake
-- Attract
-
-Torkoal @ White Herb
-Level: 40
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Sunny Day
-- Explosion
-- Attract
-
-=== TRAINER_FLANNERY_3 ===
-Name: FLANNERY
-Class: Leader
-Pic: Leader Flannery
-Gender: Female
-Music: Female
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Growlithe
-Level: 41
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Helping Hand
-- Flamethrower
-- Roar
-- Sunny Day
-
-Magcargo @ White Herb
-Level: 43
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Attract
-- Light Screen
-- Rock Slide
-
-Ponyta
-Level: 41
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flamethrower
-- Attract
-- Solar Beam
-- Bounce
-
-Camerupt @ White Herb
-Level: 43
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Sunny Day
-- Earthquake
-- Attract
-
-Torkoal @ White Herb
-Level: 45
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Sunny Day
-- Explosion
-- Attract
-
-=== TRAINER_FLANNERY_4 ===
-Name: FLANNERY
-Class: Leader
-Pic: Leader Flannery
-Gender: Female
-Music: Female
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Houndour
-Level: 46
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Roar
-- Solar Beam
-- Taunt
-- Sunny Day
-
-Growlithe
-Level: 46
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Helping Hand
-- Flamethrower
-- Sunny Day
-- Roar
-
-Magcargo @ White Herb
-Level: 48
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Attract
-- Light Screen
-- Rock Slide
-
-Rapidash
-Level: 46
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flamethrower
-- Attract
-- Solar Beam
-- Bounce
-
-Camerupt @ White Herb
-Level: 48
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Sunny Day
-- Earthquake
-- Attract
-
-Torkoal @ White Herb
-Level: 50
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Sunny Day
-- Explosion
-- Attract
-
-=== TRAINER_FLANNERY_5 ===
-Name: FLANNERY
-Class: Leader
-Pic: Leader Flannery
-Gender: Female
-Music: Female
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Arcanine
-Level: 51
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Helping Hand
-- Flamethrower
-- Sunny Day
-- Roar
-
-Magcargo @ White Herb
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Attract
-- Light Screen
-- Rock Slide
-
-Houndoom
-Level: 51
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Roar
-- Solar Beam
-- Taunt
-- Sunny Day
-
-Rapidash
-Level: 51
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flamethrower
-- Attract
-- Solar Beam
-- Bounce
-
-Camerupt @ White Herb
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Sunny Day
-- Earthquake
-- Attract
-
-Torkoal @ White Herb
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Sunny Day
-- Explosion
-- Attract
-
-=== TRAINER_NORMAN_2 ===
-Name: NORMAN
-Class: Leader
-Pic: Leader Norman
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Chansey
-Level: 42
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Light Screen
-- Sing
-- Skill Swap
-- Focus Punch
-
-Slaking @ Sitrus Berry
-Level: 42
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Blizzard
-- Shadow Ball
-- Double Edge
-- Fire Blast
-
-Spinda
-Level: 43
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Teeter Dance
-- Skill Swap
-- Facade
-- Hypnosis
-
-Slaking @ Sitrus Berry
-Level: 45
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Sylveon @ Oran Berry
+Level: 16
+Ability: Cute Charm
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Misty Terrain
+- Moonblast
+- Psyshock
 - Hyper Beam
-- Flamethrower
-- Thunderbolt
-- Shadow Ball
-
-=== TRAINER_NORMAN_3 ===
-Name: NORMAN
-Class: Leader
-Pic: Leader Norman
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Slaking @ Sitrus Berry
-Level: 47
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Blizzard
-- Shadow Ball
-- Double Edge
-- Fire Blast
-
-Chansey
-Level: 47
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Light Screen
-- Sing
-- Skill Swap
-- Focus Punch
-
-Kangaskhan
-Level: 45
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fake Out
-- Dizzy Punch
-- Endure
-- Reversal
-
-Spinda
-Level: 48
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Teeter Dance
-- Skill Swap
-- Facade
-- Hypnosis
-
-Slaking @ Sitrus Berry
-Level: 50
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hyper Beam
-- Flamethrower
-- Thunderbolt
-- Shadow Ball
-
-=== TRAINER_NORMAN_4 ===
-Name: NORMAN
-Class: Leader
-Pic: Leader Norman
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Slaking @ Sitrus Berry
-Level: 52
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Blizzard
-- Shadow Ball
-- Double Edge
-- Fire Blast
-
-Blissey
-Level: 52
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Light Screen
-- Sing
-- Skill Swap
-- Focus Punch
-
-Kangaskhan
-Level: 50
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fake Out
-- Dizzy Punch
-- Endure
-- Reversal
-
-Spinda
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Teeter Dance
-- Skill Swap
-- Facade
-- Hypnosis
-
-Slaking @ Sitrus Berry
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hyper Beam
-- Flamethrower
-- Thunderbolt
-- Shadow Ball
-
-=== TRAINER_NORMAN_5 ===
-Name: NORMAN
-Class: Leader
-Pic: Leader Norman
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Slaking @ Sitrus Berry
-Level: 57
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Blizzard
-- Shadow Ball
-- Double Edge
-- Fire Blast
-
-Blissey
-Level: 57
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Protect
-- Sing
-- Skill Swap
-- Focus Punch
-
-Kangaskhan
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fake Out
-- Dizzy Punch
-- Endure
-- Reversal
-
-Tauros
-Level: 57
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Take Down
-- Protect
-- Fire Blast
-- Earthquake
-
-Spinda
-Level: 58
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Teeter Dance
-- Skill Swap
-- Facade
-- Hypnosis
-
-Slaking @ Sitrus Berry
-Level: 60
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hyper Beam
-- Flamethrower
-- Thunderbolt
-- Shadow Ball
-
-=== TRAINER_WINONA_2 ===
-Name: WINONA
-Class: Leader
-Pic: Leader Winona
-Gender: Female
-Music: Female
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability / Risky
-
-Dratini @ Sitrus Berry
-Level: 40
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder Wave
-- Thunderbolt
-- Protect
-- Ice Beam
-
-Tropius
-Level: 38
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Aerial Ace
-- Solar Beam
-- Earthquake
-
-Pelipper
-Level: 41
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Supersonic
-- Protect
-- Aerial Ace
-
-Skarmory
-Level: 43
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Whirlwind
-- Spikes
-- Steel Wing
-- Aerial Ace
-
-Altaria @ Chesto Berry
-Level: 45
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Rest
-- Dragon Dance
-- Earthquake
-
-=== TRAINER_WINONA_3 ===
-Name: WINONA
-Class: Leader
-Pic: Leader Winona
-Gender: Female
-Music: Female
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability / Risky
-
-Hoothoot
-Level: 43
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hypnosis
-- Psychic
-- Reflect
-- Dream Eater
-
-Tropius
-Level: 43
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Aerial Ace
-- Solar Beam
-- Earthquake
-
-Dragonair @ Sitrus Berry
-Level: 45
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder Wave
-- Thunderbolt
-- Protect
-- Ice Beam
-
-Pelipper
-Level: 46
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Supersonic
-- Protect
-- Aerial Ace
-
-Skarmory
-Level: 48
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Whirlwind
-- Spikes
-- Steel Wing
-- Aerial Ace
-
-Altaria @ Chesto Berry
-Level: 50
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Rest
-- Dragon Dance
-- Earthquake
-
-=== TRAINER_WINONA_4 ===
-Name: WINONA
-Class: Leader
-Pic: Leader Winona
-Gender: Female
-Music: Female
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability / Risky
-
-Noctowl
-Level: 48
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hypnosis
-- Psychic
-- Reflect
-- Dream Eater
-
-Tropius
-Level: 49
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Aerial Ace
-- Solar Beam
-- Earthquake
-
-Dragonair @ Sitrus Berry
-Level: 50
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder Wave
-- Thunderbolt
-- Protect
-- Ice Beam
-
-Pelipper
-Level: 51
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Supersonic
-- Protect
-- Aerial Ace
-
-Skarmory
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Whirlwind
-- Spikes
-- Steel Wing
-- Aerial Ace
-
-Altaria @ Chesto Berry
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Rest
-- Dragon Dance
-- Earthquake
-
-=== TRAINER_WINONA_5 ===
-Name: WINONA
-Class: Leader
-Pic: Leader Winona
-Gender: Female
-Music: Female
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability / Risky
-
-Noctowl
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hypnosis
-- Psychic
-- Reflect
-- Dream Eater
-
-Tropius
-Level: 54
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Aerial Ace
-- Solar Beam
-- Earthquake
-
-Pelipper
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Supersonic
-- Protect
-- Aerial Ace
-
-Dragonite @ Sitrus Berry
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hyper Beam
-- Thunderbolt
-- Earthquake
-- Ice Beam
-
-Skarmory
-Level: 58
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Whirlwind
-- Spikes
-- Steel Wing
-- Aerial Ace
-
-Altaria @ Chesto Berry
-Level: 60
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sky Attack
-- Rest
-- Dragon Dance
-- Earthquake
 
 === TRAINER_TATE_AND_LIZA_2 ===
-Name: TATE&LIZA
-Class: Leader
+Name: Tot
+Class: Moderator
 Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Items: Potion / Potion
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Slowpoke
-Level: 48
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Yawn
-- Psychic
-- Calm Mind
-- Protect
-
-Claydol
-Level: 49
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Ancient Power
-- Psychic
+Klefki
+Level: 20
+Ability: Prankster
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Flash Cannon
+- Dazzling Gleam
+- Reflect
 - Light Screen
 
-Xatu @ Chesto Berry
-Level: 49
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Mimikyu
+Level: 20
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Hone Claws
+- Play Rough
+- Shadow Sneak
+- Slash
+
+Hatterene
+Level: 21
+Ability: Healer
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Dazzling Gleam
 - Psychic
-- Rest
-- Confuse Ray
+- Giga Drain
 - Calm Mind
 
-Lunatone @ Chesto Berry
-Level: 50
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Psychic
-- Rest
-- Calm Mind
+Azumarill
+Level: 21
+Ability: Huge Power
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Aqua Tail
+- Belly Drum
+- Play Rough
+- Bounce
 
-Solrock @ Sitrus Berry
-Level: 50
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Solar Beam
-- Psychic
-- Flamethrower
+Sylveon @ Oran Berry
+Level: 22
+Ability: Cute Charm
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Misty Terrain
+- Moonblast
+- Psyshock
+- Hyper Beam
 
 === TRAINER_TATE_AND_LIZA_3 ===
-Name: TATE&LIZA
-Class: Leader
+Name: Tot
+Class: Moderator
 Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Items: Super Potion / Super Potion
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Drowzee
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hypnosis
-- Dream Eater
-- Headbutt
-- Protect
-
-Slowpoke
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Yawn
-- Psychic
-- Calm Mind
-- Protect
-
-Claydol
-Level: 54
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Explosion
-- Psychic
+Klefki
+Level: 26
+Ability: Prankster
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flash Cannon
+- Dazzling Gleam
+- Reflect
 - Light Screen
 
-Xatu @ Chesto Berry
-Level: 54
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Mimikyu
+Level: 26
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hone Claws
+- Play Rough
+- Shadow Sneak
+- Slash
+
+Hatterene
+Level: 27
+Ability: Healer
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Dazzling Gleam
 - Psychic
-- Rest
-- Confuse Ray
+- Giga Drain
 - Calm Mind
 
-Lunatone @ Chesto Berry
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Psychic
-- Rest
-- Calm Mind
+Azumarill @ Oran Berry
+Level: 27
+Ability: Huge Power
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Aqua Tail
+- Belly Drum
+- Play Rough
+- Bounce
 
-Solrock @ Sitrus Berry
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Solar Beam
-- Psychic
-- Flamethrower
+Sylveon @ Sitrus Berry
+Level: 28
+Ability: Cute Charm
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Misty Terrain
+- Moonblast
+- Psyshock
+- Hyper Beam
 
 === TRAINER_TATE_AND_LIZA_4 ===
-Name: TATE&LIZA
-Class: Leader
+Name: Tot
+Class: Moderator
 Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Items: Super Potion / Super Potion
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Hypno
-Level: 58
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hypnosis
-- Dream Eater
-- Headbutt
-- Protect
-
-Claydol
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Explosion
-- Psychic
+Klefki
+Level: 32
+Ability: Prankster
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Flash Cannon
+- Dazzling Gleam
+- Reflect
 - Light Screen
 
-Slowpoke
-Level: 58
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Yawn
-- Psychic
-- Calm Mind
-- Protect
+Mimikyu
+Level: 32
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Hone Claws
+- Play Rough
+- Shadow Sneak
+- Slash
 
-Xatu @ Chesto Berry
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Hatterene @ Sitrus Berry
+Level: 33
+Ability: Healer
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Dazzling Gleam
 - Psychic
-- Rest
-- Confuse Ray
-- Calm Mind
-
-Lunatone @ Chesto Berry
-Level: 60
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Psychic
-- Rest
+- Giga Drain
 - Calm Mind
 
-Solrock @ Sitrus Berry
-Level: 60
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Solar Beam
-- Psychic
-- Flamethrower
+Azumarill @ Sitrus Berry
+Level: 33
+Ability: Huge Power
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Aqua Tail
+- Belly Drum
+- Play Rough
+- Bounce
+
+Sylveon @ Terrain Extender
+Level: 34
+Ability: Cute Charm
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+- Misty Terrain
+- Moonblast
+- Psyshock
+- Hyper Beam
 
 === TRAINER_TATE_AND_LIZA_5 ===
-Name: TATE&LIZA
-Class: Leader
+Name: Tot
+Class: Moderator
 Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Hypno
-Level: 63
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hypnosis
-- Dream Eater
-- Headbutt
-- Protect
-
-Claydol
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Explosion
-- Psychic
+Klefki
+Level: 38
+Ability: Prankster
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Flash Cannon
+- Dazzling Gleam
+- Reflect
 - Light Screen
 
-Slowking
-Level: 63
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Yawn
-- Psychic
-- Calm Mind
-- Protect
+Mimikyu
+Level: 38
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Hone Claws
+- Play Rough
+- Shadow Sneak
+- Slash
 
-Xatu @ Chesto Berry
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Hatterene
+Level: 39
+Ability: Healer
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Dazzling Gleam
 - Psychic
-- Rest
-- Confuse Ray
-- Calm Mind
-
-Lunatone @ Chesto Berry
-Level: 65
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Psychic
-- Rest
+- Giga Drain
 - Calm Mind
 
-Solrock @ Sitrus Berry
-Level: 65
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Solar Beam
+Azumarill @ Leftovers
+Level: 39
+Ability: Huge Power
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Aqua Tail
+- Belly Drum
+- Play Rough
+- Bounce
+
+Sylveon @ Terrain Extender
+Level: 40
+Ability: Cute Charm
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Misty Terrain
+- Moonblast
+- Psyshock
+- Hyper Beam
+
+=== TRAINER_TATE_AND_LIZA_6 ===
+Name: Tot
+Class: Moderator
+Pic: Leader Tate And Liza
+Gender: Male
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Klefki
+Level: 44
+Ability: Prankster
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Flash Cannon
+- Dazzling Gleam
+- Reflect
+- Light Screen
+
+Mimikyu
+Level: 44
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Hone Claws
+- Play Rough
+- Shadow Sneak
+- Slash
+
+Hatterene @ Wise Glasses
+Level: 45
+Ability: Healer
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Dazzling Gleam
 - Psychic
-- Flamethrower
+- Giga Drain
+- Calm Mind
+
+Azumarill @ Leftovers
+Level: 45
+Ability: Huge Power
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Aqua Tail
+- Belly Drum
+- Play Rough
+- Bounce
+
+Sylveon @ Terrain Extender
+Level: 46
+Ability: Pixilate
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Misty Terrain
+- Moonblast
+- Psyshock
+- Hyper Beam
+
+=== TRAINER_TATE_AND_LIZA_7 ===
+Name: Tot
+Class: Moderator
+Pic: Leader Tate And Liza
+Gender: Male
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Klefki
+Level: 50
+Ability: Prankster
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flash Cannon
+- Dazzling Gleam
+- Reflect
+- Light Screen
+
+Mimikyu @ Muscle Band
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hone Claws
+- Play Rough
+- Shadow Sneak
+- Slash
+
+Hatterene @ Wise Glasses
+Level: 51
+Ability: Healer
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dazzling Gleam
+- Psychic
+- Giga Drain
+- Calm Mind
+
+Azumarill @ Leftovers
+Level: 51
+Ability: Huge Power
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Aqua Tail
+- Belly Drum
+- Play Rough
+- Bounce
+
+Sylveon @ Terrain Extender
+Level: 52
+Ability: Cute Charm
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Misty Terrain
+- Moonblast
+- Psyshock
+- Hyper Beam
+
+=== TRAINER_TATE_AND_LIZA_8 ===
+Name: Tot
+Class: Moderator
+Pic: Leader Tate And Liza
+Gender: Male
+Music: Female
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Klefki @ Light Clay
+Level: 56
+Ability: Prankster
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Flash Cannon
+- Dazzling Gleam
+- Reflect
+- Light Screen
+
+Mimikyu @ Muscle Band
+Level: 56
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Hone Claws
+- Play Rough
+- Shadow Sneak
+- Slash
+
+Hatterene @ Wise Glasses
+Level: 57
+Ability: Healer
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Dazzling Gleam
+- Psychic
+- Giga Drain
+- Calm Mind
+
+Azumarill @ Leftovers
+Level: 57
+Ability: Huge Power
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Aqua Tail
+- Belly Drum
+- Play Rough
+- Bounce
+
+Sylveon @ Terrain Extender
+Level: 58
+Ability: Pixilate
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Misty Terrain
+- Moonblast
+- Psyshock
+- Hyper Beam
+
+=== TRAINER_JUAN_1 ===
+Name: Sabre
+Class: Moderator
+Pic: Leader Juan
+Gender: Male
+Music: Male
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Duraludon
+Level: 14
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Dragon Cheer
+- Stealth Rock
+- Dragon Tail
+- Flash Cannon
+
+Dragalge
+Level: 14
+Ability: Poison Point
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Sludge Bomb
+- Shadow Ball
+- Muddy Water
+- Toxic
+
+Tyrantrum
+Level: 15
+Ability: Strong Jaw
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Crunch
+- Thunder Fang
+- Fire Fang
+- Rock Slide
+
+Kingdra
+Level: 15
+Ability: Sniper
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Focus Energy
+- Dragon Pulse
+- Ice Beam
+- Scald
+
+Haxorus @ Oran Berry
+Level: 16
+Ability: Mold Breaker
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dragon Dance
+- Breaking Swipe
+- Poison Jab
+- X-Scissor
 
 === TRAINER_JUAN_2 ===
 Name: Sabre
@@ -15753,49 +16829,53 @@ Class: Moderator
 Pic: Leader Juan
 Gender: Male
 Music: Male
-Items: Hyper Potion / Hyper Potion
+Items: Potion / Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Duraludon
-Level: 16
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Attract
-- Sweet Kiss
-- Flail
+Level: 20
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Dragon Cheer
+- Stealth Rock
+- Dragon Tail
+- Flash Cannon
 
 Dragalge
-Level: 17
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rain Dance
-- Water Pulse
-- Amnesia
-- Earthquake
+Level: 20
+Ability: Poison Point
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Sludge Bomb
+- Shadow Ball
+- Muddy Water
+- Toxic
 
 Tyrantrum
-Level: 17
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Encore
-- Body Slam
-- Aurora Beam
-- Water Pulse
+Level: 21
+Ability: Strong Jaw
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Crunch
+- Thunder Fang
+- Fire Fang
+- Rock Slide
 
 Kingdra
-Level: 18
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Crabhammer
-- Taunt
-- Leer
-
-Haxorus
-Level: 19
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Water Pulse
-- Double Team
+Level: 21
+Ability: Sniper
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Focus Energy
+- Dragon Pulse
 - Ice Beam
-- Rest
+- Scald
+
+Haxorus @ Oran Berry
+Level: 22
+Ability: Mold Breaker
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Dragon Dance
+- Breaking Swipe
+- Poison Jab
+- X-Scissor
 
 === TRAINER_JUAN_3 ===
 Name: Sabre
@@ -15803,49 +16883,53 @@ Class: Moderator
 Pic: Leader Juan
 Gender: Male
 Music: Male
-Items: Hyper Potion / Hyper Potion
+Items: Super Potion / Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Duraludon
-Level: 23
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Attract
-- Sweet Kiss
-- Flail
+Level: 26
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 1 Spe
+- Dragon Cheer
+- Stealth Rock
+- Dragon Tail
+- Flash Cannon
 
 Dragalge
-Level: 23
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rain Dance
-- Water Pulse
-- Amnesia
-- Earthquake
+Level: 26
+Ability: Poison Point
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sludge Bomb
+- Shadow Ball
+- Muddy Water
+- Toxic
 
 Tyrantrum
-Level: 24
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Encore
-- Body Slam
-- Aurora Beam
-- Water Pulse
+Level: 27
+Ability: Strong Jaw
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crunch
+- Thunder Fang
+- Fire Fang
+- Rock Slide
 
-Kingdra
-Level: 24
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Crabhammer
-- Taunt
-- Leer
-
-Haxorus
-Level: 25
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Water Pulse
-- Double Team
+Kingdra @ Oran Berry
+Level: 27
+Ability: Sniper
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Focus Energy
+- Dragon Pulse
 - Ice Beam
-- Rest
+- Scald
+
+Haxorus @ Sitrus Berry
+Level: 28
+Ability: Mold Breaker
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+- Dragon Dance
+- Breaking Swipe
+- Poison Jab
+- X-Scissor
 
 === TRAINER_JUAN_4 ===
 Name: Sabre
@@ -15853,49 +16937,53 @@ Class: Moderator
 Pic: Leader Juan
 Gender: Male
 Music: Male
-Items: Hyper Potion / Hyper Potion
+Items: Super Potion / Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Duraludon
-Level: 26
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Attract
-- Sweet Kiss
-- Flail
+Level: 32
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Dragon Cheer
+- Stealth Rock
+- Dragon Tail
+- Flash Cannon
 
 Dragalge
-Level: 26
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rain Dance
-- Water Pulse
-- Amnesia
-- Earthquake
+Level: 32
+Ability: Poison Point
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Sludge Bomb
+- Shadow Ball
+- Muddy Water
+- Toxic
 
-Tyrantrum
-Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Encore
-- Body Slam
-- Aurora Beam
-- Water Pulse
+Tyrantrum @ Sitrus Berry
+Level: 33
+Ability: Strong Jaw
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Crunch
+- Thunder Fang
+- Fire Fang
+- Rock Slide
 
-Kingdra
-Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Crabhammer
-- Taunt
-- Leer
-
-Haxorus
-Level: 28
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Water Pulse
-- Double Team
+Kingdra @ Sitrus Berry
+Level: 33
+Ability: Sniper
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Focus Energy
+- Dragon Pulse
 - Ice Beam
-- Rest
+- Scald
+
+Haxorus @ Life Orb
+Level: 34
+Ability: Mold Breaker
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Dragon Dance
+- Breaking Swipe
+- Poison Jab
+- X-Scissor
 
 === TRAINER_JUAN_5 ===
 Name: Sabre
@@ -15908,44 +16996,48 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Duraludon
-Level: 32
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Attract
-- Sweet Kiss
-- Flail
+Level: 38
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Dragon Cheer
+- Stealth Rock
+- Dragon Tail
+- Flash Cannon
 
 Dragalge
-Level: 32
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rain Dance
-- Water Pulse
-- Amnesia
-- Earthquake
+Level: 38
+Ability: Poison Point
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Sludge Bomb
+- Shadow Ball
+- Muddy Water
+- Toxic
 
 Tyrantrum
-Level: 33
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Encore
-- Body Slam
-- Aurora Beam
-- Water Pulse
+Level: 39
+Ability: Strong Jaw
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Crunch
+- Thunder Fang
+- Fire Fang
+- Rock Slide
 
-Kingdra
-Level: 33
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Crabhammer
-- Taunt
-- Leer
-
-Haxorus
-Level: 34
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Water Pulse
-- Double Team
+Kingdra @ Scope Lens
+Level: 39
+Ability: Sniper
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Focus Energy
+- Dragon Pulse
 - Ice Beam
-- Rest
+- Scald
+
+Haxorus @ Life Orb
+Level: 40
+Ability: Mold Breaker
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Dragon Dance
+- Breaking Swipe
+- Poison Jab
+- X-Scissor
 
 === TRAINER_JUAN_6 ===
 Name: Sabre
@@ -15958,44 +17050,48 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Duraludon
-Level: 40
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Attract
-- Sweet Kiss
-- Flail
+Level: 44
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Dragon Cheer
+- Stealth Rock
+- Dragon Tail
+- Flash Cannon
 
 Dragalge
-Level: 40
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rain Dance
-- Water Pulse
-- Amnesia
-- Earthquake
+Level: 44
+Ability: Poison Point
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Sludge Bomb
+- Shadow Ball
+- Muddy Water
+- Toxic
 
-Tyrantrum
-Level: 41
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Encore
-- Body Slam
-- Aurora Beam
-- Water Pulse
+Tyrantrum @ Quick Claw
+Level: 45
+Ability: Strong Jaw
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Crunch
+- Thunder Fang
+- Fire Fang
+- Rock Slide
 
-Kingdra
-Level: 41
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Crabhammer
-- Taunt
-- Leer
-
-Haxorus
-Level: 42
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Water Pulse
-- Double Team
+Kingdra @ Scope Lens
+Level: 45
+Ability: Sniper
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Focus Energy
+- Dragon Pulse
 - Ice Beam
-- Rest
+- Scald
+
+Haxorus @ Life Orb
+Level: 46
+Ability: Mold Breaker
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Dragon Dance
+- Breaking Swipe
+- Poison Jab
+- X-Scissor
 
 === TRAINER_JUAN_7 ===
 Name: Sabre
@@ -16008,44 +17104,48 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Duraludon
-Level: 47
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Attract
-- Sweet Kiss
-- Flail
-
-Dragalge
-Level: 48
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rain Dance
-- Water Pulse
-- Amnesia
-- Earthquake
-
-Tyrantrum
-Level: 49
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Encore
-- Body Slam
-- Aurora Beam
-- Water Pulse
-
-Kingdra
-Level: 49
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Crabhammer
-- Taunt
-- Leer
-
-Haxorus
 Level: 50
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Water Pulse
-- Double Team
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dragon Cheer
+- Stealth Rock
+- Dragon Tail
+- Flash Cannon
+
+Dragalge @ Black Sludge
+Level: 50
+Ability: Poison Point
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sludge Bomb
+- Shadow Ball
+- Muddy Water
+- Toxic
+
+Tyrantrum @ Quick Claw
+Level: 51
+Ability: Strong Jaw
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Crunch
+- Thunder Fang
+- Fire Fang
+- Rock Slide
+
+Kingdra @ Scope Lens
+Level: 51
+Ability: Sniper
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Focus Energy
+- Dragon Pulse
 - Ice Beam
-- Rest
+- Scald
+
+Haxorus @ Life Orb
+Level: 52
+Ability: Mold Breaker
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Dragon Dance
+- Breaking Swipe
+- Poison Jab
+- X-Scissor
 
 === TRAINER_JUAN_8 ===
 Name: Sabre
@@ -16053,49 +17153,53 @@ Class: Moderator
 Pic: Leader Juan
 Gender: Male
 Music: Male
-Items: Hyper Potion / Hyper Potion
+Items: Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Duraludon
-Level: 53
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Attract
-- Sweet Kiss
-- Flail
+Duraludon @ Leftovers
+Level: 56
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Dragon Cheer
+- Stealth Rock
+- Dragon Tail
+- Flash Cannon
 
-Dragalge
-Level: 53
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rain Dance
-- Water Pulse
-- Amnesia
-- Earthquake
+Dragalge @ Black Sludge
+Level: 56
+Ability: Poison Point
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Sludge Bomb
+- Shadow Ball
+- Muddy Water
+- Toxic
 
-Tyrantrum
-Level: 54
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Encore
-- Body Slam
-- Aurora Beam
-- Water Pulse
+Tyrantrum @ Quick Claw
+Level: 57
+Ability: Strong Jaw
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Crunch
+- Thunder Fang
+- Fire Fang
+- Rock Slide
 
-Kingdra
-Level: 54
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Crabhammer
-- Taunt
-- Leer
-
-Haxorus
-Level: 55
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Water Pulse
-- Double Team
+Kingdra @ Scope Lens
+Level: 57
+Ability: Sniper
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Focus Energy
+- Dragon Pulse
 - Ice Beam
-- Rest
+- Scald
+
+Haxorus @ Life Orb
+Level: 58
+Ability: Mold Breaker
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Dance
+- Breaking Swipe
+- Poison Jab
+- X-Scissor
 
 === TRAINER_ANGELO ===
 Name: ANGELO

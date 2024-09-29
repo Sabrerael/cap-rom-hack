@@ -720,21 +720,21 @@
 #define TRAINER_CHARLOTTE                   714
 #define TRAINER_DEANDRE                     715
 #define TRAINER_GRUNT_MAGMA_HIDEOUT_1       716
-#define TRAINER_GRUNT_MAGMA_HIDEOUT_2       717
-#define TRAINER_GRUNT_MAGMA_HIDEOUT_3       718
-#define TRAINER_GRUNT_MAGMA_HIDEOUT_4       719
-#define TRAINER_GRUNT_MAGMA_HIDEOUT_5       720
-#define TRAINER_GRUNT_MAGMA_HIDEOUT_6       721
-#define TRAINER_GRUNT_MAGMA_HIDEOUT_7       722
-#define TRAINER_GRUNT_MAGMA_HIDEOUT_8       723
-#define TRAINER_GRUNT_MAGMA_HIDEOUT_9       724
-#define TRAINER_GRUNT_MAGMA_HIDEOUT_10      725
-#define TRAINER_GRUNT_MAGMA_HIDEOUT_11      726
-#define TRAINER_GRUNT_MAGMA_HIDEOUT_12      727
-#define TRAINER_GRUNT_MAGMA_HIDEOUT_13      728
-#define TRAINER_GRUNT_MAGMA_HIDEOUT_14      729
-#define TRAINER_GRUNT_MAGMA_HIDEOUT_15      730
-#define TRAINER_GRUNT_MAGMA_HIDEOUT_16      731
+#define TRAINER_BRAWLY_6                    717
+#define TRAINER_BRAWLY_7                    718
+#define TRAINER_BRAWLY_8                    719
+#define TRAINER_WATTSON_6                   720
+#define TRAINER_WATTSON_7                   721
+#define TRAINER_WATTSON_8                   722
+#define TRAINER_FLANNERY_6                  723
+#define TRAINER_FLANNERY_7                  724
+#define TRAINER_FLANNERY_8                  725
+#define TRAINER_WINONA_6                    726
+#define TRAINER_WINONA_7                    727
+#define TRAINER_WINONA_8                    728
+#define TRAINER_TATE_AND_LIZA_6             729
+#define TRAINER_TATE_AND_LIZA_7             730
+#define TRAINER_TATE_AND_LIZA_8             731
 #define TRAINER_TABITHA_MAGMA_HIDEOUT       732
 #define TRAINER_DARCY                       733
 #define TRAINER_MAXIE_MOSSDEEP              734
@@ -858,12 +858,21 @@
 #define TRAINER_LEAF                        852
 #define TRAINER_BRENDAN_PLACEHOLDER         853
 #define TRAINER_MAY_PLACEHOLDER             854
+#define TRAINER_JUAN_6                      855
+#define TRAINER_JUAN_7                      856
+#define TRAINER_JUAN_8                      857
+#define TRAINER_ROXANNE_6                   858
+#define TRAINER_ROXANNE_7                   859
+#define TRAINER_ROXANNE_8                   860
+#define TRAINER_NORMAN_6                    861
+#define TRAINER_NORMAN_7                    862
+#define TRAINER_NORMAN_8                    863
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT                      855
+#define TRAINERS_COUNT                      864
 #define MAX_TRAINERS_COUNT                  864
 #define TRAINER_PARTNER(partner)           (MAX_TRAINERS_COUNT + partner)
 

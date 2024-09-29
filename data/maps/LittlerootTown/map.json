@@ -164,7 +164,7 @@
       "x": 4,
       "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_STARTING_TOWN_RYANS_HOUSE_1F",
+      "dest_map": "MAP_STARTING_TOWN",
       "dest_warp_id": "0"
     }
   ],
