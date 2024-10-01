@@ -26,14 +26,14 @@
         },
     },
 #line 84
-    [TRAINER_SAWYER_1] =
+    [TRAINER_DARK_PSYSTORM] =
     {
 #line 85
-        .trainerName = _("SAWYER"),
+        .trainerName = _("PsyStorm"),
 #line 86
-        .trainerClass = TRAINER_CLASS_HIKER,
+        .trainerClass = TRAINER_CLASS_VIEWER,
 #line 87
-        .trainerPic = TRAINER_PIC_HIKER,
+        .trainerPic = TRAINER_PIC_COOLTRAINER,
         .encounterMusic_gender = 
 #line 89
             TRAINER_ENCOUNTER_MUSIC_HIKER,
@@ -46,12 +46,12 @@
         {
             {
 #line 93
-            .species = SPECIES_GEODUDE,
+            .species = SPECIES_INFERNAPE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 95
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
 #line 94
-            .lvl = 21,
+            .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },

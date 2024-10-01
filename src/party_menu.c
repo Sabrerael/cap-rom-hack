@@ -5624,6 +5624,10 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
             ScheduleBgCopyTilemapToVram(2);
             gTasks[taskId].func = task;
         }
+
+        if (sFinalLevel > VarGet(VAR_HIGHEST_LEVEL)) {
+            VarSet(VAR_HIGHEST_LEVEL, sFinalLevel);
+        }
     }
 }
 

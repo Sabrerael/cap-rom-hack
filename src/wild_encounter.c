@@ -311,19 +311,49 @@ static u8 ChooseWildMonLevel(const struct WildPokemon *wildPokemon, u8 wildMonIn
     u8 max;
     u8 range;
     u8 rand;
+    u8 levelCap;
 
     if (LURE_STEP_COUNT == 0)
     {
-        // Make sure minimum level is less than maximum level
-        if (wildPokemon[wildMonIndex].maxLevel >= wildPokemon[wildMonIndex].minLevel)
-        {
-            min = wildPokemon[wildMonIndex].minLevel;
-            max = wildPokemon[wildMonIndex].maxLevel;
+        u16 highestLevel = VarGet(VAR_HIGHEST_LEVEL);
+        u16 badgesCollected = VarGet(VAR_BADGES_COLLECTED);
+        if (badgesCollected == 0) {
+            levelCap = 16;
+        } else if (badgesCollected == 1) {
+            levelCap = 22;
+        } else if (badgesCollected == 2) {
+            levelCap = 28;
+        } else if (badgesCollected == 3) {
+            levelCap = 34;
+        } else if (badgesCollected == 4) {
+            levelCap = 40;
+        } else if (badgesCollected == 5) {
+            levelCap = 46;
+        } else if (badgesCollected == 6) {
+            levelCap = 52;
+        } else if (badgesCollected == 7) {
+            levelCap = 58;
+        } else {
+            levelCap = 65;
         }
-        else
-        {
-            min = wildPokemon[wildMonIndex].maxLevel;
-            max = wildPokemon[wildMonIndex].minLevel;
+
+        // Make sure minimum level is less than maximum level
+        //if (wildPokemon[wildMonIndex].maxLevel >= wildPokemon[wildMonIndex].minLevel)
+        //{
+            //min = wildPokemon[wildMonIndex].minLevel;
+            //max = wildPokemon[wildMonIndex].maxLevel;
+        //}
+        //else
+        //{
+            //min = wildPokemon[wildMonIndex].maxLevel;
+            //max = wildPokemon[wildMonIndex].minLevel;
+        //}
+        if (highestLevel >= levelCap-1) {
+            min = levelCap - 3;
+            max = levelCap - 2;
+        } else {
+            min = highestLevel - 2;
+            max = highestLevel;
         }
         range = max - min + 1;
         rand = Random() % range;

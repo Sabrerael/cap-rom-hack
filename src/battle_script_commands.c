@@ -4533,6 +4533,11 @@ static void Cmd_getexp(void)
                         SWAP(gBattleMons[battler].attack, gBattleMons[battler].defense, temp);
                 }
 
+                u16 currentLevel = GetMonData(&gPlayerParty[*expMonId], MON_DATA_LEVEL);
+                if (currentLevel > VarGet(VAR_HIGHEST_LEVEL)) {
+                    VarSet(VAR_HIGHEST_LEVEL, currentLevel);
+                }
+
                 gBattleScripting.getexpState = 5;
             }
             else
