@@ -33,7 +33,7 @@
 #line 86
         .trainerClass = TRAINER_CLASS_VIEWER,
 #line 87
-        .trainerPic = TRAINER_PIC_COOLTRAINER,
+        .trainerPic = TRAINER_PIC_COOLTRAINER_M,
         .encounterMusic_gender = 
 #line 89
             TRAINER_ENCOUNTER_MUSIC_HIKER,
@@ -51,7 +51,7 @@
 #line 95
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
 #line 94
-            .lvl = 36,
+            .lvl = 10,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
