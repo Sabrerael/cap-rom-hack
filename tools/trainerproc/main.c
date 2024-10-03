@@ -58,6 +58,9 @@ struct Pokemon
     int level;
     int level_line;
 
+    int levelModifier;
+    int level_modifier_line;
+
     struct String ball;
     int ball_line;
 
@@ -1300,6 +1303,14 @@ static bool parse_trainer(struct Parser *p, const struct Parsed *parsed, struct 
                 if (!token_int(p, &value, &pokemon->level))
                     any_error = !show_parse_error(p);
             }
+            else if (is_literal_token(&key, "Level Modifier"))
+            {
+                if (pokemon->level_modifier_line)
+                    any_error = !set_show_parse_error(p, key.location, "duplicate 'Level Modifier'");
+                pokemon->level_modifier_line = value.location.line;
+                if (!token_int(p, &value, &pokemon->levelModifier))
+                    any_error = !show_parse_error(p);
+            }
             else if (is_literal_token(&key, "Ball"))
             {
                 if (pokemon->ball_line)
@@ -1355,7 +1366,7 @@ static bool parse_trainer(struct Parser *p, const struct Parsed *parsed, struct 
             }
             else
             {
-                any_error = !set_show_parse_error(p, key.location, "expected one of 'EVs', 'IVs', 'Ability', 'Level', 'Ball', 'Happiness', 'Nature', 'Shiny', 'Dynamax Level', 'Gigantamax', or 'Tera Type'");
+                any_error = !set_show_parse_error(p, key.location, "expected one of 'EVs', 'IVs', 'Ability', 'Level', 'Level Modifier', 'Ball', 'Happiness', 'Nature', 'Shiny', 'Dynamax Level', 'Gigantamax', or 'Tera Type'");
             }
         }
 
@@ -1782,6 +1793,12 @@ static void fprint_trainers(const char *output_path, FILE *f, struct Parsed *par
             {
                 fprintf(f, "#line %d\n", pokemon->level_line);
                 fprintf(f, "            .lvl = %d,\n", pokemon->level);
+            }
+
+            if (pokemon->level_modifier_line)
+            {
+                fprintf(f, "#line %d\n", pokemon->level_modifier_line);
+                fprintf(f, "            .levelModifier = %d,\n", pokemon->levelModifier);
             }
 
             if (pokemon->ball_line)

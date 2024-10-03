@@ -1939,6 +1939,36 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
             monsCount = trainer->partySize;
         }
 
+        u8 maxLevel;
+        u8 levelCap;
+        u16 highestLevel = VarGet(VAR_HIGHEST_LEVEL);
+        u16 badgesCollected = VarGet(VAR_BADGES_COLLECTED);
+        if (badgesCollected == 0) {
+            levelCap = 16;
+        } else if (badgesCollected == 1) {
+            levelCap = 22;
+        } else if (badgesCollected == 2) {
+            levelCap = 28;
+        } else if (badgesCollected == 3) {
+            levelCap = 34;
+        } else if (badgesCollected == 4) {
+            levelCap = 40;
+        } else if (badgesCollected == 5) {
+            levelCap = 46;
+        } else if (badgesCollected == 6) {
+            levelCap = 52;
+        } else if (badgesCollected == 7) {
+            levelCap = 58;
+        } else {
+            levelCap = 65;
+        }
+
+        if (highestLevel >= levelCap) {
+            maxLevel = levelCap;
+        } else {
+            maxLevel = highestLevel;
+        }
+
         for (i = 0; i < monsCount; i++)
         {
             s32 ball = -1;
@@ -1968,7 +1998,15 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
                 otIdType = OT_ID_PRESET;
                 fixedOtId = HIHALF(personalityValue) ^ LOHALF(personalityValue);
             }
-            CreateMon(&party[i], partyData[i].species, partyData[i].lvl, 0, TRUE, personalityValue, otIdType, fixedOtId);
+
+            s32 level;
+            if (partyData[i].levelModifier >= 0) {
+                level = maxLevel - partyData[i].levelModifier;
+            } else {
+                level = partyData[i].lvl;
+            }
+
+            CreateMon(&party[i], partyData[i].species, level, 0, TRUE, personalityValue, otIdType, fixedOtId);
             SetMonData(&party[i], MON_DATA_HELD_ITEM, &partyData[i].heldItem);
 
             CustomTrainerPartyAssignMoves(&party[i], &partyData[i]);
@@ -2033,6 +2071,10 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
             {
                 u32 data = partyData[i].teraType;
                 SetMonData(&party[i], MON_DATA_TERA_TYPE, &data);
+            }
+            if (partyData[i].levelModifier >= 0) {
+                u32 data = maxLevel - partyData[i].levelModifier;
+                SetMonData(&party[i], MON_DATA_LEVEL, &data); 
             }
             CalculateMonStats(&party[i]);
 

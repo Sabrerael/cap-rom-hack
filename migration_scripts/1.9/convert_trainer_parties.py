@@ -14,6 +14,7 @@ end_party_definition     = re.compile(r'^};')
 begin_pokemon_definition = re.compile(r'^    { *$')
 end_pokemon_definition   = re.compile(r'^    },? *$')
 level_definition         = re.compile(r'\.lvl = (\d+)')
+level_modifier_definition = re.compile(r'\.levelModifier = (\d+)')
 species_definition       = re.compile(r'\.species = SPECIES_(\w+)')
 gender_definition        = re.compile(r'\.gender = TRAINER_MON_(\w+)')
 nickname_definition      = re.compile(r'\.nickname = COMPOUND_STRING\("([^"]+)"\)')
@@ -119,6 +120,9 @@ def convert_parties(in_path, in_h):
             elif m := level_definition.search(line):
                 [level] = m.groups()
                 pokemon.attributes['Level'] = level
+            elif m := level_modifier_definition.search(line):
+                [levelModifier] = m.groups()
+                pokemon.attributes['Level Modifier'] = levelModifier
             elif m := species_definition.search(line):
                 [species_] = m.groups()
                 for match, replacement in species_replacements.items():

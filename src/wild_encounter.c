@@ -349,10 +349,10 @@ static u8 ChooseWildMonLevel(const struct WildPokemon *wildPokemon, u8 wildMonIn
             //max = wildPokemon[wildMonIndex].minLevel;
         //}
         if (highestLevel >= levelCap-1) {
-            min = levelCap - 3;
+            min = levelCap - 4;
             max = levelCap - 2;
         } else {
-            min = highestLevel - 2;
+            min = highestLevel - 4;
             max = highestLevel;
         }
         range = max - min + 1;
