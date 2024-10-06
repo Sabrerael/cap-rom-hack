@@ -97,7 +97,8 @@
     "StartingTown",
     "Route1",
     "Route2",
-    "Route3"
+    "Route3",
+    "Route4"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -629,8 +630,9 @@
   "gMapGroup_IndoorStartingTown": [
     "StartingTown_RyansHouse_1F",
     "StartingTown_RyansHouse_2F",
+    "StartingTown_GymLeaderTest",
     "StartingTown_PokemonCenter_1F",
-    "StartingTown_PokeMart",
-    "StartingTown_GymLeaderTest"
+    "StartingTown_PokemonCenter_2F",
+    "StartingTown_PokemonMart"
   ]
 }

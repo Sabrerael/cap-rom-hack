@@ -1081,10 +1081,6 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/StartingTown/scripts.inc"
 
-	.include "data/maps/StartingTown_PokemonCenter_1F/scripts.inc"
-
-	.include "data/maps/StartingTown_PokeMart/scripts.inc"
-
 	.include "data/maps/StartingTown_GymLeaderTest/scripts.inc"
 
 	.include "data/maps/Route1/scripts.inc"
@@ -1092,3 +1088,11 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route2/scripts.inc"
 
 	.include "data/maps/Route3/scripts.inc"
+
+	.include "data/maps/StartingTown_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/StartingTown_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/StartingTown_PokemonMart/scripts.inc"
+
+	.include "data/maps/Route4/scripts.inc"

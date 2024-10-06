@@ -9,6 +9,10 @@
 - Slightly modified the game intro
 - Added some initial Moderator teams and changed the names and class of the Gym Leaders
 
+# 9/27 - 10/6
+- Added level scaling for wild Pokemon and for Trainer battles
+- Added 4 new routes with new Pokemon to catch
+- The Pokemon Center and Mart in the Starting Town should now be functional
 
 # Pokeemerald-Expansion Changelogs
 

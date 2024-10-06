@@ -1,8 +1,8 @@
 {
-  "id": "MAP_STARTING_TOWN_POKE_MART",
-  "name": "StartingTown_PokeMart",
-  "layout": "LAYOUT_STARTING_TOWN_POKE_MART",
-  "music": "MUS_LITTLEROOT",
+  "id": "MAP_STARTING_TOWN_POKEMON_CENTER_2F",
+  "name": "StartingTown_PokemonCenter_2F",
+  "layout": "LAYOUT_POKEMON_CENTER_2F",
+  "music": "MUS_POKE_CENTER",
   "region_map_section": "MAPSEC_STARTING_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -17,7 +17,13 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 1,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_STARTING_TOWN_POKEMON_CENTER_1F",
+      "dest_warp_id": "2"
+    }
   ],
   "coord_events": [
 

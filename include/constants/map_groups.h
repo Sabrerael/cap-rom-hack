@@ -67,6 +67,7 @@
 #define MAP_ROUTE1              (58 | (0 << 8))
 #define MAP_ROUTE2              (59 | (0 << 8))
 #define MAP_ROUTE3              (60 | (0 << 8))
+#define MAP_ROUTE4              (61 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (1 << 8))
@@ -598,9 +599,10 @@
 // gMapGroup_IndoorStartingTown
 #define MAP_STARTING_TOWN_RYANS_HOUSE_1F    (0 | (34 << 8))
 #define MAP_STARTING_TOWN_RYANS_HOUSE_2F    (1 | (34 << 8))
-#define MAP_STARTING_TOWN_POKEMON_CENTER_1F (2 | (34 << 8))
-#define MAP_STARTING_TOWN_POKE_MART         (3 | (34 << 8))
-#define MAP_STARTING_TOWN_GYM_LEADER_TEST   (4 | (34 << 8))
+#define MAP_STARTING_TOWN_GYM_LEADER_TEST   (2 | (34 << 8))
+#define MAP_STARTING_TOWN_POKEMON_CENTER_1F (3 | (34 << 8))
+#define MAP_STARTING_TOWN_POKEMON_CENTER_2F (4 | (34 << 8))
+#define MAP_STARTING_TOWN_POKEMON_MART      (5 | (34 << 8))
 
 #define MAP_GROUPS_COUNT 35
 

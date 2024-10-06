@@ -4442,26 +4442,6 @@
       "blockdata_filepath": "data/layouts/StartingTown/map.bin"
     },
     {
-      "id": "LAYOUT_STARTING_TOWN_POKEMON_CENTER_1F",
-      "name": "StartingTown_PokemonCenter_1F_Layout",
-      "width": 14,
-      "height": 9,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_PokemonCenter",
-      "border_filepath": "data/layouts/StartingTown_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/StartingTown_PokemonCenter_1F/map.bin"
-    },
-    {
-      "id": "LAYOUT_STARTING_TOWN_POKE_MART",
-      "name": "StartingTown_PokeMart_Layout",
-      "width": 11,
-      "height": 8,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_Shop",
-      "border_filepath": "data/layouts/StartingTown_PokeMart/border.bin",
-      "blockdata_filepath": "data/layouts/StartingTown_PokeMart/map.bin"
-    },
-    {
       "id": "LAYOUT_STARTING_TOWN_GYM_LEADER_TEST",
       "name": "StartingTown_GymLeaderTest_Layout",
       "width": 20,
@@ -4500,6 +4480,16 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/Route3/border.bin",
       "blockdata_filepath": "data/layouts/Route3/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE4",
+      "name": "Route4_Layout",
+      "width": 20,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Route4/border.bin",
+      "blockdata_filepath": "data/layouts/Route4/map.bin"
     }
   ]
 }

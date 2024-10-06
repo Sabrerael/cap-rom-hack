@@ -17,6 +17,16 @@
       "map": "MAP_ROUTE1",
       "offset": 0,
       "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE2",
+      "offset": 0,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE3",
+      "offset": 0,
+      "direction": "up"
     }
   ],
   "object_events": [
@@ -41,14 +51,14 @@
       "x": 14,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_STARTING_TOWN",
+      "dest_map": "MAP_STARTING_TOWN_POKEMON_CENTER_1F",
       "dest_warp_id": "0"
     },
     {
       "x": 14,
       "y": 13,
       "elevation": 0,
-      "dest_map": "MAP_STARTING_TOWN",
+      "dest_map": "MAP_STARTING_TOWN_POKEMON_MART",
       "dest_warp_id": "0"
     },
     {
