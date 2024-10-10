@@ -4490,6 +4490,26 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/Route4/border.bin",
       "blockdata_filepath": "data/layouts/Route4/map.bin"
+    },
+    {
+      "id": "LAYOUT_MIDDLE_TOWN_WEST",
+      "name": "MiddleTownWest_Layout",
+      "width": 30,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/MiddleTownWest/border.bin",
+      "blockdata_filepath": "data/layouts/MiddleTownWest/map.bin"
+    },
+    {
+      "id": "LAYOUT_MIDDLE_TOWN_EAST",
+      "name": "MiddleTownEast_Layout",
+      "width": 30,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/MiddleTownEast/border.bin",
+      "blockdata_filepath": "data/layouts/MiddleTownEast/map.bin"
     }
   ]
 }

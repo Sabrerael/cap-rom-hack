@@ -34,7 +34,9 @@
     "gMapGroup_IndoorRoute123",
     "gMapGroup_IndoorRoute119",
     "gMapGroup_IndoorRoute124",
-    "gMapGroup_IndoorStartingTown"
+    "gMapGroup_IndoorStartingTown",
+    "gMapGroup_IndoorMiddleTownWest",
+    "gMapGroup_IndoorMiddleTownEast"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -98,7 +100,9 @@
     "Route1",
     "Route2",
     "Route3",
-    "Route4"
+    "Route4",
+    "MiddleTownWest",
+    "MiddleTownEast"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -634,5 +638,15 @@
     "StartingTown_PokemonCenter_1F",
     "StartingTown_PokemonCenter_2F",
     "StartingTown_PokemonMart"
+  ],
+  "gMapGroup_IndoorMiddleTownWest": [
+    "MiddleTownWest_PokemonCenter_1F",
+    "MiddleTownWest_PokemonCenter_2F",
+    "MiddleTownWest_Mart"
+  ],
+  "gMapGroup_IndoorMiddleTownEast": [
+    "MiddleTownEast_Mart",
+    "MiddleTownEast_PokemonCenter_1F",
+    "MiddleTownEast_PokemonCenter_2F"
   ]
 }

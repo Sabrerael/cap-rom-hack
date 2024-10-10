@@ -17,6 +17,11 @@
       "map": "MAP_STARTING_TOWN",
       "offset": 0,
       "direction": "left"
+    },
+    {
+      "map": "MAP_MIDDLE_TOWN_EAST",
+      "offset": -6,
+      "direction": "right"
     }
   ],
   "object_events": [

@@ -573,6 +573,17 @@ gStdScripts_End::
 	.include "data/maps/Route119_WeatherInstitute_2F/scripts.inc"
 	.include "data/maps/Route119_House/scripts.inc"
 	.include "data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc"
+	.include "data/maps/StartingTown_RyansHouse_1F/scripts.inc"
+	.include "data/maps/StartingTown_RyansHouse_2F/scripts.inc"
+	.include "data/maps/StartingTown/scripts.inc"
+	.include "data/maps/StartingTown_GymLeaderTest/scripts.inc"
+	.include "data/maps/Route1/scripts.inc"
+	.include "data/maps/Route2/scripts.inc"
+	.include "data/maps/Route3/scripts.inc"
+	.include "data/maps/StartingTown_PokemonCenter_1F/scripts.inc"
+	.include "data/maps/StartingTown_PokemonCenter_2F/scripts.inc"
+	.include "data/maps/StartingTown_PokemonMart/scripts.inc"
+	.include "data/maps/Route4/scripts.inc"
 
 	.include "data/scripts/std_msgbox.inc"
 	.include "data/scripts/trainer_battle.inc"
@@ -1075,24 +1086,18 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
 
-	.include "data/maps/StartingTown_RyansHouse_1F/scripts.inc"
+	.include "data/maps/MiddleTownWest/scripts.inc"
 
-	.include "data/maps/StartingTown_RyansHouse_2F/scripts.inc"
+	.include "data/maps/MiddleTownEast/scripts.inc"
 
-	.include "data/maps/StartingTown/scripts.inc"
+	.include "data/maps/MiddleTownWest_PokemonCenter_1F/scripts.inc"
 
-	.include "data/maps/StartingTown_GymLeaderTest/scripts.inc"
+	.include "data/maps/MiddleTownWest_PokemonCenter_2F/scripts.inc"
 
-	.include "data/maps/Route1/scripts.inc"
+	.include "data/maps/MiddleTownWest_Mart/scripts.inc"
 
-	.include "data/maps/Route2/scripts.inc"
+	.include "data/maps/MiddleTownEast_Mart/scripts.inc"
 
-	.include "data/maps/Route3/scripts.inc"
+	.include "data/maps/MiddleTownEast_PokemonCenter_1F/scripts.inc"
 
-	.include "data/maps/StartingTown_PokemonCenter_1F/scripts.inc"
-
-	.include "data/maps/StartingTown_PokemonCenter_2F/scripts.inc"
-
-	.include "data/maps/StartingTown_PokemonMart/scripts.inc"
-
-	.include "data/maps/Route4/scripts.inc"
+	.include "data/maps/MiddleTownEast_PokemonCenter_2F/scripts.inc"
