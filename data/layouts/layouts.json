@@ -4510,6 +4510,26 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/MiddleTownEast/border.bin",
       "blockdata_filepath": "data/layouts/MiddleTownEast/map.bin"
+    },
+    {
+      "id": "LAYOUT_MIDDLE_TOWN_NORTH",
+      "name": "MiddleTownNorth_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/MiddleTownNorth/border.bin",
+      "blockdata_filepath": "data/layouts/MiddleTownNorth/map.bin"
+    },
+    {
+      "id": "LAYOUT_MIDDLE_TOWN_SOUTH",
+      "name": "MiddleTownSouth_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/MiddleTownSouth/border.bin",
+      "blockdata_filepath": "data/layouts/MiddleTownSouth/map.bin"
     }
   ]
 }

@@ -70,6 +70,8 @@
 #define MAP_ROUTE4              (61 | (0 << 8))
 #define MAP_MIDDLE_TOWN_WEST    (62 | (0 << 8))
 #define MAP_MIDDLE_TOWN_EAST    (63 | (0 << 8))
+#define MAP_MIDDLE_TOWN_NORTH   (64 | (0 << 8))
+#define MAP_MIDDLE_TOWN_SOUTH   (65 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (1 << 8))
@@ -612,10 +614,20 @@
 #define MAP_MIDDLE_TOWN_WEST_MART              (2 | (35 << 8))
 
 // gMapGroup_IndoorMiddleTownEast
-#define MAP_MIDDLE_TOWN_EAST_MART              (0 | (36 << 8))
-#define MAP_MIDDLE_TOWN_EAST_POKEMON_CENTER_1F (1 | (36 << 8))
-#define MAP_MIDDLE_TOWN_EAST_POKEMON_CENTER_2F (2 | (36 << 8))
+#define MAP_MIDDLE_TOWN_EAST_POKEMON_CENTER_1F (0 | (36 << 8))
+#define MAP_MIDDLE_TOWN_EAST_POKEMON_CENTER_2F (1 | (36 << 8))
+#define MAP_MIDDLE_TOWN_EAST_MART              (2 | (36 << 8))
 
-#define MAP_GROUPS_COUNT 37
+// gMapGroup_IndoorMiddleTownNorth
+#define MAP_MIDDLE_TOWN_NORTH_POKEMON_CENTER_1F (0 | (37 << 8))
+#define MAP_MIDDLE_TOWN_NORTH_POKEMON_CENTER_2F (1 | (37 << 8))
+#define MAP_MIDDLE_TOWN_NORTH_MART              (2 | (37 << 8))
+
+// gMapGroup_IndoorMiddleTownSouth
+#define MAP_MIDDLE_TOWN_SOUTH_POKEMON_CENTER_1F (0 | (38 << 8))
+#define MAP_MIDDLE_TOWN_SOUTH_POKEMON_CENTER_2F (1 | (38 << 8))
+#define MAP_MIDDLE_TOWN_SOUTH_MART              (2 | (38 << 8))
+
+#define MAP_GROUPS_COUNT 39
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

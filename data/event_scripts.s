@@ -1101,3 +1101,19 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/MiddleTownEast_PokemonCenter_1F/scripts.inc"
 
 	.include "data/maps/MiddleTownEast_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/MiddleTownNorth/scripts.inc"
+
+	.include "data/maps/MiddleTownSouth/scripts.inc"
+
+	.include "data/maps/MiddleTownNorth_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/MiddleTownSouth_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/MiddleTownNorth_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/MiddleTownNorth_Mart/scripts.inc"
+
+	.include "data/maps/MiddleTownSouth_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/MiddleTownSouth_Mart/scripts.inc"

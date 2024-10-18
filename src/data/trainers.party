@@ -15836,59 +15836,59 @@ Items: Potion / Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Risky
 
-Stunfisk @ Quick Claw
+Bellibolt @ Leftovers
 Level: 14
-Ability: Static
+Ability: Electromorphosis
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Muddy Water
-- Sludge Wave
-- Thunderbolt
-- Fissure
+- Toxic
+- Slack Off
+- Volt Switch
+- Soak
 
-Kilowattrel @ Magnet
+Magnezone @ Assault Vest
 Level: 14
-Ability: Wind Power
+Ability: Analytic
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Discharge
-- Hurricane
-- Roost
-- Electro Ball
-
-Raikou @ Damp Rock
-Level: 14
-Ability: Pressure
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Extrasensory
-- Thunder
-- Rain Dance
-- Extreme Speed
-
-Thundurus @ Wise Glasses
-Level: 15
-Ability: Prankster
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Dark Pulse
-- Nasty Plot
 - Flash Cannon
-- Wildbolt Storm
+- Volt Switch
+- Body Press
 
-Zekrom @ Muscle Band
+Rotom-Wash @ Leftovers
+Level: 14
+Ability: Levitate
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Hydro Pump
+- Volt Switch
+- Will-O-Wisp
+- Pain Split
+
+Sandy Shocks @ Leftovers
 Level: 15
-Ability: Teravolt
+Ability: Protosynthesis
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Volt Switch
+- Earth Power
+- Spikes
+- Stealth Rock
+
+Stunfisk @ Leftovers
+Level: 15
+Ability: Static
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Slide
 - Shadow Claw
 - Dragon Claw
 - Fusion Bolt
 
-Zapdos @ Leftovers
+Zekrom @ Life Orb
 Level: 16
-Ability: Pressure
+Ability: Teravolt
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rain Dance
-- Thunder
-- Ancient Power
-- Hyper Beam
+- Dragon Dance
+- Draco Meteor
+- Dragon Claw
+- Bolt Strike
 
 === TRAINER_WINONA_2 ===
 Name: Tmoney
@@ -15945,14 +15945,14 @@ IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Dragon Claw
 - Fusion Bolt
 
-Zapdos @ Leftovers
+Zekrom @ Life Orb
 Level: 22
-Ability: Pressure
+Ability: Teravolt
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Rain Dance
-- Thunder
-- Ancient Power
-- Hyper Beam
+- Dragon Dance
+- Draco Meteor
+- Dragon Claw
+- Bolt Strike
 
 === TRAINER_WINONA_3 ===
 Name: Tmoney
@@ -16009,14 +16009,14 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Dragon Claw
 - Fusion Bolt
 
-Zapdos @ Leftovers
+Zekrom @ Life Orb
 Level: 28
-Ability: Pressure
+Ability: Teravolt
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Rain Dance
-- Thunder
-- Ancient Power
-- Hyper Beam
+- Dragon Dance
+- Draco Meteor
+- Dragon Claw
+- Bolt Strike
 
 === TRAINER_WINONA_4 ===
 Name: Tmoney
@@ -16073,14 +16073,14 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Dragon Claw
 - Fusion Bolt
 
-Zapdos @ Leftovers
+Zekrom @ Life Orb
 Level: 34
-Ability: Pressure
+Ability: Teravolt
 IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Rain Dance
-- Thunder
-- Ancient Power
-- Hyper Beam
+- Dragon Dance
+- Draco Meteor
+- Dragon Claw
+- Bolt Strike
 
 === TRAINER_WINONA_5 ===
 Name: Tmoney
@@ -16137,14 +16137,14 @@ IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Dragon Claw
 - Fusion Bolt
 
-Zapdos @ Leftovers
+Zekrom @ Life Orb
 Level: 40
-Ability: Pressure
+Ability: Teravolt
 IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
-- Rain Dance
-- Thunder
-- Ancient Power
-- Hyper Beam
+- Dragon Dance
+- Draco Meteor
+- Dragon Claw
+- Bolt Strike
 
 === TRAINER_WINONA_6 ===
 Name: Tmoney
@@ -16201,14 +16201,14 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 - Dragon Claw
 - Fusion Bolt
 
-Zapdos @ Leftovers
+Zekrom @ Life Orb
 Level: 46
-Ability: Pressure
+Ability: Teravolt
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-- Rain Dance
-- Thunder
-- Ancient Power
-- Hyper Beam
+- Dragon Dance
+- Draco Meteor
+- Dragon Claw
+- Bolt Strike
 
 === TRAINER_WINONA_7 ===
 Name: Tmoney
@@ -16265,14 +16265,14 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Dragon Claw
 - Fusion Bolt
 
-Zapdos @ Leftovers
+Zekrom @ Life Orb
 Level: 52
-Ability: Pressure
+Ability: Teravolt
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Rain Dance
-- Thunder
-- Ancient Power
-- Hyper Beam
+- Dragon Dance
+- Draco Meteor
+- Dragon Claw
+- Bolt Strike
 
 === TRAINER_WINONA_8 ===
 Name: Tmoney
@@ -16329,14 +16329,14 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Dragon Claw
 - Fusion Bolt
 
-Zapdos @ Leftovers
+Zekrom @ Life Orb
 Level: 58
-Ability: Pressure
+Ability: Teravolt
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rain Dance
-- Thunder
-- Ancient Power
-- Hyper Beam
+- Dragon Dance
+- Draco Meteor
+- Dragon Claw
+- Bolt Strike
 
 === TRAINER_TATE_AND_LIZA_1 ===
 Name: Tot

@@ -1,0 +1,2 @@
+MiddleTownSouth_Mart_MapScripts::
+	.byte 0
