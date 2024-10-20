@@ -1117,3 +1117,13 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/MiddleTownSouth_PokemonCenter_2F/scripts.inc"
 
 	.include "data/maps/MiddleTownSouth_Mart/scripts.inc"
+
+	.include "data/maps/CastleTownSabre_Gym/scripts.inc"
+
+	.include "data/maps/Route5/scripts.inc"
+
+	.include "data/maps/Route6/scripts.inc"
+
+	.include "data/maps/Route7/scripts.inc"
+
+	.include "data/maps/CastleTownSabre/scripts.inc"

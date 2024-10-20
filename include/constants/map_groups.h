@@ -72,6 +72,10 @@
 #define MAP_MIDDLE_TOWN_EAST    (63 | (0 << 8))
 #define MAP_MIDDLE_TOWN_NORTH   (64 | (0 << 8))
 #define MAP_MIDDLE_TOWN_SOUTH   (65 | (0 << 8))
+#define MAP_ROUTE5              (66 | (0 << 8))
+#define MAP_ROUTE6              (67 | (0 << 8))
+#define MAP_ROUTE7              (68 | (0 << 8))
+#define MAP_CASTLE_TOWN_SABRE   (69 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (1 << 8))
@@ -628,6 +632,11 @@
 #define MAP_MIDDLE_TOWN_SOUTH_POKEMON_CENTER_2F (1 | (38 << 8))
 #define MAP_MIDDLE_TOWN_SOUTH_MART              (2 | (38 << 8))
 
-#define MAP_GROUPS_COUNT 39
+// gMapGroup_IndoorCastleTownSabre
+#define MAP_CASTLE_TOWN_SABRE_GYM (0 | (39 << 8))
+
+// gMapGroup_IndoorCastleTownTmoney
+
+#define MAP_GROUPS_COUNT 41
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

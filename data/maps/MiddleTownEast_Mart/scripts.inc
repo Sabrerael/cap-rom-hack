@@ -22,4 +22,3 @@ MiddleTownEast_Mart_Pokemart:
 	.2byte ITEM_NONE
 	release
 	end
-	

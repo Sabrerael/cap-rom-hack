@@ -14,6 +14,13 @@
 - Added 4 new routes with new Pokemon to catch
 - The Pokemon Center and Mart in the Starting Town should now be functional
 
+# 10/20 
+- Fixed an issue with the new Pokemon Center
+- Added 4 new basic towns plus 1 partial town
+- Added 3 new routes
+- Made Running Shoes and National Dex available at the beginning
+- Fixed an issue where Pokemon caught at a certain level would disobey you without the right badge.
+
 # Pokeemerald-Expansion Changelogs
 
 ## 1.9.x

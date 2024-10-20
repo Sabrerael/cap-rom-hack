@@ -4515,7 +4515,7 @@
       "id": "LAYOUT_MIDDLE_TOWN_NORTH",
       "name": "MiddleTownNorth_Layout",
       "width": 20,
-      "height": 20,
+      "height": 30,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/MiddleTownNorth/border.bin",
@@ -4530,6 +4530,56 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/MiddleTownSouth/border.bin",
       "blockdata_filepath": "data/layouts/MiddleTownSouth/map.bin"
+    },
+    {
+      "id": "LAYOUT_CASTLE_TOWN_SABRE_GYM",
+      "name": "CastleTownSabre_Gym_Layout",
+      "width": 20,
+      "height": 30,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_MossdeepGym",
+      "border_filepath": "data/layouts/CastleTownSabre_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/CastleTownSabre_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE5",
+      "name": "Route5_Layout",
+      "width": 40,
+      "height": 26,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Route5/border.bin",
+      "blockdata_filepath": "data/layouts/Route5/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE6",
+      "name": "Route6_Layout",
+      "width": 26,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Route6/border.bin",
+      "blockdata_filepath": "data/layouts/Route6/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE7",
+      "name": "Route7_Layout",
+      "width": 40,
+      "height": 26,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Route7/border.bin",
+      "blockdata_filepath": "data/layouts/Route7/map.bin"
+    },
+    {
+      "id": "LAYOUT_CASTLE_TOWN_SABRE",
+      "name": "CastleTownSabre_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Slateport",
+      "border_filepath": "data/layouts/CastleTownSabre/border.bin",
+      "blockdata_filepath": "data/layouts/CastleTownSabre/map.bin"
     }
   ]
 }

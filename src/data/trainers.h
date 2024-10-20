@@ -39439,36 +39439,36 @@ F_TRAINER_FEMALE |
         {
             {
 #line 15839
-            .species = SPECIES_STUNFISK,
+            .species = SPECIES_BELLIBOLT,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 15839
-            .heldItem = ITEM_QUICK_CLAW,
+            .heldItem = ITEM_LEFTOVERS,
 #line 15842
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
 #line 15841
-            .ability = ABILITY_STATIC,
+            .ability = ABILITY_ELECTROMORPHOSIS,
 #line 15840
             .lvl = 14,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 15843
-                MOVE_MUDDY_WATER,
-                MOVE_SLUDGE_WAVE,
-                MOVE_THUNDERBOLT,
-                MOVE_FISSURE,
+                MOVE_TOXIC,
+                MOVE_SLACK_OFF,
+                MOVE_VOLT_SWITCH,
+                MOVE_SOAK,
             },
             },
             {
 #line 15848
-            .species = SPECIES_KILOWATTREL,
+            .species = SPECIES_MAGNEZONE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 15848
-            .heldItem = ITEM_MAGNET,
+            .heldItem = ITEM_ASSAULT_VEST,
 #line 15851
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
 #line 15850
-            .ability = ABILITY_WIND_POWER,
+            .ability = ABILITY_ANALYTIC,
 #line 15849
             .lvl = 14,
             .nature = NATURE_HARDY,
@@ -39476,65 +39476,65 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 15852
                 MOVE_DISCHARGE,
-                MOVE_HURRICANE,
-                MOVE_ROOST,
-                MOVE_ELECTRO_BALL,
+                MOVE_FLASH_CANNON,
+                MOVE_VOLT_SWITCH,
+                MOVE_BODY_PRESS,
             },
             },
             {
 #line 15857
-            .species = SPECIES_RAIKOU,
+            .species = SPECIES_ROTOM_WASH,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 15857
-            .heldItem = ITEM_DAMP_ROCK,
+            .heldItem = ITEM_LEFTOVERS,
 #line 15860
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
 #line 15859
-            .ability = ABILITY_PRESSURE,
+            .ability = ABILITY_LEVITATE,
 #line 15858
             .lvl = 14,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 15861
-                MOVE_EXTRASENSORY,
-                MOVE_THUNDER,
-                MOVE_RAIN_DANCE,
-                MOVE_EXTREME_SPEED,
+                MOVE_HYDRO_PUMP,
+                MOVE_VOLT_SWITCH,
+                MOVE_WILL_O_WISP,
+                MOVE_PAIN_SPLIT,
             },
             },
             {
 #line 15866
-            .species = SPECIES_THUNDURUS,
+            .species = SPECIES_SANDY_SHOCKS,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 15866
-            .heldItem = ITEM_WISE_GLASSES,
+            .heldItem = ITEM_LEFTOVERS,
 #line 15869
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
 #line 15868
-            .ability = ABILITY_PRANKSTER,
+            .ability = ABILITY_PROTOSYNTHESIS,
 #line 15867
             .lvl = 15,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 15870
-                MOVE_DARK_PULSE,
-                MOVE_NASTY_PLOT,
-                MOVE_FLASH_CANNON,
-                MOVE_WILDBOLT_STORM,
+                MOVE_VOLT_SWITCH,
+                MOVE_EARTH_POWER,
+                MOVE_SPIKES,
+                MOVE_STEALTH_ROCK,
             },
             },
             {
 #line 15875
-            .species = SPECIES_ZEKROM,
+            .species = SPECIES_STUNFISK,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 15875
-            .heldItem = ITEM_MUSCLE_BAND,
+            .heldItem = ITEM_LEFTOVERS,
 #line 15878
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
 #line 15877
-            .ability = ABILITY_TERAVOLT,
+            .ability = ABILITY_STATIC,
 #line 15876
             .lvl = 15,
             .nature = NATURE_HARDY,
@@ -39549,24 +39549,24 @@ F_TRAINER_FEMALE |
             },
             {
 #line 15884
-            .species = SPECIES_ZAPDOS,
+            .species = SPECIES_ZEKROM,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 15884
-            .heldItem = ITEM_LEFTOVERS,
+            .heldItem = ITEM_LIFE_ORB,
 #line 15887
             .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
 #line 15886
-            .ability = ABILITY_PRESSURE,
+            .ability = ABILITY_TERAVOLT,
 #line 15885
             .lvl = 16,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 15888
-                MOVE_RAIN_DANCE,
-                MOVE_THUNDER,
-                MOVE_ANCIENT_POWER,
-                MOVE_HYPER_BEAM,
+                MOVE_DRAGON_DANCE,
+                MOVE_DRACO_METEOR,
+                MOVE_DRAGON_CLAW,
+                MOVE_BOLT_STRIKE,
             },
             },
         },
@@ -39706,24 +39706,24 @@ F_TRAINER_FEMALE |
             },
             {
 #line 15948
-            .species = SPECIES_ZAPDOS,
+            .species = SPECIES_ZEKROM,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 15948
-            .heldItem = ITEM_LEFTOVERS,
+            .heldItem = ITEM_LIFE_ORB,
 #line 15951
             .iv = TRAINER_PARTY_IVS(26, 26, 26, 26, 26, 26),
 #line 15950
-            .ability = ABILITY_PRESSURE,
+            .ability = ABILITY_TERAVOLT,
 #line 15949
             .lvl = 22,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 15952
-                MOVE_RAIN_DANCE,
-                MOVE_THUNDER,
-                MOVE_ANCIENT_POWER,
-                MOVE_HYPER_BEAM,
+                MOVE_DRAGON_DANCE,
+                MOVE_DRACO_METEOR,
+                MOVE_DRAGON_CLAW,
+                MOVE_BOLT_STRIKE,
             },
             },
         },
@@ -39863,24 +39863,24 @@ F_TRAINER_FEMALE |
             },
             {
 #line 16012
-            .species = SPECIES_ZAPDOS,
+            .species = SPECIES_ZEKROM,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16012
-            .heldItem = ITEM_LEFTOVERS,
+            .heldItem = ITEM_LIFE_ORB,
 #line 16015
             .iv = TRAINER_PARTY_IVS(26, 26, 26, 26, 26, 26),
 #line 16014
-            .ability = ABILITY_PRESSURE,
+            .ability = ABILITY_TERAVOLT,
 #line 16013
             .lvl = 28,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16016
-                MOVE_RAIN_DANCE,
-                MOVE_THUNDER,
-                MOVE_ANCIENT_POWER,
-                MOVE_HYPER_BEAM,
+                MOVE_DRAGON_DANCE,
+                MOVE_DRACO_METEOR,
+                MOVE_DRAGON_CLAW,
+                MOVE_BOLT_STRIKE,
             },
             },
         },
@@ -40020,24 +40020,24 @@ F_TRAINER_FEMALE |
             },
             {
 #line 16076
-            .species = SPECIES_ZAPDOS,
+            .species = SPECIES_ZEKROM,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16076
-            .heldItem = ITEM_LEFTOVERS,
+            .heldItem = ITEM_LIFE_ORB,
 #line 16079
             .iv = TRAINER_PARTY_IVS(27, 27, 27, 27, 27, 27),
 #line 16078
-            .ability = ABILITY_PRESSURE,
+            .ability = ABILITY_TERAVOLT,
 #line 16077
             .lvl = 34,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16080
-                MOVE_RAIN_DANCE,
-                MOVE_THUNDER,
-                MOVE_ANCIENT_POWER,
-                MOVE_HYPER_BEAM,
+                MOVE_DRAGON_DANCE,
+                MOVE_DRACO_METEOR,
+                MOVE_DRAGON_CLAW,
+                MOVE_BOLT_STRIKE,
             },
             },
         },
@@ -40177,24 +40177,24 @@ F_TRAINER_FEMALE |
             },
             {
 #line 16140
-            .species = SPECIES_ZAPDOS,
+            .species = SPECIES_ZEKROM,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16140
-            .heldItem = ITEM_LEFTOVERS,
+            .heldItem = ITEM_LIFE_ORB,
 #line 16143
             .iv = TRAINER_PARTY_IVS(28, 28, 28, 28, 28, 28),
 #line 16142
-            .ability = ABILITY_PRESSURE,
+            .ability = ABILITY_TERAVOLT,
 #line 16141
             .lvl = 40,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16144
-                MOVE_RAIN_DANCE,
-                MOVE_THUNDER,
-                MOVE_ANCIENT_POWER,
-                MOVE_HYPER_BEAM,
+                MOVE_DRAGON_DANCE,
+                MOVE_DRACO_METEOR,
+                MOVE_DRAGON_CLAW,
+                MOVE_BOLT_STRIKE,
             },
             },
         },
@@ -40334,24 +40334,24 @@ F_TRAINER_FEMALE |
             },
             {
 #line 16204
-            .species = SPECIES_ZAPDOS,
+            .species = SPECIES_ZEKROM,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16204
-            .heldItem = ITEM_LEFTOVERS,
+            .heldItem = ITEM_LIFE_ORB,
 #line 16207
             .iv = TRAINER_PARTY_IVS(29, 29, 29, 29, 29, 29),
 #line 16206
-            .ability = ABILITY_PRESSURE,
+            .ability = ABILITY_TERAVOLT,
 #line 16205
             .lvl = 46,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16208
-                MOVE_RAIN_DANCE,
-                MOVE_THUNDER,
-                MOVE_ANCIENT_POWER,
-                MOVE_HYPER_BEAM,
+                MOVE_DRAGON_DANCE,
+                MOVE_DRACO_METEOR,
+                MOVE_DRAGON_CLAW,
+                MOVE_BOLT_STRIKE,
             },
             },
         },
@@ -40491,24 +40491,24 @@ F_TRAINER_FEMALE |
             },
             {
 #line 16268
-            .species = SPECIES_ZAPDOS,
+            .species = SPECIES_ZEKROM,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16268
-            .heldItem = ITEM_LEFTOVERS,
+            .heldItem = ITEM_LIFE_ORB,
 #line 16271
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 16270
-            .ability = ABILITY_PRESSURE,
+            .ability = ABILITY_TERAVOLT,
 #line 16269
             .lvl = 52,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16272
-                MOVE_RAIN_DANCE,
-                MOVE_THUNDER,
-                MOVE_ANCIENT_POWER,
-                MOVE_HYPER_BEAM,
+                MOVE_DRAGON_DANCE,
+                MOVE_DRACO_METEOR,
+                MOVE_DRAGON_CLAW,
+                MOVE_BOLT_STRIKE,
             },
             },
         },
@@ -40648,24 +40648,24 @@ F_TRAINER_FEMALE |
             },
             {
 #line 16332
-            .species = SPECIES_ZAPDOS,
+            .species = SPECIES_ZEKROM,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16332
-            .heldItem = ITEM_LEFTOVERS,
+            .heldItem = ITEM_LIFE_ORB,
 #line 16335
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 16334
-            .ability = ABILITY_PRESSURE,
+            .ability = ABILITY_TERAVOLT,
 #line 16333
             .lvl = 58,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16336
-                MOVE_RAIN_DANCE,
-                MOVE_THUNDER,
-                MOVE_ANCIENT_POWER,
-                MOVE_HYPER_BEAM,
+                MOVE_DRAGON_DANCE,
+                MOVE_DRACO_METEOR,
+                MOVE_DRAGON_CLAW,
+                MOVE_BOLT_STRIKE,
             },
             },
         },

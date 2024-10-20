@@ -17,6 +17,21 @@
       "map": "MAP_ROUTE3",
       "offset": 0,
       "direction": "down"
+    },
+    {
+      "map": "MAP_ROUTE5",
+      "offset": 2,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE6",
+      "offset": -3,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_ROUTE7",
+      "offset": 2,
+      "direction": "right"
     }
   ],
   "object_events": [
@@ -27,14 +42,14 @@
       "x": 4,
       "y": 16,
       "elevation": 0,
-      "dest_map": "MAP_MIDDLE_TOWN_NORTH",
+      "dest_map": "MAP_MIDDLE_TOWN_NORTH_POKEMON_CENTER_1F",
       "dest_warp_id": "0"
     },
     {
       "x": 16,
       "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_MIDDLE_TOWN_NORTH",
+      "dest_map": "MAP_MIDDLE_TOWN_NORTH_MART",
       "dest_warp_id": "0"
     }
   ],
