@@ -39541,10 +39541,10 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 15879
-                MOVE_ROCK_SLIDE,
-                MOVE_SHADOW_CLAW,
-                MOVE_DRAGON_CLAW,
-                MOVE_FUSION_BOLT,
+                MOVE_ATTRACT,
+                MOVE_TOXIC,
+                MOVE_EARTH_POWER,
+                MOVE_DISCHARGE,
             },
             },
             {
@@ -39596,36 +39596,36 @@ F_TRAINER_FEMALE |
         {
             {
 #line 15903
-            .species = SPECIES_STUNFISK,
+            .species = SPECIES_BELLIBOLT,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 15903
-            .heldItem = ITEM_QUICK_CLAW,
+            .heldItem = ITEM_LEFTOVERS,
 #line 15906
             .iv = TRAINER_PARTY_IVS(14, 14, 14, 14, 14, 14),
 #line 15905
-            .ability = ABILITY_STATIC,
+            .ability = ABILITY_ELECTROMORPHOSIS,
 #line 15904
             .lvl = 20,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 15907
-                MOVE_MUDDY_WATER,
-                MOVE_SLUDGE_WAVE,
-                MOVE_THUNDERBOLT,
-                MOVE_FISSURE,
+                MOVE_TOXIC,
+                MOVE_SLACK_OFF,
+                MOVE_VOLT_SWITCH,
+                MOVE_SOAK,
             },
             },
             {
 #line 15912
-            .species = SPECIES_KILOWATTREL,
+            .species = SPECIES_MAGNEZONE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 15912
-            .heldItem = ITEM_MAGNET,
+            .heldItem = ITEM_ASSAULT_VEST,
 #line 15915
             .iv = TRAINER_PARTY_IVS(14, 14, 14, 14, 14, 14),
 #line 15914
-            .ability = ABILITY_WIND_POWER,
+            .ability = ABILITY_ANALYTIC,
 #line 15913
             .lvl = 20,
             .nature = NATURE_HARDY,
@@ -39633,75 +39633,75 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 15916
                 MOVE_DISCHARGE,
-                MOVE_HURRICANE,
-                MOVE_ROOST,
-                MOVE_ELECTRO_BALL,
+                MOVE_FLASH_CANNON,
+                MOVE_VOLT_SWITCH,
+                MOVE_BODY_PRESS,
             },
             },
             {
 #line 15921
-            .species = SPECIES_RAIKOU,
+            .species = SPECIES_ROTOM_WASH,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 15921
-            .heldItem = ITEM_DAMP_ROCK,
+            .heldItem = ITEM_LEFTOVERS,
 #line 15924
             .iv = TRAINER_PARTY_IVS(14, 14, 14, 14, 14, 14),
 #line 15923
-            .ability = ABILITY_PRESSURE,
+            .ability = ABILITY_LEVITATE,
 #line 15922
             .lvl = 20,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 15925
-                MOVE_EXTRASENSORY,
-                MOVE_THUNDER,
-                MOVE_RAIN_DANCE,
-                MOVE_EXTREME_SPEED,
+                MOVE_HYDRO_PUMP,
+                MOVE_VOLT_SWITCH,
+                MOVE_WILL_O_WISP,
+                MOVE_PAIN_SPLIT,
             },
             },
             {
 #line 15930
-            .species = SPECIES_THUNDURUS,
+            .species = SPECIES_SANDY_SHOCKS,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 15930
-            .heldItem = ITEM_WISE_GLASSES,
+            .heldItem = ITEM_LEFTOVERS,
 #line 15933
             .iv = TRAINER_PARTY_IVS(14, 14, 14, 14, 14, 14),
 #line 15932
-            .ability = ABILITY_PRANKSTER,
+            .ability = ABILITY_PROTOSYNTHESIS,
 #line 15931
             .lvl = 21,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 15934
-                MOVE_DARK_PULSE,
-                MOVE_NASTY_PLOT,
-                MOVE_FLASH_CANNON,
-                MOVE_WILDBOLT_STORM,
+                MOVE_VOLT_SWITCH,
+                MOVE_EARTH_POWER,
+                MOVE_SPIKES,
+                MOVE_STEALTH_ROCK,
             },
             },
             {
 #line 15939
-            .species = SPECIES_ZEKROM,
+            .species = SPECIES_STUNFISK,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 15939
-            .heldItem = ITEM_MUSCLE_BAND,
+            .heldItem = ITEM_LEFTOVERS,
 #line 15942
             .iv = TRAINER_PARTY_IVS(14, 14, 14, 14, 14, 14),
 #line 15941
-            .ability = ABILITY_TERAVOLT,
+            .ability = ABILITY_STATIC,
 #line 15940
             .lvl = 21,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 15943
-                MOVE_ROCK_SLIDE,
-                MOVE_SHADOW_CLAW,
-                MOVE_DRAGON_CLAW,
-                MOVE_FUSION_BOLT,
+                MOVE_ATTRACT,
+                MOVE_TOXIC,
+                MOVE_EARTH_POWER,
+                MOVE_DISCHARGE,
             },
             },
             {
@@ -39753,36 +39753,36 @@ F_TRAINER_FEMALE |
         {
             {
 #line 15967
-            .species = SPECIES_STUNFISK,
+            .species = SPECIES_BELLIBOLT,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 15967
-            .heldItem = ITEM_QUICK_CLAW,
+            .heldItem = ITEM_LEFTOVERS,
 #line 15970
             .iv = TRAINER_PARTY_IVS(16, 16, 16, 16, 16, 16),
 #line 15969
-            .ability = ABILITY_STATIC,
+            .ability = ABILITY_ELECTROMORPHOSIS,
 #line 15968
             .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 15971
-                MOVE_MUDDY_WATER,
-                MOVE_SLUDGE_WAVE,
-                MOVE_THUNDERBOLT,
-                MOVE_FISSURE,
+                MOVE_TOXIC,
+                MOVE_SLACK_OFF,
+                MOVE_VOLT_SWITCH,
+                MOVE_SOAK,
             },
             },
             {
 #line 15976
-            .species = SPECIES_KILOWATTREL,
+            .species = SPECIES_MAGNEZONE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 15976
-            .heldItem = ITEM_MAGNET,
+            .heldItem = ITEM_ASSAULT_VEST,
 #line 15979
             .iv = TRAINER_PARTY_IVS(16, 16, 16, 16, 16, 16),
 #line 15978
-            .ability = ABILITY_WIND_POWER,
+            .ability = ABILITY_ANALYTIC,
 #line 15977
             .lvl = 26,
             .nature = NATURE_HARDY,
@@ -39790,75 +39790,75 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 15980
                 MOVE_DISCHARGE,
-                MOVE_HURRICANE,
-                MOVE_ROOST,
-                MOVE_ELECTRO_BALL,
+                MOVE_FLASH_CANNON,
+                MOVE_VOLT_SWITCH,
+                MOVE_BODY_PRESS,
             },
             },
             {
 #line 15985
-            .species = SPECIES_RAIKOU,
+            .species = SPECIES_ROTOM_WASH,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 15985
-            .heldItem = ITEM_DAMP_ROCK,
+            .heldItem = ITEM_LEFTOVERS,
 #line 15988
             .iv = TRAINER_PARTY_IVS(16, 16, 16, 16, 16, 16),
 #line 15987
-            .ability = ABILITY_PRESSURE,
+            .ability = ABILITY_LEVITATE,
 #line 15986
             .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 15989
-                MOVE_EXTRASENSORY,
-                MOVE_THUNDER,
-                MOVE_RAIN_DANCE,
-                MOVE_EXTREME_SPEED,
+                MOVE_HYDRO_PUMP,
+                MOVE_VOLT_SWITCH,
+                MOVE_WILL_O_WISP,
+                MOVE_PAIN_SPLIT,
             },
             },
             {
 #line 15994
-            .species = SPECIES_THUNDURUS,
+            .species = SPECIES_SANDY_SHOCKS,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 15994
-            .heldItem = ITEM_WISE_GLASSES,
+            .heldItem = ITEM_LEFTOVERS,
 #line 15997
             .iv = TRAINER_PARTY_IVS(16, 16, 16, 16, 16, 16),
 #line 15996
-            .ability = ABILITY_PRANKSTER,
+            .ability = ABILITY_PROTOSYNTHESIS,
 #line 15995
             .lvl = 27,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 15998
-                MOVE_DARK_PULSE,
-                MOVE_NASTY_PLOT,
-                MOVE_FLASH_CANNON,
-                MOVE_WILDBOLT_STORM,
+                MOVE_VOLT_SWITCH,
+                MOVE_EARTH_POWER,
+                MOVE_SPIKES,
+                MOVE_STEALTH_ROCK,
             },
             },
             {
 #line 16003
-            .species = SPECIES_ZEKROM,
+            .species = SPECIES_STUNFISK,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16003
-            .heldItem = ITEM_MUSCLE_BAND,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16006
             .iv = TRAINER_PARTY_IVS(16, 16, 16, 16, 16, 16),
 #line 16005
-            .ability = ABILITY_TERAVOLT,
+            .ability = ABILITY_STATIC,
 #line 16004
             .lvl = 27,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16007
-                MOVE_ROCK_SLIDE,
-                MOVE_SHADOW_CLAW,
-                MOVE_DRAGON_CLAW,
-                MOVE_FUSION_BOLT,
+                MOVE_ATTRACT,
+                MOVE_TOXIC,
+                MOVE_EARTH_POWER,
+                MOVE_DISCHARGE,
             },
             },
             {
@@ -39910,36 +39910,36 @@ F_TRAINER_FEMALE |
         {
             {
 #line 16031
-            .species = SPECIES_STUNFISK,
+            .species = SPECIES_BELLIBOLT,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16031
-            .heldItem = ITEM_QUICK_CLAW,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16034
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
 #line 16033
-            .ability = ABILITY_STATIC,
+            .ability = ABILITY_ELECTROMORPHOSIS,
 #line 16032
             .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16035
-                MOVE_MUDDY_WATER,
-                MOVE_SLUDGE_WAVE,
-                MOVE_THUNDERBOLT,
-                MOVE_FISSURE,
+                MOVE_TOXIC,
+                MOVE_SLACK_OFF,
+                MOVE_VOLT_SWITCH,
+                MOVE_SOAK,
             },
             },
             {
 #line 16040
-            .species = SPECIES_KILOWATTREL,
+            .species = SPECIES_MAGNEZONE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16040
-            .heldItem = ITEM_MAGNET,
+            .heldItem = ITEM_ASSAULT_VEST,
 #line 16043
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
 #line 16042
-            .ability = ABILITY_WIND_POWER,
+            .ability = ABILITY_ANALYTIC,
 #line 16041
             .lvl = 32,
             .nature = NATURE_HARDY,
@@ -39947,75 +39947,75 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 16044
                 MOVE_DISCHARGE,
-                MOVE_HURRICANE,
-                MOVE_ROOST,
-                MOVE_ELECTRO_BALL,
+                MOVE_FLASH_CANNON,
+                MOVE_VOLT_SWITCH,
+                MOVE_BODY_PRESS,
             },
             },
             {
 #line 16049
-            .species = SPECIES_RAIKOU,
+            .species = SPECIES_ROTOM_WASH,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16049
-            .heldItem = ITEM_DAMP_ROCK,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16052
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
 #line 16051
-            .ability = ABILITY_PRESSURE,
+            .ability = ABILITY_LEVITATE,
 #line 16050
             .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16053
-                MOVE_EXTRASENSORY,
-                MOVE_THUNDER,
-                MOVE_RAIN_DANCE,
-                MOVE_EXTREME_SPEED,
+                MOVE_HYDRO_PUMP,
+                MOVE_VOLT_SWITCH,
+                MOVE_WILL_O_WISP,
+                MOVE_PAIN_SPLIT,
             },
             },
             {
 #line 16058
-            .species = SPECIES_THUNDURUS,
+            .species = SPECIES_SANDY_SHOCKS,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16058
-            .heldItem = ITEM_WISE_GLASSES,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16061
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
 #line 16060
-            .ability = ABILITY_PRANKSTER,
+            .ability = ABILITY_PROTOSYNTHESIS,
 #line 16059
             .lvl = 33,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16062
-                MOVE_DARK_PULSE,
-                MOVE_NASTY_PLOT,
-                MOVE_FLASH_CANNON,
-                MOVE_WILDBOLT_STORM,
+                MOVE_VOLT_SWITCH,
+                MOVE_EARTH_POWER,
+                MOVE_SPIKES,
+                MOVE_STEALTH_ROCK,
             },
             },
             {
 #line 16067
-            .species = SPECIES_ZEKROM,
+            .species = SPECIES_STUNFISK,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16067
-            .heldItem = ITEM_MUSCLE_BAND,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16070
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
 #line 16069
-            .ability = ABILITY_TERAVOLT,
+            .ability = ABILITY_STATIC,
 #line 16068
             .lvl = 33,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16071
-                MOVE_ROCK_SLIDE,
-                MOVE_SHADOW_CLAW,
-                MOVE_DRAGON_CLAW,
-                MOVE_FUSION_BOLT,
+                MOVE_ATTRACT,
+                MOVE_TOXIC,
+                MOVE_EARTH_POWER,
+                MOVE_DISCHARGE,
             },
             },
             {
@@ -40067,36 +40067,36 @@ F_TRAINER_FEMALE |
         {
             {
 #line 16095
-            .species = SPECIES_STUNFISK,
+            .species = SPECIES_BELLIBOLT,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16095
-            .heldItem = ITEM_QUICK_CLAW,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16098
             .iv = TRAINER_PARTY_IVS(20, 20, 20, 20, 20, 20),
 #line 16097
-            .ability = ABILITY_STATIC,
+            .ability = ABILITY_ELECTROMORPHOSIS,
 #line 16096
             .lvl = 38,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16099
-                MOVE_MUDDY_WATER,
-                MOVE_SLUDGE_WAVE,
-                MOVE_THUNDERBOLT,
-                MOVE_FISSURE,
+                MOVE_TOXIC,
+                MOVE_SLACK_OFF,
+                MOVE_VOLT_SWITCH,
+                MOVE_SOAK,
             },
             },
             {
 #line 16104
-            .species = SPECIES_KILOWATTREL,
+            .species = SPECIES_MAGNEZONE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16104
-            .heldItem = ITEM_MAGNET,
+            .heldItem = ITEM_ASSAULT_VEST,
 #line 16107
             .iv = TRAINER_PARTY_IVS(20, 20, 20, 20, 20, 20),
 #line 16106
-            .ability = ABILITY_WIND_POWER,
+            .ability = ABILITY_ANALYTIC,
 #line 16105
             .lvl = 38,
             .nature = NATURE_HARDY,
@@ -40104,75 +40104,75 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 16108
                 MOVE_DISCHARGE,
-                MOVE_HURRICANE,
-                MOVE_ROOST,
-                MOVE_ELECTRO_BALL,
+                MOVE_FLASH_CANNON,
+                MOVE_VOLT_SWITCH,
+                MOVE_BODY_PRESS,
             },
             },
             {
 #line 16113
-            .species = SPECIES_RAIKOU,
+            .species = SPECIES_ROTOM_WASH,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16113
-            .heldItem = ITEM_DAMP_ROCK,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16116
             .iv = TRAINER_PARTY_IVS(20, 20, 20, 20, 20, 20),
 #line 16115
-            .ability = ABILITY_PRESSURE,
+            .ability = ABILITY_LEVITATE,
 #line 16114
             .lvl = 38,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16117
-                MOVE_EXTRASENSORY,
-                MOVE_THUNDER,
-                MOVE_RAIN_DANCE,
-                MOVE_EXTREME_SPEED,
+                MOVE_HYDRO_PUMP,
+                MOVE_VOLT_SWITCH,
+                MOVE_WILL_O_WISP,
+                MOVE_PAIN_SPLIT,
             },
             },
             {
 #line 16122
-            .species = SPECIES_THUNDURUS,
+            .species = SPECIES_SANDY_SHOCKS,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16122
-            .heldItem = ITEM_WISE_GLASSES,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16125
             .iv = TRAINER_PARTY_IVS(20, 20, 20, 20, 20, 20),
 #line 16124
-            .ability = ABILITY_PRANKSTER,
+            .ability = ABILITY_PROTOSYNTHESIS,
 #line 16123
             .lvl = 39,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16126
-                MOVE_DARK_PULSE,
-                MOVE_NASTY_PLOT,
-                MOVE_FLASH_CANNON,
-                MOVE_WILDBOLT_STORM,
+                MOVE_VOLT_SWITCH,
+                MOVE_EARTH_POWER,
+                MOVE_SPIKES,
+                MOVE_STEALTH_ROCK,
             },
             },
             {
 #line 16131
-            .species = SPECIES_ZEKROM,
+            .species = SPECIES_STUNFISK,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16131
-            .heldItem = ITEM_MUSCLE_BAND,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16134
             .iv = TRAINER_PARTY_IVS(20, 20, 20, 20, 20, 20),
 #line 16133
-            .ability = ABILITY_TERAVOLT,
+            .ability = ABILITY_STATIC,
 #line 16132
             .lvl = 39,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16135
-                MOVE_ROCK_SLIDE,
-                MOVE_SHADOW_CLAW,
-                MOVE_DRAGON_CLAW,
-                MOVE_FUSION_BOLT,
+                MOVE_ATTRACT,
+                MOVE_TOXIC,
+                MOVE_EARTH_POWER,
+                MOVE_DISCHARGE,
             },
             },
             {
@@ -40224,36 +40224,36 @@ F_TRAINER_FEMALE |
         {
             {
 #line 16159
-            .species = SPECIES_STUNFISK,
+            .species = SPECIES_BELLIBOLT,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16159
-            .heldItem = ITEM_QUICK_CLAW,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16162
             .iv = TRAINER_PARTY_IVS(22, 22, 22, 22, 22, 22),
 #line 16161
-            .ability = ABILITY_STATIC,
+            .ability = ABILITY_ELECTROMORPHOSIS,
 #line 16160
             .lvl = 44,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16163
-                MOVE_MUDDY_WATER,
-                MOVE_SLUDGE_WAVE,
-                MOVE_THUNDERBOLT,
-                MOVE_FISSURE,
+                MOVE_TOXIC,
+                MOVE_SLACK_OFF,
+                MOVE_VOLT_SWITCH,
+                MOVE_SOAK,
             },
             },
             {
 #line 16168
-            .species = SPECIES_KILOWATTREL,
+            .species = SPECIES_MAGNEZONE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16168
-            .heldItem = ITEM_MAGNET,
+            .heldItem = ITEM_ASSAULT_VEST,
 #line 16171
             .iv = TRAINER_PARTY_IVS(22, 22, 22, 22, 22, 22),
 #line 16170
-            .ability = ABILITY_WIND_POWER,
+            .ability = ABILITY_ANALYTIC,
 #line 16169
             .lvl = 44,
             .nature = NATURE_HARDY,
@@ -40261,75 +40261,75 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 16172
                 MOVE_DISCHARGE,
-                MOVE_HURRICANE,
-                MOVE_ROOST,
-                MOVE_ELECTRO_BALL,
+                MOVE_FLASH_CANNON,
+                MOVE_VOLT_SWITCH,
+                MOVE_BODY_PRESS,
             },
             },
             {
 #line 16177
-            .species = SPECIES_RAIKOU,
+            .species = SPECIES_ROTOM_WASH,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16177
-            .heldItem = ITEM_DAMP_ROCK,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16180
             .iv = TRAINER_PARTY_IVS(22, 22, 22, 22, 22, 22),
 #line 16179
-            .ability = ABILITY_PRESSURE,
+            .ability = ABILITY_LEVITATE,
 #line 16178
             .lvl = 44,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16181
-                MOVE_EXTRASENSORY,
-                MOVE_THUNDER,
-                MOVE_RAIN_DANCE,
-                MOVE_EXTREME_SPEED,
+                MOVE_HYDRO_PUMP,
+                MOVE_VOLT_SWITCH,
+                MOVE_WILL_O_WISP,
+                MOVE_PAIN_SPLIT,
             },
             },
             {
 #line 16186
-            .species = SPECIES_THUNDURUS,
+            .species = SPECIES_SANDY_SHOCKS,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16186
-            .heldItem = ITEM_WISE_GLASSES,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16189
             .iv = TRAINER_PARTY_IVS(22, 22, 22, 22, 22, 22),
 #line 16188
-            .ability = ABILITY_PRANKSTER,
+            .ability = ABILITY_PROTOSYNTHESIS,
 #line 16187
             .lvl = 45,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16190
-                MOVE_DARK_PULSE,
-                MOVE_NASTY_PLOT,
-                MOVE_FLASH_CANNON,
-                MOVE_WILDBOLT_STORM,
+                MOVE_VOLT_SWITCH,
+                MOVE_EARTH_POWER,
+                MOVE_SPIKES,
+                MOVE_STEALTH_ROCK,
             },
             },
             {
 #line 16195
-            .species = SPECIES_ZEKROM,
+            .species = SPECIES_STUNFISK,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16195
-            .heldItem = ITEM_MUSCLE_BAND,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16198
             .iv = TRAINER_PARTY_IVS(22, 22, 22, 22, 22, 22),
 #line 16197
-            .ability = ABILITY_TERAVOLT,
+            .ability = ABILITY_STATIC,
 #line 16196
             .lvl = 45,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16199
-                MOVE_ROCK_SLIDE,
-                MOVE_SHADOW_CLAW,
-                MOVE_DRAGON_CLAW,
-                MOVE_FUSION_BOLT,
+                MOVE_ATTRACT,
+                MOVE_TOXIC,
+                MOVE_EARTH_POWER,
+                MOVE_DISCHARGE,
             },
             },
             {
@@ -40381,36 +40381,36 @@ F_TRAINER_FEMALE |
         {
             {
 #line 16223
-            .species = SPECIES_STUNFISK,
+            .species = SPECIES_BELLIBOLT,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16223
-            .heldItem = ITEM_QUICK_CLAW,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16226
             .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
 #line 16225
-            .ability = ABILITY_STATIC,
+            .ability = ABILITY_ELECTROMORPHOSIS,
 #line 16224
             .lvl = 50,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16227
-                MOVE_MUDDY_WATER,
-                MOVE_SLUDGE_WAVE,
-                MOVE_THUNDERBOLT,
-                MOVE_FISSURE,
+                MOVE_TOXIC,
+                MOVE_SLACK_OFF,
+                MOVE_VOLT_SWITCH,
+                MOVE_SOAK,
             },
             },
             {
 #line 16232
-            .species = SPECIES_KILOWATTREL,
+            .species = SPECIES_MAGNEZONE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16232
-            .heldItem = ITEM_MAGNET,
+            .heldItem = ITEM_ASSAULT_VEST,
 #line 16235
             .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
 #line 16234
-            .ability = ABILITY_WIND_POWER,
+            .ability = ABILITY_ANALYTIC,
 #line 16233
             .lvl = 50,
             .nature = NATURE_HARDY,
@@ -40418,75 +40418,75 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 16236
                 MOVE_DISCHARGE,
-                MOVE_HURRICANE,
-                MOVE_ROOST,
-                MOVE_ELECTRO_BALL,
+                MOVE_FLASH_CANNON,
+                MOVE_VOLT_SWITCH,
+                MOVE_BODY_PRESS,
             },
             },
             {
 #line 16241
-            .species = SPECIES_RAIKOU,
+            .species = SPECIES_ROTOM_WASH,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16241
-            .heldItem = ITEM_DAMP_ROCK,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16244
             .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
 #line 16243
-            .ability = ABILITY_PRESSURE,
+            .ability = ABILITY_LEVITATE,
 #line 16242
             .lvl = 50,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16245
-                MOVE_EXTRASENSORY,
-                MOVE_THUNDER,
-                MOVE_RAIN_DANCE,
-                MOVE_EXTREME_SPEED,
+                MOVE_HYDRO_PUMP,
+                MOVE_VOLT_SWITCH,
+                MOVE_WILL_O_WISP,
+                MOVE_PAIN_SPLIT,
             },
             },
             {
 #line 16250
-            .species = SPECIES_THUNDURUS,
+            .species = SPECIES_SANDY_SHOCKS,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16250
-            .heldItem = ITEM_WISE_GLASSES,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16253
             .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
 #line 16252
-            .ability = ABILITY_PRANKSTER,
+            .ability = ABILITY_PROTOSYNTHESIS,
 #line 16251
             .lvl = 51,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16254
-                MOVE_DARK_PULSE,
-                MOVE_NASTY_PLOT,
-                MOVE_FLASH_CANNON,
-                MOVE_WILDBOLT_STORM,
+                MOVE_VOLT_SWITCH,
+                MOVE_EARTH_POWER,
+                MOVE_SPIKES,
+                MOVE_STEALTH_ROCK,
             },
             },
             {
 #line 16259
-            .species = SPECIES_ZEKROM,
+            .species = SPECIES_STUNFISK,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16259
-            .heldItem = ITEM_MUSCLE_BAND,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16262
             .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
 #line 16261
-            .ability = ABILITY_TERAVOLT,
+            .ability = ABILITY_STATIC,
 #line 16260
             .lvl = 51,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16263
-                MOVE_ROCK_SLIDE,
-                MOVE_SHADOW_CLAW,
-                MOVE_DRAGON_CLAW,
-                MOVE_FUSION_BOLT,
+                MOVE_ATTRACT,
+                MOVE_TOXIC,
+                MOVE_EARTH_POWER,
+                MOVE_DISCHARGE,
             },
             },
             {
@@ -40538,36 +40538,36 @@ F_TRAINER_FEMALE |
         {
             {
 #line 16287
-            .species = SPECIES_STUNFISK,
+            .species = SPECIES_BELLIBOLT,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16287
-            .heldItem = ITEM_QUICK_CLAW,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16290
             .iv = TRAINER_PARTY_IVS(26, 26, 26, 26, 26, 26),
 #line 16289
-            .ability = ABILITY_STATIC,
+            .ability = ABILITY_ELECTROMORPHOSIS,
 #line 16288
             .lvl = 56,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16291
-                MOVE_MUDDY_WATER,
-                MOVE_SLUDGE_WAVE,
-                MOVE_THUNDERBOLT,
-                MOVE_FISSURE,
+                MOVE_TOXIC,
+                MOVE_SLACK_OFF,
+                MOVE_VOLT_SWITCH,
+                MOVE_SOAK,
             },
             },
             {
 #line 16296
-            .species = SPECIES_KILOWATTREL,
+            .species = SPECIES_MAGNEZONE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16296
-            .heldItem = ITEM_MAGNET,
+            .heldItem = ITEM_ASSAULT_VEST,
 #line 16299
             .iv = TRAINER_PARTY_IVS(26, 26, 26, 26, 26, 26),
 #line 16298
-            .ability = ABILITY_WIND_POWER,
+            .ability = ABILITY_ANALYTIC,
 #line 16297
             .lvl = 56,
             .nature = NATURE_HARDY,
@@ -40575,75 +40575,75 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 16300
                 MOVE_DISCHARGE,
-                MOVE_HURRICANE,
-                MOVE_ROOST,
-                MOVE_ELECTRO_BALL,
+                MOVE_FLASH_CANNON,
+                MOVE_VOLT_SWITCH,
+                MOVE_BODY_PRESS,
             },
             },
             {
 #line 16305
-            .species = SPECIES_RAIKOU,
+            .species = SPECIES_ROTOM_WASH,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16305
-            .heldItem = ITEM_DAMP_ROCK,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16308
             .iv = TRAINER_PARTY_IVS(26, 26, 26, 26, 26, 26),
 #line 16307
-            .ability = ABILITY_PRESSURE,
+            .ability = ABILITY_LEVITATE,
 #line 16306
             .lvl = 56,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16309
-                MOVE_EXTRASENSORY,
-                MOVE_THUNDER,
-                MOVE_RAIN_DANCE,
-                MOVE_EXTREME_SPEED,
+                MOVE_HYDRO_PUMP,
+                MOVE_VOLT_SWITCH,
+                MOVE_WILL_O_WISP,
+                MOVE_PAIN_SPLIT,
             },
             },
             {
 #line 16314
-            .species = SPECIES_THUNDURUS,
+            .species = SPECIES_SANDY_SHOCKS,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16314
-            .heldItem = ITEM_WISE_GLASSES,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16317
             .iv = TRAINER_PARTY_IVS(26, 26, 26, 26, 26, 26),
 #line 16316
-            .ability = ABILITY_PRANKSTER,
+            .ability = ABILITY_PROTOSYNTHESIS,
 #line 16315
             .lvl = 57,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16318
-                MOVE_DARK_PULSE,
-                MOVE_NASTY_PLOT,
-                MOVE_FLASH_CANNON,
-                MOVE_WILDBOLT_STORM,
+                MOVE_VOLT_SWITCH,
+                MOVE_EARTH_POWER,
+                MOVE_SPIKES,
+                MOVE_STEALTH_ROCK,
             },
             },
             {
 #line 16323
-            .species = SPECIES_ZEKROM,
+            .species = SPECIES_STUNFISK,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 16323
-            .heldItem = ITEM_MUSCLE_BAND,
+            .heldItem = ITEM_LEFTOVERS,
 #line 16326
             .iv = TRAINER_PARTY_IVS(26, 26, 26, 26, 26, 26),
 #line 16325
-            .ability = ABILITY_TERAVOLT,
+            .ability = ABILITY_STATIC,
 #line 16324
             .lvl = 57,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 16327
-                MOVE_ROCK_SLIDE,
-                MOVE_SHADOW_CLAW,
-                MOVE_DRAGON_CLAW,
-                MOVE_FUSION_BOLT,
+                MOVE_ATTRACT,
+                MOVE_TOXIC,
+                MOVE_EARTH_POWER,
+                MOVE_DISCHARGE,
             },
             },
             {

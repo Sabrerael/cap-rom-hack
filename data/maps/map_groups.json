@@ -40,7 +40,8 @@
     "gMapGroup_IndoorMiddleTownNorth",
     "gMapGroup_IndoorMiddleTownSouth",
     "gMapGroup_IndoorCastleTownSabre",
-    "gMapGroup_IndoorCastleTownTmoney"
+    "gMapGroup_IndoorCastleTownTmoney",
+    "gMapGroup_IndoorCastleTownBlindJim"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -112,7 +113,9 @@
     "Route5",
     "Route6",
     "Route7",
-    "CastleTownSabre"
+    "CastleTownSabre",
+    "CastleTownBlindJim",
+    "Route8"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -670,9 +673,17 @@
     "MiddleTownSouth_Mart"
   ],
   "gMapGroup_IndoorCastleTownSabre": [
-    "CastleTownSabre_Gym"
+    "CastleTownSabre_Gym",
+    "CastleTownSabre_PokemonCenter_1F",
+    "CastleTownSabre_Mart",
+    "CastleTownSabre_PokemonCenter_2F"
   ],
   "gMapGroup_IndoorCastleTownTmoney": [
 
+  ],
+  "gMapGroup_IndoorCastleTownBlindJim": [
+    "CastleTownBlindJim_PokemonCenter_1F",
+    "CastleTownBlindJim_Mart",
+    "CastleTownBlindJim_PokemonCenter_2F"
   ]
 }

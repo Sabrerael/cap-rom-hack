@@ -15876,10 +15876,10 @@ Stunfisk @ Leftovers
 Level: 15
 Ability: Static
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Rock Slide
-- Shadow Claw
-- Dragon Claw
-- Fusion Bolt
+- Attract
+- Toxic
+- Earth Power
+- Discharge
 
 Zekrom @ Life Orb
 Level: 16
@@ -15900,50 +15900,50 @@ Items: Potion / Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Risky
 
-Stunfisk @ Quick Claw
+Bellibolt @ Leftovers
 Level: 20
-Ability: Static
+Ability: Electromorphosis
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Muddy Water
-- Sludge Wave
-- Thunderbolt
-- Fissure
+- Toxic
+- Slack Off
+- Volt Switch
+- Soak
 
-Kilowattrel @ Magnet
+Magnezone @ Assault Vest
 Level: 20
-Ability: Wind Power
+Ability: Analytic
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Discharge
-- Hurricane
-- Roost
-- Electro Ball
-
-Raikou @ Damp Rock
-Level: 20
-Ability: Pressure
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Extrasensory
-- Thunder
-- Rain Dance
-- Extreme Speed
-
-Thundurus @ Wise Glasses
-Level: 21
-Ability: Prankster
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Dark Pulse
-- Nasty Plot
 - Flash Cannon
-- Wildbolt Storm
+- Volt Switch
+- Body Press
 
-Zekrom @ Muscle Band
-Level: 21
-Ability: Teravolt
+Rotom-Wash @ Leftovers
+Level: 20
+Ability: Levitate
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Rock Slide
-- Shadow Claw
-- Dragon Claw
-- Fusion Bolt
+- Hydro Pump
+- Volt Switch
+- Will-O-Wisp
+- Pain Split
+
+Sandy Shocks @ Leftovers
+Level: 21
+Ability: Protosynthesis
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Volt Switch
+- Earth Power
+- Spikes
+- Stealth Rock
+
+Stunfisk @ Leftovers
+Level: 21
+Ability: Static
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Attract
+- Toxic
+- Earth Power
+- Discharge
 
 Zekrom @ Life Orb
 Level: 22
@@ -15964,50 +15964,50 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Risky
 
-Stunfisk @ Quick Claw
+Bellibolt @ Leftovers
 Level: 26
-Ability: Static
+Ability: Electromorphosis
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Muddy Water
-- Sludge Wave
-- Thunderbolt
-- Fissure
+- Toxic
+- Slack Off
+- Volt Switch
+- Soak
 
-Kilowattrel @ Magnet
+Magnezone @ Assault Vest
 Level: 26
-Ability: Wind Power
+Ability: Analytic
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Discharge
-- Hurricane
-- Roost
-- Electro Ball
-
-Raikou @ Damp Rock
-Level: 26
-Ability: Pressure
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Extrasensory
-- Thunder
-- Rain Dance
-- Extreme Speed
-
-Thundurus @ Wise Glasses
-Level: 27
-Ability: Prankster
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Dark Pulse
-- Nasty Plot
 - Flash Cannon
-- Wildbolt Storm
+- Volt Switch
+- Body Press
 
-Zekrom @ Muscle Band
-Level: 27
-Ability: Teravolt
+Rotom-Wash @ Leftovers
+Level: 26
+Ability: Levitate
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Rock Slide
-- Shadow Claw
-- Dragon Claw
-- Fusion Bolt
+- Hydro Pump
+- Volt Switch
+- Will-O-Wisp
+- Pain Split
+
+Sandy Shocks @ Leftovers
+Level: 27
+Ability: Protosynthesis
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Volt Switch
+- Earth Power
+- Spikes
+- Stealth Rock
+
+Stunfisk @ Leftovers
+Level: 27
+Ability: Static
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Attract
+- Toxic
+- Earth Power
+- Discharge
 
 Zekrom @ Life Orb
 Level: 28
@@ -16028,50 +16028,50 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Risky
 
-Stunfisk @ Quick Claw
+Bellibolt @ Leftovers
 Level: 32
-Ability: Static
+Ability: Electromorphosis
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Muddy Water
-- Sludge Wave
-- Thunderbolt
-- Fissure
+- Toxic
+- Slack Off
+- Volt Switch
+- Soak
 
-Kilowattrel @ Magnet
+Magnezone @ Assault Vest
 Level: 32
-Ability: Wind Power
+Ability: Analytic
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Discharge
-- Hurricane
-- Roost
-- Electro Ball
-
-Raikou @ Damp Rock
-Level: 32
-Ability: Pressure
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Extrasensory
-- Thunder
-- Rain Dance
-- Extreme Speed
-
-Thundurus @ Wise Glasses
-Level: 33
-Ability: Prankster
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Dark Pulse
-- Nasty Plot
 - Flash Cannon
-- Wildbolt Storm
+- Volt Switch
+- Body Press
 
-Zekrom @ Muscle Band
-Level: 33
-Ability: Teravolt
+Rotom-Wash @ Leftovers
+Level: 32
+Ability: Levitate
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Rock Slide
-- Shadow Claw
-- Dragon Claw
-- Fusion Bolt
+- Hydro Pump
+- Volt Switch
+- Will-O-Wisp
+- Pain Split
+
+Sandy Shocks @ Leftovers
+Level: 33
+Ability: Protosynthesis
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Volt Switch
+- Earth Power
+- Spikes
+- Stealth Rock
+
+Stunfisk @ Leftovers
+Level: 33
+Ability: Static
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Attract
+- Toxic
+- Earth Power
+- Discharge
 
 Zekrom @ Life Orb
 Level: 34
@@ -16092,50 +16092,50 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Risky
 
-Stunfisk @ Quick Claw
+Bellibolt @ Leftovers
 Level: 38
-Ability: Static
+Ability: Electromorphosis
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Muddy Water
-- Sludge Wave
-- Thunderbolt
-- Fissure
+- Toxic
+- Slack Off
+- Volt Switch
+- Soak
 
-Kilowattrel @ Magnet
+Magnezone @ Assault Vest
 Level: 38
-Ability: Wind Power
+Ability: Analytic
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Discharge
-- Hurricane
-- Roost
-- Electro Ball
-
-Raikou @ Damp Rock
-Level: 38
-Ability: Pressure
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Extrasensory
-- Thunder
-- Rain Dance
-- Extreme Speed
-
-Thundurus @ Wise Glasses
-Level: 39
-Ability: Prankster
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Dark Pulse
-- Nasty Plot
 - Flash Cannon
-- Wildbolt Storm
+- Volt Switch
+- Body Press
 
-Zekrom @ Muscle Band
-Level: 39
-Ability: Teravolt
+Rotom-Wash @ Leftovers
+Level: 38
+Ability: Levitate
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Rock Slide
-- Shadow Claw
-- Dragon Claw
-- Fusion Bolt
+- Hydro Pump
+- Volt Switch
+- Will-O-Wisp
+- Pain Split
+
+Sandy Shocks @ Leftovers
+Level: 39
+Ability: Protosynthesis
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Volt Switch
+- Earth Power
+- Spikes
+- Stealth Rock
+
+Stunfisk @ Leftovers
+Level: 39
+Ability: Static
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Attract
+- Toxic
+- Earth Power
+- Discharge
 
 Zekrom @ Life Orb
 Level: 40
@@ -16156,50 +16156,50 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Risky
 
-Stunfisk @ Quick Claw
+Bellibolt @ Leftovers
 Level: 44
-Ability: Static
+Ability: Electromorphosis
 IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Muddy Water
-- Sludge Wave
-- Thunderbolt
-- Fissure
+- Toxic
+- Slack Off
+- Volt Switch
+- Soak
 
-Kilowattrel @ Magnet
+Magnezone @ Assault Vest
 Level: 44
-Ability: Wind Power
+Ability: Analytic
 IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 - Discharge
-- Hurricane
-- Roost
-- Electro Ball
-
-Raikou @ Damp Rock
-Level: 44
-Ability: Pressure
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Extrasensory
-- Thunder
-- Rain Dance
-- Extreme Speed
-
-Thundurus @ Wise Glasses
-Level: 45
-Ability: Prankster
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Dark Pulse
-- Nasty Plot
 - Flash Cannon
-- Wildbolt Storm
+- Volt Switch
+- Body Press
 
-Zekrom @ Muscle Band
-Level: 45
-Ability: Teravolt
+Rotom-Wash @ Leftovers
+Level: 44
+Ability: Levitate
 IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Rock Slide
-- Shadow Claw
-- Dragon Claw
-- Fusion Bolt
+- Hydro Pump
+- Volt Switch
+- Will-O-Wisp
+- Pain Split
+
+Sandy Shocks @ Leftovers
+Level: 45
+Ability: Protosynthesis
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Volt Switch
+- Earth Power
+- Spikes
+- Stealth Rock
+
+Stunfisk @ Leftovers
+Level: 45
+Ability: Static
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Attract
+- Toxic
+- Earth Power
+- Discharge
 
 Zekrom @ Life Orb
 Level: 46
@@ -16220,50 +16220,50 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Risky
 
-Stunfisk @ Quick Claw
+Bellibolt @ Leftovers
 Level: 50
-Ability: Static
+Ability: Electromorphosis
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Muddy Water
-- Sludge Wave
-- Thunderbolt
-- Fissure
+- Toxic
+- Slack Off
+- Volt Switch
+- Soak
 
-Kilowattrel @ Magnet
+Magnezone @ Assault Vest
 Level: 50
-Ability: Wind Power
+Ability: Analytic
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Discharge
-- Hurricane
-- Roost
-- Electro Ball
-
-Raikou @ Damp Rock
-Level: 50
-Ability: Pressure
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Extrasensory
-- Thunder
-- Rain Dance
-- Extreme Speed
-
-Thundurus @ Wise Glasses
-Level: 51
-Ability: Prankster
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Dark Pulse
-- Nasty Plot
 - Flash Cannon
-- Wildbolt Storm
+- Volt Switch
+- Body Press
 
-Zekrom @ Muscle Band
-Level: 51
-Ability: Teravolt
+Rotom-Wash @ Leftovers
+Level: 50
+Ability: Levitate
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rock Slide
-- Shadow Claw
-- Dragon Claw
-- Fusion Bolt
+- Hydro Pump
+- Volt Switch
+- Will-O-Wisp
+- Pain Split
+
+Sandy Shocks @ Leftovers
+Level: 51
+Ability: Protosynthesis
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Volt Switch
+- Earth Power
+- Spikes
+- Stealth Rock
+
+Stunfisk @ Leftovers
+Level: 51
+Ability: Static
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Attract
+- Toxic
+- Earth Power
+- Discharge
 
 Zekrom @ Life Orb
 Level: 52
@@ -16284,50 +16284,50 @@ Items: Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Risky
 
-Stunfisk @ Quick Claw
+Bellibolt @ Leftovers
 Level: 56
-Ability: Static
+Ability: Electromorphosis
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Muddy Water
-- Sludge Wave
-- Thunderbolt
-- Fissure
+- Toxic
+- Slack Off
+- Volt Switch
+- Soak
 
-Kilowattrel @ Magnet
+Magnezone @ Assault Vest
 Level: 56
-Ability: Wind Power
+Ability: Analytic
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Discharge
-- Hurricane
-- Roost
-- Electro Ball
-
-Raikou @ Damp Rock
-Level: 56
-Ability: Pressure
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Extrasensory
-- Thunder
-- Rain Dance
-- Extreme Speed
-
-Thundurus @ Wise Glasses
-Level: 57
-Ability: Prankster
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Dark Pulse
-- Nasty Plot
 - Flash Cannon
-- Wildbolt Storm
+- Volt Switch
+- Body Press
 
-Zekrom @ Muscle Band
-Level: 57
-Ability: Teravolt
+Rotom-Wash @ Leftovers
+Level: 56
+Ability: Levitate
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Rock Slide
-- Shadow Claw
-- Dragon Claw
-- Fusion Bolt
+- Hydro Pump
+- Volt Switch
+- Will-O-Wisp
+- Pain Split
+
+Sandy Shocks @ Leftovers
+Level: 57
+Ability: Protosynthesis
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Volt Switch
+- Earth Power
+- Spikes
+- Stealth Rock
+
+Stunfisk @ Leftovers
+Level: 57
+Ability: Static
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Attract
+- Toxic
+- Earth Power
+- Discharge
 
 Zekrom @ Life Orb
 Level: 58

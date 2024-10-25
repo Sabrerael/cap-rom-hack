@@ -207,6 +207,7 @@ void NewGameInitData(void)
     VarSet(VAR_HIGHEST_LEVEL, 5);
     VarSet(VAR_BADGES_COLLECTED, 0);
     FlagSet(FLAG_RECEIVED_RUNNING_SHOES);
+    FlagSet(FLAG_SYS_B_DASH);
     FlagSet(FLAG_SYS_NATIONAL_DEX);
 }
 

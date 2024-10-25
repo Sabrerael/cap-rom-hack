@@ -1127,3 +1127,19 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route7/scripts.inc"
 
 	.include "data/maps/CastleTownSabre/scripts.inc"
+
+	.include "data/maps/CastleTownBlindJim/scripts.inc"
+
+	.include "data/maps/CastleTownSabre_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/CastleTownBlindJim_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/CastleTownSabre_Mart/scripts.inc"
+
+	.include "data/maps/CastleTownBlindJim_Mart/scripts.inc"
+
+	.include "data/maps/CastleTownSabre_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/CastleTownBlindJim_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/Route8/scripts.inc"
