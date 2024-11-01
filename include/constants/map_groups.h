@@ -78,6 +78,7 @@
 #define MAP_CASTLE_TOWN_SABRE     (69 | (0 << 8))
 #define MAP_CASTLE_TOWN_BLIND_JIM (70 | (0 << 8))
 #define MAP_ROUTE8                (71 | (0 << 8))
+#define MAP_ROUTE9                (72 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (1 << 8))

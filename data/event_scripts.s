@@ -1143,3 +1143,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/CastleTownBlindJim_PokemonCenter_2F/scripts.inc"
 
 	.include "data/maps/Route8/scripts.inc"
+
+	.include "data/maps/Route9/scripts.inc"
