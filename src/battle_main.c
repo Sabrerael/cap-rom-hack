@@ -2000,7 +2000,7 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
             }
 
             s32 level;
-            if (partyData[i].levelModifier >= 0) {
+            if (partyData[i].levelModifier != '\0') {
                 level = maxLevel - partyData[i].levelModifier;
             } else {
                 level = partyData[i].lvl;

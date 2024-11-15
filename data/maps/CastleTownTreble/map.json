@@ -1,0 +1,59 @@
+{
+  "id": "MAP_CASTLE_TOWN_TREBLE",
+  "name": "CastleTownTreble",
+  "layout": "LAYOUT_CASTLE_TOWN_TREBLE",
+  "music": "MUS_RG_PEWTER",
+  "region_map_section": "MAPSEC_SEVEN_ISLAND",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE16",
+      "offset": 10,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_ROUTE5",
+      "offset": 8,
+      "direction": "right"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 12,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_CASTLE_TOWN_TREBLE_POKEMON_CENTER_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 26,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_CASTLE_TOWN_TREBLE_MART",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 14,
+      "y": 27,
+      "elevation": 0,
+      "dest_map": "MAP_CASTLE_TOWN_TREBLE_GYM",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

@@ -41,7 +41,12 @@
     "gMapGroup_IndoorMiddleTownSouth",
     "gMapGroup_IndoorCastleTownSabre",
     "gMapGroup_IndoorCastleTownTmoney",
-    "gMapGroup_IndoorCastleTownBlindJim"
+    "gMapGroup_IndoorCastleTownBlindJim",
+    "gMapGroup_IndoorCastleTownHermes",
+    "gMapGroup_IndoorCastleTownTreble",
+    "gMapGroup_IndoorCastleTownAndy",
+    "gMapGroup_IndoorCastleTownTot",
+    "gMapGroup_IndoorCastleTownSalsa"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -116,7 +121,20 @@
     "CastleTownSabre",
     "CastleTownBlindJim",
     "Route8",
-    "Route9"
+    "Route9",
+    "Route10",
+    "Route11",
+    "Route12",
+    "Route13",
+    "Route14",
+    "Route15",
+    "Route16",
+    "CastleTownTMoney",
+    "CastleTownHermes",
+    "CastleTownTreble",
+    "CastleTownSalsa",
+    "CastleTownTot",
+    "CastleTownAndy"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -680,11 +698,45 @@
     "CastleTownSabre_PokemonCenter_2F"
   ],
   "gMapGroup_IndoorCastleTownTmoney": [
-
+    "CastleTownTMoney_PokemonCenter_1F",
+    "CastleTownTMoney_PokemonCenter_2F",
+    "CastleTownTMoney_Mart",
+    "CastleTownTMoney_Gym"
   ],
   "gMapGroup_IndoorCastleTownBlindJim": [
     "CastleTownBlindJim_PokemonCenter_1F",
     "CastleTownBlindJim_Mart",
-    "CastleTownBlindJim_PokemonCenter_2F"
+    "CastleTownBlindJim_PokemonCenter_2F",
+    "CastleTownBlindJim_Gym"
+  ],
+  "gMapGroup_IndoorCastleTownHermes": [
+    "CastleTownHermes_PokemonCenter_1F",
+    "CastleTownHermes_PokemonCenter_2F",
+    "CastleTownHermes_Mart",
+    "CastleTownHermes_Gym"
+  ],
+  "gMapGroup_IndoorCastleTownTreble": [
+    "CastleTownTreble_PokemonCenter_1F",
+    "CastleTownTreble_PokemonCenter_2F",
+    "CastleTownTreble_Mart",
+    "CastleTownTreble_Gym"
+  ],
+  "gMapGroup_IndoorCastleTownAndy": [
+    "CastleTownAndy_PokemonCenter_1F",
+    "CastleTownAndy_PokemonCenter_2F",
+    "CastleTownAndy_Mart",
+    "CastleTownAndy_Gym"
+  ],
+  "gMapGroup_IndoorCastleTownTot": [
+    "CastleTownTot_PokemonCenter_1F",
+    "CastleTownTot_PokemonCenter_2F",
+    "CastleTownTot_Mart",
+    "CastleTownTot_Gym"
+  ],
+  "gMapGroup_IndoorCastleTownSalsa": [
+    "CastleTownSalsa_PokemonCenter_1F",
+    "CastleTownSalsa_PokemonCenter_2F",
+    "CastleTownSalsa_Mart",
+    "CastleTownSalsa_Gym"
   ]
 }

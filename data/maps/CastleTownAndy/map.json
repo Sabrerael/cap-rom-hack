@@ -1,0 +1,54 @@
+{
+  "id": "MAP_CASTLE_TOWN_ANDY",
+  "name": "CastleTownAndy",
+  "layout": "LAYOUT_CASTLE_TOWN_ANDY",
+  "music": "MUS_DEWFORD",
+  "region_map_section": "MAPSEC_FIVE_ISLAND",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE12",
+      "offset": 10,
+      "direction": "up"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 19,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_CASTLE_TOWN_ANDY_POKEMON_CENTER_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 19,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_CASTLE_TOWN_ANDY_MART",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 11,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_CASTLE_TOWN_ANDY_GYM",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

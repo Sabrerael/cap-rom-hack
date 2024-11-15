@@ -589,6 +589,7 @@ gStdScripts_End::
 	.include "data/scripts/trainer_battle.inc"
 	.include "data/scripts/new_game.inc"
 	.include "data/scripts/hall_of_fame.inc"
+	.include "data/scripts/gym_badges.inc"
 
 	.include "data/scripts/config.inc"
 	.include "data/scripts/debug.inc"
@@ -1145,3 +1146,79 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route8/scripts.inc"
 
 	.include "data/maps/Route9/scripts.inc"
+
+	.include "data/maps/Route10/scripts.inc"
+
+	.include "data/maps/Route11/scripts.inc"
+
+	.include "data/maps/Route12/scripts.inc"
+
+	.include "data/maps/Route13/scripts.inc"
+
+	.include "data/maps/Route14/scripts.inc"
+
+	.include "data/maps/Route15/scripts.inc"
+
+	.include "data/maps/Route16/scripts.inc"
+
+	.include "data/maps/CastleTownTMoney/scripts.inc"
+
+	.include "data/maps/CastleTownHermes/scripts.inc"
+
+	.include "data/maps/CastleTownTreble/scripts.inc"
+
+	.include "data/maps/CastleTownSalsa/scripts.inc"
+
+	.include "data/maps/CastleTownTot/scripts.inc"
+
+	.include "data/maps/CastleTownAndy/scripts.inc"
+
+	.include "data/maps/CastleTownTMoney_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/CastleTownHermes_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/CastleTownAndy_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/CastleTownTreble_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/CastleTownTot_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/CastleTownSalsa_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/CastleTownTMoney_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/CastleTownHermes_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/CastleTownTreble_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/CastleTownAndy_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/CastleTownTot_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/CastleTownSalsa_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/CastleTownTMoney_Mart/scripts.inc"
+
+	.include "data/maps/CastleTownHermes_Mart/scripts.inc"
+
+	.include "data/maps/CastleTownTreble_Mart/scripts.inc"
+
+	.include "data/maps/CastleTownAndy_Mart/scripts.inc"
+
+	.include "data/maps/CastleTownTot_Mart/scripts.inc"
+
+	.include "data/maps/CastleTownSalsa_Mart/scripts.inc"
+
+	.include "data/maps/CastleTownTMoney_Gym/scripts.inc"
+
+	.include "data/maps/CastleTownBlindJim_Gym/scripts.inc"
+
+	.include "data/maps/CastleTownHermes_Gym/scripts.inc"
+
+	.include "data/maps/CastleTownTreble_Gym/scripts.inc"
+
+	.include "data/maps/CastleTownAndy_Gym/scripts.inc"
+
+	.include "data/maps/CastleTownTot_Gym/scripts.inc"
+
+	.include "data/maps/CastleTownSalsa_Gym/scripts.inc"

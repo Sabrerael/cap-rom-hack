@@ -79,6 +79,19 @@
 #define MAP_CASTLE_TOWN_BLIND_JIM (70 | (0 << 8))
 #define MAP_ROUTE8                (71 | (0 << 8))
 #define MAP_ROUTE9                (72 | (0 << 8))
+#define MAP_ROUTE10               (73 | (0 << 8))
+#define MAP_ROUTE11               (74 | (0 << 8))
+#define MAP_ROUTE12               (75 | (0 << 8))
+#define MAP_ROUTE13               (76 | (0 << 8))
+#define MAP_ROUTE14               (77 | (0 << 8))
+#define MAP_ROUTE15               (78 | (0 << 8))
+#define MAP_ROUTE16               (79 | (0 << 8))
+#define MAP_CASTLE_TOWN_TMONEY    (80 | (0 << 8))
+#define MAP_CASTLE_TOWN_HERMES    (81 | (0 << 8))
+#define MAP_CASTLE_TOWN_TREBLE    (82 | (0 << 8))
+#define MAP_CASTLE_TOWN_SALSA     (83 | (0 << 8))
+#define MAP_CASTLE_TOWN_TOT       (84 | (0 << 8))
+#define MAP_CASTLE_TOWN_ANDY      (85 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (1 << 8))
@@ -642,12 +655,47 @@
 #define MAP_CASTLE_TOWN_SABRE_POKEMON_CENTER_2F (3 | (39 << 8))
 
 // gMapGroup_IndoorCastleTownTmoney
+#define MAP_CASTLE_TOWN_TMONEY_POKEMON_CENTER_1F (0 | (40 << 8))
+#define MAP_CASTLE_TOWN_TMONEY_POKEMON_CENTER_2F (1 | (40 << 8))
+#define MAP_CASTLE_TOWN_TMONEY_MART              (2 | (40 << 8))
+#define MAP_CASTLE_TOWN_TMONEY_GYM               (3 | (40 << 8))
 
 // gMapGroup_IndoorCastleTownBlindJim
 #define MAP_CASTLE_TOWN_BLIND_JIM_POKEMON_CENTER_1F (0 | (41 << 8))
 #define MAP_CASTLE_TOWN_BLIND_JIM_MART              (1 | (41 << 8))
 #define MAP_CASTLE_TOWN_BLIND_JIM_POKEMON_CENTER_2F (2 | (41 << 8))
+#define MAP_CASTLE_TOWN_BLIND_JIM_GYM               (3 | (41 << 8))
 
-#define MAP_GROUPS_COUNT 42
+// gMapGroup_IndoorCastleTownHermes
+#define MAP_CASTLE_TOWN_HERMES_POKEMON_CENTER_1F (0 | (42 << 8))
+#define MAP_CASTLE_TOWN_HERMES_POKEMON_CENTER_2F (1 | (42 << 8))
+#define MAP_CASTLE_TOWN_HERMES_MART              (2 | (42 << 8))
+#define MAP_CASTLE_TOWN_HERMES_GYM               (3 | (42 << 8))
+
+// gMapGroup_IndoorCastleTownTreble
+#define MAP_CASTLE_TOWN_TREBLE_POKEMON_CENTER_1F (0 | (43 << 8))
+#define MAP_CASTLE_TOWN_TREBLE_POKEMON_CENTER_2F (1 | (43 << 8))
+#define MAP_CASTLE_TOWN_TREBLE_MART              (2 | (43 << 8))
+#define MAP_CASTLE_TOWN_TREBLE_GYM               (3 | (43 << 8))
+
+// gMapGroup_IndoorCastleTownAndy
+#define MAP_CASTLE_TOWN_ANDY_POKEMON_CENTER_1F (0 | (44 << 8))
+#define MAP_CASTLE_TOWN_ANDY_POKEMON_CENTER_2F (1 | (44 << 8))
+#define MAP_CASTLE_TOWN_ANDY_MART              (2 | (44 << 8))
+#define MAP_CASTLE_TOWN_ANDY_GYM               (3 | (44 << 8))
+
+// gMapGroup_IndoorCastleTownTot
+#define MAP_CASTLE_TOWN_TOT_POKEMON_CENTER_1F (0 | (45 << 8))
+#define MAP_CASTLE_TOWN_TOT_POKEMON_CENTER_2F (1 | (45 << 8))
+#define MAP_CASTLE_TOWN_TOT_MART              (2 | (45 << 8))
+#define MAP_CASTLE_TOWN_TOT_GYM               (3 | (45 << 8))
+
+// gMapGroup_IndoorCastleTownSalsa
+#define MAP_CASTLE_TOWN_SALSA_POKEMON_CENTER_1F (0 | (46 << 8))
+#define MAP_CASTLE_TOWN_SALSA_POKEMON_CENTER_2F (1 | (46 << 8))
+#define MAP_CASTLE_TOWN_SALSA_MART              (2 | (46 << 8))
+#define MAP_CASTLE_TOWN_SALSA_GYM               (3 | (46 << 8))
+
+#define MAP_GROUPS_COUNT 47
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H
