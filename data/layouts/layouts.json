@@ -4757,7 +4757,7 @@
       "width": 20,
       "height": 30,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_DewfordGym",
+      "secondary_tileset": "gTileset_CastleTownBlindJimGym",
       "border_filepath": "data/layouts/CastleTownBlindJim_Gym/border.bin",
       "blockdata_filepath": "data/layouts/CastleTownBlindJim_Gym/map.bin"
     },
