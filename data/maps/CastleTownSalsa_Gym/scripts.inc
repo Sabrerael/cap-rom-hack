@@ -1,2 +1,75 @@
 CastleTownSalsa_Gym_MapScripts::
 	.byte 0
+
+CastleTownSalsa_Gym_EventScript_Flannery::
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownSalsa_Gym_EventScript_Flannery_ZeroBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownSalsa_Gym_EventScript_Flannery_OneBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownSalsa_Gym_EventScript_Flannery_TwoBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownSalsa_Gym_EventScript_Flannery_ThreeBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownSalsa_Gym_EventScript_Flannery_FourBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownSalsa_Gym_EventScript_Flannery_FiveBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownSalsa_Gym_EventScript_Flannery_SixBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownSalsa_Gym_EventScript_Flannery_SevenBadge
+	release
+	end
+
+CastleTownSalsa_Gym_EventScript_Flannery_ZeroBadge::
+	trainerbattle_single TRAINER_FLANNERY_1, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
+	msgbox CastleTownSalsa_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownSalsa_Gym_EventScript_Flannery_OneBadge::
+	trainerbattle_single TRAINER_FLANNERY_2, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
+	msgbox CastleTownSalsa_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownSalsa_Gym_EventScript_Flannery_TwoBadge::
+	trainerbattle_single TRAINER_FLANNERY_3, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
+	msgbox CastleTownSalsa_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownSalsa_Gym_EventScript_Flannery_ThreeBadge::
+	trainerbattle_single TRAINER_FLANNERY_4, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
+	msgbox CastleTownSalsa_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownSalsa_Gym_EventScript_Flannery_FourBadge::
+	trainerbattle_single TRAINER_FLANNERY_5, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
+	msgbox CastleTownSalsa_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownSalsa_Gym_EventScript_Flannery_FiveBadge::
+	trainerbattle_single TRAINER_FLANNERY_6, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
+	msgbox CastleTownSalsa_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownSalsa_Gym_EventScript_Flannery_SixBadge::
+	trainerbattle_single TRAINER_FLANNERY_7, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
+	msgbox CastleTownSalsa_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownSalsa_Gym_EventScript_Flannery_SevenBadge::
+	trainerbattle_single TRAINER_FLANNERY_8, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
+	msgbox CastleTownSalsa_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownSalsa_Gym_EventScript_FlanneryDefeated::
+	setflag FLAG_DEFEATED_LAVARIDGE_GYM
+	setflag FLAG_BADGE04_GET
+	call Common_EventScript_UpdateBadgesCollected
+	release
+	end
+
+CastleTownSalsa_Gym_Text_Intro:
+	.string "Let's battle!$"
+
+CastleTownSalsa_Gym_Text_PostBattle:
+	.string "Good job!$"

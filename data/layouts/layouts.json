@@ -4537,7 +4537,7 @@
       "width": 20,
       "height": 30,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_MossdeepGym",
+      "secondary_tileset": "gTileset_CastleTownSabreGym",
       "border_filepath": "data/layouts/CastleTownSabre_Gym/border.bin",
       "blockdata_filepath": "data/layouts/CastleTownSabre_Gym/map.bin"
     },
@@ -4777,7 +4777,7 @@
       "width": 20,
       "height": 30,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_FortreeGym",
+      "secondary_tileset": "gTileset_CastleTownTrebleGym",
       "border_filepath": "data/layouts/CastleTownTreble_Gym/border.bin",
       "blockdata_filepath": "data/layouts/CastleTownTreble_Gym/map.bin"
     },

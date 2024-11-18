@@ -836,3 +836,25 @@ const struct Tileset gTileset_CastleTownBlindJimGym =
     .metatileAttributes = gMetatileAttributes_CastleTownBlindJimGym,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_CastleTownSabreGym =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_CastleTownSabreGym,
+    .palettes = gTilesetPalettes_CastleTownSabreGym,
+    .metatiles = gMetatiles_CastleTownSabreGym,
+    .metatileAttributes = gMetatileAttributes_CastleTownSabreGym,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_CastleTownTrebleGym =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_CastleTownTrebleGym,
+    .palettes = gTilesetPalettes_CastleTownTrebleGym,
+    .metatiles = gMetatiles_CastleTownTrebleGym,
+    .metatileAttributes = gMetatileAttributes_CastleTownTrebleGym,
+    .callback = NULL,
+};

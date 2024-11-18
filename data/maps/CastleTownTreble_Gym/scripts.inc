@@ -1,2 +1,75 @@
 CastleTownTreble_Gym_MapScripts::
 	.byte 0
+
+CastleTownTreble_Gym_EventScript_Wattson::
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTreble_Gym_EventScript_Wattson_ZeroBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTreble_Gym_EventScript_Wattson_OneBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownTreble_Gym_EventScript_Wattson_TwoBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownTreble_Gym_EventScript_Wattson_ThreeBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownTreble_Gym_EventScript_Wattson_FourBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownTreble_Gym_EventScript_Wattson_FiveBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownTreble_Gym_EventScript_Wattson_SixBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownTreble_Gym_EventScript_Wattson_SevenBadge
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_Wattson_ZeroBadge::
+	trainerbattle_single TRAINER_WATTSON_1, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
+	msgbox CastleTownTreble_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_Wattson_OneBadge::
+	trainerbattle_single TRAINER_WATTSON_2, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
+	msgbox CastleTownTreble_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_Wattson_TwoBadge::
+	trainerbattle_single TRAINER_WATTSON_3, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
+	msgbox CastleTownTreble_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_Wattson_ThreeBadge::
+	trainerbattle_single TRAINER_WATTSON_4, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
+	msgbox CastleTownTreble_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_Wattson_FourBadge::
+	trainerbattle_single TRAINER_WATTSON_5, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
+	msgbox CastleTownTreble_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_Wattson_FiveBadge::
+	trainerbattle_single TRAINER_WATTSON_6, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
+	msgbox CastleTownTreble_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_Wattson_SixBadge::
+	trainerbattle_single TRAINER_WATTSON_7, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
+	msgbox CastleTownTreble_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_Wattson_SevenBadge::
+	trainerbattle_single TRAINER_WATTSON_8, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
+	msgbox CastleTownTreble_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_WattsonDefeated::
+	setflag FLAG_DEFEATED_MAUVILLE_GYM
+	setflag FLAG_BADGE03_GET
+	call Common_EventScript_UpdateBadgesCollected
+	release
+	end
+
+CastleTownTreble_Gym_Text_Intro:
+	.string "Let's battle!$"
+
+CastleTownTreble_Gym_Text_PostBattle:
+	.string "Good job!$"

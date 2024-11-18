@@ -1,2 +1,75 @@
 CastleTownTMoney_Gym_MapScripts::
 	.byte 0
+
+CastleTownTMoney_Gym_EventScript_Winona::
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTMoney_Gym_EventScript_Winona_ZeroBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTMoney_Gym_EventScript_Winona_OneBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownTMoney_Gym_EventScript_Winona_TwoBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownTMoney_Gym_EventScript_Winona_ThreeBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownTMoney_Gym_EventScript_Winona_FourBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownTMoney_Gym_EventScript_Winona_FiveBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownTMoney_Gym_EventScript_Winona_SixBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownTMoney_Gym_EventScript_Winona_SevenBadge
+	release
+	end
+
+CastleTownTMoney_Gym_EventScript_Winona_ZeroBadge::
+	trainerbattle_single TRAINER_WINONA_1, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	msgbox CastleTownTMoney_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTMoney_Gym_EventScript_Winona_OneBadge::
+	trainerbattle_single TRAINER_WINONA_2, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	msgbox CastleTownTMoney_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTMoney_Gym_EventScript_Winona_TwoBadge::
+	trainerbattle_single TRAINER_WINONA_3, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	msgbox CastleTownTMoney_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTMoney_Gym_EventScript_Winona_ThreeBadge::
+	trainerbattle_single TRAINER_WINONA_4, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	msgbox CastleTownTMoney_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTMoney_Gym_EventScript_Winona_FourBadge::
+	trainerbattle_single TRAINER_WINONA_5, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	msgbox CastleTownTMoney_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTMoney_Gym_EventScript_Winona_FiveBadge::
+	trainerbattle_single TRAINER_WINONA_6, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	msgbox CastleTownTMoney_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTMoney_Gym_EventScript_Winona_SixBadge::
+	trainerbattle_single TRAINER_WINONA_7, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	msgbox CastleTownTMoney_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTMoney_Gym_EventScript_Winona_SevenBadge::
+	trainerbattle_single TRAINER_WINONA_8, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	msgbox CastleTownTMoney_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTMoney_Gym_EventScript_WinonaDefeated::
+	setflag FLAG_DEFEATED_FORTREE_GYM
+	setflag FLAG_BADGE06_GET
+	call Common_EventScript_UpdateBadgesCollected
+	release
+	end
+
+CastleTownTMoney_Gym_Text_Intro:
+	.string "Let's battle!$"
+
+CastleTownTMoney_Gym_Text_PostBattle:
+	.string "Good job!$"

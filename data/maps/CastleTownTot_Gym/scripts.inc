@@ -1,2 +1,75 @@
 CastleTownTot_Gym_MapScripts::
 	.byte 0
+
+CastleTownTot_Gym_EventScript_Tate::
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTot_Gym_EventScript_Tate_ZeroBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTot_Gym_EventScript_Tate_OneBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownTot_Gym_EventScript_Tate_TwoBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownTot_Gym_EventScript_Tate_ThreeBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownTot_Gym_EventScript_Tate_FourBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownTot_Gym_EventScript_Tate_FiveBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownTot_Gym_EventScript_Tate_SixBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownTot_Gym_EventScript_Tate_SevenBadge
+	release
+	end
+
+CastleTownTot_Gym_EventScript_Tate_ZeroBadge::
+	trainerbattle_single TRAINER_TATE_AND_LIZA_1, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
+	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTot_Gym_EventScript_Tate_OneBadge::
+	trainerbattle_single TRAINER_TATE_AND_LIZA_2, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
+	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTot_Gym_EventScript_Tate_TwoBadge::
+	trainerbattle_single TRAINER_TATE_AND_LIZA_3, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
+	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTot_Gym_EventScript_Tate_ThreeBadge::
+	trainerbattle_single TRAINER_TATE_AND_LIZA_4, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
+	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTot_Gym_EventScript_Tate_FourBadge::
+	trainerbattle_single TRAINER_TATE_AND_LIZA_5, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
+	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTot_Gym_EventScript_Tate_FiveBadge::
+	trainerbattle_single TRAINER_TATE_AND_LIZA_6, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
+	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTot_Gym_EventScript_Tate_SixBadge::
+	trainerbattle_single TRAINER_TATE_AND_LIZA_7, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
+	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTot_Gym_EventScript_Tate_SevenBadge::
+	trainerbattle_single TRAINER_TATE_AND_LIZA_8, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
+	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTot_Gym_EventScript_TateDefeated::
+	setflag FLAG_DEFEATED_MOSSDEEP_GYM
+	setflag FLAG_BADGE07_GET
+	call Common_EventScript_UpdateBadgesCollected
+	release
+	end
+
+CastleTownTot_Gym_Text_Intro:
+	.string "Let's battle!$"
+
+CastleTownTot_Gym_Text_PostBattle:
+	.string "Good job!$"

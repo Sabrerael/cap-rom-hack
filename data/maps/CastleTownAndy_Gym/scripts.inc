@@ -1,2 +1,75 @@
 CastleTownAndy_Gym_MapScripts::
 	.byte 0
+
+CastleTownAndy_Gym_EventScript_Roxanne::
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownAndy_Gym_EventScript_Roxanne_ZeroBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownAndy_Gym_EventScript_Roxanne_OneBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownAndy_Gym_EventScript_Roxanne_TwoBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownAndy_Gym_EventScript_Roxanne_ThreeBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownAndy_Gym_EventScript_Roxanne_FourBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownAndy_Gym_EventScript_Roxanne_FiveBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownAndy_Gym_EventScript_Roxanne_SixBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownAndy_Gym_EventScript_Roxanne_SevenBadge
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_Roxanne_ZeroBadge::
+	trainerbattle_single TRAINER_ROXANNE_1, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_Roxanne_OneBadge::
+	trainerbattle_single TRAINER_ROXANNE_2, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_Roxanne_TwoBadge::
+	trainerbattle_single TRAINER_ROXANNE_3, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_Roxanne_ThreeBadge::
+	trainerbattle_single TRAINER_ROXANNE_4, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_Roxanne_FourBadge::
+	trainerbattle_single TRAINER_ROXANNE_5, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_Roxanne_FiveBadge::
+	trainerbattle_single TRAINER_ROXANNE_6, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_Roxanne_SixBadge::
+	trainerbattle_single TRAINER_ROXANNE_7, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_Roxanne_SevenBadge::
+	trainerbattle_single TRAINER_ROXANNE_8, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_RoxanneDefeated::
+	setflag FLAG_DEFEATED_RUSTBORO_GYM
+	setflag FLAG_BADGE01_GET
+	call Common_EventScript_UpdateBadgesCollected
+	release
+	end
+
+CastleTownAndy_Gym_Text_Intro:
+	.string "Let's battle!$"
+
+CastleTownAndy_Gym_Text_PostBattle:
+	.string "Good job!$"
