@@ -1,6 +1,76 @@
 CastleTownTot_Gym_MapScripts::
 	.byte 0
 
+CastleTownTot_Gym_EventScript_GymGuide::
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_MOSSDEEP_GYM, CastleTownTot_Gym_EventScript_GymGuidePostVictory
+	msgbox CastleTownTot_Gym_Text_GymGuideAdvice, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTot_Gym_EventScript_GymGuidePostVictory::
+	msgbox CastleTownTot_Gym_Text_GymGuidePostVictory, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTot_Gym_EventScript_LeftGymStatue::
+	lockall
+	goto_if_set FLAG_BADGE07_GET, CastleTownTot_Gym_EventScript_GymStatueCertified
+	goto CastleTownTot_Gym_EventScript_GymStatue
+	end
+
+CastleTownTot_Gym_EventScript_RightGymStatue::
+	lockall
+	goto_if_set FLAG_BADGE07_GET, CastleTownTot_Gym_EventScript_GymStatueCertified
+	goto CastleTownTot_Gym_EventScript_GymStatue
+	end
+
+CastleTownTot_Gym_EventScript_GymStatueCertified::
+	msgbox CastleTownTot_Gym_Text_GymStatueCertified, MSGBOX_DEFAULT
+	releaseall
+	end
+
+CastleTownTot_Gym_EventScript_GymStatue::
+	msgbox CastleTownTot_Gym_Text_GymStatue, MSGBOX_DEFAULT
+	releaseall
+	end
+
+CastleTownTot_Gym_EventScript_Preston::
+	trainerbattle_single TRAINER_PRESTON, CastleTownTot_Gym_Text_PrestonIntro, CastleTownTot_Gym_Text_PrestonDefeat
+	msgbox CastleTownTot_Gym_Text_PrestonPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+CastleTownTot_Gym_EventScript_Virgil::
+	trainerbattle_single TRAINER_VIRGIL, CastleTownTot_Gym_Text_VirgilIntro, CastleTownTot_Gym_Text_VirgilDefeat
+	msgbox CastleTownTot_Gym_Text_VirgilPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+CastleTownTot_Gym_EventScript_Blake::
+	trainerbattle_single TRAINER_BLAKE, CastleTownTot_Gym_Text_BlakeIntro, CastleTownTot_Gym_Text_BlakeDefeat
+	msgbox CastleTownTot_Gym_Text_BlakePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+CastleTownTot_Gym_EventScript_Hannah::
+	trainerbattle_single TRAINER_HANNAH, CastleTownTot_Gym_Text_HannahIntro, CastleTownTot_Gym_Text_HannahDefeat
+	msgbox CastleTownTot_Gym_Text_HannahPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+CastleTownTot_Gym_EventScript_Samantha::
+	trainerbattle_single TRAINER_SAMANTHA, CastleTownTot_Gym_Text_SamanthaIntro, CastleTownTot_Gym_Text_SamanthaDefeat
+	msgbox CastleTownTot_Gym_Text_SamanthaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+CastleTownTot_Gym_EventScript_Maura::
+	trainerbattle_single TRAINER_MAURA, CastleTownTot_Gym_Text_MauraIntro, CastleTownTot_Gym_Text_MauraDefeat
+	msgbox CastleTownTot_Gym_Text_MauraPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+CastleTownTot_Gym_EventScript_Nate::
+	trainerbattle_single TRAINER_NATE, CastleTownTot_Gym_Text_NateIntro, CastleTownTot_Gym_Text_NateDefeat
+	msgbox CastleTownTot_Gym_Text_NatePostBattle, MSGBOX_AUTOCLOSE
+	end
+
 CastleTownTot_Gym_EventScript_Tate::
     goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTot_Gym_EventScript_Tate_ZeroBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTot_Gym_EventScript_Tate_OneBadge
@@ -67,6 +137,131 @@ CastleTownTot_Gym_EventScript_TateDefeated::
 	call Common_EventScript_UpdateBadgesCollected
 	release
 	end
+
+CastleTownTot_Gym_Text_GymGuideAdvice:
+	.string "Yo, how's it going, CHAMPION-\n"
+	.string "bound {PLAYER}?\p"
+	.string "FORTREE GYM LEADER WINONA is\n"
+	.string "a master of FLYING-type POKéMON.\p"
+	.string "She's waiting at the back of this GYM,\n"
+	.string "behind the rotating doors.\p"
+	.string "She's waiting for new challengers\n"
+	.string "who are trying to take wing!\p"
+	.string "Okay, go for it!$"
+
+CastleTownTot_Gym_Text_GymGuidePostVictory:
+	.string "You did it!\n"
+	.string "You've achieved liftoff!$"
+
+CastleTownTot_Gym_Text_GymStatue:
+	.string "CASTLE TOWN TOT POKéMON GYM$"
+
+CastleTownTot_Gym_Text_GymStatueCertified:
+	.string "CASTLE TOWN TOT POKéMON GYM\p"
+	.string "TOT'S CERTIFIED TRAINERS:\n"
+	.string "{PLAYER}$"
+
+CastleTownTot_Gym_Text_PrestonIntro:
+	.string "Battles hinge on the strength of your\n"
+	.string "spirit! The weak-spirited will never win!$"
+
+CastleTownTot_Gym_Text_PrestonDefeat:
+	.string "I lost!\n"
+	.string "I must temper my spirit again!$"
+
+CastleTownTot_Gym_Text_PrestonPostBattle:
+	.string "The indecisive lose.\n"
+	.string "That's my warning to you.$"
+
+CastleTownTot_Gym_Text_VirgilIntro:
+	.string "Let me see your talent!$"
+
+CastleTownTot_Gym_Text_VirgilDefeat:
+	.string "You possess spectacular talent!$"
+
+CastleTownTot_Gym_Text_VirgilPostBattle:
+	.string "If there are prodigies in the world,\n"
+	.string "then our GYM LEADERS are them!\p"
+	.string "However, you may be even more talented\n"
+	.string "than them…$"
+
+CastleTownTot_Gym_Text_BlakeIntro:
+	.string "Fufufufu… Watch me levitate a POKé\n"
+	.string "BALL telekinetically!\p"
+	.string "Wrooooooooaaaar!\n"
+	.string "… … … … … … …\p"
+	.string "Sometimes, I'm out of sync…$"
+
+CastleTownTot_Gym_Text_BlakeDefeat:
+	.string "My POKéMON battling skills are out\n"
+	.string "of sync, too!$"
+
+CastleTownTot_Gym_Text_BlakePostBattle:
+	.string "A POKé BALL was too heavy to lift\n"
+	.string "psychically. But this dust bunny…\p"
+	.string "Whoooooooooooooooh!\n"
+	.string "… … … … … …\p"
+	.string "No, I'm not cheating!\n"
+	.string "I didn't blow on it! Honestly!$"
+
+CastleTownTot_Gym_Text_HannahIntro:
+	.string "When you lose to me, don't be too hard\n"
+	.string "on yourself.\p"
+	.string "It's not that you're weak--I'm just\n"
+	.string "too strong!$"
+
+CastleTownTot_Gym_Text_HannahDefeat:
+	.string "You're just too strong!$"
+
+CastleTownTot_Gym_Text_HannahPostBattle:
+	.string "I'm not going to get down on myself for\n"
+	.string "losing. I just need to train harder.\p"
+	.string "Positive thinking--that's my strong\n"
+	.string "point!$"
+
+CastleTownTot_Gym_Text_SamanthaIntro:
+	.string "I see it…\n"
+	.string "I see your future…\p"
+	.string "If you can beat me, I will tell you\n"
+	.string "your future!$"
+
+CastleTownTot_Gym_Text_SamanthaDefeat:
+	.string "I surrender!$"
+
+CastleTownTot_Gym_Text_SamanthaPostBattle:
+	.string "You will wage a terrifically intense\n"
+	.string "battle with our GYM LEADERS…\p"
+	.string "The result…\n"
+	.string "You won't hear it from me!$"
+
+CastleTownTot_Gym_Text_MauraIntro:
+	.string "The roads you have traveled…\n"
+	.string "What you have experienced…\p"
+	.string "Come at me with everything you've\n"
+	.string "learned!$"
+
+CastleTownTot_Gym_Text_MauraDefeat:
+	.string "You've traveled a path of greatness!$"
+
+CastleTownTot_Gym_Text_MauraPostBattle:
+	.string "A bright future awaits those who have\n"
+	.string "worked diligently.\p"
+	.string "For those who lazed idly, there is\n"
+	.string "only despair at the end.\p"
+	.string "What goes around comes around…$"
+
+CastleTownTot_Gym_Text_NateIntro:
+	.string "Hohoho.\p"
+	.string "You need me to show you how tenacious\n"
+	.string "the PSYCHIC type can be.$"
+
+CastleTownTot_Gym_Text_NateDefeat:
+	.string "Oh! My, my!\n"
+	.string "Your battle style is fantastic!$"
+
+CastleTownTot_Gym_Text_NatePostBattle:
+	.string "I… I don't let defeat rattle m-me,\n"
+	.string "however b-badly.$"
 
 CastleTownTot_Gym_Text_Intro:
 	.string "Let's battle!$"

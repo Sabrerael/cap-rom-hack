@@ -86,26 +86,46 @@ Name: PsyStorm
 Class: Viewer
 Pic: Cooltrainer M
 Gender: Male
-Music: Hiker
+Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
+Mankey
+Level Modifier: 3
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Passimian
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
 Infernape
-Level Modifier: 0
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_1 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Name: OnlyJack
+Class: Viewer
+Pic: Cooltrainer M
 Gender: Male
-Music: Aqua
+Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Poochyena
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Togepi
+Level Modifier: 3
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Scyther
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Sudowoodo
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Dragonite
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_2 ===
 Name: GRUNT
@@ -1264,16 +1284,20 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Swellow
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Quick Attack
-- Agility
-- Wing Attack
+Shieldon
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Orthworm
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Bastiodon
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_PARKER ===
 Name: PARKER
@@ -1281,16 +1305,20 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Teeter Dance
-- Dizzy Punch
-- Focus Punch
+Aron
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Durant
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lairon
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_GEORGE ===
 Name: GEORGE
@@ -1298,16 +1326,20 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Slakoth @ Sitrus Berry
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Slack Off
-- Counter
-- Shadow Ball
+Pawniard
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Mawile
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Bisharp
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_BERKE ===
 Name: BERKE
@@ -1315,15 +1347,20 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Vigoroth
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Focus Energy
-- Slash
+Klink
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Escavalier
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Klang
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_BRAXTON ===
 Name: BRAXTON
@@ -1655,15 +1692,20 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Delcatty
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Feint Attack
-- Shock Wave
+Magnemite
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Skarmory
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Magneton
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_ALEXIA ===
 Name: ALEXIA
@@ -1671,16 +1713,20 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Wigglytuff
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Defense Curl
-- Double Edge
-- Shadow Ball
+Cufant
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Togedemaru
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Copperajah
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_JODY ===
 Name: JODY
@@ -1688,15 +1734,20 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
-Zangoose
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Swords Dance
-- Slash
+Honedge
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Wormadam Trash Cloak
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Doublade
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_WENDY ===
 Name: WENDY
@@ -2138,15 +2189,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Jangmo-o
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Applin
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Hakamo-o
-Level Modifier: 0
+Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_2 ===
@@ -2197,15 +2248,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Deino
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Gible
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Zweilous
-Level Modifier: 0
+Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_NAOMI ===
@@ -2356,15 +2407,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Frigibax
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Altaria
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Arctibax
-Level Modifier: 0
+Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_BRIDGET ===
@@ -2377,15 +2428,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Dratini
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Tatsugiri
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Dragonair
-Level Modifier: 0
+Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_OLIVIA ===
@@ -2398,15 +2449,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Bagon
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Duraludon
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Shelgon
-Level Modifier: 0
+Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_TIFFANY ===
@@ -3181,15 +3232,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Houndour
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Poochyena
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Mightyena
-Level Modifier: 0
+Level Modifier: 1
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_HITOSHI ===
@@ -3380,20 +3431,17 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Electrike
-Level: 17
+Phantump
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Quick Attack
-- Thunder Wave
-- Spark
-- Leer
 
-Voltorb
-Level: 17
+Grovyle
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Charge
-- Shock Wave
-- Screech
+
+Trevenant
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_7 ===
 Name: GRUNT
@@ -3434,13 +3482,17 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Voltorb
-Level: 17
+Fomantis
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Magnemite
-Level: 17
+Maractus
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lurantis
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_FERNANDO_1 ===
 Name: FERNANDO
@@ -3570,8 +3622,16 @@ Double Battle: No
 AI: Check Bad Move
 
 Numel
-Level: 23
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Heatmor
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Camerupt
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_JEFF ===
 Name: JEFF
@@ -3582,13 +3642,17 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Slugma
-Level: 22
+Darumaka
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Slugma
-Level: 22
+Sizzlipede
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Darmanitan
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_AXLE ===
 Name: AXLE
@@ -3599,9 +3663,17 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Numel
-Level: 23
+Ponyta
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Magmar
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Rapidash
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_JACE ===
 Name: JACE
@@ -3612,9 +3684,17 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Slugma
-Level: 23
+Charcadet
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Oricorio
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Armarouge
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_KEEGAN ===
 Name: KEEGAN
@@ -3625,8 +3705,16 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Slugma
-Level: 23
+Litwick
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Litten
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lampent
+Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_BERNIE_1 ===
@@ -4138,9 +4226,17 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Kirlia
-Level: 36
+Fidough
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Carbink
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Dachsbun
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_VIRGIL ===
 Name: VIRGIL
@@ -4151,9 +4247,17 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Ralts
-Level: 36
+Impidimp
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Granbull
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Morgrem
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_BLAKE ===
 Name: BLAKE
@@ -4164,9 +4268,17 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Girafarig
-Level: 36
+Togetic
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Comfey
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Dedenne
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_WILLIAM ===
 Name: WILLIAM
@@ -4310,9 +4422,17 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Kirlia
-Level: 36
+Ralts
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Clefairy
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Kirlia
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_SAMANTHA ===
 Name: SAMANTHA
@@ -4323,9 +4443,17 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Xatu
-Level: 36
+Morelull
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Azumarill
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Shiinotic
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_MAURA ===
 Name: MAURA
@@ -4336,9 +4464,17 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Kadabra
-Level: 36
+Cutiefly
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Alcremie
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Ribombee
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_KAYLA ===
 Name: KAYLA
@@ -4609,7 +4745,7 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Setup First Turn
+AI: Check Bad Move / Try To Faint / Check Viability / Setup First Turn / Ace Pokemon
 Mugshot: Purple
 
 Mightyena
@@ -4660,7 +4796,7 @@ Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 Mugshot: Green
 
 Dusclops
@@ -4711,7 +4847,7 @@ Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 Mugshot: Pink
 
 Sealeo
@@ -4762,7 +4898,7 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 Mugshot: Blue
 
 Shelgon
@@ -5341,17 +5477,17 @@ Music: Twins
 Double Battle: No
 AI: Check Bad Move
 
-Azurill @ Oran Berry
-Level: 35
+Cherubi
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Marill @ Oran Berry
-Level: 37
+Tangela
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Azumarill @ Oran Berry
-Level: 39
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Cherrim
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_ISABEL_1 ===
 Name: ISABEL
@@ -5660,10 +5796,17 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 10
+Hoothoot
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
+
+Delibird
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Noctowl
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_TOMMY ===
 Name: TOMMY
@@ -5674,12 +5817,16 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 8
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+Wingull
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Geodude
-Level: 8
+Flamigo
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Pelipper
+Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_JOEY ===
@@ -5704,21 +5851,17 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 17
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Headbutt
-- Sand Attack
-- Growl
-- Thunderbolt
+Snover
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Gulpin
-Level: 17
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Amnesia
-- Sludge
-- Yawn
-- Pound
+Lileep
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Abomasnow
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_QUINCY ===
 Name: QUINCY
@@ -5929,7 +6072,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 Mugshot: Yellow
 
 Wailord
@@ -7023,37 +7166,37 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JARED ===
 Name: JARED
-Class: Bird Keeper
-Pic: Bird Keeper
+Class: Gentleman
+Pic: Gentleman
 Gender: Male
-Music: Cool
+Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Doduo
-Level: 27
+Araquanid
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Skarmory
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Tropius
-Level: 27
+Tapu Fini
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_HUMBERTO ===
 Name: HUMBERTO
-Class: Bird Keeper
-Pic: Bird Keeper
+Class: Gentleman
+Pic: Gentleman
 Gender: Male
-Music: Cool
+Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Skarmory
-Level: 30
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Quilava
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Entei
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_PRESLEY ===
 Name: PRESLEY
@@ -7074,20 +7217,20 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_EDWARDO ===
 Name: EDWARDO
-Class: Bird Keeper
-Pic: Bird Keeper
+Class: Rich Boy
+Pic: Rich Boy
 Gender: Male
-Music: Cool
+Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Doduo
-Level: 29
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Glalie
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Pelipper
-Level: 29
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Regice
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_COLIN ===
 Name: COLIN
@@ -7522,15 +7665,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Vullaby
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Bombirdier
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Mandibuzz
-Level Modifier: 0
+Level Modifier: 1
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_LAURA ===
@@ -7543,15 +7686,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Purrloin
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Nickit
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Thievul
-Level Modifier: 0
+Level Modifier: 1
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_CYNDY_1 ===
@@ -8849,9 +8992,17 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Numel
-Level: 23
+Murkrow
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Sneasel
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Sableye
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_ANNIKA ===
 Name: Manfred
@@ -8863,15 +9014,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Goomy
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Cyclizar
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Sliggoo
-Level Modifier: 0
+Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_JAZMYN ===
@@ -10205,22 +10356,30 @@ Golbat
 Level: 35
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-=== TRAINER_GRUNT_UNUSED ===
-Name: GRUNT
-Class: Team Magma
-Pic: Aqua Grunt F
-Gender: Female
-Music: Aqua
+=== TRAINER_BOBSRUS ===
+Name: BobsRUs
+Class: Viewer
+Pic: Cooltrainer M
+Gender: Male
+Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Wailmer
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mimikyu
+Level Modifier: 3
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Zubat
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Feraligatr
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Umbreon
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Tyranitar
+Level Modifier: 1
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_GRUNT_MT_PYRE_4 ===
 Name: GRUNT
@@ -10265,13 +10424,21 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 8
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+Squawkabilly Blue Plumage
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Geodude
-Level: 8
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+Squawkabilly Green Plumage
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Squawkabilly Yellow Plumage
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Squawkabilly White Plumage
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_BRENDEN ===
 Name: BRENDEN
@@ -10283,15 +10450,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Stunky
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Scraggy
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Skuntank
-Level Modifier: 0
+Level Modifier: 1
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_LILITH ===
@@ -10304,15 +10471,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Carvanha
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Nuzleaf
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Sharpedo
-Level Modifier: 0
+Level Modifier: 1
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_CRISTIAN ===
@@ -10325,15 +10492,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Maschiff
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Cacturne
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Crawdaunt
-Level Modifier: 0
+Level Modifier: 1
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_SYLVIA ===
@@ -10345,9 +10512,17 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 36
+Pikipek
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Yanma
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Trumbeak
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_LEONARDO ===
 Name: LEONARDO
@@ -10446,9 +10621,17 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Spoink
-Level: 36
+Mawile
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Mr. Mime
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Floette
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_KATHLEEN ===
 Name: KATHLEEN
@@ -10459,9 +10642,17 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Kadabra
-Level: 36
+Ducklett
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Minior
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Swanna
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_CLIFFORD ===
 Name: CLIFFORD
@@ -10472,9 +10663,17 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Girafarig
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rookidee
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Masquerain
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Corvisquire
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_NICHOLAS ===
 Name: NICHOLAS
@@ -10485,9 +10684,17 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Wobbuffet
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Petilil
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Bounsweet
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lilligant
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_3 ===
 Name: GRUNT
@@ -10567,9 +10774,17 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Natu
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Xatu
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Aerodactyl
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Hawlucha
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_BRENDAN_RUSTBORO_TREECKO ===
 Name: BRENDAN
@@ -10957,32 +11172,32 @@ Double Battle: No
 AI: Check Bad Move
 
 Dreepy
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Turtonator
-Level Modifier: 1
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Drakloak
-Level Modifier: 0
+Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_CRISSY ===
 Name: CRISSY
-Class: Lass
-Pic: Lass
+Class: Lady
+Pic: Lady
 Gender: Female
-Music: Female
+Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Goldeen
-Level: 39
+Morpeko
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Wailmer
-Level: 39
+Zarude
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_RICK ===
@@ -11606,13 +11821,17 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Kecleon
-Level: 23
+Salandit
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Flamethrower
-- Fury Swipes
-- Feint Attack
-- Bind
+
+Houndour
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Salazzle
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_VIVIAN ===
 Name: VIVIAN
@@ -11623,21 +11842,17 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 17
+Oddish
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bide
-- Detect
-- Confusion
-- Thunder Punch
 
-Meditite
-Level: 17
+Carnivine
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunder Punch
-- Detect
-- Confusion
-- Meditate
+
+Gloom
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_DANIELLE ===
 Name: DANIELLE
@@ -11648,13 +11863,17 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 23
+Litleo
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bide
-- Detect
-- Confusion
-- Fire Punch
+
+Carkol
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Pyroar
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_HIDEO ===
 Name: HIDEO
@@ -11733,40 +11952,36 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_FLINT ===
 Name: FLINT
-Class: Camper
-Pic: Camper
+Class: Rich Boy
+Pic: Rich Boy
 Gender: Male
-Music: Male
+Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Swellow
-Level: 29
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Amoonguss
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Xatu
-Level: 29
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Virizion
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_ASHLEY ===
 Name: ASHLEY
-Class: Picnicker
-Pic: Picnicker
+Class: Lady
+Pic: Lady
 Gender: Female
-Music: Girl
+Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Swablu
-Level: 27
+Tranquill
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Swablu
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Swablu
-Level: 27
+Tornadus Therian
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_WALLY_MAUVILLE ===
@@ -13695,7 +13910,7 @@ Gender: Male
 Music: Female
 Items: Potion / Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Doduo
 Level: 14
@@ -13732,7 +13947,7 @@ Gender: Male
 Music: Female
 Items: Potion / Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Doduo
 Level: 19
@@ -13778,7 +13993,7 @@ Gender: Male
 Music: Female
 Items: Super Potion / Super Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Doduo
 Level: 25
@@ -13824,7 +14039,7 @@ Gender: Male
 Music: Female
 Items: Super Potion / Super Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Dodrio
 Level: 31
@@ -13870,7 +14085,7 @@ Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Dodrio
 Level: 38
@@ -13916,7 +14131,7 @@ Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Dodrio
 Level: 44
@@ -13971,7 +14186,7 @@ Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Dodrio
 Level: 50
@@ -14026,7 +14241,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Dodrio @ ITEM_KINGS_ROCK
 Level: 56
@@ -14081,7 +14296,7 @@ Gender: Male
 Music: Male
 Items: Potion / Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Sandile
 Level: 14
@@ -14118,7 +14333,7 @@ Gender: Male
 Music: Male
 Items: Potion / Potion
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Zorua
 Level: 20
@@ -14163,7 +14378,7 @@ Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Zorua
 Level: 26
@@ -14208,7 +14423,7 @@ Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Zoroark 
 Level: 32
@@ -14253,7 +14468,7 @@ Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Zoroark
 Level: 38
@@ -14298,7 +14513,7 @@ Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Zoroark
 Level: 44
@@ -14352,7 +14567,7 @@ Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Zoroark
 Level: 50
@@ -14407,7 +14622,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Zoroark @ Wise Glasses
 Level: 56
@@ -14461,7 +14676,7 @@ Gender: Female
 Music: Female
 Items: Potion / Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Shroomish
 Level: 14
@@ -14498,7 +14713,7 @@ Gender: Male
 Music: Male
 Items: Potion / Potion
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Roselia
 Level: 20
@@ -14544,7 +14759,7 @@ Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Roselia
 Level: 26
@@ -14590,7 +14805,7 @@ Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Roselia
 Level: 32
@@ -14636,7 +14851,7 @@ Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Roselia
 Level: 38
@@ -14682,7 +14897,7 @@ Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Roserade
 Level: 44
@@ -14736,7 +14951,7 @@ Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Roserade
 Level: 50
@@ -14791,7 +15006,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Roserade @ Terrain Extender
 Level: 56
@@ -14846,7 +15061,7 @@ Gender: Female
 Music: Female
 Items: Potion / Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Ninetales
 Level: 14
@@ -14901,7 +15116,7 @@ Gender: Female
 Music: Female
 Items: Potion / Potion
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Ninetales
 Level: 20
@@ -14956,7 +15171,7 @@ Gender: Female
 Music: Female
 Items: Super Potion / Super Potion
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Ninetales
 Level: 26
@@ -15011,7 +15226,7 @@ Gender: Female
 Music: Female
 Items: Super Potion / Super Potion
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Ninetales
 Level: 32
@@ -15066,7 +15281,7 @@ Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Ninetales
 Level: 38
@@ -15121,7 +15336,7 @@ Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Ninetales
 Level: 44
@@ -15176,7 +15391,7 @@ Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Ninetales
 Level: 50
@@ -15231,7 +15446,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Ninetales @ Leftovers
 Level: 56
@@ -15286,7 +15501,7 @@ Gender: Male
 Music: Male
 Items: Potion / Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Steelix @ Leftovers
 Level: 14
@@ -15362,7 +15577,7 @@ Gender: Male
 Music: Male
 Items: Potion / Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Steelix @ Leftovers
 Level: 20
@@ -15438,7 +15653,7 @@ Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Steelix @ Leftovers
 Level: 26
@@ -15514,7 +15729,7 @@ Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Steelix @ Leftovers
 Level: 32
@@ -15590,7 +15805,7 @@ Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Steelix @ Leftovers
 Level: 38
@@ -15666,7 +15881,7 @@ Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Steelix @ Leftovers
 Level: 44
@@ -15742,7 +15957,7 @@ Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Steelix @ Leftovers
 Level: 50
@@ -15818,7 +16033,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Steelix @ Leftovers
 Level: 56
@@ -15894,7 +16109,7 @@ Gender: Female
 Music: Female
 Items: Potion / Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Risky
+AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
 
 Bellibolt @ Leftovers
 Level: 14
@@ -15958,7 +16173,7 @@ Gender: Female
 Music: Female
 Items: Potion / Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Risky
+AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
 
 Bellibolt @ Leftovers
 Level: 20
@@ -16022,7 +16237,7 @@ Gender: Female
 Music: Female
 Items: Super Potion / Super Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Risky
+AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
 
 Bellibolt @ Leftovers
 Level: 26
@@ -16086,7 +16301,7 @@ Gender: Female
 Music: Female
 Items: Super Potion / Super Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Risky
+AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
 
 Bellibolt @ Leftovers
 Level: 32
@@ -16150,7 +16365,7 @@ Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Risky
+AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
 
 Bellibolt @ Leftovers
 Level: 38
@@ -16214,7 +16429,7 @@ Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Risky
+AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
 
 Bellibolt @ Leftovers
 Level: 44
@@ -16278,7 +16493,7 @@ Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Risky
+AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
 
 Bellibolt @ Leftovers
 Level: 50
@@ -16342,7 +16557,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Risky
+AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
 
 Bellibolt @ Leftovers
 Level: 56
@@ -16406,7 +16621,7 @@ Gender: Male
 Music: Female
 Items: Potion / Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Klefki
 Level: 14
@@ -16460,7 +16675,7 @@ Gender: Male
 Music: Female
 Items: Potion / Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Klefki
 Level: 20
@@ -16514,7 +16729,7 @@ Gender: Male
 Music: Female
 Items: Super Potion / Super Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Klefki
 Level: 26
@@ -16568,7 +16783,7 @@ Gender: Male
 Music: Female
 Items: Super Potion / Super Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Klefki
 Level: 32
@@ -16622,7 +16837,7 @@ Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Klefki
 Level: 38
@@ -16676,7 +16891,7 @@ Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Klefki
 Level: 44
@@ -16730,7 +16945,7 @@ Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Klefki
 Level: 50
@@ -16784,7 +16999,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Klefki @ Light Clay
 Level: 56
@@ -16838,7 +17053,7 @@ Gender: Male
 Music: Male
 Items: Potion / Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Duraludon
 Level: 14
@@ -16892,7 +17107,7 @@ Gender: Male
 Music: Male
 Items: Potion / Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Duraludon
 Level: 20
@@ -16946,7 +17161,7 @@ Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Duraludon
 Level: 26
@@ -17000,7 +17215,7 @@ Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Duraludon
 Level: 32
@@ -17054,7 +17269,7 @@ Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Duraludon
 Level: 38
@@ -17108,7 +17323,7 @@ Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Duraludon
 Level: 44
@@ -17162,7 +17377,7 @@ Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Duraludon
 Level: 50
@@ -17216,7 +17431,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Duraludon @ Leftovers
 Level: 56
@@ -17271,32 +17486,34 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Illumise
-Level: 17
+Ferroseed
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Shock Wave
-- Quick Attack
-- Charm
 
-Volbeat
-Level: 17
+Dhelmise
+Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Shock Wave
-- Quick Attack
-- Confuse Ray
+
+Ferrothorn
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_DARIUS ===
 Name: DARIUS
-Class: Bird Keeper
-Pic: Bird Keeper
+Class: Rich Boy
+Pic: Rich Boy
 Gender: Male
-Music: Cool
+Music: Rich
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Tropius
-Level: 30
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Bronzong
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Mesprit
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_STEVEN ===
 Name: STEVEN

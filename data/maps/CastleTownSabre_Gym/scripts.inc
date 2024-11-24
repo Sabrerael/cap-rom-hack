@@ -1,6 +1,41 @@
 CastleTownSabre_Gym_MapScripts::
 	.byte 0
 
+CastleTownSabre_Gym_EventScript_GymGuide::
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_SOOTOPOLIS_GYM, CastleTownSabre_Gym_EventScript_GymGuidePostVictory
+	msgbox CastleTownSabre_Gym_Text_GymGuideAdvice, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownSabre_Gym_EventScript_GymGuidePostVictory::
+	msgbox CastleTownSabre_Gym_Text_GymGuidePostVictory, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownSabre_Gym_EventScript_LeftGymStatue::
+	lockall
+	goto_if_set FLAG_BADGE08_GET, CastleTownSabre_Gym_EventScript_GymStatueCertified
+	goto CastleTownSabre_Gym_EventScript_GymStatue
+	end
+
+CastleTownSabre_Gym_EventScript_RightGymStatue::
+	lockall
+	goto_if_set FLAG_BADGE08_GET, CastleTownSabre_Gym_EventScript_GymStatueCertified
+	goto CastleTownSabre_Gym_EventScript_GymStatue
+	end
+
+CastleTownSabre_Gym_EventScript_GymStatueCertified::
+	msgbox CastleTownSabre_Gym_Text_GymStatueCertified, MSGBOX_DEFAULT
+	releaseall
+	end
+
+CastleTownSabre_Gym_EventScript_GymStatue::
+	msgbox CastleTownSabre_Gym_Text_GymStatue, MSGBOX_DEFAULT
+	releaseall
+	end
+
 CastleTownSabre_Gym_EventScript_Andrea::
 	trainerbattle_single TRAINER_ANDREA, CastleTownSabre_Gym_Text_AndreaIntro, CastleTownSabre_Gym_Text_AndreaDefeat
 	msgbox CastleTownSabre_Gym_Text_AndreaPostBattle, MSGBOX_AUTOCLOSE
@@ -102,6 +137,29 @@ CastleTownSabre_GymEventScript_JuanDefeated::
 	call Common_EventScript_UpdateBadgesCollected
 	release
 	end
+
+CastleTownSabre_Gym_Text_GymGuideAdvice:
+	.string "Yo, how's it going, CHAMPION-\n"
+	.string "bound {PLAYER}?\p"
+	.string "FORTREE GYM LEADER WINONA is\n"
+	.string "a master of FLYING-type POKéMON.\p"
+	.string "She's waiting at the back of this GYM,\n"
+	.string "behind the rotating doors.\p"
+	.string "She's waiting for new challengers\n"
+	.string "who are trying to take wing!\p"
+	.string "Okay, go for it!$"
+
+CastleTownSabre_Gym_Text_GymGuidePostVictory:
+	.string "You did it!\n"
+	.string "You've achieved liftoff!$"
+
+CastleTownSabre_Gym_Text_GymStatue:
+	.string "CASTLE TOWN SABRE POKéMON GYM$"
+
+CastleTownSabre_Gym_Text_GymStatueCertified:
+	.string "CASTLE TOWN SABRE POKéMON GYM\p"
+	.string "SABRE'S CERTIFIED TRAINERS:\n"
+	.string "{PLAYER}$"
 
 CastleTownSabre_Gym_Text_AndreaIntro:
 	.string "I'll show you the sublime techniques\n"

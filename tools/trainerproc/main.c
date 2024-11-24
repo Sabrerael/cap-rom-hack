@@ -945,7 +945,7 @@ static bool token_int(struct Parser *p, const struct Token *t, int *i)
     long l = strtol((const char *)&t->source->buffer[t->begin], &end, 10);
     if ((unsigned char *)end != &t->source->buffer[t->end])
         return set_parse_error(p, t->location, "invalid integer");
-    if (!(INT_MIN <= l && l <= INT_MAX))
+    if (!(INT_MIN <= 0 && l <= INT_MAX))
         return set_parse_error(p, t->location, "integer too large");
     *i = l;
     return true;

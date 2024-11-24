@@ -3,8 +3,18 @@ CastleTownBlindJim_Gym_MapScripts::
 	.byte 0
 
 CastleTownBlindJim_Gym_OnTransition:
-	call CastleTownBlindJim_Gym_EventScript_SetFlashLevel7
+	call CastleTownBlindJim_Gym_EventScript_SetFlashLevel
 	end
+
+CastleTownBlindJim_Gym_EventScript_SetFlashLevel::
+	goto_if_set FLAG_BADGE02_GET, CastleTownBlindJim_Gym_EventScript_SetLightsOn
+	call CastleTownBlindJim_Gym_EventScript_SetFlashLevel7
+
+CastleTownBlindJim_Gym_EventScript_AnimateFlashFullBrightness::
+	playse SE_SWITCH
+	animateflash 0
+	call CastleTownBlindJim_Gym_EventScript_SetLightsOn
+	return
 
 CastleTownBlindJim_Gym_EventScript_SetLightsOn::
 	setflashlevel 0
@@ -39,6 +49,46 @@ CastleTownBlindJim_Gym_EventScript_SetFlashLevel6::
 CastleTownBlindJim_Gym_EventScript_SetFlashLevel7::
 	setflashlevel 7
 	return
+
+CastleTownBlindJim_Gym_EventScript_GymGuide::
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_DEWFORD_GYM, CastleTownBlindJim_Gym_EventScript_GymGuidePostVictory
+	msgbox CastleTownBlindJim_Gym_Text_GymGuideAdvice, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownBlindJim_Gym_EventScript_GymGuidePostVictory::
+	msgbox CastleTownBlindJim_Gym_Text_GymGuidePostVictory, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownBlindJim_Gym_EventScript_LeftGymStatue::
+	lockall
+	goto_if_set FLAG_BADGE02_GET, CastleTownBlindJim_Gym_EventScript_GymStatueCertified
+	goto CastleTownBlindJim_Gym_EventScript_GymStatue
+	end
+
+CastleTownBlindJim_Gym_EventScript_RightGymStatue::
+	lockall
+	goto_if_set FLAG_BADGE02_GET, CastleTownBlindJim_Gym_EventScript_GymStatueCertified
+	goto CastleTownBlindJim_Gym_EventScript_GymStatue
+	end
+
+CastleTownBlindJim_Gym_EventScript_GymStatueCertified::
+	msgbox CastleTownBlindJim_Gym_Text_GymStatueCertified, MSGBOX_DEFAULT
+	releaseall
+	end
+
+CastleTownBlindJim_Gym_EventScript_GymStatue::
+	msgbox CastleTownBlindJim_Gym_Text_GymStatue, MSGBOX_DEFAULT
+	releaseall
+	end
+
+CastleTownBlindJim_Gym_EventScript_Eli::
+	trainerbattle_single TRAINER_ELI, CastleTownBlindJim_Gym_Text_EliIntro, CastleTownBlindJim_Gym_Text_EliDefeat
+	msgbox CastleTownBlindJim_Gym_Text_EliPostBattle, MSGBOX_AUTOCLOSE
+	end
 
 CastleTownBlindJim_Gym_EventScript_Takao::
 	trainerbattle_single TRAINER_TAKAO, CastleTownBlindJim_Gym_Text_TakaoIntro, CastleTownBlindJim_Gym_Text_TakaoDefeat
@@ -79,6 +129,7 @@ CastleTownBlindJim_Gym_EventScript_Brawly::
 	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownBlindJim_Gym_EventScript_Brawly_FiveBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownBlindJim_Gym_EventScript_Brawly_SixBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownBlindJim_Gym_EventScript_Brawly_SevenBadge
+	msgbox CastleTownBlindJim_Gym_Text_BlindJimPostBattle, MSGBOX_DEFAULT
 	release
 	end
 
@@ -131,11 +182,54 @@ CastleTownBlindJim_Gym_EventScript_Brawly_SevenBadge::
 	end
 
 CastleTownBlindJim_Gym_EventScript_BrawlyDefeated::
+    message CastleTownBlindJim_Gym_Text_ReceivedBlindfoldBadge
+	waitmessage
+	call Common_EventScript_PlayGymBadgeFanfare
+	msgbox CastleTownBlindJim_Gym_Text_BlindfoldBadgeInfoTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_DEWFORD_GYM
 	setflag FLAG_BADGE02_GET
 	call Common_EventScript_UpdateBadgesCollected
+	setvar VAR_0x8008, 9
+	call Common_EventScript_SetGymTrainers
+	call CastleTownBlindJim_Gym_EventScript_GiveBulkUp
+	closemessage
+	delay 30
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox CastleTownBlindJim_Gym_Text_RegisteredBlindJim, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	msgbox CastleTownBlindJim_Gym_Text_TurnOnLights, MSGBOX_DEFAULT
+	closemessage
+	call CastleTownBlindJim_Gym_EventScript_AnimateFlashFullBrightness
 	release
 	end
+
+CastleTownBlindJim_Gym_EventScript_GiveBulkUp::
+	giveitem ITEM_TM_BULK_UP
+	goto_if_eq VAR_RESULT, 0, Common_EventScript_BagIsFull
+	msgbox CastleTownBlindJim_Gym_Text_ExplainBulkUp, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM_BULK_UP
+	return
+
+CastleTownBlindJim_Gym_Text_GymGuideAdvice:
+	.string "Hey, how's it going, CHAMPION-\n"
+	.string "bound {PLAYER}?\p"
+	.string "The Moderator BlindJim commands\n"
+	.string "DARK-type POKéMON.\p"
+	.string "Get it? Because he can't see.\n"
+	.string "DARK-types are weak to FIGHTING,\p"
+	.string "FAIRY, and BUG POKéMON.\n"
+	.string "Just be careful using GHOST\l"
+	.string "or PSYCHIC types!\p"
+	.string "Also if you couldn't tell,\n"
+	.string "it's pitch black in here.\p"
+	.string "You'll have to fumble around\n"
+	.string "through the maze to find BlindJim.\p"
+	.string "Hey, okay, go for it!$"
+
+CastleTownBlindJim_Gym_Text_GymGuidePostVictory:
+	.string "Whoah! It's turned too bright in here!\p"
+	.string "Your future is bright, too!$"
 
 CastleTownBlindJim_Gym_Text_TakaoIntro:
 	.string "Might is right!\n"
@@ -214,6 +308,27 @@ CastleTownBlindJim_Gym_Text_CristianPostBattle:
 	.string "You win!\n"
 	.string "Go after that BADGE!$"
 
+CastleTownBlindJim_Gym_Text_EliIntro:
+	.string "As much as I love mountains,\n"
+	.string "I especially love volcanoes.$"
+
+CastleTownBlindJim_Gym_Text_EliDefeat:
+	.string "Well, it seems to me I lost without\n"
+	.string "ever being in control.$"
+
+CastleTownBlindJim_Gym_Text_EliPostBattle:
+	.string "I stay here because I became a fan\n"
+	.string "of FLANNERY's power.\p"
+	.string "Hehehehe.$"
+
+CastleTownBlindJim_Gym_Text_GymStatue:
+	.string "CASTLE TOWN BLINDJIM POKéMON GYM$"
+
+CastleTownBlindJim_Gym_Text_GymStatueCertified:
+	.string "CASTLE TOWN BLINDJIM POKéMON GYM\p"
+	.string "BLINDJIM'S CERTIFIED TRAINERS:\n"
+	.string "{PLAYER}$"
+
 CastleTownBlindJim_Gym_Text_Intro:
     .string "It's me, BlindJim!\n"
 	.string "My whole bit is being blind so my\p"
@@ -224,3 +339,37 @@ CastleTownBlindJim_Gym_Text_PostBattle:
 	.string "Do I still have Pokemon?\n"
 	.string "Did you win?\p"
 	.string "I cannot tell because I'm blind.$"
+
+CastleTownBlindJim_Gym_Text_ReceivedBlindfoldBadge:
+	.string "{PLAYER} received the BLINDFOLD BADGE\n"
+	.string "from BlindJim.$"
+
+CastleTownBlindJim_Gym_Text_BlindfoldBadgeInfoTakeThis:
+	.string "The BLINDFOLD BADGE signifies that\n"
+	.string "a trainer has bested me, BlindJim,\l"
+	.string "in battle.\p"
+	.string "As such, you are entitled to new\n"
+	.string "benefits in the Guild Hall.\p"
+	.string "If you'd like, use this TECHNICAL\n"
+	.string "MACHINE, too.$"
+
+CastleTownBlindJim_Gym_Text_ExplainBulkUp:
+	.string "That TM08 contains BULK UP.\p"
+	.string "It's a move that raises both ATTACK\n"
+	.string "and DEFENSE stats.\p"
+	.string "… … … … … …$"
+
+CastleTownBlindJim_Gym_Text_RegisteredBlindJim:
+	.string "Registered Moderator BlindJim\n"
+	.string "in the POKéNAV.$"
+
+CastleTownBlindJim_Gym_Text_TurnOnLights:
+	.string "Oh, I guess I can turn\n"
+	.string "back on now.\p"
+	.string "That way at least one of\n"
+	.string "us can see where we're going.$"
+
+CastleTownBlindJim_Gym_Text_BlindJimPostBattle:
+	.string "I can see your talent becoming a giant\n"
+	.string "wave to cause a storm of astonishment\l"
+	.string "among TRAINERS one day!$"

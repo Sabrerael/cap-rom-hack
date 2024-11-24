@@ -1,6 +1,76 @@
 CastleTownTreble_Gym_MapScripts::
 	.byte 0
 
+CastleTownTreble_Gym_EventScript_GymGuide::
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, CastleTownTreble_Gym_EventScript_GymGuidePostVictory
+	msgbox CastleTownTreble_Gym_Text_GymGuideAdvice, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_GymGuidePostVictory::
+	msgbox CastleTownTreble_Gym_Text_GymGuidePostVictory, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_LeftGymStatue::
+	lockall
+	goto_if_set FLAG_BADGE03_GET, CastleTownTreble_Gym_EventScript_GymStatueCertified
+	goto CastleTownTreble_Gym_EventScript_GymStatue
+	end
+
+CastleTownTreble_Gym_EventScript_RightGymStatue::
+	lockall
+	goto_if_set FLAG_BADGE03_GET, CastleTownTreble_Gym_EventScript_GymStatueCertified
+	goto CastleTownTreble_Gym_EventScript_GymStatue
+	end
+
+CastleTownTreble_Gym_EventScript_GymStatueCertified::
+	msgbox CastleTownTreble_Gym_Text_GymStatueCertified, MSGBOX_DEFAULT
+	releaseall
+	end
+
+CastleTownTreble_Gym_EventScript_GymStatue::
+	msgbox CastleTownTreble_Gym_Text_GymStatue, MSGBOX_DEFAULT
+	releaseall
+	end
+
+CastleTownTreble_Gym_EventScript_Kirk::
+	trainerbattle_single TRAINER_KIRK, CastleTownTreble_Gym_Text_KirkIntro, CastleTownTreble_Gym_Text_KirkDefeat
+	msgbox CastleTownTreble_Gym_Text_KirkPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+CastleTownTreble_Gym_EventScript_Shawn::
+	trainerbattle_single TRAINER_SHAWN, CastleTownTreble_Gym_Text_ShawnIntro, CastleTownTreble_Gym_Text_ShawnDefeat
+	msgbox CastleTownTreble_Gym_Text_ShawnPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+CastleTownTreble_Gym_EventScript_Ben::
+	trainerbattle_single TRAINER_BEN, CastleTownTreble_Gym_Text_BenIntro, CastleTownTreble_Gym_Text_BenDefeat
+	msgbox CastleTownTreble_Gym_Text_BenPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+CastleTownTreble_Gym_EventScript_Vivian::
+	trainerbattle_single TRAINER_VIVIAN, CastleTownTreble_Gym_Text_VivianIntro, CastleTownTreble_Gym_Text_VivianDefeat
+	msgbox CastleTownTreble_Gym_Text_VivianPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+CastleTownTreble_Gym_EventScript_Angelo::
+	trainerbattle_single TRAINER_ANGELO, CastleTownTreble_Gym_Text_AngeloIntro, CastleTownTreble_Gym_Text_AngeloDefeat
+	msgbox CastleTownTreble_Gym_Text_AngeloPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+CastleTownTreble_Gym_EventScript_Nicholas::
+	trainerbattle_single TRAINER_NICHOLAS, CastleTownTreble_Gym_Text_NicholasIntro, CastleTownTreble_Gym_Text_NicholasDefeat
+	msgbox CastleTownTreble_Gym_Text_NicholasPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+CastleTownTreble_Gym_EventScript_Bethany::
+	trainerbattle_single TRAINER_BETHANY, CastleTownTreble_Gym_Text_BethanyIntro, CastleTownTreble_Gym_Text_BethanyDefeat
+	msgbox CastleTownTreble_Gym_Text_BethanyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 CastleTownTreble_Gym_EventScript_Wattson::
     goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTreble_Gym_EventScript_Wattson_ZeroBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTreble_Gym_EventScript_Wattson_OneBadge
@@ -67,6 +137,113 @@ CastleTownTreble_Gym_EventScript_WattsonDefeated::
 	call Common_EventScript_UpdateBadgesCollected
 	release
 	end
+
+CastleTownTreble_Gym_Text_GymGuideAdvice:
+	.string "Yo, how's it going, CHAMPION-\n"
+	.string "bound {PLAYER}?\p"
+	.string "FORTREE GYM LEADER WINONA is\n"
+	.string "a master of FLYING-type POKéMON.\p"
+	.string "She's waiting at the back of this GYM,\n"
+	.string "behind the rotating doors.\p"
+	.string "She's waiting for new challengers\n"
+	.string "who are trying to take wing!\p"
+	.string "Okay, go for it!$"
+
+CastleTownTreble_Gym_Text_GymGuidePostVictory:
+	.string "You did it!\n"
+	.string "You've achieved liftoff!$"
+
+CastleTownTreble_Gym_Text_GymStatue:
+	.string "CASTLE TOWN TREBLE POKéMON GYM$"
+
+CastleTownTreble_Gym_Text_GymStatueCertified:
+	.string "CASTLE TOWN TREBLE POKéMON GYM\p"
+	.string "TREBLE'S CERTIFIED TRAINERS:\n"
+	.string "{PLAYER}$"
+
+CastleTownTreble_Gym_Text_KirkIntro:
+	.string "My electric soul, it'll shatter your\n"
+	.string "dreams whole, whoa-yeahah!$"
+
+CastleTownTreble_Gym_Text_KirkDefeat:
+	.string "That was plugged in, amped up,\n"
+	.string "over-driven electric, man!$"
+
+CastleTownTreble_Gym_Text_KirkPostBattle:
+	.string "POKéMON and rock, it's all about heart,\n"
+	.string "whoa-yeah!$"
+
+CastleTownTreble_Gym_Text_ShawnIntro:
+	.string "I trained under WATTSON!\n"
+	.string "There ain't no way I'll lose easily!$"
+
+CastleTownTreble_Gym_Text_ShawnDefeat:
+	.string "Unplugged and turned off…$"
+
+CastleTownTreble_Gym_Text_ShawnPostBattle:
+	.string "WATTSON, our GYM LEADER, has been\n"
+	.string "around for a long, long time.\p"
+	.string "He was battling even before your\n"
+	.string "daddy was born, that tough coot.$"
+
+CastleTownTreble_Gym_Text_BenIntro:
+	.string "This GYM's got puzzles!\n"
+	.string "Isn't it fun?$"
+
+CastleTownTreble_Gym_Text_BenDefeat:
+	.string "It's no fun to lose…$"
+
+CastleTownTreble_Gym_Text_BenPostBattle:
+	.string "WATTSON says he likes setting up\n"
+	.string "little traps with switches.$"
+
+CastleTownTreble_Gym_Text_VivianIntro:
+	.string "With my charm and my POKéMON's moves,\n"
+	.string "you'll be shocked!$"
+
+CastleTownTreble_Gym_Text_VivianDefeat:
+	.string "I'm shocked by your power!$"
+
+CastleTownTreble_Gym_Text_VivianPostBattle:
+	.string "I've heard that MAUVILLE was founded\n"
+	.string "by WATTSON.\p"
+	.string "He was a TRAINER long before we\n"
+	.string "became TRAINERS.\l"
+	.string "He must know all sorts of things!$"
+
+CastleTownTreble_Gym_Text_AngeloIntro:
+	.string "I love shiny things!$"
+
+CastleTownTreble_Gym_Text_AngeloDefeat:
+	.string "Oh…\n"
+	.string "My eyes are frazzled…$"
+
+CastleTownTreble_Gym_Text_AngeloPostBattle:
+	.string "MAUVILLE GYM's WATTSON has a shiny\n"
+	.string "forehead. It makes me happy!$"
+
+CastleTownTreble_Gym_Text_NicholasIntro:
+	.string "Wroooar! Have a taste of my super\n"
+	.string "POKéMON hard-battling power!$"
+
+CastleTownTreble_Gym_Text_NicholasDefeat:
+	.string "Oh!\n"
+	.string "Done in!$"
+
+CastleTownTreble_Gym_Text_NicholasPostBattle:
+	.string "All right! I think I'll develop a special\n"
+	.string "invincible POKéMON power next.$"
+	
+CastleTownTreble_Gym_Text_BethanyIntro:
+	.string "When I'm with my POKéMON, the time\n"
+	.string "flies by before you can say, “Oops!”$"
+
+CastleTownTreble_Gym_Text_BethanyDefeat:
+	.string "Oops!$"
+
+CastleTownTreble_Gym_Text_BethanyPostBattle:
+	.string "I wish I could forget about lost causes\n"
+	.string "before I can manage an “Oops!”$"
 
 CastleTownTreble_Gym_Text_Intro:
 	.string "Let's battle!$"

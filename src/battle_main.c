@@ -2001,7 +2001,7 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
 
             s32 level;
             if (partyData[i].levelModifier != '\0') {
-                level = maxLevel - partyData[i].levelModifier;
+                level = maxLevel - partyData[i].levelModifier + 1;
             } else {
                 level = partyData[i].lvl;
             }
@@ -2071,10 +2071,6 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
             {
                 u32 data = partyData[i].teraType;
                 SetMonData(&party[i], MON_DATA_TERA_TYPE, &data);
-            }
-            if (partyData[i].levelModifier >= 0) {
-                u32 data = maxLevel - partyData[i].levelModifier;
-                SetMonData(&party[i], MON_DATA_LEVEL, &data); 
             }
             CalculateMonStats(&party[i]);
 
