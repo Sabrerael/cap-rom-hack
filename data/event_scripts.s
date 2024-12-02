@@ -1222,3 +1222,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/CastleTownTot_Gym/scripts.inc"
 
 	.include "data/maps/CastleTownSalsa_Gym/scripts.inc"
+
+	.include "data/maps/StartingTown_MeetingPlace/scripts.inc"

@@ -42,7 +42,7 @@ SootopolisCity_Gym_B1F_EventScript_Bethany::
 	end
 
 SootopolisCity_Gym_B1F_EventScript_Annika::
-	trainerbattle_single TRAINER_ANNIKA, SootopolisCity_Gym_B1F_Text_AnnikaIntro, SootopolisCity_Gym_B1F_Text_AnnikaDefeat
+	trainerbattle_single TRAINER_MANFRED, SootopolisCity_Gym_B1F_Text_AnnikaIntro, SootopolisCity_Gym_B1F_Text_AnnikaDefeat
 	msgbox SootopolisCity_Gym_B1F_Text_AnnikaPostBattle, MSGBOX_AUTOCLOSE
 	end
 

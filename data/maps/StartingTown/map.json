@@ -15,22 +15,22 @@
   "connections": [
     {
       "map": "MAP_ROUTE1",
-      "offset": 0,
+      "offset": 10,
       "direction": "left"
     },
     {
       "map": "MAP_ROUTE2",
-      "offset": 0,
+      "offset": 10,
       "direction": "right"
     },
     {
       "map": "MAP_ROUTE3",
-      "offset": 0,
+      "offset": 10,
       "direction": "up"
     },
     {
       "map": "MAP_ROUTE4",
-      "offset": 0,
+      "offset": 10,
       "direction": "down"
     }
   ],
@@ -71,6 +71,13 @@
       "y": 14,
       "elevation": 0,
       "dest_map": "MAP_STARTING_TOWN_GYM_LEADER_TEST",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 11,
+      "y": 27,
+      "elevation": 0,
+      "dest_map": "MAP_STARTING_TOWN_MEETING_PLACE",
       "dest_warp_id": "0"
     }
   ],

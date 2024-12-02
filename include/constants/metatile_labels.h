@@ -117,6 +117,18 @@
 #define METATILE_Building_TV_Off  0x002
 #define METATILE_Building_TV_On   0x003
 
+// gTileset_CastleTownSabreGym
+#define METATILE_CastleTownSabreGym_Floor                           0x208
+#define METATILE_CastleTownSabreGym_Floor_BottomOfRetractedBarrier  0x20E
+#define METATILE_CastleTownSabreGym_Floor_FullShade                 0x204
+#define METATILE_CastleTownSabreGym_Floor_WallLeftCorner            0x20D
+#define METATILE_CastleTownSabreGym_Floor_WallLeftEdge              0x205
+#define METATILE_CastleTownSabreGym_Floor_WallRightCorner           0x20F
+#define METATILE_CastleTownSabreGym_Floor_WallRightEdge             0x207
+#define METATILE_CastleTownSabreGym_RetractedBarrier                0x23A
+#define METATILE_CastleTownSabreGym_Wall_OppositeBarrier            0x22E
+#define METATILE_CastleTownSabreGym_Wall_RetractedBarrier           0x206
+
 // gTileset_Cave
 #define METATILE_Cave_CrackedFloor                       0x22F
 #define METATILE_Cave_CrackedFloor_Hole                  0x206

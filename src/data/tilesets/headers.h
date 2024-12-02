@@ -858,3 +858,14 @@ const struct Tileset gTileset_CastleTownTrebleGym =
     .metatileAttributes = gMetatileAttributes_CastleTownTrebleGym,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_CastleTownTmoneyGym =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_CastleTownTmoneyGym,
+    .palettes = gTilesetPalettes_CastleTownTmoneyGym,
+    .metatiles = gMetatiles_CastleTownTmoneyGym,
+    .metatileAttributes = gMetatileAttributes_CastleTownTmoneyGym,
+    .callback = NULL,
+};
