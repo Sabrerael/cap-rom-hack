@@ -73,44 +73,44 @@ CastleTownSabre_Gym_OnLoadOpenDoor7::
 	return
 
 CastleTownSabre_Gym_EventScript_OpenDoor1::
-	setmetatile 26,  21, METATILE_CastleTownSabreGym_Floor_WallLeftCorner, 0
-	setmetatile 27,  21, METATILE_CastleTownSabreGym_Floor_WallRightCorner, 0
-	setmetatile 26,  22, METATILE_CastleTownSabreGym_Floor_WallLeftEdge, 0
-	setmetatile 27,  22, METATILE_CastleTownSabreGym_Floor_WallRightEdge, 0
+	setmetatile 26,  21, METATILE_CastleTownSabreGym_Floor_WallLeftEdge, 0
+	setmetatile 27,  21, METATILE_CastleTownSabreGym_Floor_WallRightEdge, 0
+	setmetatile 26,  22, METATILE_CastleTownSabreGym_Floor_WallLeftCorner, 0
+	setmetatile 27,  22, METATILE_CastleTownSabreGym_Floor_WallRightCorner, 0
 	return
 
 CastleTownSabre_Gym_EventScript_OpenDoor2::
-	setmetatile 11, 21, METATILE_CastleTownSabreGym_RetractedBarrier, 1
-	setmetatile 11, 22, METATILE_CastleTownSabreGym_Wall_OppositeBarrier, 0
+	setmetatile 19, 19, METATILE_CastleTownSabreGym_Wall_RetractedBarrier, 1
+	setmetatile 19, 20, METATILE_CastleTownSabreGym_Wall_OppositeBarrier, 0
 	return	
 
 CastleTownSabre_Gym_EventScript_OpenDoor3::
-	setmetatile 11, 21, METATILE_CastleTownSabreGym_RetractedBarrier, 1
-	setmetatile 11, 22, METATILE_CastleTownSabreGym_Wall_OppositeBarrier, 0
+	setmetatile 9, 19, METATILE_CastleTownSabreGym_Wall_RetractedBarrier, 1
+	setmetatile 9, 20, METATILE_CastleTownSabreGym_Wall_OppositeBarrier, 0
 	return
 
 CastleTownSabre_Gym_EventScript_OpenDoor4:
-	setmetatile 2,  14, METATILE_CastleTownSabreGym_Floor_WallLeftCorner, 0
-	setmetatile 3,  14, METATILE_CastleTownSabreGym_Floor_WallRightCorner, 0
-	setmetatile 2,  15, METATILE_CastleTownSabreGym_Floor_WallLeftEdge, 0
-	setmetatile 3,  15, METATILE_CastleTownSabreGym_Floor_WallRightEdge, 0
+	setmetatile 2,  14, METATILE_CastleTownSabreGym_Floor_WallLeftEdge, 0
+	setmetatile 3,  14, METATILE_CastleTownSabreGym_Floor_WallRightEdge, 0
+	setmetatile 2,  15, METATILE_CastleTownSabreGym_Floor_WallLeftCorner, 0
+	setmetatile 3,  15, METATILE_CastleTownSabreGym_Floor_WallRightCorner, 0
 	return
 
 CastleTownSabre_Gym_EventScript_OpenDoor5::
-	setmetatile 11, 21, METATILE_CastleTownSabreGym_RetractedBarrier, 1
-	setmetatile 11, 22, METATILE_CastleTownSabreGym_Wall_OppositeBarrier, 0
+	setmetatile 9, 19, METATILE_CastleTownSabreGym_Wall_RetractedBarrier, 1
+	setmetatile 9, 20, METATILE_CastleTownSabreGym_Wall_OppositeBarrier, 0
 	return
 
 CastleTownSabre_Gym_EventScript_OpenDoor6::
-	setmetatile 11, 21, METATILE_CastleTownSabreGym_RetractedBarrier, 1
-	setmetatile 11, 22, METATILE_CastleTownSabreGym_Wall_OppositeBarrier, 0
+	setmetatile 19, 12, METATILE_CastleTownSabreGym_Wall_RetractedBarrier, 1
+	setmetatile 19, 13, METATILE_CastleTownSabreGym_Wall_OppositeBarrier, 0
 	return
 
 CastleTownSabre_Gym_EventScript_OpenDoor7::
-	setmetatile 26,  7, METATILE_CastleTownSabreGym_Floor_WallLeftCorner, 0
-	setmetatile 27,  7, METATILE_CastleTownSabreGym_Floor_WallRightCorner, 0
-	setmetatile 26,  8, METATILE_CastleTownSabreGym_Floor_WallLeftEdge, 0
-	setmetatile 27,  8, METATILE_CastleTownSabreGym_Floor_WallRightEdge, 0
+	setmetatile 26,  7, METATILE_CastleTownSabreGym_Floor_WallLeftEdge, 0
+	setmetatile 27,  7, METATILE_CastleTownSabreGym_Floor_WallRightEdge, 0
+	setmetatile 26,  8, METATILE_CastleTownSabreGym_Floor_WallLeftCorner, 0
+	setmetatile 27,  8, METATILE_CastleTownSabreGym_Floor_WallRightCorner, 0
 	return
 
 CastleTownSabre_Gym_EventScript_CorrectAnswer::
@@ -203,9 +203,18 @@ CastleTownSabre_Gym_Movement_BridgetApproachRight::
 	step_end
 
 CastleTownSabre_Gym_EventScript_Bridget::
-	trainerbattle_single TRAINER_BRIDGET, CastleTownSabre_Gym_Text_BridgetIntro, CastleTownSabre_Gym_Text_BridgetDefeat
+	trainerbattle_single TRAINER_BRIDGET, CastleTownSabre_Gym_Text_BridgetIntro, CastleTownSabre_Gym_Text_BridgetDefeat, CastleTownSabre_Gym_EventScript_DefeatedBridget
 	msgbox CastleTownSabre_Gym_Text_BridgetPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+CastleTownSabre_Gym_EventScript_DefeatedBridget::
+	call_if_unset FLAG_SABRE_GYM_QUIZ_1, CastleTownSabre_Gym_EventScript_Quiz1CompleteTrainer
+	release
+	end
+
+CastleTownSabre_Gym_EventScript_Quiz1CompleteTrainer::
+    call CastleTownSabre_Gym_EventScript_Quiz1Complete
+	return
 
 CastleTownSabre_Gym_EventScript_Quiz2Left::
 	lockall
@@ -278,9 +287,18 @@ CastleTownSabre_Gym_Movement_DaphneApproachRight::
 	step_end
 
 CastleTownSabre_Gym_EventScript_Daphne::
-	trainerbattle_single TRAINER_DAPHNE, CastleTownSabre_Gym_Text_DaphneIntro, CastleTownSabre_Gym_Text_DaphneDefeat
+	trainerbattle_single TRAINER_DAPHNE, CastleTownSabre_Gym_Text_DaphneIntro, CastleTownSabre_Gym_Text_DaphneDefeat, CastleTownSabre_Gym_EventScript_DefeatedDaphne
 	msgbox CastleTownSabre_Gym_Text_DaphnePostBattle, MSGBOX_AUTOCLOSE
 	end
+
+CastleTownSabre_Gym_EventScript_DefeatedDaphne::
+	call_if_unset FLAG_SABRE_GYM_QUIZ_2, CastleTownSabre_Gym_EventScript_Quiz2CompleteTrainer
+	release
+	end
+
+CastleTownSabre_Gym_EventScript_Quiz2CompleteTrainer::
+    call CastleTownSabre_Gym_EventScript_Quiz2Complete
+	return
 
 CastleTownSabre_Gym_EventScript_Quiz3Left::
 	lockall
@@ -353,9 +371,18 @@ CastleTownSabre_Gym_Movement_ManfredApproachRight::
 	step_end
 
 CastleTownSabre_Gym_EventScript_Manfred::
-	trainerbattle_single TRAINER_MANFRED, CastleTownSabre_Gym_Text_ManfredIntro, CastleTownSabre_Gym_Text_ManfredDefeat
+	trainerbattle_single TRAINER_MANFRED, CastleTownSabre_Gym_Text_ManfredIntro, CastleTownSabre_Gym_Text_ManfredDefeat, CastleTownSabre_Gym_EventScript_DefeatedManfred
 	msgbox CastleTownSabre_Gym_Text_ManfredPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+CastleTownSabre_Gym_EventScript_DefeatedManfred::
+	call_if_unset FLAG_SABRE_GYM_QUIZ_3, CastleTownSabre_Gym_EventScript_Quiz3CompleteTrainer
+	release
+	end
+
+CastleTownSabre_Gym_EventScript_Quiz3CompleteTrainer::
+    call CastleTownSabre_Gym_EventScript_Quiz3Complete
+	return
 
 CastleTownSabre_Gym_EventScript_Quiz4Left::
 	lockall
@@ -428,9 +455,18 @@ CastleTownSabre_Gym_Movement_OliviaApproachRight::
 	step_end
 
 CastleTownSabre_Gym_EventScript_Olivia::
-	trainerbattle_single TRAINER_OLIVIA, CastleTownSabre_Gym_Text_OliviaIntro, CastleTownSabre_Gym_Text_OliviaDefeat
+	trainerbattle_single TRAINER_OLIVIA, CastleTownSabre_Gym_Text_OliviaIntro, CastleTownSabre_Gym_Text_OliviaDefeat, CastleTownSabre_Gym_EventScript_DefeatedOlivia
 	msgbox CastleTownSabre_Gym_Text_OliviaPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+CastleTownSabre_Gym_EventScript_DefeatedOlivia::
+	call_if_unset FLAG_SABRE_GYM_QUIZ_4, CastleTownSabre_Gym_EventScript_Quiz4CompleteTrainer
+	release
+	end
+
+CastleTownSabre_Gym_EventScript_Quiz4CompleteTrainer::
+    call CastleTownSabre_Gym_EventScript_Quiz4Complete
+	return
 
 CastleTownSabre_Gym_EventScript_Quiz5Left::
 	lockall
@@ -503,9 +539,18 @@ CastleTownSabre_Gym_Movement_BriannaApproachRight::
 	step_end
 
 CastleTownSabre_Gym_EventScript_Brianna::
-	trainerbattle_single TRAINER_BRIANNA, CastleTownSabre_Gym_Text_BriannaIntro, CastleTownSabre_Gym_Text_BriannaDefeat
+	trainerbattle_single TRAINER_BRIANNA, CastleTownSabre_Gym_Text_BriannaIntro, CastleTownSabre_Gym_Text_BriannaDefeat, CastleTownSabre_Gym_EventScript_DefeatedBrianna
 	msgbox CastleTownSabre_Gym_Text_BriannaPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+CastleTownSabre_Gym_EventScript_DefeatedBrianna::
+	call_if_unset FLAG_SABRE_GYM_QUIZ_5, CastleTownSabre_Gym_EventScript_Quiz5CompleteTrainer
+	release
+	end
+
+CastleTownSabre_Gym_EventScript_Quiz5CompleteTrainer::
+    call CastleTownSabre_Gym_EventScript_Quiz5Complete
+	return
 
 CastleTownSabre_Gym_EventScript_Quiz6Left::
 	lockall
@@ -578,9 +623,18 @@ CastleTownSabre_Gym_Movement_AndreaApproachRight::
 	step_end
 
 CastleTownSabre_Gym_EventScript_Andrea::
-	trainerbattle_single TRAINER_ANDREA, CastleTownSabre_Gym_Text_AndreaIntro, CastleTownSabre_Gym_Text_AndreaDefeat
+	trainerbattle_single TRAINER_ANDREA, CastleTownSabre_Gym_Text_AndreaIntro, CastleTownSabre_Gym_Text_AndreaDefeat, CastleTownSabre_Gym_EventScript_DefeatedAndrea
 	msgbox CastleTownSabre_Gym_Text_AndreaPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+CastleTownSabre_Gym_EventScript_DefeatedAndrea::
+	call_if_unset FLAG_SABRE_GYM_QUIZ_6, CastleTownSabre_Gym_EventScript_Quiz6CompleteTrainer
+	release
+	end
+
+CastleTownSabre_Gym_EventScript_Quiz6CompleteTrainer::
+    call CastleTownSabre_Gym_EventScript_Quiz6Complete
+	return
 
 CastleTownSabre_Gym_EventScript_Quiz7Left::
 	lockall
@@ -653,9 +707,18 @@ CastleTownSabre_Gym_Movement_ConnieApproachRight::
 	step_end
 
 CastleTownSabre_Gym_EventScript_Connie::
-	trainerbattle_single TRAINER_CONNIE, CastleTownSabre_Gym_Text_ConnieIntro, CastleTownSabre_Gym_Text_ConnieDefeat
+	trainerbattle_single TRAINER_CONNIE, CastleTownSabre_Gym_Text_ConnieIntro, CastleTownSabre_Gym_Text_ConnieDefeat, CastleTownSabre_Gym_EventScript_DefeatedConnie
 	msgbox CastleTownSabre_Gym_Text_ConniePostBattle, MSGBOX_AUTOCLOSE
 	end
+
+CastleTownSabre_Gym_EventScript_DefeatedConnie::
+	call_if_unset FLAG_SABRE_GYM_QUIZ_7, CastleTownSabre_Gym_EventScript_Quiz7CompleteTrainer
+	release
+	end
+
+CastleTownSabre_Gym_EventScript_Quiz7CompleteTrainer::
+    call CastleTownSabre_Gym_EventScript_Quiz7Complete
+	return
 
 CastleTownSabre_Gym_EventScript_Juan::
     goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownSabre_GymEventScript_Juan_ZeroBadge
@@ -718,11 +781,31 @@ CastleTownSabre_GymEventScript_Juan_SevenBadge::
 	end
 
 CastleTownSabre_GymEventScript_JuanDefeated::
+	message CastleTownSabre_Gym_Text_ReceivedWyrmBadge
+	waitmessage
+	call Common_EventScript_PlayGymBadgeFanfare
+	msgbox CastleTownSabre_Gym_Text_WyrmBadgeInfoTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_SOOTOPOLIS_GYM
 	setflag FLAG_BADGE08_GET
 	call Common_EventScript_UpdateBadgesCollected
+	setvar VAR_0x8008, 11
+	call Common_EventScript_SetGymTrainers
+	call CastleTownSabre_Gym_EventScript_GiveDragonClaw
+	closemessage
+	delay 30
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox CastleTownSabre_Gym_Text_RegisteredSabre, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
 	release
 	end
+
+CastleTownSabre_Gym_EventScript_GiveDragonClaw::
+	giveitem ITEM_TM_DRAGON_CLAW
+	goto_if_eq VAR_RESULT, 0, Common_EventScript_BagIsFull
+	msgbox CastleTownSabre_Gym_Text_ExplainDragonClaw, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM_DRAGON_CLAW
+	return
 
 CastleTownSabre_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going, CHAMPION-\n"
@@ -738,8 +821,8 @@ CastleTownSabre_Gym_Text_GymGuideAdvice:
 	.string "that room. Best of luck!$"
 
 CastleTownSabre_Gym_Text_GymGuidePostVictory:
-	.string "You did it!\n"
-	.string "You slew those dragons!$"
+	.string "You did it! You're\n"
+	.string "like a knight in shining armor!$"
 
 CastleTownSabre_Gym_Text_GymStatue:
 	.string "CASTLE TOWN SABRE POKéMON GYM$"
@@ -792,19 +875,19 @@ CastleTownSabre_Gym_Text_SorryBadCall::
     .string "Bad call!$"
 
 CastleTownSabre_Gym_Text_AndreaIntro:
-	.string "I'll show you the sublime techniques\n"
-	.string "I learned from our LEADER JUAN!$"
+	.string "Dragons are so cool!\n"
+	.string "Let me show you mine!$"
 
 CastleTownSabre_Gym_Text_AndreaDefeat:
-	.string "Please forgive me, JUAN…$"
+	.string "Aww, I lost…$"
 
 CastleTownSabre_Gym_Text_AndreaPostBattle:
-	.string "Watch what happens if you crack all\n"
-	.string "the floor tiles.$"
+	.string "You're a big meanie,\n"
+	.string "Uncle Ryan!$"
 
 CastleTownSabre_Gym_Text_DaphneIntro:
-	.string "The sight of JUAN conducting\n"
-	.string "a battle…\p"
+	.string "The sight of dragons in\n"
+	.string "combat…\p"
 	.string "The very beauty of it compelled me to\n"
 	.string "become a TRAINER.$"
 
@@ -819,22 +902,22 @@ CastleTownSabre_Gym_Text_DaphnePostBattle:
 	.string "POKéMON.$"
 
 CastleTownSabre_Gym_Text_ConnieIntro:
-	.string "I should teach you how harsh battles\n"
-	.string "can be.$"
+	.string "Sorry Ryan, but you'll go\n"
+	.string "no further.$"
 
 CastleTownSabre_Gym_Text_ConnieDefeat:
 	.string "Oh.\n"
 	.string "You're strong.$"
 
 CastleTownSabre_Gym_Text_ConniePostBattle:
-	.string "I'll tell you something good.\p"
-	.string "If you want to reach JUAN, you\n"
-	.string "need to walk on each floor tile once.$"
+	.string "Well, I did my best.\p"
+	.string "You won't be able to beat\n"
+	.string "my husband though.$"
 
 CastleTownSabre_Gym_Text_BridgetIntro:
-	.string "The POKéMON GYM of the highest level\n"
-	.string "in the HOENN region…\p"
-	.string "That's the SOOTOPOLIS GYM.$"
+	.string "Dragons are the strongest of\n"
+	.string "the POKéMON…\p"
+	.string "Let me show you the proof!$"
 
 CastleTownSabre_Gym_Text_BridgetDefeat:
 	.string "What a high level you are!$"
@@ -846,8 +929,8 @@ CastleTownSabre_Gym_Text_BridgetPostBattle:
 	.string "But above all, it looks more fun.$"
 
 CastleTownSabre_Gym_Text_OliviaIntro:
-	.string "I train my POKéMON together with\n"
-	.string "JUAN.\p"
+	.string "My POKéMON are in peak\n"
+	.string "physical condition.\p"
 	.string "Don't think I'm a pushover.$"
 
 CastleTownSabre_Gym_Text_OliviaDefeat:
@@ -858,33 +941,67 @@ CastleTownSabre_Gym_Text_OliviaPostBattle:
 	.string "Why don't you stay and train with us?$"
 
 CastleTownSabre_Gym_Text_ManfredIntro:
-	.string "I can battle with really rare POKéMON\n"
-	.string "if you'd like.$"
+	.string "My DRAGON POKéMON have been with\n"
+	.string "me my whole life.$"
 
 CastleTownSabre_Gym_Text_ManfredDefeat:
-	.string "Oh, there now! Did you have a good look\n"
-	.string "at my POKéMON?$"
+	.string "Oh dear, there now! Did you enjoy\n"
+	.string "battling my dear friends?$"
 
 CastleTownSabre_Gym_Text_ManfredPostBattle:
-	.string "I came to this GYM because JUAN\n"
-	.string "praised me for my darling POKéMON.\p"
-	.string "Oh, if only I'd met JUAN years ago\n"
-	.string "when I was younger…$"
+	.string "I came to this GYM because of\n"
+	.string "all the other DRAGON POKéMON.\p"
+	.string "Oh, such marvelous creatures…$"
 
 CastleTownSabre_Gym_Text_BriannaIntro:
 	.string "Giggle…\n"
-	.string "Your grim look is so charming.$"
+	.string "I'll win for sure!$"
 
 CastleTownSabre_Gym_Text_BriannaDefeat:
-	.string "Oh, dear.\n"
-	.string "I went much too easy on you.$"
+	.string "sniffle…\n"
+	.string "That's not nice…$"
 
 CastleTownSabre_Gym_Text_BriannaPostBattle:
-	.string "You couldn't lay a finger on JUAN,\n"
-	.string "I'm sure. Giggle…$"
+	.string "My daddy will beat you!$"
 
 CastleTownSabre_Gym_Text_Intro:
-	.string "Let's battle!$"
+	.string "Good to see you again! You finally\n"
+	.string "made it here. I'm sure The quiz questions\p"
+	.string "didn't give you too much trouble.\n"
+	.string "It is YOUR community after all.\p"
+	.string "I hope you're ready for a fierce\n"
+	.string "battle with my dragons!$"
 
 CastleTownSabre_Gym_Text_PostBattle:
-	.string "Good job!$"
+	.string "Woo! What a battle!\p"
+	.string "Looks like all those knighthood\n"
+	.string "ceremonies have made you a proper\l"
+	.string "dragon slayer!$"
+
+CastleTownSabre_Gym_Text_ReceivedWyrmBadge:
+	.string "{PLAYER} received the WYRM BADGE\n"
+	.string "from Sabre.$"
+
+CastleTownSabre_Gym_Text_WyrmBadgeInfoTakeThis:
+	.string "The WYRM BADGE signifies that\n"
+	.string "a trainer has bested me, Saber,\l"
+	.string "in battle. For claiming a new badge\p"
+	.string "you are entitled to new\n"
+	.string "benefits in the Guild Hall.\p"
+	.string "If you'd like, use this TECHNICAL\n"
+	.string "MACHINE, too.$"
+
+CastleTownSabre_Gym_Text_ExplainDragonClaw:
+	.string "That TM02 contains Dragon Claw.\p"
+	.string "It's a powerful DRAGON-type move\n"
+	.string "that lots of Pokémon can learn.\p"
+	.string "… … … … … …$"
+
+CastleTownSabre_Gym_Text_RegisteredSabre:
+	.string "Registered Moderator Sabre\n"
+	.string "in the POKéNAV.$"
+
+CastleTownSabre_Gym_Text_SabrePostBattle:
+	.string "We both have come so far since we met\n"
+	.string "all those years ago. I look forward\l"
+	.string "to seeing how far you go!$"

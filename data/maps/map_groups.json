@@ -670,7 +670,8 @@
     "StartingTown_PokemonCenter_1F",
     "StartingTown_PokemonCenter_2F",
     "StartingTown_PokemonMart",
-    "StartingTown_MeetingPlace"
+    "StartingTown_MeetingPlace",
+    "StartingTown_VictoryRoadEntrance"
   ],
   "gMapGroup_IndoorMiddleTownWest": [
     "MiddleTownWest_PokemonCenter_1F",

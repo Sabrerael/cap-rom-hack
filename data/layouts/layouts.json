@@ -4804,7 +4804,7 @@
     {
       "id": "LAYOUT_CASTLE_TOWN_SALSA_GYM",
       "name": "CastleTownSalsa_Gym_Layout",
-      "width": 20,
+      "width": 30,
       "height": 30,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_LavaridgeGym",
@@ -4820,6 +4820,16 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/StartingTown_MeetingPlace/border.bin",
       "blockdata_filepath": "data/layouts/StartingTown_MeetingPlace/map.bin"
+    },
+    {
+      "id": "LAYOUT_STARTING_TOWN_VICTORY_ROAD_ENTRANCE",
+      "name": "StartingTown_VictoryRoadEntrance_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/StartingTown_VictoryRoadEntrance/border.bin",
+      "blockdata_filepath": "data/layouts/StartingTown_VictoryRoadEntrance/map.bin"
     }
   ]
 }

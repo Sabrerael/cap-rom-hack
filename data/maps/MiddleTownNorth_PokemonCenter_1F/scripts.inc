@@ -6,7 +6,7 @@ MiddleTownNorth_PokemonCenter_1F_MapScripts::
 	.byte 0
 
 MiddleTownNorth_PokemonCenter_1F_OnTransition:
-	setrespawn HEAL_LOCATION_MIDDLE_TOWN_EAST
+	setrespawn HEAL_LOCATION_MIDDLE_TOWN_NORTH
 	end
 
 MiddleTownNorth_PokemonCenter_1F_EventScript_Nurse::

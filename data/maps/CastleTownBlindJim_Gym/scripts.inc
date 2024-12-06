@@ -7,8 +7,8 @@ CastleTownBlindJim_Gym_OnTransition:
 	end
 
 CastleTownBlindJim_Gym_EventScript_SetFlashLevel::
-	goto_if_set FLAG_BADGE02_GET, CastleTownBlindJim_Gym_EventScript_SetLightsOn
-	call CastleTownBlindJim_Gym_EventScript_SetFlashLevel7
+	goto_if_set FLAG_DEFEATED_DEWFORD_GYM, CastleTownBlindJim_Gym_EventScript_SetLightsOn
+	goto CastleTownBlindJim_Gym_EventScript_SetFlashLevel7
 
 CastleTownBlindJim_Gym_EventScript_AnimateFlashFullBrightness::
 	playse SE_SWITCH
@@ -365,11 +365,11 @@ CastleTownBlindJim_Gym_Text_RegisteredBlindJim:
 
 CastleTownBlindJim_Gym_Text_TurnOnLights:
 	.string "Oh, I guess I can turn\n"
-	.string "back on now.\p"
+	.string "the lights back on now.\p"
 	.string "That way at least one of\n"
 	.string "us can see where we're going.$"
 
 CastleTownBlindJim_Gym_Text_BlindJimPostBattle:
-	.string "I can see your talent becoming a giant\n"
-	.string "wave to cause a storm of astonishment\l"
-	.string "among TRAINERS one day!$"
+	.string "Man, it really was dark in here, huh?\n"
+	.string "Anyway, have fun continuing your\l"
+	.string "adventure!"

@@ -621,13 +621,14 @@
 #define MAP_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE (0 | (33 << 8))
 
 // gMapGroup_IndoorStartingTown
-#define MAP_STARTING_TOWN_RYANS_HOUSE_1F    (0 | (34 << 8))
-#define MAP_STARTING_TOWN_RYANS_HOUSE_2F    (1 | (34 << 8))
-#define MAP_STARTING_TOWN_GYM_LEADER_TEST   (2 | (34 << 8))
-#define MAP_STARTING_TOWN_POKEMON_CENTER_1F (3 | (34 << 8))
-#define MAP_STARTING_TOWN_POKEMON_CENTER_2F (4 | (34 << 8))
-#define MAP_STARTING_TOWN_POKEMON_MART      (5 | (34 << 8))
-#define MAP_STARTING_TOWN_MEETING_PLACE     (6 | (34 << 8))
+#define MAP_STARTING_TOWN_RYANS_HOUSE_1F        (0 | (34 << 8))
+#define MAP_STARTING_TOWN_RYANS_HOUSE_2F        (1 | (34 << 8))
+#define MAP_STARTING_TOWN_GYM_LEADER_TEST       (2 | (34 << 8))
+#define MAP_STARTING_TOWN_POKEMON_CENTER_1F     (3 | (34 << 8))
+#define MAP_STARTING_TOWN_POKEMON_CENTER_2F     (4 | (34 << 8))
+#define MAP_STARTING_TOWN_POKEMON_MART          (5 | (34 << 8))
+#define MAP_STARTING_TOWN_MEETING_PLACE         (6 | (34 << 8))
+#define MAP_STARTING_TOWN_VICTORY_ROAD_ENTRANCE (7 | (34 << 8))
 
 // gMapGroup_IndoorMiddleTownWest
 #define MAP_MIDDLE_TOWN_WEST_POKEMON_CENTER_1F (0 | (35 << 8))

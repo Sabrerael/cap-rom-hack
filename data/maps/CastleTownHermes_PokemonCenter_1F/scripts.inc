@@ -6,7 +6,7 @@ CastleTownHermes_PokemonCenter_1F_MapScripts::
 	.byte 0
 
 CastleTownHermes_PokemonCenter_1F_OnTransition:
-	setrespawn HEAL_LOCATION_STARTING_TOWN
+	setrespawn HEAL_LOCATION_CASTLE_TOWN_HERMES
 	end
 
 CastleTownHermes_PokemonCenter_1F_EventScript_Nurse::

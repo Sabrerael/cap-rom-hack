@@ -9,6 +9,7 @@ Common_EventScript_SetGymTrainers::
 	case 7, MossdeepCity_Gym_SetGymTrainers
 	case 8, SootopolisCity_Gym_SetGymTrainers
 	case 9, CastleTownBlindJim_Gym_SetGymTrainers
+	case 11, CastleTownSabre_Gym_SetGymTrainers
 	end
 
 RustboroCity_Gym_SetGymTrainers::
@@ -93,6 +94,76 @@ SootopolisCity_Gym_SetGymTrainers::
 	return
 
 CastleTownBlindJim_Gym_SetGymTrainers::
+	settrainerflag TRAINER_TAKAO
+	settrainerflag TRAINER_JOCELYN
+	settrainerflag TRAINER_LAURA
+	settrainerflag TRAINER_BRENDEN
+	settrainerflag TRAINER_CRISTIAN
+	settrainerflag TRAINER_LILITH
+	settrainerflag TRAINER_ELI
+	return
+
+CastleTownAndy_Gym_SetGymTrainers::
+	settrainerflag TRAINER_TAKAO
+	settrainerflag TRAINER_JOCELYN
+	settrainerflag TRAINER_LAURA
+	settrainerflag TRAINER_BRENDEN
+	settrainerflag TRAINER_CRISTIAN
+	settrainerflag TRAINER_LILITH
+	settrainerflag TRAINER_ELI
+	return
+
+CastleTownHermes_Gym_SetGymTrainers::
+	settrainerflag TRAINER_TAKAO
+	settrainerflag TRAINER_JOCELYN
+	settrainerflag TRAINER_LAURA
+	settrainerflag TRAINER_BRENDEN
+	settrainerflag TRAINER_CRISTIAN
+	settrainerflag TRAINER_LILITH
+	settrainerflag TRAINER_ELI
+	return
+
+CastleTownSabre_Gym_SetGymTrainers::
+	settrainerflag TRAINER_ANDREA
+	settrainerflag TRAINER_BRIANNA
+	settrainerflag TRAINER_CONNIE
+	settrainerflag TRAINER_BRIDGET
+	settrainerflag TRAINER_OLIVIA
+	settrainerflag TRAINER_MANFRED
+	settrainerflag TRAINER_DAPHNE
+	return
+
+CastleTownSalsa_Gym_SetGymTrainers::
+	settrainerflag TRAINER_TAKAO
+	settrainerflag TRAINER_JOCELYN
+	settrainerflag TRAINER_LAURA
+	settrainerflag TRAINER_BRENDEN
+	settrainerflag TRAINER_CRISTIAN
+	settrainerflag TRAINER_LILITH
+	settrainerflag TRAINER_ELI
+	return
+
+CastleTownTMoney_Gym_SetGymTrainers::
+	settrainerflag TRAINER_TAKAO
+	settrainerflag TRAINER_JOCELYN
+	settrainerflag TRAINER_LAURA
+	settrainerflag TRAINER_BRENDEN
+	settrainerflag TRAINER_CRISTIAN
+	settrainerflag TRAINER_LILITH
+	settrainerflag TRAINER_ELI
+	return
+
+CastleTownTot_Gym_SetGymTrainers::
+	settrainerflag TRAINER_TAKAO
+	settrainerflag TRAINER_JOCELYN
+	settrainerflag TRAINER_LAURA
+	settrainerflag TRAINER_BRENDEN
+	settrainerflag TRAINER_CRISTIAN
+	settrainerflag TRAINER_LILITH
+	settrainerflag TRAINER_ELI
+	return
+
+CastleTownTreble_Gym_SetGymTrainers::
 	settrainerflag TRAINER_TAKAO
 	settrainerflag TRAINER_JOCELYN
 	settrainerflag TRAINER_LAURA
