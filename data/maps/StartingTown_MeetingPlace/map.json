@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "StartingTown_MeetingPlace_EventScript_Receptionist",
       "flag": "0"
     },
     {
@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "StartingTown_MeetingPlace_EventScript_TMGuy",
       "flag": "0"
     },
     {
@@ -64,10 +64,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_HM_GUY"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_OLD_WOMAN",
+      "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
       "x": 8,
       "y": 8,
       "elevation": 0,
@@ -77,7 +77,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_MOVE_RELEARNER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
@@ -90,7 +90,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_OLD_ROD_GUY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
@@ -103,7 +103,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_FRIENDSHIP_CHECKER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
@@ -116,7 +116,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_GOOD_ROD_GUY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_2",
@@ -129,7 +129,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_IV_JUDGE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
@@ -142,10 +142,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_SUPER_ROD_GUY"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_OLD_MAN",
+      "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
       "x": 5,
       "y": 8,
       "elevation": 0,
@@ -155,7 +155,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_MOVE_TUTOR"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MART_EMPLOYEE",
@@ -168,7 +168,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_SPECIAL_VENDOR"
     }
   ],
   "warp_events": [

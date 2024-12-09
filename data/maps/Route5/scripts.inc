@@ -3,7 +3,7 @@ Route5_MapScripts::
 
 Route5_EventScript_BobsRUs::
 	trainerbattle_single TRAINER_BOBSRUS, Route5_Text_BobsRUsIntro, Route5_Text_BobsRUsDefeat
-	msgbox Route1_Text_DarkPsyStormPostBattle, MSGBOX_AUTOCLOSE
+	msgbox Route5_Text_BobsRUsPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route5_Text_BobsRUsIntro:

@@ -42,22 +42,22 @@
 #define TEMP_FLAGS_END   FLAG_TEMP_1F
 #define NUM_TEMP_FLAGS   (TEMP_FLAGS_END - TEMP_FLAGS_START + 1)
 
-#define FLAG_SABRE_GYM_QUIZ_1    0x20
-#define FLAG_SABRE_GYM_QUIZ_2    0x21
-#define FLAG_SABRE_GYM_QUIZ_3    0x22
-#define FLAG_SABRE_GYM_QUIZ_4    0x23
-#define FLAG_SABRE_GYM_QUIZ_5    0x24
-#define FLAG_SABRE_GYM_QUIZ_6    0x25
-#define FLAG_SABRE_GYM_QUIZ_7    0x26
-#define FLAG_UNUSED_0x027    0x27 // Unused Flag
-#define FLAG_UNUSED_0x028    0x28 // Unused Flag
-#define FLAG_UNUSED_0x029    0x29 // Unused Flag
-#define FLAG_UNUSED_0x02A    0x2A // Unused Flag
-#define FLAG_UNUSED_0x02B    0x2B // Unused Flag
-#define FLAG_UNUSED_0x02C    0x2C // Unused Flag
-#define FLAG_UNUSED_0x02D    0x2D // Unused Flag
-#define FLAG_UNUSED_0x02E    0x2E // Unused Flag
-#define FLAG_UNUSED_0x02F    0x2F // Unused Flag
+#define FLAG_SABRE_GYM_QUIZ_1        0x20
+#define FLAG_SABRE_GYM_QUIZ_2        0x21
+#define FLAG_SABRE_GYM_QUIZ_3        0x22
+#define FLAG_SABRE_GYM_QUIZ_4        0x23
+#define FLAG_SABRE_GYM_QUIZ_5        0x24
+#define FLAG_SABRE_GYM_QUIZ_6        0x25
+#define FLAG_SABRE_GYM_QUIZ_7        0x26
+#define FLAG_HIDE_OLD_ROD_GUY        0x27
+#define FLAG_HIDE_GOOD_ROD_GUY       0x28
+#define FLAG_HIDE_SUPER_ROD_GUY      0x29
+#define FLAG_HIDE_HM_GUY             0x2A
+#define FLAG_HIDE_FRIENDSHIP_CHECKER 0x2B
+#define FLAG_HIDE_IV_JUDGE           0x2C 
+#define FLAG_HIDE_MOVE_TUTOR         0x2D
+#define FLAG_HIDE_SPECIAL_VENDOR     0x2E
+#define FLAG_HIDE_MOVE_RELEARNER     0x2F
 #define FLAG_UNUSED_0x030    0x30 // Unused Flag
 #define FLAG_UNUSED_0x031    0x31 // Unused Flag
 #define FLAG_UNUSED_0x032    0x32 // Unused Flag
@@ -1220,8 +1220,8 @@
 
 #define FLAG_ITEM_ROUTE_1_POTION                                    0x493
 #define FLAG_ITEM_ROUTE_2_POKE_BALL                                 0x494
-#define FLAG_UNUSED_0x495                                           0x495 // Unused Flag
-#define FLAG_UNUSED_0x496                                           0x496 // Unused Flag
+#define FLAG_ITEM_ROUTE_3_POKE_BALL                                 0x495
+#define FLAG_ITEM_ROUTE_4_ANTIDOTE                                  0x496
 #define FLAG_UNUSED_0x497                                           0x497 // Unused Flag
 #define FLAG_UNUSED_0x498                                           0x498 // Unused Flag
 #define FLAG_UNUSED_0x499                                           0x499 // Unused Flag

@@ -161,16 +161,19 @@ CastleTownHermes_Mart_EventScript_SpecialClerk::
 	end
 	.align 2
 CastleTownHermes_Mart_Pokemart_SpecialClerk:
-	.2byte ITEM_FIRE_STONE
-	.2byte ITEM_WATER_STONE
-	.2byte ITEM_THUNDER_STONE
-	.2byte ITEM_LEAF_STONE
-	.2byte ITEM_MOON_STONE
-	.2byte ITEM_SUN_STONE
-	.2byte ITEM_DAWN_STONE
-	.2byte ITEM_DUSK_STONE
-	.2byte ITEM_SHINY_STONE
-	.2byte ITEM_ICE_STONE
+	.2byte ITEM_HP_UP
+	.2byte ITEM_PROTEIN
+	.2byte ITEM_IRON
+	.2byte ITEM_CALCIUM
+	.2byte ITEM_ZINC
+	.2byte ITEM_CARBOS
+	.2byte ITEM_MACHO_BRACE
+	.2byte ITEM_POWER_WEIGHT
+	.2byte ITEM_POWER_BRACER
+	.2byte ITEM_POWER_BELT
+	.2byte ITEM_POWER_LENS
+	.2byte ITEM_POWER_BAND
+	.2byte ITEM_POWER_ANKLET
 	.2byte ITEM_NONE
 	release
 	end

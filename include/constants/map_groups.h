@@ -92,6 +92,7 @@
 #define MAP_CASTLE_TOWN_SALSA     (83 | (0 << 8))
 #define MAP_CASTLE_TOWN_TOT       (84 | (0 << 8))
 #define MAP_CASTLE_TOWN_ANDY      (85 | (0 << 8))
+#define MAP_MYSTERIOUS_CLEARING1  (86 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (1 << 8))

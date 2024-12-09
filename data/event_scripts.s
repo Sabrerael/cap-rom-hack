@@ -1226,3 +1226,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/StartingTown_MeetingPlace/scripts.inc"
 
 	.include "data/maps/StartingTown_VictoryRoadEntrance/scripts.inc"
+
+	.include "data/maps/MysteriousClearing1/scripts.inc"

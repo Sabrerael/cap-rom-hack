@@ -153,7 +153,7 @@ CastleTownTMoney_Mart_Pokemart_EightBadges:
 CastleTownTMoney_Mart_EventScript_SpecialClerk::
 	lock
 	faceplayer
-	message gText_HowMayIServeYou
+	message CastleTownTMoney_Mart_Text_SpecialClerk
 	waitmessage
 	pokemart CastleTownTMoney_Mart_Pokemart_SpecialClerk
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
@@ -161,16 +161,24 @@ CastleTownTMoney_Mart_EventScript_SpecialClerk::
 	end
 	.align 2
 CastleTownTMoney_Mart_Pokemart_SpecialClerk:
-	.2byte ITEM_FIRE_STONE
-	.2byte ITEM_WATER_STONE
-	.2byte ITEM_THUNDER_STONE
-	.2byte ITEM_LEAF_STONE
-	.2byte ITEM_MOON_STONE
-	.2byte ITEM_SUN_STONE
-	.2byte ITEM_DAWN_STONE
-	.2byte ITEM_DUSK_STONE
-	.2byte ITEM_SHINY_STONE
-	.2byte ITEM_ICE_STONE
+	.2byte ITEM_CHOICE_BAND
+	.2byte ITEM_CHOICE_SPECS
+	.2byte ITEM_CHOICE_SCARF
+	.2byte ITEM_FLAME_ORB
+	.2byte ITEM_TOXIC_ORB
+	.2byte ITEM_QUICK_CLAW
+	.2byte ITEM_FOCUS_BAND
+	.2byte ITEM_SCOPE_LENS
+	.2byte ITEM_LEFTOVERS
+	.2byte ITEM_SHELL_BELL
+	.2byte ITEM_WIDE_LENS
+	.2byte ITEM_MUSCLE_BAND
+	.2byte ITEM_WISE_GLASSES
+	.2byte ITEM_EXPERT_BELT
 	.2byte ITEM_NONE
 	release
 	end
+
+CastleTownTMoney_Mart_Text_SpecialClerk::
+	.string "Welcome! We have a variety of\n"
+	.string "held battle items for sale.$"

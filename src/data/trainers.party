@@ -3920,8 +3920,16 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
-Level: 21
+Rockruff
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Vullaby
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Breloom
+Level Modifier: 1
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TRAVIS ===
@@ -5068,8 +5076,12 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
+Gothita
+Level Modifier: 2
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
 Shroomish
-Level: 9
+Level Modifier: 1 
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_GEORGIA ===
@@ -5782,12 +5794,16 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 5
+Yungoos
+Level Modifier: 3
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Seedot
-Level: 7
+Zigzagoon
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Skiddo
+Level Modifier: 2
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JOSH ===
@@ -5841,8 +5857,16 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
+Rookidee
+Level Modifier: 3
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Aipom
+Level Modifier: 3
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
 Machop
-Level: 9
+Level Modifier: 1
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BEN ===
@@ -7714,12 +7738,20 @@ Double Battle: No
 AI: Check Bad Move
 
 Meditite
-Level: 18
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 3
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Makuhita
-Level: 18
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Passimian
+Level Modifier: 3
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+Klawf
+Level Modifier: 3
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+Hariyama
+Level Modifier: 1
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_CORA ===
 Name: CORA
@@ -9352,7 +9384,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Psychic
 - Future Sight
 
-=== TRAINER_BRENDAN_ROUTE_103_MUDKIP ===
+=== TRAINER_PHEBBLE_1 ===
 Name: PHEBBLE
 Class: Rival
 Pic: Brendan
@@ -11024,11 +11056,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Lotad
-Level: 6
+Level Modifier: 2
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Shroomish
-Level: 6
+Smoliv
+Level Modifier: 1
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JANICE ===
@@ -11418,11 +11450,19 @@ Double Battle: No
 AI: Check Bad Move
 
 Numel
-Level: 17
+Level Modifier: 3
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Machop
-Level: 17
+Mudbray
+Level Modifier: 3
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Nosepass
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Falinks
+Level Modifier: 1
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TRENT_1 ===
@@ -17074,7 +17114,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psyshock
 - Hyper Beam
 
-=== TRAINER_JUAN_1 ===
+=== TRAINER_SABRE_1 ===
 Name: Sabre
 Class: Moderator
 Pic: Leader Juan
@@ -17128,7 +17168,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Poison Jab
 - X-Scissor
 
-=== TRAINER_JUAN_2 ===
+=== TRAINER_SABRE_2 ===
 Name: Sabre
 Class: Moderator
 Pic: Leader Juan
@@ -17182,7 +17222,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Poison Jab
 - X-Scissor
 
-=== TRAINER_JUAN_3 ===
+=== TRAINER_SABRE_3 ===
 Name: Sabre
 Class: Moderator
 Pic: Leader Juan
@@ -17236,7 +17276,7 @@ IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 - Poison Jab
 - X-Scissor
 
-=== TRAINER_JUAN_4 ===
+=== TRAINER_SABRE_4 ===
 Name: Sabre
 Class: Moderator
 Pic: Leader Juan
@@ -17290,7 +17330,7 @@ IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 - Poison Jab
 - X-Scissor
 
-=== TRAINER_JUAN_5 ===
+=== TRAINER_SABRE_5 ===
 Name: Sabre
 Class: Moderator
 Pic: Leader Juan
@@ -17344,7 +17384,7 @@ IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 - Poison Jab
 - X-Scissor
 
-=== TRAINER_JUAN_6 ===
+=== TRAINER_SABRE_6 ===
 Name: Sabre
 Class: Moderator
 Pic: Leader Juan
@@ -17398,7 +17438,7 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 - Poison Jab
 - X-Scissor
 
-=== TRAINER_JUAN_7 ===
+=== TRAINER_SABRE_7 ===
 Name: Sabre
 Class: Moderator
 Pic: Leader Juan
@@ -17452,7 +17492,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Poison Jab
 - X-Scissor
 
-=== TRAINER_JUAN_8 ===
+=== TRAINER_SABRE_8 ===
 Name: Sabre
 Class: Moderator
 Pic: Leader Juan

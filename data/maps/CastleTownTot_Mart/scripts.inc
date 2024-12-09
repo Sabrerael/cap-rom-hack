@@ -153,7 +153,7 @@ CastleTownTot_Mart_Pokemart_EightBadges:
 CastleTownTot_Mart_EventScript_SpecialClerk::
 	lock
 	faceplayer
-	message gText_HowMayIServeYou
+	message CastleTownTot_Mart_Text_SpecialClerk
 	waitmessage
 	pokemart CastleTownTot_Mart_Pokemart_SpecialClerk
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
@@ -161,16 +161,23 @@ CastleTownTot_Mart_EventScript_SpecialClerk::
 	end
 	.align 2
 CastleTownTot_Mart_Pokemart_SpecialClerk:
-	.2byte ITEM_FIRE_STONE
-	.2byte ITEM_WATER_STONE
-	.2byte ITEM_THUNDER_STONE
-	.2byte ITEM_LEAF_STONE
-	.2byte ITEM_MOON_STONE
-	.2byte ITEM_SUN_STONE
-	.2byte ITEM_DAWN_STONE
-	.2byte ITEM_DUSK_STONE
-	.2byte ITEM_SHINY_STONE
-	.2byte ITEM_ICE_STONE
+	.2byte ITEM_MOOMOO_MILK
+	.2byte ITEM_ENERGY_POWDER
+	.2byte ITEM_ENERGY_ROOT
+	.2byte ITEM_HEAL_POWDER
+	.2byte ITEM_REVIVAL_HERB
+	.2byte ITEM_PEWTER_CRUNCHIES
+	.2byte ITEM_RAGE_CANDY_BAR
+	.2byte ITEM_LAVA_COOKIE
+	.2byte ITEM_OLD_GATEAU
+	.2byte ITEM_CASTELIACONE
+	.2byte ITEM_LUMIOSE_GALETTE
+	.2byte ITEM_SHALOUR_SABLE
+	.2byte ITEM_BIG_MALASADA
 	.2byte ITEM_NONE
 	release
 	end
+
+CastleTownTot_Mart_Text_SpecialClerk::
+	.string "Welcome! We have specialty\n"
+	.string "healing items for sale.$"

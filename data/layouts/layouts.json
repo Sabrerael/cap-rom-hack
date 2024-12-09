@@ -4554,10 +4554,10 @@
     {
       "id": "LAYOUT_ROUTE6",
       "name": "Route6_Layout",
-      "width": 26,
-      "height": 40,
+      "width": 40,
+      "height": 80,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/Route6/border.bin",
       "blockdata_filepath": "data/layouts/Route6/map.bin"
     },
@@ -4577,7 +4577,7 @@
       "width": 40,
       "height": 40,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Slateport",
+      "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/CastleTownSabre/border.bin",
       "blockdata_filepath": "data/layouts/CastleTownSabre/map.bin"
     },
@@ -4830,6 +4830,16 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/StartingTown_VictoryRoadEntrance/border.bin",
       "blockdata_filepath": "data/layouts/StartingTown_VictoryRoadEntrance/map.bin"
+    },
+    {
+      "id": "LAYOUT_MYSTERIOUS_CLEARING1",
+      "name": "MysteriousClearing1_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fallarbor",
+      "border_filepath": "data/layouts/MysteriousClearing1/border.bin",
+      "blockdata_filepath": "data/layouts/MysteriousClearing1/map.bin"
     }
   ]
 }

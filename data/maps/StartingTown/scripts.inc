@@ -171,7 +171,7 @@ StartingTown_EventScript_RivalApproachPlayer9::
 	return
 
 StartingTown_EventScript_StartPhebbleBattle::
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_103_MUDKIP, StartingTown_Text_PhebbleDefeated
+	trainerbattle_no_intro TRAINER_PHEBBLE_1, StartingTown_Text_PhebbleDefeated
 	goto StartingTown_EventScript_AfterPhebbleBattle
 	end
 

@@ -275,7 +275,7 @@
 #define TRAINER_NORMAN_1                    269
 #define TRAINER_WINONA_1                    270
 #define TRAINER_TATE_AND_LIZA_1             271
-#define TRAINER_JUAN_1                      272
+#define TRAINER_SABRE_1                      272
 #define TRAINER_JERRY_1                     273
 #define TRAINER_TED                         274
 #define TRAINER_PAUL                        275
@@ -523,7 +523,7 @@
 #define TRAINER_EDWIN_4                     517
 #define TRAINER_EDWIN_5                     518
 #define TRAINER_WALLY_VR_1                  519
-#define TRAINER_BRENDAN_ROUTE_103_MUDKIP    520
+#define TRAINER_PHEBBLE_1    520
 #define TRAINER_BRENDAN_ROUTE_110_MUDKIP    521
 #define TRAINER_BRENDAN_ROUTE_119_MUDKIP    522
 #define TRAINER_BRENDAN_ROUTE_103_TREECKO   523
@@ -801,10 +801,10 @@
 #define TRAINER_TATE_AND_LIZA_3             795
 #define TRAINER_TATE_AND_LIZA_4             796
 #define TRAINER_TATE_AND_LIZA_5             797
-#define TRAINER_JUAN_2                      798
-#define TRAINER_JUAN_3                      799
-#define TRAINER_JUAN_4                      800
-#define TRAINER_JUAN_5                      801
+#define TRAINER_SABRE_2                      798
+#define TRAINER_SABRE_3                      799
+#define TRAINER_SABRE_4                      800
+#define TRAINER_SABRE_5                      801
 #define TRAINER_ANGELO                      802
 #define TRAINER_DARIUS                      803
 #define TRAINER_STEVEN                      804
@@ -858,9 +858,9 @@
 #define TRAINER_LEAF                        852
 #define TRAINER_BRENDAN_PLACEHOLDER         853
 #define TRAINER_MAY_PLACEHOLDER             854
-#define TRAINER_JUAN_6                      855
-#define TRAINER_JUAN_7                      856
-#define TRAINER_JUAN_8                      857
+#define TRAINER_SABRE_6                      855
+#define TRAINER_SABRE_7                      856
+#define TRAINER_SABRE_8                      857
 #define TRAINER_ROXANNE_6                   858
 #define TRAINER_ROXANNE_7                   859
 #define TRAINER_ROXANNE_8                   860

@@ -153,7 +153,7 @@ CastleTownSalsa_Mart_Pokemart_EightBadges:
 CastleTownSalsa_Mart_EventScript_SpecialClerk::
 	lock
 	faceplayer
-	message gText_HowMayIServeYou
+	message CastleTownSalsa_Mart_Text_SpecialClerk
 	waitmessage
 	pokemart CastleTownSalsa_Mart_Pokemart_SpecialClerk
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
@@ -161,17 +161,23 @@ CastleTownSalsa_Mart_EventScript_SpecialClerk::
 	end
 	.align 2
 CastleTownSalsa_Mart_Pokemart_SpecialClerk:
-	.2byte ITEM_FIRE_STONE
-	.2byte ITEM_WATER_STONE
-	.2byte ITEM_THUNDER_STONE
-	.2byte ITEM_LEAF_STONE
-	.2byte ITEM_MOON_STONE
-	.2byte ITEM_SUN_STONE
-	.2byte ITEM_DAWN_STONE
-	.2byte ITEM_DUSK_STONE
-	.2byte ITEM_SHINY_STONE
-	.2byte ITEM_ICE_STONE
+	.2byte ITEM_PROTECTOR
+	.2byte ITEM_ELECTIRIZER
+	.2byte ITEM_MAGMARIZER
+	.2byte ITEM_DUBIOUS_DISC
+	.2byte ITEM_REAPER_CLOTH
+	.2byte ITEM_PRISM_SCALE
+	.2byte ITEM_WHIPPED_DREAM
+	.2byte ITEM_SACHET
+	.2byte ITEM_OVAL_STONE
+	.2byte ITEM_SWEET_APPLE
+	.2byte ITEM_TART_APPLE
+	.2byte ITEM_CRACKED_POT
+	.2byte ITEM_CHIPPED_POT
 	.2byte ITEM_NONE
 	release
 	end
 
+CastleTownSalsa_Mart_Text_SpecialClerk::
+	.string "Welcome! We have specialty\n"
+	.string "evolution items for sale.$"
