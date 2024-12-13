@@ -9,7 +9,9 @@ Common_EventScript_SetGymTrainers::
 	case 7, MossdeepCity_Gym_SetGymTrainers
 	case 8, SootopolisCity_Gym_SetGymTrainers
 	case 9, CastleTownBlindJim_Gym_SetGymTrainers
-	case 11, CastleTownSabre_Gym_SetGymTrainers
+	case 12, CastleTownSabre_Gym_SetGymTrainers
+	case 15, CastleTownTot_Gym_SetGymTrainers
+	case 
 	end
 
 RustboroCity_Gym_SetGymTrainers::
@@ -154,13 +156,13 @@ CastleTownTMoney_Gym_SetGymTrainers::
 	return
 
 CastleTownTot_Gym_SetGymTrainers::
-	settrainerflag TRAINER_TAKAO
-	settrainerflag TRAINER_JOCELYN
-	settrainerflag TRAINER_LAURA
-	settrainerflag TRAINER_BRENDEN
-	settrainerflag TRAINER_CRISTIAN
-	settrainerflag TRAINER_LILITH
-	settrainerflag TRAINER_ELI
+	settrainerflag TRAINER_PRESTON
+	settrainerflag TRAINER_VIRGIL
+	settrainerflag TRAINER_BLAKE
+	settrainerflag TRAINER_HANNAH
+	settrainerflag TRAINER_SAMANTHA
+	settrainerflag TRAINER_MAURA
+	settrainerflag TRAINER_NATE
 	return
 
 CastleTownTreble_Gym_SetGymTrainers::

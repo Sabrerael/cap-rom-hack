@@ -3,7 +3,7 @@
   "name": "CastleTownHermes_PokemonCenter_2F",
   "layout": "LAYOUT_POKEMON_CENTER_2F",
   "music": "MUS_POKE_CENTER",
-  "region_map_section": "MAPSEC_ALTERING_CAVE",
+  "region_map_section": "MAPSEC_CASTLE_TOWN_HERMES",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",

@@ -129,6 +129,12 @@
 #define METATILE_CastleTownSabreGym_Wall_OppositeBarrier            0x22E
 #define METATILE_CastleTownSabreGym_Wall_RetractedBarrier           0x206
 
+// gTileset_CastleTownTotGym
+#define METATILE_CastleTownTotGym_FloorGrass       0x238
+#define METATILE_CastleTownTotGym_LONG_GRASS       0x239
+#define METATILE_CastleTownTotGym_LONG_GRASS_ROOT  0x23A
+#define METATILE_CastleTownTotGym_TALL_GRASS       0x236
+
 // gTileset_Cave
 #define METATILE_Cave_CrackedFloor                       0x22F
 #define METATILE_Cave_CrackedFloor_Hole                  0x206

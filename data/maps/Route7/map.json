@@ -15,12 +15,12 @@
   "connections": [
     {
       "map": "MAP_MIDDLE_TOWN_NORTH",
-      "offset": -2,
+      "offset": 6,
       "direction": "left"
     },
     {
       "map": "MAP_CASTLE_TOWN_BLIND_JIM",
-      "offset": -6,
+      "offset": 0,
       "direction": "right"
     }
   ],

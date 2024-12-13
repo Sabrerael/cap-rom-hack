@@ -3,7 +3,7 @@
   "name": "MiddleTownNorth",
   "layout": "LAYOUT_MIDDLE_TOWN_NORTH",
   "music": "MUS_PETALBURG",
-  "region_map_section": "MAPSEC_PEWTER_CITY",
+  "region_map_section": "MAPSEC_STUMBULL_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_TOWN",
@@ -20,7 +20,7 @@
     },
     {
       "map": "MAP_ROUTE5",
-      "offset": 2,
+      "offset": -6,
       "direction": "left"
     },
     {
@@ -30,7 +30,7 @@
     },
     {
       "map": "MAP_ROUTE7",
-      "offset": 2,
+      "offset": -6,
       "direction": "right"
     }
   ],

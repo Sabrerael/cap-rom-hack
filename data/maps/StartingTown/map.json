@@ -3,7 +3,7 @@
   "name": "StartingTown",
   "layout": "LAYOUT_STARTING_TOWN",
   "music": "MUS_LITTLEROOT",
-  "region_map_section": "MAPSEC_STARTING_TOWN",
+  "region_map_section": "MAPSEC_GUILD_COMMONS",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_TOWN",
@@ -58,15 +58,15 @@
       "dest_warp_id": "3"
     },
     {
-      "x": 3,
-      "y": 5,
+      "x": 6,
+      "y": 9,
       "elevation": 0,
       "dest_map": "MAP_STARTING_TOWN_RYANS_HOUSE_1F",
       "dest_warp_id": "0"
     },
     {
       "x": 14,
-      "y": 5,
+      "y": 6,
       "elevation": 0,
       "dest_map": "MAP_STARTING_TOWN_POKEMON_CENTER_1F",
       "dest_warp_id": "0"
@@ -86,10 +86,31 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 11,
+      "x": 9,
       "y": 27,
       "elevation": 0,
       "dest_map": "MAP_STARTING_TOWN_MEETING_PLACE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 27,
+      "elevation": 0,
+      "dest_map": "MAP_STARTING_TOWN_MEETING_PLACE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 28,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_STARTING_TOWN_VICTORY_ROAD_ENTRANCE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 29,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_STARTING_TOWN_VICTORY_ROAD_ENTRANCE",
       "dest_warp_id": "0"
     }
   ],
@@ -99,7 +120,7 @@
       "x": 20,
       "y": 1,
       "elevation": 0,
-      "var": "VAR_STARTING_TOWN_STATE",
+      "var": "VAR_PHEBBLE_STATE",
       "var_value": "0",
       "script": "StartingTown_EventScript_PhebbleFight1Trigger0"
     },
@@ -108,7 +129,7 @@
       "x": 21,
       "y": 1,
       "elevation": 0,
-      "var": "VAR_STARTING_TOWN_STATE",
+      "var": "VAR_PHEBBLE_STATE",
       "var_value": "0",
       "script": "StartingTown_EventScript_PhebbleFight1Trigger1"
     },
@@ -117,7 +138,7 @@
       "x": 1,
       "y": 19,
       "elevation": 0,
-      "var": "VAR_STARTING_TOWN_STATE",
+      "var": "VAR_PHEBBLE_STATE",
       "var_value": "0",
       "script": "StartingTown_EventScript_PhebbleFight1Trigger2"
     },
@@ -126,7 +147,7 @@
       "x": 1,
       "y": 18,
       "elevation": 0,
-      "var": "VAR_STARTING_TOWN_STATE",
+      "var": "VAR_PHEBBLE_STATE",
       "var_value": "0",
       "script": "StartingTown_EventScript_PhebbleFight1Trigger3"
     },
@@ -135,7 +156,7 @@
       "x": 18,
       "y": 38,
       "elevation": 0,
-      "var": "VAR_STARTING_TOWN_STATE",
+      "var": "VAR_PHEBBLE_STATE",
       "var_value": "0",
       "script": "StartingTown_EventScript_PhebbleFight1Trigger4"
     },
@@ -144,7 +165,7 @@
       "x": 19,
       "y": 38,
       "elevation": 0,
-      "var": "VAR_STARTING_TOWN_STATE",
+      "var": "VAR_PHEBBLE_STATE",
       "var_value": "0",
       "script": "StartingTown_EventScript_PhebbleFight1Trigger5"
     },
@@ -153,7 +174,7 @@
       "x": 20,
       "y": 38,
       "elevation": 0,
-      "var": "VAR_STARTING_TOWN_STATE",
+      "var": "VAR_PHEBBLE_STATE",
       "var_value": "0",
       "script": "StartingTown_EventScript_PhebbleFight1Trigger6"
     },
@@ -162,7 +183,7 @@
       "x": 21,
       "y": 38,
       "elevation": 0,
-      "var": "VAR_STARTING_TOWN_STATE",
+      "var": "VAR_PHEBBLE_STATE",
       "var_value": "0",
       "script": "StartingTown_EventScript_PhebbleFight1Trigger7"
     },
@@ -171,7 +192,7 @@
       "x": 38,
       "y": 18,
       "elevation": 0,
-      "var": "VAR_STARTING_TOWN_STATE",
+      "var": "VAR_PHEBBLE_STATE",
       "var_value": "0",
       "script": "StartingTown_EventScript_PhebbleFight1Trigger8"
     },
@@ -180,12 +201,27 @@
       "x": 38,
       "y": 19,
       "elevation": 0,
-      "var": "VAR_STARTING_TOWN_STATE",
+      "var": "VAR_PHEBBLE_STATE",
       "var_value": "0",
       "script": "StartingTown_EventScript_PhebbleFight1Trigger9"
     }
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 10,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 29,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    }
   ]
 }

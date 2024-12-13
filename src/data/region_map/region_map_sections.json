@@ -713,64 +713,64 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_VIRIDIAN_CITY",
-      "name": "VIRIDIAN CITY",
+      "map_section": "MAPSEC_CASTLE_TOWN_SABRE",
+      "name": "CASTLE TOWN SABRE",
       "x": 0,
       "y": 0,
       "width": 1,
       "height": 1
     },
     {
-      "map_section": "MAPSEC_PEWTER_CITY",
-      "name": "PEWTER CITY",
+      "map_section": "MAPSEC_CASTLE_TOWN_BLINDJIM",
+      "name": "CASTLE TOWN BLINDJIM",
       "x": 0,
       "y": 0,
       "width": 1,
       "height": 1
     },
     {
-      "map_section": "MAPSEC_CERULEAN_CITY",
-      "name": "CERULEAN CITY",
+      "map_section": "MAPSEC_CASTLE_TOWN_ANDY",
+      "name": "CASTLE TOWN ANDY",
       "x": 0,
       "y": 0,
       "width": 1,
       "height": 1
     },
     {
-      "map_section": "MAPSEC_LAVENDER_TOWN",
-      "name": "LAVENDER TOWN",
+      "map_section": "MAPSEC_GUILD_COMMONS",
+      "name": "GUILD COMMONS",
       "x": 0,
       "y": 0,
       "width": 1,
       "height": 1
     },
     {
-      "map_section": "MAPSEC_VERMILION_CITY",
-      "name": "VERMILION CITY",
+      "map_section": "MAPSEC_CASTLE_TOWN_HERMES",
+      "name": "MERCURY'S CROSSING",
       "x": 0,
       "y": 0,
       "width": 1,
       "height": 1
     },
     {
-      "map_section": "MAPSEC_CELADON_CITY",
-      "name": "Starting Town",
+      "map_section": "MAPSEC_CASTLE_TOWN_TREBLE",
+      "name": "CASTLE TOWN TREBLE",
       "x": 0,
       "y": 0,
       "width": 1,
       "height": 1
     },
     {
-      "map_section": "MAPSEC_FUCHSIA_CITY",
-      "name": "FUCHSIA CITY",
+      "map_section": "MAPSEC_CASTLE_TOWN_TMONEY",
+      "name": "VOLTARI CITY",
       "x": 0,
       "y": 0,
       "width": 1,
       "height": 1
     },
     {
-      "map_section": "MAPSEC_CINNABAR_ISLAND",
-      "name": "CINNABAR ISLAND",
+      "map_section": "MAPSEC_CASTLE_TOWN_SALSA",
+      "name": "PUERTO DEL SALSA",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -785,8 +785,8 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_SAFFRON_CITY",
-      "name": "SAFFRON CITY",
+      "map_section": "MAPSEC_CASTLE_TOWN_TOT",
+      "name": "PEACEFUL VALLEY",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -1009,39 +1009,39 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_VIRIDIAN_FOREST",
-      "name": "VIRIDIAN FOREST",
+      "map_section": "MAPSEC_BASHETT_TOWN",
+      "name": "BASHETT TOWN",
       "x": 0,
       "y": 0,
       "width": 1,
       "height": 1
     },
     {
-      "map_section": "MAPSEC_MT_MOON",
-      "name": "MT. MOON",
+      "map_section": "MAPSEC_BARGEWRIGHT_TOWN",
+      "name": "BARGEWRIGHT TOWN",
       "x": 0,
       "y": 0,
       "width": 1,
       "height": 1
     },
     {
-      "map_section": "MAPSEC_S_S_ANNE",
-      "name": "S.S. ANNE",
+      "map_section": "MAPSEC_STUMBULL_TOWN",
+      "name": "STUMBULL TOWN",
       "x": 0,
       "y": 0,
       "width": 1,
       "height": 1
     },
     {
-      "map_section": "MAPSEC_UNDERGROUND_PATH",
-      "name": "UNDERGROUND PATH",
+      "map_section": "MAPSEC_SPEAKEASY_TOWN",
+      "name": "SPEAKEASY TOWN",
       "x": 0,
       "y": 0,
       "width": 1,
       "height": 1
     },
     {
-      "map_section": "MAPSEC_UNDERGROUND_PATH_2",
+      "map_section": "MAPSEC_SPEAKEASY_TOWN_2",
       "name": "UNDERGROUND PATH",
       "x": 0,
       "y": 0,
@@ -1701,14 +1701,6 @@
       "name": "TRAINER HILL",
       "x": 8,
       "y": 4,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "map_section": "MAPSEC_STARTING_TOWN",
-      "name": "STARTING TOWN",
-      "x": 0,
-      "y": 0,
       "width": 1,
       "height": 1
     }

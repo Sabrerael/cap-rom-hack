@@ -788,7 +788,7 @@ CastleTownSabre_GymEventScript_JuanDefeated::
 	setflag FLAG_DEFEATED_SOOTOPOLIS_GYM
 	setflag FLAG_BADGE08_GET
 	call Common_EventScript_UpdateBadgesCollected
-	setvar VAR_0x8008, 11
+	setvar VAR_0x8008, 12
 	call Common_EventScript_SetGymTrainers
 	call CastleTownSabre_Gym_EventScript_GiveDragonClaw
 	closemessage
@@ -992,7 +992,7 @@ CastleTownSabre_Gym_Text_WyrmBadgeInfoTakeThis:
 	.string "MACHINE, too.$"
 
 CastleTownSabre_Gym_Text_ExplainDragonClaw:
-	.string "That TM02 contains Dragon Claw.\p"
+	.string "TM-02 contains Dragon Claw.\p"
 	.string "It's a powerful DRAGON-type move\n"
 	.string "that lots of Pokémon can learn.\p"
 	.string "… … … … … …$"

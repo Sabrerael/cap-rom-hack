@@ -2346,18 +2346,18 @@ void GetFollowerAction(struct ScriptContext *ctx) // Essentially a big switch fo
         switch (gMapHeader.regionMapSectionId)
         {
         case MAPSEC_RUSTBORO_CITY:
-        case MAPSEC_PEWTER_CITY:
-            multi = TYPE_ROCK;
+        case MAPSEC_CASTLE_TOWN_BLINDJIM:
+            multi = TYPE_DARK;
             break;
         case MAPSEC_DEWFORD_TOWN:
             multi = TYPE_FIGHTING;
             break;
         case MAPSEC_MAUVILLE_CITY:
-        case MAPSEC_VERMILION_CITY:
-            multi = TYPE_ELECTRIC;
+        case MAPSEC_CASTLE_TOWN_HERMES:
+            multi = TYPE_STEEL;
             break;
         case MAPSEC_LAVARIDGE_TOWN:
-        case MAPSEC_CINNABAR_ISLAND:
+        case MAPSEC_CASTLE_TOWN_SALSA:
             multi = TYPE_FIRE;
             break;
         case MAPSEC_PETALBURG_CITY:
@@ -2367,21 +2367,21 @@ void GetFollowerAction(struct ScriptContext *ctx) // Essentially a big switch fo
             multi = TYPE_FLYING;
             break;
         case MAPSEC_MOSSDEEP_CITY:
-        case MAPSEC_SAFFRON_CITY:
-            multi = TYPE_PSYCHIC;
+        case MAPSEC_CASTLE_TOWN_TOT:
+            multi = TYPE_FAIRY;
             break;
         case MAPSEC_SOOTOPOLIS_CITY:
-        case MAPSEC_CERULEAN_CITY:
-            multi = TYPE_WATER;
+        case MAPSEC_CASTLE_TOWN_ANDY:
+            multi = TYPE_FLYING;
             break;
-        case MAPSEC_CELADON_CITY:
+        case MAPSEC_CASTLE_TOWN_TREBLE:
             multi = TYPE_GRASS;
             break;
-        case MAPSEC_FUCHSIA_CITY:
-            multi = TYPE_POISON;
+        case MAPSEC_CASTLE_TOWN_TMONEY:
+            multi = TYPE_ELECTRIC;
             break;
-        case MAPSEC_VIRIDIAN_CITY:
-            multi = TYPE_GROUND;
+        case MAPSEC_CASTLE_TOWN_SABRE:
+            multi = TYPE_DRAGON;
             break;
         default:
             multi = NUMBER_OF_MON_TYPES;

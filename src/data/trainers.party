@@ -4744,8 +4744,8 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Odor Sleuth
 - Roar
 
-=== TRAINER_SIDNEY ===
-Name: SIDNEY
+=== TRAINER_HAROLD ===
+Name: HAROLD
 Class: Elite Four
 Pic: Elite Four Sidney
 Gender: Male
@@ -4755,152 +4755,117 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Setup First Turn / Ace Pokemon
 Mugshot: Purple
 
-Mightyena
-Level: 46
+Aegislash
+Level: 65
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Roar
 - Double Edge
 - Sand Attack
 - Crunch
 
-Shiftry
-Level: 48
+Nidoking
+Level: 65
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Torment
 - Double Team
 - Swagger
 - Extrasensory
 
-Cacturne
-Level: 46
+Sirfetch'd
+Level: 65
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Leech Seed
 - Feint Attack
 - Needle Arm
 - Cotton Spore
 
-Crawdaunt
-Level: 48
+Tsareena
+Level: 66
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Surf
 - Swords Dance
 - Strength
 - Facade
 
-Absol @ Sitrus Berry
-Level: 49
+Kingambit
+Level: 66
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Surf
+- Swords Dance
+- Strength
+- Facade
+
+Slowking @ Sitrus Berry
+Level: 67
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aerial Ace
 - Rock Slide
 - Swords Dance
 - Slash
 
-=== TRAINER_PHOEBE ===
-Name: PHOEBE
+=== TRAINER_BUFF_RYAN ===
+Name: BUFF RYAN
 Class: Elite Four
 Pic: Elite Four Phoebe
-Gender: Female
+Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 Mugshot: Green
 
-Dusclops
-Level: 48
+Mienshao
+Level: 66
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Shadow Punch
 - Confuse Ray
 - Curse
 - Protect
 
-Banette
-Level: 49
+Toxicroak
+Level: 66
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Shadow Ball
 - Grudge
 - Will O Wisp
 - Feint Attack
 
-Sableye
-Level: 50
+Pawmot
+Level: 66
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Shadow Ball
 - Double Team
 - Night Shade
 - Feint Attack
 
-Banette
-Level: 49
+Pangoro
+Level: 67
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Shadow Ball
 - Psychic
 - Thunderbolt
 - Facade
 
-Dusclops @ Sitrus Berry
-Level: 51
+Annihilape
+Level: 67
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shadow Ball
+- Psychic
+- Thunderbolt
+- Facade
+
+Machamp @ Sitrus Berry
+Level: 68
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shadow Ball
 - Ice Beam
 - Rock Slide
 - Earthquake
 
-=== TRAINER_GLACIA ===
-Name: GLACIA
+=== TRAINER_PIRATE ===
+Name: PIRATE
 Class: Elite Four
 Pic: Elite Four Glacia
-Gender: Female
-Music: Elite Four
-Items: Full Restore / Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-Mugshot: Pink
-
-Sealeo
-Level: 50
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Encore
-- Body Slam
-- Hail
-- Ice Ball
-
-Glalie
-Level: 50
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Light Screen
-- Crunch
-- Icy Wind
-- Ice Beam
-
-Sealeo
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Attract
-- Double Edge
-- Hail
-- Blizzard
-
-Glalie
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Explosion
-- Hail
-- Ice Beam
-
-Walrein @ Sitrus Berry
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Body Slam
-- Ice Beam
-- Sheer Cold
-
-=== TRAINER_DRAKE ===
-Name: DRAKE
-Class: Elite Four
-Pic: Elite Four Drake
 Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
@@ -4908,40 +4873,107 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 Mugshot: Blue
 
-Shelgon
-Level: 52
+Veluza
+Level: 67
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Encore
+- Body Slam
+- Hail
+- Ice Ball
+
+Clawitzer
+Level: 67
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Light Screen
+- Crunch
+- Icy Wind
+- Ice Beam
+
+Dhelmise
+Level: 67
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Attract
+- Double Edge
+- Hail
+- Blizzard
+
+Gastrodon
+Level: 68
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shadow Ball
+- Explosion
+- Hail
+- Ice Beam
+
+Basculegion Male
+Level: 68
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shadow Ball
+- Explosion
+- Hail
+- Ice Beam
+
+Sharpedo @ Sitrus Berry
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Surf
+- Body Slam
+- Ice Beam
+- Sheer Cold
+
+=== TRAINER_SUSFLAME ===
+Name: SUSFLAME
+Class: Elite Four
+Pic: Elite Four Drake
+Gender: Female
+Music: Elite Four
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+Mugshot: Blue
+
+Maushold
+Level: 68
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Rock Tomb
 - Dragon Claw
 - Protect
 - Double Edge
 
-Altaria
-Level: 54
+Indeedee Female
+Level: 68
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Double Edge
 - Dragon Breath
 - Dragon Dance
 - Aerial Ace
 
-Kingdra
-Level: 53
+Blissey
+Level: 68
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Smokescreen
 - Dragon Dance
 - Surf
 - Body Slam
 
-Flygon
-Level: 53
+Kangaskhan
+Level: 69
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Flamethrower
 - Crunch
 - Dragon Breath
 - Earthquake
 
-Salamence @ Sitrus Berry
-Level: 55
+Wigglytuff
+Level: 69
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Flamethrower
+- Crunch
+- Dragon Breath
+- Earthquake
+
+Dudunsparce @ Sitrus Berry
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
 - Dragon Claw
@@ -6096,7 +6128,7 @@ Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WALLACE ===
-Name: WALLACE
+Name: ROCKHAB
 Class: Champion
 Pic: Champion Wallace
 Gender: Male
@@ -6106,53 +6138,53 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 Mugshot: Yellow
 
-Wailord
-Level: 57
+Altaria
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rain Dance
-- Water Spout
-- Double Edge
-- Blizzard
+- Moonblast
+- Dragon Pulse
+- Substitute
+- Attract
 
-Tentacruel
-Level: 55
+Charizard
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Toxic
-- Hydro Pump
-- Sludge Bomb
-- Ice Beam
+- Earthquake
+- Flamethrower
+- Hurricane
+- Dragon Tail
 
-Ludicolo
-Level: 56
+Vespiquen
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Attack Order
+- Defend Order
+- Roost
+- Confuse Ray
+
+Alakazam
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psychic
+- Focus Blast
+- Charge Beam
+- Shadow Ball
+
+Tangrowth
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Grassy Terrain
 - Giga Drain
-- Surf
-- Leech Seed
-- Double Team
-
-Whiscash
-Level: 56
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Surf
-- Amnesia
-- Hyper Beam
-
-Gyarados
-Level: 56
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Dragon Dance
-- Earthquake
-- Hyper Beam
-- Surf
+- Sludge Bomb
+- Ancient Power
 
 Milotic @ Sitrus Berry
-Level: 58
+Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Recover
 - Surf
 - Ice Beam
-- Toxic
+- Alluring Voice
 
 === TRAINER_ANDREW ===
 Name: ANDREW

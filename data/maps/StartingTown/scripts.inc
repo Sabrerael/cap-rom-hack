@@ -220,7 +220,7 @@ StartingTown_EventScript_RivalLeavePlayer3::
 
 StartingTown_EventScript_RivalEnd::
 	removeobject LOCALID_PHEBBLE
-	setvar VAR_STARTING_TOWN_STATE, 1
+	setvar VAR_PHEBBLE_STATE, 1
 	setflag FLAG_HIDE_STARTING_TOWN_PHEBBLE
 	setflag FLAG_DEFEATED_RIVAL_ROUTE103
 	savebgm MUS_DUMMY

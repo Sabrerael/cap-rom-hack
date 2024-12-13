@@ -36,6 +36,53 @@ CastleTownTot_Gym_EventScript_GymStatue::
 	releaseall
 	end
 
+CastleTownTot_Gym_EventScript_CheckTrees::
+	goto_if_set FLAG_BADGE07_GET, CastleTownTot_Gym_EventScript_RemoveTrees
+	call CastleTownTot_Gym_EventScript_CountTrainersDefeated
+	copyvar VAR_0x8001, VAR_0x8000
+	goto_if_eq VAR_0x8000, 7, CastleTownTot_Gym_EventScript_RemoveTrees
+	end
+
+CastleTownTot_Gym_EventScript_RemoveTrees::
+	setmetatile 18,  5, METATILE_CastleTownTotGym_FloorGrass, 0
+	setmetatile 18,  6, METATILE_CastleTownTotGym_FloorGrass, 0
+	setmetatile 18,  7, METATILE_CastleTownTotGym_FloorGrass, 0
+	setmetatile 19,  5, METATILE_CastleTownTotGym_FloorGrass, 0
+	setmetatile 19,  6, METATILE_CastleTownTotGym_FloorGrass, 0
+	setmetatile 19,  7, METATILE_CastleTownTotGym_FloorGrass, 0
+	setmetatile 20,  5, METATILE_CastleTownTotGym_FloorGrass, 0
+	setmetatile 20,  6, METATILE_CastleTownTotGym_FloorGrass, 0
+	setmetatile 20,  7, METATILE_CastleTownTotGym_FloorGrass, 0
+	setmetatile 21,  5, METATILE_CastleTownTotGym_FloorGrass, 0
+	setmetatile 21,  6, METATILE_CastleTownTotGym_FloorGrass, 0
+	setmetatile 21,  7, METATILE_CastleTownTotGym_FloorGrass, 0
+	return
+
+CastleTownTot_Gym_EventScript_CountTrainersDefeated::
+	setvar VAR_0x8000, 0
+	goto_if_not_defeated TRAINER_PRESTON, CastleTownTot_Gym_EventScript_CheckVirgil
+	addvar VAR_0x8000, 1
+CastleTownTot_Gym_EventScript_CheckVirgil::
+	goto_if_not_defeated TRAINER_VIRGIL, CastleTownTot_Gym_EventScript_CheckBlake
+	addvar VAR_0x8000, 1
+CastleTownTot_Gym_EventScript_CheckBlake::
+	goto_if_not_defeated TRAINER_BLAKE, CastleTownTot_Gym_EventScript_CheckHannah
+	addvar VAR_0x8000, 1
+CastleTownTot_Gym_EventScript_CheckHannah::
+	goto_if_not_defeated TRAINER_HANNAH, CastleTownTot_Gym_EventScript_CheckSamantha
+	addvar VAR_0x8000, 1
+CastleTownTot_Gym_EventScript_CheckSamantha::
+	goto_if_not_defeated TRAINER_SAMANTHA, CastleTownTot_Gym_EventScript_CheckMaura
+	addvar VAR_0x8000, 1
+CastleTownTot_Gym_EventScript_CheckMaura::
+	goto_if_not_defeated TRAINER_MAURA, CastleTownTot_Gym_EventScript_CheckNate
+	addvar VAR_0x8000, 1
+CastleTownTot_Gym_EventScript_CheckNate::
+	goto_if_not_defeated TRAINER_NATE, CastleTownTot_Gym_EventScript_StopCountingTrainers
+	addvar VAR_0x8000, 1
+CastleTownTot_Gym_EventScript_StopCountingTrainers::
+	return
+
 CastleTownTot_Gym_EventScript_Preston::
 	trainerbattle_single TRAINER_PRESTON, CastleTownTot_Gym_Text_PrestonIntro, CastleTownTot_Gym_Text_PrestonDefeat
 	msgbox CastleTownTot_Gym_Text_PrestonPostBattle, MSGBOX_AUTOCLOSE
@@ -132,26 +179,48 @@ CastleTownTot_Gym_EventScript_Tate_SevenBadge::
 	end
 
 CastleTownTot_Gym_EventScript_TateDefeated::
+	message CastleTownSabre_Gym_Text_ReceivedWyrmBadge
+	waitmessage
+	call Common_EventScript_PlayGymBadgeFanfare
+	msgbox CastleTownSabre_Gym_Text_WyrmBadgeInfoTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_MOSSDEEP_GYM
 	setflag FLAG_BADGE07_GET
 	call Common_EventScript_UpdateBadgesCollected
+	setvar VAR_0x8008, 15
+	call Common_EventScript_SetGymTrainers
+	call CastleTownTot_Gym_EventScript_GiveDazzlingGleam
+	closemessage
+	delay 30
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox CastleTownTot_Gym_Text_RegisteredTot, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
 	release
 	end
 
+CastleTownTot_Gym_EventScript_GiveDazzlingGleam::
+	giveitem ITEM_TM_DRAGON_CLAW
+	goto_if_eq VAR_RESULT, 0, Common_EventScript_BagIsFull
+	msgbox CastleTownTot_Gym_Text_ExplainDazzlingGleam, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM_DRAGON_CLAW
+	return
+
 CastleTownTot_Gym_Text_GymGuideAdvice:
-	.string "Yo, how's it going, CHAMPION-\n"
-	.string "bound {PLAYER}?\p"
-	.string "FORTREE GYM LEADER WINONA is\n"
-	.string "a master of FLYING-type POKéMON.\p"
-	.string "She's waiting at the back of this GYM,\n"
-	.string "behind the rotating doors.\p"
-	.string "She's waiting for new challengers\n"
-	.string "who are trying to take wing!\p"
-	.string "Okay, go for it!$"
+	.string "Welcome to camp, CHAMPION-\n"
+	.string "bound {PLAYER}!\p"
+	.string "MODERATOR TOT is a master of\n"
+	.string "FAIRY-type POKéMON. You'll want to use\p" 
+	.string "STEEL or POISON POKéMON to get the drop\n"
+	.string "on them. Be warned though, DRAGON-types won't\p"
+	.string "be able to damage them! She's waiting at\p"
+	.string "the back of this GYM. To get to her,\l"
+	.string "you'll need to find all of the campers\n"
+	.string "hiding in the area in front of us."
+	.string "Ready or not, you better get going!$"
 
 CastleTownTot_Gym_Text_GymGuidePostVictory:
-	.string "You did it!\n"
-	.string "You've achieved liftoff!$"
+	.string "You did it! Those fairies\n"
+	.string "didn't stand a chance!$"
 
 CastleTownTot_Gym_Text_GymStatue:
 	.string "CASTLE TOWN TOT POKéMON GYM$"
@@ -268,3 +337,31 @@ CastleTownTot_Gym_Text_Intro:
 
 CastleTownTot_Gym_Text_PostBattle:
 	.string "Good job!$"
+
+CastleTownTot_Gym_Text_ReceivedPixieBadge:
+	.string "{PLAYER} received the PIXIE BADGE\n"
+	.string "from Tot.$"
+
+CastleTownTot_Gym_Text_PixieBadgeInfoTakeThis:
+	.string "The PIXIE BADGE signifies that\n"
+	.string "a trainer has bested me, Tot,\l"
+	.string "in battle. For claiming a new badge\p"
+	.string "you are entitled to new\n"
+	.string "benefits in the Guild Hall.\p"
+	.string "If you'd like, use this TECHNICAL\n"
+	.string "MACHINE, too.$"
+
+CastleTownTot_Gym_Text_ExplainDazzlingGleam:
+	.string "TM-98 contains Dazzling Gleam!\n"
+	.string "It's a super strong special FAIRY-type\p"
+	.string "move. It's a good reminder that pretty\n"
+	.string "things can still pack a punch!\p"
+	.string "… … … … … …$"
+
+CastleTownTot_Gym_Text_RegisteredTot:
+	.string "Registered Moderator Tot\n"
+	.string "in the POKéNAV.$"
+
+CastleTownTot_Gym_Text_TotPostBattle:
+	.string "I made this Gym as a reminder of\n"
+	.string "of where we met!$"

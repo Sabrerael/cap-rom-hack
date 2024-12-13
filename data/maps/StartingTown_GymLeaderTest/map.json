@@ -3,7 +3,7 @@
   "name": "StartingTown_GymLeaderTest",
   "layout": "LAYOUT_STARTING_TOWN_GYM_LEADER_TEST",
   "music": "MUS_GYM",
-  "region_map_section": "MAPSEC_STARTING_TOWN",
+  "region_map_section": "MAPSEC_GUILD_COMMONS",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",

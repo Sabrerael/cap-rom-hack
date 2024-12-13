@@ -219,3 +219,6 @@ const u16 gMetatileAttributes_CastleTownTrebleGym[] = INCBIN_U16("data/tilesets/
 
 const u16 gMetatiles_CastleTownTmoneyGym[] = INCBIN_U16("data/tilesets/secondary/castle_town_tmoney_gym/metatiles.bin");
 const u16 gMetatileAttributes_CastleTownTmoneyGym[] = INCBIN_U16("data/tilesets/secondary/castle_town_tmoney_gym/metatile_attributes.bin");
+
+const u16 gMetatiles_CastleTownTotGym[] = INCBIN_U16("data/tilesets/secondary/castle_town_tot_gym/metatiles.bin");
+const u16 gMetatileAttributes_CastleTownTotGym[] = INCBIN_U16("data/tilesets/secondary/castle_town_tot_gym/metatile_attributes.bin");

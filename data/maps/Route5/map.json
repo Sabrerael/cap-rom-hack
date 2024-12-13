@@ -15,12 +15,12 @@
   "connections": [
     {
       "map": "MAP_MIDDLE_TOWN_NORTH",
-      "offset": -2,
+      "offset": 6,
       "direction": "right"
     },
     {
       "map": "MAP_CASTLE_TOWN_TREBLE",
-      "offset": -8,
+      "offset": 4,
       "direction": "left"
     }
   ],

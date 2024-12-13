@@ -3,7 +3,7 @@
   "name": "StartingTown_RyansHouse_2F",
   "layout": "LAYOUT_STARTING_TOWN_RYANS_HOUSE_2F",
   "music": "MUS_LITTLEROOT",
-  "region_map_section": "MAPSEC_STARTING_TOWN",
+  "region_map_section": "MAPSEC_GUILD_COMMONS",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
