@@ -9,9 +9,13 @@ Common_EventScript_SetGymTrainers::
 	case 7, MossdeepCity_Gym_SetGymTrainers
 	case 8, SootopolisCity_Gym_SetGymTrainers
 	case 9, CastleTownBlindJim_Gym_SetGymTrainers
+	case 10, CastleTownAndy_Gym_SetGymTrainers
+	case 11, CastleTownHermes_Gym_SetGymTrainers
 	case 12, CastleTownSabre_Gym_SetGymTrainers
+	case 13, CastleTownSalsa_Gym_SetGymTrainers
+	case 14, CastleTownTMoney_Gym_SetGymTrainers
 	case 15, CastleTownTot_Gym_SetGymTrainers
-	case 
+	case 16, CastleTownTreble_Gym_SetGymTrainers
 	end
 
 RustboroCity_Gym_SetGymTrainers::

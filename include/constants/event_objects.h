@@ -251,7 +251,7 @@
 #define OBJ_EVENT_GFX_TREBLE                     247
 #define OBJ_EVENT_GFX_TMONEY                     248
 #define OBJ_EVENT_GFX_PHEBBLE                    249
-#define OBJ_EVENT_GFX_RYAN                       250
+#define OBJ_EVENT_GFX_RYAN_NORMAL                250
 
 // NOTE: The maximum amount of object events has been expanded from 255 to 65535.
 // Since dynamic graphics ids still require at least 16 free values, the actual limit
@@ -384,6 +384,8 @@
 #define OBJ_EVENT_PAL_TAG_RS_BRENDAN              0x1122
 #define OBJ_EVENT_PAL_TAG_RS_MAY                  0x1123
 #define OBJ_EVENT_PAL_TAG_DYNAMIC                 0x1124
+#define OBJ_EVENT_PAL_TAG_RYAN                    0x1125
+#define OBJ_EVENT_PAL_TAG_RYAN_REFLECTION         0x1126
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla
