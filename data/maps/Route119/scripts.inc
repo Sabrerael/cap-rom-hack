@@ -120,7 +120,7 @@ Route119_EventScript_BattleBrendanTorchic::
 	end
 
 Route119_EventScript_BattleBrendanMudkip::
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_119_MUDKIP, Route119_Text_BrendanDefeat
+	trainerbattle_no_intro TRAINER_PHEBBLE_4, Route119_Text_BrendanDefeat
 	goto Route119_EventScript_DefeatedBrendan
 	end
 

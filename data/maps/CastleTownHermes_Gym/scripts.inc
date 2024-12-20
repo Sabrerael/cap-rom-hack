@@ -84,59 +84,79 @@ CastleTownHermes_Gym_EventScript_Norman::
 	end
 
 CastleTownHermes_Gym_EventScript_Norman_ZeroBadge::
-	trainerbattle_single TRAINER_NORMAN_1, CastleTownHermes_Gym_Text_Intro, CastleTownHermes_Gym_Text_PostBattle, CastleTownHermes_Gym_EventScript_NormanDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_HERMES_1, CastleTownHermes_Gym_Text_Intro, CastleTownHermes_Gym_Text_PostBattle, CastleTownHermes_Gym_EventScript_NormanDefeated, NO_MUSIC
 	msgbox CastleTownHermes_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownHermes_Gym_EventScript_Norman_OneBadge::
-	trainerbattle_single TRAINER_NORMAN_2, CastleTownHermes_Gym_Text_Intro, CastleTownHermes_Gym_Text_PostBattle, CastleTownHermes_Gym_EventScript_NormanDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_HERMES_2, CastleTownHermes_Gym_Text_Intro, CastleTownHermes_Gym_Text_PostBattle, CastleTownHermes_Gym_EventScript_NormanDefeated, NO_MUSIC
 	msgbox CastleTownHermes_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownHermes_Gym_EventScript_Norman_TwoBadge::
-	trainerbattle_single TRAINER_NORMAN_3, CastleTownHermes_Gym_Text_Intro, CastleTownHermes_Gym_Text_PostBattle, CastleTownHermes_Gym_EventScript_NormanDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_HERMES_3, CastleTownHermes_Gym_Text_Intro, CastleTownHermes_Gym_Text_PostBattle, CastleTownHermes_Gym_EventScript_NormanDefeated, NO_MUSIC
 	msgbox CastleTownHermes_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownHermes_Gym_EventScript_Norman_ThreeBadge::
-	trainerbattle_single TRAINER_NORMAN_4, CastleTownHermes_Gym_Text_Intro, CastleTownHermes_Gym_Text_PostBattle, CastleTownHermes_Gym_EventScript_NormanDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_HERMES_4, CastleTownHermes_Gym_Text_Intro, CastleTownHermes_Gym_Text_PostBattle, CastleTownHermes_Gym_EventScript_NormanDefeated, NO_MUSIC
 	msgbox CastleTownHermes_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownHermes_Gym_EventScript_Norman_FourBadge::
-	trainerbattle_single TRAINER_NORMAN_5, CastleTownHermes_Gym_Text_Intro, CastleTownHermes_Gym_Text_PostBattle, CastleTownHermes_Gym_EventScript_NormanDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_HERMES_5, CastleTownHermes_Gym_Text_Intro, CastleTownHermes_Gym_Text_PostBattle, CastleTownHermes_Gym_EventScript_NormanDefeated, NO_MUSIC
 	msgbox CastleTownHermes_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownHermes_Gym_EventScript_Norman_FiveBadge::
-	trainerbattle_single TRAINER_NORMAN_6, CastleTownHermes_Gym_Text_Intro, CastleTownHermes_Gym_Text_PostBattle, CastleTownHermes_Gym_EventScript_NormanDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_HERMES_6, CastleTownHermes_Gym_Text_Intro, CastleTownHermes_Gym_Text_PostBattle, CastleTownHermes_Gym_EventScript_NormanDefeated, NO_MUSIC
 	msgbox CastleTownHermes_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownHermes_Gym_EventScript_Norman_SixBadge::
-	trainerbattle_single TRAINER_NORMAN_7, CastleTownHermes_Gym_Text_Intro, CastleTownHermes_Gym_Text_PostBattle, CastleTownHermes_Gym_EventScript_NormanDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_HERMES_7, CastleTownHermes_Gym_Text_Intro, CastleTownHermes_Gym_Text_PostBattle, CastleTownHermes_Gym_EventScript_NormanDefeated, NO_MUSIC
 	msgbox CastleTownHermes_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownHermes_Gym_EventScript_Norman_SevenBadge::
-	trainerbattle_single TRAINER_NORMAN_8, CastleTownHermes_Gym_Text_Intro, CastleTownHermes_Gym_Text_PostBattle, CastleTownHermes_Gym_EventScript_NormanDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_HERMES_8, CastleTownHermes_Gym_Text_Intro, CastleTownHermes_Gym_Text_PostBattle, CastleTownHermes_Gym_EventScript_NormanDefeated, NO_MUSIC
 	msgbox CastleTownHermes_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownHermes_Gym_EventScript_NormanDefeated::
+	message CastleTownHermes_Gym_Text_ReceivedMachinaBadge
+	waitmessage
+	call Common_EventScript_PlayGymBadgeFanfare
+	msgbox CastleTownHermes_Gym_Text_MachinaBadgeInfoTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_PETALBURG_GYM
 	setflag FLAG_BADGE05_GET
 	call Common_EventScript_UpdateBadgesCollected
+	setvar VAR_0x8008, 11
+	call Common_EventScript_SetGymTrainers
+	call CastleTownHermes_Gym_EventScript_GiveFlashCannon
+	closemessage
+	delay 30
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox CastleTownHermes_Gym_Text_RegisteredHermes, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
 	release
 	end
+
+CastleTownHermes_Gym_EventScript_GiveFlashCannon::
+	giveitem ITEM_TM_FLASH_CANNON
+	goto_if_eq VAR_RESULT, 0, Common_EventScript_BagIsFull
+	msgbox CastleTownHermes_Gym_Text_ExplainFlashCannon, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM_FLASH_CANNON
+	return
 
 CastleTownHermes_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going, CHAMPION-\n"
@@ -285,3 +305,30 @@ CastleTownHermes_Gym_Text_Intro:
 
 CastleTownHermes_Gym_Text_PostBattle:
 	.string "You beat me!$"
+
+CastleTownHermes_Gym_Text_ReceivedMachinaBadge:
+	.string "{PLAYER} received the MACHINA BADGE\n"
+	.string "from Hermes.$"
+
+CastleTownHermes_Gym_Text_MachinaBadgeInfoTakeThis:
+	.string "The MACHINA BADGE signifies that\n"
+	.string "a trainer has bested me, Hermes,\l"
+	.string "in battle. For claiming a new badge\p"
+	.string "you are entitled to new\n"
+	.string "benefits in the Guild Hall.\p"
+	.string "If you'd like, use this TECHNICAL\n"
+	.string "MACHINE, too.$"
+
+CastleTownHermes_Gym_Text_ExplainFlashCannon:
+	.string "TM-90 contains Flash Cannon.\p"
+	.string "It's a powerful STEEL-type move\n"
+	.string "that lots of Pokémon can learn.\p"
+	.string "… … … … … …$"
+
+CastleTownHermes_Gym_Text_RegisteredHermes:
+	.string "Registered Moderator Hermes\n"
+	.string "in the POKéNAV.$"
+
+CastleTownHermes_Gym_Text_HermesPostBattle:
+	.string "Here's to many more years of Chaos\n"
+	.string "and Crazy antics! Love ya brotha!$"

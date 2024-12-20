@@ -183,13 +183,13 @@
 #define FLAG_CUTE_PAINTING_MADE              0xA2
 #define FLAG_SMART_PAINTING_MADE             0xA3
 #define FLAG_TOUGH_PAINTING_MADE             0xA4
-#define FLAG_RECEIVED_TM_ROCK_TOMB           0xA5
-#define FLAG_RECEIVED_TM_BULK_UP             0xA6
-#define FLAG_RECEIVED_TM_SHOCK_WAVE          0xA7
-#define FLAG_RECEIVED_TM_OVERHEAT            0xA8
-#define FLAG_RECEIVED_TM_FACADE              0xA9
-#define FLAG_RECEIVED_TM_AERIAL_ACE          0xAA
-#define FLAG_RECEIVED_TM_CALM_MIND           0xAB
+#define FLAG_RECEIVED_TM_AERIAL_ACE          0xA5
+#define FLAG_RECEIVED_TM_OVERHEAT            0xA6
+#define FLAG_RECEIVED_TM_ENERGY_BALL         0xA7
+#define FLAG_RECEIVED_TM_VOLT_SWITCH         0xA8
+#define FLAG_RECEIVED_TM_DARK_PULSE          0xA9
+#define FLAG_RECEIVED_TM_FLASH_CANNON        0xAA
+#define FLAG_RECEIVED_TM_DAZZLING_GLEAM      0xAB
 #define FLAG_RECEIVED_TM_DRAGON_CLAW         0xAC
 #define FLAG_HIDE_SECRET_BASE_TRAINER        0xAD
 #define FLAG_DECORATION_1                    0xAE
@@ -870,7 +870,7 @@
 #define FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA                          0x337
 #define FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD                          0x338
 #define FLAG_HIDE_STARTING_TOWN_PHEBBLE                             0x339
-#define FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE                            0x33A
+#define FLAG_HIDE_PHEBBLE_BATTLE_2                                  0x33A
 #define FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE                             0x33B
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE                     0x33C
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE                      0x33D
@@ -1238,9 +1238,9 @@
 #define FLAG_UNUSED_0x4A4                                           0x4A4 // Unused Flag
 #define FLAG_UNUSED_0x4A5                                           0x4A5 // Unused Flag
 #define FLAG_UNUSED_0x4A6                                           0x4A6 // Unused Flag
-#define FLAG_UNUSED_0x4A7                                           0x4A7 // Unused Flag
-#define FLAG_UNUSED_0x4A8                                           0x4A8 // Unused Flag
-#define FLAG_UNUSED_0x4A9                                           0x4A9 // Unused Flag
+#define FLAG_ITEM_ROUTE_7_NUGGET                                    0x4A7
+#define FLAG_ITEM_ROUTE_7_TM_SMACK_DOWN                             0x4A8
+#define FLAG_ITEM_ROUTE_7_ELIXIR                                    0x4A9
 #define FLAG_UNUSED_0x4AA                                           0x4AA // Unused Flag
 #define FLAG_UNUSED_0x4AB                                           0x4AB // Unused Flag
 #define FLAG_UNUSED_0x4AC                                           0x4AC // Unused Flag

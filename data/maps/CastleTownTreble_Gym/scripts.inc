@@ -84,59 +84,79 @@ CastleTownTreble_Gym_EventScript_Wattson::
 	end
 
 CastleTownTreble_Gym_EventScript_Wattson_ZeroBadge::
-	trainerbattle_single TRAINER_WATTSON_1, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TREBLE_1, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
 	msgbox CastleTownTreble_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTreble_Gym_EventScript_Wattson_OneBadge::
-	trainerbattle_single TRAINER_WATTSON_2, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TREBLE_2, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
 	msgbox CastleTownTreble_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTreble_Gym_EventScript_Wattson_TwoBadge::
-	trainerbattle_single TRAINER_WATTSON_3, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TREBLE_3, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
 	msgbox CastleTownTreble_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTreble_Gym_EventScript_Wattson_ThreeBadge::
-	trainerbattle_single TRAINER_WATTSON_4, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TREBLE_4, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
 	msgbox CastleTownTreble_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTreble_Gym_EventScript_Wattson_FourBadge::
-	trainerbattle_single TRAINER_WATTSON_5, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TREBLE_5, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
 	msgbox CastleTownTreble_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTreble_Gym_EventScript_Wattson_FiveBadge::
-	trainerbattle_single TRAINER_WATTSON_6, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TREBLE_6, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
 	msgbox CastleTownTreble_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTreble_Gym_EventScript_Wattson_SixBadge::
-	trainerbattle_single TRAINER_WATTSON_7, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TREBLE_7, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
 	msgbox CastleTownTreble_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTreble_Gym_EventScript_Wattson_SevenBadge::
-	trainerbattle_single TRAINER_WATTSON_8, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TREBLE_8, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
 	msgbox CastleTownTreble_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTreble_Gym_EventScript_WattsonDefeated::
+	message CastleTownTreble_Gym_Text_ReceivedFloralBadge
+	waitmessage
+	call Common_EventScript_PlayGymBadgeFanfare
+	msgbox CastleTownTreble_Gym_Text_FloralBadgeInfoTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_MAUVILLE_GYM
 	setflag FLAG_BADGE03_GET
 	call Common_EventScript_UpdateBadgesCollected
+	setvar VAR_0x8008, 16
+	call Common_EventScript_SetGymTrainers
+	call CastleTownTreble_Gym_EventScript_GiveEnergyBall
+	closemessage
+	delay 30
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox CastleTownTreble_Gym_Text_RegisteredTreble, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
 	release
 	end
+
+CastleTownTreble_Gym_EventScript_GiveEnergyBall::
+	giveitem ITEM_TM_ENERGY_BALL
+	goto_if_eq VAR_RESULT, 0, Common_EventScript_BagIsFull
+	msgbox CastleTownTreble_Gym_Text_ExplainEnergyBall, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM_ENERGY_BALL
+	return
 
 CastleTownTreble_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going, CHAMPION-\n"
@@ -250,3 +270,31 @@ CastleTownTreble_Gym_Text_Intro:
 
 CastleTownTreble_Gym_Text_PostBattle:
 	.string "Good job!$"
+
+CastleTownTreble_Gym_Text_ReceivedFloralBadge:
+	.string "{PLAYER} received the FLORAL BADGE\n"
+	.string "from Treble.$"
+
+CastleTownTreble_Gym_Text_FloralBadgeInfoTakeThis:
+	.string "The FLORAL BADGE signifies that\n"
+	.string "a trainer has bested me, Tot,\l"
+	.string "in battle. For claiming a new badge\p"
+	.string "you are entitled to new\n"
+	.string "benefits in the Guild Hall.\p"
+	.string "If you'd like, use this TECHNICAL\n"
+	.string "MACHINE, too.$"
+
+CastleTownTreble_Gym_Text_ExplainEnergyBall:
+	.string "TM-53 contains Energy Ball!\n"
+	.string "It's a super strong special GRASS-type\p"
+	.string "move. It's a good reminder that pretty\n"
+	.string "things can still pack a punch!\p"
+	.string "… … … … … …$"
+
+CastleTownTreble_Gym_Text_RegisteredTreble:
+	.string "Registered Moderator Treble\n"
+	.string "in the POKéNAV.$"
+
+CastleTownTreble_Gym_Text_TreblePostBattle:
+	.string "I made this Gym as a reminder of\n"
+	.string "of where we met!$"

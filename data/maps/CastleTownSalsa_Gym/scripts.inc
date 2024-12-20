@@ -36,7 +36,6 @@ CastleTownSalsa_Gym_EventScript_GymStatue::
 	releaseall
 	end
 
-
 CastleTownSalsa_Gym_EventScript_Cole::
 	trainerbattle_single TRAINER_COLE, CastleTownSalsa_Gym_Text_ColeIntro, CastleTownSalsa_Gym_Text_ColeDefeat
 	msgbox CastleTownSalsa_Gym_Text_ColePostBattle, MSGBOX_AUTOCLOSE
@@ -85,59 +84,79 @@ CastleTownSalsa_Gym_EventScript_Flannery::
 	end
 
 CastleTownSalsa_Gym_EventScript_Flannery_ZeroBadge::
-	trainerbattle_single TRAINER_FLANNERY_1, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_SALSA_1, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
 	msgbox CastleTownSalsa_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownSalsa_Gym_EventScript_Flannery_OneBadge::
-	trainerbattle_single TRAINER_FLANNERY_2, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_SALSA_2, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
 	msgbox CastleTownSalsa_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownSalsa_Gym_EventScript_Flannery_TwoBadge::
-	trainerbattle_single TRAINER_FLANNERY_3, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_SALSA_3, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
 	msgbox CastleTownSalsa_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownSalsa_Gym_EventScript_Flannery_ThreeBadge::
-	trainerbattle_single TRAINER_FLANNERY_4, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_SALSA_4, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
 	msgbox CastleTownSalsa_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownSalsa_Gym_EventScript_Flannery_FourBadge::
-	trainerbattle_single TRAINER_FLANNERY_5, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_SALSA_5, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
 	msgbox CastleTownSalsa_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownSalsa_Gym_EventScript_Flannery_FiveBadge::
-	trainerbattle_single TRAINER_FLANNERY_6, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_SALSA_6, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
 	msgbox CastleTownSalsa_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownSalsa_Gym_EventScript_Flannery_SixBadge::
-	trainerbattle_single TRAINER_FLANNERY_7, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_SALSA_7, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
 	msgbox CastleTownSalsa_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownSalsa_Gym_EventScript_Flannery_SevenBadge::
-	trainerbattle_single TRAINER_FLANNERY_8, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_SALSA_8, CastleTownSalsa_Gym_Text_Intro, CastleTownSalsa_Gym_Text_PostBattle, CastleTownSalsa_Gym_EventScript_FlanneryDefeated, NO_MUSIC
 	msgbox CastleTownSalsa_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownSalsa_Gym_EventScript_FlanneryDefeated::
+	message CastleTownSalsa_Gym_Text_ReceivedPepperBadge
+	waitmessage
+	call Common_EventScript_PlayGymBadgeFanfare
+	msgbox CastleTownSalsa_Gym_Text_PepperBadgeInfoTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_LAVARIDGE_GYM
 	setflag FLAG_BADGE04_GET
 	call Common_EventScript_UpdateBadgesCollected
+	setvar VAR_0x8008, 13
+	call Common_EventScript_SetGymTrainers
+	call CastleTownSalsa_Gym_EventScript_GiveOverheat
+	closemessage
+	delay 30
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox CastleTownSalsa_Gym_Text_RegisteredSalsa, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
 	release
 	end
+
+CastleTownSalsa_Gym_EventScript_GiveOverheat::
+	giveitem ITEM_TM_OVERHEAT
+	goto_if_eq VAR_RESULT, 0, Common_EventScript_BagIsFull
+	msgbox CastleTownSalsa_Gym_Text_ExplainOverheat, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM_OVERHEAT
+	return
 
 CastleTownSalsa_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going, CHAMPION-\n"
@@ -258,3 +277,31 @@ CastleTownSalsa_Gym_Text_Intro:
 
 CastleTownSalsa_Gym_Text_PostBattle:
 	.string "Good job!$"
+
+CastleTownSalsa_Gym_Text_ReceivedPepperBadge:
+	.string "{PLAYER} received the PEPPER BADGE\n"
+	.string "from Salsa.$"
+
+CastleTownSalsa_Gym_Text_PepperBadgeInfoTakeThis:
+	.string "The PEPPER BADGE signifies that\n"
+	.string "a trainer has bested me, Salsa,\l"
+	.string "in battle. For claiming a new badge\p"
+	.string "you are entitled to new\n"
+	.string "benefits in the Guild Hall.\p"
+	.string "If you'd like, use this TECHNICAL\n"
+	.string "MACHINE, too.$"
+
+CastleTownSalsa_Gym_Text_ExplainOverheat:
+	.string "TM-50 contains Overheat.\p"
+	.string "It's a powerful FIRE-type move\n"
+	.string "that lots of Pokémon can learn.\p"
+	.string "… … … … … …$"
+
+CastleTownSalsa_Gym_Text_RegisteredSalsa:
+	.string "Registered Moderator Salsa\n"
+	.string "in the POKéNAV.$"
+
+CastleTownSalsa_Gym_Text_SalsaPostBattle:
+	.string "We both have come so far since we met\n"
+	.string "all those years ago. I look forward\l"
+	.string "to seeing how far you go!$"

@@ -84,59 +84,79 @@ CastleTownTMoney_Gym_EventScript_Winona::
 	end
 
 CastleTownTMoney_Gym_EventScript_Winona_ZeroBadge::
-	trainerbattle_single TRAINER_WINONA_1, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TMONEY_1, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
 	msgbox CastleTownTMoney_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTMoney_Gym_EventScript_Winona_OneBadge::
-	trainerbattle_single TRAINER_WINONA_2, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TMONEY_2, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
 	msgbox CastleTownTMoney_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTMoney_Gym_EventScript_Winona_TwoBadge::
-	trainerbattle_single TRAINER_WINONA_3, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TMONEY_3, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
 	msgbox CastleTownTMoney_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTMoney_Gym_EventScript_Winona_ThreeBadge::
-	trainerbattle_single TRAINER_WINONA_4, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TMONEY_4, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
 	msgbox CastleTownTMoney_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTMoney_Gym_EventScript_Winona_FourBadge::
-	trainerbattle_single TRAINER_WINONA_5, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TMONEY_5, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
 	msgbox CastleTownTMoney_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTMoney_Gym_EventScript_Winona_FiveBadge::
-	trainerbattle_single TRAINER_WINONA_6, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TMONEY_6, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
 	msgbox CastleTownTMoney_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTMoney_Gym_EventScript_Winona_SixBadge::
-	trainerbattle_single TRAINER_WINONA_7, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TMONEY_7, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
 	msgbox CastleTownTMoney_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTMoney_Gym_EventScript_Winona_SevenBadge::
-	trainerbattle_single TRAINER_WINONA_8, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TMONEY_8, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
 	msgbox CastleTownTMoney_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTMoney_Gym_EventScript_WinonaDefeated::
+	message CastleTownTMoney_Gym_Text_ReceivedCapCoinBadge
+	waitmessage
+	call Common_EventScript_PlayGymBadgeFanfare
+	msgbox CastleTownTMoney_Gym_Text_CapCoinBadgeInfoTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_FORTREE_GYM
 	setflag FLAG_BADGE06_GET
 	call Common_EventScript_UpdateBadgesCollected
+	setvar VAR_0x8008, 14
+	call Common_EventScript_SetGymTrainers
+	call CastleTownTMoney_Gym_EventScript_GiveVoltSwitch
+	closemessage
+	delay 30
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox CastleTownTMoney_Gym_Text_RegisteredTMoney, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
 	release
 	end
+
+CastleTownTMoney_Gym_EventScript_GiveVoltSwitch::
+	giveitem ITEM_TM_VOLT_SWITCH
+	goto_if_eq VAR_RESULT, 0, Common_EventScript_BagIsFull
+	msgbox CastleTownTMoney_Gym_Text_ExplainVoltSwitch, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM_VOLT_SWITCH
+	return
 
 CastleTownTMoney_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going, CHAMPION-\n"
@@ -261,4 +281,35 @@ CastleTownTMoney_Gym_Text_Intro:
 	.string "Let's battle!$"
 
 CastleTownTMoney_Gym_Text_PostBattle:
-	.string "Good job!$"
+	.string "You thought you won… but one last test!\p"
+	.string "!duel TMoney {PLAYER} all Cap Coins\p"
+	.string "TMoney has lost the duel!\n"
+	.string "{PLAYER} now has 1 Cap Coin."
+
+CastleTownTMoney_Gym_Text_ReceivedCapCoinBadge:
+	.string "{PLAYER} received the CAP COIN BADGE\n"
+	.string "from TMoney.$"
+
+CastleTownTMoney_Gym_Text_CapCoinBadgeInfoTakeThis:
+	.string "The CAP COIN BADGE signifies that\n"
+	.string "a trainer has bested me, TMoney,\l"
+	.string "in battle. For claiming a new badge\p"
+	.string "you are entitled to new\n"
+	.string "benefits in the Guild Hall.\p"
+	.string "If you'd like, use this TECHNICAL\n"
+	.string "MACHINE, too.$"
+
+CastleTownTMoney_Gym_Text_ExplainVoltSwitch:
+	.string "TM-71 contains Volt Switch.\p"
+	.string "It's a powerful ELECTRIC-type move\n"
+	.string "that lots of Pokémon can learn.\p"
+	.string "… … … … … …$"
+
+CastleTownTMoney_Gym_Text_RegisteredTMoney:
+	.string "Registered Moderator TMoney\n"
+	.string "in the POKéNAV.$"
+
+CastleTownTMoney_Gym_Text_TMoneyPostBattle:
+	.string "We both have come so far since we met\n"
+	.string "all those years ago. I look forward\l"
+	.string "to seeing how far you go!$"

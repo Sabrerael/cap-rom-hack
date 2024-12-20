@@ -6,6 +6,6 @@ CastleTownBlindJim_EventScript_GymSign::
 	end
 
 CastleTownBlindJim_Text_GymSign:
-	.string "CASTLE TOWN BLINDJIM POKéMON GYM\n"
+	.string "YAMIKO VILLAGE POKéMON GYM\n"
 	.string "LEADER: BLINDJIM\p"
 	.string "“This sign is also in braile!”$"

@@ -6,7 +6,7 @@ CastleTownTot_PokemonCenter_1F_MapScripts::
 	.byte 0
 
 CastleTownTot_PokemonCenter_1F_OnTransition:
-	setrespawn HEAL_LOCATION_CASTLE_TOWN_TREBLE
+	setrespawn HEAL_LOCATION_CASTLE_TOWN_TOT
 	end
 
 CastleTownTot_PokemonCenter_1F_EventScript_Nurse::

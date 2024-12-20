@@ -984,7 +984,7 @@ CastleTownSabre_Gym_Text_ReceivedWyrmBadge:
 
 CastleTownSabre_Gym_Text_WyrmBadgeInfoTakeThis:
 	.string "The WYRM BADGE signifies that\n"
-	.string "a trainer has bested me, Saber,\l"
+	.string "a trainer has bested me, Sabre,\l"
 	.string "in battle. For claiming a new badge\p"
 	.string "you are entitled to new\n"
 	.string "benefits in the Guild Hall.\p"

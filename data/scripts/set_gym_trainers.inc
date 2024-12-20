@@ -110,23 +110,23 @@ CastleTownBlindJim_Gym_SetGymTrainers::
 	return
 
 CastleTownAndy_Gym_SetGymTrainers::
-	settrainerflag TRAINER_TAKAO
-	settrainerflag TRAINER_JOCELYN
-	settrainerflag TRAINER_LAURA
-	settrainerflag TRAINER_BRENDEN
-	settrainerflag TRAINER_CRISTIAN
-	settrainerflag TRAINER_LILITH
-	settrainerflag TRAINER_ELI
+	settrainerflag TRAINER_TOMMY
+	settrainerflag TRAINER_MARC
+	settrainerflag TRAINER_MACEY
+	settrainerflag TRAINER_CLIFFORD
+	settrainerflag TRAINER_KATHLEEN
+	settrainerflag TRAINER_SYLVIA
+	settrainerflag TRAINER_JOSH
 	return
 
 CastleTownHermes_Gym_SetGymTrainers::
-	settrainerflag TRAINER_TAKAO
-	settrainerflag TRAINER_JOCELYN
-	settrainerflag TRAINER_LAURA
-	settrainerflag TRAINER_BRENDEN
-	settrainerflag TRAINER_CRISTIAN
-	settrainerflag TRAINER_LILITH
-	settrainerflag TRAINER_ELI
+	settrainerflag TRAINER_ALEXIA
+	settrainerflag TRAINER_PARKER
+	settrainerflag TRAINER_MARY
+	settrainerflag TRAINER_RANDALL
+	settrainerflag TRAINER_JODY
+	settrainerflag TRAINER_GEORGE
+	settrainerflag TRAINER_BERKE
 	return
 
 CastleTownSabre_Gym_SetGymTrainers::
@@ -140,23 +140,23 @@ CastleTownSabre_Gym_SetGymTrainers::
 	return
 
 CastleTownSalsa_Gym_SetGymTrainers::
-	settrainerflag TRAINER_TAKAO
-	settrainerflag TRAINER_JOCELYN
-	settrainerflag TRAINER_LAURA
-	settrainerflag TRAINER_BRENDEN
-	settrainerflag TRAINER_CRISTIAN
-	settrainerflag TRAINER_LILITH
-	settrainerflag TRAINER_ELI
+	settrainerflag TRAINER_JACE
+	settrainerflag TRAINER_AXLE
+	settrainerflag TRAINER_GERALD
+	settrainerflag TRAINER_KEEGAN
+	settrainerflag TRAINER_DANIELLE
+	settrainerflag TRAINER_JEFF
+	settrainerflag TRAINER_COLE
 	return
 
 CastleTownTMoney_Gym_SetGymTrainers::
-	settrainerflag TRAINER_TAKAO
-	settrainerflag TRAINER_JOCELYN
-	settrainerflag TRAINER_LAURA
-	settrainerflag TRAINER_BRENDEN
-	settrainerflag TRAINER_CRISTIAN
-	settrainerflag TRAINER_LILITH
-	settrainerflag TRAINER_ELI
+	settrainerflag TRAINER_JARED
+	settrainerflag TRAINER_CRISSY
+	settrainerflag TRAINER_HUMBERTO
+	settrainerflag TRAINER_FLINT
+	settrainerflag TRAINER_DARIUS
+	settrainerflag TRAINER_EDWARDO
+	settrainerflag TRAINER_ASHLEY
 	return
 
 CastleTownTot_Gym_SetGymTrainers::
@@ -170,11 +170,11 @@ CastleTownTot_Gym_SetGymTrainers::
 	return
 
 CastleTownTreble_Gym_SetGymTrainers::
-	settrainerflag TRAINER_TAKAO
-	settrainerflag TRAINER_JOCELYN
-	settrainerflag TRAINER_LAURA
-	settrainerflag TRAINER_BRENDEN
-	settrainerflag TRAINER_CRISTIAN
-	settrainerflag TRAINER_LILITH
-	settrainerflag TRAINER_ELI
+	settrainerflag TRAINER_ANGELO
+	settrainerflag TRAINER_BEN
+	settrainerflag TRAINER_BETHANY
+	settrainerflag TRAINER_NICHOLAS
+	settrainerflag TRAINER_KIRK
+	settrainerflag TRAINER_SHAWN
+	settrainerflag TRAINER_VIVIAN
 	return

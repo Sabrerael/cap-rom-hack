@@ -2,7 +2,7 @@ Route15_MapScripts::
 	.byte 0
 
 Route15_EventScript_OnlyJack::
-	trainerbattle_single TRAINER_GRUNT_AQUA_HIDEOUT_1, Route15_Text_OnlyJackIntro, Route15_Text_OnlyJackDefeat
+	trainerbattle_single TRAINER_ITSONLYJACK, Route15_Text_OnlyJackIntro, Route15_Text_OnlyJackDefeat
 	msgbox Route15_Text_OnlyJackPostBattle, MSGBOX_AUTOCLOSE
 	end
 

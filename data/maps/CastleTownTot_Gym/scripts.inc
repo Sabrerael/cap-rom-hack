@@ -131,58 +131,58 @@ CastleTownTot_Gym_EventScript_Tate::
 	end
 
 CastleTownTot_Gym_EventScript_Tate_ZeroBadge::
-	trainerbattle_single TRAINER_TATE_AND_LIZA_1, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TOT_1, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
 	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTot_Gym_EventScript_Tate_OneBadge::
-	trainerbattle_single TRAINER_TATE_AND_LIZA_2, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TOT_2, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
 	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTot_Gym_EventScript_Tate_TwoBadge::
-	trainerbattle_single TRAINER_TATE_AND_LIZA_3, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TOT_3, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
 	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTot_Gym_EventScript_Tate_ThreeBadge::
-	trainerbattle_single TRAINER_TATE_AND_LIZA_4, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TOT_4, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
 	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTot_Gym_EventScript_Tate_FourBadge::
-	trainerbattle_single TRAINER_TATE_AND_LIZA_5, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TOT_5, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
 	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTot_Gym_EventScript_Tate_FiveBadge::
-	trainerbattle_single TRAINER_TATE_AND_LIZA_6, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TOT_6, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
 	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTot_Gym_EventScript_Tate_SixBadge::
-	trainerbattle_single TRAINER_TATE_AND_LIZA_7, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TOT_7, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
 	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTot_Gym_EventScript_Tate_SevenBadge::
-	trainerbattle_single TRAINER_TATE_AND_LIZA_8, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TOT_8, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
 	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTot_Gym_EventScript_TateDefeated::
-	message CastleTownSabre_Gym_Text_ReceivedWyrmBadge
+	message CastleTownTot_Gym_Text_ReceivedPixieBadge
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
-	msgbox CastleTownSabre_Gym_Text_WyrmBadgeInfoTakeThis, MSGBOX_DEFAULT
+	msgbox CastleTownTot_Gym_Text_PixieBadgeInfoTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_MOSSDEEP_GYM
 	setflag FLAG_BADGE07_GET
 	call Common_EventScript_UpdateBadgesCollected
@@ -199,10 +199,10 @@ CastleTownTot_Gym_EventScript_TateDefeated::
 	end
 
 CastleTownTot_Gym_EventScript_GiveDazzlingGleam::
-	giveitem ITEM_TM_DRAGON_CLAW
+	giveitem ITEM_TM_DAZZLING_GLEAM
 	goto_if_eq VAR_RESULT, 0, Common_EventScript_BagIsFull
 	msgbox CastleTownTot_Gym_Text_ExplainDazzlingGleam, MSGBOX_DEFAULT
-	setflag FLAG_RECEIVED_TM_DRAGON_CLAW
+	setflag FLAG_RECEIVED_TM_DAZZLING_GLEAM
 	return
 
 CastleTownTot_Gym_Text_GymGuideAdvice:
@@ -352,7 +352,7 @@ CastleTownTot_Gym_Text_PixieBadgeInfoTakeThis:
 	.string "MACHINE, too.$"
 
 CastleTownTot_Gym_Text_ExplainDazzlingGleam:
-	.string "TM-98 contains Dazzling Gleam!\n"
+	.string "TM-97 contains Dazzling Gleam!\n"
 	.string "It's a super strong special FAIRY-type\p"
 	.string "move. It's a good reminder that pretty\n"
 	.string "things can still pack a punch!\p"
