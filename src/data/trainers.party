@@ -82,11 +82,11 @@ Music: Male
 Double Battle: No
 
 === TRAINER_DARK_PSYSTORM ===
-Name: PsyStorm
+Name: PSYSTORM
 Class: Viewer
 Pic: Cooltrainer M
 Gender: Male
-Music: Male
+Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
@@ -103,11 +103,11 @@ Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_ITSONLYJACK ===
-Name: OnlyJack
+Name: ONLYJACK
 Class: Viewer
 Pic: Cooltrainer M
 Gender: Male
-Music: Male
+Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
@@ -128,11 +128,11 @@ Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_DA_DADDY_DEATH ===
-Name: DaddyDeath
+Name: DADDYDEATH
 Class: Viewer
 Pic: Cooltrainer M
 Gender: Male
-Music: Male
+Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
@@ -152,31 +152,51 @@ Shiftry
 Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-=== TRAINER_GRUNT_AQUA_HIDEOUT_3 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+=== TRAINER_GHOSTLY ===
+Name: GHOSTLY
+Class: Viewer
+Pic: Cooltrainer M
 Gender: Male
-Music: Aqua
+Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lampent
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_GRUNT_AQUA_HIDEOUT_4 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
+Golurk
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Houndstone
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_GILDEDROSE ===
+Name: GILDEDROSE
+Class: Viewer
+Pic: Cooltrainer F
+Gender: Female
+Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Skitty
+Level Modifier: 3
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Rapidash
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Zebstrika
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Roserade
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_1 ===
 Name: GRUNT

@@ -7,8 +7,8 @@
 #define TRAINER_DARK_PSYSTORM                 1
 #define TRAINER_ITSONLYJACK          2
 #define TRAINER_DA_DADDY_DEATH          3
-#define TRAINER_GRUNT_AQUA_HIDEOUT_3          4
-#define TRAINER_GRUNT_AQUA_HIDEOUT_4          5
+#define TRAINER_GHOSTLY          4
+#define TRAINER_GILDEDROSE          5
 #define TRAINER_GRUNT_SEAFLOOR_CAVERN_1       6
 #define TRAINER_GRUNT_SEAFLOOR_CAVERN_2       7
 #define TRAINER_GRUNT_SEAFLOOR_CAVERN_3       8

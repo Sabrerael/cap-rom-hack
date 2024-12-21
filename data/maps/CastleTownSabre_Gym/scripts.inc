@@ -7,7 +7,11 @@
 .set LOCALID_BRIDGET, 8
 
 CastleTownSabre_Gym_MapScripts::
+    map_script MAP_SCRIPT_ON_TRANSITION, CastleTownSabre_Gym_OnTransition
 	.byte 0
+
+CastleTownSabre_Gym_OnTransition:
+	end
 
 CastleTownSabre_Gym_EventScript_GymGuide::
 	lock

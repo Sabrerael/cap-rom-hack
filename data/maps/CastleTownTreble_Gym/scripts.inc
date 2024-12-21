@@ -1,5 +1,10 @@
 CastleTownTreble_Gym_MapScripts::
+    map_script MAP_SCRIPT_ON_TRANSITION, CastleTownTreble_Gym_OnTransition
 	.byte 0
+
+CastleTownTreble_Gym_OnTransition:
+	call CastleTownTreble_Gym_EventScript_CheckTrees
+	end
 
 CastleTownTreble_Gym_EventScript_GymGuide::
 	lock
@@ -36,6 +41,193 @@ CastleTownTreble_Gym_EventScript_GymStatue::
 	releaseall
 	end
 
+CastleTownTreble_Gym_EventScript_CheckTrees::
+	goto_if_set FLAG_BADGE03_GET, CastleTownTreble_Gym_EventScript_RemoveAllTrees
+	goto_if_set FLAG_TREBLE_GYM_TREES_4, CastleTownTreble_Gym_EventScript_RemoveAllTrees
+	goto_if_set FLAG_TREBLE_GYM_TREES_3, CastleTownTreble_Gym_EventScript_RemoveAllTrees3
+	goto_if_set FLAG_TREBLE_GYM_TREES_2, CastleTownTreble_Gym_EventScript_RemoveAllTrees2
+	goto_if_set FLAG_TREBLE_GYM_TREES_1, CastleTownTreble_Gym_EventScript_RemoveTrees1
+	end
+
+CastleTownTreble_Gym_EventScript_RemoveAllTrees::
+	call CastleTownTreble_Gym_EventScript_RemoveTrees1
+	call CastleTownTreble_Gym_EventScript_RemoveTrees2
+	call CastleTownTreble_Gym_EventScript_RemoveTrees3
+	call CastleTownTreble_Gym_EventScript_RemoveTrees4
+	end
+
+CastleTownTreble_Gym_EventScript_RemoveAllTrees3::
+	call CastleTownTreble_Gym_EventScript_RemoveTrees1
+	call CastleTownTreble_Gym_EventScript_RemoveTrees2
+	call CastleTownTreble_Gym_EventScript_RemoveTrees3
+	end
+
+CastleTownTreble_Gym_EventScript_RemoveAllTrees2::
+	call CastleTownTreble_Gym_EventScript_RemoveTrees1
+	call CastleTownTreble_Gym_EventScript_RemoveTrees2
+	end
+
+CastleTownTreble_Gym_EventScript_CheckBerryFullyGrown::
+	buffernumberstring STR_VAR_2, VAR_0x8006
+	faceplayer
+	special ObjectEventInteractionGetBerryCountString
+	msgbox BerryTree_Text_WantToPick, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, CastleTownTreble_Gym_EventScript_PickBerry
+	goto_if_eq VAR_RESULT, NO, CastleTownTreble_Gym_EventScript_CancelPickingBerry
+
+.set BERRY_NORMAL_BAG_FULL, 0
+.set BERRY_NORMAL_SPACE_IN_BAG, 1
+.set BERRY_MUTATION_BAG_FULL, 2
+.set BERRY_MUTATION_SPACE_IN_BAG, 3
+
+CastleTownTreble_Gym_EventScript_PickBerry::
+	special ObjectEventInteractionPickBerryTree
+	goto_if_eq VAR_0x8004, BERRY_NORMAL_BAG_FULL, CastleTownTreble_Gym_EventScript_BerryPocketFull
+	special IncrementDailyPickedBerries
+	special ObjectEventInteractionRemoveBerryTree
+	message BerryTree_Text_PickedTheBerry
+	playfanfare MUS_OBTAIN_BERRY
+	waitmessage
+	waitfanfare
+	waitbuttonpress
+	message BerryTree_Text_PutAwayBerry
+	waitmessage
+	waitbuttonpress
+	return
+
+CastleTownTreble_Gym_EventScript_BerryPocketFull::
+	message BerryTree_Text_BerryPocketFull
+	waitmessage
+	waitbuttonpress
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_CancelPickingBerry::
+	message BerryTree_Text_BerryLeftUnpicked
+	waitmessage
+	waitbuttonpress
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_RemoveTrees1::
+	setmetatile 18,  44, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 18,  45, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 18,  46, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 19,  44, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 19,  45, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 19,  46, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 20,  44, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 20,  45, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 20,  46, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 21,  44, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 21,  45, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 21,  46, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	return
+
+CastleTownTreble_Gym_EventScript_RemoveTrees2::
+	setmetatile 18,  28, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 18,  29, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 18,  30, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 19,  28, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 19,  29, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 19,  30, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 20,  28, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 20,  29, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 20,  30, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 21,  28, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 21,  29, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 21,  30, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	return
+
+CastleTownTreble_Gym_EventScript_RemoveTrees3::
+	setmetatile 18,  16, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 18,  17, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 18,  18, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 19,  16, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 19,  17, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 19,  18, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 20,  16, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 20,  17, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 20,  18, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 21,  16, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 21,  17, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 21,  18, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	return
+
+CastleTownTreble_Gym_EventScript_RemoveTrees4::
+	setmetatile 18,  8, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 18,  9, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 18,  10, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 19,  8, METATILE_CastleTownTrebleGym_FloorFlowers, 0
+	setmetatile 19,  9, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 19,  10, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 20,  8, METATILE_CastleTownTrebleGym_FloorFlowers, 0
+	setmetatile 20,  9, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 20,  10, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 21,  8, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 21,  9, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	setmetatile 21,  10, METATILE_CastleTownTrebleGym_FloorGrass, 0
+	return
+
+CastleTownTreble_Gym_EventScript_DoorAlreadyOpen::
+	releaseall
+	end
+
+CastleTownTreble_Gym_EventScript_GymSign1::
+	msgbox CastleTownTreble_Gym_Text_SignOne, MSGBOX_SIGN
+	end
+
+CastleTownTreble_Gym_EventScript_BerryQuiz1Correct::
+	lock
+    call CastleTownTreble_Gym_EventScript_CheckBerryFullyGrown
+	message CastleTownTreble_Gym_Text_CorrectBerry
+	waitmessage
+	waitbuttonpress
+	call CastleTownTreble_Gym_EventScript_BerryQuiz1Complete
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_BerryQuiz1Wrong::
+	lock
+    call CastleTownTreble_Gym_EventScript_CheckBerryFullyGrown
+	message CastleTownTreble_Gym_Text_IncorrectBerry
+	waitmessage
+	waitbuttonpress
+	goto_if_not_defeated TRAINER_VIVIAN, CastleTownTreble_Gym_EventScript_BattleVivian
+	releaseall
+	end
+
+CastleTownTreble_Gym_EventScript_BerryQuiz1Complete::
+	playse SE_UNLOCK
+	waitse
+	call CastleTownTreble_Gym_EventScript_RemoveTrees1
+	special DrawWholeMapView
+	setflag FLAG_TREBLE_GYM_TREES_1
+	return
+
+CastleTownTreble_Gym_EventScript_BattleVivian::
+	call CastleTownTreble_Gym_EventScript_VivianApproach
+	msgbox CastleTownTreble_Gym_Text_VivianIntro
+	trainerbattle_no_intro TRAINER_VIVIAN, CastleTownTreble_Gym_Text_VivianDefeat
+	goto_if_set FLAG_TREBLE_GYM_TREES_1, CastleTownTreble_Gym_EventScript_DoorAlreadyOpen
+	call CastleTownTreble_Gym_EventScript_BerryQuiz1Complete
+	releaseall
+	end
+
+CastleTownTreble_Gym_EventScript_Vivian::
+	trainerbattle_single TRAINER_VIVIAN, CastleTownTreble_Gym_Text_VivianIntro, CastleTownTreble_Gym_Text_VivianDefeat, CastleTownTreble_Gym_EventScript_DefeatedVivian
+	msgbox CastleTownTreble_Gym_Text_VivianPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+CastleTownTreble_Gym_EventScript_DefeatedVivian::
+	call_if_unset FLAG_TREBLE_GYM_TREES_1, CastleTownTreble_Gym_EventScript_BerryQuiz1CompleteTrainer
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_BerryQuiz1CompleteTrainer::
+    call CastleTownTreble_Gym_EventScript_BerryQuiz1Complete
+	return
+
 CastleTownTreble_Gym_EventScript_Kirk::
 	trainerbattle_single TRAINER_KIRK, CastleTownTreble_Gym_Text_KirkIntro, CastleTownTreble_Gym_Text_KirkDefeat
 	msgbox CastleTownTreble_Gym_Text_KirkPostBattle, MSGBOX_AUTOCLOSE
@@ -51,10 +243,7 @@ CastleTownTreble_Gym_EventScript_Ben::
 	msgbox CastleTownTreble_Gym_Text_BenPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-CastleTownTreble_Gym_EventScript_Vivian::
-	trainerbattle_single TRAINER_VIVIAN, CastleTownTreble_Gym_Text_VivianIntro, CastleTownTreble_Gym_Text_VivianDefeat
-	msgbox CastleTownTreble_Gym_Text_VivianPostBattle, MSGBOX_AUTOCLOSE
-	end
+
 
 CastleTownTreble_Gym_EventScript_Angelo::
 	trainerbattle_single TRAINER_ANGELO, CastleTownTreble_Gym_Text_AngeloIntro, CastleTownTreble_Gym_Text_AngeloDefeat
@@ -180,6 +369,28 @@ CastleTownTreble_Gym_Text_GymStatueCertified:
 	.string "CASTLE TOWN TREBLE POKéMON GYM\p"
 	.string "TREBLE'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
+
+CastleTownTreble_Gym_Text_CorrectBerry:
+	.string "That's the correct berry!$"
+
+CastleTownTreble_Gym_Text_IncorrectBerry:
+	.string "Ooh, wrong berry!$"
+
+CastleTownTreble_Gym_Text_SignOne:
+	.string "Pick the berry that removes\n"
+	.string "poison from a Pokémon.$"
+
+CastleTownTreble_Gym_Text_SignTwo:
+	.string "My electric soul, it'll shatter your\n"
+	.string "dreams whole, whoa-yeahah!$"
+
+CastleTownTreble_Gym_Text_SignThree:
+	.string "My electric soul, it'll shatter your\n"
+	.string "dreams whole, whoa-yeahah!$"
+
+CastleTownTreble_Gym_Text_SignFour:
+	.string "My electric soul, it'll shatter your\n"
+	.string "dreams whole, whoa-yeahah!$"
 
 CastleTownTreble_Gym_Text_KirkIntro:
 	.string "My electric soul, it'll shatter your\n"

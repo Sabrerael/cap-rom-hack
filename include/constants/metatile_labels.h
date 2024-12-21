@@ -135,6 +135,10 @@
 #define METATILE_CastleTownTotGym_LONG_GRASS_ROOT  0x23A
 #define METATILE_CastleTownTotGym_TALL_GRASS       0x236
 
+// gTileset_CastleTownTrebleGym
+#define METATILE_CastleTownTrebleGym_FloorFlowers  0x201
+#define METATILE_CastleTownTrebleGym_FloorGrass    0x202
+
 // gTileset_Cave
 #define METATILE_Cave_CrackedFloor                       0x22F
 #define METATILE_Cave_CrackedFloor_Hole                  0x206

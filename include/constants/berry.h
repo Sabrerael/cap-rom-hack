@@ -137,6 +137,8 @@
 #define BERRY_TREE_ROUTE_1_PECHA      91
 #define BERRY_TREE_ROUTE_2_ORAN       92
 #define BERRY_TREE_ROUTE_2_CHERI      93
+#define BERRY_TREE_TREBLE_GYM_PECHA   94
+#define BERRY_TREE_TREBLE_GYM_CHERI   95
 
 // Remainder are unused
 
