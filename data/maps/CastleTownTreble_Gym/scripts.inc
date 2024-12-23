@@ -1,3 +1,8 @@
+.set LOCALID_BEN, 3
+.set LOCALID_NICHOLAS, 5
+.set LOCALID_KIRK, 6
+.set LOCALID_VIVIAN, 8
+
 CastleTownTreble_Gym_MapScripts::
     map_script MAP_SCRIPT_ON_TRANSITION, CastleTownTreble_Gym_OnTransition
 	.byte 0
@@ -214,10 +219,15 @@ CastleTownTreble_Gym_EventScript_BattleVivian::
 	releaseall
 	end
 
-CastleTownTreble_Gym_EventScript_Vivian::
-	trainerbattle_single TRAINER_VIVIAN, CastleTownTreble_Gym_Text_VivianIntro, CastleTownTreble_Gym_Text_VivianDefeat, CastleTownTreble_Gym_EventScript_DefeatedVivian
-	msgbox CastleTownTreble_Gym_Text_VivianPostBattle, MSGBOX_AUTOCLOSE
-	end
+CastleTownTreble_Gym_EventScript_VivianApproach::
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_VIVIAN, CastleTownTreble_Gym_Movement_VivianApproach
+	waitmovement 0
+	return
+
+CastleTownTreble_Gym_Movement_VivianApproach::
+	walk_left
+	step_end
 
 CastleTownTreble_Gym_EventScript_DefeatedVivian::
 	call_if_unset FLAG_TREBLE_GYM_TREES_1, CastleTownTreble_Gym_EventScript_BerryQuiz1CompleteTrainer
@@ -228,9 +238,210 @@ CastleTownTreble_Gym_EventScript_BerryQuiz1CompleteTrainer::
     call CastleTownTreble_Gym_EventScript_BerryQuiz1Complete
 	return
 
+CastleTownTreble_Gym_EventScript_Vivian::
+	trainerbattle_single TRAINER_VIVIAN, CastleTownTreble_Gym_Text_VivianIntro, CastleTownTreble_Gym_Text_VivianDefeat, CastleTownTreble_Gym_EventScript_DefeatedVivian
+	msgbox CastleTownTreble_Gym_Text_VivianPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+CastleTownTreble_Gym_EventScript_GymSign2::
+	msgbox CastleTownTreble_Gym_Text_SignTwo, MSGBOX_SIGN
+	end
+
+CastleTownTreble_Gym_EventScript_BerryQuiz2Correct::
+	lock
+    call CastleTownTreble_Gym_EventScript_CheckBerryFullyGrown
+	message CastleTownTreble_Gym_Text_CorrectBerry
+	waitmessage
+	waitbuttonpress
+	call CastleTownTreble_Gym_EventScript_BerryQuiz2Complete
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_BerryQuiz2Wrong::
+	lock
+    call CastleTownTreble_Gym_EventScript_CheckBerryFullyGrown
+	message CastleTownTreble_Gym_Text_IncorrectBerry
+	waitmessage
+	waitbuttonpress
+	goto_if_not_defeated TRAINER_NICHOLAS, CastleTownTreble_Gym_EventScript_BattleNicholas
+	releaseall
+	end
+
+CastleTownTreble_Gym_EventScript_BerryQuiz2Complete::
+	playse SE_UNLOCK
+	waitse
+	call CastleTownTreble_Gym_EventScript_RemoveTrees2
+	special DrawWholeMapView
+	setflag FLAG_TREBLE_GYM_TREES_2
+	return
+
+CastleTownTreble_Gym_EventScript_BattleNicholas::
+	call CastleTownTreble_Gym_EventScript_NicholasApproach
+	msgbox CastleTownTreble_Gym_Text_NicholasIntro
+	trainerbattle_no_intro TRAINER_NICHOLAS, CastleTownTreble_Gym_Text_NicholasDefeat
+	goto_if_set FLAG_TREBLE_GYM_TREES_2, CastleTownTreble_Gym_EventScript_DoorAlreadyOpen
+	call CastleTownTreble_Gym_EventScript_BerryQuiz2Complete
+	releaseall
+	end
+
+CastleTownTreble_Gym_EventScript_NicholasApproach::
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_NICHOLAS, CastleTownTreble_Gym_Movement_NicholasApproach
+	waitmovement 0
+	return
+
+CastleTownTreble_Gym_Movement_NicholasApproach::
+	walk_right
+	walk_right
+	walk_right
+	step_end
+
+CastleTownTreble_Gym_EventScript_DefeatedNicholas::
+	call_if_unset FLAG_TREBLE_GYM_TREES_2, CastleTownTreble_Gym_EventScript_BerryQuiz2CompleteTrainer
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_BerryQuiz2CompleteTrainer::
+    call CastleTownTreble_Gym_EventScript_BerryQuiz2Complete
+	return
+
+CastleTownTreble_Gym_EventScript_Nicholas::
+	trainerbattle_single TRAINER_NICHOLAS, CastleTownTreble_Gym_Text_NicholasIntro, CastleTownTreble_Gym_Text_NicholasDefeat, CastleTownTreble_Gym_EventScript_DefeatedNicholas
+	msgbox CastleTownTreble_Gym_Text_NicholasPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+CastleTownTreble_Gym_EventScript_GymSign3::
+	msgbox CastleTownTreble_Gym_Text_SignThree, MSGBOX_SIGN
+	end
+
+CastleTownTreble_Gym_EventScript_BerryQuiz3Correct::
+	lock
+    call CastleTownTreble_Gym_EventScript_CheckBerryFullyGrown
+	message CastleTownTreble_Gym_Text_CorrectBerry
+	waitmessage
+	waitbuttonpress
+	call CastleTownTreble_Gym_EventScript_BerryQuiz3Complete
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_BerryQuiz3Wrong::
+	lock
+    call CastleTownTreble_Gym_EventScript_CheckBerryFullyGrown
+	message CastleTownTreble_Gym_Text_IncorrectBerry
+	waitmessage
+	waitbuttonpress
+	goto_if_not_defeated TRAINER_KIRK, CastleTownTreble_Gym_EventScript_BattleKirk
+	releaseall
+	end
+
+CastleTownTreble_Gym_EventScript_BerryQuiz3Complete::
+	playse SE_UNLOCK
+	waitse
+	call CastleTownTreble_Gym_EventScript_RemoveTrees3
+	special DrawWholeMapView
+	setflag FLAG_TREBLE_GYM_TREES_3
+	return
+
+CastleTownTreble_Gym_EventScript_BattleKirk::
+	call CastleTownTreble_Gym_EventScript_KirkApproach
+	msgbox CastleTownTreble_Gym_Text_KirkIntro
+	trainerbattle_no_intro TRAINER_KIRK, CastleTownTreble_Gym_Text_KirkDefeat
+	goto_if_set FLAG_TREBLE_GYM_TREES_3, CastleTownTreble_Gym_EventScript_DoorAlreadyOpen
+	call CastleTownTreble_Gym_EventScript_BerryQuiz3Complete
+	releaseall
+	end
+
+CastleTownTreble_Gym_EventScript_KirkApproach::
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_KIRK, CastleTownTreble_Gym_Movement_Kirk
+	waitmovement 0
+	return
+
+CastleTownTreble_Gym_Movement_KirkApproach::
+	walk_left
+	walk_left
+	walk_left
+	step_end
+
+CastleTownTreble_Gym_EventScript_DefeatedKirk::
+	call_if_unset FLAG_TREBLE_GYM_TREES_3, CastleTownTreble_Gym_EventScript_BerryQuiz3CompleteTrainer
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_BerryQuiz3CompleteTrainer::
+    call CastleTownTreble_Gym_EventScript_BerryQuiz3Complete
+	return
+
 CastleTownTreble_Gym_EventScript_Kirk::
-	trainerbattle_single TRAINER_KIRK, CastleTownTreble_Gym_Text_KirkIntro, CastleTownTreble_Gym_Text_KirkDefeat
+	trainerbattle_single TRAINER_KIRK, CastleTownTreble_Gym_Text_KirkIntro, CastleTownTreble_Gym_Text_KirkDefeat, CastleTownTreble_Gym_EventScript_DefeatedKirk
 	msgbox CastleTownTreble_Gym_Text_KirkPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+CastleTownTreble_Gym_EventScript_GymSign4::
+	msgbox CastleTownTreble_Gym_Text_SignFour, MSGBOX_SIGN
+	end
+
+CastleTownTreble_Gym_EventScript_BerryQuiz4Correct::
+	lock
+    call CastleTownTreble_Gym_EventScript_CheckBerryFullyGrown
+	message CastleTownTreble_Gym_Text_CorrectBerry
+	waitmessage
+	waitbuttonpress
+	call CastleTownTreble_Gym_EventScript_BerryQuiz4Complete
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_BerryQuiz4Wrong::
+	lock
+    call CastleTownTreble_Gym_EventScript_CheckBerryFullyGrown
+	message CastleTownTreble_Gym_Text_IncorrectBerry
+	waitmessage
+	waitbuttonpress
+	goto_if_not_defeated TRAINER_BEN, CastleTownTreble_Gym_EventScript_BattleBen
+	releaseall
+	end
+
+CastleTownTreble_Gym_EventScript_BerryQuiz4Complete::
+	playse SE_UNLOCK
+	waitse
+	call CastleTownTreble_Gym_EventScript_RemoveTrees4
+	special DrawWholeMapView
+	setflag FLAG_TREBLE_GYM_TREES_4
+	return
+
+CastleTownTreble_Gym_EventScript_BattleBen::
+	call CastleTownTreble_Gym_EventScript_BenApproach
+	msgbox CastleTownTreble_Gym_Text_BenIntro
+	trainerbattle_no_intro TRAINER_BEN, CastleTownTreble_Gym_Text_BenDefeat
+	goto_if_set FLAG_TREBLE_GYM_TREES_4, CastleTownTreble_Gym_EventScript_DoorAlreadyOpen
+	call CastleTownTreble_Gym_EventScript_BerryQuiz4Complete
+	releaseall
+	end
+
+CastleTownTreble_Gym_EventScript_BenApproach::
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_BEN, CastleTownTreble_Gym_Movement_Ben
+	waitmovement 0
+	return
+
+CastleTownTreble_Gym_Movement_BenApproach::
+	walk_right
+	walk_right
+	walk_right
+	step_end
+
+CastleTownTreble_Gym_EventScript_DefeatedBen::
+	call_if_unset FLAG_TREBLE_GYM_TREES_4, CastleTownTreble_Gym_EventScript_BerryQuiz4CompleteTrainer
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_BerryQuiz4CompleteTrainer::
+    call CastleTownTreble_Gym_EventScript_BerryQuiz4Complete
+	return
+
+CastleTownTreble_Gym_EventScript_Ben::
+	trainerbattle_single TRAINER_BEN, CastleTownTreble_Gym_Text_BenIntro, CastleTownTreble_Gym_Text_BenDefeat, CastleTownTreble_Gym_EventScript_DefeatedBen
+	msgbox CastleTownTreble_Gym_Text_BenPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 CastleTownTreble_Gym_EventScript_Shawn::
@@ -238,21 +449,9 @@ CastleTownTreble_Gym_EventScript_Shawn::
 	msgbox CastleTownTreble_Gym_Text_ShawnPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-CastleTownTreble_Gym_EventScript_Ben::
-	trainerbattle_single TRAINER_BEN, CastleTownTreble_Gym_Text_BenIntro, CastleTownTreble_Gym_Text_BenDefeat
-	msgbox CastleTownTreble_Gym_Text_BenPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
 CastleTownTreble_Gym_EventScript_Angelo::
 	trainerbattle_single TRAINER_ANGELO, CastleTownTreble_Gym_Text_AngeloIntro, CastleTownTreble_Gym_Text_AngeloDefeat
 	msgbox CastleTownTreble_Gym_Text_AngeloPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-CastleTownTreble_Gym_EventScript_Nicholas::
-	trainerbattle_single TRAINER_NICHOLAS, CastleTownTreble_Gym_Text_NicholasIntro, CastleTownTreble_Gym_Text_NicholasDefeat
-	msgbox CastleTownTreble_Gym_Text_NicholasPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 CastleTownTreble_Gym_EventScript_Bethany::
@@ -381,16 +580,16 @@ CastleTownTreble_Gym_Text_SignOne:
 	.string "poison from a Pokémon.$"
 
 CastleTownTreble_Gym_Text_SignTwo:
-	.string "My electric soul, it'll shatter your\n"
-	.string "dreams whole, whoa-yeahah!$"
+	.string "Pick the berry that heals\n"
+	.string "any status aliment.$"
 
 CastleTownTreble_Gym_Text_SignThree:
-	.string "My electric soul, it'll shatter your\n"
-	.string "dreams whole, whoa-yeahah!$"
+	.string "Pick the berry that raises\n"
+	.string "Attack in a pinch.$"
 
 CastleTownTreble_Gym_Text_SignFour:
-	.string "My electric soul, it'll shatter your\n"
-	.string "dreams whole, whoa-yeahah!$"
+	.string "Pick the berry that will weaken\n"
+	.string "a Super Effective GRASS move.$"
 
 CastleTownTreble_Gym_Text_KirkIntro:
 	.string "My electric soul, it'll shatter your\n"
