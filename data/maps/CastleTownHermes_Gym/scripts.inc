@@ -174,10 +174,10 @@ CastleTownHermes_Gym_Text_GymGuidePostVictory:
 	.string "You've achieved liftoff!$"
 
 CastleTownHermes_Gym_Text_GymStatue:
-	.string "CASTLE TOWN HERMES POKéMON GYM$"
+	.string "MERCURY'S CROSSING POKéMON GYM$"
 
 CastleTownHermes_Gym_Text_GymStatueCertified:
-	.string "CASTLE TOWN HERMES POKéMON GYM\p"
+	.string "MERCURY'S CROSSING POKéMON GYM\p"
 	.string "HERMES'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 

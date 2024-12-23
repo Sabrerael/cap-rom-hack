@@ -322,10 +322,10 @@ CastleTownBlindJim_Gym_Text_EliPostBattle:
 	.string "Hehehehe.$"
 
 CastleTownBlindJim_Gym_Text_GymStatue:
-	.string "CASTLE TOWN BLINDJIM POKéMON GYM$"
+	.string "YAMIKO VILLAGE POKéMON GYM$"
 
 CastleTownBlindJim_Gym_Text_GymStatueCertified:
-	.string "CASTLE TOWN BLINDJIM POKéMON GYM\p"
+	.string "YAMIKO VILLAGE POKéMON GYM\p"
 	.string "BLINDJIM'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 

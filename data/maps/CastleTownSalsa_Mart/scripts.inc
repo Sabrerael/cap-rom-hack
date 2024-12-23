@@ -172,6 +172,7 @@ CastleTownSalsa_Mart_Pokemart_SpecialClerk:
 	.2byte ITEM_OVAL_STONE
 	.2byte ITEM_SWEET_APPLE
 	.2byte ITEM_TART_APPLE
+	.2byte ITEM_SYRUPY_APPLE
 	.2byte ITEM_CRACKED_POT
 	.2byte ITEM_CHIPPED_POT
 	.2byte ITEM_NONE

@@ -6,6 +6,6 @@ CastleTownSabre_EventScript_GymSign::
 	end
 
 CastleTownSabre_Text_GymSign:
-	.string "CASTLE TOWN SABRE POKéMON GYM\n"
+	.string "SCALEPEAK CITY POKéMON GYM\n"
 	.string "LEADER: SABRE\p"
 	.string "“The constantly tired DRAGON tamer!”$"

@@ -11862,7 +11862,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DODUO"
+                "species": "SPECIES_GRUBBIN"
               },
               {
                 "min_level": 5,
@@ -11872,22 +11872,22 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ZORUA"
+                "species": "SPECIES_PETILIL"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_PSYDUCK"
+                "species": "SPECIES_VULPIX"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MUNNA"
+                "species": "SPECIES_DEWPIDER"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NICKIT"
+                "species": "SPECIES_SMOLIV"
               },
               {
                 "min_level": 5,
@@ -11902,7 +11902,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_PSYDUCK"
+                "species": "SPECIES_VULPIX"
               },
               {
                 "min_level": 5,
@@ -11912,7 +11912,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DODUO"
+                "species": "SPECIES_GRUBBIN"
               },
               {
                 "min_level": 5,
@@ -12002,7 +12002,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_TRUBBISH"
+                "species": "SPECIES_CRAWDAUNT"
               }
             ]
           }

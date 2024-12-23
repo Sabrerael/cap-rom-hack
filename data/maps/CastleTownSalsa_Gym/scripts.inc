@@ -161,23 +161,23 @@ CastleTownSalsa_Gym_EventScript_GiveOverheat::
 CastleTownSalsa_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
-	.string "FORTREE GYM LEADER WINONA is\n"
-	.string "a master of FLYING-type POKéMON.\p"
-	.string "She's waiting at the back of this GYM,\n"
-	.string "behind the rotating doors.\p"
-	.string "She's waiting for new challengers\n"
-	.string "who are trying to take wing!\p"
+	.string "MODERATOR SALSA is a fan of FIRE_type\n"
+	.string "POKéMON. Must be because of his spicy\p"
+	.string "namesake. Apparently, he is wanting\n"
+	.string "to make some salsa so you'll have\p"
+	.string "to collect the ingredients for his\n"
+	.string "snack to be able to fight him.\p"
 	.string "Okay, go for it!$"
 
 CastleTownSalsa_Gym_Text_GymGuidePostVictory:
-	.string "You did it!\n"
-	.string "You've achieved liftoff!$"
+	.string "Congratulations!\n"
+	.string "That was a spicy battle!$"
 
 CastleTownSalsa_Gym_Text_GymStatue:
-	.string "CASTLE TOWN SALSA POKéMON GYM$"
+	.string "PUERTO DEL SALSA POKéMON GYM$"
 
 CastleTownSalsa_Gym_Text_GymStatueCertified:
-	.string "CASTLE TOWN SALSA POKéMON GYM\p"
+	.string "PUERTO DEL SALSA POKéMON GYM\p"
 	.string "SALSA'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
@@ -273,10 +273,14 @@ CastleTownSalsa_Gym_Text_JeffPostBattle:
 	.string "…Don't even think about trying it!$"
 
 CastleTownSalsa_Gym_Text_Intro:
-	.string "Let's battle!$"
+	.string "Sup bro, thanks for getting me\n"
+	.string "the stuff for my salsa. I was\p"
+	.string "getting hungry. Alright, let's\n"
+	.string "do this thing!$"
 
 CastleTownSalsa_Gym_Text_PostBattle:
-	.string "Good job!$"
+	.string "Hoo, that was a smoking hot\n"
+	.string "battle! Nearly burned me up!$"
 
 CastleTownSalsa_Gym_Text_ReceivedPepperBadge:
 	.string "{PLAYER} received the PEPPER BADGE\n"

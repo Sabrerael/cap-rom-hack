@@ -353,7 +353,7 @@ CastleTownTreble_Gym_EventScript_BattleKirk::
 
 CastleTownTreble_Gym_EventScript_KirkApproach::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
-	applymovement LOCALID_KIRK, CastleTownTreble_Gym_Movement_Kirk
+	applymovement LOCALID_KIRK, CastleTownTreble_Gym_Movement_KirkApproach
 	waitmovement 0
 	return
 
@@ -420,7 +420,7 @@ CastleTownTreble_Gym_EventScript_BattleBen::
 
 CastleTownTreble_Gym_EventScript_BenApproach::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
-	applymovement LOCALID_BEN, CastleTownTreble_Gym_Movement_Ben
+	applymovement LOCALID_BEN, CastleTownTreble_Gym_Movement_BenApproach
 	waitmovement 0
 	return
 
@@ -549,23 +549,25 @@ CastleTownTreble_Gym_EventScript_GiveEnergyBall::
 CastleTownTreble_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
-	.string "FORTREE GYM LEADER WINONA is\n"
-	.string "a master of FLYING-type POKéMON.\p"
-	.string "She's waiting at the back of this GYM,\n"
-	.string "behind the rotating doors.\p"
-	.string "She's waiting for new challengers\n"
-	.string "who are trying to take wing!\p"
-	.string "Okay, go for it!$"
+	.string "CAMPANULA CITY MODERATOR TREBLE\n"
+	.string "loves taking care of her GRASS-type\p"
+	.string "POKéMON. She's also been tending various\n"
+	.string "berry trees. To reach her, you'll have\p"
+	.string "read the signs near the berry patches\n"
+	.string "and pick the correct berry. If you\p"
+	.string "If you select the wrong one, you'll\n"
+	.string "have to fight a trainer.\p"
+	.string "Hope you know your plants!$"
 
 CastleTownTreble_Gym_Text_GymGuidePostVictory:
-	.string "You did it!\n"
-	.string "You've achieved liftoff!$"
+	.string "Look at you! You've got\n"
+	.string "quite a green thumb!$"
 
 CastleTownTreble_Gym_Text_GymStatue:
-	.string "CASTLE TOWN TREBLE POKéMON GYM$"
+	.string "CAMPANULA CITY POKéMON GYM$"
 
 CastleTownTreble_Gym_Text_GymStatueCertified:
-	.string "CASTLE TOWN TREBLE POKéMON GYM\p"
+	.string "CAMPANULA CITY POKéMON GYM\p"
 	.string "TREBLE'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 

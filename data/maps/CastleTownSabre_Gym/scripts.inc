@@ -11,6 +11,7 @@ CastleTownSabre_Gym_MapScripts::
 	.byte 0
 
 CastleTownSabre_Gym_OnTransition:
+    call CastleTownSabre_Gym_EventScript_CheckDoors
 	end
 
 CastleTownSabre_Gym_EventScript_GymGuide::
@@ -46,6 +47,17 @@ CastleTownSabre_Gym_EventScript_GymStatueCertified::
 CastleTownSabre_Gym_EventScript_GymStatue::
 	msgbox CastleTownSabre_Gym_Text_GymStatue, MSGBOX_DEFAULT
 	releaseall
+	end
+
+CastleTownSabre_Gym_EventScript_CheckDoors::
+	call_if_set FLAG_SABRE_GYM_QUIZ_1, CastleTownSabre_Gym_OnLoadOpenDoor1
+	call_if_set FLAG_SABRE_GYM_QUIZ_2, CastleTownSabre_Gym_OnLoadOpenDoor2
+	call_if_set FLAG_SABRE_GYM_QUIZ_3, CastleTownSabre_Gym_OnLoadOpenDoor3
+	call_if_set FLAG_SABRE_GYM_QUIZ_4, CastleTownSabre_Gym_OnLoadOpenDoor4
+	call_if_set FLAG_SABRE_GYM_QUIZ_5, CastleTownSabre_Gym_OnLoadOpenDoor5
+	call_if_set FLAG_SABRE_GYM_QUIZ_6, CastleTownSabre_Gym_OnLoadOpenDoor6
+	call_if_set FLAG_SABRE_GYM_QUIZ_7, CastleTownSabre_Gym_OnLoadOpenDoor7
+	special DrawWholeMapView
 	end
 
 CastleTownSabre_Gym_OnLoadOpenDoor1::
@@ -829,10 +841,10 @@ CastleTownSabre_Gym_Text_GymGuidePostVictory:
 	.string "like a knight in shining armor!$"
 
 CastleTownSabre_Gym_Text_GymStatue:
-	.string "CASTLE TOWN SABRE POKéMON GYM$"
+	.string "SCALEPEAK CITY POKéMON GYM$"
 
 CastleTownSabre_Gym_Text_GymStatueCertified:
-	.string "CASTLE TOWN SABRE POKéMON GYM\p"
+	.string "SCALEPEAK CITY POKéMON GYM\p"
 	.string "SABRE'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 

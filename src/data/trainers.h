@@ -367,7 +367,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 201
-    [TRAINER_GRUNT_SEAFLOOR_CAVERN_1] =
+    [TRAINER_RIN_AND_DRAKE] =
     {
 #line 202
         .trainerName = _("GRUNT"),

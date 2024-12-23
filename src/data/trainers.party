@@ -102,6 +102,31 @@ Infernape
 Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
+=== TRAINER_BOBSRUS ===
+Name: BobsRUs
+Class: Viewer
+Pic: Cooltrainer M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Mimikyu
+Level Modifier: 3
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Feraligatr
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Umbreon
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Tyranitar
+Level Modifier: 1
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
 === TRAINER_ITSONLYJACK ===
 Name: ONLYJACK
 Class: Viewer
@@ -159,7 +184,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Lampent
 Level Modifier: 2
@@ -180,7 +205,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Skitty
 Level Modifier: 3
@@ -198,18 +223,30 @@ Roserade
 Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-=== TRAINER_GRUNT_SEAFLOOR_CAVERN_1 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+=== TRAINER_RIN_AND_DRAKE ===
+Name: RIN & DRAKE
+Class: Young Couple
+Pic: Young Couple
 Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
+Music: Girl
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
-Poochyena
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Toxicroak
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Gabite
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Luxray
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+Houndoom
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_2 ===
 Name: GRUNT
@@ -10671,31 +10708,6 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Golbat
 Level: 35
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_BOBSRUS ===
-Name: BobsRUs
-Class: Viewer
-Pic: Cooltrainer M
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Mimikyu
-Level Modifier: 3
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Feraligatr
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Umbreon
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Tyranitar
-Level Modifier: 1
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_GRUNT_MT_PYRE_4 ===
 Name: GRUNT

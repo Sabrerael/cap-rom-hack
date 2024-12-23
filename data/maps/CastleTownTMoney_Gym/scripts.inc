@@ -174,10 +174,10 @@ CastleTownTMoney_Gym_Text_GymGuidePostVictory:
 	.string "You've achieved liftoff!$"
 
 CastleTownTMoney_Gym_Text_GymStatue:
-	.string "CASTLE TOWN TMONEY POKéMON GYM$"
+	.string "VOLTARI CITY POKéMON GYM$"
 
 CastleTownTMoney_Gym_Text_GymStatueCertified:
-	.string "CASTLE TOWN TMONEY POKéMON GYM\p"
+	.string "VOLTARI CITY POKéMON GYM\p"
 	.string "TMONEY'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 

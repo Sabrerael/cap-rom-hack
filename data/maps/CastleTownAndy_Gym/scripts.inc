@@ -270,10 +270,10 @@ CastleTownAndy_Gym_Text_MaceyPostBattle:
 	.string "The way you battle is somehow brutal!$"
 
 CastleTownAndy_Gym_Text_GymStatue:
-	.string "CASTLE TOWN ANDY POKéMON GYM$"
+	.string "MISTRALI CITY POKéMON GYM$"
 
 CastleTownAndy_Gym_Text_GymStatueCertified:
-	.string "CASTLE TOWN ANDY POKéMON GYM\p"
+	.string "MISTRALI CITY POKéMON GYM\p"
 	.string "ANDY'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 

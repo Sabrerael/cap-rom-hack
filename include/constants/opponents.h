@@ -9,7 +9,7 @@
 #define TRAINER_DA_DADDY_DEATH          3
 #define TRAINER_GHOSTLY          4
 #define TRAINER_GILDEDROSE          5
-#define TRAINER_GRUNT_SEAFLOOR_CAVERN_1       6
+#define TRAINER_RIN_AND_DRAKE       6
 #define TRAINER_GRUNT_SEAFLOOR_CAVERN_2       7
 #define TRAINER_GRUNT_SEAFLOOR_CAVERN_3       8
 #define TRAINER_GABRIELLE_1                   9

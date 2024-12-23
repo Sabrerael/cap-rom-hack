@@ -223,10 +223,10 @@ CastleTownTot_Gym_Text_GymGuidePostVictory:
 	.string "didn't stand a chance!$"
 
 CastleTownTot_Gym_Text_GymStatue:
-	.string "CASTLE TOWN TOT POKéMON GYM$"
+	.string "PEACEFUL VALLEY POKéMON GYM$"
 
 CastleTownTot_Gym_Text_GymStatueCertified:
-	.string "CASTLE TOWN TOT POKéMON GYM\p"
+	.string "PEACEFUL VALLEY POKéMON GYM\p"
 	.string "TOT'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 

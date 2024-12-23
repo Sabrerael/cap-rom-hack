@@ -714,7 +714,7 @@
     },
     {
       "map_section": "MAPSEC_CASTLE_TOWN_SABRE",
-      "name": "CASTLE TOWN SABRE",
+      "name": "SCALEPEAK CITY",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -730,7 +730,7 @@
     },
     {
       "map_section": "MAPSEC_CASTLE_TOWN_ANDY",
-      "name": "CASTLE TOWN ANDY",
+      "name": "MISTRALI CITY",
       "x": 0,
       "y": 0,
       "width": 1,
