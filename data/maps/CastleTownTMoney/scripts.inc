@@ -7,5 +7,5 @@ CastleTownTMoney_EventScript_GymSign::
 
 CastleTownTMoney_Text_GymSign:
 	.string "VOLTARI CITY POKéMON GYM\n"
-	.string "LEADER: TMONEY\p"
-	.string "“The ELECTRIC collector of valuables!”$"
+	.string "LEADER: TMoney\p"
+	.string "“The Electric collector of valuables!”$"

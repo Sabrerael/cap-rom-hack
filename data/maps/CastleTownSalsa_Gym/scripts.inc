@@ -273,32 +273,33 @@ CastleTownSalsa_Gym_Text_JeffPostBattle:
 	.string "…Don't even think about trying it!$"
 
 CastleTownSalsa_Gym_Text_Intro:
-	.string "Sup bro, thanks for getting me\n"
-	.string "the stuff for my salsa. I was\p"
-	.string "getting hungry. Alright, let's\n"
-	.string "do this thing!$"
+	.string "Ahhhhh, I thought I felt the\n"
+	.string "temperature rise a bit in here.\p"
+	.string "How could it not with a beard\n"
+	.string "like that? Anyway, ready\p"
+	.string "for an ass whoopin'?$"
 
 CastleTownSalsa_Gym_Text_PostBattle:
-	.string "Hoo, that was a smoking hot\n"
-	.string "battle! Nearly burned me up!$"
+	.string "Damn, you're stronger than I\n"
+	.string "thought! Good fight. Now I'm\p"
+	.string "freed up for more War Thunder.$"
 
 CastleTownSalsa_Gym_Text_ReceivedPepperBadge:
-	.string "{PLAYER} received the PEPPER BADGE\n"
+	.string "{PLAYER} received the Pepper Badge\n"
 	.string "from Salsa.$"
 
 CastleTownSalsa_Gym_Text_PepperBadgeInfoTakeThis:
-	.string "The PEPPER BADGE signifies that\n"
-	.string "a trainer has bested me, Salsa,\l"
-	.string "in battle. For claiming a new badge\p"
-	.string "you are entitled to new\n"
-	.string "benefits in the Guild Hall.\p"
-	.string "If you'd like, use this TECHNICAL\n"
-	.string "MACHINE, too.$"
+	.string "The Pepper Badge means you have\n"
+	.string "beated me, you get new benefits in\l"
+	.string "the Guild Hall, blah blah blah.\p"
+	.string "Hurry, take this TM so I can get\n"
+	.string "back to gaming.$"
 
 CastleTownSalsa_Gym_Text_ExplainOverheat:
-	.string "TM-50 contains Overheat.\p"
-	.string "It's a powerful FIRE-type move\n"
-	.string "that lots of Pokémon can learn.\p"
+	.string "TM-50 is Overheat.\p"
+	.string "It's super strong but like the\n"
+	.string "engines on my plane right now,\p"
+	.string "it'll weaken the Pokémon that uses it.\p"
 	.string "… … … … … …$"
 
 CastleTownSalsa_Gym_Text_RegisteredSalsa:
@@ -306,6 +307,14 @@ CastleTownSalsa_Gym_Text_RegisteredSalsa:
 	.string "in the POKéNAV.$"
 
 CastleTownSalsa_Gym_Text_SalsaPostBattle:
-	.string "We both have come so far since we met\n"
-	.string "all those years ago. I look forward\l"
-	.string "to seeing how far you go!$"
+	.string "Dude… thank you for everything. From\n"
+	.string "the first time I met you, I knew\p"
+	.string "you had the energy, drive, and\n"
+	.string "passion to do amazing things. I can't\p"
+	.string "believe it's been six years already.\n"
+	.string "I'm so proud of you, and I consider\p"
+	.string "myself beyond lucky to know you. Your\n"
+	.string "spirit, perseverence, and ambition are\p"
+	.string "truly an example to us all. And for\n"
+	.string "fuck's sake, could you please call\p"
+	.string "me one of these days? I miss you.$"

@@ -1040,6 +1040,22 @@ static const struct SpriteFrameImage sPicTable_Treble[] = {
     overworld_ascending_frames(gObjectEventPic_Treble, 2, 4),
 };
 
+static const struct SpriteFrameImage sPicTable_TMoney[] = {
+    overworld_ascending_frames(gObjectEventPic_TMoney, 2, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_Harold[] = {
+    overworld_ascending_frames(gObjectEventPic_Harold, 2, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_SlingRyan[] = {
+    overworld_ascending_frames(gObjectEventPic_SlingRyan, 2, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_PirateRyan[] = {
+    overworld_ascending_frames(gObjectEventPic_PirateRyan, 2, 4),
+};
+
 static const struct SpriteFrameImage sPicTable_MysteryEventDeliveryman[] = {
     overworld_frame(gObjectEventPic_MysteryEventDeliveryman, 2, 4, 0),
     overworld_frame(gObjectEventPic_MysteryEventDeliveryman, 2, 4, 1),

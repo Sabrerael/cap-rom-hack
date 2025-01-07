@@ -166,15 +166,15 @@
       "x": 13,
       "y": 27,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE6",
+      "dest_map": "MAP_METEOR_FALLS_1F_1R",
       "dest_warp_id": "1"
     },
     {
       "x": 11,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE6",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_METEOR_FALLS_1F_1R",
+      "dest_warp_id": "1"
     },
     {
       "x": 35,

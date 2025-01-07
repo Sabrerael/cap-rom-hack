@@ -221,6 +221,10 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BlindJim;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Hermes;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Salsa;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Treble;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TMoney;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Harold;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SlingRyan;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PirateRyan;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Scott;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Poochyena;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KyogreSide;
@@ -501,6 +505,10 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_HERMES] =                   &gObjectEventGraphicsInfo_Hermes,
     [OBJ_EVENT_GFX_SALSA] =                    &gObjectEventGraphicsInfo_Salsa,
     [OBJ_EVENT_GFX_TREBLE] =                   &gObjectEventGraphicsInfo_Treble,
+    [OBJ_EVENT_GFX_TMONEY] =                   &gObjectEventGraphicsInfo_TMoney,
+    [OBJ_EVENT_GFX_HAROLD] =                   &gObjectEventGraphicsInfo_Harold,
+    [OBJ_EVENT_GFX_SLING_RYAN] =               &gObjectEventGraphicsInfo_SlingRyan,
+    [OBJ_EVENT_GFX_PIRATE_RYAN] =              &gObjectEventGraphicsInfo_PirateRyan,
     [OBJ_EVENT_GFX_RYAN_NORMAL] =              &gObjectEventGraphicsInfo_RyanNormal,
 };
 

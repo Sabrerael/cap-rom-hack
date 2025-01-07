@@ -4514,10 +4514,10 @@
     {
       "id": "LAYOUT_MIDDLE_TOWN_NORTH",
       "name": "MiddleTownNorth_Layout",
-      "width": 20,
+      "width": 30,
       "height": 30,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/MiddleTownNorth/border.bin",
       "blockdata_filepath": "data/layouts/MiddleTownNorth/map.bin"
     },

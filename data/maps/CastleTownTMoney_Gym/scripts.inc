@@ -278,38 +278,64 @@ CastleTownTMoney_Gym_Text_CrissyPostBattle:
 	.string "being wiped out in one hit by JUAN.$"
 
 CastleTownTMoney_Gym_Text_Intro:
-	.string "Let's battle!$"
+	.string "Ah, a challenger. You think you can\n"
+	.string "handle the sheer voltage of this gym?\p"
+	.string "My Pokémon and I are like a well-\n"
+	.string "oiled machine. Powerful, efficient,\l"
+	.string "unstoppable… Just like the energy\p"
+	.string "flowing through this plant…\n"
+	.string "and the money it generates. I've\p"
+	.string "built my empire by understanding that\n"
+	.string "only the strongest survive.\p"
+	.string "So show me what you're made of!\n"
+	.string "You're playing in my league now!\p"
+	.string "Are you ready to get shocked?$"
 
 CastleTownTMoney_Gym_Text_PostBattle:
+	.string "Impressive… I didn’t expect you to last\n"
+	.string "this long.\p"
 	.string "You thought you won… but one last test!\p"
 	.string "!duel TMoney {PLAYER} all Cap Coins\p"
+	.string "… … … … … …\n"
+	.string "… … … … … …\p"
 	.string "TMoney has lost the duel!\n"
 	.string "{PLAYER} now has 1 Cap Coin."
 
 CastleTownTMoney_Gym_Text_ReceivedCapCoinBadge:
-	.string "{PLAYER} received the CAP COIN BADGE\n"
+	.string "{PLAYER} received the Cap Coin Badge\n"
 	.string "from TMoney.$"
 
 CastleTownTMoney_Gym_Text_CapCoinBadgeInfoTakeThis:
-	.string "The CAP COIN BADGE signifies that\n"
-	.string "a trainer has bested me, TMoney,\l"
-	.string "in battle. For claiming a new badge\p"
+	.string "The Cap Coin Badge proves you've\n"
+	.string "earned the right to wield your power.\p"
+	.string "Just know this - power comes at a price.\n"
+	.string "Use it wisely. For claiming a new badge\p"
 	.string "you are entitled to new\n"
 	.string "benefits in the Guild Hall.\p"
-	.string "If you'd like, use this TECHNICAL\n"
-	.string "MACHINE, too.$"
+	.string "I would also grant you this Technical\n"
+	.string "Machine as well.$"
 
 CastleTownTMoney_Gym_Text_ExplainVoltSwitch:
 	.string "TM-71 contains Volt Switch.\p"
-	.string "It's a powerful ELECTRIC-type move\n"
-	.string "that lots of Pokémon can learn.\p"
+	.string "The ability to reposition yourself\n"
+	.string "while also dealing damage is a\p"
+	.string "is a formidable one. Use it well.\p"
 	.string "… … … … … …$"
 
 CastleTownTMoney_Gym_Text_RegisteredTMoney:
 	.string "Registered Moderator TMoney\n"
-	.string "in the POKéNAV.$"
+	.string "in the PokéNav.$"
 
 CastleTownTMoney_Gym_Text_TMoneyPostBattle:
-	.string "We both have come so far since we met\n"
-	.string "all those years ago. I look forward\l"
-	.string "to seeing how far you go!$"
+	.string "You've come a long way since we first\n"
+	.string "met and I have to admit, I'm impressed.\p"
+	.string "You've embraced every challenge,\n!"
+	.string "turning it into an opportunity for\p"
+	.string "growth. You have made many memories\n"
+	.string "and friends along the way. Remember this:\p"
+	.string "make every day an adventure. Seize\n"
+	.string "every moment and charge forward like\p"
+	.string "the spark of a live wire. If you keep\n"
+	.string "that mindset, you'll always stay ahead\p"
+	.string "of the curve. Keep pushing forward and\n"
+	.string "you'll become a force to be reckoned with.$"

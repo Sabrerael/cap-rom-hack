@@ -224,7 +224,7 @@ Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_RIN_AND_DRAKE ===
-Name: RIN & DRAKE
+Name: RIN&DRAKE
 Class: Young Couple
 Pic: Young Couple
 Gender: Male
@@ -9494,7 +9494,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Future Sight
 
 === TRAINER_PHEBBLE_1 ===
-Name: PHEBBLE
+Name: Phebble
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9507,7 +9507,7 @@ Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PHEBBLE_2 ===
-Name: PHEBBLE
+Name: Phebble
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9529,7 +9529,7 @@ Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_PHEBBLE_3 ===
-Name: PHEBBLE
+Name: Phebble
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9555,7 +9555,7 @@ Level: 27
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_PHEBBLE_4 ===
-Name: PHEBBLE
+Name: Phebble
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9601,7 +9601,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Sacred Sword
 
 === TRAINER_PHEBBLE_5 ===
-Name: PHEBBLE
+Name: Phebble
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9655,7 +9655,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Sacred Sword
 
 === TRAINER_PHEBBLE_6 ===
-Name: BRENDAN
+Name: Phebble
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9713,7 +9713,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Sacred Sword
 
 === TRAINER_PHEBBLE_7 ===
-Name: PHEBBLE
+Name: Phebble
 Class: Rival
 Pic: Brendan
 Gender: Male
