@@ -76,7 +76,7 @@ Route103_EventScript_StartMayBattleMudkip::
 	end
 
 Route103_EventScript_StartBrendanBattleTreecko::
-	trainerbattle_no_intro TRAINER_PHEBBLE_7, Route103_Text_BrendanDefeated
+	trainerbattle_no_intro TRAINER_PEHBBLE_7, Route103_Text_BrendanDefeated
 	goto Route103_EventScript_AfterBrendanBattle
 	end
 
@@ -86,7 +86,7 @@ Route103_EventScript_StartBrendanBattleTorchic::
 	end
 
 Route103_EventScript_StartBrendanBattleMudkip::
-	trainerbattle_no_intro TRAINER_PHEBBLE_1, Route103_Text_BrendanDefeated
+	trainerbattle_no_intro TRAINER_PEHBBLE_1, Route103_Text_BrendanDefeated
 	goto Route103_EventScript_AfterBrendanBattle
 	end
 

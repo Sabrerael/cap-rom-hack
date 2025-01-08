@@ -956,7 +956,7 @@ RustboroCity_EventScript_BattleBrendanTorchic::
 	end
 
 RustboroCity_EventScript_BattleBrendanMudkip::
-	trainerbattle_no_intro TRAINER_PHEBBLE_2, RustboroCity_Text_BrendanDefeat
+	trainerbattle_no_intro TRAINER_PEHBBLE_2, RustboroCity_Text_BrendanDefeat
 	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
 	goto RustboroCity_EventScript_BrendanBrineyHint
 	end

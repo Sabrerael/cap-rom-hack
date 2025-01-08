@@ -309,12 +309,12 @@ LilycoveCity_EventScript_BattleMayMudkip::
 	end
 
 LilycoveCity_EventScript_BattleBrendanTreecko::
-	trainerbattle_no_intro TRAINER_PHEBBLE_5, LilycoveCity_Text_BrendanDefeat
+	trainerbattle_no_intro TRAINER_PEHBBLE_5, LilycoveCity_Text_BrendanDefeat
 	goto LilycoveCity_EventScript_DefeatedBrendan
 	end
 
 LilycoveCity_EventScript_BattleBrendanTorchic::
-	trainerbattle_no_intro TRAINER_PHEBBLE_6, LilycoveCity_Text_BrendanDefeat
+	trainerbattle_no_intro TRAINER_PEHBBLE_6, LilycoveCity_Text_BrendanDefeat
 	goto LilycoveCity_EventScript_DefeatedBrendan
 	end
 

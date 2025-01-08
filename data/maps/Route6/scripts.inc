@@ -1,6 +1,10 @@
 Route6_MapScripts::
 	.byte 0
 
+Route6_EventScript_Sign::
+	msgbox Route6_Text_Sign, MSGBOX_SIGN
+	end
+
 Route6_EventScript_Brice::
 	trainerbattle_single TRAINER_BRICE, Route112_Text_BriceIntro, Route112_Text_BriceDefeat
 	msgbox Route112_Text_BricePostBattle, MSGBOX_AUTOCLOSE
@@ -17,8 +21,8 @@ Route6_EventScript_Bernie::
 	end
 
 Route6_EventScript_Cindy::
-	trainerbattle_single TRAINER_CINDY_1, Route104_Text_CindyIntro, Route104_Text_CindyDefeat
-	msgbox Route104_Text_CindyPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CYNDY_1, Route115_Text_CyndyIntro, Route115_Text_CyndyDefeat
+	msgbox Route115_Text_CyndyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route6_EventScript_PsyStorm::
@@ -29,6 +33,10 @@ Route6_EventScript_PsyStorm::
 Route6_EventScript_EndOfTunnel::
 	msgbox Route6_Text_EndOfTunnel, MSGBOX_NPC
 	end
+
+Route6_Text_Sign:
+	.string "Route 6\n"
+	.string "North to Scalepeak City$"
 
 Route6_Text_AutumnIntro:
 	.string "I climb this hill every day.\n"

@@ -20,7 +20,7 @@
     },
     {
       "map": "MAP_CASTLE_TOWN_TOT",
-      "offset": -10,
+      "offset": 0,
       "direction": "down"
     }
   ],

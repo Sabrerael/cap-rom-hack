@@ -10,7 +10,7 @@
 #define TRAINER_GHOSTLY          4
 #define TRAINER_GILDEDROSE          5
 #define TRAINER_RIN_AND_DRAKE       6
-#define TRAINER_GRUNT_SEAFLOOR_CAVERN_2       7
+#define TRAINER_ZACKATK       7
 #define TRAINER_GRUNT_SEAFLOOR_CAVERN_3       8
 #define TRAINER_GABRIELLE_1                   9
 #define TRAINER_GRUNT_PETALBURG_WOODS        10
@@ -326,7 +326,7 @@
 #define TRAINER_JOSH                        320
 #define TRAINER_TOMMY                       321
 #define TRAINER_JOEY                        322
-#define TRAINER_BEN                         323
+#define TRAINER_JEN                         323
 #define TRAINER_QUINCY                      324
 #define TRAINER_KATELYNN                    325
 #define TRAINER_JAYLEN                      326
@@ -523,10 +523,10 @@
 #define TRAINER_EDWIN_4                     517
 #define TRAINER_EDWIN_5                     518
 #define TRAINER_WALLY_VR_1                  519
-#define TRAINER_PHEBBLE_1                   520
-#define TRAINER_PHEBBLE_2                   521
-#define TRAINER_PHEBBLE_4                   522
-#define TRAINER_PHEBBLE_7                   523
+#define TRAINER_PEHBBLE_1                   520
+#define TRAINER_PEHBBLE_2                   521
+#define TRAINER_PEHBBLE_4                   522
+#define TRAINER_PEHBBLE_7                   523
 #define TRAINER_BRENDAN_ROUTE_110_TREECKO   524
 #define TRAINER_BRENDAN_ROUTE_119_TREECKO   525
 #define TRAINER_BRENDAN_ROUTE_103_TORCHIC   526
@@ -588,7 +588,7 @@
 #define TRAINER_NATE                        582
 #define TRAINER_KATHLEEN                    583
 #define TRAINER_CLIFFORD                    584
-#define TRAINER_NICHOLAS                    585
+#define TRAINER_NADIA                    585
 #define TRAINER_GRUNT_SPACE_CENTER_3        586
 #define TRAINER_GRUNT_SPACE_CENTER_4        587
 #define TRAINER_GRUNT_SPACE_CENTER_5        588
@@ -596,7 +596,7 @@
 #define TRAINER_GRUNT_SPACE_CENTER_7        590
 #define TRAINER_MACEY                       591
 #define TRAINER_BRENDAN_RUSTBORO_TREECKO    592
-#define TRAINER_PHEBBLE_3                   593
+#define TRAINER_PEHBBLE_3                   593
 #define TRAINER_PAXTON                      594
 #define TRAINER_ISABELLA                    595
 #define TRAINER_GRUNT_WEATHER_INST_5        596
@@ -665,8 +665,8 @@
 #define TRAINER_WALLY_VR_4                  659
 #define TRAINER_WALLY_VR_5                  660
 #define TRAINER_BRENDAN_LILYCOVE_MUDKIP     661
-#define TRAINER_PHEBBLE_5                   662
-#define TRAINER_PHEBBLE_6                   663
+#define TRAINER_PEHBBLE_5                   662
+#define TRAINER_PEHBBLE_6                   663
 #define TRAINER_MAY_LILYCOVE_MUDKIP         664
 #define TRAINER_MAY_LILYCOVE_TREECKO        665
 #define TRAINER_MAY_LILYCOVE_TORCHIC        666
@@ -805,7 +805,7 @@
 #define TRAINER_SABRE_3                      799
 #define TRAINER_SABRE_4                      800
 #define TRAINER_SABRE_5                      801
-#define TRAINER_ANGELO                      802
+#define TRAINER_ANGEL                      802
 #define TRAINER_DARIUS                      803
 #define TRAINER_STEVEN                      804
 #define TRAINER_ANABEL                      805

@@ -82,7 +82,7 @@ Music: Male
 Double Battle: No
 
 === TRAINER_DARK_PSYSTORM ===
-Name: PSYSTORM
+Name: Psystorm
 Class: Viewer
 Pic: Cooltrainer M
 Gender: Male
@@ -128,7 +128,7 @@ Level Modifier: 1
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_ITSONLYJACK ===
-Name: ONLYJACK
+Name: OnlyJack
 Class: Viewer
 Pic: Cooltrainer M
 Gender: Male
@@ -153,7 +153,7 @@ Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_DA_DADDY_DEATH ===
-Name: DADDYDEATH
+Name: DaddyDeath
 Class: Viewer
 Pic: Cooltrainer M
 Gender: Male
@@ -178,7 +178,7 @@ Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_GHOSTLY ===
-Name: GHOSTLY
+Name: Ghostly
 Class: Viewer
 Pic: Cooltrainer M
 Gender: Male
@@ -199,7 +199,7 @@ Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_GILDEDROSE ===
-Name: GILDEDROSE
+Name: GildedRose
 Class: Viewer
 Pic: Cooltrainer F
 Gender: Female
@@ -224,7 +224,7 @@ Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_RIN_AND_DRAKE ===
-Name: RIN&DRAKE
+Name: Rin&Drake
 Class: Young Couple
 Pic: Young Couple
 Gender: Male
@@ -248,18 +248,30 @@ Houndoom
 Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-=== TRAINER_GRUNT_SEAFLOOR_CAVERN_2 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+=== TRAINER_ZACKATK ===
+Name: ZackAtk
+Class: Viewer
+Pic: Cooltrainer M
 Gender: Male
-Music: Aqua
+Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dratini
+Level Modifier: 3
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Wartortle
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Nuzleaf
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Appletun
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_3 ===
 Name: GRUNT
@@ -2234,7 +2246,7 @@ Level: 42
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_CINDY_1 ===
-Name: CINDY
+Name: Cindy
 Class: Lady
 Pic: Lady
 Gender: Female
@@ -3491,13 +3503,13 @@ Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_KIRK ===
-Name: KIRK
-Class: Guitarist
-Pic: Guitarist
+Name: Kirk
+Class: Pkmn Breeder
+Pic: Pokemon Breeder M
 Gender: Male
-Music: Intense
+Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
 Phantump
 Level Modifier: 2
@@ -3542,13 +3554,13 @@ Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SHAWN ===
-Name: SHAWN
-Class: Guitarist
-Pic: Guitarist
+Name: Shawn
+Class: Pkmn Breeder
+Pic: Pokemon Breeder M
 Gender: Male
-Music: Intense
+Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
 Fomantis
 Level Modifier: 2
@@ -3786,7 +3798,7 @@ Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_BERNIE_1 ===
-Name: BERNIE
+Name: Bernie
 Class: Kindler
 Pic: Kindler
 Gender: Male
@@ -3973,7 +3985,7 @@ Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_AUTUMN ===
-Name: AUTUMN
+Name: Autumn
 Class: Picnicker
 Pic: Picnicker
 Gender: Female
@@ -5585,13 +5597,13 @@ Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BETHANY ===
-Name: BETHANY
-Class: Pokefan
-Pic: Pokefan F
+Name: Bethany
+Class: Aroma Lady
+Pic: Aroma Lady
 Gender: Female
-Music: Twins
+Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
 Cherubi
 Level Modifier: 2
@@ -5954,7 +5966,7 @@ Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_JOEY ===
-Name: JOEY
+Name: Joey
 Class: Youngster
 Pic: Youngster
 Gender: Male
@@ -5974,14 +5986,14 @@ Machop
 Level Modifier: 1
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_BEN ===
-Name: BEN
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
+=== TRAINER_JEN ===
+Name: Jen
+Class: Pkmn Breeder
+Pic: Pokemon Breeder F
+Gender: Female
+Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
 Snover
 Level Modifier: 2
@@ -7834,7 +7846,7 @@ Level Modifier: 1
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_CYNDY_1 ===
-Name: CYNDY
+Name: Cyndy
 Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
@@ -9493,8 +9505,8 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Psychic
 - Future Sight
 
-=== TRAINER_PHEBBLE_1 ===
-Name: Phebble
+=== TRAINER_PEHBBLE_1 ===
+Name: Pehbble
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9506,8 +9518,8 @@ Ralts (M)
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_PHEBBLE_2 ===
-Name: Phebble
+=== TRAINER_PEHBBLE_2 ===
+Name: Pehbble
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9528,8 +9540,8 @@ Ralts (M) @ Oran Berry
 Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-=== TRAINER_PHEBBLE_3 ===
-Name: Phebble
+=== TRAINER_PEHBBLE_3 ===
+Name: Pehbble
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9554,8 +9566,8 @@ Kirlia (M) @ Sitrus Berry
 Level: 27
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_PHEBBLE_4 ===
-Name: Phebble
+=== TRAINER_PEHBBLE_4 ===
+Name: Pehbble
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9600,8 +9612,8 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Leaf Blade
 - Sacred Sword
 
-=== TRAINER_PHEBBLE_5 ===
-Name: Phebble
+=== TRAINER_PEHBBLE_5 ===
+Name: Pehbble
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9654,8 +9666,8 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Leaf Blade
 - Sacred Sword
 
-=== TRAINER_PHEBBLE_6 ===
-Name: Phebble
+=== TRAINER_PEHBBLE_6 ===
+Name: Pehbble
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9712,8 +9724,8 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Leaf Blade
 - Sacred Sword
 
-=== TRAINER_PHEBBLE_7 ===
-Name: Phebble
+=== TRAINER_PEHBBLE_7 ===
+Name: Pehbble
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -10968,7 +10980,7 @@ Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
 Ducklett
 Level Modifier: 2
@@ -10989,7 +11001,7 @@ Pic: Gentleman
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
 Rookidee
 Level Modifier: 2
@@ -11003,14 +11015,14 @@ Corvisquire
 Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-=== TRAINER_NICHOLAS ===
-Name: NICHOLAS
-Class: Psychic
-Pic: Psychic M
-Gender: Male
-Music: Intense
+=== TRAINER_NADIA ===
+Name: Nadia
+Class: Aroma Lady
+Pic: Aroma Lady
+Gender: Female
+Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
 Petilil
 Level Modifier: 2
@@ -11711,7 +11723,7 @@ Level: 33
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_BRICE ===
-Name: BRICE
+Name: Brice
 Class: Hiker
 Pic: Hiker
 Gender: Male
@@ -12153,13 +12165,13 @@ Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_VIVIAN ===
-Name: VIVIAN
-Class: Battle Girl
-Pic: Battle Girl
+Name: Vivian
+Class: Aroma Lady
+Pic: Aroma Lady
 Gender: Female
-Music: Intense
+Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
 Oddish
 Level Modifier: 2
@@ -12517,7 +12529,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Future Sight
 
 === TRAINER_BRENDAN_LILYCOVE_MUDKIP ===
-Name: PHEBBLE
+Name: PEHBBLE
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -17273,12 +17285,12 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Poison Jab
 - X-Scissor
 
-=== TRAINER_ANGELO ===
-Name: ANGELO
-Class: Bug Maniac
-Pic: Bug Maniac
-Gender: Male
-Music: Suspicious
+=== TRAINER_ANGEL ===
+Name: Angel
+Class: Pkmn Breeder
+Pic: Pokemon Breeder F
+Gender: Female
+Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 

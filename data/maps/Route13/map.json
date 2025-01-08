@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_MIDDLE_TOWN_SOUTH",
-      "offset": 0,
+      "offset": 12,
       "direction": "right"
     },
     {

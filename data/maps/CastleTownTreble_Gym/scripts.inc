@@ -1,5 +1,5 @@
-.set LOCALID_BEN, 3
-.set LOCALID_NICHOLAS, 5
+.set LOCALID_JEN, 3
+.set LOCALID_NADIA, 5
 .set LOCALID_KIRK, 6
 .set LOCALID_VIVIAN, 8
 
@@ -183,6 +183,7 @@ CastleTownTreble_Gym_EventScript_GymSign1::
 	end
 
 CastleTownTreble_Gym_EventScript_BerryQuiz1Correct::
+    goto_if_set FLAG_TREBLE_GYM_TREES_1, BerryTreeScript
 	lock
     call CastleTownTreble_Gym_EventScript_CheckBerryFullyGrown
 	message CastleTownTreble_Gym_Text_CorrectBerry
@@ -193,6 +194,7 @@ CastleTownTreble_Gym_EventScript_BerryQuiz1Correct::
 	end
 
 CastleTownTreble_Gym_EventScript_BerryQuiz1Wrong::
+    goto_if_set FLAG_TREBLE_GYM_TREES_1, BerryTreeScript
 	lock
     call CastleTownTreble_Gym_EventScript_CheckBerryFullyGrown
 	message CastleTownTreble_Gym_Text_IncorrectBerry
@@ -248,6 +250,7 @@ CastleTownTreble_Gym_EventScript_GymSign2::
 	end
 
 CastleTownTreble_Gym_EventScript_BerryQuiz2Correct::
+	goto_if_set FLAG_TREBLE_GYM_TREES_2, BerryTreeScript
 	lock
     call CastleTownTreble_Gym_EventScript_CheckBerryFullyGrown
 	message CastleTownTreble_Gym_Text_CorrectBerry
@@ -258,12 +261,13 @@ CastleTownTreble_Gym_EventScript_BerryQuiz2Correct::
 	end
 
 CastleTownTreble_Gym_EventScript_BerryQuiz2Wrong::
+    goto_if_set FLAG_TREBLE_GYM_TREES_2, BerryTreeScript
 	lock
     call CastleTownTreble_Gym_EventScript_CheckBerryFullyGrown
 	message CastleTownTreble_Gym_Text_IncorrectBerry
 	waitmessage
 	waitbuttonpress
-	goto_if_not_defeated TRAINER_NICHOLAS, CastleTownTreble_Gym_EventScript_BattleNicholas
+	goto_if_not_defeated TRAINER_NADIA, CastleTownTreble_Gym_EventScript_BattleNadia
 	releaseall
 	end
 
@@ -275,28 +279,28 @@ CastleTownTreble_Gym_EventScript_BerryQuiz2Complete::
 	setflag FLAG_TREBLE_GYM_TREES_2
 	return
 
-CastleTownTreble_Gym_EventScript_BattleNicholas::
-	call CastleTownTreble_Gym_EventScript_NicholasApproach
-	msgbox CastleTownTreble_Gym_Text_NicholasIntro
-	trainerbattle_no_intro TRAINER_NICHOLAS, CastleTownTreble_Gym_Text_NicholasDefeat
+CastleTownTreble_Gym_EventScript_BattleNadia::
+	call CastleTownTreble_Gym_EventScript_NadiaApproach
+	msgbox CastleTownTreble_Gym_Text_NadiaIntro
+	trainerbattle_no_intro TRAINER_NADIA, CastleTownTreble_Gym_Text_NadiaDefeat
 	goto_if_set FLAG_TREBLE_GYM_TREES_2, CastleTownTreble_Gym_EventScript_DoorAlreadyOpen
 	call CastleTownTreble_Gym_EventScript_BerryQuiz2Complete
 	releaseall
 	end
 
-CastleTownTreble_Gym_EventScript_NicholasApproach::
+CastleTownTreble_Gym_EventScript_NadiaApproach::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
-	applymovement LOCALID_NICHOLAS, CastleTownTreble_Gym_Movement_NicholasApproach
+	applymovement LOCALID_NADIA, CastleTownTreble_Gym_Movement_NadiaApproach
 	waitmovement 0
 	return
 
-CastleTownTreble_Gym_Movement_NicholasApproach::
+CastleTownTreble_Gym_Movement_NadiaApproach::
 	walk_right
 	walk_right
 	walk_right
 	step_end
 
-CastleTownTreble_Gym_EventScript_DefeatedNicholas::
+CastleTownTreble_Gym_EventScript_DefeatedNadia::
 	call_if_unset FLAG_TREBLE_GYM_TREES_2, CastleTownTreble_Gym_EventScript_BerryQuiz2CompleteTrainer
 	release
 	end
@@ -305,9 +309,9 @@ CastleTownTreble_Gym_EventScript_BerryQuiz2CompleteTrainer::
     call CastleTownTreble_Gym_EventScript_BerryQuiz2Complete
 	return
 
-CastleTownTreble_Gym_EventScript_Nicholas::
-	trainerbattle_single TRAINER_NICHOLAS, CastleTownTreble_Gym_Text_NicholasIntro, CastleTownTreble_Gym_Text_NicholasDefeat, CastleTownTreble_Gym_EventScript_DefeatedNicholas
-	msgbox CastleTownTreble_Gym_Text_NicholasPostBattle, MSGBOX_AUTOCLOSE
+CastleTownTreble_Gym_EventScript_Nadia::
+	trainerbattle_single TRAINER_NADIA, CastleTownTreble_Gym_Text_NadiaIntro, CastleTownTreble_Gym_Text_NadiaDefeat, CastleTownTreble_Gym_EventScript_DefeatedNadia
+	msgbox CastleTownTreble_Gym_Text_NadiaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 CastleTownTreble_Gym_EventScript_GymSign3::
@@ -315,6 +319,7 @@ CastleTownTreble_Gym_EventScript_GymSign3::
 	end
 
 CastleTownTreble_Gym_EventScript_BerryQuiz3Correct::
+    goto_if_set FLAG_TREBLE_GYM_TREES_3, BerryTreeScript
 	lock
     call CastleTownTreble_Gym_EventScript_CheckBerryFullyGrown
 	message CastleTownTreble_Gym_Text_CorrectBerry
@@ -325,6 +330,7 @@ CastleTownTreble_Gym_EventScript_BerryQuiz3Correct::
 	end
 
 CastleTownTreble_Gym_EventScript_BerryQuiz3Wrong::
+    goto_if_set FLAG_TREBLE_GYM_TREES_3, BerryTreeScript
 	lock
     call CastleTownTreble_Gym_EventScript_CheckBerryFullyGrown
 	message CastleTownTreble_Gym_Text_IncorrectBerry
@@ -382,6 +388,7 @@ CastleTownTreble_Gym_EventScript_GymSign4::
 	end
 
 CastleTownTreble_Gym_EventScript_BerryQuiz4Correct::
+    goto_if_set FLAG_TREBLE_GYM_TREES_4, BerryTreeScript
 	lock
     call CastleTownTreble_Gym_EventScript_CheckBerryFullyGrown
 	message CastleTownTreble_Gym_Text_CorrectBerry
@@ -392,12 +399,13 @@ CastleTownTreble_Gym_EventScript_BerryQuiz4Correct::
 	end
 
 CastleTownTreble_Gym_EventScript_BerryQuiz4Wrong::
+    goto_if_set FLAG_TREBLE_GYM_TREES_4, BerryTreeScript
 	lock
     call CastleTownTreble_Gym_EventScript_CheckBerryFullyGrown
 	message CastleTownTreble_Gym_Text_IncorrectBerry
 	waitmessage
 	waitbuttonpress
-	goto_if_not_defeated TRAINER_BEN, CastleTownTreble_Gym_EventScript_BattleBen
+	goto_if_not_defeated TRAINER_JEN, CastleTownTreble_Gym_EventScript_BattleJen
 	releaseall
 	end
 
@@ -409,28 +417,28 @@ CastleTownTreble_Gym_EventScript_BerryQuiz4Complete::
 	setflag FLAG_TREBLE_GYM_TREES_4
 	return
 
-CastleTownTreble_Gym_EventScript_BattleBen::
-	call CastleTownTreble_Gym_EventScript_BenApproach
-	msgbox CastleTownTreble_Gym_Text_BenIntro
-	trainerbattle_no_intro TRAINER_BEN, CastleTownTreble_Gym_Text_BenDefeat
+CastleTownTreble_Gym_EventScript_BattleJen::
+	call CastleTownTreble_Gym_EventScript_JenApproach
+	msgbox CastleTownTreble_Gym_Text_JenIntro
+	trainerbattle_no_intro TRAINER_JEN, CastleTownTreble_Gym_Text_JenDefeat
 	goto_if_set FLAG_TREBLE_GYM_TREES_4, CastleTownTreble_Gym_EventScript_DoorAlreadyOpen
 	call CastleTownTreble_Gym_EventScript_BerryQuiz4Complete
 	releaseall
 	end
 
-CastleTownTreble_Gym_EventScript_BenApproach::
+CastleTownTreble_Gym_EventScript_JenApproach::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
-	applymovement LOCALID_BEN, CastleTownTreble_Gym_Movement_BenApproach
+	applymovement LOCALID_JEN, CastleTownTreble_Gym_Movement_JenApproach
 	waitmovement 0
 	return
 
-CastleTownTreble_Gym_Movement_BenApproach::
+CastleTownTreble_Gym_Movement_JenApproach::
 	walk_right
 	walk_right
 	walk_right
 	step_end
 
-CastleTownTreble_Gym_EventScript_DefeatedBen::
+CastleTownTreble_Gym_EventScript_DefeatedJen::
 	call_if_unset FLAG_TREBLE_GYM_TREES_4, CastleTownTreble_Gym_EventScript_BerryQuiz4CompleteTrainer
 	release
 	end
@@ -439,9 +447,9 @@ CastleTownTreble_Gym_EventScript_BerryQuiz4CompleteTrainer::
     call CastleTownTreble_Gym_EventScript_BerryQuiz4Complete
 	return
 
-CastleTownTreble_Gym_EventScript_Ben::
-	trainerbattle_single TRAINER_BEN, CastleTownTreble_Gym_Text_BenIntro, CastleTownTreble_Gym_Text_BenDefeat, CastleTownTreble_Gym_EventScript_DefeatedBen
-	msgbox CastleTownTreble_Gym_Text_BenPostBattle, MSGBOX_AUTOCLOSE
+CastleTownTreble_Gym_EventScript_Jen::
+	trainerbattle_single TRAINER_JEN, CastleTownTreble_Gym_Text_JenIntro, CastleTownTreble_Gym_Text_JenDefeat, CastleTownTreble_Gym_EventScript_DefeatedJen
+	msgbox CastleTownTreble_Gym_Text_JenPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 CastleTownTreble_Gym_EventScript_Shawn::
@@ -449,9 +457,9 @@ CastleTownTreble_Gym_EventScript_Shawn::
 	msgbox CastleTownTreble_Gym_Text_ShawnPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-CastleTownTreble_Gym_EventScript_Angelo::
-	trainerbattle_single TRAINER_ANGELO, CastleTownTreble_Gym_Text_AngeloIntro, CastleTownTreble_Gym_Text_AngeloDefeat
-	msgbox CastleTownTreble_Gym_Text_AngeloPostBattle, MSGBOX_AUTOCLOSE
+CastleTownTreble_Gym_EventScript_Angel::
+	trainerbattle_single TRAINER_ANGEL, CastleTownTreble_Gym_Text_AngelIntro, CastleTownTreble_Gym_Text_AngelDefeat
+	msgbox CastleTownTreble_Gym_Text_AngelPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 CastleTownTreble_Gym_EventScript_Bethany::
@@ -520,10 +528,10 @@ CastleTownTreble_Gym_EventScript_Wattson_SevenBadge::
 	end
 
 CastleTownTreble_Gym_EventScript_WattsonDefeated::
-	message CastleTownTreble_Gym_Text_ReceivedFloralBadge
+	message CastleTownTreble_Gym_Text_ReceivedArborBadge
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
-	msgbox CastleTownTreble_Gym_Text_FloralBadgeInfoTakeThis, MSGBOX_DEFAULT
+	msgbox CastleTownTreble_Gym_Text_ArborBadgeInfoTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_MAUVILLE_GYM
 	setflag FLAG_BADGE03_GET
 	call Common_EventScript_UpdateBadgesCollected
@@ -591,116 +599,124 @@ CastleTownTreble_Gym_Text_SignThree:
 
 CastleTownTreble_Gym_Text_SignFour:
 	.string "Pick the berry that will weaken\n"
-	.string "a Super Effective GRASS move.$"
+	.string "a Super Effective Grass move.$"
 
 CastleTownTreble_Gym_Text_KirkIntro:
-	.string "My electric soul, it'll shatter your\n"
-	.string "dreams whole, whoa-yeahah!$"
+	.string "I won't let you trample on\n"
+	.string "our carefully grown Pokémon!$"
 
 CastleTownTreble_Gym_Text_KirkDefeat:
-	.string "That was plugged in, amped up,\n"
-	.string "over-driven electric, man!$"
+	.string "Your Pokémon have grown\n"
+	.string "quite strong!$"
 
 CastleTownTreble_Gym_Text_KirkPostBattle:
-	.string "POKéMON and rock, it's all about heart,\n"
-	.string "whoa-yeah!$"
+	.string "Both plants and Pokémon\n"
+	.string "need care and attention\p"
+	.string "to grow properly.$"
 
 CastleTownTreble_Gym_Text_ShawnIntro:
-	.string "I trained under WATTSON!\n"
-	.string "There ain't no way I'll lose easily!$"
+	.string "My Grass Pokémon will\n"
+	.string "cut you down to size!$"
 
 CastleTownTreble_Gym_Text_ShawnDefeat:
-	.string "Unplugged and turned off…$"
+	.string "Looks like you've got thorns…$"
 
 CastleTownTreble_Gym_Text_ShawnPostBattle:
-	.string "WATTSON, our GYM LEADER, has been\n"
-	.string "around for a long, long time.\p"
-	.string "He was battling even before your\n"
-	.string "daddy was born, that tough coot.$"
+	.string "Treble, our Gym Leader, has been\n"
+	.string "tending to her Pokémon for ages.\p"
+	.string "She stays up all night making\n"
+	.string "sure they're taken care of.$"
 
-CastleTownTreble_Gym_Text_BenIntro:
-	.string "This GYM's got puzzles!\n"
-	.string "Isn't it fun?$"
+CastleTownTreble_Gym_Text_JenIntro:
+	.string "Enjoying the Berry quizzes?$"
 
-CastleTownTreble_Gym_Text_BenDefeat:
-	.string "It's no fun to lose…$"
+CastleTownTreble_Gym_Text_JenDefeat:
+	.string "With Pokémon like yours, the\n"
+	.string "quizzes don't really matter…$"
 
-CastleTownTreble_Gym_Text_BenPostBattle:
-	.string "WATTSON says he likes setting up\n"
-	.string "little traps with switches.$"
+CastleTownTreble_Gym_Text_JenPostBattle:
+	.string "You can take the berries from both\n"
+	.string "trees. Don't be shy!$"
 
 CastleTownTreble_Gym_Text_VivianIntro:
-	.string "With my charm and my POKéMON's moves,\n"
-	.string "you'll be shocked!$"
+	.string "There's always such a lovely\n"
+	.string "scent in the air here.$"
 
 CastleTownTreble_Gym_Text_VivianDefeat:
-	.string "I'm shocked by your power!$"
+	.string "The foul scent of defeat…$"
 
 CastleTownTreble_Gym_Text_VivianPostBattle:
-	.string "I've heard that MAUVILLE was founded\n"
-	.string "by WATTSON.\p"
-	.string "He was a TRAINER long before we\n"
-	.string "became TRAINERS.\l"
-	.string "He must know all sorts of things!$"
+	.string "Treble always takes such\n"
+	.string "wonderful care of the flowers\p"
+	.string "in this city.$"
 
-CastleTownTreble_Gym_Text_AngeloIntro:
-	.string "I love shiny things!$"
+CastleTownTreble_Gym_Text_AngelIntro:
+	.string "Grass Pokémon aren't all\n"
+	.string "delicate flowers!$"
 
-CastleTownTreble_Gym_Text_AngeloDefeat:
+CastleTownTreble_Gym_Text_AngelDefeat:
 	.string "Oh…\n"
-	.string "My eyes are frazzled…$"
+	.string "My hardy Grass Pokémon…$"
 
-CastleTownTreble_Gym_Text_AngeloPostBattle:
-	.string "MAUVILLE GYM's WATTSON has a shiny\n"
-	.string "forehead. It makes me happy!$"
+CastleTownTreble_Gym_Text_AngelPostBattle:
+	.string "The diversity of Grass Pokémon\n"
+	.string "always astounds me!$"
 
-CastleTownTreble_Gym_Text_NicholasIntro:
-	.string "Wroooar! Have a taste of my super\n"
-	.string "POKéMON hard-battling power!$"
+CastleTownTreble_Gym_Text_NadiaIntro:
+	.string "Shame you don't know your berries.\n"
+	.string "Now you face the consequences!$"
 
-CastleTownTreble_Gym_Text_NicholasDefeat:
+CastleTownTreble_Gym_Text_NadiaDefeat:
 	.string "Oh!\n"
 	.string "Done in!$"
 
-CastleTownTreble_Gym_Text_NicholasPostBattle:
-	.string "All right! I think I'll develop a special\n"
-	.string "invincible POKéMON power next.$"
+CastleTownTreble_Gym_Text_NadiaPostBattle:
+	.string "Now to plant new berries for the\n"
+	.string "next challenger.$"
 	
 CastleTownTreble_Gym_Text_BethanyIntro:
-	.string "When I'm with my POKéMON, the time\n"
-	.string "flies by before you can say, “Oops!”$"
+	.string "Are the quizzes tripping you up?$"
 
 CastleTownTreble_Gym_Text_BethanyDefeat:
-	.string "Oops!$"
+	.string "Our battle certainly didn't\n"
+	.string "trip you up!$"
 
 CastleTownTreble_Gym_Text_BethanyPostBattle:
-	.string "I wish I could forget about lost causes\n"
-	.string "before I can manage an “Oops!”$"
+	.string "You might be strong but Treble\n"
+	.string "is much stronger than me!$"
 
 CastleTownTreble_Gym_Text_Intro:
-	.string "Let's battle!$"
+	.string "Welcome challenger. I am always\n"
+	.string "interested to see which path\p"
+	.string "trainers take to me: Brute force or\n"
+	.string "preserving strength through puzzles.\p"
+	.string "My Pokémon are mighty like blades of \n"
+	.string "grass piercing through soil. Do you\l"
+	.string "think you have what it takes?$"
 
 CastleTownTreble_Gym_Text_PostBattle:
-	.string "Good job!$"
+	.string "You've impressed me with your\n"
+	.string "growth so far. I'm rooting for\p"
+	.string "you in your journey ahead. Take\n"
+	.string "this gym badge, for you rose to\p"
+	.string "the occasion and earned it.$"
 
-CastleTownTreble_Gym_Text_ReceivedFloralBadge:
-	.string "{PLAYER} received the FLORAL BADGE\n"
+CastleTownTreble_Gym_Text_ReceivedArborBadge:
+	.string "{PLAYER} received the Arbor Badge\n"
 	.string "from Treble.$"
 
-CastleTownTreble_Gym_Text_FloralBadgeInfoTakeThis:
-	.string "The FLORAL BADGE signifies that\n"
-	.string "a trainer has bested me, Tot,\l"
-	.string "in battle. For claiming a new badge\p"
-	.string "you are entitled to new\n"
-	.string "benefits in the Guild Hall.\p"
-	.string "If you'd like, use this TECHNICAL\n"
-	.string "MACHINE, too.$"
+CastleTownTreble_Gym_Text_ArborBadgeInfoTakeThis:
+	.string "The Arbor Badge shows that you\n"
+	.string "beaten me and my Grass Pokémon\p"
+	.string "in battle. Return to the Guild\n"
+	.string "Hall and claim your new rewards.\p"
+	.string "I would also grant you this\n"
+	.string "Technical Machine.$"
 
 CastleTownTreble_Gym_Text_ExplainEnergyBall:
-	.string "TM-53 contains Energy Ball!\n"
-	.string "It's a super strong special GRASS-type\p"
-	.string "move. It's a good reminder that pretty\n"
-	.string "things can still pack a punch!\p"
+	.string "TM-53 contains Energy Ball.\n"
+	.string "Use it and remind your enemies\l"
+	.string "of the furiosity of nature!\p"
 	.string "… … … … … …$"
 
 CastleTownTreble_Gym_Text_RegisteredTreble:
@@ -708,5 +724,9 @@ CastleTownTreble_Gym_Text_RegisteredTreble:
 	.string "in the POKéNAV.$"
 
 CastleTownTreble_Gym_Text_TreblePostBattle:
-	.string "I made this Gym as a reminder of\n"
-	.string "of where we met!$"
+	.string "So heckin' proud of you! I'm\n"
+	.string "glad to know you and to be a\p"
+	.string "part of this community you've\n"
+	.string "built and the space you've\p"
+	.string "cultivated.Thanks for being\n"
+	.string "unabashedly you.$"

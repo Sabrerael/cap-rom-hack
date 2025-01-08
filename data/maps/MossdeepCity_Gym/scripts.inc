@@ -259,7 +259,7 @@ MossdeepCity_Gym_EventScript_Clifford::
 	end
 
 MossdeepCity_Gym_EventScript_Nicholas::
-	trainerbattle_single TRAINER_NICHOLAS, MossdeepCity_Gym_Text_NicholasIntro, MossdeepCity_Gym_Text_NicholasDefeat
+	trainerbattle_single TRAINER_NADIA, MossdeepCity_Gym_Text_NicholasIntro, MossdeepCity_Gym_Text_NicholasDefeat
 	msgbox MossdeepCity_Gym_Text_NicholasPostBattle, MSGBOX_AUTOCLOSE
 	end
 

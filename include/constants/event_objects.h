@@ -250,7 +250,7 @@
 #define OBJ_EVENT_GFX_TOT                        246
 #define OBJ_EVENT_GFX_TREBLE                     247
 #define OBJ_EVENT_GFX_TMONEY                     248
-#define OBJ_EVENT_GFX_PHEBBLE                    249
+#define OBJ_EVENT_GFX_PEHBBLE                    249
 #define OBJ_EVENT_GFX_RYAN_NORMAL                250
 #define OBJ_EVENT_GFX_HAROLD                     251
 #define OBJ_EVENT_GFX_SLING_RYAN                 252

@@ -191,7 +191,7 @@ CastleTownBlindJim_Gym_EventScript_BrawlyDefeated::
 	call Common_EventScript_UpdateBadgesCollected
 	setvar VAR_0x8008, 9
 	call Common_EventScript_SetGymTrainers
-	call CastleTownBlindJim_Gym_EventScript_GiveBulkUp
+	call CastleTownBlindJim_Gym_EventScript_GiveDarkPulse
 	closemessage
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
@@ -204,11 +204,11 @@ CastleTownBlindJim_Gym_EventScript_BrawlyDefeated::
 	release
 	end
 
-CastleTownBlindJim_Gym_EventScript_GiveBulkUp::
-	giveitem ITEM_TM_BULK_UP
+CastleTownBlindJim_Gym_EventScript_GiveDarkPulse::
+	giveitem ITEM_TM_DARK_PULSE
 	goto_if_eq VAR_RESULT, 0, Common_EventScript_BagIsFull
-	msgbox CastleTownBlindJim_Gym_Text_ExplainBulkUp, MSGBOX_DEFAULT
-	setflag FLAG_RECEIVED_TM_OVERHEAT
+	msgbox CastleTownBlindJim_Gym_Text_ExplainDarkPulse, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM_DARK_PULSE
 	return
 
 CastleTownBlindJim_Gym_Text_GymGuideAdvice:
@@ -330,33 +330,34 @@ CastleTownBlindJim_Gym_Text_GymStatueCertified:
 	.string "{PLAYER}$"
 
 CastleTownBlindJim_Gym_Text_Intro:
-    .string "It's me, BlindJim!\n"
-	.string "My whole bit is being blind so my\p"
-	.string "Pokemon are all Dark types.\n"
-	.string "Do you get it?$"
-
+    .string "Seems you've stumbled your way to me\n"
+	.string "finally. I'm BlindJim, Dark-type\p"
+	.string "Gym Leader. As you maybe can see,\n"
+	.string "I'm blind. I've been keeping an ear\p"
+	.string "to the ground sizing you up, but\n"
+	.string "now we will see how you fare!$"
+ 
 CastleTownBlindJim_Gym_Text_PostBattle:
-	.string "Do I still have Pokemon?\n"
-	.string "Did you win?\p"
-	.string "I cannot tell because I'm blind.$"
+	.string "Seems you gotten a feel for how the\n"
+	.string "Jim works.\p"
+	.string "I can Braillie believe this outcome.$"
 
 CastleTownBlindJim_Gym_Text_ReceivedBlindfoldBadge:
-	.string "{PLAYER} received the BLINDFOLD BADGE\n"
+	.string "{PLAYER} received the Blindfold Badge\n"
 	.string "from BlindJim.$"
 
 CastleTownBlindJim_Gym_Text_BlindfoldBadgeInfoTakeThis:
-	.string "The BLINDFOLD BADGE signifies that\n"
-	.string "a trainer has bested me, BlindJim,\l"
-	.string "in battle.\p"
-	.string "As such, you are entitled to new\n"
-	.string "benefits in the Guild Hall.\p"
-	.string "If you'd like, use this TECHNICAL\n"
-	.string "MACHINE, too.$"
-
-CastleTownBlindJim_Gym_Text_ExplainBulkUp:
-	.string "That TM08 contains BULK UP.\p"
-	.string "It's a move that raises both ATTACK\n"
-	.string "and DEFENSE stats.\p"
+	.string "The Blindfold Badge means that you have\n"
+	.string "beaten me, a blind man in a battle.\p"
+	.string "Good Job and Congratulations.\p"
+	.string "You can go back to the Guild Hall and\n"
+	.string "get some new stuff.\p"
+	.string "Take a TM.$"
+  
+CastleTownBlindJim_Gym_Text_ExplainDarkPulse:
+	.string "That TM08 contains Dark Pulse.\p"
+	.string "It's something your enemies likely\n"
+	.string "won't see coming KEKW.\p"
 	.string "… … … … … …$"
 
 CastleTownBlindJim_Gym_Text_RegisteredBlindJim:
@@ -370,6 +371,7 @@ CastleTownBlindJim_Gym_Text_TurnOnLights:
 	.string "us can see where we're going.$"
 
 CastleTownBlindJim_Gym_Text_BlindJimPostBattle:
-	.string "Man, it really was dark in here, huh?\n"
-	.string "Anyway, have fun continuing your\l"
-	.string "adventure!"
+    .string "This is why you are my Screener…\p"
+	.string "screamer? Streamer. Anyway, I\n"
+	.string "appreciate you and everything you do.\p"
+	.string "Man, it really was dark in here, huh?$"

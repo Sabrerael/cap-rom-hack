@@ -20,7 +20,7 @@
     },
     {
       "map": "MAP_CASTLE_TOWN_TREBLE",
-      "offset": -2,
+      "offset": 0,
       "direction": "left"
     }
   ],

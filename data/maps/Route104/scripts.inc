@@ -242,7 +242,7 @@ Route104_EventScript_BattleBrendanTorchic::
 	end
 
 Route104_EventScript_BattleBrendanMudkip::
-	trainerbattle_no_intro TRAINER_PHEBBLE_2, Route104_Text_BrendanDefeat
+	trainerbattle_no_intro TRAINER_PEHBBLE_2, Route104_Text_BrendanDefeat
 	setflag FLAG_DEFEATED_RIVAL_ROUTE_104
 	goto Route104_EventScript_BrendanDefeated
 	end

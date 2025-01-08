@@ -36,9 +36,9 @@ DewfordTown_Gym_SetGymTrainers::
 MauvilleCity_Gym_SetGymTrainers::
 	settrainerflag TRAINER_KIRK
 	settrainerflag TRAINER_SHAWN
-	settrainerflag TRAINER_BEN
+	settrainerflag TRAINER_JEN
 	settrainerflag TRAINER_VIVIAN
-	settrainerflag TRAINER_ANGELO
+	settrainerflag TRAINER_ANGEL
 	return
 
 LavaridgeTown_Gym_SetGymTrainers::
@@ -83,7 +83,7 @@ MossdeepCity_Gym_SetGymTrainers::
 	settrainerflag TRAINER_KATHLEEN
 	settrainerflag TRAINER_CLIFFORD
 	settrainerflag TRAINER_MACEY
-	settrainerflag TRAINER_NICHOLAS
+	settrainerflag TRAINER_NADIA
 	return
 
 SootopolisCity_Gym_SetGymTrainers::
@@ -170,10 +170,10 @@ CastleTownTot_Gym_SetGymTrainers::
 	return
 
 CastleTownTreble_Gym_SetGymTrainers::
-	settrainerflag TRAINER_ANGELO
-	settrainerflag TRAINER_BEN
+	settrainerflag TRAINER_ANGEL
+	settrainerflag TRAINER_JEN
 	settrainerflag TRAINER_BETHANY
-	settrainerflag TRAINER_NICHOLAS
+	settrainerflag TRAINER_NADIA
 	settrainerflag TRAINER_KIRK
 	settrainerflag TRAINER_SHAWN
 	settrainerflag TRAINER_VIVIAN

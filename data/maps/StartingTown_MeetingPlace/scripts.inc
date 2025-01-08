@@ -5,6 +5,13 @@ StartingTown_MeetingPlace_EventScript_Receptionist::
 	msgbox StartingTown_MeetingPlace_Text_Receptionist, MSGBOX_NPC
 	end
 
+StartingTown_MeetingPlace_EventScript_Professor::
+	lock
+	faceplayer
+    goto ProfBirch_EventScript_AskRatePokedex
+	release
+	end
+
 StartingTown_MeetingPlace_EventScript_TMGuy::
 	lock
 	faceplayer
@@ -29,8 +36,20 @@ StartingTown_MeetingPlace_TMGuy:
 	release
 	end
 
+StartingTown_MeetingPlace_EventScript_HMGuy::
+	msgbox StartingTown_MeetingPlace_Text_Receptionist, MSGBOX_NPC
+	end
+
+StartingTown_MeetingPlace_EventScript_MoveRelearner::
+	msgbox StartingTown_MeetingPlace_Text_Receptionist, MSGBOX_NPC
+	end
+
+StartingTown_MeetingPlace_EventScript_OldRodGuy::
+	msgbox StartingTown_MeetingPlace_Text_Receptionist, MSGBOX_NPC
+	end
+
 StartingTown_MeetingPlace_Text_Receptionist:
-	.string "Placeholder, will be updated.$"
+	.string "Hello and welcome to the Guild Hall.$"
 
 StartingTown_MeetingPlace_Text_TMGuy:
 	.string "Hey there. I've got some TMs\n"
