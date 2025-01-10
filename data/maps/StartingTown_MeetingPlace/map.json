@@ -102,7 +102,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "StartingTown_MeetingPlace_EventScript_FriendshipChecker",
       "flag": "FLAG_HIDE_FRIENDSHIP_CHECKER"
     },
     {
@@ -115,7 +115,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "StartingTown_MeetingPlace_EventScript_GoodRodGuy",
       "flag": "FLAG_HIDE_GOOD_ROD_GUY"
     },
     {
@@ -128,7 +128,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "StartingTown_MeetingPlace_EventScript_IVChecker",
       "flag": "FLAG_HIDE_IV_JUDGE"
     },
     {
@@ -141,7 +141,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "StartingTown_MeetingPlace_EventScript_SuperRodGuy",
       "flag": "FLAG_HIDE_SUPER_ROD_GUY"
     },
     {
@@ -154,7 +154,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "StartingTown_MeetingPlace_EventScript_MoveTutor",
       "flag": "FLAG_HIDE_MOVE_TUTOR"
     },
     {
@@ -167,7 +167,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "StartingTown_MeetingPlace_EventScript_SpecialVendor",
       "flag": "FLAG_HIDE_SPECIAL_VENDOR"
     },
     {
@@ -180,7 +180,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "StartingTown_MeetingPlace_EventScript_BikeGuy",
       "flag": "FLAG_HIDE_BIKE_GUY"
     }
   ],
