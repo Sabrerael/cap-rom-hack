@@ -1,5 +1,6 @@
 .set LOCALID_PEHBBLE, 1
 .set LOCALID_SABRE, 3
+.set LOCALID_PEHBBLE_2, 5
 
 StartingTown_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, StartingTown_OnTransition
@@ -95,7 +96,7 @@ StartingTown_EventScript_PehbbleFight1Trigger9::
 	end
 
 StartingTown_EventScript_PehbbleFight1Trigger::
-    msgbox StartingTown_Text_PehbbleHey, MSGBOX_DEFAULT
+    msgbox Pehbble_Text_HeyYou, MSGBOX_DEFAULT
 	closemessage
 	call_if_eq VAR_0x8008, 0, StartingTown_EventScript_RivalApproachPlayer0
 	call_if_eq VAR_0x8008, 1, StartingTown_EventScript_RivalApproachPlayer1
@@ -107,7 +108,7 @@ StartingTown_EventScript_PehbbleFight1Trigger::
 	call_if_eq VAR_0x8008, 7, StartingTown_EventScript_RivalApproachPlayer7
 	call_if_eq VAR_0x8008, 8, StartingTown_EventScript_RivalApproachPlayer8
 	call_if_eq VAR_0x8008, 9, StartingTown_EventScript_RivalApproachPlayer9
-	msgbox StartingTown_Text_PehbbleLetsBattle, MSGBOX_DEFAULT
+	msgbox Pehbble_Text_BattleOneIntro, MSGBOX_DEFAULT
 	goto StartingTown_EventScript_StartPehbbleBattle
 	end
 
@@ -182,12 +183,16 @@ StartingTown_EventScript_RivalApproachPlayer9::
 	return
 
 StartingTown_EventScript_StartPehbbleBattle::
-	trainerbattle_no_intro TRAINER_PEHBBLE_1, StartingTown_Text_PehbbleDefeated
+	trainerbattle_no_intro TRAINER_PEHBBLE_1, Pehbble_Text_BattleOneDefeated
 	goto StartingTown_EventScript_AfterPehbbleBattle
 	end
 
 StartingTown_EventScript_AfterPehbbleBattle::
-	msgbox StartingTown_Text_PehbbleTimeToHeadBack, MSGBOX_DEFAULT
+	msgbox Pehbble_Text_AfterBattleOne, MSGBOX_DEFAULT
+	waitmessage
+	closemessage
+	delay 15
+	msgbox Pehbble_Text_AfterLeavingBattleOne, MSGBOX_DEFAULT
 	call StartingTown_EventScript_RivalExit
 	end
 
@@ -272,6 +277,60 @@ StartingTown_EventScript_GoInsideWithSabre::
 	waitdooranim
 	clearflag FLAG_HIDE_MAP_NAME_POPUP
 	return
+
+
+StartingTown_EventScript_PehbbleFight3Trigger0::
+	lockall
+	setvar VAR_0x8008, 0
+	goto StartingTown_EventScript_PehbbleFight3Trigger
+	end
+
+StartingTown_EventScript_PehbbleFight3Trigger1::
+	lockall
+	setvar VAR_0x8008, 1
+	goto StartingTown_EventScript_PehbbleFight3Trigger
+	end
+
+StartingTown_EventScript_PehbbleFight3Trigger::
+    msgbox Pehbble_Text_IgnoreOutsideGuildHall, MSGBOX_DEFAULT
+	closemessage
+	call_if_eq VAR_0x8008, 0, StartingTown_EventScript_Pehbble3ApproachPlayer0
+	call_if_eq VAR_0x8008, 1, StartingTown_EventScript_Pehbble3ApproachPlayer1
+	goto StartingTown_EventScript_StartPehbbleBattleThree
+	end
+
+StartingTown_EventScript_Pehbble3ApproachPlayer0::
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	applymovement LOCALID_PEHBBLE_2, StartingTown_Movement_Pehbble3ApproachPlayer0
+	waitmovement 0
+	return
+
+StartingTown_EventScript_Pehbble3ApproachPlayer1::
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	applymovement LOCALID_PEHBBLE_2, StartingTown_Movement_Pehbble3ApproachPlayer1
+	waitmovement 0
+	return
+
+StartingTown_EventScript_StartPehbbleBattleThree::
+	lockall
+	msgbox Pehbble_Text_BattleThreeIntro, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_PEHBBLE_3, Pehbble_Text_BattleThreeDefeated
+	goto StartingTown_EventScript_AfterPehbbleBattleThree
+	end
+
+StartingTown_EventScript_AfterPehbbleBattleThree::
+	msgbox Pehbble_Text_AfterBattleThree, MSGBOX_DEFAULT
+	waitmessage
+	closemessage
+	applymovement LOCALID_PEHBBLE, Common_Movement_WalkInPlaceFasterUp
+	setvar VAR_PEHBBLE_STATE, 3
+	setflag FLAG_HIDE_PEHBBLE_BATTLE_3
+	savebgm MUS_DUMMY
+	fadedefaultbgm
+	releaseall
+	end
 
 StartingTown_EventScript_HouseSign::
 	msgbox StartingTown_Text_HouseSign, MSGBOX_SIGN
@@ -482,30 +541,16 @@ StartingTown_Movement_PlayerEnterHouse:
 	walk_up
 	step_end
 
-StartingTown_Text_PehbbleHey:
-    .string "HEY YOU!$"
+StartingTown_Movement_Pehbble3ApproachPlayer0:
+	walk_right
+	walk_up
+	step_end
 
-StartingTown_Text_PehbbleLetsBattle:
-	.string "Pehbble: Thought you could skip town\n"
-	.string "without talking to me, huh?\p"
-	.string "I can't believe you took away my\n"
-	.string "mod privledges! The nerve!\p"
-	.string "Oh you got a POKéMON, huh?\p"
-	.string "Looks like it's time to\n"
-	.string "to teach you a lesson!$"
-
-StartingTown_Text_PehbbleDefeated:
-	.string "Huh. Well obviously I was taking\n"
-	.string "it easy on you.$"
-
-StartingTown_Text_PehbbleTimeToHeadBack:
-	.string "Pehbble: Okay, so you beat me this time.\n"
-	.string "Well, I'm going on my own adventure.\p"
-	.string "I'm going to catch and train even more\n"
-	.string "POKéMON and fight you again.\p"
-	.string "Once I beat you {PLAYER}, you'll have to\n"
-	.string "make me a mod again.\p"
-	.string "We'll see who gets the last laugh!$"
+StartingTown_Movement_Pehbble3ApproachPlayer1:
+	walk_right
+	walk_right
+	walk_up
+	step_end
 
 StartingTown_Text_SabreText:
     .string "Hey there buddy! Glad you could finally\n"
