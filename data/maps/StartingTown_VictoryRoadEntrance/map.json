@@ -33,21 +33,21 @@
       "x": 4,
       "y": 9,
       "elevation": 0,
-      "dest_map": "MAP_STARTING_TOWN_VICTORY_ROAD_ENTRANCE",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_STARTING_TOWN",
+      "dest_warp_id": "5"
     },
     {
       "x": 5,
       "y": 9,
       "elevation": 0,
-      "dest_map": "MAP_STARTING_TOWN_VICTORY_ROAD_ENTRANCE",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_STARTING_TOWN",
+      "dest_warp_id": "6"
     },
     {
       "x": 4,
       "y": 1,
       "elevation": 0,
-      "dest_map": "MAP_STARTING_TOWN_VICTORY_ROAD_ENTRANCE",
+      "dest_map": "MAP_VICTORY_ROAD_1F",
       "dest_warp_id": "0"
     }
   ],

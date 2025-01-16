@@ -1,7 +1,18 @@
 .set LOCALID_PEHBBLE, 1
+.set LOCALID_SABRE, 3
 
 StartingTown_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, StartingTown_OnTransition
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, StartingTown_OnFrame
 	.byte 0
+
+StartingTown_OnTransition:
+	setflag FLAG_VISITED_LITTLEROOT_TOWN
+	end
+
+StartingTown_OnFrame:
+	map_script_2 VAR_STARTING_TOWN_INTRO_STATE, 0, StartingTown_EventScript_StepOffTruck
+	.2byte 0
 
 StartingTown_EventScript_PehbbleFight1Trigger0::
 	lockall
@@ -228,6 +239,76 @@ StartingTown_EventScript_RivalEnd::
 	releaseall
 	end
 
+StartingTown_EventScript_StepOffTruck::
+	lockall
+	setvar VAR_0x8004, 5
+	setvar VAR_0x8005, 8
+	call StartingTown_EventScript_GoInsideWithSabre
+	setflag FLAG_HIDE_STARTING_TOWN_TRUCK
+	warpsilent MAP_STARTING_TOWN_RYANS_HOUSE_1F, 8, 8
+	waitstate
+	releaseall
+	end
+
+StartingTown_EventScript_GoInsideWithSabre::
+	delay 15
+	playse SE_LEDGE
+	applymovement OBJ_EVENT_ID_PLAYER, StartingTown_Movement_PlayerStepOffTruck
+	waitmovement 0
+	msgbox StartingTown_Text_SabreText, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_SABRE, StartingTown_Movement_SabreApproachDoor
+	applymovement OBJ_EVENT_ID_PLAYER, StartingTown_Movement_PlayerApproachDoor
+	waitmovement 0
+	opendoor VAR_0x8004, VAR_0x8005
+	waitdooranim
+	applymovement LOCALID_SABRE, StartingTown_Movement_SabreEnterHouse
+	applymovement OBJ_EVENT_ID_PLAYER, StartingTown_Movement_PlayerEnterHouse
+	waitmovement 0
+	setflag FLAG_HIDE_SABRE_STARTING_TOWN
+	setvar VAR_STARTING_TOWN_INTRO_STATE, 1
+	hideobjectat OBJ_EVENT_ID_PLAYER, 0
+	closedoor VAR_0x8004, VAR_0x8005
+	waitdooranim
+	clearflag FLAG_HIDE_MAP_NAME_POPUP
+	return
+
+StartingTown_EventScript_HouseSign::
+	msgbox StartingTown_Text_HouseSign, MSGBOX_SIGN
+	end
+
+StartingTown_EventScript_GuildHallSign::
+	msgbox StartingTown_Text_GuildHallSign, MSGBOX_SIGN
+	end
+
+StartingTown_EventScript_GuildCommonsSign::
+	msgbox StartingTown_Text_GuildCommonsSign, MSGBOX_SIGN
+	end
+
+StartingTown_EventScript_PokemonLeagueSign::
+	msgbox StartingTown_Text_PokemonLeagueSign, MSGBOX_SIGN
+	end
+
+StartingTown_EventScript_TechnologyGuy::
+	msgbox StartingTown_Text_TechnologyGuy, MSGBOX_DEFAULT
+	release
+	end
+
+StartingTown_EventScript_ExerciseGirl::
+	msgbox StartingTown_Text_ExerciseGirl, MSGBOX_DEFAULT
+	release
+	end
+
+StartingTown_EventScript_GuySeekingPlayer::
+	msgbox StartingTown_Text_GuySeekingPlayer, MSGBOX_DEFAULT
+	release
+	end
+
+StartingTown_EventScript_PokemonLeagueWoman::
+	msgbox StartingTown_Text_PokemonLeagueWoman, MSGBOX_DEFAULT
+	release
+	end
+
 StartingTown_Movement_RivalApproachPlayer0:
 	walk_up
 	walk_up
@@ -372,6 +453,35 @@ StartingTown_Movement_RivalLeavePlayer3:
 	walk_left
 	step_end
 
+StartingTown_Movement_PlayerStepOffTruck:
+	jump_right
+	delay_16
+	delay_16
+	step_end
+
+StartingTown_Movement_SabreApproachDoor:
+	delay_16
+	delay_8
+	walk_up
+	step_end
+
+StartingTown_Movement_SabreEnterHouse:
+	walk_up
+	set_invisible
+	step_end
+
+StartingTown_Movement_PlayerApproachDoor:
+	delay_16
+	delay_8
+	walk_right
+	walk_in_place_faster_up
+	step_end
+
+StartingTown_Movement_PlayerEnterHouse:
+	walk_up
+	walk_up
+	step_end
+
 StartingTown_Text_PehbbleHey:
     .string "HEY YOU!$"
 
@@ -396,3 +506,53 @@ StartingTown_Text_PehbbleTimeToHeadBack:
 	.string "Once I beat you {PLAYER}, you'll have to\n"
 	.string "make me a mod again.\p"
 	.string "We'll see who gets the last laugh!$"
+
+StartingTown_Text_SabreText:
+    .string "Hey there buddy! Glad you could finally\n"
+	.string "join us! Hopefully you didn't get\p"
+	.string "bumped around in the truck too badly.\n"
+	.string "Welcome to the Guild Lands!\p"
+	.string "I'm Sabre, the developer of this ROM\n"
+	.string "and one of the Moderators here.\p"
+	.string "All your stuff got here before you\n"
+	.string "so you don't have to worry about\l"
+	.string "unpacking and getting moved in!\p"
+	.string "Let's head inside and get you\n"
+	.string "situated.$"
+
+StartingTown_Text_TechnologyGuy:
+    .string "Technology is incredible! A whole\n"
+	.string "communitity of people can gather\p"
+	.string "together and support each other\n"
+	.string "using the Internet!$"
+
+StartingTown_Text_ExerciseGirl:
+    .string "Do you mind? After this run, I\n"
+	.string "have to do my push-ups, squats,\p"
+	.string "and my plank. I don't appreciate\n"
+	.string "the interruption!$"
+
+StartingTown_Text_GuySeekingPlayer:
+    .string "Hey, I'm looking someone to go\n"
+	.string "exploring with! Oh sorry, I meant\p"
+	.string "someone with a little more experience\n"
+	.string "under their belt.$"
+
+StartingTown_Text_PokemonLeagueWoman:
+    .string "Through this building is Victory\n"
+	.string "Road and beyond that, the Pokémon\p"
+	.string "League. Only the strongest trainers\n"
+	.string "can hope to compete there.$"
+
+StartingTown_Text_HouseSign:
+	.string "{PLAYER}'s house$"
+
+StartingTown_Text_GuildHallSign:
+	.string "The Guild Hall$"
+
+StartingTown_Text_GuildCommonsSign:
+	.string "Welcome to the Guild!\n"
+	.string "Make everyday an adventure!$"
+
+StartingTown_Text_PokemonLeagueSign:
+	.string "Entrance to Pokémon League$"

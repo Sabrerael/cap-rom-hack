@@ -733,13 +733,13 @@
 #define FLAG_UNUSED_0x2B2  0x2B2 // Unused Flag
 #define FLAG_UNUSED_0x2B3  0x2B3 // Unused Flag
 #define FLAG_UNUSED_0x2B4  0x2B4 // Unused Flag
-#define FLAG_UNUSED_0x2B5  0x2B5 // Unused Flag
-#define FLAG_RECEIVED_BULBASAUR  0x2B6
-#define FLAG_RECEIVED_CHARMANDER  0x2B7
-#define FLAG_RECEIVED_SQUIRTLE  0x2B8 
-#define FLAG_HIDE_PLAYERS_HOUSE_2F_BULBASAUR_POKEBALL  0x2B9
-#define FLAG_HIDE_PLAYERS_HOUSE_2F_CHARMANDER_POKEBALL  0x2BA
-#define FLAG_HIDE_PLAYERS_HOUSE_2F_SQUIRTLE_POKEBALL  0x2BB 
+#define FLAG_HIDE_STARTING_TOWN_TRUCK                               0x2B5
+#define FLAG_RECEIVED_BULBASAUR                                     0x2B6
+#define FLAG_RECEIVED_CHARMANDER                                    0x2B7
+#define FLAG_RECEIVED_SQUIRTLE                                      0x2B8 
+#define FLAG_HIDE_PLAYERS_HOUSE_2F_BULBASAUR_POKEBALL               0x2B9
+#define FLAG_HIDE_PLAYERS_HOUSE_2F_CHARMANDER_POKEBALL              0x2BA
+#define FLAG_HIDE_PLAYERS_HOUSE_2F_SQUIRTLE_POKEBALL                0x2BB 
 
 // Event Flags
 #define FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG                      0x2BC
@@ -772,7 +772,7 @@
 #define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY   0x2D7
 #define FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM                         0x2D8
 
-#define FLAG_UNUSED_0x2D9                                           0x2D9 // Unused Flag
+#define FLAG_HIDE_SABRE_STARTING_TOWN                               0x2D9
 
 #define FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER                     0x2DA
 #define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0x2DB
@@ -959,7 +959,7 @@
 #define FLAG_HIDE_MAUVILLE_CITY_WATTSON                             0x390
 #define FLAG_HIDE_MAUVILLE_GYM_WATTSON                              0x391
 #define FLAG_HIDE_ROUTE_121_TEAM_AQUA_GRUNTS                        0x392
-#define FLAG_UNKNOWN_0x393                                          0x393 // Set, however has no purpose.
+#define FLAG_HIDE_SABRE_RYANS_HOUSE                                 0x393
 #define FLAG_HIDE_MT_PYRE_SUMMIT_ARCHIE                             0x394
 #define FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_AQUA                          0x395
 #define FLAG_HIDE_BATTLE_TOWER_REPORTER                             0x396
