@@ -1044,6 +1044,18 @@ static const struct SpriteFrameImage sPicTable_TMoney[] = {
     overworld_ascending_frames(gObjectEventPic_TMoney, 2, 4),
 };
 
+static const struct SpriteFrameImage sPicTable_Tot[] = {
+    overworld_ascending_frames(gObjectEventPic_Tot, 2, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_Andy[] = {
+    overworld_ascending_frames(gObjectEventPic_Andy, 2, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_Pehbble[] = {
+    overworld_ascending_frames(gObjectEventPic_Pehbble, 2, 4),
+};
+
 static const struct SpriteFrameImage sPicTable_Harold[] = {
     overworld_ascending_frames(gObjectEventPic_Harold, 2, 4),
 };

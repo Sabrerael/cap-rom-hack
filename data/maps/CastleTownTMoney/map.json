@@ -21,7 +21,7 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
+      "graphics_id": "OBJ_EVENT_GFX_PEHBBLE",
       "x": 25,
       "y": 29,
       "elevation": 0,
@@ -32,6 +32,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Pehbble_EventScript_StartPehbbleBattleTwo",
       "flag": "FLAG_HIDE_PEHBBLE_BATTLE_2"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "x": 8,
+      "y": 28,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CastleTownTMoney_EventScript_CoinCase",
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -75,6 +88,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "CastleTownTMoney_EventScript_GymSign"
+    },
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 21,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "UnderConstruction_EventScript_UnderConstruction"
     }
   ]
 }

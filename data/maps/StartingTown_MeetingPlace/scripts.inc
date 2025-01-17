@@ -50,7 +50,15 @@ StartingTown_MeetingPlace_TMGuy:
 	end
 
 StartingTown_MeetingPlace_EventScript_HMGuy::
-	msgbox StartingTown_MeetingPlace_Text_Receptionist, MSGBOX_NPC
+	msgbox StartingTown_MeetingPlace_Text_HMGuy, MSGBOX_NPC
+	giveitem ITEM_HM_CUT
+	giveitem ITEM_HM_FLY
+	giveitem ITEM_HM_SURF
+	giveitem ITEM_HM_STRENGTH
+	giveitem ITEM_HM_FLASH
+	giveitem ITEM_HM_ROCK_SMASH
+	giveitem ITEM_HM_WATERFALL
+	giveitem ITEM_HM_DIVE
 	end
 
 StartingTown_MeetingPlace_EventScript_MoveRelearner::
@@ -395,3 +403,7 @@ StartingTown_MeetingPlace_Text_TMGuy:
 
 StartingTown_MeetingPlace_Text_TMGuy_Leave:
     .string "See you later!$"
+
+StartingTown_MeetingPlace_Text_HMGuy:
+	.string "Hey there! I've got HMs\n"
+	.string "for you! No charge!$"

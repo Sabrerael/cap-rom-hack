@@ -26,8 +26,8 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
-      "x": 27,
+      "graphics_id": "OBJ_EVENT_GFX_PEHBBLE",
+      "x": 28,
       "y": 29,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -73,6 +73,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "CastleTownBlindJim_EventScript_GymSign"
+    },
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 29,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "UnderConstruction_EventScript_UnderConstruction"
     }
   ]
 }

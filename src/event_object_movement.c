@@ -510,6 +510,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_RyanReflection,        OBJ_EVENT_PAL_TAG_RYAN_REFLECTION},
     {gObjectEventPal_Treble,                OBJ_EVENT_PAL_TAG_TREBLE},
     {gObjectEventPal_TMoney,                OBJ_EVENT_PAL_TAG_TMONEY},
+    {gObjectEventPal_Tot,                   OBJ_EVENT_PAL_TAG_TOT},
     {gObjectEventPal_Harold,                OBJ_EVENT_PAL_TAG_HAROLD},
     {gObjectEventPal_SlingRyan,             OBJ_EVENT_PAL_TAG_SLING_RYAN},
     {gObjectEventPal_PirateRyan,            OBJ_EVENT_PAL_TAG_PIRATE_RYAN},
