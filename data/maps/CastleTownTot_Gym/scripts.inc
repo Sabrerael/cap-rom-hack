@@ -119,6 +119,7 @@ CastleTownTot_Gym_EventScript_Nate::
 	end
 
 CastleTownTot_Gym_EventScript_Tate::
+	goto_if_set FLAG_DEFEATED_MOSSDEEP_GYM, CastleTownTot_Gym_EventScript_TotAfterBattle
     goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTot_Gym_EventScript_Tate_ZeroBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTot_Gym_EventScript_Tate_OneBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownTot_Gym_EventScript_Tate_TwoBadge
@@ -132,49 +133,46 @@ CastleTownTot_Gym_EventScript_Tate::
 
 CastleTownTot_Gym_EventScript_Tate_ZeroBadge::
 	trainerbattle_single TRAINER_TOT_1, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
-	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTot_Gym_EventScript_Tate_OneBadge::
 	trainerbattle_single TRAINER_TOT_2, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
-	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTot_Gym_EventScript_Tate_TwoBadge::
 	trainerbattle_single TRAINER_TOT_3, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
-	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTot_Gym_EventScript_Tate_ThreeBadge::
 	trainerbattle_single TRAINER_TOT_4, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
-	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTot_Gym_EventScript_Tate_FourBadge::
 	trainerbattle_single TRAINER_TOT_5, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
-	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTot_Gym_EventScript_Tate_FiveBadge::
 	trainerbattle_single TRAINER_TOT_6, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
-	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTot_Gym_EventScript_Tate_SixBadge::
 	trainerbattle_single TRAINER_TOT_7, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
-	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownTot_Gym_EventScript_Tate_SevenBadge::
 	trainerbattle_single TRAINER_TOT_8, CastleTownTot_Gym_Text_Intro, CastleTownTot_Gym_Text_PostBattle, CastleTownTot_Gym_EventScript_TateDefeated, NO_MUSIC
-	msgbox CastleTownTot_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTot_Gym_EventScript_TotAfterBattle::
+	msgbox CastleTownTot_Gym_Text_TotPostBattle, MSGBOX_DEFAULT
 	release
 	end
 
@@ -213,9 +211,9 @@ CastleTownTot_Gym_Text_GymGuideAdvice:
 	.string "STEEL or POISON POKéMON to get the drop\n"
 	.string "on them. Be warned though, DRAGON-types won't\p"
 	.string "be able to damage them! She's waiting at\p"
-	.string "the back of this GYM. To get to her,\l"
-	.string "you'll need to find all of the campers\n"
-	.string "hiding in the area in front of us."
+	.string "the back of this GYM. To get to her,\n"
+	.string "you'll need to find all of the campers\l"
+	.string "hiding in the area in front of us.\p"
 	.string "Ready or not, you better get going!$"
 
 CastleTownTot_Gym_Text_GymGuidePostVictory:
@@ -333,23 +331,31 @@ CastleTownTot_Gym_Text_NatePostBattle:
 	.string "however b-badly.$"
 
 CastleTownTot_Gym_Text_Intro:
-	.string "Let's battle!$"
+	.string "What?! No one’s ever found me\n"
+	.string "before! You must be really good!\p"
+	.string "Well let’s find out how good!$"
 
 CastleTownTot_Gym_Text_PostBattle:
-	.string "Good job!$"
+	.string "Wow you’re the first person\n"
+	.string "I’ve had this much fun with!\p"
+	.string "Here! Take this badge!$"
 
 CastleTownTot_Gym_Text_ReceivedPixieBadge:
-	.string "{PLAYER} received the PIXIE BADGE\n"
+	.string "{PLAYER} received the Pixie Badge\n"
 	.string "from Tot.$"
 
 CastleTownTot_Gym_Text_PixieBadgeInfoTakeThis:
-	.string "The PIXIE BADGE signifies that\n"
-	.string "a trainer has bested me, Tot,\l"
-	.string "in battle. For claiming a new badge\p"
-	.string "you are entitled to new\n"
-	.string "benefits in the Guild Hall.\p"
-	.string "If you'd like, use this TECHNICAL\n"
-	.string "MACHINE, too.$"
+	.string "The Pixie Badge means that beat\n"
+	.string "me in battle.\p"
+	.string "That means you get new stuff from\n"
+	.string "the Guild Hall.\p"
+	.string "I hope the badge helps remind you\n"
+	.string "to always find joy in your adventures\l"
+	.string "no matter how challenging!\p" 
+	.string "Please come back again soon so we\n"
+	.string "can have more fun together\p"
+	.string "Oh before you go, take this Technical\n"
+	.string "Machine too.$"
 
 CastleTownTot_Gym_Text_ExplainDazzlingGleam:
 	.string "TM-97 contains Dazzling Gleam!\n"
@@ -363,5 +369,14 @@ CastleTownTot_Gym_Text_RegisteredTot:
 	.string "in the POKéNAV.$"
 
 CastleTownTot_Gym_Text_TotPostBattle:
-	.string "I made this Gym as a reminder of\n"
-	.string "of where we met!$"
+	.string "Thank you for being my adventure\n"
+	.string "buddy!\p"
+	.string "You are so silly and fun to be\n"
+	.string "around and I can’t imagine sharing\l"
+	.string "this badge with anyone but you!\p"
+	.string "Your upbeat energy and kindness is\n"
+	.string "contagious and you make this world\l"
+	.string "a better place by just being you!\p"
+	.string "Our community is so lucky to have you!\p"
+	.string "Good luck with the rest of this\n"
+	.string "adventure!$"

@@ -4,10 +4,10 @@
 .set LOCALID_VIVIAN, 8
 
 CastleTownTreble_Gym_MapScripts::
-    map_script MAP_SCRIPT_ON_TRANSITION, CastleTownTreble_Gym_OnTransition
+    map_script MAP_SCRIPT_ON_LOAD, CastleTownTreble_Gym_OnLoad
 	.byte 0
 
-CastleTownTreble_Gym_OnTransition:
+CastleTownTreble_Gym_OnLoad:
 	call CastleTownTreble_Gym_EventScript_CheckTrees
 	end
 
@@ -52,6 +52,7 @@ CastleTownTreble_Gym_EventScript_CheckTrees::
 	goto_if_set FLAG_TREBLE_GYM_TREES_3, CastleTownTreble_Gym_EventScript_RemoveAllTrees3
 	goto_if_set FLAG_TREBLE_GYM_TREES_2, CastleTownTreble_Gym_EventScript_RemoveAllTrees2
 	goto_if_set FLAG_TREBLE_GYM_TREES_1, CastleTownTreble_Gym_EventScript_RemoveTrees1
+	special DrawWholeMapView
 	end
 
 CastleTownTreble_Gym_EventScript_RemoveAllTrees::
@@ -59,17 +60,20 @@ CastleTownTreble_Gym_EventScript_RemoveAllTrees::
 	call CastleTownTreble_Gym_EventScript_RemoveTrees2
 	call CastleTownTreble_Gym_EventScript_RemoveTrees3
 	call CastleTownTreble_Gym_EventScript_RemoveTrees4
+	special DrawWholeMapView
 	end
 
 CastleTownTreble_Gym_EventScript_RemoveAllTrees3::
 	call CastleTownTreble_Gym_EventScript_RemoveTrees1
 	call CastleTownTreble_Gym_EventScript_RemoveTrees2
 	call CastleTownTreble_Gym_EventScript_RemoveTrees3
+	special DrawWholeMapView
 	end
 
 CastleTownTreble_Gym_EventScript_RemoveAllTrees2::
 	call CastleTownTreble_Gym_EventScript_RemoveTrees1
 	call CastleTownTreble_Gym_EventScript_RemoveTrees2
+	special DrawWholeMapView
 	end
 
 CastleTownTreble_Gym_EventScript_CheckBerryFullyGrown::
@@ -468,6 +472,7 @@ CastleTownTreble_Gym_EventScript_Bethany::
 	end
 
 CastleTownTreble_Gym_EventScript_Wattson::
+	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, CastleTownTreble_Gym_EventScript_GymGuidePostVictory
     goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTreble_Gym_EventScript_Wattson_ZeroBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTreble_Gym_EventScript_Wattson_OneBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownTreble_Gym_EventScript_Wattson_TwoBadge
@@ -524,6 +529,11 @@ CastleTownTreble_Gym_EventScript_Wattson_SixBadge::
 CastleTownTreble_Gym_EventScript_Wattson_SevenBadge::
 	trainerbattle_single TRAINER_TREBLE_8, CastleTownTreble_Gym_Text_Intro, CastleTownTreble_Gym_Text_PostBattle, CastleTownTreble_Gym_EventScript_WattsonDefeated, NO_MUSIC
 	msgbox CastleTownTreble_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_TrebleAfterBattle::
+	msgbox CastleTownTreble_Gym_Text_TreblePostBattle, MSGBOX_DEFAULT
 	release
 	end
 

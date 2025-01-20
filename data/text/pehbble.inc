@@ -177,7 +177,7 @@ Pehbble_Text_AfterBattleSix:
 	.string "Love you, bye!$"
 
 UnderConstruction_EventScript_UnderConstruction::
-	msgbox StartingTown_Text_HouseSign, MSGBOX_SIGN
+	msgbox UnderConstruction_Text_UnderConstuction, MSGBOX_SIGN
 	end
 
 UnderConstruction_Text_UnderConstuction:
