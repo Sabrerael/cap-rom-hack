@@ -149,6 +149,9 @@ $(OBJEVENTGFXDIR)/people/elite_four/sling_ryan.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/elite_four/pirate_ryan.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
+$(OBJEVENTGFXDIR)/people/pehbble.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
 
 $(OBJEVENTGFXDIR)/people/may/walking.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4

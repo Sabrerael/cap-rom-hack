@@ -294,6 +294,7 @@ StartingTown_RyansHouse_1F_AdventureGift::
 	setflag FLAG_SYS_POKENAV_GET
 	setflag FLAG_RECEIVED_POKENAV
 	setflag FLAG_HAS_MATCH_CALL
+	setflag FLAG_ADDED_MATCH_CALL_TO_POKENAV
 	setflag FLAG_ENABLE_PROF_BIRCH_MATCH_CALL
 	waitfanfare
 	playfanfare MUS_OBTAIN_ITEM

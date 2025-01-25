@@ -1,5 +1,10 @@
 CastleTownTot_Gym_MapScripts::
+    map_script MAP_SCRIPT_ON_LOAD, CastleTownTot_Gym_OnLoad
 	.byte 0
+
+CastleTownTot_Gym_OnLoad:
+	call CastleTownTot_Gym_EventScript_CheckTrees
+	end
 
 CastleTownTot_Gym_EventScript_GymGuide::
 	lock

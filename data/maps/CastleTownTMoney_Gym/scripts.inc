@@ -72,6 +72,7 @@ CastleTownTMoney_Gym_EventScript_Crissy::
 	end
 
 CastleTownTMoney_Gym_EventScript_Winona::
+	goto_if_set FLAG_DEFEATED_FORTREE_GYM, CastleTownTMoney_Gym_Text_TMoneyPostBattle
     goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTMoney_Gym_EventScript_Winona_ZeroBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTMoney_Gym_EventScript_Winona_OneBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownTMoney_Gym_EventScript_Winona_TwoBadge

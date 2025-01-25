@@ -65,13 +65,13 @@ CastleTownBlindJim_Gym_EventScript_GymGuidePostVictory::
 
 CastleTownBlindJim_Gym_EventScript_LeftGymStatue::
 	lockall
-	goto_if_set FLAG_BADGE02_GET, CastleTownBlindJim_Gym_EventScript_GymStatueCertified
+	goto_if_set FLAG_DEFEATED_DEWFORD_GYM, CastleTownBlindJim_Gym_EventScript_GymStatueCertified
 	goto CastleTownBlindJim_Gym_EventScript_GymStatue
 	end
 
 CastleTownBlindJim_Gym_EventScript_RightGymStatue::
 	lockall
-	goto_if_set FLAG_BADGE02_GET, CastleTownBlindJim_Gym_EventScript_GymStatueCertified
+	goto_if_set FLAG_DEFEATED_DEWFORD_GYM, CastleTownBlindJim_Gym_EventScript_GymStatueCertified
 	goto CastleTownBlindJim_Gym_EventScript_GymStatue
 	end
 
@@ -121,6 +121,7 @@ CastleTownBlindJim_Gym_EventScript_Lilith::
 	end
 
 CastleTownBlindJim_Gym_EventScript_Brawly::
+	goto_if_set FLAG_DEFEATED_DEWFORD_GYM, CastleTownBlindJim_Gym_Text_BlindJimPostBattle
     goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownBlindJim_Gym_EventScript_Brawly_ZeroBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownBlindJim_Gym_EventScript_Brawly_OneBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownBlindJim_Gym_EventScript_Brawly_TwoBadge
@@ -187,7 +188,6 @@ CastleTownBlindJim_Gym_EventScript_BrawlyDefeated::
 	call Common_EventScript_PlayGymBadgeFanfare
 	msgbox CastleTownBlindJim_Gym_Text_BlindfoldBadgeInfoTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_DEWFORD_GYM
-	setflag FLAG_BADGE02_GET
 	call Common_EventScript_UpdateBadgesCollected
 	setvar VAR_0x8008, 9
 	call Common_EventScript_SetGymTrainers

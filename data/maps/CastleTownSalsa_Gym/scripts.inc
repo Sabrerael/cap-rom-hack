@@ -72,6 +72,7 @@ CastleTownSalsa_Gym_EventScript_Jeff::
 	end
 
 CastleTownSalsa_Gym_EventScript_Flannery::
+	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, CastleTownSalsa_Gym_Text_SalsaPostBattle
     goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownSalsa_Gym_EventScript_Flannery_ZeroBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownSalsa_Gym_EventScript_Flannery_OneBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownSalsa_Gym_EventScript_Flannery_TwoBadge

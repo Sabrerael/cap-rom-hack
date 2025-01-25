@@ -159,11 +159,24 @@ CastleTownSabre_Gym_EventScript_Quiz1Right::
 	goto CastleTownSabre_Gym_EventScript_Quiz1
 	end
 
+Quiz1_Text_273:
+    .string "273$"
+
+Quiz1_Text_269:
+    .string "269$"
+
+Quiz1_Text_279:
+    .string "279$"
+
+Quiz1_Text_283:
+    .string "283$"
+
 CastleTownSabre_Gym_EventScript_Quiz1::
 	msgbox CastleTownSabre_Gym_Text_PokemonQuizRules
-	msgbox CastleTownSabre_Gym_Text_QuizQuestion1, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, CastleTownSabre_Gym_EventScript_Quiz1Correct
-	goto_if_eq VAR_RESULT, NO, CastleTownSabre_Gym_EventScript_Quiz1Incorrect
+	msgbox CastleTownSabre_Gym_Text_QuizQuestion1, MSGBOX_DEFAULT
+	dynmultichoice 0,0, TRUE, 4, 0, DYN_MULTICHOICE_CB_NONE, Quiz1_Text_273, Quiz1_Text_269, Quiz1_Text_279, Quiz1_Text_283
+	goto_if_eq VAR_RESULT, 2, CastleTownSabre_Gym_EventScript_Quiz1Correct
+	goto_if_ne VAR_RESULT, 2, CastleTownSabre_Gym_EventScript_Quiz1Incorrect
 	end
 
 CastleTownSabre_Gym_EventScript_Quiz1Correct::
@@ -737,6 +750,7 @@ CastleTownSabre_Gym_EventScript_Quiz7CompleteTrainer::
 	return
 
 CastleTownSabre_Gym_EventScript_Juan::
+	goto_if_set FLAG_DEFEATED_SOOTOPOLIS_GYM, CastleTownSabre_Gym_Text_SabrePostBattle
     goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownSabre_GymEventScript_Juan_ZeroBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownSabre_GymEventScript_Juan_OneBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownSabre_GymEventScript_Juan_TwoBadge
@@ -859,7 +873,8 @@ CastleTownSabre_Gym_Text_PokemonQuizRules::
     .string "Here we go!$"
 
 CastleTownSabre_Gym_Text_QuizQuestion1::
-    .string "CATERPIE evolves into METAPOD?$"
+    .string "How many members does the Discord\n"
+	.string "have?$"
 
 CastleTownSabre_Gym_Text_QuizQuestion2::
     .string "There are nine certified POKéMON\n"

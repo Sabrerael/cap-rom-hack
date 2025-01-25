@@ -3,13 +3,13 @@ CastleTownAndy_Gym_MapScripts::
 
 CastleTownAndy_Gym_EventScript_LeftGymStatue::
 	lockall
-	goto_if_set FLAG_BADGE02_GET, CastleTownAndy_Gym_EventScript_GymStatueCertified
+	goto_if_set FLAG_DEFEATED_RUSTBORO_GYM, CastleTownAndy_Gym_EventScript_GymStatueCertified
 	goto CastleTownAndy_Gym_EventScript_GymStatue
 	end
 
 CastleTownAndy_Gym_EventScript_RightGymStatue::
 	lockall
-	goto_if_set FLAG_BADGE01_GET, CastleTownAndy_Gym_EventScript_GymStatueCertified
+	goto_if_set FLAG_DEFEATED_RUSTBORO_GYM, CastleTownAndy_Gym_EventScript_GymStatueCertified
 	goto CastleTownAndy_Gym_EventScript_GymStatue
 	end
 
@@ -72,6 +72,7 @@ CastleTownAndy_Gym_EventScript_Kathleen::
 	end
 
 CastleTownAndy_Gym_EventScript_Roxanne::
+	goto_if_set FLAG_DEFEATED_RUSTBORO_GYM, CastleTownAndy_Gym_Text_AndyPostBattle
     goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownAndy_Gym_EventScript_Roxanne_ZeroBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownAndy_Gym_EventScript_Roxanne_OneBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownAndy_Gym_EventScript_Roxanne_TwoBadge
@@ -137,7 +138,6 @@ CastleTownAndy_Gym_EventScript_RoxanneDefeated::
 	call Common_EventScript_PlayGymBadgeFanfare
 	msgbox CastleTownAndy_Gym_Text_AvianBadgeInfoTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_RUSTBORO_GYM
-	setflag FLAG_BADGE01_GET
 	call Common_EventScript_UpdateBadgesCollected
 	setvar VAR_0x8008, 10
 	call Common_EventScript_SetGymTrainers

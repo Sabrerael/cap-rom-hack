@@ -472,7 +472,7 @@ CastleTownTreble_Gym_EventScript_Bethany::
 	end
 
 CastleTownTreble_Gym_EventScript_Wattson::
-	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, CastleTownTreble_Gym_EventScript_GymGuidePostVictory
+	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, CastleTownTreble_Gym_Text_TreblePostBattle
     goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTreble_Gym_EventScript_Wattson_ZeroBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTreble_Gym_EventScript_Wattson_OneBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownTreble_Gym_EventScript_Wattson_TwoBadge

@@ -72,6 +72,7 @@ CastleTownHermes_Gym_EventScript_Jody::
 	end
 
 CastleTownHermes_Gym_EventScript_Norman::
+	goto_if_set FLAG_DEFEATED_PETALBURG_GYM, CastleTownHermes_Gym_Text_HermesPostBattle
     goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownHermes_Gym_EventScript_Norman_ZeroBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownHermes_Gym_EventScript_Norman_OneBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownHermes_Gym_EventScript_Norman_TwoBadge

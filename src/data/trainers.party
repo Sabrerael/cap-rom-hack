@@ -6272,7 +6272,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Alluring Voice
 
 === TRAINER_ANDREW ===
-Name: ANDREW
+Name: Andrew
 Class: Fisherman
 Pic: Fisherman
 Gender: Male
@@ -6280,20 +6280,20 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Finneon
+Level Modifier: 3
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
-Tentacool
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Alomomola
+Level Modifier: 2
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
-Magikarp
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Barraskewda
+Level Modifier: 1
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_IVAN ===
-Name: IVAN
+Name: Ivan
 Class: Fisherman
 Pic: Fisherman
 Gender: Male
@@ -6301,17 +6301,21 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Krabby
+Level Modifier: 3
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
-Magikarp
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Clauncher
+Level Modifier: 3
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
-Magikarp
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Corphish
+Level Modifier: 3
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+Veluza
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_CLAUDE ===
 Name: CLAUDE
@@ -15380,7 +15384,7 @@ Pic: Leader Flannery
 Gender: Female
 Music: Female
 Items: Potion / Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Vulpix
@@ -15425,7 +15429,7 @@ Pic: Leader Flannery
 Gender: Female
 Music: Female
 Items: Super Potion / Super Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Vulpix
@@ -15470,7 +15474,7 @@ Pic: Leader Flannery
 Gender: Female
 Music: Female
 Items: Super Potion / Super Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Ninetales
@@ -15515,7 +15519,7 @@ Pic: Leader Flannery
 Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Ninetales
@@ -15560,7 +15564,7 @@ Pic: Leader Flannery
 Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Ninetales
@@ -15615,7 +15619,7 @@ Pic: Leader Flannery
 Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Ninetales
@@ -15670,7 +15674,7 @@ Pic: Leader Flannery
 Gender: Female
 Music: Female
 Items: Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
 Ninetales @ Leftovers
