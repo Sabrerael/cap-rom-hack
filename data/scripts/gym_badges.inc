@@ -21,6 +21,7 @@ Common_EventScript_BadgesCollectedTwo::
 	setflag FLAG_BADGE02_GET
 	clearflag FLAG_HIDE_FRIENDSHIP_CHECKER
 	clearflag FLAG_HIDE_BIKE_GUY
+	clearflag FLAG_HIDE_PEHBBLE_BATTLE_3
 	return
 
 Common_EventScript_BadgesCollectedThree::

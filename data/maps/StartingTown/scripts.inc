@@ -236,6 +236,7 @@ StartingTown_EventScript_RivalLeavePlayer3::
 
 StartingTown_EventScript_RivalEnd::
 	removeobject LOCALID_PEHBBLE
+	clearflag FLAG_HIDE_PEHBBLE_BATTLE_2
 	setvar VAR_PEHBBLE_STATE, 1
 	setflag FLAG_HIDE_STARTING_TOWN_PEHBBLE
 	setflag FLAG_DEFEATED_RIVAL_ROUTE103
