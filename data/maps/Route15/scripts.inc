@@ -11,6 +11,11 @@ Route15_EventScript_Ivan::
 	msgbox Route104_Text_IvanPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route15_EventScript_Edward::
+	trainerbattle_single TRAINER_EDWARD, Route110_Text_EdwardIntro, Route110_Text_EdwardDefeat
+	msgbox Route110_Text_EdwardPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 Route15_EventScript_OnlyJack::
 	trainerbattle_single TRAINER_ITSONLYJACK, Route15_Text_OnlyJackIntro, Route15_Text_OnlyJackDefeat
 	msgbox Route15_Text_OnlyJackPostBattle, MSGBOX_AUTOCLOSE
