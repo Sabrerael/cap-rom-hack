@@ -257,10 +257,23 @@ CastleTownSabre_Gym_EventScript_Quiz2Right::
 	goto CastleTownSabre_Gym_EventScript_Quiz2
 	end
 
+Quiz2_Text_108:
+    .string "108$"
+
+Quiz2_Text_105:
+    .string "105$"
+
+Quiz2_Text_111:
+    .string "111$"
+
+Quiz2_Text_113:
+    .string "113$"
+
 CastleTownSabre_Gym_EventScript_Quiz2::
-	msgbox CastleTownSabre_Gym_Text_QuizQuestion2, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, CastleTownSabre_Gym_EventScript_Quiz2Correct
-	goto_if_eq VAR_RESULT, NO, CastleTownSabre_Gym_EventScript_Quiz2Incorrect
+	msgbox CastleTownSabre_Gym_Text_QuizQuestion2, MSGBOX_DEFAULT
+	dynmultichoice 0,0, TRUE, 4, 0, DYN_MULTICHOICE_CB_NONE, Quiz2_Text_108, Quiz2_Text_105, Quiz2_Text_111, Quiz2_Text_113
+	goto_if_eq VAR_RESULT, 1, CastleTownSabre_Gym_EventScript_Quiz2Correct
+	goto_if_ne VAR_RESULT, 1, CastleTownSabre_Gym_EventScript_Quiz2Incorrect
 	end
 
 CastleTownSabre_Gym_EventScript_Quiz2Correct::
@@ -341,10 +354,23 @@ CastleTownSabre_Gym_EventScript_Quiz3Right::
 	goto CastleTownSabre_Gym_EventScript_Quiz3
 	end
 
+Quiz3_Text_70:
+    .string "70$"
+
+Quiz3_Text_71:
+    .string "71$"
+
+Quiz3_Text_72:
+    .string "72$"
+
+Quiz3_Text_73:
+    .string "73$"
+
 CastleTownSabre_Gym_EventScript_Quiz3::
-	msgbox CastleTownSabre_Gym_Text_QuizQuestion3, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, CastleTownSabre_Gym_EventScript_Quiz3Correct
-	goto_if_eq VAR_RESULT, NO, CastleTownSabre_Gym_EventScript_Quiz3Incorrect
+	msgbox CastleTownSabre_Gym_Text_QuizQuestion3, MSGBOX_DEFAULT
+	dynmultichoice 0,0, TRUE, 4, 0, DYN_MULTICHOICE_CB_NONE, Quiz3_Text_70, Quiz3_Text_71, Quiz3_Text_72, Quiz3_Text_73
+	goto_if_eq VAR_RESULT, 3, CastleTownSabre_Gym_EventScript_Quiz3Correct
+	goto_if_ne VAR_RESULT, 3, CastleTownSabre_Gym_EventScript_Quiz3Incorrect
 	end
 
 CastleTownSabre_Gym_EventScript_Quiz3Correct::
@@ -425,10 +451,23 @@ CastleTownSabre_Gym_EventScript_Quiz4Right::
 	goto CastleTownSabre_Gym_EventScript_Quiz4
 	end
 
+Quiz4_Text_LethalCompany:
+    .string "Lethal Company$"
+
+Quiz4_Text_RedDead2:
+    .string "Red Dead Redemption 2$"
+
+Quiz4_Text_FallGuys:
+    .string "Fall Guys$"
+
+Quiz4_Text_JustChatting:
+    .string "Just Chatting$"
+
 CastleTownSabre_Gym_EventScript_Quiz4::
-	msgbox CastleTownSabre_Gym_Text_QuizQuestion4, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, CastleTownSabre_Gym_EventScript_Quiz4Correct
-	goto_if_eq VAR_RESULT, NO, CastleTownSabre_Gym_EventScript_Quiz4Incorrect
+	msgbox CastleTownSabre_Gym_Text_QuizQuestion4, MSGBOX_DEFAULT
+	dynmultichoice 0,0, TRUE, 4, 0, DYN_MULTICHOICE_CB_NONE, Quiz4_Text_LethalCompany, Quiz4_Text_RedDead2, Quiz4_Text_FallGuys, Quiz4_Text_JustChatting
+	goto_if_eq VAR_RESULT, 1, CastleTownSabre_Gym_EventScript_Quiz4Correct
+	goto_if_ne VAR_RESULT, 1, CastleTownSabre_Gym_EventScript_Quiz4Incorrect
 	end
 
 CastleTownSabre_Gym_EventScript_Quiz4Correct::
@@ -509,10 +548,23 @@ CastleTownSabre_Gym_EventScript_Quiz5Right::
 	goto CastleTownSabre_Gym_EventScript_Quiz5
 	end
 
+Quiz5_Text_Wiskey:
+    .string "wiskeybuziness$"
+
+Quiz5_Text_Sabre:
+    .string "Sabre$"
+
+Quiz5_Text_Hermes:
+    .string "Hermes$"
+
+Quiz5_Text_ZackAttack:
+    .string "ZackAttack$"
+
 CastleTownSabre_Gym_EventScript_Quiz5::
-	msgbox CastleTownSabre_Gym_Text_QuizQuestion5, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, CastleTownSabre_Gym_EventScript_Quiz5Correct
-	goto_if_eq VAR_RESULT, NO, CastleTownSabre_Gym_EventScript_Quiz5Incorrect
+	msgbox CastleTownSabre_Gym_Text_QuizQuestion5, MSGBOX_DEFAULT
+	dynmultichoice 0,0, TRUE, 4, 0, DYN_MULTICHOICE_CB_NONE, Quiz5_Text_Wiskey, Quiz5_Text_Sabre, Quiz5_Text_Hermes, Quiz5_Text_ZackAttack
+	goto_if_eq VAR_RESULT, 2, CastleTownSabre_Gym_EventScript_Quiz5Correct
+	goto_if_ne VAR_RESULT, 2, CastleTownSabre_Gym_EventScript_Quiz5Incorrect
 	end
 
 CastleTownSabre_Gym_EventScript_Quiz5Correct::
@@ -593,10 +645,23 @@ CastleTownSabre_Gym_EventScript_Quiz6Right::
 	goto CastleTownSabre_Gym_EventScript_Quiz6
 	end
 
+Quiz6_Text_152:
+    .string "152$"
+
+Quiz6_Text_163:
+    .string "163$"
+
+Quiz6_Text_148:
+    .string "148$"
+
+Quiz6_Text_159:
+    .string "159$"
+
 CastleTownSabre_Gym_EventScript_Quiz6::
-	msgbox CastleTownSabre_Gym_Text_QuizQuestion6, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, CastleTownSabre_Gym_EventScript_Quiz6Correct
-	goto_if_eq VAR_RESULT, NO, CastleTownSabre_Gym_EventScript_Quiz6Incorrect
+	msgbox CastleTownSabre_Gym_Text_QuizQuestion6, MSGBOX_DEFAULT
+	dynmultichoice 0,0, TRUE, 4, 0, DYN_MULTICHOICE_CB_NONE, Quiz6_Text_152, Quiz6_Text_163, Quiz6_Text_148, Quiz6_Text_159
+	goto_if_eq VAR_RESULT, 4, CastleTownSabre_Gym_EventScript_Quiz6Correct
+	goto_if_ne VAR_RESULT, 4, CastleTownSabre_Gym_EventScript_Quiz6Incorrect
 	end
 
 CastleTownSabre_Gym_EventScript_Quiz6Correct::
@@ -677,10 +742,34 @@ CastleTownSabre_Gym_EventScript_Quiz7Right::
 	goto CastleTownSabre_Gym_EventScript_Quiz7
 	end
 
+Quiz7_Text_Andy:
+    .string "Andy$"
+
+Quiz7_Text_BlindJIm:
+    .string "BlindJim$"
+
+Quiz7_Text_Hermes:
+    .string "Hermes$"
+
+Quiz7_Text_Sabre:
+    .string "Sabre$"
+
+Quiz7_Text_Salsa:
+    .string "Salsa$"
+
+Quiz7_Text_TMoney:
+    .string "TMoney$"
+
+Quiz7_Text_Tot:
+    .string "Tot$"
+
+Quiz7_Text_Treble:
+    .string "Treble$"
+
 CastleTownSabre_Gym_EventScript_Quiz7::
-	msgbox CastleTownSabre_Gym_Text_QuizQuestion7, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, CastleTownSabre_Gym_EventScript_Quiz7Correct
-	goto_if_eq VAR_RESULT, NO, CastleTownSabre_Gym_EventScript_Quiz7Incorrect
+	msgbox CastleTownSabre_Gym_Text_QuizQuestion7, MSGBOX_DEFAULT
+	dynmultichoice 0,0, TRUE, 8, 0, DYN_MULTICHOICE_CB_NONE, Quiz7_Text_Andy, Quiz7_Text_BlindJIm, Quiz7_Text_Hermes, Quiz7_Text_Sabre, Quiz7_Text_Salsa, Quiz7_Text_TMoney, Quiz7_Text_Tot, Quiz7_Text_Treble
+	goto CastleTownSabre_Gym_EventScript_Quiz7Incorrect
 	end
 
 CastleTownSabre_Gym_EventScript_Quiz7Correct::
@@ -877,25 +966,27 @@ CastleTownSabre_Gym_Text_QuizQuestion1::
 	.string "have?$"
 
 CastleTownSabre_Gym_Text_QuizQuestion2::
-    .string "There are nine certified POKéMON\n"
-    .string "LEAGUE BADGES?$"
+    .string "How many quotes do you have saved\n"
+    .string "in StreamElements?$"
 
 CastleTownSabre_Gym_Text_QuizQuestion3::
-    .string "POLIWAG evolves three times?$"
+    .string "What is your longest subscription\n"
+	.string "in months?$"
 
 CastleTownSabre_Gym_Text_QuizQuestion4::
-    .string "Are electric moves effective\n"
-    .string "against GROUND-type POKéMON?$"
+    .string "Your highest viewed Twitch clip is\n"
+    .string "in what game?$"
 
 CastleTownSabre_Gym_Text_QuizQuestion5::
-    .string "POKéMON of the same kind and level\n"
-    .string "are not identical?$"
+    .string "Who is fourth on the\n"
+    .string "Boobalahongas leaderboard?$"
 
 CastleTownSabre_Gym_Text_QuizQuestion6::
-    .string "TM28 contains TOMBSTONY?$"
+    .string "How many subscribers does your\n"
+	.string "VOD channel have?$"
 
 CastleTownSabre_Gym_Text_QuizQuestion7::
-    .string "TM28 contains TOMBSTONY?$"
+    .string "Who is the best Mod?$"
 
 CastleTownSabre_Gym_Text_CorrectGoOnThrough::
     .string "You're absolutely correct!\p"
@@ -933,7 +1024,7 @@ CastleTownSabre_Gym_Text_DaphnePostBattle:
 	.string "POKéMON.$"
 
 CastleTownSabre_Gym_Text_ConnieIntro:
-	.string "Sorry Ryan, but you'll go\n"
+	.string "Sorry {PLAYER}, but you'll go\n"
 	.string "no further.$"
 
 CastleTownSabre_Gym_Text_ConnieDefeat:

@@ -586,17 +586,17 @@ F_TRAINER_FEMALE |
         },
     },
 #line 276
-    [TRAINER_GRUNT_SEAFLOOR_CAVERN_3] =
+    [TRAINER_SEPHUNE] =
     {
 #line 277
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Sephune"),
 #line 278
-        .trainerClass = TRAINER_CLASS_TEAM_AQUA,
+        .trainerClass = TRAINER_CLASS_VIEWER,
 #line 279
-        .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
+        .trainerPic = TRAINER_PIC_COOLTRAINER_M,
         .encounterMusic_gender = 
 #line 281
-            TRAINER_ENCOUNTER_MUSIC_AQUA,
+            TRAINER_ENCOUNTER_MUSIC_INTENSE,
 #line 282
         .doubleBattle = FALSE,
 #line 283

@@ -1229,3 +1229,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/StartingTown_VictoryRoadEntrance/scripts.inc"
 
 	.include "data/maps/MysteriousClearing1/scripts.inc"
+
+	.include "data/maps/MiddleTownNorth_House1/scripts.inc"
+
+	.include "data/maps/MiddleTownNorth_House2/scripts.inc"

@@ -353,7 +353,7 @@ static u8 ChooseWildMonLevel(const struct WildPokemon *wildPokemon, u8 wildMonIn
             max = levelCap - 2;
         } else {
             min = highestLevel - 4;
-            max = highestLevel;
+            max = highestLevel - 1;
         }
         range = max - min + 1;
         rand = Random() % range;

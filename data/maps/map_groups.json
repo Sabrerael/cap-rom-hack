@@ -687,7 +687,9 @@
   "gMapGroup_IndoorMiddleTownNorth": [
     "MiddleTownNorth_PokemonCenter_1F",
     "MiddleTownNorth_PokemonCenter_2F",
-    "MiddleTownNorth_Mart"
+    "MiddleTownNorth_Mart",
+    "MiddleTownNorth_House1",
+    "MiddleTownNorth_House2"
   ],
   "gMapGroup_IndoorMiddleTownSouth": [
     "MiddleTownSouth_PokemonCenter_1F",
