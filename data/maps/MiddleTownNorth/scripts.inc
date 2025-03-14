@@ -2,16 +2,22 @@ MiddleTownNorth_MapScripts::
 	.byte 0
 
 MiddleTownNorth_EventScript_OldLady::
+	lock
+	faceplayer
 	msgbox MiddleTownNorth_Text_OldLady, MSGBOX_DEFAULT
 	release
 	end
 
 MiddleTownNorth_EventScript_Man::
+	lock
+	faceplayer
 	msgbox MiddleTownNorth_Text_Man, MSGBOX_DEFAULT
 	release
 	end
 
 MiddleTownNorth_EventScript_Woman::
+	lock
+	faceplayer
 	msgbox MiddleTownNorth_Text_Woman, MSGBOX_DEFAULT
 	release
 	end

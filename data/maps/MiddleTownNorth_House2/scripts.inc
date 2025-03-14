@@ -19,9 +19,9 @@ MiddleTownNorth_House2_EventScript_VitaminMan::
 MiddleTownNorth_House2_EventScript_Sephune::
 	lock
 	faceplayer
-	goto_if_defeated TRAINER_SEPHUNE, CastleTownSabre_Gym_EventScript_DoorAlreadyOpen
+	goto_if_defeated TRAINER_SEPHUNE, MiddleTownNorth_House2_EventScript_SephunePostBattle
 	setvar VAR_0x8008, LOCALID_SEPHUNE
-	msgbox Route104_PrettyPetalFlowerShop_Text_IntroLearnAboutBerries, MSGBOX_YESNO
+	msgbox MiddleTownNorth_House2_Text_SephuneIntro, MSGBOX_YESNO
 	call_if_eq VAR_RESULT, YES, MiddleTownNorth_House2_EventScript_SephuneBattle
 	call_if_eq VAR_RESULT, NO, MiddleTownNorth_House2_EventScript_SephuneRefuseBattle
 	release
@@ -41,26 +41,23 @@ MiddleTownNorth_House2_EventScript_SephunePostBattle::
     end
 
 MiddleTownNorth_House2_Text_SephuneIntro:
-	.string "Don't you agree?\p"
-	.string "You don't need to answer that,\n"
-	.string "of course you do. The Light Ball\l"
-	.string "she's holding making her even cuter!\p"
-	.string "Here, so you can make your own\n"
-	.string "Pikachu almost as cute!$"
+	.string "Sephune: Hey there pal!\p"
+	.string "I've run out of fruit snacks\n"
+	.string "and this guy is refusing to share.\p"
+	.string "While I try to wear him down,\n"
+	.string "do you want to battle?$"
 
 MiddleTownNorth_House2_Text_SephuneRefuseBattle:
-    .string "There! Now we can both have\n"
-	.string "cute Pikachus!$"
+    .string "Okay, fine.\p"
+	.string "Wait, do you have fruit snacks?$"
 
 MiddleTownNorth_House2_Text_SephuneBattle:
-    .string "There! Now we can both have\n"
-	.string "cute Pikachus!$"
+    .string "Alright! I won't hold back!$"
 
 MiddleTownNorth_House2_Text_SephuneDefeat:
-	.string "Oh.\n"
-	.string "You're strong.$"
+	.string "I blame my empty stomach.$"
 
 MiddleTownNorth_House2_Text_SephunePostBattle:
-	.string "Well, I did my best.\p"
-	.string "You won't be able to beat\n"
-	.string "my husband though.$"
+	.string "Sephune: Good job!\p"
+	.string "Keep up your training and become\n"
+	.string "the best there ever was.$"

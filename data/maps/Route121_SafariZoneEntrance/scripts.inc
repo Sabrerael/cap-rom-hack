@@ -102,6 +102,26 @@ Route121_SafariZoneEntrance_EventScript_NotEnoughMoney::
 	goto Route121_SafariZoneEntrance_EventScript_MovePlayerBackFromCounter
 	end
 
+Route121_SafariZoneEntrance_EventScript_SpeakToOldMan::
+	lock
+	faceplayer
+	call_if_set FLAG_RECEIVED_POKEBLOCK_CASE, Route121_SafariZoneEntrance_EventScript_ReceptionWelcome
+	call_if_unset FLAG_RECEIVED_POKEBLOCK_CASE, Route121_SafariZoneEntrance_EventScript_GivePokeblockCase
+	goto BerryBlender_EventScript_BerryBlender1
+	end
+
+Route121_SafariZoneEntrance_EventScript_ReceptionWelcome::
+	msgbox Route121_SafariZoneEntrance_Text_ReceptionWelcome, MSGBOX_DEFAULT
+	return
+
+Route121_SafariZoneEntrance_EventScript_GivePokeblockCase::
+	msgbox Route121_SafariZoneEntrance_Text_ReceptionDontHavePokeblockCase, MSGBOX_DEFAULT
+	giveitem ITEM_POKEBLOCK_CASE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_POKEBLOCK_CASE
+	msgbox Route121_SafariZoneEntrance_Text_NowThatWeveClearedThatUp, MSGBOX_DEFAULT
+	return
+
 Route121_SafariZoneEntrance_EventScript_MovePlayerBackFromCounter::
 	closemessage
 	hidemoneybox
@@ -129,3 +149,19 @@ Route121_SafariZoneEntrance_EventScript_TrainerTipSign::
 	msgbox Route121_SafariZoneEntrance_Text_TrainerTip, MSGBOX_SIGN
 	end
 
+Route121_SafariZoneEntrance_Text_ReceptionWelcome:
+	.string "Hello!\p"
+	.string "Do you want to make some Pokeblocks?$"
+
+Route121_SafariZoneEntrance_Text_ReceptionDontHavePokeblockCase:
+	.string "Hello!\p"
+	.string "Oh? It appears that you don't have\n"
+	.string "a {POKEBLOCK} CASE yet.\p"
+	.string "In that case, we need to provide you\n"
+	.string "with this!$"
+
+Route121_SafariZoneEntrance_Text_NowThatWeveClearedThatUp:
+	.string "Okay, now that we've cleared that\n"
+	.string "up…\p"
+	.string "Hello!\p"
+	.string "Do you want to make some Pokeblocks?$"

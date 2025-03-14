@@ -1,3 +1,5 @@
+.set LOCALID_PSYSTORM, 5
+
 Route6_MapScripts::
 	.byte 0
 
@@ -26,9 +28,28 @@ Route6_EventScript_Cindy::
 	end
 
 Route6_EventScript_PsyStorm::
-	trainerbattle_single TRAINER_DARK_PSYSTORM, Route6_Text_DarkPsyStormIntro, Route6_Text_DarkPsyStormDefeat
-	msgbox Route6_Text_DarkPsyStormPostBattle, MSGBOX_AUTOCLOSE
+	lock
+	faceplayer
+	goto_if_defeated TRAINER_DARK_PSYSTORM, Route6_EventScript_PsyStormPostBattle
+	setvar VAR_0x8008, LOCALID_PSYSTORM
+	msgbox Route6_Text_DarkPsyStormIntro, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, Route6_EventScript_PsyStormBattle
+	call_if_eq VAR_RESULT, NO, Route6_EventScript_PsyStormRefuseBattle
+	release
 	end
+
+Route6_EventScript_PsyStormBattle::
+	trainerbattle_single TRAINER_DARK_PSYSTORM, Route6_Text_DarkPsyStormBattle, Route6_Text_DarkPsyStormDefeat
+	msgbox Route6_Text_DarkPsyStormPostBattle, MSGBOX_AUTOCLOSE
+    end
+
+Route6_EventScript_PsyStormRefuseBattle::
+    msgbox Route6_Text_DarkPsyStormRefuseBattle, MSGBOX_AUTOCLOSE
+    end
+
+Route6_EventScript_PsyStormPostBattle::
+    msgbox Route6_Text_DarkPsyStormPostBattle, MSGBOX_AUTOCLOSE
+    end
 
 Route6_EventScript_EndOfTunnel::
 	msgbox Route6_Text_EndOfTunnel, MSGBOX_NPC
@@ -54,6 +75,13 @@ Route6_Text_DarkPsyStormIntro:
 	.string "DarkPsyStormDPS: Hey Ryan!\n"
 	.string "I've been feeling great!\l"
 	.string "I'm sure I'm going to win!$"
+
+Route6_Text_DarkPsyStormRefuseBattle:
+    .string "That's cool man.\n"
+	.string "Hit me up when you're ready.$"
+
+Route6_Text_DarkPsyStormBattle:
+    .string "Alright! I won't hold back!$"
 
 Route6_Text_DarkPsyStormDefeat:
 	.string "You're a legend Ryan!$"
