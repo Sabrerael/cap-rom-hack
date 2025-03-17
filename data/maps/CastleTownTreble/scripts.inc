@@ -3,8 +3,38 @@
 CastleTownTreble_MapScripts::
 	.byte 0
 
+CastleTownTreble_EventScript_CitySign::
+	msgbox CastleTownTreble_Text_CitySign, MSGBOX_SIGN
+	end
+
 CastleTownTreble_EventScript_GymSign::
 	msgbox CastleTownTreble_Text_GymSign, MSGBOX_SIGN
+	end
+
+CastleTownTreble_EventScript_FlowerHouseSign::
+	msgbox CastleTownTreble_Text_FlowerHouseSign, MSGBOX_SIGN
+	end
+
+CastleTownTreble_EventScript_FlowerLady::
+	msgbox CastleTownTreble_Text_FlowerLady, MSGBOX_NPC
+	end
+
+CastleTownTreble_EventScript_OldMan::
+	msgbox CastleTownTreble_Text_OldMan, MSGBOX_NPC
+	end
+
+CastleTownTreble_EventScript_YoungBoy::
+	msgbox CastleTownTreble_Text_YoungBoy, MSGBOX_NPC
+	end
+
+CastleTownTreble_EventScript_Smoliv::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_SMOLIV, CRY_MODE_NORMAL
+	msgbox CastleTownTreble_Text_Smoliv, MSGBOX_DEFAULT
+	waitmoncry
+	release
 	end
 
 CastleTownTreble_EventScript_ZackAtk::
@@ -31,10 +61,35 @@ CastleTownTreble_EventScript_ZackAtkPostBattle::
     msgbox CastleTownTreble_Text_ZackAtkPostBattle, MSGBOX_AUTOCLOSE
     end
 
+CastleTownTreble_Text_CitySign:
+	.string "Campanula City\n"
+	.string "Blossoming All Year Round$"
+
 CastleTownTreble_Text_GymSign:
 	.string "CAMPANULA CITY POKéMON GYM\n"
 	.string "LEADER: TREBLE\p"
 	.string "“The gardener of GRASS POKéMON!”$"
+
+CastleTownTreble_Text_FlowerHouseSign:
+	.string "House of Flowers$"
+
+CastleTownTreble_Text_FlowerLady:
+    .string "La la la… … …\p"
+	.string "I'm helping tend all of these\n"
+	.string "beautiful plants.$"
+
+CastleTownTreble_Text_OldMan:
+    .string "The slow-paced life and the\n"
+	.string "continual growth of plants\l"
+	.string "does the soul good.$"
+
+CastleTownTreble_Text_YoungBoy:
+    .string "I love living here. This city\n"
+	.string "always have a ton of berries\p"
+	.string "growing in the fields.$"
+
+CastleTownTreble_Text_Smoliv:
+    .string "Smoliv?$"
 
 CastleTownTreble_Text_ZackAtkIntro:
 	.string "ZackAtk: Hey {PLAYER}!\n"

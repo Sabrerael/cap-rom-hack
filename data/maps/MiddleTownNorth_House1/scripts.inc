@@ -16,7 +16,12 @@ MiddleTownNorth_House1_EventScript_Lady::
 	end
 
 MiddleTownNorth_House1_EventScript_Pikachu::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_PIKACHU, CRY_MODE_NORMAL
 	msgbox MiddleTownNorth_House1_Text_Pikachu, MSGBOX_DEFAULT
+	waitmoncry
 	release
 	end
 

@@ -682,6 +682,9 @@
 #define MAP_CASTLE_TOWN_TREBLE_POKEMON_CENTER_2F (1 | (43 << 8))
 #define MAP_CASTLE_TOWN_TREBLE_MART              (2 | (43 << 8))
 #define MAP_CASTLE_TOWN_TREBLE_GYM               (3 | (43 << 8))
+#define MAP_CASTLE_TOWN_TREBLE_HOUSE1            (4 | (43 << 8))
+#define MAP_CASTLE_TOWN_TREBLE_HOUSE2            (5 | (43 << 8))
+#define MAP_CASTLE_TOWN_TREBLE_HOUSE3            (6 | (43 << 8))
 
 // gMapGroup_IndoorCastleTownAndy
 #define MAP_CASTLE_TOWN_ANDY_POKEMON_CENTER_1F (0 | (44 << 8))

@@ -724,7 +724,10 @@
     "CastleTownTreble_PokemonCenter_1F",
     "CastleTownTreble_PokemonCenter_2F",
     "CastleTownTreble_Mart",
-    "CastleTownTreble_Gym"
+    "CastleTownTreble_Gym",
+    "CastleTownTreble_House1",
+    "CastleTownTreble_House2",
+    "CastleTownTreble_House3"
   ],
   "gMapGroup_IndoorCastleTownAndy": [
     "CastleTownAndy_PokemonCenter_1F",

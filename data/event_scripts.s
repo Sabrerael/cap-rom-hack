@@ -1233,3 +1233,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/MiddleTownNorth_House1/scripts.inc"
 
 	.include "data/maps/MiddleTownNorth_House2/scripts.inc"
+
+	.include "data/maps/CastleTownTreble_House1/scripts.inc"
+
+	.include "data/maps/CastleTownTreble_House2/scripts.inc"
+
+	.include "data/maps/CastleTownTreble_House3/scripts.inc"
