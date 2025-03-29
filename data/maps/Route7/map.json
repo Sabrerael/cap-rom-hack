@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_MIDDLE_TOWN_NORTH",
-      "offset": 6,
+      "offset": -6,
       "direction": "left"
     },
     {
@@ -72,8 +72,8 @@
       "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
       "movement_range_x": 5,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "4",
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
       "script": "Route7_EventScript_DaDaddyDeath",
       "flag": "0"
     },

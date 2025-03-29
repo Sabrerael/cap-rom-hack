@@ -220,7 +220,7 @@ $(TILESETGFXDIR)/secondary/mystery_events_house/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 509 -Wnum_tiles
 
 $(TILESETGFXDIR)/secondary/castle_town_sabre_gym/tiles.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -num_tiles 355 -Wnum_tiles
+	$(GFX) $< $@ -num_tiles 224 -Wnum_tiles
 
 
 ### Fonts ###

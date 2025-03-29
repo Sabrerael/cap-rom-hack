@@ -20,7 +20,7 @@
     },
     {
       "map": "MAP_MIDDLE_TOWN_NORTH",
-      "offset": 0,
+      "offset": -6,
       "direction": "up"
     }
   ],

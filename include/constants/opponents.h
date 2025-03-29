@@ -40,7 +40,7 @@
 #define TRAINER_ARCHIE                       34
 #define TRAINER_LEAH                         35
 #define TRAINER_DAISY                        36
-#define TRAINER_ROSE_1                       37
+#define TRAINER_ROSE                       37
 #define TRAINER_FELIX                        38
 #define TRAINER_VIOLET                       39
 #define TRAINER_ROSE_2                       40
@@ -97,7 +97,7 @@
 #define TRAINER_JODY                         91
 #define TRAINER_WENDY                        92
 #define TRAINER_KEIRA                        93
-#define TRAINER_BROOKE_1                     94
+#define TRAINER_BROOKE                     94
 #define TRAINER_JENNIFER                     95
 #define TRAINER_HOPE                         96
 #define TRAINER_SHANNON                      97
