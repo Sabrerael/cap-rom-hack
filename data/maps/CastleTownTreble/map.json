@@ -2,7 +2,7 @@
   "id": "MAP_CASTLE_TOWN_TREBLE",
   "name": "CastleTownTreble",
   "layout": "LAYOUT_CASTLE_TOWN_TREBLE",
-  "music": "MUS_RG_PEWTER",
+  "music": "MUS_VERDANTURF",
   "region_map_section": "MAPSEC_CASTLE_TOWN_TREBLE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

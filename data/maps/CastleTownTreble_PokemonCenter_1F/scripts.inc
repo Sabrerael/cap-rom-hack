@@ -16,3 +16,22 @@ CastleTownTreble_PokemonCenter_1F_EventScript_Nurse::
 	waitbuttonpress
 	release
 	end
+
+CastleTownTreble_PokemonCenter_1F_EventScript_Man::
+	msgbox CastleTownTreble_Text_Man, MSGBOX_NPC
+	end
+
+CastleTownTreble_PokemonCenter_1F_EventScript_OldWoman::
+	msgbox CastleTownTreble_Text_OldWoman, MSGBOX_NPC
+	end
+
+CastleTownTreble_PokemonCenter_1F_Text_Man:
+    .string "Have you heard? Apparently, a crew\n"
+	.string "of pirates got caught recently.\p"
+	.string "But their ship? It flew off into\n"
+	.string "the sky with all the treasure!$"
+
+CastleTownTreble_PokemonCenter_1F_Text_OldWoman:
+    .string "I love sitting here with a nice\n"
+	.string "cup of tea…\p"
+	.string "It's so relaxing.$"

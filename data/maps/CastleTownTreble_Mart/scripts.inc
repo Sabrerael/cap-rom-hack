@@ -189,3 +189,23 @@ CastleTownTreble_Mart_Pokemart_SpecialClerk:
 CastleTownTreble_Mart_Text_SpecialClerk::
 	.string "Welcome! We have a variety\n"
 	.string "of Mints for sale.$"
+
+CastleTownTreble_Mart_EventScript_Lady::
+	msgbox CastleTownTreble_Mart_Text_Lady, MSGBOX_NPC
+	end
+
+CastleTownTreble_Mart_EventScript_Boy::
+	msgbox CastleTownTreble_Mart_Text_Boy, MSGBOX_NPC
+	end
+
+CastleTownTreble_Mart_Text_Lady:
+    .string "Pokémon love the mints and berries\n"
+	.string "that we grow in this town.\p"
+	.string "Helping to grow these plants\n"
+	.string "is helping to grow our Pokémon!$"
+
+CastleTownTreble_Mart_Text_Boy:
+    .string "How do Grass Pokémon grow?\p"
+	.string "Can you plant a Grass Pokémon\n"
+	.string "and make a Pokémon tree?\p"
+	.string "I want a Bulbasaur tree!$"

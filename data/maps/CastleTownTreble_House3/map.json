@@ -2,7 +2,7 @@
   "id": "MAP_CASTLE_TOWN_TREBLE_HOUSE3",
   "name": "CastleTownTreble_House3",
   "layout": "LAYOUT_HOUSE3",
-  "music": "MUS_DUMMY",
+  "music": "MUS_VERDANTURF",
   "region_map_section": "MAPSEC_CASTLE_TOWN_TREBLE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -14,7 +14,32 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
   "object_events": [
-
+    {
+      "graphics_id": "OBJ_EVENT_GFX_GIRL_2",
+      "x": 3,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CastleTownTreble_House3_EventScript_WailmerPailGirl",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
+      "x": 6,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CastleTownTreble_House3_EventScript_RandomBerryGirl",
+      "flag": "0"
+    }
   ],
   "warp_events": [
     {

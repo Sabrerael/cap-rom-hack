@@ -85,7 +85,7 @@ CastleTownTreble_Text_OldMan:
 
 CastleTownTreble_Text_YoungBoy:
     .string "I love living here. This city\n"
-	.string "always have a ton of berries\p"
+	.string "always has a ton of berries\p"
 	.string "growing in the fields.$"
 
 CastleTownTreble_Text_Smoliv:
