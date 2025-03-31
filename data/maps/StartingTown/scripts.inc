@@ -1,6 +1,7 @@
 .set LOCALID_PEHBBLE, 1
 .set LOCALID_SABRE, 3
 .set LOCALID_PEHBBLE_2, 5
+.set LOCALID_JADEDOSA, 9
 
 StartingTown_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, StartingTown_OnTransition
@@ -602,3 +603,53 @@ StartingTown_Text_GuildCommonsSign:
 
 StartingTown_Text_PokemonLeagueSign:
 	.string "Entrance to Pokémon League$"
+
+StartingTown_EventScript_Jadedosa::
+	lock
+	faceplayer
+	goto_if_defeated TRAINER_JADEDOSA, StartingTown_EventScript_JadedosaPostBattle
+	setvar VAR_0x8008, LOCALID_JADEDOSA
+	msgbox StartingTown_Text_JadedosaIntro, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, StartingTown_EventScript_JadedosaBattle
+	call_if_eq VAR_RESULT, NO, StartingTown_EventScript_JadedosaRefuseBattle
+	release
+	end
+
+StartingTown_EventScript_JadedosaBattle::
+	trainerbattle_single TRAINER_JADEDOSA, StartingTown_Text_JadedosaBattle, StartingTown_Text_JadedosaDefeat
+	msgbox StartingTown_Text_JadedosaPostBattle, MSGBOX_AUTOCLOSE
+    end
+
+StartingTown_EventScript_JadedosaRefuseBattle::
+    msgbox StartingTown_Text_JadedosaRefuseBattle, MSGBOX_AUTOCLOSE
+    end
+
+StartingTown_EventScript_JadedosaPostBattle::
+    msgbox StartingTown_Text_JadedosaPostBattle, MSGBOX_AUTOCLOSE
+    end
+
+StartingTown_Text_JadedosaIntro:
+	.string "Jadedosa: Hey {PLAYER}!\n"
+	.string "I love the vibe of this forest,\l"
+	.string "all spooky and foggy…\p"
+	.string "Say, do you want to battle?\n"
+	.string "to pass the time?$"
+	
+StartingTown_Text_JadedosaRefuseBattle:
+    .string "Oh okay. Well I'll be\n"
+	.string "here if you change your mind.$"
+
+StartingTown_Text_JadedosaBattle:
+    .string "Alright! You're challenging a\n"
+	.string "pro DBD looper!$"
+
+StartingTown_Text_JadedosaDefeat:
+	.string "I admit, you ate that up!$"
+
+StartingTown_Text_JadedosaPostBattle:
+    .string "Ever since our first meeting, I've\n"
+	.string "seen your determination grow\l"
+	.string "stronger and success following!\p"
+	.string "I hope to have the honor of seeing\n"
+	.string "all the places you'll go!\p"
+	.string "May the fog always welcome you…$"

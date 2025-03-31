@@ -18,11 +18,11 @@ CastleTownTreble_PokemonCenter_1F_EventScript_Nurse::
 	end
 
 CastleTownTreble_PokemonCenter_1F_EventScript_Man::
-	msgbox CastleTownTreble_Text_Man, MSGBOX_NPC
+	msgbox CastleTownTreble_PokemonCenter_1F_Text_Man, MSGBOX_NPC
 	end
 
 CastleTownTreble_PokemonCenter_1F_EventScript_OldWoman::
-	msgbox CastleTownTreble_Text_OldWoman, MSGBOX_NPC
+	msgbox CastleTownTreble_PokemonCenter_1F_Text_OldWoman, MSGBOX_NPC
 	end
 
 CastleTownTreble_PokemonCenter_1F_Text_Man:
