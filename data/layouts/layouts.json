@@ -4804,10 +4804,10 @@
     {
       "id": "LAYOUT_CASTLE_TOWN_SALSA_GYM",
       "name": "CastleTownSalsa_Gym_Layout",
-      "width": 30,
-      "height": 30,
+      "width": 35,
+      "height": 40,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_LavaridgeGym",
+      "secondary_tileset": "gTileset_CastleTownSalsaGym",
       "border_filepath": "data/layouts/CastleTownSalsa_Gym/border.bin",
       "blockdata_filepath": "data/layouts/CastleTownSalsa_Gym/map.bin"
     },

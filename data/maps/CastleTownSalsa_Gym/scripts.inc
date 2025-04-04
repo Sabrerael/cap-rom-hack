@@ -1,5 +1,20 @@
+.set LOCALID_TOMATOES, 11
+.set LOCALID_ONIONS, 12
+.set LOCALID_PEPPERS, 10
+
 CastleTownSalsa_Gym_MapScripts::
+    map_script MAP_SCRIPT_ON_LOAD, CastleTownSalsa_Gym_OnLoad
 	.byte 0
+
+CastleTownSalsa_Gym_OnLoad:
+	call CastleTownSalsa_Gym_EventScript_CheckWallOnLoad
+	end
+
+CastleTownSalsa_Gym_EventScript_CheckWallOnLoad::
+	goto_if_set FLAG_BADGE04_GET, CastleTownSalsa_Gym_EventScript_RemoveWall
+	call CastleTownSalsa_Gym_EventScript_CheckWallWithoutSound
+	special DrawWholeMapView
+	return
 
 CastleTownSalsa_Gym_EventScript_GymGuide::
 	lock
@@ -35,6 +50,80 @@ CastleTownSalsa_Gym_EventScript_GymStatue::
 	msgbox CastleTownSalsa_Gym_Text_GymStatue, MSGBOX_DEFAULT
 	releaseall
 	end
+
+CastleTownSalsa_Gym_EventScript_CheckWall::
+	call CastleTownSalsa_Gym_EventScript_CountSalsaIngredients
+	copyvar VAR_0x8001, VAR_0x8000
+	goto_if_eq VAR_0x8000, 3, CastleTownSalsa_Gym_EventScript_RemoveWallWithSound
+	special DrawWholeMapView
+	return
+
+CastleTownSalsa_Gym_EventScript_CheckWallWithoutSound::
+	call CastleTownSalsa_Gym_EventScript_CountSalsaIngredients
+	copyvar VAR_0x8001, VAR_0x8000
+	goto_if_eq VAR_0x8000, 3, CastleTownSalsa_Gym_EventScript_RemoveWall
+	special DrawWholeMapView
+	end
+
+CastleTownSalsa_Gym_EventScript_RemoveWallWithSound::
+	playse SE_UNLOCK
+	waitse
+	call CastleTownSalsa_Gym_EventScript_RemoveWall
+	special DrawWholeMapView
+	return
+
+CastleTownSalsa_Gym_EventScript_RemoveWall::
+	setmetatile 13,  5, METATILE_CastleTownSalsaGym_CornerWallLeft, 1
+	setmetatile 13,  6, METATILE_CastleTownSalsaGym_WallFloorLeft, 1
+	setmetatile 14,  5, METATILE_CastleTownSalsaGym_Floor, 0
+	setmetatile 14,  6, METATILE_CastleTownSalsaGym_Floor, 0
+	setmetatile 15,  5, METATILE_CastleTownSalsaGym_Floor, 0
+	setmetatile 15,  6, METATILE_CastleTownSalsaGym_Floor, 0
+	setmetatile 16,  5, METATILE_CastleTownSalsaGym_Floor, 0
+	setmetatile 16,  6, METATILE_CastleTownSalsaGym_Floor, 0
+	setmetatile 17,  5, METATILE_CastleTownSalsaGym_CornerWallRight, 1
+	setmetatile 17,  6, METATILE_CastleTownSalsaGym_WallFloorRight, 1
+	return
+
+CastleTownSalsa_Gym_EventScript_Tomatos::
+	lockall
+	msgbox CastleTownSalsa_Gym_Text_Tomatoes, MSGBOX_AUTOCLOSE
+	removeobject LOCALID_TOMATOES
+	setflag FLAG_SALSA_TOMATOES
+	call CastleTownSalsa_Gym_EventScript_CheckWall
+	release
+	end
+
+CastleTownSalsa_Gym_EventScript_Onions::
+	lockall
+	msgbox CastleTownSalsa_Gym_Text_Onions, MSGBOX_AUTOCLOSE
+	removeobject LOCALID_ONIONS
+	setflag FLAG_SALSA_ONIONS
+	call CastleTownSalsa_Gym_EventScript_CheckWall
+	release
+	end
+
+CastleTownSalsa_Gym_EventScript_Peppers::
+	lockall
+	msgbox CastleTownSalsa_Gym_Text_Peppers, MSGBOX_AUTOCLOSE
+	removeobject LOCALID_PEPPERS
+	setflag FLAG_SALSA_PEPPERS
+	call CastleTownSalsa_Gym_EventScript_CheckWall
+	release
+	end
+
+CastleTownSalsa_Gym_EventScript_CountSalsaIngredients::
+	setvar VAR_0x8000, 0
+	goto_if_unset FLAG_SALSA_TOMATOES, CastleTownSalsa_Gym_EventScript_CheckOnions
+	addvar VAR_0x8000, 1
+CastleTownSalsa_Gym_EventScript_CheckOnions::
+	goto_if_unset FLAG_SALSA_ONIONS, CastleTownSalsa_Gym_EventScript_CheckPeppers
+	addvar VAR_0x8000, 1
+CastleTownSalsa_Gym_EventScript_CheckPeppers::
+	goto_if_unset FLAG_SALSA_PEPPERS, CastleTownSalsa_Gym_EventScript_StopCountingIngredients
+	addvar VAR_0x8000, 1
+CastleTownSalsa_Gym_EventScript_StopCountingIngredients::
+	return
 
 CastleTownSalsa_Gym_EventScript_Cole::
 	trainerbattle_single TRAINER_COLE, CastleTownSalsa_Gym_Text_ColeIntro, CastleTownSalsa_Gym_Text_ColeDefeat
@@ -162,8 +251,8 @@ CastleTownSalsa_Gym_EventScript_GiveOverheat::
 CastleTownSalsa_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
-	.string "MODERATOR SALSA is a fan of FIRE_type\n"
-	.string "POKéMON. Must be because of his spicy\p"
+	.string "Moderator Salsa is a fan of Fire type\n"
+	.string "Pokémon. Must be because of his spicy\p"
 	.string "namesake. Apparently, he is wanting\n"
 	.string "to make some salsa so you'll have\p"
 	.string "to collect the ingredients for his\n"
@@ -272,6 +361,15 @@ CastleTownSalsa_Gym_Text_JeffPostBattle:
 	.string "Well, so what? I say so what?\n"
 	.string "I can walk on hot coals barefoot!\p"
 	.string "…Don't even think about trying it!$"
+
+CastleTownSalsa_Gym_Text_Tomatoes:
+	.string "Found tomatoes!$"
+
+CastleTownSalsa_Gym_Text_Onions:
+	.string "Found onions!$"
+
+CastleTownSalsa_Gym_Text_Peppers:
+	.string "Found peppers!$"
 
 CastleTownSalsa_Gym_Text_Intro:
 	.string "Ahhhhh, I thought I felt the\n"

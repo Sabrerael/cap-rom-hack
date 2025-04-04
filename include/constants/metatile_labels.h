@@ -129,6 +129,13 @@
 #define METATILE_CastleTownSabreGym_Wall_OppositeBarrier            0x22E
 #define METATILE_CastleTownSabreGym_Wall_RetractedBarrier           0x206
 
+// gTileset_CastleTownSalsaGym
+#define METATILE_CastleTownSalsaGym_CornerWallLeft   0x228
+#define METATILE_CastleTownSalsaGym_CornerWallRight  0x229
+#define METATILE_CastleTownSalsaGym_Floor            0x208
+#define METATILE_CastleTownSalsaGym_WallFloorLeft    0x232
+#define METATILE_CastleTownSalsaGym_WallFloorRight   0x233
+
 // gTileset_CastleTownTotGym
 #define METATILE_CastleTownTotGym_FloorGrass       0x238
 #define METATILE_CastleTownTotGym_LONG_GRASS       0x239
@@ -293,6 +300,9 @@
 #define METATILE_Lavaridge_LavaField            0x271
 #define METATILE_Lavaridge_NormalGrass          0x206
 #define METATILE_Lavaridge_RockWall             0x274
+
+// gTileset_LavaridgeGym
+#define METATILE_LavaridgeGym_Floor  0x208
 
 // gTileset_Lilycove
 #define METATILE_Lilycove_Door             0x246

@@ -848,6 +848,17 @@ const struct Tileset gTileset_CastleTownSabreGym =
     .callback = NULL,
 };
 
+const struct Tileset gTileset_CastleTownSalsaGym =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_CastleTownSalsaGym,
+    .palettes = gTilesetPalettes_CastleTownSalsaGym,
+    .metatiles = gMetatiles_CastleTownSalsaGym,
+    .metatileAttributes = gMetatileAttributes_CastleTownSalsaGym,
+    .callback = NULL,
+};
+
 const struct Tileset gTileset_CastleTownTrebleGym =
 {
     .isCompressed = TRUE,

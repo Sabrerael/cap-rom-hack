@@ -647,9 +647,169 @@ StartingTown_Text_JadedosaDefeat:
 	.string "I admit, you ate that up!$"
 
 StartingTown_Text_JadedosaPostBattle:
-    .string "Ever since our first meeting, I've\n"
-	.string "seen your determination grow\l"
+    .string "Jadedosa: Ever since our first meeting,\n"
+	.string "I've seen your determination grow\l"
 	.string "stronger and success following!\p"
 	.string "I hope to have the honor of seeing\n"
 	.string "all the places you'll go!\p"
 	.string "May the fog always welcome you…$"
+
+StartingTown_EventScript_DaddyDeath::
+	lock
+	faceplayer
+	goto_if_defeated TRAINER_DA_DADDY_DEATH, StartingTown_EventScript_DaddyDeathPostBattle
+	setvar VAR_0x8008, LOCALID_JADEDOSA
+	msgbox StartingTown_Text_DaddyDeathIntro, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, StartingTown_EventScript_DaddyDeathBattle
+	call_if_eq VAR_RESULT, NO, StartingTown_EventScript_DaddyDeathRefuseBattle
+	release
+	end
+
+StartingTown_EventScript_DaddyDeathBattle::
+	trainerbattle_single TRAINER_DA_DADDY_DEATH, StartingTown_Text_DaddyDeathBattle, StartingTown_Text_DaddyDeathDefeat
+	msgbox StartingTown_Text_DaddyDeathPostBattle, MSGBOX_AUTOCLOSE
+    end
+
+StartingTown_EventScript_DaddyDeathRefuseBattle::
+    msgbox StartingTown_Text_DaddyDeathRefuseBattle, MSGBOX_AUTOCLOSE
+    end
+
+StartingTown_EventScript_DaddyDeathPostBattle::
+    msgbox StartingTown_Text_DaddyDeathPostBattle, MSGBOX_AUTOCLOSE
+    end
+
+StartingTown_Text_DaddyDeathIntro:
+	.string "DaddyDeath: Oh hi {PLAYER}…\n"
+	.string "I… uh… wasn't listening when people\l"
+	.string "were talking…\p"
+	.string "I don't know where I am or how\n"
+	.string "I got here…\p"
+	.string "I guess we could battle?$"
+	
+StartingTown_Text_DaddyDeathRefuseBattle:
+    .string "Oh okay. Well I'll be\n"
+	.string "here if you change your mind.$"
+
+StartingTown_Text_DaddyDeathBattle:
+    .string "Don't forget I was a pro gamer!\n"
+	.string "Bring it on!$"
+
+StartingTown_Text_DaddyDeathDefeat:
+	.string "I wasn't a pro Pokémon player!$"
+
+StartingTown_Text_DaddyDeathPostBattle:
+    .string "DaddyDeath: You're dope.\p"
+	.string "Thanks for being you.$"
+
+
+
+StartingTown_EventScript_Dominy::
+	lock
+	faceplayer
+	goto_if_defeated TRAINER_DOMINY, StartingTown_EventScript_DominyPostBattle
+	setvar VAR_0x8008, LOCALID_JADEDOSA
+	msgbox StartingTown_Text_DominyIntro, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, StartingTown_EventScript_DominyBattle
+	call_if_eq VAR_RESULT, NO, StartingTown_EventScript_DominyRefuseBattle
+	release
+	end
+
+StartingTown_EventScript_DominyBattle::
+	trainerbattle_single TRAINER_DOMINY, StartingTown_Text_DominyBattle, StartingTown_Text_DominyDefeat
+	msgbox StartingTown_Text_DominyPostBattle, MSGBOX_AUTOCLOSE
+    end
+
+StartingTown_EventScript_DominyRefuseBattle::
+    msgbox StartingTown_Text_DominyRefuseBattle, MSGBOX_AUTOCLOSE
+    end
+
+StartingTown_EventScript_DominyPostBattle::
+    msgbox StartingTown_Text_DominyPostBattle, MSGBOX_AUTOCLOSE
+    end
+
+StartingTown_Text_DominyIntro:
+	.string "Dominy: Greetings {PLAYER}…\n"
+	.string "This environment is well suited\l"
+	.string "to conducting some experiments.\p"
+	.string "Say, I could use some data on the\n"
+	.string "strength of my Pokémon. Would you\l"
+	.string "mind battling me?$"
+	
+StartingTown_Text_DominyRefuseBattle:
+    .string "I see…\n"
+	.string "Very well.$"
+
+StartingTown_Text_DominyBattle: 
+    .string "You’ve made it this far…\n"
+	.string "Can you handle what’s next?$"
+
+StartingTown_Text_DominyDefeat:
+	.string "Well, it appears my calculations were…\n"
+	.string "slightly off! Fascinating!\p"
+	.string "No worries, this data will be \n"
+	.string "quite useful for my next experiment!\p"
+	.string "Back to the drawing board!$"
+
+StartingTown_Text_DominyPostBattle: 
+    .string "Dominy: Hi Ryan! Wanted to\n"
+	.string "take a second and thank you for\l"
+	.string "putting the energy and passion into\l"
+	.string "your streams that you do.\p"
+	.string "Whether it is intense gameplay or\n"
+	.string "just chilling with the community, you\l"
+	.string "make everything about it personal.\p"
+	.string "Keep being you. Entertaining, inspiring,\n"
+	.string "and making the world of gaming an even\l"
+	.string " more enjoyable place for all to tune into.$"
+
+
+
+StartingTown_EventScript_Silvric::
+	lock
+	faceplayer
+	goto_if_defeated TRAINER_SILVRIC, StartingTown_EventScript_SilvricPostBattle
+	setvar VAR_0x8008, LOCALID_JADEDOSA
+	msgbox StartingTown_Text_SilvricIntro, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, StartingTown_EventScript_SilvricBattle
+	call_if_eq VAR_RESULT, NO, StartingTown_EventScript_DominyRefuseBattle
+	release
+	end
+
+StartingTown_EventScript_SilvricBattle::
+	trainerbattle_single TRAINER_SILVRIC, StartingTown_Text_SilvricBattle, StartingTown_Text_SilvricDefeat
+	msgbox StartingTown_Text_SilvricPostBattle, MSGBOX_AUTOCLOSE
+    end
+
+StartingTown_EventScript_SilvricRefuseBattle::
+    msgbox StartingTown_Text_SilvricRefuseBattle, MSGBOX_AUTOCLOSE
+    end
+
+StartingTown_EventScript_SilvricPostBattle::
+    msgbox StartingTown_Text_SilvricPostBattle, MSGBOX_AUTOCLOSE
+    end
+
+StartingTown_Text_SilvricIntro:
+	.string "Silvric: Greetings {PLAYER}…\n"
+	.string "This environment is well suited\l"
+	.string "to conducting some experiments.\p"
+    .string "Are you ready to face the wrath of\n"
+	.string "the sea?$"
+	
+StartingTown_Text_SilvricRefuseBattle:
+    .string "I see…\n"
+	.string "Very well.$"
+
+StartingTown_Text_SilvricBattle: 
+    .string "Are you ready to face the wrath of\n"
+	.string "the sea?$"
+
+StartingTown_Text_SilvricDefeat:
+	.string " i see that the sea have failled me. maybe i should seek for another way to defeat you in the future\n"
+	.string "slightly off! Fascinating!\p"
+	.string "No worries, this data will be \n"
+	.string "quite useful for my next experiment!\p"
+	.string "Back to the drawing board!$"
+
+StartingTown_Text_SilvricPostBattle:
+    .string "Silvric: well done, you've defeat me. but you know, i just wanted to thanks you for your streams, even tho i can't be there often. anyway, good luck for your travels and see you later.\p"
+	.string "Thanks for being you.$"

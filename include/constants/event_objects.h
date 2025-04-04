@@ -395,6 +395,7 @@
 #define OBJ_EVENT_PAL_TAG_SLING_RYAN              0x112A
 #define OBJ_EVENT_PAL_TAG_PIRATE_RYAN             0x112B
 #define OBJ_EVENT_PAL_TAG_TOT                     0x112C
+#define OBJ_EVENT_PAL_TAG_SALSA                   0x112D
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla

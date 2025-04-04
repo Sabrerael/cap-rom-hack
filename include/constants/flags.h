@@ -68,9 +68,9 @@
 #define FLAG_HIDE_PEHBBLE_BATTLE_5   0x37
 #define FLAG_HIDE_PEHBBLE_BATTLE_6   0x38
 #define FLAG_HIDE_PEHBBLE_BATTLE_7   0x39
-#define FLAG_UNUSED_0x03A    0x3A // Unused Flag
-#define FLAG_UNUSED_0x03B    0x3B // Unused Flag
-#define FLAG_UNUSED_0x03C    0x3C // Unused Flag
+#define FLAG_SALSA_TOMATOES          0x3A
+#define FLAG_SALSA_ONIONS            0x3B
+#define FLAG_SALSA_PEPPERS           0x3C
 #define FLAG_UNUSED_0x03D    0x3D // Unused Flag
 #define FLAG_UNUSED_0x03E    0x3E // Unused Flag
 #define FLAG_UNUSED_0x03F    0x3F // Unused Flag
