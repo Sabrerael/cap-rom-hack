@@ -654,53 +654,6 @@ StartingTown_Text_JadedosaPostBattle:
 	.string "all the places you'll go!\p"
 	.string "May the fog always welcome you…$"
 
-StartingTown_EventScript_DaddyDeath::
-	lock
-	faceplayer
-	goto_if_defeated TRAINER_DA_DADDY_DEATH, StartingTown_EventScript_DaddyDeathPostBattle
-	setvar VAR_0x8008, LOCALID_JADEDOSA
-	msgbox StartingTown_Text_DaddyDeathIntro, MSGBOX_YESNO
-	call_if_eq VAR_RESULT, YES, StartingTown_EventScript_DaddyDeathBattle
-	call_if_eq VAR_RESULT, NO, StartingTown_EventScript_DaddyDeathRefuseBattle
-	release
-	end
-
-StartingTown_EventScript_DaddyDeathBattle::
-	trainerbattle_single TRAINER_DA_DADDY_DEATH, StartingTown_Text_DaddyDeathBattle, StartingTown_Text_DaddyDeathDefeat
-	msgbox StartingTown_Text_DaddyDeathPostBattle, MSGBOX_AUTOCLOSE
-    end
-
-StartingTown_EventScript_DaddyDeathRefuseBattle::
-    msgbox StartingTown_Text_DaddyDeathRefuseBattle, MSGBOX_AUTOCLOSE
-    end
-
-StartingTown_EventScript_DaddyDeathPostBattle::
-    msgbox StartingTown_Text_DaddyDeathPostBattle, MSGBOX_AUTOCLOSE
-    end
-
-StartingTown_Text_DaddyDeathIntro:
-	.string "DaddyDeath: Oh hi {PLAYER}…\n"
-	.string "I… uh… wasn't listening when people\l"
-	.string "were talking…\p"
-	.string "I don't know where I am or how\n"
-	.string "I got here…\p"
-	.string "I guess we could battle?$"
-	
-StartingTown_Text_DaddyDeathRefuseBattle:
-    .string "Oh okay. Well I'll be\n"
-	.string "here if you change your mind.$"
-
-StartingTown_Text_DaddyDeathBattle:
-    .string "Don't forget I was a pro gamer!\n"
-	.string "Bring it on!$"
-
-StartingTown_Text_DaddyDeathDefeat:
-	.string "I wasn't a pro Pokémon player!$"
-
-StartingTown_Text_DaddyDeathPostBattle:
-    .string "DaddyDeath: You're dope.\p"
-	.string "Thanks for being you.$"
-
 
 
 StartingTown_EventScript_Dominy::
