@@ -1,5 +1,10 @@
 MiddleTownNorth_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, MiddleTownNorth_OnTransition
 	.byte 0
+
+MiddleTownNorth_OnTransition:
+	setflag FLAG_VISITED_MIDDLE_TOWN_NORTH
+	end
 
 MiddleTownNorth_EventScript_OldLady::
 	lock

@@ -1,7 +1,12 @@
 .set LOCALID_ZACKATK, 1
 
 CastleTownTreble_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, CastleTownTreble_OnTransition
 	.byte 0
+
+CastleTownTreble_OnTransition:
+	setflag FLAG_VISITED_CASTLE_TOWN_TREBLE
+	end
 
 CastleTownTreble_EventScript_CitySign::
 	msgbox CastleTownTreble_Text_CitySign, MSGBOX_SIGN

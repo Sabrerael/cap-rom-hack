@@ -1,5 +1,10 @@
 CastleTownTMoney_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, CastleTownTMoney_OnTransition
 	.byte 0
+
+CastleTownTMoney_OnTransition:
+	setflag FLAG_VISITED_CASTLE_TOWN_TMONEY
+	end
 
 CastleTownTMoney_EventScript_GymSign::
 	msgbox CastleTownTMoney_Text_GymSign, MSGBOX_SIGN

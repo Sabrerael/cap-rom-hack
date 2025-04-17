@@ -1,7 +1,12 @@
 .set LOCALID_DEATH, 1
 
 MiddleTownSouth_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, MiddleTownSouth_OnTransition
 	.byte 0
+
+MiddleTownSouth_OnTransition:
+	setflag FLAG_VISITED_MIDDLE_TOWN_SOUTH
+	end
 
 MiddleTownSouth_EventScript_DaddyDeath::
 	lock

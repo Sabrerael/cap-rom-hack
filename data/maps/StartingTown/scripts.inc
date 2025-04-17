@@ -9,7 +9,7 @@ StartingTown_MapScripts::
 	.byte 0
 
 StartingTown_OnTransition:
-	setflag FLAG_VISITED_LITTLEROOT_TOWN
+	setflag FLAG_VISITED_STARTING_TOWN
 	end
 
 StartingTown_OnFrame:
