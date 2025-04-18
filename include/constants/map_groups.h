@@ -652,6 +652,8 @@
 #define MAP_MIDDLE_TOWN_SOUTH_POKEMON_CENTER_1F (0 | (38 << 8))
 #define MAP_MIDDLE_TOWN_SOUTH_POKEMON_CENTER_2F (1 | (38 << 8))
 #define MAP_MIDDLE_TOWN_SOUTH_MART              (2 | (38 << 8))
+#define MAP_MIDDLE_TOWN_SOUTH_HOUSE1            (3 | (38 << 8))
+#define MAP_MIDDLE_TOWN_SOUTH_HOUSE2            (4 | (38 << 8))
 
 // gMapGroup_IndoorCastleTownSabre
 #define MAP_CASTLE_TOWN_SABRE_GYM               (0 | (39 << 8))

@@ -724,7 +724,7 @@ StartingTown_EventScript_Silvric::
 	setvar VAR_0x8008, LOCALID_JADEDOSA
 	msgbox StartingTown_Text_SilvricIntro, MSGBOX_YESNO
 	call_if_eq VAR_RESULT, YES, StartingTown_EventScript_SilvricBattle
-	call_if_eq VAR_RESULT, NO, StartingTown_EventScript_DominyRefuseBattle
+	call_if_eq VAR_RESULT, NO, StartingTown_EventScript_SilvricRefuseBattle
 	release
 	end
 
@@ -742,27 +742,75 @@ StartingTown_EventScript_SilvricPostBattle::
     end
 
 StartingTown_Text_SilvricIntro:
-	.string "Silvric: Greetings {PLAYER}…\n"
-	.string "This environment is well suited\l"
-	.string "to conducting some experiments.\p"
+	.string "Silvric: Hey {PLAYER}, you're a\n"
+	.string "great streamer. However…\p"
     .string "Are you ready to face the wrath of\n"
 	.string "the sea?$"
 	
 StartingTown_Text_SilvricRefuseBattle:
     .string "I see…\n"
-	.string "Very well.$"
+	.string "I shall be waiting.$"
 
 StartingTown_Text_SilvricBattle: 
-    .string "Are you ready to face the wrath of\n"
-	.string "the sea?$"
+    .string "Have at thee!$"
 
 StartingTown_Text_SilvricDefeat:
-	.string " i see that the sea have failled me. maybe i should seek for another way to defeat you in the future\n"
-	.string "slightly off! Fascinating!\p"
-	.string "No worries, this data will be \n"
-	.string "quite useful for my next experiment!\p"
-	.string "Back to the drawing board!$"
+	.string "I see that the sea have failed me.\p"
+	.string "Maybe i should seek for another way\n"
+	.string "to defeat you in the future.$"
 
 StartingTown_Text_SilvricPostBattle:
-    .string "Silvric: well done, you've defeat me. but you know, i just wanted to thanks you for your streams, even tho i can't be there often. anyway, good luck for your travels and see you later.\p"
-	.string "Thanks for being you.$"
+    .string "Silvric: Well done, you've\n"
+	.string "defeated me.\p"
+	.string "But you know, I just wanted to\n"
+	.string "thank you for your streams, \l"
+	.string "even tho i can't be there often.\p"
+	.string "Anyways, good luck for your travels\n"
+	.string "and see you later.$"
+
+
+
+StartingTown_EventScript_Shalt::
+	lock
+	faceplayer
+	goto_if_defeated TRAINER_SILVRIC, StartingTown_EventScript_SilvricPostBattle
+	setvar VAR_0x8008, LOCALID_JADEDOSA
+	msgbox StartingTown_Text_SilvricIntro, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, StartingTown_EventScript_SilvricBattle
+	call_if_eq VAR_RESULT, NO, StartingTown_EventScript_DominyRefuseBattle
+	release
+	end
+
+StartingTown_EventScript_ShaltBattle::
+	trainerbattle_single TRAINER_SILVRIC, StartingTown_Text_SilvricBattle, StartingTown_Text_SilvricDefeat
+	msgbox StartingTown_Text_SilvricPostBattle, MSGBOX_AUTOCLOSE
+    end
+
+StartingTown_EventScript_ShaltRefuseBattle::
+    msgbox StartingTown_Text_SilvricRefuseBattle, MSGBOX_AUTOCLOSE
+    end
+
+StartingTown_EventScript_ShaltPostBattle::
+    msgbox StartingTown_Text_SilvricPostBattle, MSGBOX_AUTOCLOSE
+    end
+
+StartingTown_Text_ShaltIntro:
+	.string "Shalt: Hi {PLAYER}!\p"
+	.string "I'm trying to come up with some.\n"
+    .string "cat puns but it's PAWsitivly hard!\p"
+	.string "Say! Do you want to battle?$"
+	
+StartingTown_Text_ShaltRefuseBattle:
+    .string "Aww, you're no fun…$"
+
+StartingTown_Text_ShaltBattle: 
+    .string "This kitten's got claws!$"
+
+StartingTown_Text_ShaltDefeat:
+	.string "This is a CATastrophe!$"
+
+StartingTown_Text_ShaltPostBattle:
+	.string "Shalt: PAWse! You have gato be kitten\n"
+	.string "me right meow.\p"
+    .string "Puns like this make me cat-a-tonic.\p"
+	.string "I’d say more, but cat got my tongue.$"

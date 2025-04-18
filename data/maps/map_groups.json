@@ -694,7 +694,9 @@
   "gMapGroup_IndoorMiddleTownSouth": [
     "MiddleTownSouth_PokemonCenter_1F",
     "MiddleTownSouth_PokemonCenter_2F",
-    "MiddleTownSouth_Mart"
+    "MiddleTownSouth_Mart",
+    "MiddleTownSouth_House1",
+    "MiddleTownSouth_House2"
   ],
   "gMapGroup_IndoorCastleTownSabre": [
     "CastleTownSabre_Gym",

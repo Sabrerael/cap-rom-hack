@@ -1136,7 +1136,7 @@ F_TRAINER_FEMALE |
 #line 478
         .trainerClass = TRAINER_CLASS_VIEWER,
 #line 479
-        .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_M,
+        .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender = 
 #line 481
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
