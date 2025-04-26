@@ -15,12 +15,12 @@
   "connections": [
     {
       "map": "MAP_MIDDLE_TOWN_WEST",
-      "offset": -2,
+      "offset": 0,
       "direction": "up"
     },
     {
       "map": "MAP_CASTLE_TOWN_HERMES",
-      "offset": -10,
+      "offset": 0,
       "direction": "down"
     }
   ],

@@ -4647,15 +4647,15 @@
       "width": 130,
       "height": 50,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Route13/border.bin",
       "blockdata_filepath": "data/layouts/Route13/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE14",
       "name": "Route14_Layout",
-      "width": 20,
-      "height": 40,
+      "width": 40,
+      "height": 100,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route14/border.bin",
