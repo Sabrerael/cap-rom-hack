@@ -13,9 +13,44 @@ Route15_EventScript_Ivan::
 	msgbox Route104_Text_IvanPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route15_EventScript_Edward::
-	trainerbattle_single TRAINER_EDWARD, Route110_Text_EdwardIntro, Route110_Text_EdwardDefeated
-	msgbox Route110_Text_EdwardPostBattle, MSGBOX_AUTOCLOSE
+Route15_EventScript_Aidan::
+	trainerbattle_single TRAINER_AIDAN, Route127_Text_AidanIntro, Route127_Text_AidanDefeat
+	msgbox Route127_Text_AidanPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route15_EventScript_Myles::
+	trainerbattle_single TRAINER_MYLES, Route121_Text_MylesIntro, Route121_Text_MylesDefeat
+	msgbox Route121_Text_MylesPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route15_EventScript_Pat::
+	trainerbattle_single TRAINER_PAT, Route121_Text_PatIntro, Route121_Text_PatDefeat
+	msgbox Route121_Text_PatPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route15_EventScript_Kyra::
+	trainerbattle_single TRAINER_KYRA, Route115_Text_KyraIntro, Route115_Text_KyraDefeat
+	msgbox Route115_Text_KyraPostBattle, MSGBOX_AUTOCLOSE
+	end
+	
+Route15_EventScript_Dylan::
+	trainerbattle_single TRAINER_DYLAN_1, Route117_Text_DylanIntro, Route117_Text_DylanDefeat
+	msgbox Route117_Text_DylanPostBattle, MSGBOX_AUTOCLOSE
+	end
+	
+Route15_EventScript_Luke::
+	trainerbattle_double TRAINER_DEZ_AND_LUKE, MtPyre_2F_Text_LukeIntro, MtPyre_2F_Text_LukeDefeat, MtPyre_2F_Text_LukeNotEnoughMons
+	msgbox MtPyre_2F_Text_LukePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route15_EventScript_Dez::
+	trainerbattle_double TRAINER_DEZ_AND_LUKE, MtPyre_2F_Text_DezIntro, MtPyre_2F_Text_DezDefeat, MtPyre_2F_Text_DezNotEnoughMons
+	msgbox MtPyre_2F_Text_DezPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route15_EventScript_Alexa::
+	trainerbattle_single TRAINER_ALEXA, Route128_Text_AlexaIntro, Route128_Text_AlexaDefeat
+	msgbox Route128_Text_AlexaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route15_EventScript_OnlyJack::

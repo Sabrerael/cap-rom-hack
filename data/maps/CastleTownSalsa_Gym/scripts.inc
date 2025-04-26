@@ -289,7 +289,7 @@ CastleTownSalsa_Gym_Text_AxleIntro:
 	.string "Don't come along and stress me out!$"
 
 CastleTownSalsa_Gym_Text_AxleDefeat:
-	.string "I hope FLANNERY flames you good!$"
+	.string "I hope Salsa flames you good!$"
 
 CastleTownSalsa_Gym_Text_AxlePostBattle:
 	.string "Haaah… Whew…\p"
@@ -302,19 +302,19 @@ CastleTownSalsa_Gym_Text_KeeganIntro:
 	.string "wouldn't you?\p"
 	.string "But you should know that maintaining\n"
 	.string "your willpower is an important ability\l"
-	.string "for all TRAINERS.$"
+	.string "for all Trainers.$"
 
 CastleTownSalsa_Gym_Text_KeeganDefeat:
 	.string "Play with fire, and be burned…$"
 
 CastleTownSalsa_Gym_Text_KeeganPostBattle:
 	.string "Your skill is real…\n"
-	.string "But our LEADER FLANNERY is strong.\p"
+	.string "But Salsa is strong.\p"
 	.string "If you don't watch yourself, you'll be\n"
 	.string "burned seriously.$"
 
 CastleTownSalsa_Gym_Text_GeraldIntro:
-	.string "Can your POKéMON withstand\n"
+	.string "Can your Pokémon withstand\n"
 	.string "392-degree heat?$"
 
 CastleTownSalsa_Gym_Text_GeraldDefeat:
@@ -334,8 +334,8 @@ CastleTownSalsa_Gym_Text_DanielleDefeat:
 	.string "Oh, but you're too strong.$"
 
 CastleTownSalsa_Gym_Text_DaniellePostBattle:
-	.string "I'm going to be a pretty and strong\n"
-	.string "TRAINER just like FLANNERY.$"
+	.string "I'm going to be a strong\n"
+	.string "Trainer just like Salsa.$"
 
 CastleTownSalsa_Gym_Text_JaceIntro:
 	.string "Come on, get with it!\n"
@@ -348,7 +348,7 @@ CastleTownSalsa_Gym_Text_JaceDefeat:
 CastleTownSalsa_Gym_Text_JacePostBattle:
 	.string "The way the battling spirit burns\n"
 	.string "within you, you may stand a chance\l"
-	.string "against our LEADER.$"
+	.string "against our Moderator.$"
 
 CastleTownSalsa_Gym_Text_JeffIntro:
 	.string "See how the flames blaze wildly?\n"
