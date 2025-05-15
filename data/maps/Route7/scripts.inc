@@ -36,6 +36,7 @@ Route7_EventScript_Irene::
 	msgbox Route111_Text_IrenePostBattle, MSGBOX_AUTOCLOSE
 	end
 
+/* Replace */
 Route7_EventScript_DaDaddyDeath::
 	trainerbattle_single TRAINER_DA_DADDY_DEATH, Route7_Text_DaDaddyDeathIntro, Route7_Text_DaDaddyDeathDefeat
 	msgbox Route7_Text_DaDaddyDeathPostBattle, MSGBOX_AUTOCLOSE

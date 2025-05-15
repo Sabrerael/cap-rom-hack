@@ -72,7 +72,6 @@ Comments can be added as C comment blocks
 
 /*Comments can also be on a single line*/
 
-
 === TRAINER_NONE ===
 Name:
 Class: Pkmn Trainer 1
@@ -80,6 +79,8 @@ Pic: Hiker
 Gender: Male
 Music: Male
 Double Battle: No
+
+/***** Viewer Trainers *****/
 
 === TRAINER_DARK_PSYSTORM ===
 Name: Psystorm
@@ -256,6 +257,31 @@ Houndoom
 Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
+=== TRAINER_JADEDOSA ===
+Name: JadeDosa
+Class: Viewer
+Pic: Magma Grunt F
+Gender: Female
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Mimikyu
+Level Modifier: 3
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Snorlax
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Banette
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Gengar
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
 === TRAINER_ZACKATK ===
 Name: ZackAtk
 Class: Viewer
@@ -293,127 +319,6 @@ AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 Zubat
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GABRIELLE_1 ===
-Name: GABRIELLE
-Class: Pkmn Breeder
-Pic: Pokemon Breeder F
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Skitty
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Poochyena
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Zigzagoon
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Lotad
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Seedot
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Taillow
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_JADEDOSA ===
-Name: JadeDosa
-Class: Viewer
-Pic: Magma Grunt F
-Gender: Female
-Music: Intense
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Mimikyu
-Level Modifier: 3
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Snorlax
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Banette
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Gengar
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-=== TRAINER_MARCEL ===
-Name: Marcel
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: Check Bad Move
-
-Skorupi
-Level Modifier: 3
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Gurdurr
-Level Modifier: 2
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Sawsbuck
-Level Modifier: 2
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_ALBERTO ===
-Name: Alberto
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: Check Bad Move
-
-Wattrel
-Level Modifier: 3
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Tranquill
-Level Modifier: 2
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Xatu
-Level Modifier: 2
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_ED ===
-Name: Ed
-Class: Collector
-Pic: Collector
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: Check Bad Move
-
-Varoom
-Level Modifier: 2
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Komala
-Level Modifier: 2
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Seviper
-Level Modifier: 1
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_DOMINY ===
 Name: Dominy
@@ -460,19 +365,6 @@ IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Ice Spinner
 - Rapid Spin
 
-=== TRAINER_DECLAN ===
-Name: DECLAN
-Class: Swimmer M
-Pic: Swimmer M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Gyarados
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_SILVRIC ===
 Name: Silvric
 Class: Viewer
@@ -497,6 +389,4088 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Leviator (Gyarados)
 Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+/***** Pehbble Fights *****/
+
+=== TRAINER_PEHBBLE_1 ===
+Name: Pehbble
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Ralts (M)
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_PEHBBLE_2 ===
+Name: Pehbble
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Items: Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Pikachu
+Level: 13
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Squirtle
+Level: 13
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Ralts (M) @ Oran Berry
+Level: 15
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+=== TRAINER_PEHBBLE_3 ===
+Name: Pehbble
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Items: Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Pikachu
+Level: 26
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Gastly
+Level: 25
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Wartortle @ Oran Berry
+Level: 26
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Kirlia (M) @ Sitrus Berry
+Level: 27
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_PEHBBLE_4 ===
+Name: Pehbble
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Items: Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Raichu
+Level: 37
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Thunderbolt
+- Surf
+- Agility
+- Alluring Voice
+
+Haunter
+Level: 37
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Marowak
+Level: 36
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Bonemerang
+- Headbutt
+- Rock Slide
+- Brick Break
+
+Blastoise @ Sitrus Berry
+Level: 38
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Water Pulse
+- Flash Cannon
+- Rapid Spin
+- Icy Wind
+
+Gallade @ Sitrus Berry
+Level: 39
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Psycho Cut
+- Swords Dance
+- Leaf Blade
+- Sacred Sword
+
+=== TRAINER_PEHBBLE_5 ===
+Name: Pehbble
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Items: Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Raichu
+Level: 45
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Thunderbolt
+- Surf
+- Agility
+- Alluring Voice
+
+Gengar @ Sitrus Berry
+Level: 46
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Shadow Ball
+- Dark Pulse
+- Venoshock
+- Toxic
+
+Marowak @ Thick Club
+Level: 46
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Bonemerang
+- Headbutt
+- Rock Slide
+- Brick Break
+
+Shelgon
+Level: 47
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Blastoise @ Wise Glasses
+Level: 47
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Hydro Pump
+- Flash Cannon
+- Rapid Spin
+- Icy Wind
+
+Gallade @ Life Orb
+Level: 48
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Psycho Cut
+- Swords Dance
+- Leaf Blade
+- Sacred Sword
+
+=== TRAINER_PEHBBLE_6 ===
+Name: Pehbble
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Items: Max Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Raichu @ Electric Gem
+Level: 58
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Discharge
+- Surf
+- Agility
+- Alluring Voice
+
+Gengar @ Black Sludge
+Level: 58
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Shadow Ball
+- Focus Blast
+- Venoshock
+- Toxic
+
+Marowak @ Thick Club
+Level: 58
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Bonemerang
+- Headbutt
+- Rock Slide
+- Brick Break
+
+Salamence @ Yache Berry
+Level: 59
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Dragon Claw
+- Psychic Fangs
+- Fire Fang
+- Iron Head
+
+Blastoise @ Wise Glasses
+Level: 59
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Hydro Pump
+- Flash Cannon
+- Dragon Pulse
+- Ice Beam
+
+Gallade @ Life Orb
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Psycho Cut
+- Swords Dance
+- Leaf Blade
+- Sacred Sword
+
+=== TRAINER_PEHBBLE_7 ===
+Name: Pehbble
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Items: Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Setup First Turn / Ace Pokemon
+
+Raichu @ Electric Gem
+Level: 65
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Discharge
+- Surf
+- Agility
+- Alluring Voice
+
+Gengar @ Black Sludge
+Level: 65
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Shadow Ball
+- Focus Blast
+- Venoshock
+- Toxic
+
+Marowak @ Thick Club
+Level: 66
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Bonemerang
+- Headbutt
+- Rock Slide
+- Brick Break
+
+Salamence @ Yache Berry
+Level: 66
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Dragon Claw
+- Psychic Fangs
+- Fire Fang
+- Iron Head
+
+Blastoise @ Wise Glasses
+Level: 66
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Hydro Pump
+- Flash Cannon
+- Dragon Pulse
+- Ice Beam
+
+Gallade @ Life Orb
+Level: 67
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psycho Cut
+- Swords Dance
+- Leaf Blade
+- Sacred Sword
+
+/***** Route 1 Trainers *****/
+
+=== TRAINER_RICK ===
+Name: RICK
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Wurmple
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Wurmple
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_TIANA ===
+Name: TIANA
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Zigzagoon
+Level Modifier: 4
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Shroomish
+Level Modifier: 4
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+/***** Route 2 Trainers *****/
+
+=== TRAINER_CALVIN_1 ===
+Name: Calvin
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Fidough
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Poochyena
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_ALLEN ===
+Name: ALLEN
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Zigzagoon
+Level Modifier: 3
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Fletchling
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Yamper
+Level Modifier: 1
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+/***** Route 3 Trainers *****/
+
+=== TRAINER_BILLY ===
+Name: Billy
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Yungoos
+Level Modifier: 3
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Zigzagoon
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Skiddo
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_HALEY_1 ===
+Name: HALEY
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Lotad
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Smoliv
+Level Modifier: 1
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+/* Route 4 Trainers */
+
+=== TRAINER_JOEY ===
+Name: Joey
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Rookidee
+Level Modifier: 3
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Aipom
+Level Modifier: 3
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machop
+Level Modifier: 1
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_KAREN_1 ===
+Name: KAREN
+Class: School Kid
+Pic: School Kid F
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move
+
+Gothita
+Level Modifier: 2
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Shroomish
+Level Modifier: 1 
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+/***** Route 5 Trainers *****/
+
+=== TRAINER_JAYLEN ===
+Name: Jaylen
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Trapinch
+Level Modifier: 4
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Silicobra
+Level Modifier: 4
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Rufflet
+Level Modifier: 4
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Grumpig
+Level Modifier: 1
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+=== TRAINER_DAISY ===
+Name: Daisy
+Class: Aroma Lady
+Pic: Aroma Lady
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Shroomish
+Level Modifier: 3
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Cherrim
+Level Modifier: 2
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Floette
+Level Modifier: 2
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+=== TRAINER_ALBERTO ===
+Name: Alberto
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move
+
+Wattrel
+Level Modifier: 3
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Tranquill
+Level Modifier: 2
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Xatu
+Level Modifier: 2
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+=== TRAINER_ED ===
+Name: Ed
+Class: Collector
+Pic: Collector
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: Check Bad Move
+
+Varoom
+Level Modifier: 2
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Komala
+Level Modifier: 2
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Seviper
+Level Modifier: 1
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+=== TRAINER_NED ===
+Name: Ned
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Tentacool
+Level Modifier: 4
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Basculin
+Level Modifier: 4
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Finneon
+Level Modifier: 4
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Arrokuda
+Level Modifier: 4
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Wishiwashi
+Level Modifier: 4
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+=== TRAINER_CLAUDE ===
+Name: Claude
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Magikarp
+Level Modifier: 4
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Barboach
+Level Modifier: 2
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Goldeen
+Level Modifier: 2
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Gyarados
+Level Modifier: 1
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+=== TRAINER_BROOKE ===
+Name: BROOKE
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Items: Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Palpitoad
+Level Modifier: 3
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Servine
+Level Modifier: 3
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Pyroar (F)
+Level Modifier: 1
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+=== TRAINER_MARCEL ===
+Name: Marcel
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move
+
+Skorupi
+Level Modifier: 3
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Gurdurr
+Level Modifier: 2
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Sawsbuck
+Level Modifier: 2
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+=== TRAINER_ROSE ===
+Name: Rose
+Class: Aroma Lady
+Pic: Aroma Lady
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Roselia
+Level Modifier: 3
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Skiploom
+Level Modifier: 2
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Comfey
+Level Modifier: 2
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Ribombee
+Level Modifier: 2
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+/***** Route 6 Trainers *****/
+
+=== TRAINER_AUTUMN ===
+Name: Autumn
+Class: Picnicker
+Pic: Picnicker
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move
+
+Rockruff
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Vullaby
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Breloom
+Level Modifier: 1
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BERNIE_1 ===
+Name: Bernie
+Class: Kindler
+Pic: Kindler
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Slugma
+Level Modifier: 3
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Wingull
+Level Modifier: 3
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BRICE ===
+Name: Brice
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Numel
+Level Modifier: 3
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Mudbray
+Level Modifier: 3
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Nosepass
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Falinks
+Level Modifier: 1
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CYNDY_1 ===
+Name: Cyndy
+Class: Battle Girl
+Pic: Battle Girl
+Gender: Female
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Meditite
+Level Modifier: 3
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+Passimian
+Level Modifier: 3
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+Klawf
+Level Modifier: 3
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+Hariyama
+Level Modifier: 1
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+/***** Route 7 Trainers *****/
+
+=== TRAINER_BEAU ===
+Name: BEAU
+Class: Camper
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Drilbur
+Level Modifier: 3
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Carkol
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Claydol
+Level Modifier: 1
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BECKY ===
+Name: BECKY
+Class: Picnicker
+Pic: Picnicker
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move
+
+Helioptile
+Level Modifier: 3
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Hippopotas
+Level Modifier: 3
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Carbink
+Level Modifier: 3
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Azumarill
+Level Modifier: 1
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_DREW ===
+Name: DREW
+Class: Camper
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Cufant
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Scraggy
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Sandslash
+Level Modifier: 1
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_HEIDI ===
+Name: HEIDI
+Class: Picnicker
+Pic: Picnicker
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move
+
+Sigilyph
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Sandaconda
+Level Modifier: 2
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_IRENE ===
+Name: IRENE
+Class: Picnicker
+Pic: Picnicker
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move
+
+Bramblin
+Level Modifier: 3
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+Rufflet
+Level Modifier: 3
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+Chewtle
+Level Modifier: 3
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+Phanpy
+Level Modifier: 3
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+Litleo
+Level Modifier: 3
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+=== TRAINER_TRAVIS ===
+Name: TRAVIS
+Class: Camper
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Geodude
+Level Modifier: 3
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Trapinch
+Level Modifier: 3
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Lairon
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Dugtrio
+Level Modifier: 1
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+=== TRAINER_DUSTY_1 ===
+Name: DUSTY
+Class: Ruin Maniac
+Pic: Ruin Maniac
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Anorith
+Level Modifier: 2
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Bronzor
+Level Modifier: 2
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Sudowoodo
+Level Modifier: 1
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+/***** Route 8 Trainers *****/
+
+/* Route 9 Trainers */
+
+/* Route 10 Trainers */
+
+/* Route 11 Trainers */
+
+/* Route 12 Trainers */
+
+/* Route 13 Trainers */
+
+/* Route 14 Trainers */
+
+/* Route 15 Trainers */
+
+/* Route 16 Trainers */
+
+/* Castle Town BlindJim Trainers */
+
+=== TRAINER_BLIND_JIM_1 ===
+Name: BlindJim
+Class: Moderator
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Sandile
+Level: 14
+Ability: Intimidate
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Hone Claws
+- Crunch
+- Bulldoze
+- Shadow Claw
+
+Inkay
+Level: 15
+Ability: Contrary
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Psycho Cut
+- Night Slash
+- Liquidation
+- Pluck
+
+Murkrow @ Oran Berry
+Level: 16
+Ability: Super Luck
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Confuse Ray
+- Protect
+- Foul Play
+- Dual Wingbeat
+
+=== TRAINER_BLIND_JIM_2 ===
+Name: BlindJim
+Class: Moderator
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Items: Potion / Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Umbreon
+Level: 20
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Confuse Ray
+- Toxic
+- Protect
+- Feint Attack
+
+Sandile
+Level: 21
+Ability: Strong Jaw
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Hone Claws
+- Crunch
+- Bulldoze
+- Shadow Claw
+
+Inkay
+Level: 21
+Ability: Contrary
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Psycho Cut
+- Night Slash
+- Liquidation
+- Pluck
+
+Murkrow @ Oran Berry
+Level: 22
+Ability: Super Luck
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Confuse Ray
+- Protect
+- Foul Play
+- Dual Wingbeat
+
+=== TRAINER_BLIND_JIM_3 ===
+Name: BlindJim
+Class: Moderator
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Items: Super Potion / Super Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Umbreon
+Level: 26
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Confuse Ray
+- Toxic
+- Protect
+- Feint Attack
+
+Sandile
+Level: 27
+Ability: Strong Jaw
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hone Claws
+- Crunch
+- Bulldoze
+- Shadow Claw
+
+Inkay @ Oran Berry
+Level: 27
+Ability: Contrary
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psycho Cut
+- Night Slash
+- Liquidation
+- Pluck
+
+Honchkrow @ Sitrus Berry
+Level: 28
+Ability: Super Luck
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Swagger
+- Protect
+- Foul Play
+- Dual Wingbeat
+
+=== TRAINER_BLIND_JIM_4 ===
+Name: BlindJim
+Class: Moderator
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Items: Super Potion / Super Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Umbreon 
+Level: 32
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Confuse Ray
+- Toxic
+- Protect
+- Feint Attack
+
+Krokorok @ Sitrus Berry
+Level: 33
+Ability: Strong Jaw
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Hone Claws
+- Crunch
+- Bulldoze
+- Shadow Claw
+
+Malamar @ Sitrus Berry
+Level: 33
+Ability: Contrary
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Psycho Cut
+- Night Slash
+- Liquidation
+- Pluck
+
+Honchkrow @ Shell Bell
+Level: 34
+Ability: Super Luck
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+- Swagger
+- Protect
+- Foul Play
+- Dual Wingbeat
+
+=== TRAINER_BLIND_JIM_5 ===
+Name: BlindJim
+Class: Moderator
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Umbreon
+Level: 38
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Confuse Ray
+- Toxic
+- Protect
+- Feint Attack
+
+Krokorok
+Level: 39
+Ability: Strong Jaw
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Hone Claws
+- Crunch
+- Bulldoze
+- Shadow Claw
+
+Malamar @ Choice Scarf
+Level: 39
+Ability: Contrary
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Psycho Cut
+- Night Slash
+- Liquidation
+- Pluck
+
+Honchkrow @ Shell Bell
+Level: 40
+Ability: Moxie
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Swagger
+- Protect
+- Foul Play
+- Dual Wingbeat
+
+=== TRAINER_BLIND_JIM_6 ===
+Name: BlindJim
+Class: Moderator
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Umbreon
+Level: 44
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Confuse Ray
+- Toxic
+- Protect
+- Feint Attack
+
+Spiritomb
+Level: 44
+Ability: Pressure
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Hex
+- Dark Pulse
+- Will-O-Wisp
+- Protect
+
+Krookodile @ Muscle Band
+Level: 45
+Ability: Strong Jaw
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Hone Claws
+- Crunch
+- Bulldoze
+- Shadow Claw
+
+Malamar @ Choice Scarf
+Level: 45
+Ability: Contrary
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Psycho Cut
+- Night Slash
+- Liquidation
+- Pluck
+
+Honchkrow @ Shell Bell
+Level: 46
+Ability: Moxie
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Swagger
+- Protect
+- Foul Play
+- Dual Wingbeat
+
+=== TRAINER_BLIND_JIM_7 ===
+Name: BlindJim
+Class: Moderator
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Umbreon
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Confuse Ray
+- Toxic
+- Protect
+- Feint Attack
+
+Spiritomb @ Wise Glasses
+Level: 50
+Ability: Pressure
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hex
+- Dark Pulse
+- Will-O-Wisp
+- Protect
+
+Krookodile @ Muscle Band
+Level: 51
+Ability: Strong Jaw
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hone Claws
+- Crunch
+- Bulldoze
+- Shadow Claw
+
+Malamar @ Choice Scarf
+Level: 51
+Ability: Contrary
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Psycho Cut
+- Night Slash
+- Liquidation
+- Pluck
+
+Honchkrow @ Shell Bell
+Level: 52
+Ability: Moxie
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Swagger
+- Protect
+- Foul Play
+- Dual Wingbeat
+
+=== TRAINER_BLIND_JIM_8 ===
+Name: BlindJim
+Class: Moderator
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Items: Full Restore / Full Restore
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Umbreon @ Leftovers
+Level: 56
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Confuse Ray
+- Toxic
+- Protect
+- Feint Attack
+
+Spiritomb @ Wise Glasses
+Level: 56
+Ability: Pressure
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Hex
+- Dark Pulse
+- Will-O-Wisp
+- Protect
+
+Krookodile @ Muscle Band
+Level: 57
+Ability: Strong Jaw
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Hone Claws
+- Crunch
+- Bulldoze
+- Shadow Claw
+
+Malamar @ Choice Scarf
+Level: 57
+Ability: Contrary
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Psycho Cut
+- Night Slash
+- Liquidation
+- Pluck
+
+Honchkrow @ Shell Bell
+Level: 58
+Ability: Moxie
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Swagger
+- Protect
+- Foul Play
+- Dual Wingbeat
+
+/* Castle Town Hermes Trainers */
+
+=== TRAINER_HERMES_1 ===
+Name: Hermes
+Class: Moderator
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Steelix @ Leftovers
+Level: 14
+Ability: Sturdy
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Stealth Rock
+- Sand Tomb
+- Iron Tail
+- Rock Tomb
+
+Beldum
+Level: 15
+Ability: Clear Body
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Iron Head
+- Zen Headbutt
+- Take Down
+- Iron Defense
+
+Gholdengo @ Oran Berry
+Level: 16
+Ability: Good as Gold
+IVs: 24 HP / 0 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+- Recover
+
+=== TRAINER_HERMES_2 ===
+Name: Hermes
+Class: Moderator
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Steelix
+Level: 20
+Ability: Sturdy
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Stealth Rock
+- Sand Tomb
+- Iron Tail
+- Rock Tomb
+
+Scizor
+Level: 20
+Ability: Swarm
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Swords Dance
+- Bullet Punch
+- Brick Break
+- Knock Off
+
+Metang
+Level: 21
+Ability: Clear Body
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Iron Head
+- Psychic Fangs
+- Bulldoze
+- Bullet Punch
+
+Gholdengo @ Oran Berry
+Level: 22
+Ability: Good as Gold
+IVs: 26 HP / 0 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+- Recover
+
+=== TRAINER_HERMES_3 ===
+Name: Hermes
+Class: Moderator
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Items: Super Potion / Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Steelix
+Level: 26
+Ability: Sturdy
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Stealth Rock
+- Sand Tomb
+- Iron Tail
+- Toxic
+
+Scizor
+Level: 26
+Ability: Swarm
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Swords Dance
+- Bullet Punch
+- Brick Break
+- Knock Off
+
+Metang @ Oran Berry
+Level: 27
+Ability: Clear Body
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Iron Head
+- Psychic Fangs
+- Bulldoze
+- Bullet Punch
+
+Gholdengo @ Sitrus Berry
+Level: 28
+Ability: Good as Gold
+IVs: 26 HP / 0 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+- Recover
+
+=== TRAINER_HERMES_4 ===
+Name: Hermes
+Class: Moderator
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Items: Super Potion / Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Steelix
+Level: 32
+Ability: Sturdy
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Stealth Rock
+- Sand Tomb
+- Heavy Slam
+- Toxic
+
+Scizor @ Sitrus Berry
+Level: 32
+Ability: Technician
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Swords Dance
+- Bullet Punch
+- Brick Break
+- Knock Off
+
+Metang @ Sitrus Berry
+Level: 33
+Ability: Clear Body
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Heavy Slam
+- Psychic Fangs
+- Bulldoze
+- Bullet Punch
+
+Gholdengo @ Air Balloon
+Level: 34
+Ability: Good as Gold
+IVs: 27 HP / 0 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+- Recover
+
+=== TRAINER_HERMES_5 ===
+Name: Hermes
+Class: Moderator
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Steelix
+Level: 38
+Ability: Sturdy
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Stealth Rock
+- Earthquake
+- Heavy Slam
+- Toxic
+
+Scizor
+Level: 38
+Ability: Technician
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Swords Dance
+- Bullet Punch
+- Close Combat
+- Knock Off
+
+Metang @ Leftovers
+Level: 39
+Ability: Clear Body
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+EVs: 252 HP / 160 Atk / 96 Spe
+Nature: Adamant
+- Heavy Slam
+- Psychic Fangs
+- Earthquake
+- Bullet Punch
+
+Gholdengo @ Air Balloon
+Level: 40
+Ability: Good as Gold
+IVs: 28 HP / 0 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+- Recover
+
+=== TRAINER_HERMES_6 ===
+Name: Hermes
+Class: Moderator
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Steelix
+Level: 44
+Ability: Sturdy
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Stealth Rock
+- Earthquake
+- Heavy Slam
+- Toxic
+
+Lucario
+Level: 44
+Ability: Inner Focus
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Extreme Speed
+- Close Combat
+- Meteor Mash
+- Crunch
+
+Scizor @ Life Orb
+Level: 44
+Ability: Technician
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Swords Dance
+- Bullet Punch
+- Close Combat
+- Knock Off
+
+Metagross @ Leftovers
+Level: 45
+Ability: Clear Body
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+EVs: 252 HP / 160 Atk / 96 Spe
+Nature: Adamant
+- Heavy Slam
+- Psychic Fangs
+- Earthquake
+- Bullet Punch
+
+Gholdengo @ Air Balloon
+Level: 46
+Ability: Good as Gold
+IVs: 29 HP / 0 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+- Recover
+
+=== TRAINER_HERMES_7 ===
+Name: Hermes
+Class: Moderator
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Steelix
+Level: 50
+Ability: Sturdy
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Careful
+- Stealth Rock
+- Earthquake
+- Heavy Slam
+- Toxic
+
+Lucario @ Choice Band
+Level: 50
+Ability: Inner Focus
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Jolly
+- Extreme Speed
+- Close Combat
+- Meteor Mash
+- Crunch
+
+Scizor @ Life Orb
+Level: 50
+Ability: Technician
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Adamant
+- Swords Dance
+- Bullet Punch
+- Close Combat
+- Knock Off
+
+Metagross @ Leftovers
+Level: 51
+Ability: Clear Body
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Adamant
+- Heavy Slam
+- Psychic Fangs
+- Earthquake
+- Bullet Punch
+
+Gholdengo @ Air Balloon
+Level: 52
+Ability: Good as Gold
+IVs: 30 HP / 0 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Nature: Timid
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+- Recover
+
+=== TRAINER_HERMES_8 ===
+Name: Hermes
+Class: Moderator
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Steelix @ Leftovers
+Level: 56
+Ability: Sturdy
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+EVs: 252 HP / 4 Atk / 252 Spe
+Nature: Careful
+- Stealth Rock
+- Earthquake
+- Heavy Slam
+- Toxic
+
+Lucario @ Choice Band
+Level: 56
+Ability: Inner Focus
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
+Nature: Jolly
+- Extreme Speed
+- Close Combat
+- Meteor Mash
+- Crunch
+
+Scizor @ Life Orb
+Level: 57
+Ability: Technician
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
+Nature: Adamant
+- Swords Dance
+- Bullet Punch
+- Close Combat
+- Knock Off
+
+SPECIES_GOODRA_HISUIAN @ Heavy-Duty Boots
+Level: 57
+Ability: Sap Sipper
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+EVs: 4 Def / 252 SpA / 252 Spe
+Nature: Timid
+- Draco Meteor
+- Flamethrower
+- Sludge Bomb
+- Dragon Tail
+
+Metagross @ Leftovers
+Level: 57
+Ability: Clear Body
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+EVs: 252 HP / 160 Atk / 96 Spe
+Nature: Adamant
+- Heavy Slam
+- Psychic Fangs
+- Earthquake
+- Bullet Punch
+
+Gholdengo @ Air Balloon
+Level: 58
+Ability: Good as Gold
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 4 SpD / 252 Spe
+Nature: Timid
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+- Recover
+
+
+/* Castle Town Jade And Rin Trainers */
+
+=== TRAINER_ANDY_1 ===
+Name: Andy
+Class: Moderator
+Pic: Leader Roxanne
+Gender: Male
+Music: Female
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Doduo
+Level: 14
+Ability: Early Bird
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Drill Peck
+- Tri Attack
+- Aerial Ace
+- Agility
+
+Drifloon
+Level: 15
+Ability: Aftermath
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Air Cutter
+- Protect
+- Payback
+- Ominous Wind
+
+Gliscor @ Oran Berry
+Level: 16
+Ability: Hyper Cutter
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Magnitude
+- Rock Tomb
+- Sand Attack
+- Fly
+
+=== TRAINER_ANDY_2 ===
+Name: Andy
+Class: Moderator
+Pic: Leader Roxanne
+Gender: Male
+Music: Female
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Doduo
+Level: 19
+Ability: Early Bird
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Drill Peck
+- Tri Attack
+- Aerial Ace
+- Agility
+
+Drifloon
+Level: 20
+Ability: Aftermath
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Air Cutter
+- Protect
+- Payback
+- Ominous Wind
+
+Togetic
+Level: 21
+Ability: Hustle
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Aerial Ace
+- Ancient Power
+- Wish
+- Yawn
+
+Gliscor @ Oran Berry
+Level: 22
+Ability: Hyper Cutter
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Magnitude
+- Rock Tomb
+- Sand Attack
+- Fly
+
+=== TRAINER_ANDY_3 ===
+Name: Andy
+Class: Moderator
+Pic: Leader Roxanne
+Gender: Male
+Music: Female
+Items: Super Potion / Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Doduo
+Level: 25
+Ability: Early Bird
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Drill Peck
+- Tri Attack
+- Aerial Ace
+- Agility
+
+Drifloon
+Level: 26
+Ability: Aftermath
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Air Cutter
+- Protect
+- Payback
+- Ominous Wind
+
+Togetic @ Oran Berry
+Level: 26
+Ability: Hustle
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Aerial Ace
+- Ancient Power
+- Wish
+- Yawn
+
+Gliscor @ Sitrus Berry
+Level: 28
+Ability: Hyper Cutter
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Magnitude
+- Rock Tomb
+- Sand Attack
+- Fly
+
+=== TRAINER_ANDY_4 ===
+Name: Andy
+Class: Moderator
+Pic: Leader Roxanne
+Gender: Male
+Music: Female
+Items: Super Potion / Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Dodrio
+Level: 31
+Ability: Early Bird
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Drill Peck
+- Tri Attack
+- Aerial Ace
+- Agility
+
+Drifblim @ Sitrus Berry
+Level: 32
+Ability: Aftermath
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Air Cutter
+- Protect
+- Payback
+- Ominous Wind
+
+Togetic @ Sitrus Berry
+Level: 33
+Ability: Hustle
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Aerial Ace
+- Ancient Power
+- Wish
+- Yawn
+
+Gliscor @ Yache Berry
+Level: 34
+Ability: Hyper Cutter
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+- Earthquake
+- Rock Tomb
+- Sand Attack
+- Fly
+
+=== TRAINER_ANDY_5 ===
+Name: Andy
+Class: Moderator
+Pic: Leader Roxanne
+Gender: Male
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Dodrio
+Level: 38
+Ability: Early Bird
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Drill Peck
+- Tri Attack
+- Aerial Ace
+- Agility
+
+Drifblim
+Level: 39
+Ability: Aftermath
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Air Cutter
+- Protect
+- Payback
+- Ominous Wind
+
+Togetic @ Wide Lens
+Level: 39
+Ability: Hustle
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Aerial Ace
+- Ancient Power
+- Wish
+- Yawn
+
+Gliscor @ Yache Berry
+Level: 40
+Ability: Hyper Cutter
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Earthquake
+- Dragonbreath
+- Sand Attack
+- Fly
+
+=== TRAINER_ANDY_6 ===
+Name: Andy
+Class: Moderator
+Pic: Leader Roxanne
+Gender: Male
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Dodrio
+Level: 44
+Ability: Early Bird
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Drill Peck
+- Tri Attack
+- Aerial Ace
+- Agility
+
+Skarmory
+Level: 44
+Ability: Sturdy
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Drill Run
+- Steel Wing
+- Aerial Ace
+- Agility
+
+Drifblim @ Leftovers
+Level: 45
+Ability: Aftermath
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Air Cutter
+- Protect
+- Payback
+- Ominous Wind
+
+Togetic @ Wide Lens
+Level: 45
+Ability: Hustle
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Aerial Ace
+- Ancient Power
+- Wish
+- Yawn
+
+Gliscor @ Yache Berry
+Level: 46
+Ability: Hyper Cutter
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Earthquake
+- Rock Tomb
+- Sand Attack
+- Fly
+
+=== TRAINER_ANDY_7 ===
+Name: Andy
+Class: Moderator
+Pic: Leader Roxanne
+Gender: Male
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Dodrio
+Level: 50
+Ability: Early Bird
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Drill Peck
+- Tri Attack
+- Aerial Ace
+- Agility
+
+Skarmory @ Muscle Band
+Level: 50
+Ability: Sturdy
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Drill Run
+- Steel Wing
+- Aerial Ace
+- Agility
+
+Drifblim @ Leftovers
+Level: 51
+Ability: Aftermath
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Air Cutter
+- Protect
+- Payback
+- Ominous Wind
+
+Togekiss @ Wide Lens
+Level: 51
+Ability: Hustle
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Aerial Ace
+- Ancient Power
+- Wish
+- Yawn
+
+Gliscor @ Yache Berry
+Level: 52
+Ability: Hyper Cutter
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Earthquake
+- Rock Tomb
+- Sand Attack
+- Fly
+
+=== TRAINER_ANDY_8 ===
+Name: Andy
+Class: Moderator
+Pic: Leader Roxanne
+Gender: Male
+Music: Female
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Dodrio @ ITEM_KINGS_ROCK
+Level: 56
+Ability: Early Bird
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Drill Peck
+- Tri Attack
+- Aerial Ace
+- Agility
+
+Skarmory @ Muscle Band
+Level: 56
+Ability: Sturdy
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Drill Run
+- Steel Wing
+- Aerial Ace
+- Agility
+
+Drifblim @ Leftovers
+Level: 57
+Ability: Aftermath
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Air Cutter
+- Protect
+- Payback
+- Ominous Wind
+
+Togekiss @ Wide Lens
+Level: 57
+Ability: Hustle
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Aerial Ace
+- Ancient Power
+- Wish
+- Yawn
+
+Gliscor @ Yache Berry
+Level: 58
+Ability: Hyper Cutter
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Rock Tomb
+- Sand Attack
+- Fly
+
+/***** Castle Town Sabre Trainers *****/
+=== TRAINER_SABRE_1 ===
+Name: Sabre
+Class: Moderator
+Pic: Leader Juan
+Gender: Male
+Music: Male
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Duraludon
+Level: 14
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Dragon Cheer
+- Stealth Rock
+- Dragon Tail
+- Flash Cannon
+
+Tyrunt
+Level: 15
+Ability: Strong Jaw
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Crunch
+- Thunder Fang
+- Fire Fang
+- Rock Slide
+
+Axew @ Oran Berry
+Level: 16
+Ability: Mold Breaker
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dragon Dance
+- Breaking Swipe
+- Poison Jab
+- X-Scissor
+
+=== TRAINER_SABRE_2 ===
+Name: Sabre
+Class: Moderator
+Pic: Leader Juan
+Gender: Male
+Music: Male
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Duraludon
+Level: 20
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Dragon Cheer
+- Stealth Rock
+- Dragon Tail
+- Flash Cannon
+
+Tyrunt
+Level: 21
+Ability: Strong Jaw
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Crunch
+- Thunder Fang
+- Fire Fang
+- Rock Slide
+
+Seadra
+Level: 21
+Ability: Sniper
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Focus Energy
+- Dragon Pulse
+- Ice Beam
+- Scald
+
+Fraxure @ Oran Berry
+Level: 22
+Ability: Mold Breaker
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Dragon Dance
+- Breaking Swipe
+- Poison Jab
+- X-Scissor
+
+=== TRAINER_SABRE_3 ===
+Name: Sabre
+Class: Moderator
+Pic: Leader Juan
+Gender: Male
+Music: Male
+Items: Super Potion / Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Duraludon
+Level: 26
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 1 Spe
+- Dragon Cheer
+- Stealth Rock
+- Dragon Tail
+- Flash Cannon
+
+Tyrunt
+Level: 27
+Ability: Strong Jaw
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crunch
+- Thunder Fang
+- Fire Fang
+- Rock Slide
+
+Seadra @ Oran Berry
+Level: 27
+Ability: Sniper
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Focus Energy
+- Dragon Pulse
+- Ice Beam
+- Scald
+
+Fraxure @ Sitrus Berry
+Level: 28
+Ability: Mold Breaker
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+- Dragon Dance
+- Breaking Swipe
+- Poison Jab
+- X-Scissor
+
+=== TRAINER_SABRE_4 ===
+Name: Sabre
+Class: Moderator
+Pic: Leader Juan
+Gender: Male
+Music: Male
+Items: Super Potion / Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Duraludon
+Level: 32
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Dragon Cheer
+- Stealth Rock
+- Dragon Tail
+- Flash Cannon
+
+Tyrunt @ Sitrus Berry
+Level: 33
+Ability: Strong Jaw
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Crunch
+- Thunder Fang
+- Fire Fang
+- Rock Slide
+
+Seadra @ Sitrus Berry
+Level: 33
+Ability: Sniper
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Focus Energy
+- Dragon Pulse
+- Ice Beam
+- Scald
+
+Haxorus @ Life Orb
+Level: 34
+Ability: Mold Breaker
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Dragon Dance
+- Breaking Swipe
+- Poison Jab
+- X-Scissor
+
+=== TRAINER_SABRE_5 ===
+Name: Sabre
+Class: Moderator
+Pic: Leader Juan
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Duraludon
+Level: 38
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Dragon Cheer
+- Stealth Rock
+- Dragon Tail
+- Flash Cannon
+
+Tyrantrum
+Level: 39
+Ability: Strong Jaw
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Crunch
+- Thunder Fang
+- Fire Fang
+- Rock Slide
+
+Kingdra @ Scope Lens
+Level: 39
+Ability: Sniper
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Focus Energy
+- Dragon Pulse
+- Ice Beam
+- Scald
+
+Haxorus @ Life Orb
+Level: 40
+Ability: Mold Breaker
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Dragon Dance
+- Breaking Swipe
+- Poison Jab
+- X-Scissor
+
+=== TRAINER_SABRE_6 ===
+Name: Sabre
+Class: Moderator
+Pic: Leader Juan
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Duraludon
+Level: 44
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Dragon Cheer
+- Stealth Rock
+- Dragon Tail
+- Flash Cannon
+
+Dragalge
+Level: 44
+Ability: Poison Point
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Sludge Bomb
+- Shadow Ball
+- Muddy Water
+- Toxic
+
+Tyrantrum @ Quick Claw
+Level: 45
+Ability: Strong Jaw
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Crunch
+- Thunder Fang
+- Fire Fang
+- Rock Slide
+
+Kingdra @ Scope Lens
+Level: 45
+Ability: Sniper
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Focus Energy
+- Dragon Pulse
+- Ice Beam
+- Scald
+
+Haxorus @ Life Orb
+Level: 46
+Ability: Mold Breaker
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Dragon Dance
+- Breaking Swipe
+- Poison Jab
+- X-Scissor
+
+=== TRAINER_SABRE_7 ===
+Name: Sabre
+Class: Moderator
+Pic: Leader Juan
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Duraludon
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dragon Cheer
+- Stealth Rock
+- Dragon Tail
+- Flash Cannon
+
+Dragalge @ Black Sludge
+Level: 50
+Ability: Poison Point
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sludge Bomb
+- Shadow Ball
+- Muddy Water
+- Toxic
+
+Tyrantrum @ Quick Claw
+Level: 51
+Ability: Strong Jaw
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Crunch
+- Thunder Fang
+- Fire Fang
+- Rock Slide
+
+Kingdra @ Scope Lens
+Level: 51
+Ability: Sniper
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Focus Energy
+- Dragon Pulse
+- Ice Beam
+- Scald
+
+Haxorus @ Life Orb
+Level: 52
+Ability: Mold Breaker
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Dragon Dance
+- Breaking Swipe
+- Poison Jab
+- X-Scissor
+
+=== TRAINER_SABRE_8 ===
+Name: Sabre
+Class: Moderator
+Pic: Leader Juan
+Gender: Male
+Music: Male
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Duraludon @ Leftovers
+Level: 56
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Dragon Cheer
+- Stealth Rock
+- Dragon Tail
+- Flash Cannon
+
+Dragalge @ Black Sludge
+Level: 56
+Ability: Poison Point
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Sludge Bomb
+- Shadow Ball
+- Muddy Water
+- Toxic
+
+Tyrantrum @ Quick Claw
+Level: 57
+Ability: Strong Jaw
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Crunch
+- Thunder Fang
+- Fire Fang
+- Rock Slide
+
+Kingdra @ Scope Lens
+Level: 57
+Ability: Sniper
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Focus Energy
+- Dragon Pulse
+- Ice Beam
+- Scald
+
+Haxorus @ Life Orb
+Level: 58
+Ability: Mold Breaker
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Dance
+- Breaking Swipe
+- Poison Jab
+- X-Scissor
+
+/***** Castle Town Salsa Trainers *****/
+
+=== TRAINER_SALSA_1 ===
+Name: Salsa
+Class: Moderator
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Vulpix
+Level: 14
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Energy Ball
+- Incinerate
+- Extrasensory
+- Calm Mind
+
+Chimchar
+Level: 15
+Ability: Blaze
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Thunder Punch
+- Acrobatics
+- Mach Punch
+- Fire Punch
+
+Capsakid @ Oran Berry
+Level: 16
+Ability: Chlorophyll
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sunny Day
+- Solar Beam
+- Flamethrower
+- Zen Headbutt
+
+=== TRAINER_SALSA_2 ===
+Name: Salsa
+Class: Moderator
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Vulpix
+Level: 20
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Energy Ball
+- Incinerate
+- Extrasensory
+- Calm Mind
+
+Charcadet
+Level: 20
+Ability: Flash Fire
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Flame Charge
+- Shadow Claw
+- Bitter Blade
+- X-Scissor
+
+Monferno
+Level: 21
+Ability: Blaze
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Thunder Punch
+- Acrobatics
+- Mach Punch
+- Fire Punch
+
+Scovillain @ Oran Berry
+Level: 22
+Ability: Chlorophyll
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Sunny Day
+- Solar Beam
+- Flamethrower
+- Zen Headbutt
+
+=== TRAINER_SALSA_3 ===
+Name: Salsa
+Class: Moderator
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Items: Super Potion / Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Vulpix
+Level: 26
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Energy Ball
+- Incinerate
+- Extrasensory
+- Calm Mind
+
+Charcadet
+Level: 26
+Ability: Flash Fire
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flame Charge
+- Shadow Claw
+- Bitter Blade
+- X-Scissor
+
+Monferno @ Oran Berry
+Level: 27
+Ability: Blaze
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunder Punch
+- Acrobatics
+- Mach Punch
+- Fire Punch
+
+Scovillain @ Sitrus Berry
+Level: 28
+Ability: Chlorophyll
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Sunny Day
+- Solar Beam
+- Flamethrower
+- Zen Headbutt
+
+=== TRAINER_SALSA_4 ===
+Name: Salsa
+Class: Moderator
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Items: Super Potion / Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Ninetales
+Level: 32
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Energy Ball
+- Heat Wave
+- Extrasensory
+- Calm Mind
+
+Ceruledge @ Sitrus Berry
+Level: 32
+Ability: Flash Fire
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Flame Charge
+- Shadow Claw
+- Bitter Blade
+- X-Scissor
+
+Monferno @ Sitrus Berry
+Level: 33
+Ability: Blaze
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Thunder Punch
+- Acrobatics
+- Mach Punch
+- Raging Fury
+
+Scovillain @ Heat Rock
+Level: 34
+Ability: Chlorophyll
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+- Sunny Day
+- Solar Beam
+- Flamethrower
+- Zen Headbutt
+
+=== TRAINER_SALSA_5 ===
+Name: Salsa
+Class: Moderator
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Ninetales
+Level: 38
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Energy Ball
+- Heat Wave
+- Scorching Sands
+- Calm Mind
+
+Ceruledge
+Level: 38
+Ability: Flash Fire
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Flame Charge
+- Shadow Claw
+- Bitter Blade
+- X-Scissor
+
+Infernape @ Persim Berry
+Level: 39
+Ability: Blaze
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Thunder Punch
+- Acrobatics
+- Mach Punch
+- Raging Fury
+
+Scovillain @ Heat Rock
+Level: 40
+Ability: Chlorophyll
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Sunny Day
+- Solar Beam
+- Flamethrower
+- Zen Headbutt
+
+=== TRAINER_SALSA_6 ===
+Name: Salsa
+Class: Moderator
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Ninetales
+Level: 44
+Ability: Drought
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Energy Ball
+- Heat Wave
+- Scorching Sands
+- Calm Mind
+
+Ceruledge
+Level: 44
+Ability: Flash Fire
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Flame Charge
+- Shadow Claw
+- Bitter Blade
+- X-Scissor
+
+Volcarona @ Wise Glasses
+Level: 45
+Ability: Flame Body
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Quiver Dance
+- Fiery Dance
+- Bug Buzz
+- Psychic
+
+Infernape @ Persim Berry
+Level: 45
+Ability: Blaze
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Thunder Punch
+- Acrobatics
+- Mach Punch
+- Raging Fury
+
+Scovillain @ Heat Rock
+Level: 46
+Ability: Chlorophyll
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Sunny Day
+- Solar Beam
+- Flamethrower
+- Zen Headbutt
+
+=== TRAINER_SALSA_7 ===
+Name: Salsa
+Class: Moderator
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Ninetales
+Level: 50
+Ability: Drought
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Energy Ball
+- Heat Wave
+- Scorching Sands
+- Calm Mind
+
+Ceruledge @ Muscle Band
+Level: 50
+Ability: Flash Fire
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flame Charge
+- Shadow Claw
+- Bitter Blade
+- X-Scissor
+
+Volcarona @ Wise Glasses
+Level: 51
+Ability: Flame Body
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Quiver Dance
+- Fiery Dance
+- Bug Buzz
+- Psychic
+
+Infernape @ Persim Berry
+Level: 51
+Ability: Blaze
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Thunder Punch
+- Acrobatics
+- Mach Punch
+- Raging Fury
+
+Scovillain @ Heat Rock
+Level: 52
+Ability: Chlorophyll
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Sunny Day
+- Solar Beam
+- Flamethrower
+- Zen Headbutt
+
+=== TRAINER_SALSA_8 ===
+Name: Salsa
+Class: Moderator
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Ninetales @ Leftovers
+Level: 56
+Ability: Drought
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Energy Ball
+- Heat Wave
+- Scorching Sands
+- Calm Mind
+
+Ceruledge @ Muscle Band
+Level: 56
+Ability: Flash Fire
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Flame Charge
+- Shadow Claw
+- Bitter Blade
+- X-Scissor
+
+Volcarona @ Wise Glasses
+Level: 57
+Ability: Flame Body
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Quiver Dance
+- Fiery Dance
+- Bug Buzz
+- Psychic
+
+Infernape @ Persim Berry
+Level: 57
+Ability: Blaze
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Thunder Punch
+- Acrobatics
+- Mach Punch
+- Raging Fury
+
+Scovillain @ Heat Rock
+Level: 58
+Ability: Chlorophyll
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sunny Day
+- Solar Beam
+- Flamethrower
+- Zen Headbutt
+
+/***** Castle Town TMoney Trainers *****/
+
+=== TRAINER_TMONEY_1 ===
+Name: TMoney
+Class: Moderator
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
+
+Tadbulb
+Level: 14
+Ability: Own Tempo
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Water Gun
+- Mud Shot
+- Volt Switch
+- Soak
+
+Magnemite
+Level: 15
+Ability: Analytic
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Discharge
+- Flash Cannon
+- Volt Switch
+- Body Press
+
+Sandy Shocks @ Oran Berry
+Level: 16
+Ability: Protosynthesis
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Volt Switch
+- Earth Power
+- Spikes
+- Stealth Rock
+
+=== TRAINER_TMONEY_2 ===
+Name: TMoney
+Class: Moderator
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
+
+Tadbulb
+Level: 20
+Ability: Own Tempo
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Water Gun
+- Mud Shot
+- Volt Switch
+- Soak
+
+Magnemite
+Level: 20
+Ability: Analytic
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Discharge
+- Flash Cannon
+- Volt Switch
+- Body Press
+
+Stunfisk
+Level: 21
+Ability: Static
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Attract
+- Toxic
+- Earth Power
+- Discharge
+
+Zekrom @ Oran Berry
+Level: 22
+Ability: Teravolt
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Dragon Dance
+- Draco Meteor
+- Dragon Claw
+- Bolt Strike
+
+=== TRAINER_TMONEY_3 ===
+Name: TMoney
+Class: Moderator
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Items: Super Potion / Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
+
+Bellibolt
+Level: 26
+Ability: Electromorphosis
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Toxic
+- Slack Off
+- Volt Switch
+- Soak
+
+Magneton
+Level: 27
+Ability: Analytic
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Discharge
+- Flash Cannon
+- Volt Switch
+- Body Press
+
+Stunfisk @ Oran Berry
+Level: 27
+Ability: Static
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Attract
+- Toxic
+- Earth Power
+- Discharge
+
+Zekrom @ Sitrus Berry
+Level: 28
+Ability: Teravolt
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Dragon Dance
+- Draco Meteor
+- Dragon Claw
+- Bolt Strike
+
+=== TRAINER_TMONEY_4 ===
+Name: TMoney
+Class: Moderator
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Items: Super Potion / Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
+
+Bellibolt
+Level: 32
+Ability: Electromorphosis
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Toxic
+- Slack Off
+- Volt Switch
+- Soak
+
+Magneton @ Sitrus Berry
+Level: 32
+Ability: Analytic
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Discharge
+- Flash Cannon
+- Volt Switch
+- Body Press
+
+Stunfisk @ Sitrus Berry
+Level: 33
+Ability: Static
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Attract
+- Toxic
+- Earth Power
+- Discharge
+
+Zekrom @ Life Orb
+Level: 34
+Ability: Teravolt
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+- Dragon Dance
+- Draco Meteor
+- Dragon Claw
+- Bolt Strike
+
+=== TRAINER_TMONEY_5 ===
+Name: TMoney
+Class: Moderator
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
+
+Bellibolt
+Level: 38
+Ability: Electromorphosis
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Toxic
+- Slack Off
+- Volt Switch
+- Soak
+
+Magnezone
+Level: 38
+Ability: Analytic
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Discharge
+- Flash Cannon
+- Volt Switch
+- Body Press
+
+Stunfisk @ Leftovers
+Level: 39
+Ability: Static
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Attract
+- Toxic
+- Earth Power
+- Discharge
+
+Zekrom @ Life Orb
+Level: 40
+Ability: Teravolt
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Dragon Dance
+- Draco Meteor
+- Dragon Claw
+- Bolt Strike
+
+=== TRAINER_TMONEY_6 ===
+Name: TMoney
+Class: Moderator
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
+
+Bellibolt
+Level: 44
+Ability: Electromorphosis
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Toxic
+- Slack Off
+- Volt Switch
+- Soak
+
+Magnezone
+Level: 44
+Ability: Analytic
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Discharge
+- Flash Cannon
+- Volt Switch
+- Body Press
+
+Rotom-Wash @ Leftovers
+Level: 44
+Ability: Levitate
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Hydro Pump
+- Volt Switch
+- Will-O-Wisp
+- Pain Split
+
+Stunfisk @ Leftovers
+Level: 45
+Ability: Static
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Attract
+- Toxic
+- Earth Power
+- Discharge
+
+Zekrom @ Life Orb
+Level: 46
+Ability: Teravolt
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Dragon Dance
+- Draco Meteor
+- Dragon Claw
+- Bolt Strike
+
+=== TRAINER_TMONEY_7 ===
+Name: TMoney
+Class: Moderator
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
+
+Bellibolt
+Level: 50
+Ability: Electromorphosis
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Toxic
+- Slack Off
+- Volt Switch
+- Soak
+
+Magnezone @ Assault Vest
+Level: 50
+Ability: Analytic
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Discharge
+- Flash Cannon
+- Volt Switch
+- Body Press
+
+Rotom-Wash @ Leftovers
+Level: 50
+Ability: Levitate
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hydro Pump
+- Volt Switch
+- Will-O-Wisp
+- Pain Split
+
+Stunfisk @ Leftovers
+Level: 51
+Ability: Static
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Attract
+- Toxic
+- Earth Power
+- Discharge
+
+Zekrom @ Life Orb
+Level: 52
+Ability: Teravolt
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Dragon Dance
+- Draco Meteor
+- Dragon Claw
+- Bolt Strike
+
+=== TRAINER_TMONEY_8 ===
+Name: TMoney
+Class: Moderator
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
+
+Bellibolt @ Leftovers
+Level: 56
+Ability: Electromorphosis
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Toxic
+- Slack Off
+- Volt Switch
+- Soak
+
+Magnezone @ Assault Vest
+Level: 56
+Ability: Analytic
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Discharge
+- Flash Cannon
+- Volt Switch
+- Body Press
+
+Rotom-Wash @ Leftovers
+Level: 56
+Ability: Levitate
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Hydro Pump
+- Volt Switch
+- Will-O-Wisp
+- Pain Split
+
+Sandy Shocks @ Leftovers
+Level: 57
+Ability: Protosynthesis
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Volt Switch
+- Earth Power
+- Spikes
+- Stealth Rock
+
+Stunfisk @ Leftovers
+Level: 57
+Ability: Static
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Attract
+- Toxic
+- Earth Power
+- Discharge
+
+Zekrom @ Life Orb
+Level: 58
+Ability: Teravolt
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Dance
+- Draco Meteor
+- Dragon Claw
+- Bolt Strike
+
+/***** Castle Town Tot Trainers *****/
+
+=== TRAINER_TOT_1 ===
+Name: Tot
+Class: Moderator
+Pic: Leader Tate And Liza
+Gender: Male
+Music: Female
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Mimikyu
+Level: 14
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Hone Claws
+- Play Rough
+- Shadow Sneak
+- Slash
+
+Marill
+Level: 15
+Ability: Huge Power
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Aqua Tail
+- Belly Drum
+- Play Rough
+- Bounce
+
+Klefki @ Oran Berry
+Level: 16
+Ability: Prankster
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flash Cannon
+- Dazzling Gleam
+- Reflect
+- Light Screen
+
+=== TRAINER_TOT_2 ===
+Name: Tot
+Class: Moderator
+Pic: Leader Tate And Liza
+Gender: Male
+Music: Female
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Sylveon
+Level: 20
+Ability: Cute Charm
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Misty Terrain
+- Moonblast
+- Psyshock
+- Swift
+
+Mimikyu
+Level: 20
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Hone Claws
+- Play Rough
+- Shadow Sneak
+- Slash
+
+Azumarill
+Level: 21
+Ability: Huge Power
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Aqua Tail
+- Belly Drum
+- Play Rough
+- Bounce
+
+Klefki @ Oran Berry
+Level: 22
+Ability: Prankster
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flash Cannon
+- Dazzling Gleam
+- Reflect
+- Light Screen
+
+=== TRAINER_TOT_3 ===
+Name: Tot
+Class: Moderator
+Pic: Leader Tate And Liza
+Gender: Male
+Music: Female
+Items: Super Potion / Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Sylveon
+Level: 26
+Ability: Cute Charm
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Misty Terrain
+- Moonblast
+- Psyshock
+- Swift
+
+Mimikyu
+Level: 26
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hone Claws
+- Play Rough
+- Shadow Sneak
+- Slash
+
+Azumarill @ Oran Berry
+Level: 27
+Ability: Huge Power
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Aqua Tail
+- Belly Drum
+- Play Rough
+- Bounce
+
+Klefki @ Sitrus Berry
+Level: 28
+Ability: Prankster
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Flash Cannon
+- Dazzling Gleam
+- Reflect
+- Light Screen
+
+=== TRAINER_TOT_4 ===
+Name: Tot
+Class: Moderator
+Pic: Leader Tate And Liza
+Gender: Male
+Music: Female
+Items: Super Potion / Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Sylveon
+Level: 32
+Ability: Cute Charm
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Misty Terrain
+- Moonblast
+- Psyshock
+- Swift
+
+Mimikyu @ Sitrus Berry
+Level: 32
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Hone Claws
+- Play Rough
+- Shadow Sneak
+- Slash
+
+Azumarill @ Sitrus Berry
+Level: 33
+Ability: Huge Power
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Aqua Tail
+- Belly Drum
+- Play Rough
+- Bounce
+
+Klefki @ Light Clay
+Level: 34
+Ability: Prankster
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+- Flash Cannon
+- Dazzling Gleam
+- Reflect
+- Light Screen
+
+=== TRAINER_TOT_5 ===
+Name: Tot
+Class: Moderator
+Pic: Leader Tate And Liza
+Gender: Male
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Sylveon
+Level: 38
+Ability: Cute Charm
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Misty Terrain
+- Moonblast
+- Psyshock
+- Swift
+
+Mimikyu
+Level: 38
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Hone Claws
+- Play Rough
+- Shadow Sneak
+- Slash
+
+Azumarill @ Leftovers
+Level: 39
+Ability: Huge Power
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Aqua Tail
+- Belly Drum
+- Play Rough
+- Bounce
+
+Klefki @ Light Clay
+Level: 40
+Ability: Prankster
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Flash Cannon
+- Dazzling Gleam
+- Reflect
+- Light Screen
+
+=== TRAINER_TOT_6 ===
+Name: Tot
+Class: Moderator
+Pic: Leader Tate And Liza
+Gender: Male
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Sylveon
+Level: 44
+Ability: Pixilate
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Misty Terrain
+- Moonblast
+- Psyshock
+- Hyper Beam
+
+Mimikyu
+Level: 44
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Hone Claws
+- Play Rough
+- Shadow Sneak
+- Slash
+
+Hatterene @ Wise Glasses
+Level: 45
+Ability: Healer
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Dazzling Gleam
+- Psychic
+- Giga Drain
+- Calm Mind
+
+Azumarill @ Leftovers
+Level: 45
+Ability: Huge Power
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Aqua Tail
+- Belly Drum
+- Play Rough
+- Bounce
+
+Klefki @ Light Clay
+Level: 46
+Ability: Prankster
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Flash Cannon
+- Dazzling Gleam
+- Reflect
+- Light Screen
+
+=== TRAINER_TOT_7 ===
+Name: Tot
+Class: Moderator
+Pic: Leader Tate And Liza
+Gender: Male
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Sylveon
+Level: 50
+Ability: Pixilate
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Misty Terrain
+- Moonblast
+- Psyshock
+- Hyper Beam
+
+Mimikyu @ Muscle Band
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hone Claws
+- Play Rough
+- Shadow Sneak
+- Slash
+
+Hatterene @ Wise Glasses
+Level: 51
+Ability: Healer
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dazzling Gleam
+- Psychic
+- Giga Drain
+- Calm Mind
+
+Azumarill @ Leftovers
+Level: 51
+Ability: Huge Power
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Aqua Tail
+- Belly Drum
+- Play Rough
+- Bounce
+
+Klefki @ Light Clay
+Level: 52
+Ability: Prankster
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Flash Cannon
+- Dazzling Gleam
+- Reflect
+- Light Screen
+
+=== TRAINER_TOT_8 ===
+Name: Tot
+Class: Moderator
+Pic: Leader Tate And Liza
+Gender: Male
+Music: Female
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Sylveon @ Terrain Extender
+Level: 56
+Ability: Pixilate
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Misty Terrain
+- Moonblast
+- Psyshock
+- Hyper Beam
+
+Mimikyu @ Muscle Band
+Level: 56
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Hone Claws
+- Play Rough
+- Shadow Sneak
+- Slash
+
+Hatterene @ Wise Glasses
+Level: 57
+Ability: Healer
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Dazzling Gleam
+- Psychic
+- Giga Drain
+- Calm Mind
+
+Azumarill @ Leftovers
+Level: 57
+Ability: Huge Power
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Aqua Tail
+- Belly Drum
+- Play Rough
+- Bounce
+
+Klefki @ Light Clay
+Level: 58
+Ability: Prankster
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flash Cannon
+- Dazzling Gleam
+- Reflect
+- Light Screen
+
+/***** Castle Town Treble Trainers *****/
+
+=== TRAINER_TREBLE_1 ===
+Name: Treble
+Class: Moderator
+Pic: Leader Wattson
+Gender: Female
+Music: Female
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Shroomish
+Level: 14
+Ability: Poison Heal
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Seed Bomb
+- Headbutt
+- Facade
+- Pounce
+
+Lombre
+Level: 15
+Ability: Rain Dish
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Rain Dance
+- Surf
+- Leech Seed
+- Giga Drain
+
+Tropius @ Oran Berry
+Level: 16
+Ability: Chlorophyll
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Petal Blizzard
+- Air Slash
+- Dragon Pulse
+- Sunny Day
+
+=== TRAINER_TREBLE_2 ===
+Name: Treble
+Class: Moderator
+Pic: Leader Wattson
+Gender: Female
+Music: Female
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Applin
+Level: 20
+Ability: Ripen
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Pounce
+- Sucker Punch
+- Rollout
+- Grassy Glide
+
+Shroomish
+Level: 21
+Ability: Poison Heal
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Seed Bomb
+- Headbutt
+- Facade
+- Pounce
+
+Lombre
+Level: 21
+Ability: Rain Dish
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Rain Dance
+- Surf
+- Leech Seed
+- Giga Drain
+
+Tropius @ Oran Berry
+Level: 22
+Ability: Chlorophyll
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Petal Blizzard
+- Air Slash
+- Dragon Pulse
+- Sunny Day
+
+=== TRAINER_TREBLE_3 ===
+Name: Treble
+Class: Moderator
+Pic: Leader Wattson
+Gender: Female
+Music: Female
+Items: Super Potion / Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Flapple
+Level: 26
+Ability: Ripen
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Wing Attack
+- Dragon Breath
+- Grav Apple
+- Dragon Dance
+
+Breloom
+Level: 27
+Ability: Poison Heal
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Seed Bomb
+- Mach Punch
+- Facade
+- Pounce
+
+Ludicolo @ Oran Berry
+Level: 27
+Ability: Rain Dish
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Rain Dance
+- Surf
+- Leech Seed
+- Giga Drain
+
+Tropius @ Sitrus Berry
+Level: 28
+Ability: Chlorophyll
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Petal Blizzard
+- Air Slash
+- Dragon Pulse
+- Sunny Day
+
+=== TRAINER_TREBLE_4 ===
+Name: Treble
+Class: Moderator
+Pic: Leader Wattson
+Gender: Male
+Music: Male
+Items: Super Potion / Super Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Flapple
+Level: 32
+Ability: Ripen
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Acrobatics
+- Dragon Breath
+- Grav Apple
+- Dragon Dance
+
+Breloom @ Sitrus Berry
+Level: 33
+Ability: Poison Heal
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Seed Bomb
+- Mach Punch
+- Facade
+- Pounce
+
+Ludicolo @ Sitrus Berry
+Level: 33
+Ability: Rain Dish
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Rain Dance
+- Surf
+- Leech Seed
+- Giga Drain
+
+Tropius @ Heat Rock
+Level: 34
+Ability: Chlorophyll
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+- Petal Blizzard
+- Air Slash
+- Dragon Pulse
+- Sunny Day
+
+=== TRAINER_TREBLE_5 ===
+Name: Treble
+Class: Moderator
+Pic: Leader Wattson
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Flapple
+Level: 38
+Ability: Ripen
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Acrobatics
+- Dragon Rush
+- Grav Apple
+- Dragon Dance
+
+Breloom
+Level: 39
+Ability: Poison Heal
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Seed Bomb
+- Mach Punch
+- Facade
+- Pounce
+
+Ludicolo @ Leftovers
+Level: 39
+Ability: Rain Dish
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Rain Dance
+- Surf
+- Leech Seed
+- Giga Drain
+
+Tropius @ Heat Rock
+Level: 40
+Ability: Chlorophyll
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Petal Blizzard
+- Air Slash
+- Dragon Pulse
+- Sunny Day
+
+=== TRAINER_TREBLE_6 ===
+Name: Treble
+Class: Moderator
+Pic: Leader Wattson
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Flapple
+Level: 44
+Ability: Ripen
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Acrobatics
+- Dragon Rush
+- Grav Apple
+- Dragon Dance
+
+Decidueye
+Level: 44
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Sucker Punch
+- Leaf Blade
+- Spirit Shackle
+- Swords Dance
+
+Breloom @ Toxic Orb
+Level: 45
+Ability: Poison Heal
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Seed Bomb
+- Mach Punch
+- Facade
+- Pounce
+
+Ludicolo @ Leftovers
+Level: 45
+Ability: Rain Dish
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Rain Dance
+- Surf
+- Leech Seed
+- Giga Drain
+
+Tropius @ Heat Rock
+Level: 46
+Ability: Chlorophyll
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Petal Blizzard
+- Air Slash
+- Dragon Pulse
+- Sunny Day
+
+=== TRAINER_TREBLE_7 ===
+Name: Treble
+Class: Moderator
+Pic: Leader Wattson
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Flapple
+Level: 50
+Ability: Ripen
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Acrobatics
+- Dragon Rush
+- Grav Apple
+- Dragon Dance
+
+Decidueye @ Muscle Band
+Level: 50
+Ability: Sturdy
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sucker Punch
+- Leaf Blade
+- Spirit Shackle
+- Swords Dance
+
+Breloom @ Toxic Orb
+Level: 51
+Ability: Poison Heal
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Seed Bomb
+- Mach Punch
+- Facade
+- Pounce
+
+Ludicolo @ Leftovers
+Level: 51
+Ability: Rain Dish
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rain Dance
+- Surf
+- Leech Seed
+- Giga Drain
+
+Tropius @ Heat Rock
+Level: 52
+Ability: Chlorophyll
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Petal Blizzard
+- Air Slash
+- Dragon Pulse
+- Sunny Day
+
+=== TRAINER_TREBLE_8 ===
+Name: Treble
+Class: Moderator
+Pic: Leader Wattson
+Gender: Female
+Music: Female
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Flapple @ Salac Berry
+Level: 56
+Ability: Ripen
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Acrobatics
+- Dragon Rush
+- Grav Apple
+- Dragon Dance
+
+Decidueye @ Muscle Band
+Level: 56
+Ability: Overgrow
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Sucker Punch
+- Leaf Blade
+- Spirit Shackle
+- Swords Dance
+
+Breloom @ Toxic Orb
+Level: 57
+Ability: Poison Heal
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Seed Bomb
+- Mach Punch
+- Facade
+- Pounce
+
+Ludicolo @ Leftovers
+Level: 57
+Ability: Rain Dish
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Rain Dance
+- Surf
+- Leech Seed
+- Giga Drain
+
+Tropius @ Heat Rock
+Level: 58
+Ability: Chlorophyll
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Petal Blizzard
+- Air Slash
+- Dragon Pulse
+- Sunny Day
+
+/* Victory Road Trainers */
+
+/* Elite Four Trainers */
+
+/* Unused Trainers */
+
+=== TRAINER_GABRIELLE_1 ===
+Name: GABRIELLE
+Class: Pkmn Breeder
+Pic: Pokemon Breeder F
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Skitty
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Poochyena
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Zigzagoon
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Lotad
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Seedot
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Taillow
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_DECLAN ===
+Name: DECLAN
+Class: Swimmer M
+Pic: Swimmer M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Gyarados
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: GRUNT
@@ -795,52 +4769,6 @@ Spoink
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_DAISY ===
-Name: Daisy
-Class: Aroma Lady
-Pic: Aroma Lady
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Shroomish
-Level Modifier: 3
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Cherrim
-Level Modifier: 2
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Floette
-Level Modifier: 2
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_ROSE ===
-Name: Rose
-Class: Aroma Lady
-Pic: Aroma Lady
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Roselia
-Level Modifier: 3
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Skiploom
-Level Modifier: 2
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Comfey
-Level Modifier: 2
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Ribombee
-Level Modifier: 2
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
 === TRAINER_FELIX ===
 Name: FELIX
 Class: Cooltrainer
@@ -958,27 +4886,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 Roselia
 Level: 34
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-=== TRAINER_DUSTY_1 ===
-Name: DUSTY
-Class: Ruin Maniac
-Pic: Ruin Maniac
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Anorith
-Level Modifier: 2
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Bronzor
-Level Modifier: 2
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Sudowoodo
-Level Modifier: 1
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_CHIP ===
 Name: CHIP
@@ -1964,28 +5871,6 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Manectric
 Level: 45
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_BROOKE ===
-Name: BROOKE
-Class: Cooltrainer
-Pic: Cooltrainer F
-Gender: Female
-Music: Cool
-Items: Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Palpitoad
-Level Modifier: 3
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Servine
-Level Modifier: 3
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Pyroar (F)
-Level Modifier: 1
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_JENNIFER ===
 Name: JENNIFER
@@ -3880,22 +7765,7 @@ Lampent
 Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-=== TRAINER_BERNIE_1 ===
-Name: Bernie
-Class: Kindler
-Pic: Kindler
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
 
-Slugma
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Wingull
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BERNIE_2 ===
 Name: BERNIE
@@ -3965,48 +7835,6 @@ Pelipper
 Level: 35
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-=== TRAINER_DREW ===
-Name: DREW
-Class: Camper
-Pic: Camper
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Cufant
-Level Modifier: 2
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Scraggy
-Level Modifier: 2
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Sandslash
-Level Modifier: 1
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BEAU ===
-Name: BEAU
-Class: Camper
-Pic: Camper
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Drilbur
-Level Modifier: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Carkol
-Level Modifier: 2
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Claydol
-Level Modifier: 1
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_LARRY ===
 Name: LARRY
 Class: Camper
@@ -4066,52 +7894,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Taillow
 Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_AUTUMN ===
-Name: Autumn
-Class: Picnicker
-Pic: Picnicker
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Rockruff
-Level Modifier: 2
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Vullaby
-Level Modifier: 2
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Breloom
-Level Modifier: 1
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_TRAVIS ===
-Name: TRAVIS
-Class: Camper
-Pic: Camper
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Geodude
-Level Modifier: 3
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Trapinch
-Level Modifier: 3
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Lairon
-Level Modifier: 1
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Dugtrio
-Level Modifier: 1
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_ETHAN_2 ===
 Name: ETHAN
@@ -5274,23 +9056,6 @@ Medicham
 Level: 34
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-=== TRAINER_KAREN_1 ===
-Name: KAREN
-Class: School Kid
-Pic: School Kid F
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Gothita
-Level Modifier: 2
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Shroomish
-Level Modifier: 1 
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
 === TRAINER_GEORGIA ===
 Name: GEORGIA
 Class: School Kid
@@ -5975,44 +9740,6 @@ Hariyama
 Level: 39
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 
-=== TRAINER_CALVIN_1 ===
-Name: Calvin
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Fidough
-Level Modifier: 2
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Poochyena
-Level Modifier: 2
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BILLY ===
-Name: Billy
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Yungoos
-Level Modifier: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Zigzagoon
-Level Modifier: 2
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Skiddo
-Level Modifier: 2
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_JOSH ===
 Name: Josh
 Class: Youngster
@@ -6054,27 +9781,6 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Pelipper
 Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-=== TRAINER_JOEY ===
-Name: Joey
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Rookidee
-Level Modifier: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Aipom
-Level Modifier: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Machop
-Level Modifier: 1
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JEN ===
 Name: Jen
@@ -6148,31 +9854,6 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Shadow Ball
 - Aerial Ace
 - Brick Break
-
-=== TRAINER_JAYLEN ===
-Name: Jaylen
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Trapinch
-Level Modifier: 4
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Silicobra
-Level Modifier: 4
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Rufflet
-Level Modifier: 4
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Grumpig
-Level Modifier: 1
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_DILLON ===
 Name: DILLON
@@ -6274,27 +9955,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zigzagoon
 Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_ALLEN ===
-Name: ALLEN
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Zigzagoon
-Level Modifier: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Fletchling
-Level Modifier: 2
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Yamper
-Level Modifier: 1
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TIMMY ===
@@ -6419,31 +10079,6 @@ Veluza
 Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_CLAUDE ===
-Name: Claude
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Magikarp
-Level Modifier: 4
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Barboach
-Level Modifier: 2
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Goldeen
-Level Modifier: 2
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Gyarados
-Level Modifier: 1
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
 === TRAINER_ELLIOT_1 ===
 Name: ELLIOT
 Class: Fisherman
@@ -6464,35 +10099,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Magikarp
 Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_NED ===
-Name: Ned
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Tentacool
-Level Modifier: 4
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Basculin
-Level Modifier: 4
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Finneon
-Level Modifier: 4
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Arrokuda
-Level Modifier: 4
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Wishiwashi
-Level Modifier: 4
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_DALE ===
 Name: DALE
@@ -7979,31 +11585,6 @@ Thievul
 Level Modifier: 1
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_CYNDY_1 ===
-Name: Cyndy
-Class: Battle Girl
-Pic: Battle Girl
-Gender: Female
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Meditite
-Level Modifier: 3
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Passimian
-Level Modifier: 3
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Klawf
-Level Modifier: 3
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Hariyama
-Level Modifier: 1
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
 === TRAINER_CORA ===
 Name: CORA
 Class: Battle Girl
@@ -8653,48 +12234,6 @@ Starmie
 Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_HEIDI ===
-Name: HEIDI
-Class: Picnicker
-Pic: Picnicker
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Sigilyph
-Level Modifier: 2
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Sandaconda
-Level Modifier: 2
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BECKY ===
-Name: BECKY
-Class: Picnicker
-Pic: Picnicker
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Helioptile
-Level Modifier: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Hippopotas
-Level Modifier: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Carbink
-Level Modifier: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Azumarill
-Level Modifier: 1
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_CAROL ===
 Name: CAROL
 Class: Picnicker
@@ -8783,35 +12322,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Safeguard
 - Counter
 - Mirror Coat
-
-=== TRAINER_IRENE ===
-Name: IRENE
-Class: Picnicker
-Pic: Picnicker
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Bramblin
-Level Modifier: 3
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-Rufflet
-Level Modifier: 3
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-Chewtle
-Level Modifier: 3
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-Phanpy
-Level Modifier: 3
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-Litleo
-Level Modifier: 3
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
 === TRAINER_DIANA_2 ===
 Name: DIANA
@@ -9638,283 +13148,6 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Calm Mind
 - Psychic
 - Future Sight
-
-=== TRAINER_PEHBBLE_1 ===
-Name: Pehbble
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Ralts (M)
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_PEHBBLE_2 ===
-Name: Pehbble
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Items: Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Pikachu
-Level: 13
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Squirtle
-Level: 13
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Ralts (M) @ Oran Berry
-Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_PEHBBLE_3 ===
-Name: Pehbble
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Items: Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Pikachu
-Level: 26
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Gastly
-Level: 25
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Wartortle @ Oran Berry
-Level: 26
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Kirlia (M) @ Sitrus Berry
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_PEHBBLE_4 ===
-Name: Pehbble
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Items: Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Raichu
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunderbolt
-- Surf
-- Agility
-- Alluring Voice
-
-Haunter
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Marowak
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bonemerang
-- Headbutt
-- Rock Slide
-- Brick Break
-
-Blastoise @ Sitrus Berry
-Level: 38
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Water Pulse
-- Flash Cannon
-- Rapid Spin
-- Icy Wind
-
-Gallade @ Sitrus Berry
-Level: 39
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Psycho Cut
-- Swords Dance
-- Leaf Blade
-- Sacred Sword
-
-=== TRAINER_PEHBBLE_5 ===
-Name: Pehbble
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Items: Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Raichu
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Thunderbolt
-- Surf
-- Agility
-- Alluring Voice
-
-Gengar @ Sitrus Berry
-Level: 46
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Shadow Ball
-- Dark Pulse
-- Venoshock
-- Toxic
-
-Marowak @ Thick Club
-Level: 46
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Bonemerang
-- Headbutt
-- Rock Slide
-- Brick Break
-
-Shelgon
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-Blastoise @ Wise Glasses
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Hydro Pump
-- Flash Cannon
-- Rapid Spin
-- Icy Wind
-
-Gallade @ Life Orb
-Level: 48
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Psycho Cut
-- Swords Dance
-- Leaf Blade
-- Sacred Sword
-
-=== TRAINER_PEHBBLE_6 ===
-Name: Pehbble
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Items: Max Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Raichu @ Electric Gem
-Level: 58
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Discharge
-- Surf
-- Agility
-- Alluring Voice
-
-Gengar @ Black Sludge
-Level: 58
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Shadow Ball
-- Focus Blast
-- Venoshock
-- Toxic
-
-Marowak @ Thick Club
-Level: 58
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Bonemerang
-- Headbutt
-- Rock Slide
-- Brick Break
-
-Salamence @ Yache Berry
-Level: 59
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Dragon Claw
-- Psychic Fangs
-- Fire Fang
-- Iron Head
-
-Blastoise @ Wise Glasses
-Level: 59
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Hydro Pump
-- Flash Cannon
-- Dragon Pulse
-- Ice Beam
-
-Gallade @ Life Orb
-Level: 60
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Psycho Cut
-- Swords Dance
-- Leaf Blade
-- Sacred Sword
-
-=== TRAINER_PEHBBLE_7 ===
-Name: Pehbble
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Items: Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Setup First Turn / Ace Pokemon
-
-Raichu @ Electric Gem
-Level: 65
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Discharge
-- Surf
-- Agility
-- Alluring Voice
-
-Gengar @ Black Sludge
-Level: 65
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Shadow Ball
-- Focus Blast
-- Venoshock
-- Toxic
-
-Marowak @ Thick Club
-Level: 66
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Bonemerang
-- Headbutt
-- Rock Slide
-- Brick Break
-
-Salamence @ Yache Berry
-Level: 66
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Dragon Claw
-- Psychic Fangs
-- Fire Fang
-- Iron Head
-
-Blastoise @ Wise Glasses
-Level: 66
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Hydro Pump
-- Flash Cannon
-- Dragon Pulse
-- Ice Beam
-
-Gallade @ Life Orb
-Level: 67
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psycho Cut
-- Swords Dance
-- Leaf Blade
-- Sacred Sword
 
 === TRAINER_BRENDAN_ROUTE_110_TREECKO ===
 Name: BRENDAN
@@ -11445,40 +14678,6 @@ Camerupt
 Level: 25
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-=== TRAINER_TIANA ===
-Name: TIANA
-Class: Lass
-Pic: Lass
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Zigzagoon
-Level Modifier: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Shroomish
-Level Modifier: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_HALEY_1 ===
-Name: HALEY
-Class: Lass
-Pic: Lass
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Lotad
-Level Modifier: 2
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Smoliv
-Level Modifier: 1
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_JANICE ===
 Name: JANICE
 Class: Lass
@@ -11657,22 +14856,7 @@ Zarude
 Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_RICK ===
-Name: RICK
-Class: Bug Catcher
-Pic: Bug Catcher
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
 
-Wurmple
-Level Modifier: 2
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Wurmple
-Level Modifier: 2
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LYLE ===
 Name: LYLE
@@ -11855,31 +15039,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 Ninjask
 Level: 33
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-=== TRAINER_BRICE ===
-Name: Brice
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Numel
-Level Modifier: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Mudbray
-Level Modifier: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Nosepass
-Level Modifier: 2
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Falinks
-Level Modifier: 1
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TRENT_1 ===
 Name: TRENT
@@ -14348,3104 +17507,6 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 Mudkip
 Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_ANDY_1 ===
-Name: Andy
-Class: Moderator
-Pic: Leader Roxanne
-Gender: Male
-Music: Female
-Items: Potion / Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Doduo
-Level: 14
-Ability: Early Bird
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Drill Peck
-- Tri Attack
-- Aerial Ace
-- Agility
-
-Drifloon
-Level: 15
-Ability: Aftermath
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Air Cutter
-- Protect
-- Payback
-- Ominous Wind
-
-Gliscor @ Oran Berry
-Level: 16
-Ability: Hyper Cutter
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Magnitude
-- Rock Tomb
-- Sand Attack
-- Fly
-
-=== TRAINER_ANDY_2 ===
-Name: Andy
-Class: Moderator
-Pic: Leader Roxanne
-Gender: Male
-Music: Female
-Items: Potion / Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Doduo
-Level: 19
-Ability: Early Bird
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Drill Peck
-- Tri Attack
-- Aerial Ace
-- Agility
-
-Drifloon
-Level: 20
-Ability: Aftermath
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Air Cutter
-- Protect
-- Payback
-- Ominous Wind
-
-Togetic
-Level: 21
-Ability: Hustle
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Aerial Ace
-- Ancient Power
-- Wish
-- Yawn
-
-Gliscor @ Oran Berry
-Level: 22
-Ability: Hyper Cutter
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Magnitude
-- Rock Tomb
-- Sand Attack
-- Fly
-
-=== TRAINER_ANDY_3 ===
-Name: Andy
-Class: Moderator
-Pic: Leader Roxanne
-Gender: Male
-Music: Female
-Items: Super Potion / Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Doduo
-Level: 25
-Ability: Early Bird
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Drill Peck
-- Tri Attack
-- Aerial Ace
-- Agility
-
-Drifloon
-Level: 26
-Ability: Aftermath
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Air Cutter
-- Protect
-- Payback
-- Ominous Wind
-
-Togetic @ Oran Berry
-Level: 26
-Ability: Hustle
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Aerial Ace
-- Ancient Power
-- Wish
-- Yawn
-
-Gliscor @ Sitrus Berry
-Level: 28
-Ability: Hyper Cutter
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Magnitude
-- Rock Tomb
-- Sand Attack
-- Fly
-
-=== TRAINER_ANDY_4 ===
-Name: Andy
-Class: Moderator
-Pic: Leader Roxanne
-Gender: Male
-Music: Female
-Items: Super Potion / Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Dodrio
-Level: 31
-Ability: Early Bird
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Drill Peck
-- Tri Attack
-- Aerial Ace
-- Agility
-
-Drifblim @ Sitrus Berry
-Level: 32
-Ability: Aftermath
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Air Cutter
-- Protect
-- Payback
-- Ominous Wind
-
-Togetic @ Sitrus Berry
-Level: 33
-Ability: Hustle
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Aerial Ace
-- Ancient Power
-- Wish
-- Yawn
-
-Gliscor @ Yache Berry
-Level: 34
-Ability: Hyper Cutter
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Earthquake
-- Rock Tomb
-- Sand Attack
-- Fly
-
-=== TRAINER_ANDY_5 ===
-Name: Andy
-Class: Moderator
-Pic: Leader Roxanne
-Gender: Male
-Music: Female
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Dodrio
-Level: 38
-Ability: Early Bird
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Drill Peck
-- Tri Attack
-- Aerial Ace
-- Agility
-
-Drifblim
-Level: 39
-Ability: Aftermath
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Air Cutter
-- Protect
-- Payback
-- Ominous Wind
-
-Togetic @ Wide Lens
-Level: 39
-Ability: Hustle
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Aerial Ace
-- Ancient Power
-- Wish
-- Yawn
-
-Gliscor @ Yache Berry
-Level: 40
-Ability: Hyper Cutter
-IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
-- Earthquake
-- Dragonbreath
-- Sand Attack
-- Fly
-
-=== TRAINER_ANDY_6 ===
-Name: Andy
-Class: Moderator
-Pic: Leader Roxanne
-Gender: Male
-Music: Female
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Dodrio
-Level: 44
-Ability: Early Bird
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Drill Peck
-- Tri Attack
-- Aerial Ace
-- Agility
-
-Skarmory
-Level: 44
-Ability: Sturdy
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Drill Run
-- Steel Wing
-- Aerial Ace
-- Agility
-
-Drifblim @ Leftovers
-Level: 45
-Ability: Aftermath
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Air Cutter
-- Protect
-- Payback
-- Ominous Wind
-
-Togetic @ Wide Lens
-Level: 45
-Ability: Hustle
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Aerial Ace
-- Ancient Power
-- Wish
-- Yawn
-
-Gliscor @ Yache Berry
-Level: 46
-Ability: Hyper Cutter
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-- Earthquake
-- Rock Tomb
-- Sand Attack
-- Fly
-
-=== TRAINER_ANDY_7 ===
-Name: Andy
-Class: Moderator
-Pic: Leader Roxanne
-Gender: Male
-Music: Female
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Dodrio
-Level: 50
-Ability: Early Bird
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Drill Peck
-- Tri Attack
-- Aerial Ace
-- Agility
-
-Skarmory @ Muscle Band
-Level: 50
-Ability: Sturdy
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Drill Run
-- Steel Wing
-- Aerial Ace
-- Agility
-
-Drifblim @ Leftovers
-Level: 51
-Ability: Aftermath
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Air Cutter
-- Protect
-- Payback
-- Ominous Wind
-
-Togekiss @ Wide Lens
-Level: 51
-Ability: Hustle
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Aerial Ace
-- Ancient Power
-- Wish
-- Yawn
-
-Gliscor @ Yache Berry
-Level: 52
-Ability: Hyper Cutter
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Earthquake
-- Rock Tomb
-- Sand Attack
-- Fly
-
-=== TRAINER_ANDY_8 ===
-Name: Andy
-Class: Moderator
-Pic: Leader Roxanne
-Gender: Male
-Music: Female
-Items: Full Restore / Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Dodrio @ ITEM_KINGS_ROCK
-Level: 56
-Ability: Early Bird
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Drill Peck
-- Tri Attack
-- Aerial Ace
-- Agility
-
-Skarmory @ Muscle Band
-Level: 56
-Ability: Sturdy
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Drill Run
-- Steel Wing
-- Aerial Ace
-- Agility
-
-Drifblim @ Leftovers
-Level: 57
-Ability: Aftermath
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Air Cutter
-- Protect
-- Payback
-- Ominous Wind
-
-Togekiss @ Wide Lens
-Level: 57
-Ability: Hustle
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Aerial Ace
-- Ancient Power
-- Wish
-- Yawn
-
-Gliscor @ Yache Berry
-Level: 58
-Ability: Hyper Cutter
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Rock Tomb
-- Sand Attack
-- Fly
-
-=== TRAINER_BLIND_JIM_1 ===
-Name: BlindJim
-Class: Moderator
-Pic: Leader Brawly
-Gender: Male
-Music: Male
-Items: Potion / Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Sandile
-Level: 14
-Ability: Intimidate
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Hone Claws
-- Crunch
-- Bulldoze
-- Shadow Claw
-
-Inkay
-Level: 15
-Ability: Contrary
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Psycho Cut
-- Night Slash
-- Liquidation
-- Pluck
-
-Murkrow @ Oran Berry
-Level: 16
-Ability: Super Luck
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Confuse Ray
-- Protect
-- Foul Play
-- Dual Wingbeat
-
-=== TRAINER_BLIND_JIM_2 ===
-Name: BlindJim
-Class: Moderator
-Pic: Leader Brawly
-Gender: Male
-Music: Male
-Items: Potion / Potion
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Umbreon
-Level: 20
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Confuse Ray
-- Toxic
-- Protect
-- Feint Attack
-
-Sandile
-Level: 21
-Ability: Strong Jaw
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Hone Claws
-- Crunch
-- Bulldoze
-- Shadow Claw
-
-Inkay
-Level: 21
-Ability: Contrary
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Psycho Cut
-- Night Slash
-- Liquidation
-- Pluck
-
-Murkrow @ Oran Berry
-Level: 22
-Ability: Super Luck
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Confuse Ray
-- Protect
-- Foul Play
-- Dual Wingbeat
-
-=== TRAINER_BLIND_JIM_3 ===
-Name: BlindJim
-Class: Moderator
-Pic: Leader Brawly
-Gender: Male
-Music: Male
-Items: Super Potion / Super Potion
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Umbreon
-Level: 26
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Confuse Ray
-- Toxic
-- Protect
-- Feint Attack
-
-Sandile
-Level: 27
-Ability: Strong Jaw
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Hone Claws
-- Crunch
-- Bulldoze
-- Shadow Claw
-
-Inkay @ Oran Berry
-Level: 27
-Ability: Contrary
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Psycho Cut
-- Night Slash
-- Liquidation
-- Pluck
-
-Honchkrow @ Sitrus Berry
-Level: 28
-Ability: Super Luck
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Swagger
-- Protect
-- Foul Play
-- Dual Wingbeat
-
-=== TRAINER_BLIND_JIM_4 ===
-Name: BlindJim
-Class: Moderator
-Pic: Leader Brawly
-Gender: Male
-Music: Male
-Items: Super Potion / Super Potion
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Umbreon 
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Confuse Ray
-- Toxic
-- Protect
-- Feint Attack
-
-Krokorok @ Sitrus Berry
-Level: 33
-Ability: Strong Jaw
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Hone Claws
-- Crunch
-- Bulldoze
-- Shadow Claw
-
-Malamar @ Sitrus Berry
-Level: 33
-Ability: Contrary
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Psycho Cut
-- Night Slash
-- Liquidation
-- Pluck
-
-Honchkrow @ Shell Bell
-Level: 34
-Ability: Super Luck
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Swagger
-- Protect
-- Foul Play
-- Dual Wingbeat
-
-=== TRAINER_BLIND_JIM_5 ===
-Name: BlindJim
-Class: Moderator
-Pic: Leader Brawly
-Gender: Male
-Music: Male
-Items: Hyper Potion / Hyper Potion
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Umbreon
-Level: 38
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Confuse Ray
-- Toxic
-- Protect
-- Feint Attack
-
-Krokorok
-Level: 39
-Ability: Strong Jaw
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Hone Claws
-- Crunch
-- Bulldoze
-- Shadow Claw
-
-Malamar @ Choice Scarf
-Level: 39
-Ability: Contrary
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Psycho Cut
-- Night Slash
-- Liquidation
-- Pluck
-
-Honchkrow @ Shell Bell
-Level: 40
-Ability: Moxie
-IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
-- Swagger
-- Protect
-- Foul Play
-- Dual Wingbeat
-
-=== TRAINER_BLIND_JIM_6 ===
-Name: BlindJim
-Class: Moderator
-Pic: Leader Brawly
-Gender: Male
-Music: Male
-Items: Hyper Potion / Hyper Potion
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Umbreon
-Level: 44
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Confuse Ray
-- Toxic
-- Protect
-- Feint Attack
-
-Spiritomb
-Level: 44
-Ability: Pressure
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Hex
-- Dark Pulse
-- Will-O-Wisp
-- Protect
-
-Krookodile @ Muscle Band
-Level: 45
-Ability: Strong Jaw
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Hone Claws
-- Crunch
-- Bulldoze
-- Shadow Claw
-
-Malamar @ Choice Scarf
-Level: 45
-Ability: Contrary
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Psycho Cut
-- Night Slash
-- Liquidation
-- Pluck
-
-Honchkrow @ Shell Bell
-Level: 46
-Ability: Moxie
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-- Swagger
-- Protect
-- Foul Play
-- Dual Wingbeat
-
-=== TRAINER_BLIND_JIM_7 ===
-Name: BlindJim
-Class: Moderator
-Pic: Leader Brawly
-Gender: Male
-Music: Male
-Items: Hyper Potion / Hyper Potion
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Umbreon
-Level: 50
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Confuse Ray
-- Toxic
-- Protect
-- Feint Attack
-
-Spiritomb @ Wise Glasses
-Level: 50
-Ability: Pressure
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Hex
-- Dark Pulse
-- Will-O-Wisp
-- Protect
-
-Krookodile @ Muscle Band
-Level: 51
-Ability: Strong Jaw
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Hone Claws
-- Crunch
-- Bulldoze
-- Shadow Claw
-
-Malamar @ Choice Scarf
-Level: 51
-Ability: Contrary
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Psycho Cut
-- Night Slash
-- Liquidation
-- Pluck
-
-Honchkrow @ Shell Bell
-Level: 52
-Ability: Moxie
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Swagger
-- Protect
-- Foul Play
-- Dual Wingbeat
-
-=== TRAINER_BLIND_JIM_8 ===
-Name: BlindJim
-Class: Moderator
-Pic: Leader Brawly
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Umbreon @ Leftovers
-Level: 56
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Confuse Ray
-- Toxic
-- Protect
-- Feint Attack
-
-Spiritomb @ Wise Glasses
-Level: 56
-Ability: Pressure
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Hex
-- Dark Pulse
-- Will-O-Wisp
-- Protect
-
-Krookodile @ Muscle Band
-Level: 57
-Ability: Strong Jaw
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Hone Claws
-- Crunch
-- Bulldoze
-- Shadow Claw
-
-Malamar @ Choice Scarf
-Level: 57
-Ability: Contrary
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Psycho Cut
-- Night Slash
-- Liquidation
-- Pluck
-
-Honchkrow @ Shell Bell
-Level: 58
-Ability: Moxie
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Swagger
-- Protect
-- Foul Play
-- Dual Wingbeat
-
-=== TRAINER_TREBLE_1 ===
-Name: Treble
-Class: Moderator
-Pic: Leader Wattson
-Gender: Female
-Music: Female
-Items: Potion / Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Shroomish
-Level: 14
-Ability: Poison Heal
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Seed Bomb
-- Headbutt
-- Facade
-- Pounce
-
-Lombre
-Level: 15
-Ability: Rain Dish
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Rain Dance
-- Surf
-- Leech Seed
-- Giga Drain
-
-Tropius @ Oran Berry
-Level: 16
-Ability: Chlorophyll
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Petal Blizzard
-- Air Slash
-- Dragon Pulse
-- Sunny Day
-
-=== TRAINER_TREBLE_2 ===
-Name: Treble
-Class: Moderator
-Pic: Leader Wattson
-Gender: Female
-Music: Female
-Items: Potion / Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Applin
-Level: 20
-Ability: Ripen
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Pounce
-- Sucker Punch
-- Rollout
-- Grassy Glide
-
-Shroomish
-Level: 21
-Ability: Poison Heal
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Seed Bomb
-- Headbutt
-- Facade
-- Pounce
-
-Lombre
-Level: 21
-Ability: Rain Dish
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Rain Dance
-- Surf
-- Leech Seed
-- Giga Drain
-
-Tropius @ Oran Berry
-Level: 22
-Ability: Chlorophyll
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Petal Blizzard
-- Air Slash
-- Dragon Pulse
-- Sunny Day
-
-=== TRAINER_TREBLE_3 ===
-Name: Treble
-Class: Moderator
-Pic: Leader Wattson
-Gender: Female
-Music: Female
-Items: Super Potion / Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Flapple
-Level: 26
-Ability: Ripen
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Wing Attack
-- Dragon Breath
-- Grav Apple
-- Dragon Dance
-
-Breloom
-Level: 27
-Ability: Poison Heal
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Seed Bomb
-- Mach Punch
-- Facade
-- Pounce
-
-Ludicolo @ Oran Berry
-Level: 27
-Ability: Rain Dish
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Rain Dance
-- Surf
-- Leech Seed
-- Giga Drain
-
-Tropius @ Sitrus Berry
-Level: 28
-Ability: Chlorophyll
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Petal Blizzard
-- Air Slash
-- Dragon Pulse
-- Sunny Day
-
-=== TRAINER_TREBLE_4 ===
-Name: Treble
-Class: Moderator
-Pic: Leader Wattson
-Gender: Male
-Music: Male
-Items: Super Potion / Super Potion
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Flapple
-Level: 32
-Ability: Ripen
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Acrobatics
-- Dragon Breath
-- Grav Apple
-- Dragon Dance
-
-Breloom @ Sitrus Berry
-Level: 33
-Ability: Poison Heal
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Seed Bomb
-- Mach Punch
-- Facade
-- Pounce
-
-Ludicolo @ Sitrus Berry
-Level: 33
-Ability: Rain Dish
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Rain Dance
-- Surf
-- Leech Seed
-- Giga Drain
-
-Tropius @ Heat Rock
-Level: 34
-Ability: Chlorophyll
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Petal Blizzard
-- Air Slash
-- Dragon Pulse
-- Sunny Day
-
-=== TRAINER_TREBLE_5 ===
-Name: Treble
-Class: Moderator
-Pic: Leader Wattson
-Gender: Male
-Music: Male
-Items: Hyper Potion / Hyper Potion
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Flapple
-Level: 38
-Ability: Ripen
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Acrobatics
-- Dragon Rush
-- Grav Apple
-- Dragon Dance
-
-Breloom
-Level: 39
-Ability: Poison Heal
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Seed Bomb
-- Mach Punch
-- Facade
-- Pounce
-
-Ludicolo @ Leftovers
-Level: 39
-Ability: Rain Dish
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Rain Dance
-- Surf
-- Leech Seed
-- Giga Drain
-
-Tropius @ Heat Rock
-Level: 40
-Ability: Chlorophyll
-IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
-- Petal Blizzard
-- Air Slash
-- Dragon Pulse
-- Sunny Day
-
-=== TRAINER_TREBLE_6 ===
-Name: Treble
-Class: Moderator
-Pic: Leader Wattson
-Gender: Female
-Music: Female
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Flapple
-Level: 44
-Ability: Ripen
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Acrobatics
-- Dragon Rush
-- Grav Apple
-- Dragon Dance
-
-Decidueye
-Level: 44
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Sucker Punch
-- Leaf Blade
-- Spirit Shackle
-- Swords Dance
-
-Breloom @ Toxic Orb
-Level: 45
-Ability: Poison Heal
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Seed Bomb
-- Mach Punch
-- Facade
-- Pounce
-
-Ludicolo @ Leftovers
-Level: 45
-Ability: Rain Dish
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Rain Dance
-- Surf
-- Leech Seed
-- Giga Drain
-
-Tropius @ Heat Rock
-Level: 46
-Ability: Chlorophyll
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-- Petal Blizzard
-- Air Slash
-- Dragon Pulse
-- Sunny Day
-
-=== TRAINER_TREBLE_7 ===
-Name: Treble
-Class: Moderator
-Pic: Leader Wattson
-Gender: Female
-Music: Female
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Flapple
-Level: 50
-Ability: Ripen
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Acrobatics
-- Dragon Rush
-- Grav Apple
-- Dragon Dance
-
-Decidueye @ Muscle Band
-Level: 50
-Ability: Sturdy
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Sucker Punch
-- Leaf Blade
-- Spirit Shackle
-- Swords Dance
-
-Breloom @ Toxic Orb
-Level: 51
-Ability: Poison Heal
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Seed Bomb
-- Mach Punch
-- Facade
-- Pounce
-
-Ludicolo @ Leftovers
-Level: 51
-Ability: Rain Dish
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rain Dance
-- Surf
-- Leech Seed
-- Giga Drain
-
-Tropius @ Heat Rock
-Level: 52
-Ability: Chlorophyll
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Petal Blizzard
-- Air Slash
-- Dragon Pulse
-- Sunny Day
-
-=== TRAINER_TREBLE_8 ===
-Name: Treble
-Class: Moderator
-Pic: Leader Wattson
-Gender: Female
-Music: Female
-Items: Full Restore / Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Flapple @ Salac Berry
-Level: 56
-Ability: Ripen
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Acrobatics
-- Dragon Rush
-- Grav Apple
-- Dragon Dance
-
-Decidueye @ Muscle Band
-Level: 56
-Ability: Overgrow
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Sucker Punch
-- Leaf Blade
-- Spirit Shackle
-- Swords Dance
-
-Breloom @ Toxic Orb
-Level: 57
-Ability: Poison Heal
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Seed Bomb
-- Mach Punch
-- Facade
-- Pounce
-
-Ludicolo @ Leftovers
-Level: 57
-Ability: Rain Dish
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Rain Dance
-- Surf
-- Leech Seed
-- Giga Drain
-
-Tropius @ Heat Rock
-Level: 58
-Ability: Chlorophyll
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Petal Blizzard
-- Air Slash
-- Dragon Pulse
-- Sunny Day
-
-=== TRAINER_SALSA_1 ===
-Name: Salsa
-Class: Moderator
-Pic: Leader Flannery
-Gender: Female
-Music: Female
-Items: Potion / Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Vulpix
-Level: 14
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Energy Ball
-- Incinerate
-- Extrasensory
-- Calm Mind
-
-Chimchar
-Level: 15
-Ability: Blaze
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunder Punch
-- Acrobatics
-- Mach Punch
-- Fire Punch
-
-Capsakid @ Oran Berry
-Level: 16
-Ability: Chlorophyll
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Sunny Day
-- Solar Beam
-- Flamethrower
-- Zen Headbutt
-
-=== TRAINER_SALSA_2 ===
-Name: Salsa
-Class: Moderator
-Pic: Leader Flannery
-Gender: Female
-Music: Female
-Items: Potion / Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Vulpix
-Level: 20
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Energy Ball
-- Incinerate
-- Extrasensory
-- Calm Mind
-
-Charcadet
-Level: 20
-Ability: Flash Fire
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Flame Charge
-- Shadow Claw
-- Bitter Blade
-- X-Scissor
-
-Monferno
-Level: 21
-Ability: Blaze
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Thunder Punch
-- Acrobatics
-- Mach Punch
-- Fire Punch
-
-Scovillain @ Oran Berry
-Level: 22
-Ability: Chlorophyll
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Sunny Day
-- Solar Beam
-- Flamethrower
-- Zen Headbutt
-
-=== TRAINER_SALSA_3 ===
-Name: Salsa
-Class: Moderator
-Pic: Leader Flannery
-Gender: Female
-Music: Female
-Items: Super Potion / Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Vulpix
-Level: 26
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Energy Ball
-- Incinerate
-- Extrasensory
-- Calm Mind
-
-Charcadet
-Level: 26
-Ability: Flash Fire
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Flame Charge
-- Shadow Claw
-- Bitter Blade
-- X-Scissor
-
-Monferno @ Oran Berry
-Level: 27
-Ability: Blaze
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Thunder Punch
-- Acrobatics
-- Mach Punch
-- Fire Punch
-
-Scovillain @ Sitrus Berry
-Level: 28
-Ability: Chlorophyll
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Sunny Day
-- Solar Beam
-- Flamethrower
-- Zen Headbutt
-
-=== TRAINER_SALSA_4 ===
-Name: Salsa
-Class: Moderator
-Pic: Leader Flannery
-Gender: Female
-Music: Female
-Items: Super Potion / Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Ninetales
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Energy Ball
-- Heat Wave
-- Extrasensory
-- Calm Mind
-
-Ceruledge @ Sitrus Berry
-Level: 32
-Ability: Flash Fire
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Flame Charge
-- Shadow Claw
-- Bitter Blade
-- X-Scissor
-
-Monferno @ Sitrus Berry
-Level: 33
-Ability: Blaze
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Thunder Punch
-- Acrobatics
-- Mach Punch
-- Raging Fury
-
-Scovillain @ Heat Rock
-Level: 34
-Ability: Chlorophyll
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Sunny Day
-- Solar Beam
-- Flamethrower
-- Zen Headbutt
-
-=== TRAINER_SALSA_5 ===
-Name: Salsa
-Class: Moderator
-Pic: Leader Flannery
-Gender: Female
-Music: Female
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Ninetales
-Level: 38
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Energy Ball
-- Heat Wave
-- Scorching Sands
-- Calm Mind
-
-Ceruledge
-Level: 38
-Ability: Flash Fire
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Flame Charge
-- Shadow Claw
-- Bitter Blade
-- X-Scissor
-
-Infernape @ Persim Berry
-Level: 39
-Ability: Blaze
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Thunder Punch
-- Acrobatics
-- Mach Punch
-- Raging Fury
-
-Scovillain @ Heat Rock
-Level: 40
-Ability: Chlorophyll
-IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
-- Sunny Day
-- Solar Beam
-- Flamethrower
-- Zen Headbutt
-
-=== TRAINER_SALSA_6 ===
-Name: Salsa
-Class: Moderator
-Pic: Leader Flannery
-Gender: Female
-Music: Female
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Ninetales
-Level: 44
-Ability: Drought
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Energy Ball
-- Heat Wave
-- Scorching Sands
-- Calm Mind
-
-Ceruledge
-Level: 44
-Ability: Flash Fire
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Flame Charge
-- Shadow Claw
-- Bitter Blade
-- X-Scissor
-
-Volcarona @ Wise Glasses
-Level: 45
-Ability: Flame Body
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Quiver Dance
-- Fiery Dance
-- Bug Buzz
-- Psychic
-
-Infernape @ Persim Berry
-Level: 45
-Ability: Blaze
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Thunder Punch
-- Acrobatics
-- Mach Punch
-- Raging Fury
-
-Scovillain @ Heat Rock
-Level: 46
-Ability: Chlorophyll
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-- Sunny Day
-- Solar Beam
-- Flamethrower
-- Zen Headbutt
-
-=== TRAINER_SALSA_7 ===
-Name: Salsa
-Class: Moderator
-Pic: Leader Flannery
-Gender: Female
-Music: Female
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Ninetales
-Level: 50
-Ability: Drought
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Energy Ball
-- Heat Wave
-- Scorching Sands
-- Calm Mind
-
-Ceruledge @ Muscle Band
-Level: 50
-Ability: Flash Fire
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Flame Charge
-- Shadow Claw
-- Bitter Blade
-- X-Scissor
-
-Volcarona @ Wise Glasses
-Level: 51
-Ability: Flame Body
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Quiver Dance
-- Fiery Dance
-- Bug Buzz
-- Psychic
-
-Infernape @ Persim Berry
-Level: 51
-Ability: Blaze
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Thunder Punch
-- Acrobatics
-- Mach Punch
-- Raging Fury
-
-Scovillain @ Heat Rock
-Level: 52
-Ability: Chlorophyll
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sunny Day
-- Solar Beam
-- Flamethrower
-- Zen Headbutt
-
-=== TRAINER_SALSA_8 ===
-Name: Salsa
-Class: Moderator
-Pic: Leader Flannery
-Gender: Female
-Music: Female
-Items: Full Restore / Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Ninetales @ Leftovers
-Level: 56
-Ability: Drought
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Energy Ball
-- Heat Wave
-- Scorching Sands
-- Calm Mind
-
-Ceruledge @ Muscle Band
-Level: 56
-Ability: Flash Fire
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Flame Charge
-- Shadow Claw
-- Bitter Blade
-- X-Scissor
-
-Volcarona @ Wise Glasses
-Level: 57
-Ability: Flame Body
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Quiver Dance
-- Fiery Dance
-- Bug Buzz
-- Psychic
-
-Infernape @ Persim Berry
-Level: 57
-Ability: Blaze
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Thunder Punch
-- Acrobatics
-- Mach Punch
-- Raging Fury
-
-Scovillain @ Heat Rock
-Level: 58
-Ability: Chlorophyll
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Solar Beam
-- Flamethrower
-- Zen Headbutt
-
-=== TRAINER_HERMES_1 ===
-Name: Hermes
-Class: Moderator
-Pic: Leader Norman
-Gender: Male
-Music: Male
-Items: Potion / Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Steelix @ Leftovers
-Level: 14
-Ability: Sturdy
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Stealth Rock
-- Sand Tomb
-- Iron Tail
-- Rock Tomb
-
-Beldum
-Level: 15
-Ability: Clear Body
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Iron Head
-- Zen Headbutt
-- Take Down
-- Iron Defense
-
-Gholdengo @ Oran Berry
-Level: 16
-Ability: Good as Gold
-IVs: 24 HP / 0 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Nasty Plot
-- Shadow Ball
-- Make It Rain
-- Recover
-
-=== TRAINER_HERMES_2 ===
-Name: Hermes
-Class: Moderator
-Pic: Leader Norman
-Gender: Male
-Music: Male
-Items: Potion / Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Steelix
-Level: 20
-Ability: Sturdy
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Stealth Rock
-- Sand Tomb
-- Iron Tail
-- Rock Tomb
-
-Scizor
-Level: 20
-Ability: Swarm
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Swords Dance
-- Bullet Punch
-- Brick Break
-- Knock Off
-
-Metang
-Level: 21
-Ability: Clear Body
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Iron Head
-- Psychic Fangs
-- Bulldoze
-- Bullet Punch
-
-Gholdengo @ Oran Berry
-Level: 22
-Ability: Good as Gold
-IVs: 26 HP / 0 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Nasty Plot
-- Shadow Ball
-- Make It Rain
-- Recover
-
-=== TRAINER_HERMES_3 ===
-Name: Hermes
-Class: Moderator
-Pic: Leader Norman
-Gender: Male
-Music: Male
-Items: Super Potion / Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Steelix
-Level: 26
-Ability: Sturdy
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Stealth Rock
-- Sand Tomb
-- Iron Tail
-- Toxic
-
-Scizor
-Level: 26
-Ability: Swarm
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Swords Dance
-- Bullet Punch
-- Brick Break
-- Knock Off
-
-Metang @ Oran Berry
-Level: 27
-Ability: Clear Body
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Iron Head
-- Psychic Fangs
-- Bulldoze
-- Bullet Punch
-
-Gholdengo @ Sitrus Berry
-Level: 28
-Ability: Good as Gold
-IVs: 26 HP / 0 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Nasty Plot
-- Shadow Ball
-- Make It Rain
-- Recover
-
-=== TRAINER_HERMES_4 ===
-Name: Hermes
-Class: Moderator
-Pic: Leader Norman
-Gender: Male
-Music: Male
-Items: Super Potion / Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Steelix
-Level: 32
-Ability: Sturdy
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Stealth Rock
-- Sand Tomb
-- Heavy Slam
-- Toxic
-
-Scizor @ Sitrus Berry
-Level: 32
-Ability: Technician
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Swords Dance
-- Bullet Punch
-- Brick Break
-- Knock Off
-
-Metang @ Sitrus Berry
-Level: 33
-Ability: Clear Body
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Heavy Slam
-- Psychic Fangs
-- Bulldoze
-- Bullet Punch
-
-Gholdengo @ Air Balloon
-Level: 34
-Ability: Good as Gold
-IVs: 27 HP / 0 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Nasty Plot
-- Shadow Ball
-- Make It Rain
-- Recover
-
-=== TRAINER_HERMES_5 ===
-Name: Hermes
-Class: Moderator
-Pic: Leader Norman
-Gender: Male
-Music: Male
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Steelix
-Level: 38
-Ability: Sturdy
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Stealth Rock
-- Earthquake
-- Heavy Slam
-- Toxic
-
-Scizor
-Level: 38
-Ability: Technician
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Swords Dance
-- Bullet Punch
-- Close Combat
-- Knock Off
-
-Metang @ Leftovers
-Level: 39
-Ability: Clear Body
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-EVs: 252 HP / 160 Atk / 96 Spe
-Nature: Adamant
-- Heavy Slam
-- Psychic Fangs
-- Earthquake
-- Bullet Punch
-
-Gholdengo @ Air Balloon
-Level: 40
-Ability: Good as Gold
-IVs: 28 HP / 0 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
-- Nasty Plot
-- Shadow Ball
-- Make It Rain
-- Recover
-
-=== TRAINER_HERMES_6 ===
-Name: Hermes
-Class: Moderator
-Pic: Leader Norman
-Gender: Male
-Music: Male
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Steelix
-Level: 44
-Ability: Sturdy
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Stealth Rock
-- Earthquake
-- Heavy Slam
-- Toxic
-
-Lucario
-Level: 44
-Ability: Inner Focus
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Extreme Speed
-- Close Combat
-- Meteor Mash
-- Crunch
-
-Scizor @ Life Orb
-Level: 44
-Ability: Technician
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Swords Dance
-- Bullet Punch
-- Close Combat
-- Knock Off
-
-Metagross @ Leftovers
-Level: 45
-Ability: Clear Body
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-EVs: 252 HP / 160 Atk / 96 Spe
-Nature: Adamant
-- Heavy Slam
-- Psychic Fangs
-- Earthquake
-- Bullet Punch
-
-Gholdengo @ Air Balloon
-Level: 46
-Ability: Good as Gold
-IVs: 29 HP / 0 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-- Nasty Plot
-- Shadow Ball
-- Make It Rain
-- Recover
-
-=== TRAINER_HERMES_7 ===
-Name: Hermes
-Class: Moderator
-Pic: Leader Norman
-Gender: Male
-Music: Male
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Steelix
-Level: 50
-Ability: Sturdy
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-Nature: Careful
-- Stealth Rock
-- Earthquake
-- Heavy Slam
-- Toxic
-
-Lucario @ Choice Band
-Level: 50
-Ability: Inner Focus
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-Nature: Jolly
-- Extreme Speed
-- Close Combat
-- Meteor Mash
-- Crunch
-
-Scizor @ Life Orb
-Level: 50
-Ability: Technician
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-Nature: Adamant
-- Swords Dance
-- Bullet Punch
-- Close Combat
-- Knock Off
-
-Metagross @ Leftovers
-Level: 51
-Ability: Clear Body
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-Nature: Adamant
-- Heavy Slam
-- Psychic Fangs
-- Earthquake
-- Bullet Punch
-
-Gholdengo @ Air Balloon
-Level: 52
-Ability: Good as Gold
-IVs: 30 HP / 0 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-Nature: Timid
-- Nasty Plot
-- Shadow Ball
-- Make It Rain
-- Recover
-
-=== TRAINER_HERMES_8 ===
-Name: Hermes
-Class: Moderator
-Pic: Leader Norman
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Steelix @ Leftovers
-Level: 56
-Ability: Sturdy
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-EVs: 252 HP / 4 Atk / 252 Spe
-Nature: Careful
-- Stealth Rock
-- Earthquake
-- Heavy Slam
-- Toxic
-
-Lucario @ Choice Band
-Level: 56
-Ability: Inner Focus
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-EVs: 252 Atk / 4 SpD / 252 Spe
-Nature: Jolly
-- Extreme Speed
-- Close Combat
-- Meteor Mash
-- Crunch
-
-Scizor @ Life Orb
-Level: 57
-Ability: Technician
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-EVs: 252 Atk / 4 SpD / 252 Spe
-Nature: Adamant
-- Swords Dance
-- Bullet Punch
-- Close Combat
-- Knock Off
-
-SPECIES_GOODRA_HISUIAN @ Heavy-Duty Boots
-Level: 57
-Ability: Sap Sipper
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-EVs: 4 Def / 252 SpA / 252 Spe
-Nature: Timid
-- Draco Meteor
-- Flamethrower
-- Sludge Bomb
-- Dragon Tail
-
-Metagross @ Leftovers
-Level: 57
-Ability: Clear Body
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-EVs: 252 HP / 160 Atk / 96 Spe
-Nature: Adamant
-- Heavy Slam
-- Psychic Fangs
-- Earthquake
-- Bullet Punch
-
-Gholdengo @ Air Balloon
-Level: 58
-Ability: Good as Gold
-IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 SpA / 4 SpD / 252 Spe
-Nature: Timid
-- Nasty Plot
-- Shadow Ball
-- Make It Rain
-- Recover
-
-=== TRAINER_TMONEY_1 ===
-Name: TMoney
-Class: Moderator
-Pic: Leader Winona
-Gender: Female
-Music: Female
-Items: Potion / Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
-
-Tadbulb
-Level: 14
-Ability: Own Tempo
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Water Gun
-- Mud Shot
-- Volt Switch
-- Soak
-
-Magnemite
-Level: 15
-Ability: Analytic
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Discharge
-- Flash Cannon
-- Volt Switch
-- Body Press
-
-Sandy Shocks @ Oran Berry
-Level: 16
-Ability: Protosynthesis
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Volt Switch
-- Earth Power
-- Spikes
-- Stealth Rock
-
-=== TRAINER_TMONEY_2 ===
-Name: TMoney
-Class: Moderator
-Pic: Leader Winona
-Gender: Female
-Music: Female
-Items: Potion / Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
-
-Tadbulb
-Level: 20
-Ability: Own Tempo
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Water Gun
-- Mud Shot
-- Volt Switch
-- Soak
-
-Magnemite
-Level: 20
-Ability: Analytic
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Discharge
-- Flash Cannon
-- Volt Switch
-- Body Press
-
-Stunfisk
-Level: 21
-Ability: Static
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Attract
-- Toxic
-- Earth Power
-- Discharge
-
-Zekrom @ Oran Berry
-Level: 22
-Ability: Teravolt
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Dragon Dance
-- Draco Meteor
-- Dragon Claw
-- Bolt Strike
-
-=== TRAINER_TMONEY_3 ===
-Name: TMoney
-Class: Moderator
-Pic: Leader Winona
-Gender: Female
-Music: Female
-Items: Super Potion / Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
-
-Bellibolt
-Level: 26
-Ability: Electromorphosis
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Toxic
-- Slack Off
-- Volt Switch
-- Soak
-
-Magneton
-Level: 27
-Ability: Analytic
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Discharge
-- Flash Cannon
-- Volt Switch
-- Body Press
-
-Stunfisk @ Oran Berry
-Level: 27
-Ability: Static
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Attract
-- Toxic
-- Earth Power
-- Discharge
-
-Zekrom @ Sitrus Berry
-Level: 28
-Ability: Teravolt
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Dragon Dance
-- Draco Meteor
-- Dragon Claw
-- Bolt Strike
-
-=== TRAINER_TMONEY_4 ===
-Name: TMoney
-Class: Moderator
-Pic: Leader Winona
-Gender: Female
-Music: Female
-Items: Super Potion / Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
-
-Bellibolt
-Level: 32
-Ability: Electromorphosis
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Toxic
-- Slack Off
-- Volt Switch
-- Soak
-
-Magneton @ Sitrus Berry
-Level: 32
-Ability: Analytic
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Discharge
-- Flash Cannon
-- Volt Switch
-- Body Press
-
-Stunfisk @ Sitrus Berry
-Level: 33
-Ability: Static
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Attract
-- Toxic
-- Earth Power
-- Discharge
-
-Zekrom @ Life Orb
-Level: 34
-Ability: Teravolt
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Dragon Dance
-- Draco Meteor
-- Dragon Claw
-- Bolt Strike
-
-=== TRAINER_TMONEY_5 ===
-Name: TMoney
-Class: Moderator
-Pic: Leader Winona
-Gender: Female
-Music: Female
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
-
-Bellibolt
-Level: 38
-Ability: Electromorphosis
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Toxic
-- Slack Off
-- Volt Switch
-- Soak
-
-Magnezone
-Level: 38
-Ability: Analytic
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Discharge
-- Flash Cannon
-- Volt Switch
-- Body Press
-
-Stunfisk @ Leftovers
-Level: 39
-Ability: Static
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Attract
-- Toxic
-- Earth Power
-- Discharge
-
-Zekrom @ Life Orb
-Level: 40
-Ability: Teravolt
-IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
-- Dragon Dance
-- Draco Meteor
-- Dragon Claw
-- Bolt Strike
-
-=== TRAINER_TMONEY_6 ===
-Name: TMoney
-Class: Moderator
-Pic: Leader Winona
-Gender: Female
-Music: Female
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
-
-Bellibolt
-Level: 44
-Ability: Electromorphosis
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Toxic
-- Slack Off
-- Volt Switch
-- Soak
-
-Magnezone
-Level: 44
-Ability: Analytic
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Discharge
-- Flash Cannon
-- Volt Switch
-- Body Press
-
-Rotom-Wash @ Leftovers
-Level: 44
-Ability: Levitate
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Hydro Pump
-- Volt Switch
-- Will-O-Wisp
-- Pain Split
-
-Stunfisk @ Leftovers
-Level: 45
-Ability: Static
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Attract
-- Toxic
-- Earth Power
-- Discharge
-
-Zekrom @ Life Orb
-Level: 46
-Ability: Teravolt
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-- Dragon Dance
-- Draco Meteor
-- Dragon Claw
-- Bolt Strike
-
-=== TRAINER_TMONEY_7 ===
-Name: TMoney
-Class: Moderator
-Pic: Leader Winona
-Gender: Female
-Music: Female
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
-
-Bellibolt
-Level: 50
-Ability: Electromorphosis
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Toxic
-- Slack Off
-- Volt Switch
-- Soak
-
-Magnezone @ Assault Vest
-Level: 50
-Ability: Analytic
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Discharge
-- Flash Cannon
-- Volt Switch
-- Body Press
-
-Rotom-Wash @ Leftovers
-Level: 50
-Ability: Levitate
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Hydro Pump
-- Volt Switch
-- Will-O-Wisp
-- Pain Split
-
-Stunfisk @ Leftovers
-Level: 51
-Ability: Static
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Attract
-- Toxic
-- Earth Power
-- Discharge
-
-Zekrom @ Life Orb
-Level: 52
-Ability: Teravolt
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Dragon Dance
-- Draco Meteor
-- Dragon Claw
-- Bolt Strike
-
-=== TRAINER_TMONEY_8 ===
-Name: TMoney
-Class: Moderator
-Pic: Leader Winona
-Gender: Female
-Music: Female
-Items: Full Restore / Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
-
-Bellibolt @ Leftovers
-Level: 56
-Ability: Electromorphosis
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Toxic
-- Slack Off
-- Volt Switch
-- Soak
-
-Magnezone @ Assault Vest
-Level: 56
-Ability: Analytic
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Discharge
-- Flash Cannon
-- Volt Switch
-- Body Press
-
-Rotom-Wash @ Leftovers
-Level: 56
-Ability: Levitate
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Hydro Pump
-- Volt Switch
-- Will-O-Wisp
-- Pain Split
-
-Sandy Shocks @ Leftovers
-Level: 57
-Ability: Protosynthesis
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Volt Switch
-- Earth Power
-- Spikes
-- Stealth Rock
-
-Stunfisk @ Leftovers
-Level: 57
-Ability: Static
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Attract
-- Toxic
-- Earth Power
-- Discharge
-
-Zekrom @ Life Orb
-Level: 58
-Ability: Teravolt
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Dragon Dance
-- Draco Meteor
-- Dragon Claw
-- Bolt Strike
-
-=== TRAINER_TOT_1 ===
-Name: Tot
-Class: Moderator
-Pic: Leader Tate And Liza
-Gender: Male
-Music: Female
-Items: Potion / Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Mimikyu
-Level: 14
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Hone Claws
-- Play Rough
-- Shadow Sneak
-- Slash
-
-Marill
-Level: 15
-Ability: Huge Power
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Aqua Tail
-- Belly Drum
-- Play Rough
-- Bounce
-
-Klefki @ Oran Berry
-Level: 16
-Ability: Prankster
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Flash Cannon
-- Dazzling Gleam
-- Reflect
-- Light Screen
-
-=== TRAINER_TOT_2 ===
-Name: Tot
-Class: Moderator
-Pic: Leader Tate And Liza
-Gender: Male
-Music: Female
-Items: Potion / Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Sylveon
-Level: 20
-Ability: Cute Charm
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Misty Terrain
-- Moonblast
-- Psyshock
-- Swift
-
-Mimikyu
-Level: 20
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Hone Claws
-- Play Rough
-- Shadow Sneak
-- Slash
-
-Azumarill
-Level: 21
-Ability: Huge Power
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Aqua Tail
-- Belly Drum
-- Play Rough
-- Bounce
-
-Klefki @ Oran Berry
-Level: 22
-Ability: Prankster
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Flash Cannon
-- Dazzling Gleam
-- Reflect
-- Light Screen
-
-=== TRAINER_TOT_3 ===
-Name: Tot
-Class: Moderator
-Pic: Leader Tate And Liza
-Gender: Male
-Music: Female
-Items: Super Potion / Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Sylveon
-Level: 26
-Ability: Cute Charm
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Misty Terrain
-- Moonblast
-- Psyshock
-- Swift
-
-Mimikyu
-Level: 26
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Hone Claws
-- Play Rough
-- Shadow Sneak
-- Slash
-
-Azumarill @ Oran Berry
-Level: 27
-Ability: Huge Power
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Aqua Tail
-- Belly Drum
-- Play Rough
-- Bounce
-
-Klefki @ Sitrus Berry
-Level: 28
-Ability: Prankster
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Flash Cannon
-- Dazzling Gleam
-- Reflect
-- Light Screen
-
-=== TRAINER_TOT_4 ===
-Name: Tot
-Class: Moderator
-Pic: Leader Tate And Liza
-Gender: Male
-Music: Female
-Items: Super Potion / Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Sylveon
-Level: 32
-Ability: Cute Charm
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Misty Terrain
-- Moonblast
-- Psyshock
-- Swift
-
-Mimikyu @ Sitrus Berry
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Hone Claws
-- Play Rough
-- Shadow Sneak
-- Slash
-
-Azumarill @ Sitrus Berry
-Level: 33
-Ability: Huge Power
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Aqua Tail
-- Belly Drum
-- Play Rough
-- Bounce
-
-Klefki @ Light Clay
-Level: 34
-Ability: Prankster
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Flash Cannon
-- Dazzling Gleam
-- Reflect
-- Light Screen
-
-=== TRAINER_TOT_5 ===
-Name: Tot
-Class: Moderator
-Pic: Leader Tate And Liza
-Gender: Male
-Music: Female
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Sylveon
-Level: 38
-Ability: Cute Charm
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Misty Terrain
-- Moonblast
-- Psyshock
-- Swift
-
-Mimikyu
-Level: 38
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Hone Claws
-- Play Rough
-- Shadow Sneak
-- Slash
-
-Azumarill @ Leftovers
-Level: 39
-Ability: Huge Power
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Aqua Tail
-- Belly Drum
-- Play Rough
-- Bounce
-
-Klefki @ Light Clay
-Level: 40
-Ability: Prankster
-IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
-- Flash Cannon
-- Dazzling Gleam
-- Reflect
-- Light Screen
-
-=== TRAINER_TOT_6 ===
-Name: Tot
-Class: Moderator
-Pic: Leader Tate And Liza
-Gender: Male
-Music: Female
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Sylveon
-Level: 44
-Ability: Pixilate
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Misty Terrain
-- Moonblast
-- Psyshock
-- Hyper Beam
-
-Mimikyu
-Level: 44
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Hone Claws
-- Play Rough
-- Shadow Sneak
-- Slash
-
-Hatterene @ Wise Glasses
-Level: 45
-Ability: Healer
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Dazzling Gleam
-- Psychic
-- Giga Drain
-- Calm Mind
-
-Azumarill @ Leftovers
-Level: 45
-Ability: Huge Power
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Aqua Tail
-- Belly Drum
-- Play Rough
-- Bounce
-
-Klefki @ Light Clay
-Level: 46
-Ability: Prankster
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-- Flash Cannon
-- Dazzling Gleam
-- Reflect
-- Light Screen
-
-=== TRAINER_TOT_7 ===
-Name: Tot
-Class: Moderator
-Pic: Leader Tate And Liza
-Gender: Male
-Music: Female
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Sylveon
-Level: 50
-Ability: Pixilate
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Misty Terrain
-- Moonblast
-- Psyshock
-- Hyper Beam
-
-Mimikyu @ Muscle Band
-Level: 50
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Hone Claws
-- Play Rough
-- Shadow Sneak
-- Slash
-
-Hatterene @ Wise Glasses
-Level: 51
-Ability: Healer
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Dazzling Gleam
-- Psychic
-- Giga Drain
-- Calm Mind
-
-Azumarill @ Leftovers
-Level: 51
-Ability: Huge Power
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Aqua Tail
-- Belly Drum
-- Play Rough
-- Bounce
-
-Klefki @ Light Clay
-Level: 52
-Ability: Prankster
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Flash Cannon
-- Dazzling Gleam
-- Reflect
-- Light Screen
-
-=== TRAINER_TOT_8 ===
-Name: Tot
-Class: Moderator
-Pic: Leader Tate And Liza
-Gender: Male
-Music: Female
-Items: Full Restore / Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Sylveon @ Terrain Extender
-Level: 56
-Ability: Pixilate
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Misty Terrain
-- Moonblast
-- Psyshock
-- Hyper Beam
-
-Mimikyu @ Muscle Band
-Level: 56
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Hone Claws
-- Play Rough
-- Shadow Sneak
-- Slash
-
-Hatterene @ Wise Glasses
-Level: 57
-Ability: Healer
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Dazzling Gleam
-- Psychic
-- Giga Drain
-- Calm Mind
-
-Azumarill @ Leftovers
-Level: 57
-Ability: Huge Power
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Aqua Tail
-- Belly Drum
-- Play Rough
-- Bounce
-
-Klefki @ Light Clay
-Level: 58
-Ability: Prankster
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flash Cannon
-- Dazzling Gleam
-- Reflect
-- Light Screen
-
-=== TRAINER_SABRE_1 ===
-Name: Sabre
-Class: Moderator
-Pic: Leader Juan
-Gender: Male
-Music: Male
-Items: Potion / Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Duraludon
-Level: 14
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Dragon Cheer
-- Stealth Rock
-- Dragon Tail
-- Flash Cannon
-
-Tyrunt
-Level: 15
-Ability: Strong Jaw
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Crunch
-- Thunder Fang
-- Fire Fang
-- Rock Slide
-
-Axew @ Oran Berry
-Level: 16
-Ability: Mold Breaker
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Dragon Dance
-- Breaking Swipe
-- Poison Jab
-- X-Scissor
-
-=== TRAINER_SABRE_2 ===
-Name: Sabre
-Class: Moderator
-Pic: Leader Juan
-Gender: Male
-Music: Male
-Items: Potion / Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Duraludon
-Level: 20
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Dragon Cheer
-- Stealth Rock
-- Dragon Tail
-- Flash Cannon
-
-Tyrunt
-Level: 21
-Ability: Strong Jaw
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Crunch
-- Thunder Fang
-- Fire Fang
-- Rock Slide
-
-Seadra
-Level: 21
-Ability: Sniper
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Focus Energy
-- Dragon Pulse
-- Ice Beam
-- Scald
-
-Fraxure @ Oran Berry
-Level: 22
-Ability: Mold Breaker
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Dragon Dance
-- Breaking Swipe
-- Poison Jab
-- X-Scissor
-
-=== TRAINER_SABRE_3 ===
-Name: Sabre
-Class: Moderator
-Pic: Leader Juan
-Gender: Male
-Music: Male
-Items: Super Potion / Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Duraludon
-Level: 26
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 1 Spe
-- Dragon Cheer
-- Stealth Rock
-- Dragon Tail
-- Flash Cannon
-
-Tyrunt
-Level: 27
-Ability: Strong Jaw
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Crunch
-- Thunder Fang
-- Fire Fang
-- Rock Slide
-
-Seadra @ Oran Berry
-Level: 27
-Ability: Sniper
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Focus Energy
-- Dragon Pulse
-- Ice Beam
-- Scald
-
-Fraxure @ Sitrus Berry
-Level: 28
-Ability: Mold Breaker
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Dragon Dance
-- Breaking Swipe
-- Poison Jab
-- X-Scissor
-
-=== TRAINER_SABRE_4 ===
-Name: Sabre
-Class: Moderator
-Pic: Leader Juan
-Gender: Male
-Music: Male
-Items: Super Potion / Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Duraludon
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Dragon Cheer
-- Stealth Rock
-- Dragon Tail
-- Flash Cannon
-
-Tyrunt @ Sitrus Berry
-Level: 33
-Ability: Strong Jaw
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Crunch
-- Thunder Fang
-- Fire Fang
-- Rock Slide
-
-Seadra @ Sitrus Berry
-Level: 33
-Ability: Sniper
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Focus Energy
-- Dragon Pulse
-- Ice Beam
-- Scald
-
-Haxorus @ Life Orb
-Level: 34
-Ability: Mold Breaker
-IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
-- Dragon Dance
-- Breaking Swipe
-- Poison Jab
-- X-Scissor
-
-=== TRAINER_SABRE_5 ===
-Name: Sabre
-Class: Moderator
-Pic: Leader Juan
-Gender: Male
-Music: Male
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Duraludon
-Level: 38
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Dragon Cheer
-- Stealth Rock
-- Dragon Tail
-- Flash Cannon
-
-Tyrantrum
-Level: 39
-Ability: Strong Jaw
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Crunch
-- Thunder Fang
-- Fire Fang
-- Rock Slide
-
-Kingdra @ Scope Lens
-Level: 39
-Ability: Sniper
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Focus Energy
-- Dragon Pulse
-- Ice Beam
-- Scald
-
-Haxorus @ Life Orb
-Level: 40
-Ability: Mold Breaker
-IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
-- Dragon Dance
-- Breaking Swipe
-- Poison Jab
-- X-Scissor
-
-=== TRAINER_SABRE_6 ===
-Name: Sabre
-Class: Moderator
-Pic: Leader Juan
-Gender: Male
-Music: Male
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Duraludon
-Level: 44
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Dragon Cheer
-- Stealth Rock
-- Dragon Tail
-- Flash Cannon
-
-Dragalge
-Level: 44
-Ability: Poison Point
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Sludge Bomb
-- Shadow Ball
-- Muddy Water
-- Toxic
-
-Tyrantrum @ Quick Claw
-Level: 45
-Ability: Strong Jaw
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Crunch
-- Thunder Fang
-- Fire Fang
-- Rock Slide
-
-Kingdra @ Scope Lens
-Level: 45
-Ability: Sniper
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Focus Energy
-- Dragon Pulse
-- Ice Beam
-- Scald
-
-Haxorus @ Life Orb
-Level: 46
-Ability: Mold Breaker
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-- Dragon Dance
-- Breaking Swipe
-- Poison Jab
-- X-Scissor
-
-=== TRAINER_SABRE_7 ===
-Name: Sabre
-Class: Moderator
-Pic: Leader Juan
-Gender: Male
-Music: Male
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Duraludon
-Level: 50
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Dragon Cheer
-- Stealth Rock
-- Dragon Tail
-- Flash Cannon
-
-Dragalge @ Black Sludge
-Level: 50
-Ability: Poison Point
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Sludge Bomb
-- Shadow Ball
-- Muddy Water
-- Toxic
-
-Tyrantrum @ Quick Claw
-Level: 51
-Ability: Strong Jaw
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Crunch
-- Thunder Fang
-- Fire Fang
-- Rock Slide
-
-Kingdra @ Scope Lens
-Level: 51
-Ability: Sniper
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Focus Energy
-- Dragon Pulse
-- Ice Beam
-- Scald
-
-Haxorus @ Life Orb
-Level: 52
-Ability: Mold Breaker
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Dragon Dance
-- Breaking Swipe
-- Poison Jab
-- X-Scissor
-
-=== TRAINER_SABRE_8 ===
-Name: Sabre
-Class: Moderator
-Pic: Leader Juan
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Duraludon @ Leftovers
-Level: 56
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Dragon Cheer
-- Stealth Rock
-- Dragon Tail
-- Flash Cannon
-
-Dragalge @ Black Sludge
-Level: 56
-Ability: Poison Point
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Sludge Bomb
-- Shadow Ball
-- Muddy Water
-- Toxic
-
-Tyrantrum @ Quick Claw
-Level: 57
-Ability: Strong Jaw
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Crunch
-- Thunder Fang
-- Fire Fang
-- Rock Slide
-
-Kingdra @ Scope Lens
-Level: 57
-Ability: Sniper
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Focus Energy
-- Dragon Pulse
-- Ice Beam
-- Scald
-
-Haxorus @ Life Orb
-Level: 58
-Ability: Mold Breaker
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Dragon Dance
-- Breaking Swipe
-- Poison Jab
-- X-Scissor
 
 === TRAINER_ANGEL ===
 Name: Angel

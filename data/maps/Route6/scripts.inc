@@ -22,7 +22,7 @@ Route6_EventScript_Bernie::
 	msgbox Route114_Text_BerniePostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route6_EventScript_Cindy::
+Route6_EventScript_Cyndy::
 	trainerbattle_single TRAINER_CYNDY_1, Route115_Text_CyndyIntro, Route115_Text_CyndyDefeat
 	msgbox Route115_Text_CyndyPostBattle, MSGBOX_AUTOCLOSE
 	end
