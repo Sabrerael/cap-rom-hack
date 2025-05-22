@@ -2,7 +2,7 @@ SootopolisCity_Gym_B1F_MapScripts::
 	.byte 0
 
 SootopolisCity_Gym_B1F_EventScript_Andrea::
-	trainerbattle_single TRAINER_ANDREA, SootopolisCity_Gym_B1F_Text_AndreaIntro, SootopolisCity_Gym_B1F_Text_AndreaDefeat
+	trainerbattle_single TRAINER_ELLIOTT, SootopolisCity_Gym_B1F_Text_AndreaIntro, SootopolisCity_Gym_B1F_Text_AndreaDefeat
 	msgbox SootopolisCity_Gym_B1F_Text_AndreaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -17,7 +17,7 @@ SootopolisCity_Gym_B1F_EventScript_Brianna::
 	end
 
 SootopolisCity_Gym_B1F_EventScript_Connie::
-	trainerbattle_single TRAINER_CONNIE, SootopolisCity_Gym_B1F_Text_ConnieIntro, SootopolisCity_Gym_B1F_Text_ConnieDefeat
+	trainerbattle_single TRAINER_JEANETTE, SootopolisCity_Gym_B1F_Text_ConnieIntro, SootopolisCity_Gym_B1F_Text_ConnieDefeat
 	msgbox SootopolisCity_Gym_B1F_Text_ConniePostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -27,7 +27,7 @@ SootopolisCity_Gym_B1F_EventScript_Bridget::
 	end
 
 SootopolisCity_Gym_B1F_EventScript_Olivia::
-	trainerbattle_single TRAINER_OLIVIA, SootopolisCity_Gym_B1F_Text_OliviaIntro, SootopolisCity_Gym_B1F_Text_OliviaDefeat
+	trainerbattle_single TRAINER_STEVE, SootopolisCity_Gym_B1F_Text_OliviaIntro, SootopolisCity_Gym_B1F_Text_OliviaDefeat
 	msgbox SootopolisCity_Gym_B1F_Text_OliviaPostBattle, MSGBOX_AUTOCLOSE
 	end
 

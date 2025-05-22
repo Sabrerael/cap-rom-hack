@@ -1,8 +1,8 @@
-.set LOCALID_ANDREA, 2
+.set LOCALID_ELLIOTT, 2
 .set LOCALID_MANFRED, 3
-.set LOCALID_BRIANNA, 4
-.set LOCALID_OLIVIA, 5
-.set LOCALID_CONNIE, 6
+.set LOCALID_CHARLOTTE, 4
+.set LOCALID_STEVE, 5
+.set LOCALID_JEANETTE, 6
 .set LOCALID_DAPHNE, 7
 .set LOCALID_BRIDGET, 8
 
@@ -487,47 +487,47 @@ CastleTownSabre_Gym_EventScript_Quiz4Complete::
 
 CastleTownSabre_Gym_EventScript_Quiz4Incorrect::
 	call CastleTownSabre_Gym_EventScript_IncorrectAnswer
-	goto_if_not_defeated TRAINER_OLIVIA, CastleTownSabre_Gym_EventScript_BattleOlivia
+	goto_if_not_defeated TRAINER_STEVE, CastleTownSabre_Gym_EventScript_BattleSteve
 	releaseall
 	end
 
-CastleTownSabre_Gym_EventScript_BattleOlivia::
-	call_if_eq VAR_TEMP_1, 0, CastleTownSabre_Gym_EventScript_OliviaApproachLeft
-	call_if_eq VAR_TEMP_1, 1, CastleTownSabre_Gym_EventScript_OliviaApproachRight
-	msgbox CastleTownSabre_Gym_Text_OliviaIntro
-	trainerbattle_no_intro TRAINER_OLIVIA, CastleTownSabre_Gym_Text_OliviaDefeat
+CastleTownSabre_Gym_EventScript_BattleSteve::
+	call_if_eq VAR_TEMP_1, 0, CastleTownSabre_Gym_EventScript_SteveApproachLeft
+	call_if_eq VAR_TEMP_1, 1, CastleTownSabre_Gym_EventScript_SteveApproachRight
+	msgbox CastleTownSabre_Gym_Text_SteveIntro
+	trainerbattle_no_intro TRAINER_STEVE, CastleTownSabre_Gym_Text_SteveDefeat
 	goto_if_set FLAG_SABRE_GYM_QUIZ_4, CastleTownSabre_Gym_EventScript_DoorAlreadyOpen
 	call CastleTownSabre_Gym_EventScript_Quiz4Complete
 	releaseall
 	end
 
-CastleTownSabre_Gym_EventScript_OliviaApproachLeft::
+CastleTownSabre_Gym_EventScript_SteveApproachLeft::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
-	applymovement LOCALID_OLIVIA, CastleTownSabre_Gym_Movement_OliviaApproachLeft
+	applymovement LOCALID_STEVE, CastleTownSabre_Gym_Movement_SteveApproachLeft
 	waitmovement 0
 	return
 
-CastleTownSabre_Gym_EventScript_OliviaApproachRight::
+CastleTownSabre_Gym_EventScript_SteveApproachRight::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
-	applymovement LOCALID_OLIVIA, CastleTownSabre_Gym_Movement_OliviaApproachRight
+	applymovement LOCALID_STEVE, CastleTownSabre_Gym_Movement_SteveApproachRight
 	waitmovement 0
 	return
 
-CastleTownSabre_Gym_Movement_OliviaApproachLeft::
+CastleTownSabre_Gym_Movement_SteveApproachLeft::
 	walk_right
 	step_end
 
-CastleTownSabre_Gym_Movement_OliviaApproachRight::
+CastleTownSabre_Gym_Movement_SteveApproachRight::
 	walk_right
 	walk_right
 	step_end
 
-CastleTownSabre_Gym_EventScript_Olivia::
-	trainerbattle_single TRAINER_OLIVIA, CastleTownSabre_Gym_Text_OliviaIntro, CastleTownSabre_Gym_Text_OliviaDefeat, CastleTownSabre_Gym_EventScript_DefeatedOlivia
-	msgbox CastleTownSabre_Gym_Text_OliviaPostBattle, MSGBOX_AUTOCLOSE
+CastleTownSabre_Gym_EventScript_Steve::
+	trainerbattle_single TRAINER_STEVE, CastleTownSabre_Gym_Text_SteveIntro, CastleTownSabre_Gym_Text_SteveDefeat, CastleTownSabre_Gym_EventScript_DefeatedSteve
+	msgbox CastleTownSabre_Gym_Text_StevePostBattle, MSGBOX_AUTOCLOSE
 	end
 
-CastleTownSabre_Gym_EventScript_DefeatedOlivia::
+CastleTownSabre_Gym_EventScript_DefeatedSteve::
 	call_if_unset FLAG_SABRE_GYM_QUIZ_4, CastleTownSabre_Gym_EventScript_Quiz4CompleteTrainer
 	release
 	end
@@ -584,47 +584,47 @@ CastleTownSabre_Gym_EventScript_Quiz5Complete::
 
 CastleTownSabre_Gym_EventScript_Quiz5Incorrect::
 	call CastleTownSabre_Gym_EventScript_IncorrectAnswer
-	goto_if_not_defeated TRAINER_BRIANNA, CastleTownSabre_Gym_EventScript_BattleBrianna
+	goto_if_not_defeated TRAINER_CHARLOTTE, CastleTownSabre_Gym_EventScript_BattleCharlotte
 	releaseall
 	end
 
-CastleTownSabre_Gym_EventScript_BattleBrianna::
-	call_if_eq VAR_TEMP_1, 0, CastleTownSabre_Gym_EventScript_BriannaApproachLeft
-	call_if_eq VAR_TEMP_1, 1, CastleTownSabre_Gym_EventScript_BriannaApproachRight
-	msgbox CastleTownSabre_Gym_Text_BriannaIntro
-	trainerbattle_no_intro TRAINER_BRIANNA, CastleTownSabre_Gym_Text_BriannaDefeat
+CastleTownSabre_Gym_EventScript_BattleCharlotte::
+	call_if_eq VAR_TEMP_1, 0, CastleTownSabre_Gym_EventScript_CharlotteApproachLeft
+	call_if_eq VAR_TEMP_1, 1, CastleTownSabre_Gym_EventScript_CharlotteApproachRight
+	msgbox CastleTownSabre_Gym_Text_CharlotteIntro
+	trainerbattle_no_intro TRAINER_CHARLOTTE, CastleTownSabre_Gym_Text_CharlotteDefeat
 	goto_if_set FLAG_SABRE_GYM_QUIZ_5, CastleTownSabre_Gym_EventScript_DoorAlreadyOpen
 	call CastleTownSabre_Gym_EventScript_Quiz5Complete
 	releaseall
 	end
 
-CastleTownSabre_Gym_EventScript_BriannaApproachLeft::
+CastleTownSabre_Gym_EventScript_CharlotteApproachLeft::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
-	applymovement LOCALID_BRIANNA, CastleTownSabre_Gym_Movement_BriannaApproachLeft
+	applymovement LOCALID_CHARLOTTE, CastleTownSabre_Gym_Movement_CharlotteApproachLeft
 	waitmovement 0
 	return
 
-CastleTownSabre_Gym_EventScript_BriannaApproachRight::
+CastleTownSabre_Gym_EventScript_CharlotteApproachRight::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
-	applymovement LOCALID_BRIANNA, CastleTownSabre_Gym_Movement_BriannaApproachRight
+	applymovement LOCALID_CHARLOTTE, CastleTownSabre_Gym_Movement_CharlotteApproachRight
 	waitmovement 0
 	return
 
-CastleTownSabre_Gym_Movement_BriannaApproachLeft::
+CastleTownSabre_Gym_Movement_CharlotteApproachLeft::
 	walk_left
 	walk_left
 	step_end
 
-CastleTownSabre_Gym_Movement_BriannaApproachRight::
+CastleTownSabre_Gym_Movement_CharlotteApproachRight::
 	walk_left
 	step_end
 
-CastleTownSabre_Gym_EventScript_Brianna::
-	trainerbattle_single TRAINER_BRIANNA, CastleTownSabre_Gym_Text_BriannaIntro, CastleTownSabre_Gym_Text_BriannaDefeat, CastleTownSabre_Gym_EventScript_DefeatedBrianna
-	msgbox CastleTownSabre_Gym_Text_BriannaPostBattle, MSGBOX_AUTOCLOSE
+CastleTownSabre_Gym_EventScript_Charlotte::
+	trainerbattle_single TRAINER_CHARLOTTE, CastleTownSabre_Gym_Text_CharlotteIntro, CastleTownSabre_Gym_Text_CharlotteDefeat, CastleTownSabre_Gym_EventScript_DefeatedCharlotte
+	msgbox CastleTownSabre_Gym_Text_CharlottePostBattle, MSGBOX_AUTOCLOSE
 	end
 
-CastleTownSabre_Gym_EventScript_DefeatedBrianna::
+CastleTownSabre_Gym_EventScript_DefeatedCharlotte::
 	call_if_unset FLAG_SABRE_GYM_QUIZ_5, CastleTownSabre_Gym_EventScript_Quiz5CompleteTrainer
 	release
 	end
@@ -681,47 +681,47 @@ CastleTownSabre_Gym_EventScript_Quiz6Complete::
 
 CastleTownSabre_Gym_EventScript_Quiz6Incorrect::
 	call CastleTownSabre_Gym_EventScript_IncorrectAnswer
-	goto_if_not_defeated TRAINER_ANDREA, CastleTownSabre_Gym_EventScript_BattleAndrea
+	goto_if_not_defeated TRAINER_ELLIOTT, CastleTownSabre_Gym_EventScript_BattleElliott
 	releaseall
 	end
 
-CastleTownSabre_Gym_EventScript_BattleAndrea::
-	call_if_eq VAR_TEMP_1, 0, CastleTownSabre_Gym_EventScript_AndreaApproachLeft
-	call_if_eq VAR_TEMP_1, 1, CastleTownSabre_Gym_EventScript_AndreaApproachRight
-	msgbox CastleTownSabre_Gym_Text_AndreaIntro
-	trainerbattle_no_intro TRAINER_ANDREA, CastleTownSabre_Gym_Text_AndreaDefeat
+CastleTownSabre_Gym_EventScript_BattleElliott::
+	call_if_eq VAR_TEMP_1, 0, CastleTownSabre_Gym_EventScript_ElliottApproachLeft
+	call_if_eq VAR_TEMP_1, 1, CastleTownSabre_Gym_EventScript_ElliottApproachRight
+	msgbox CastleTownSabre_Gym_Text_ElliottIntro
+	trainerbattle_no_intro TRAINER_ELLIOTT, CastleTownSabre_Gym_Text_ElliottDefeat
 	goto_if_set FLAG_SABRE_GYM_QUIZ_6, CastleTownSabre_Gym_EventScript_DoorAlreadyOpen
 	call CastleTownSabre_Gym_EventScript_Quiz6Complete
 	releaseall
 	end
 
-CastleTownSabre_Gym_EventScript_AndreaApproachLeft::
+CastleTownSabre_Gym_EventScript_ElliottApproachLeft::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
-	applymovement LOCALID_ANDREA, CastleTownSabre_Gym_Movement_AndreaApproachLeft
+	applymovement LOCALID_ELLIOTT, CastleTownSabre_Gym_Movement_ElliottApproachLeft
 	waitmovement 0
 	return
 
-CastleTownSabre_Gym_EventScript_AndreaApproachRight::
+CastleTownSabre_Gym_EventScript_ElliottApproachRight::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
-	applymovement LOCALID_ANDREA, CastleTownSabre_Gym_Movement_AndreaApproachRight
+	applymovement LOCALID_ELLIOTT, CastleTownSabre_Gym_Movement_ElliottApproachRight
 	waitmovement 0
 	return
 
-CastleTownSabre_Gym_Movement_AndreaApproachLeft::
+CastleTownSabre_Gym_Movement_ElliottApproachLeft::
 	walk_left
 	walk_left
 	step_end
 
-CastleTownSabre_Gym_Movement_AndreaApproachRight::
+CastleTownSabre_Gym_Movement_ElliottApproachRight::
 	walk_left
 	step_end
 
-CastleTownSabre_Gym_EventScript_Andrea::
-	trainerbattle_single TRAINER_ANDREA, CastleTownSabre_Gym_Text_AndreaIntro, CastleTownSabre_Gym_Text_AndreaDefeat, CastleTownSabre_Gym_EventScript_DefeatedAndrea
-	msgbox CastleTownSabre_Gym_Text_AndreaPostBattle, MSGBOX_AUTOCLOSE
+CastleTownSabre_Gym_EventScript_Elliott::
+	trainerbattle_single TRAINER_ELLIOTT, CastleTownSabre_Gym_Text_ElliottIntro, CastleTownSabre_Gym_Text_ElliottDefeat, CastleTownSabre_Gym_EventScript_DefeatedElliott
+	msgbox CastleTownSabre_Gym_Text_ElliottPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-CastleTownSabre_Gym_EventScript_DefeatedAndrea::
+CastleTownSabre_Gym_EventScript_DefeatedElliott::
 	call_if_unset FLAG_SABRE_GYM_QUIZ_6, CastleTownSabre_Gym_EventScript_Quiz6CompleteTrainer
 	release
 	end
@@ -789,47 +789,47 @@ CastleTownSabre_Gym_EventScript_Quiz7Complete::
 
 CastleTownSabre_Gym_EventScript_Quiz7Incorrect::
 	call CastleTownSabre_Gym_EventScript_IncorrectAnswer
-	goto_if_not_defeated TRAINER_CONNIE, CastleTownSabre_Gym_EventScript_BattleConnie
+	goto_if_not_defeated TRAINER_JEANETTE, CastleTownSabre_Gym_EventScript_BattleJeanette
 	releaseall
 	end
 
-CastleTownSabre_Gym_EventScript_BattleConnie::
-	call_if_eq VAR_TEMP_1, 0, CastleTownSabre_Gym_EventScript_ConnieApproachLeft
-	call_if_eq VAR_TEMP_1, 1, CastleTownSabre_Gym_EventScript_ConnieApproachRight
-	msgbox CastleTownSabre_Gym_Text_ConnieIntro
-	trainerbattle_no_intro TRAINER_CONNIE, CastleTownSabre_Gym_Text_ConnieDefeat
+CastleTownSabre_Gym_EventScript_BattleJeanette::
+	call_if_eq VAR_TEMP_1, 0, CastleTownSabre_Gym_EventScript_JeanetteApproachLeft
+	call_if_eq VAR_TEMP_1, 1, CastleTownSabre_Gym_EventScript_JeanetteApproachRight
+	msgbox CastleTownSabre_Gym_Text_JeanetteIntro
+	trainerbattle_no_intro TRAINER_JEANETTE, CastleTownSabre_Gym_Text_JeanetteDefeat
 	goto_if_set FLAG_SABRE_GYM_QUIZ_7, CastleTownSabre_Gym_EventScript_DoorAlreadyOpen
 	call CastleTownSabre_Gym_EventScript_Quiz7Complete
 	releaseall
 	end
 
-CastleTownSabre_Gym_EventScript_ConnieApproachLeft::
+CastleTownSabre_Gym_EventScript_JeanetteApproachLeft::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
-	applymovement LOCALID_CONNIE, CastleTownSabre_Gym_Movement_ConnieApproachLeft
+	applymovement LOCALID_JEANETTE, CastleTownSabre_Gym_Movement_JeanetteApproachLeft
 	waitmovement 0
 	return
 
-CastleTownSabre_Gym_EventScript_ConnieApproachRight::
+CastleTownSabre_Gym_EventScript_JeanetteApproachRight::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
-	applymovement LOCALID_CONNIE, CastleTownSabre_Gym_Movement_ConnieApproachRight
+	applymovement LOCALID_JEANETTE, CastleTownSabre_Gym_Movement_JeanetteApproachRight
 	waitmovement 0
 	return
 
-CastleTownSabre_Gym_Movement_ConnieApproachLeft::
+CastleTownSabre_Gym_Movement_JeanetteApproachLeft::
 	walk_left
 	walk_left
 	step_end
 
-CastleTownSabre_Gym_Movement_ConnieApproachRight::
+CastleTownSabre_Gym_Movement_JeanetteApproachRight::
 	walk_left
 	step_end
 
-CastleTownSabre_Gym_EventScript_Connie::
-	trainerbattle_single TRAINER_CONNIE, CastleTownSabre_Gym_Text_ConnieIntro, CastleTownSabre_Gym_Text_ConnieDefeat, CastleTownSabre_Gym_EventScript_DefeatedConnie
-	msgbox CastleTownSabre_Gym_Text_ConniePostBattle, MSGBOX_AUTOCLOSE
+CastleTownSabre_Gym_EventScript_Jeanette::
+	trainerbattle_single TRAINER_JEANETTE, CastleTownSabre_Gym_Text_JeanetteIntro, CastleTownSabre_Gym_Text_JeanetteDefeat, CastleTownSabre_Gym_EventScript_DefeatedJeanette
+	msgbox CastleTownSabre_Gym_Text_JeanettePostBattle, MSGBOX_AUTOCLOSE
 	end
 
-CastleTownSabre_Gym_EventScript_DefeatedConnie::
+CastleTownSabre_Gym_EventScript_DefeatedJeanette::
 	call_if_unset FLAG_SABRE_GYM_QUIZ_7, CastleTownSabre_Gym_EventScript_Quiz7CompleteTrainer
 	release
 	end
@@ -996,14 +996,14 @@ CastleTownSabre_Gym_Text_SorryBadCall::
     .string "Sorry!\n"
     .string "Bad call!$"
 
-CastleTownSabre_Gym_Text_AndreaIntro:
+CastleTownSabre_Gym_Text_ElliottIntro:
 	.string "Dragons are so cool!\n"
 	.string "Let me show you mine!$"
 
-CastleTownSabre_Gym_Text_AndreaDefeat:
+CastleTownSabre_Gym_Text_ElliottDefeat:
 	.string "Aww, I lost…$"
 
-CastleTownSabre_Gym_Text_AndreaPostBattle:
+CastleTownSabre_Gym_Text_ElliottPostBattle:
 	.string "You're a big meanie,\n"
 	.string "Uncle Ryan!$"
 
@@ -1023,15 +1023,15 @@ CastleTownSabre_Gym_Text_DaphnePostBattle:
 	.string "Oh… I'm so fortunate to have found\n"
 	.string "POKéMON.$"
 
-CastleTownSabre_Gym_Text_ConnieIntro:
+CastleTownSabre_Gym_Text_JeanetteIntro:
 	.string "Sorry {PLAYER}, but you'll go\n"
 	.string "no further.$"
 
-CastleTownSabre_Gym_Text_ConnieDefeat:
+CastleTownSabre_Gym_Text_JeanetteDefeat:
 	.string "Oh.\n"
 	.string "You're strong.$"
 
-CastleTownSabre_Gym_Text_ConniePostBattle:
+CastleTownSabre_Gym_Text_JeanettePostBattle:
 	.string "Well, I did my best.\p"
 	.string "You won't be able to beat\n"
 	.string "my husband though.$"
@@ -1050,15 +1050,15 @@ CastleTownSabre_Gym_Text_BridgetPostBattle:
 	.string "other places will make you stronger.\l"
 	.string "But above all, it looks more fun.$"
 
-CastleTownSabre_Gym_Text_OliviaIntro:
+CastleTownSabre_Gym_Text_SteveIntro:
 	.string "My POKéMON are in peak\n"
 	.string "physical condition.\p"
 	.string "Don't think I'm a pushover.$"
 
-CastleTownSabre_Gym_Text_OliviaDefeat:
+CastleTownSabre_Gym_Text_SteveDefeat:
 	.string "I was beaten…$"
 
-CastleTownSabre_Gym_Text_OliviaPostBattle:
+CastleTownSabre_Gym_Text_StevePostBattle:
 	.string "I think you have potential.\n"
 	.string "Why don't you stay and train with us?$"
 
@@ -1075,15 +1075,15 @@ CastleTownSabre_Gym_Text_ManfredPostBattle:
 	.string "all the other DRAGON POKéMON.\p"
 	.string "Oh, such marvelous creatures…$"
 
-CastleTownSabre_Gym_Text_BriannaIntro:
+CastleTownSabre_Gym_Text_CharlotteIntro:
 	.string "Giggle…\n"
 	.string "I'll win for sure!$"
 
-CastleTownSabre_Gym_Text_BriannaDefeat:
+CastleTownSabre_Gym_Text_CharlotteDefeat:
 	.string "sniffle…\n"
 	.string "That's not nice…$"
 
-CastleTownSabre_Gym_Text_BriannaPostBattle:
+CastleTownSabre_Gym_Text_CharlottePostBattle:
 	.string "My daddy will beat you!$"
 
 CastleTownSabre_Gym_Text_Intro:

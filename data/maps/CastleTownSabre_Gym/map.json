@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "CastleTownSabre_Gym_EventScript_Andrea",
+      "script": "CastleTownSabre_Gym_EventScript_Elliott",
       "flag": "0"
     },
     {
@@ -63,7 +63,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "CastleTownSabre_Gym_EventScript_Brianna",
+      "script": "CastleTownSabre_Gym_EventScript_Charlotte",
       "flag": "0"
     },
     {
@@ -76,7 +76,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "CastleTownSabre_Gym_EventScript_Olivia",
+      "script": "CastleTownSabre_Gym_EventScript_Steve",
       "flag": "0"
     },
     {
@@ -89,7 +89,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "CastleTownSabre_Gym_EventScript_Connie",
+      "script": "CastleTownSabre_Gym_EventScript_Jeanette",
       "flag": "0"
     },
     {

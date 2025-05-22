@@ -87,12 +87,12 @@ MossdeepCity_Gym_SetGymTrainers::
 	return
 
 SootopolisCity_Gym_SetGymTrainers::
-	settrainerflag TRAINER_ANDREA
+	settrainerflag TRAINER_ELLIOTT
 	settrainerflag TRAINER_CRISSY
 	settrainerflag TRAINER_BRIANNA
-	settrainerflag TRAINER_CONNIE
+	settrainerflag TRAINER_JEANETTE
 	settrainerflag TRAINER_BRIDGET
-	settrainerflag TRAINER_OLIVIA
+	settrainerflag TRAINER_STEVE
 	settrainerflag TRAINER_TIFFANY
 	settrainerflag TRAINER_BETHANY
 	settrainerflag TRAINER_MANFRED
@@ -130,11 +130,11 @@ CastleTownHermes_Gym_SetGymTrainers::
 	return
 
 CastleTownSabre_Gym_SetGymTrainers::
-	settrainerflag TRAINER_ANDREA
-	settrainerflag TRAINER_BRIANNA
-	settrainerflag TRAINER_CONNIE
+	settrainerflag TRAINER_ELLIOTT
+	settrainerflag TRAINER_CHARLOTTE
+	settrainerflag TRAINER_JEANETTE
 	settrainerflag TRAINER_BRIDGET
-	settrainerflag TRAINER_OLIVIA
+	settrainerflag TRAINER_STEVE
 	settrainerflag TRAINER_MANFRED
 	settrainerflag TRAINER_DAPHNE
 	return
