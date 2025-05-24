@@ -91,13 +91,13 @@ CastleTownAndy_Gym_EventScript_Roxanne_ZeroBadge::
 	end
 
 CastleTownAndy_Gym_EventScript_Roxanne_OneBadge::
-	trainerbattle_single TRAINER_ANDY_2, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_JADE_2, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
 	msgbox CastleTownAndy_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownAndy_Gym_EventScript_Roxanne_TwoBadge::
-	trainerbattle_single TRAINER_ANDY_3, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_JADE_3, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
 	msgbox CastleTownAndy_Gym_Text_PostBattle, MSGBOX_DEFAULT
 	release
 	end
