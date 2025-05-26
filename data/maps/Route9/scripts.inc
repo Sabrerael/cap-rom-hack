@@ -1,2 +1,42 @@
 Route9_MapScripts::
 	.byte 0
+
+Route9_EventScript_Aisha::
+	trainerbattle_single TRAINER_KAYLA, Route123_Text_KaylaIntro, Route123_Text_KaylaDefeat
+	msgbox Route123_Text_KaylaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route9_EventScript_Alexis::
+	trainerbattle_single TRAINER_ALEXIS, Route110_TrickHousePuzzle7_Text_AlexisIntro, Route110_TrickHousePuzzle7_Text_AlexisDefeat
+	msgbox Route110_TrickHousePuzzle7_Text_AlexisPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route9_EventScript_Declan::
+	trainerbattle_single TRAINER_DECLAN, Route124_Text_DeclanIntro, Route124_Text_DeclanDefeat
+	msgbox Route124_Text_DeclanPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route9_EventScript_Fredrick::
+	trainerbattle_single TRAINER_FREDRICK, Route123_Text_FrederickIntro, Route123_Text_FrederickDefeat
+	msgbox Route123_Text_FrederickPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route9_EventScript_Matt::
+	trainerbattle_single TRAINER_MATT, AquaHideout_B2F_Text_MattIntro, AquaHideout_B2F_Text_MattDefeat
+	msgbox AquaHideout_B2F_Text_MattPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route9_EventScript_Zander::
+	trainerbattle_single TRAINER_ZANDER, MtPyre_2F_Text_ZanderIntro, MtPyre_2F_Text_ZanderDefeat
+	msgbox MtPyre_2F_Text_ZanderPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route9_EventScript_Simon::
+	trainerbattle_single TRAINER_SIMON, Route109_SeashoreHouse_Text_SimonIntro, Route109_SeashoreHouse_Text_SimonDefeat
+	msgbox Route109_SeashoreHouse_Text_SimonPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route9_EventScript_Charlie::
+	trainerbattle_single TRAINER_CHARLIE, AbandonedShip_Corridors_1F_Text_CharlieIntro, AbandonedShip_Corridors_1F_Text_CharlieDefeat
+	msgbox AbandonedShip_Corridors_1F_Text_CharliePostBattle, MSGBOX_AUTOCLOSE
+	end

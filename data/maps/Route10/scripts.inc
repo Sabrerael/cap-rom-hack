@@ -1,2 +1,17 @@
 Route10_MapScripts::
 	.byte 0
+
+Route10_EventScript_Jani::
+	trainerbattle_single TRAINER_JANI, Route116_Text_JaniIntro, Route116_Text_JaniDefeat
+	msgbox Route116_Text_JaniPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route10_EventScript_Hudson::
+	trainerbattle_single TRAINER_HUDSON, Route134_Text_HudsonIntro, Route134_Text_HudsonDefeat
+	msgbox Route134_Text_HudsonPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route10_EventScript_Conor::
+	trainerbattle_single TRAINER_CONOR, Route133_Text_ConorIntro, Route133_Text_ConorDefeat
+	msgbox Route133_Text_ConorPostBattle, MSGBOX_AUTOCLOSE
+	end

@@ -365,6 +365,37 @@ Leviator (Gyarados)
 Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
+/* Replace */
+=== TRAINER_JADEDOSA === 
+Name: JadeDosa
+Class: Moderator
+Pic: Magma Grunt F
+Gender: Female
+Music: Intense
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+
+Mimikyu
+Level Modifier: 3
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Gourgeist
+Level Modifier: 3
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Snorlax
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Banette
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Gengar
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
 /***** Pehbble Fights *****/
 
 === TRAINER_PEHBBLE_1 ===
@@ -1266,7 +1297,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 /***** Route 8 Trainers *****/
 
 === TRAINER_AISHA ===
-Name: AISHA
+Name: Aisha
 Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
@@ -1279,7 +1310,7 @@ Level Modifier: 1
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_MAKAYLA ===
-Name: MAKAYLA
+Name: Makayla
 Class: Expert
 Pic: Expert F
 Gender: Female
@@ -1297,7 +1328,7 @@ Level Modifier: 1
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_FABIAN ===
-Name: FABIAN
+Name: Fabian
 Class: Guitarist
 Pic: Guitarist
 Gender: Male
@@ -1310,7 +1341,7 @@ Level Modifier: 1
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_DAYTON ===
-Name: DAYTON
+Name: Dayton
 Class: Kindler
 Pic: Kindler
 Gender: Male
@@ -1327,7 +1358,7 @@ Level Modifier: 1
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_RACHEL ===
-Name: RACHEL
+Name: Rachel
 Class: Parasol Lady
 Pic: Parasol Lady
 Gender: Female
@@ -1335,26 +1366,41 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Goldeen
-Level Modifier: 1
+Frillish
+Level Modifier: 3
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Eiscue
+Level Modifier: 2
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Mawile
+Level Modifier: 2
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_LEONEL ===
-Name: LEONEL
+Name: Leonel
 Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Manectric
-Level Modifier: 1
+Luxio
+Level Modifier: 2
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Girafarig
+Level Modifier: 2
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Servine
+Level Modifier: 2
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_CALLIE ===
-Name: CALLIE
+Name: Callie
 Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
@@ -1363,15 +1409,19 @@ Double Battle: No
 AI: Check Bad Move
 
 Meditite
-Level Modifier: 1
+Level Modifier: 3
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Makuhita
+Croagunk
+Level Modifier: 2
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Passimian
 Level Modifier: 1
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_CALE ===
-Name: CALE
+Name: Cale
 Class: Bug Maniac
 Pic: Bug Maniac
 Gender: Male
@@ -1379,11 +1429,19 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Dustox
-Level Modifier: 1
+Rellor
+Level Modifier: 4
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Beautifly
+Nymble
+Level Modifier: 4
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Dwebble
+Level Modifier: 4
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Galvantula
 Level Modifier: 1
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
@@ -2317,7 +2375,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 /***** Castle Town Hermes Trainers *****/
 
 === TRAINER_ALEXIA ===
-Name: ALEXIA
+Name: Alexia
 Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
@@ -2338,7 +2396,7 @@ Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_PARKER ===
-Name: PARKER
+Name: Parker
 Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
@@ -2359,7 +2417,7 @@ Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_MARY ===
-Name: MARY
+Name: Mary
 Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
@@ -2380,7 +2438,7 @@ Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_RANDALL ===
-Name: RANDALL
+Name: Randall
 Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
@@ -2401,7 +2459,7 @@ Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_JODY ===
-Name: JODY
+Name: Jody
 Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
@@ -2422,7 +2480,7 @@ Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_GEORGE ===
-Name: GEORGE
+Name: George
 Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
@@ -2443,7 +2501,7 @@ Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_BERKE ===
-Name: BERKE
+Name: Berke
 Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
@@ -3033,38 +3091,8 @@ Noctowl
 Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-=== TRAINER_JADEDOSA ===
-Name: JadeDosa
-Class: Moderator
-Pic: Magma Grunt F
-Gender: Female
-Music: Intense
-Items: Potion / Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-
-Mimikyu
-Level Modifier: 3
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Gourgeist
-Level Modifier: 3
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Snorlax
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Banette
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Gengar
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
 === TRAINER_JADE_1 ===
-Name: Andy
+Name: Jade
 Class: Moderator
 Pic: Leader Roxanne
 Gender: Male
@@ -3073,35 +3101,35 @@ Items: Potion / Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
-Doduo
+Pumpkaboo
 Level: 14
-Ability: Early Bird
+Ability: Insomnia
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Drill Peck
-- Tri Attack
-- Aerial Ace
-- Agility
+- Trick Or Treat
+- Seed Bomb
+- Poltergeist
+- Foul Play
 
-Drifloon
+Munchlax
 Level: 15
-Ability: Aftermath
+Ability: Thick Fat
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Air Cutter
-- Protect
-- Payback
-- Ominous Wind
+- Belly Drum
+- Rest
+- Body Slam
+- Bite
 
-Gliscor @ Oran Berry
+Haunter @ Oran Berry
 Level: 16
-Ability: Hyper Cutter
+Ability: Levitate
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Magnitude
-- Rock Tomb
-- Sand Attack
-- Fly
+- Shadow Ball
+- Dark Pulse
+- Sludge Bomb
+- Dazzling Gleam
 
 === TRAINER_JADE_2 ===
-Name: Andy
+Name: Jade
 Class: Moderator
 Pic: Leader Roxanne
 Gender: Male
@@ -3110,44 +3138,44 @@ Items: Potion / Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
-Doduo
+Pumpkaboo
 Level: 19
-Ability: Early Bird
+Ability: Insomnia
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Drill Peck
-- Tri Attack
-- Aerial Ace
-- Agility
+- Trick Or Treat
+- Seed Bomb
+- Phantom Force
+- Foul Play
 
-Drifloon
+Munchlax
 Level: 20
-Ability: Aftermath
+Ability: Thick Fat
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Air Cutter
-- Protect
-- Payback
-- Ominous Wind
+- Belly Drum
+- Rest
+- Body Slam
+- Bite
 
-Togetic
+Shuppet
 Level: 21
-Ability: Hustle
+Ability: Cursed Body
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Aerial Ace
-- Ancient Power
-- Wish
-- Yawn
+- Shadow Sneak
+- Sucker Punch
+- Will-O-Wisp
+- Skitter Smack
 
-Gliscor @ Oran Berry
+Haunter @ Oran Berry
 Level: 22
-Ability: Hyper Cutter
+Ability: Levitate
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Magnitude
-- Rock Tomb
-- Sand Attack
-- Fly
+- Shadow Ball
+- Dark Pulse
+- Sludge Bomb
+- Dazzling Gleam
 
 === TRAINER_JADE_3 ===
-Name: Andy
+Name: Jade
 Class: Moderator
 Pic: Leader Roxanne
 Gender: Male
@@ -3156,44 +3184,44 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
-Doduo
+Pumpkaboo
 Level: 25
-Ability: Early Bird
+Ability: Insomnia
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Drill Peck
-- Tri Attack
-- Aerial Ace
-- Agility
+- Trick Or Treat
+- Seed Bomb
+- Phantom Force
+- Foul Play
 
-Drifloon
+Munchlax
 Level: 26
-Ability: Aftermath
+Ability: Thick Fat
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Air Cutter
-- Protect
-- Payback
-- Ominous Wind
+- Belly Drum
+- Rest
+- Body Slam
+- Bite
 
-Togetic @ Oran Berry
+Shuppet @ Oran Berry
 Level: 26
-Ability: Hustle
+Ability: Cursed Body
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Aerial Ace
-- Ancient Power
-- Wish
-- Yawn
+- Shadow Sneak
+- Sucker Punch
+- Will-O-Wisp
+- Skitter Smack
 
-Gliscor @ Sitrus Berry
+Gengar @ Sitrus Berry
 Level: 28
-Ability: Hyper Cutter
+Ability: Cursed Body
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Magnitude
-- Rock Tomb
-- Sand Attack
-- Fly
+- Shadow Ball
+- Dark Pulse
+- Sludge Bomb
+- Dazzling Gleam
 
 === TRAINER_JADE_4 ===
-Name: Andy
+Name: Jade
 Class: Moderator
 Pic: Leader Roxanne
 Gender: Male
@@ -3202,44 +3230,44 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
-Dodrio
+Gourgeist
 Level: 31
-Ability: Early Bird
+Ability: Insomnia
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Drill Peck
-- Tri Attack
-- Aerial Ace
-- Agility
+- Trick Or Treat
+- Seed Bomb
+- Phantom Force
+- Foul Play
 
-Drifblim @ Sitrus Berry
+Munchlax @ Sitrus Berry
 Level: 32
-Ability: Aftermath
+Ability: Thick Fat
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Air Cutter
-- Protect
-- Payback
-- Ominous Wind
+- Belly Drum
+- Rest
+- Body Slam
+- Bite
 
-Togetic @ Sitrus Berry
+Banette @ Sitrus Berry
 Level: 33
-Ability: Hustle
+Ability: Cursed Body
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Aerial Ace
-- Ancient Power
-- Wish
-- Yawn
+- Shadow Claw
+- Sucker Punch
+- Will-O-Wisp
+- Skitter Smack
 
-Gliscor @ Yache Berry
+Gengar @ Wise Glasses
 Level: 34
-Ability: Hyper Cutter
+Ability: Cursed Body
 IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Earthquake
-- Rock Tomb
-- Sand Attack
-- Fly
+- Shadow Ball
+- Dark Pulse
+- Sludge Bomb
+- Dazzling Gleam
 
 === TRAINER_JADE_5 ===
-Name: Andy
+Name: Jade
 Class: Moderator
 Pic: Leader Roxanne
 Gender: Male
@@ -3248,44 +3276,44 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
-Dodrio
+Gourgeist
 Level: 38
 Ability: Early Bird
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Drill Peck
-- Tri Attack
-- Aerial Ace
-- Agility
+- Trick Or Treat
+- Seed Bomb
+- Phantom Force
+- Foul Play
 
-Drifblim
+Snorlax
 Level: 39
-Ability: Aftermath
+Ability: Thick Fat
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Air Cutter
-- Protect
-- Payback
-- Ominous Wind
+- Belly Drum
+- Rest
+- Body Slam
+- Crunch
 
-Togetic @ Wide Lens
+Banette @ Rocky Helmet
 Level: 39
-Ability: Hustle
+Ability: Cursed Body
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Aerial Ace
-- Ancient Power
-- Wish
-- Yawn
+- Shadow Claw
+- Sucker Punch
+- Will-O-Wisp
+- Skitter Smack
 
-Gliscor @ Yache Berry
+Gengar @ Wise Glasses
 Level: 40
-Ability: Hyper Cutter
+Ability: Cursed Body
 IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
-- Earthquake
-- Dragonbreath
-- Sand Attack
-- Fly
+- Shadow Ball
+- Dark Pulse
+- Sludge Bomb
+- Dazzling Gleam
 
 === TRAINER_JADE_6 ===
-Name: Andy
+Name: Jade
 Class: Moderator
 Pic: Leader Roxanne
 Gender: Male
@@ -3294,53 +3322,52 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
-Dodrio
+Mimikyu (F) 
 Level: 44
-Ability: Early Bird
 IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Drill Peck
-- Tri Attack
-- Aerial Ace
-- Agility
+- Shadow Claw
+- Play Rough
+- Attract
+- Hone Claws
 
-Skarmory
+Gourgeist
 Level: 44
-Ability: Sturdy
+Ability: Insomnia
 IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Drill Run
-- Steel Wing
-- Aerial Ace
-- Agility
+- Trick Or Treat
+- Seed Bomb
+- Phantom Force
+- Foul Play
 
-Drifblim @ Leftovers
+Snorlax @ Leftovers
 Level: 45
-Ability: Aftermath
+Ability: Thick Fat
 IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Air Cutter
-- Protect
-- Payback
-- Ominous Wind
+- Belly Drum
+- Rest
+- Body Slam
+- Crunch
 
-Togetic @ Wide Lens
+Banette @ Rocky Helmet
 Level: 45
-Ability: Hustle
+Ability: Cursed Body
 IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
-- Aerial Ace
-- Ancient Power
-- Wish
-- Yawn
+- Shadow Claw
+- Sucker Punch
+- Will-O-Wisp
+- Skitter Smack
 
-Gliscor @ Yache Berry
+Gengar @ Wise Glasses
 Level: 46
-Ability: Hyper Cutter
+Ability: Cursed Body
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-- Earthquake
-- Rock Tomb
-- Sand Attack
-- Fly
+- Shadow Ball
+- Dark Pulse
+- Sludge Bomb
+- Dazzling Gleam
 
 === TRAINER_JADE_7 ===
-Name: Andy
+Name: Jade
 Class: Moderator
 Pic: Leader Roxanne
 Gender: Male
@@ -3349,53 +3376,52 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
-Dodrio
+Mimikyu (F)
 Level: 50
-Ability: Early Bird
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Drill Peck
-- Tri Attack
-- Aerial Ace
-- Agility
+- Shadow Claw
+- Play Rough
+- Attract
+- Hone Claws
 
-Skarmory @ Muscle Band
+Gourgeist @ Expert Belt
 Level: 50
-Ability: Sturdy
+Ability: Insomnia
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Drill Run
-- Steel Wing
-- Aerial Ace
-- Agility
+- Trick Or Treat
+- Seed Bomb
+- Phantom Force
+- Foul Play
 
-Drifblim @ Leftovers
+Snorlax @ Leftovers
 Level: 51
-Ability: Aftermath
+Ability: Thick Fat
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Air Cutter
-- Protect
-- Payback
-- Ominous Wind
+- Belly Drum
+- Rest
+- Body Slam
+- Crunch
 
-Togekiss @ Wide Lens
+Banette @ Rocky Helmet
 Level: 51
-Ability: Hustle
+Ability: Cursed Body
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Aerial Ace
-- Ancient Power
-- Wish
-- Yawn
+- Shadow Claw
+- Sucker Punch
+- Will-O-Wisp
+- Skitter Smack
 
-Gliscor @ Yache Berry
+Gengar @ Wise Glasses
 Level: 52
-Ability: Hyper Cutter
+Ability: Cursed Body
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Earthquake
-- Rock Tomb
-- Sand Attack
-- Fly
+- Shadow Ball
+- Dark Pulse
+- Sludge Bomb
+- Dazzling Gleam
 
 === TRAINER_JADE_8 ===
-Name: Andy
+Name: Jade
 Class: Moderator
 Pic: Leader Roxanne
 Gender: Male
@@ -3404,198 +3430,426 @@ Items: Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
-Dodrio @ ITEM_KINGS_ROCK
+Mimikyu (F) @ Muscle Band
 Level: 56
-Ability: Early Bird
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Drill Peck
-- Tri Attack
-- Aerial Ace
-- Agility
+- Shadow Claw
+- Play Rough
+- Attract
+- Hone Claws
 
-Skarmory @ Muscle Band
+Gourgeist @ Expert Belt
 Level: 56
-Ability: Sturdy
+Ability: Insomnia
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Drill Run
-- Steel Wing
-- Aerial Ace
-- Agility
+- Trick Or Treat
+- Seed Bomb
+- Phantom Force
+- Foul Play
 
-Drifblim @ Leftovers
+Snorlax @ Leftovers
 Level: 57
-Ability: Aftermath
+Ability: Thick Fat
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Air Cutter
-- Protect
-- Payback
-- Ominous Wind
+- Belly Drum
+- Rest
+- Body Slam
+- Crunch
 
-Togekiss @ Wide Lens
+Banette @ Rocky Helmet
 Level: 57
-Ability: Hustle
+Ability: Cursed Body
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Aerial Ace
-- Ancient Power
-- Wish
-- Yawn
+- Shadow Claw
+- Sucker Punch
+- Will-O-Wisp
+- Skitter Smack
 
-Gliscor @ Yache Berry
+Gengar @ Wise Glasses
 Level: 58
-Ability: Hyper Cutter
+Ability: Cursed Body
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Rock Tomb
-- Sand Attack
-- Fly
+- Shadow Ball
+- Dark Pulse
+- Sludge Bomb
+- Dazzling Gleam
 
 === TRAINER_RINTALIA_1 ===
-Name: JENNY
-Class: Swimmer F
-Pic: Swimmer F
-Gender: Female
-Music: Swimmer
+Name: Rintalia
+Class: Moderator
+Pic: Leader Roxanne
+Gender: Male
+Music: Female
+Items: Potion / Potion
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
-Wailmer
-Level: 38
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Litten
+Level: 14
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Bite
+- Double Kick
+- Fire Fang
+- Trailblaze
+
+Shinx
+Level: 15
+Ability: Intimidate
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Ice Fang
+- Trailblaze
+- Crunch
+- Wild Charge
+
+Floragato @ Oran Berry
+Level: 16
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Razor Leaf
+- Hone Claws
+- Night Slash
+- Play Rough
 
 === TRAINER_RINTALIA_2 ===
-Name: JENNY
-Class: Swimmer F
-Pic: Swimmer F
-Gender: Female
-Music: Swimmer
+Name: Rintalia
+Class: Moderator
+Pic: Leader Roxanne
+Gender: Male
+Music: Female
+Items: Potion / Potion
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
-Wailmer
-Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Torracat
+Level: 19
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Bite
+- Double Kick
+- Fire Fang
+- Trailblaze
+
+Espurr (F)
+Level: 20
+Ability: Keen Eye
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Disarming Voice
+- Light Screen
+- Reflect
+- Psychic
+
+Luxio
+Level: 21
+Ability: Intimidate
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Ice Fang
+- Trailblaze
+- Crunch
+- Wild Charge
+
+Floragato @ Oran Berry
+Level: 22
+Ability: Levitate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Razor Leaf
+- Hone Claws
+- Night Slash
+- Play Rough
 
 === TRAINER_RINTALIA_3 ===
-Name: JENNY
-Class: Swimmer F
-Pic: Swimmer F
-Gender: Female
-Music: Swimmer
+Name: Rintalia
+Class: Moderator
+Pic: Leader Roxanne
+Gender: Male
+Music: Female
+Items: Super Potion / Super Potion
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
-Staryu
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Torracat
+Level: 25
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bite
+- Double Kick
+- Fire Fang
+- Trailblaze
 
-Wailmer
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Meowstic Female
+Level: 26
+Ability: Competitive
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hyper Beam
+- Light Screen
+- Reflect
+- Psychic
+
+Luxio @ Oran Berry
+Level: 26
+Ability: Intimidate
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Ice Fang
+- Trailblaze
+- Crunch
+- Wild Charge
+
+Meowscarada @ Sitrus Berry
+Level: 28
+Ability: Cursed Body
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Flower Trick
+- Hone Claws
+- Night Slash
+- Play Rough
 
 === TRAINER_RINTALIA_4 ===
-Name: JENNY
-Class: Swimmer F
-Pic: Swimmer F
-Gender: Female
-Music: Swimmer
+Name: Rintalia
+Class: Moderator
+Pic: Leader Roxanne
+Gender: Male
+Music: Female
+Items: Super Potion / Super Potion
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
-Luvdisc
-Level: 45
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Torracat
+Level: 31
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Bite
+- Double Kick
+- Fire Fang
+- Trailblaze
 
-Wailmer
-Level: 45
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Meowstic Female @ Sitrus Berry
+Level: 32
+Ability: Competitive
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Hyper Beam
+- Light Screen
+- Reflect
+- Psychic
 
-Starmie
-Level: 45
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Luxray @ Sitrus Berry
+Level: 33
+Ability: Intimidate
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Giga Impact
+- Trailblaze
+- Crunch
+- Wild Charge
+
+Meowscarada @ Scope Lens
+Level: 34
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+- Flower Trick
+- Hone Claws
+- Night Slash
+- Play Rough
 
 === TRAINER_RINTALIA_5 ===
-Name: ERNEST
-Class: Sailor
-Pic: Sailor
+Name: Rintalia
+Class: Moderator
+Pic: Leader Roxanne
 Gender: Male
-Music: Male
+Music: Female
+Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
-Wingull
-Level: 36
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Incineroar
+Level: 38
+Ability: Intimidate
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Darkest Lariat
+- Cross Chop
+- Flare Blitz
+- Thunder Punch
 
-Tentacool
-Level: 36
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Meowstic Female
+Level: 39
+Ability: Competitive
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Hyper Beam
+- Light Screen
+- Reflect
+- Psychic
 
-Machoke
-Level: 36
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Luxray @ Wide Lens
+Level: 39
+Ability: Intimidate
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Giga Impact
+- Trailblaze
+- Crunch
+- Wild Charge
+
+Meowscarada @ Scope Lens
+Level: 40
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Flower Trick
+- Hone Claws
+- Night Slash
+- Play Rough
 
 === TRAINER_RINTALIA_6 ===
-Name: ERNEST
-Class: Sailor
-Pic: Sailor
+Name: Rintalia
+Class: Moderator
+Pic: Leader Roxanne
 Gender: Male
-Music: Male
+Music: Female
+Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
-Pelipper
-Level: 39
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Incineroar 
+Level: 44
+Ability: Intimidate
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Darkest Lariat
+- Cross Chop
+- Flare Blitz
+- Thunder Punch
 
-Tentacool
-Level: 39
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Meowstic Female
+Level: 44
+Ability: Competitive
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Hyper Beam
+- Light Screen
+- Reflect
+- Psychic
 
-Machoke
-Level: 39
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Luxray @ Shuca Berry
+Level: 45
+Ability: Aftermath
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Giga Impact
+- Trailblaze
+- Crunch
+- Wild Charge
+
+Perrserker @ Shell Bell
+Level: 45
+Ability: Tough Claws
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Iron Head
+- Screech
+- Gunk Shot
+- Lash Out
+
+Meowscarada @ Scope Lens
+Level: 46
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Flower Trick
+- Hone Claws
+- Night Slash
+- Play Rough
 
 === TRAINER_RINTALIA_7 ===
-Name: ERNEST
-Class: Sailor
-Pic: Sailor
+Name: Rintalia
+Class: Moderator
+Pic: Leader Roxanne
 Gender: Male
-Music: Male
+Music: Female
+Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
-Pelipper
-Level: 42
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Incineroar
+Level: 50
+Ability: Intimidate
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Darkest Lariat
+- Cross Chop
+- Flare Blitz
+- Thunder Punch
 
-Tentacool
-Level: 42
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Meowstic Female @ Light Clay
+Level: 50
+Ability: Competitive
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hyper Beam
+- Light Screen
+- Reflect
+- Psychic
 
-Machoke
-Level: 42
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Luxray @ Shuca Berry
+Level: 51
+Ability: Intimidate
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Giga Impact
+- Trailblaze
+- Crunch
+- Wild Charge
+
+Perrserker @ Shell Bell
+Level: 51
+Ability: Tough Claws
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Iron Head
+- Screech
+- Gunk Shot
+- Lash Out
+
+Meowscarada @ Scope Lens
+Level: 52
+Ability: Cursed Body
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Flower Trick
+- Hone Claws
+- Night Slash
+- Play Rough
 
 === TRAINER_RINTALIA_8 ===
-Name: ERNEST
-Class: Sailor
-Pic: Sailor
+Name: Rintalia
+Class: Moderator
+Pic: Leader Roxanne
 Gender: Male
-Music: Male
+Music: Female
+Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 
-Pelipper
-Level: 45
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+Incineroar @ Muscle Band
+Level: 56
+Ability: Intimidate
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Darkest Lariat
+- Cross Chop
+- Flare Blitz
+- Thunder Punch
 
-Machoke
-Level: 45
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+Meowstic Female @ Light Clay
+Level: 56
+Ability: Competitive
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Hyper Beam
+- Light Screen
+- Reflect
+- Psychic
 
-Tentacruel
-Level: 45
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+Luxray @ Shuca Berry
+Level: 57
+Ability: Intimidate
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Giga Impact
+- Trailblaze
+- Crunch
+- Wild Charge
+
+Perrserker @ Shell Bell
+Level: 57
+Ability: Tough Claws
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Iron Head
+- Screech
+- Gunk Shot
+- Lash Out
+
+Meowscarada @ Scope Lens
+Level: 58
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flower Trick
+- Hone Claws
+- Night Slash
+- Play Rough
 
 /***** Castle Town Sabre Trainers *****/
 
@@ -4127,6 +4381,153 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 /***** Castle Town Salsa Trainers *****/
 
+=== TRAINER_COLE ===
+Name: Cole
+Class: Kindler
+Pic: Kindler
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Numel
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Heatmor
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Camerupt
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_JEFF ===
+Name: Jeff
+Class: Kindler
+Pic: Kindler
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Darumaka
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Sizzlipede
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Darmanitan
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_AXLE ===
+Name: Axle
+Class: Kindler
+Pic: Kindler
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Ponyta
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Magmar
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Rapidash
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_JACE ===
+Name: Jace
+Class: Kindler
+Pic: Kindler
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Charcadet
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Oricorio
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Armarouge
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_KEEGAN ===
+Name: Keegan
+Class: Kindler
+Pic: Kindler
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Litwick
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Litten
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lampent
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_GERALD ===
+Name: Gerald
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Salandit
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Houndour
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Salazzle
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_DANIELLE ===
+Name: Danielle
+Class: Battle Girl
+Pic: Battle Girl
+Gender: Female
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Litleo
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Carkol
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Pyroar
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
 === TRAINER_SALSA_1 ===
 Name: Salsa
 Class: Moderator
@@ -4509,6 +4910,125 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Zen Headbutt
 
 /***** Castle Town TMoney Trainers *****/
+
+=== TRAINER_JARED ===
+Name: Jared
+Class: Gentleman
+Pic: Gentleman
+Gender: Male
+Music: Rich
+Double Battle: No
+AI: Check Bad Move
+
+Araquanid
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Tapu Fini
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_HUMBERTO ===
+Name: Humberto
+Class: Gentleman
+Pic: Gentleman
+Gender: Male
+Music: Rich
+Double Battle: No
+AI: Check Bad Move
+
+Quilava
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Entei
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_CRISSY ===
+Name: Crissy
+Class: Lady
+Pic: Lady
+Gender: Female
+Music: Rich
+Double Battle: No
+AI: Check Bad Move
+
+Morpeko
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Zarude
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_FLINT ===
+Name: Flint
+Class: Rich Boy
+Pic: Rich Boy
+Gender: Male
+Music: Rich
+Double Battle: No
+AI: Check Bad Move
+
+Amoonguss
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Virizion
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_ASHLEY ===
+Name: Ashley
+Class: Lady
+Pic: Lady
+Gender: Female
+Music: Rich
+Double Battle: No
+AI: Check Bad Move
+
+Tranquill
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Tornadus Therian
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_DARIUS ===
+Name: Darius
+Class: Rich Boy
+Pic: Rich Boy
+Gender: Male
+Music: Rich
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Bronzong
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Mesprit
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_EDWARDO ===
+Name: Edwardo
+Class: Rich Boy
+Pic: Rich Boy
+Gender: Male
+Music: Rich
+Double Battle: No
+AI: Check Bad Move
+
+Glalie
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Regice
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_TMONEY_1 ===
 Name: TMoney
@@ -4907,6 +5427,153 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 /***** Castle Town Tot Trainers *****/
 
+=== TRAINER_PRESTON ===
+Name: Preston
+Class: Psychic
+Pic: Psychic M
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Fidough
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Carbink
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Dachsbun
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_VIRGIL ===
+Name: Virgil
+Class: Psychic
+Pic: Psychic M
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Impidimp
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Snubbull
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Morgrem
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_BLAKE ===
+Name: Blake
+Class: Psychic
+Pic: Psychic M
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Togetic
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Comfey
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Dedenne
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_HANNAH ===
+Name: Hannah
+Class: Psychic
+Pic: Psychic F
+Gender: Female
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Ralts
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Clefairy
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Kirlia
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_SAMANTHA ===
+Name: Samantha
+Class: Psychic
+Pic: Psychic F
+Gender: Female
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Morelull
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Azumarill
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Shiinotic
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_MAURA ===
+Name: Maura
+Class: Psychic
+Pic: Psychic F
+Gender: Female
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Cutiefly
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Alcremie
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Ribombee
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_NATE ===
+Name: Nate
+Class: Gentleman
+Pic: Gentleman
+Gender: Male
+Music: Rich
+Double Battle: No
+AI: Check Bad Move
+
+Mawile
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Mr. Mime
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Floette
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
 === TRAINER_TOT_1 ===
 Name: Tot
 Class: Moderator
@@ -5286,6 +5953,153 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Light Screen
 
 /***** Castle Town Treble Trainers *****/
+
+=== TRAINER_ANGEL ===
+Name: Angel
+Class: Pkmn Breeder
+Pic: Pokemon Breeder F
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Ferroseed
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Dhelmise
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Ferrothorn
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_JEN ===
+Name: Jen
+Class: Pkmn Breeder
+Pic: Pokemon Breeder F
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Snover
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lileep
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Abomasnow
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_BETHANY ===
+Name: Bethany
+Class: Aroma Lady
+Pic: Aroma Lady
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Cherubi
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Tangela
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Cherrim
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_NADIA ===
+Name: Nadia
+Class: Aroma Lady
+Pic: Aroma Lady
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Petilil
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Bounsweet
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lilligant
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_KIRK ===
+Name: Kirk
+Class: Pkmn Breeder
+Pic: Pokemon Breeder M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Phantump
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Grovyle
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Trevenant
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_SHAWN ===
+Name: Shawn
+Class: Pkmn Breeder
+Pic: Pokemon Breeder M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Fomantis
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Maractus
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lurantis
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+=== TRAINER_VIVIAN ===
+Name: Vivian
+Class: Aroma Lady
+Pic: Aroma Lady
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Oddish
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Carnivine
+Level Modifier: 2
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Gloom
+Level Modifier: 1
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_TREBLE_1 ===
 Name: Treble
@@ -5672,12 +6486,12 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Pulse
 - Sunny Day
 
-/* Victory Road Trainers */
+/***** Victory Road Trainers *****/
 
 /***** Elite Four Trainers *****/
 
 === TRAINER_HAROLD ===
-Name: HAROLD
+Name: Harold
 Class: Elite Four
 Pic: Elite Four Sidney
 Gender: Male
@@ -5736,7 +6550,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Slash
 
 === TRAINER_BUFF_RYAN ===
-Name: BUFF RYAN
+Name: Buff Ryan
 Class: Elite Four
 Pic: Elite Four Phoebe
 Gender: Male
@@ -5795,7 +6609,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 
 === TRAINER_PIRATE ===
-Name: PIRATE
+Name: PirateRyan
 Class: Elite Four
 Pic: Elite Four Glacia
 Gender: Male
@@ -5854,7 +6668,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sheer Cold
 
 === TRAINER_SUSFLAME ===
-Name: SUSFLAME
+Name: Susflame
 Class: Elite Four
 Pic: Elite Four Drake
 Gender: Female
@@ -5911,6 +6725,65 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Claw
 - Rock Slide
 - Crunch
+
+=== TRAINER_ROCKHAB ===
+Name: Rockhab
+Class: Champion
+Pic: Champion Wallace
+Gender: Male
+Music: Male
+Items: Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
+Mugshot: Yellow
+
+Altaria
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Moonblast
+- Dragon Pulse
+- Substitute
+- Attract
+
+Charizard
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Flamethrower
+- Hurricane
+- Dragon Tail
+
+Vespiquen
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Attack Order
+- Defend Order
+- Roost
+- Confuse Ray
+
+Alakazam
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psychic
+- Focus Blast
+- Charge Beam
+- Shadow Ball
+
+Tangrowth
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Grassy Terrain
+- Giga Drain
+- Sludge Bomb
+- Ancient Power
+
+Milotic @ Sitrus Berry
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Recover
+- Surf
+- Ice Beam
+- Alluring Voice
 
 /* Unused Trainers */
 
@@ -8429,27 +9302,6 @@ Hariyama
 Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_KIRK ===
-Name: Kirk
-Class: Pkmn Breeder
-Pic: Pokemon Breeder M
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Phantump
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Grovyle
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Trevenant
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
 === TRAINER_GRUNT_AQUA_HIDEOUT_7 ===
 Name: GRUNT
 Class: Team Aqua
@@ -8479,27 +9331,6 @@ AI: Check Bad Move
 Carvanha
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_SHAWN ===
-Name: Shawn
-Class: Pkmn Breeder
-Pic: Pokemon Breeder M
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Fomantis
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Maractus
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Lurantis
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_FERNANDO_1 ===
 Name: FERNANDO
@@ -8618,113 +9449,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 Magneton
 Level: 34
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-=== TRAINER_COLE ===
-Name: COLE
-Class: Kindler
-Pic: Kindler
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Numel
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Heatmor
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Camerupt
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-=== TRAINER_JEFF ===
-Name: JEFF
-Class: Kindler
-Pic: Kindler
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Darumaka
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Sizzlipede
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Darmanitan
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-=== TRAINER_AXLE ===
-Name: AXLE
-Class: Kindler
-Pic: Kindler
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Ponyta
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Magmar
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Rapidash
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-=== TRAINER_JACE ===
-Name: JACE
-Class: Kindler
-Pic: Kindler
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Charcadet
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Oricorio
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Armarouge
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-=== TRAINER_KEEGAN ===
-Name: KEEGAN
-Class: Kindler
-Pic: Kindler
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Litwick
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Litten
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Lampent
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-
 
 === TRAINER_BERNIE_2 ===
 Name: BERNIE
@@ -9140,69 +9864,6 @@ Kadabra
 Level Modifier: 3
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
-=== TRAINER_PRESTON ===
-Name: PRESTON
-Class: Psychic
-Pic: Psychic M
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Fidough
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Carbink
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Dachsbun
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-=== TRAINER_VIRGIL ===
-Name: VIRGIL
-Class: Psychic
-Pic: Psychic M
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Impidimp
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Snubbull
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Morgrem
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-=== TRAINER_BLAKE ===
-Name: BLAKE
-Class: Psychic
-Pic: Psychic M
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Togetic
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Comfey
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Dedenne
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
 === TRAINER_WILLIAM ===
 Name: WILLIAM
 Class: Psychic
@@ -9335,69 +9996,6 @@ Abra
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Hidden Power
-
-=== TRAINER_HANNAH ===
-Name: HANNAH
-Class: Psychic
-Pic: Psychic F
-Gender: Female
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Ralts
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Clefairy
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Kirlia
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-=== TRAINER_SAMANTHA ===
-Name: SAMANTHA
-Class: Psychic
-Pic: Psychic F
-Gender: Female
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Morelull
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Azumarill
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Shiinotic
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-=== TRAINER_MAURA ===
-Name: MAURA
-Class: Psychic
-Pic: Psychic F
-Gender: Female
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Cutiefly
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Alcremie
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Ribombee
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_JACKI_1 ===
 Name: JACKI
@@ -10136,27 +10734,6 @@ Pikachu @ Oran Berry
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_BETHANY ===
-Name: Bethany
-Class: Aroma Lady
-Pic: Aroma Lady
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Cherubi
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Tangela
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Cherrim
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
 === TRAINER_ISABEL_1 ===
 Name: ISABEL
 Class: Pokefan
@@ -10425,27 +11002,6 @@ Hariyama
 Level: 39
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 
-=== TRAINER_JEN ===
-Name: Jen
-Class: Pkmn Breeder
-Pic: Pokemon Breeder F
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Snover
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Lileep
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Abomasnow
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
 === TRAINER_QUINCY ===
 Name: QUINCY
 Class: Cooltrainer
@@ -10616,65 +11172,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Electrike
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_WALLACE ===
-Name: ROCKHAB
-Class: Champion
-Pic: Champion Wallace
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore / Full Restore / Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
-Mugshot: Yellow
-
-Altaria
-Level: 70
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Moonblast
-- Dragon Pulse
-- Substitute
-- Attract
-
-Charizard
-Level: 70
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Flamethrower
-- Hurricane
-- Dragon Tail
-
-Vespiquen
-Level: 70
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Attack Order
-- Defend Order
-- Roost
-- Confuse Ray
-
-Alakazam
-Level: 71
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Focus Blast
-- Charge Beam
-- Shadow Ball
-
-Tangrowth
-Level: 71
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Grassy Terrain
-- Giga Drain
-- Sludge Bomb
-- Ancient Power
-
-Milotic @ Sitrus Berry
-Level: 72
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Recover
-- Surf
-- Ice Beam
-- Alluring Voice
 
 === TRAINER_ANDREW ===
 Name: Andrew
@@ -11695,40 +12192,6 @@ Swellow
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_JARED ===
-Name: JARED
-Class: Gentleman
-Pic: Gentleman
-Gender: Male
-Music: Rich
-Double Battle: No
-AI: Check Bad Move
-
-Araquanid
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Tapu Fini
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_HUMBERTO ===
-Name: HUMBERTO
-Class: Gentleman
-Pic: Gentleman
-Gender: Male
-Music: Rich
-Double Battle: No
-AI: Check Bad Move
-
-Quilava
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Entei
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
 === TRAINER_PRESLEY ===
 Name: PRESLEY
 Class: Bird Keeper
@@ -11745,23 +12208,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Xatu
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_EDWARDO ===
-Name: EDWARDO
-Class: Rich Boy
-Pic: Rich Boy
-Gender: Male
-Music: Rich
-Double Battle: No
-AI: Check Bad Move
-
-Glalie
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Regice
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_COLIN ===
 Name: COLIN
@@ -14552,48 +14998,6 @@ Girafarig
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_NATE ===
-Name: NATE
-Class: Gentleman
-Pic: Gentleman
-Gender: Male
-Music: Rich
-Double Battle: No
-AI: Check Bad Move
-
-Mawile
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Mr. Mime
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Floette
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-=== TRAINER_NADIA ===
-Name: Nadia
-Class: Aroma Lady
-Pic: Aroma Lady
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Petilil
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Bounsweet
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Lilligant
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
 === TRAINER_GRUNT_SPACE_CENTER_3 ===
 Name: GRUNT
 Class: Team Magma
@@ -14987,25 +15391,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Marill
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CRISSY ===
-Name: CRISSY
-Class: Lady
-Pic: Lady
-Gender: Female
-Music: Rich
-Double Battle: No
-AI: Check Bad Move
-
-Morpeko
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Zarude
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-
 
 === TRAINER_LYLE ===
 Name: LYLE
@@ -15592,70 +15977,6 @@ Goldeen
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GERALD ===
-Name: GERALD
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Items: Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Salandit
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Houndour
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Salazzle
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-=== TRAINER_VIVIAN ===
-Name: Vivian
-Class: Aroma Lady
-Pic: Aroma Lady
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Oddish
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Carnivine
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Gloom
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-=== TRAINER_DANIELLE ===
-Name: DANIELLE
-Class: Battle Girl
-Pic: Battle Girl
-Gender: Female
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Litleo
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Carkol
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Pyroar
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
 === TRAINER_HIDEO ===
 Name: HIDEO
 Class: Ninja Boy
@@ -15730,40 +16051,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Self Destruct
 - Sludge
 - Smokescreen
-
-=== TRAINER_FLINT ===
-Name: FLINT
-Class: Rich Boy
-Pic: Rich Boy
-Gender: Male
-Music: Rich
-Double Battle: No
-AI: Check Bad Move
-
-Amoonguss
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Virizion
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_ASHLEY ===
-Name: ASHLEY
-Class: Lady
-Pic: Lady
-Gender: Female
-Music: Rich
-Double Battle: No
-AI: Check Bad Move
-
-Tranquill
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Tornadus Therian
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_WALLY_MAUVILLE ===
 Name: WALLY
@@ -17513,44 +17800,6 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 Mudkip
 Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_ANGEL ===
-Name: Angel
-Class: Pkmn Breeder
-Pic: Pokemon Breeder F
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Ferroseed
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Dhelmise
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Ferrothorn
-Level Modifier: 1
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-=== TRAINER_DARIUS ===
-Name: DARIUS
-Class: Rich Boy
-Pic: Rich Boy
-Gender: Male
-Music: Rich
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Bronzong
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Mesprit
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_STEVEN ===
 Name: STEVEN
