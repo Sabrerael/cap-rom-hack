@@ -2,8 +2,8 @@ Route10_MapScripts::
 	.byte 0
 
 Route10_EventScript_Jani::
-	trainerbattle_single TRAINER_JANI, Route116_Text_JaniIntro, Route116_Text_JaniDefeat
-	msgbox Route116_Text_JaniPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_JANI, AbandonedShip_Rooms2_1F_Text_JaniIntro, AbandonedShip_Rooms2_1F_Text_JaniDefeat
+	msgbox AbandonedShip_Rooms2_1F_Text_JaniPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route10_EventScript_Hudson::

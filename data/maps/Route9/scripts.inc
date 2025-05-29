@@ -1,9 +1,9 @@
 Route9_MapScripts::
 	.byte 0
 
-Route9_EventScript_Aisha::
-	trainerbattle_single TRAINER_KAYLA, Route123_Text_KaylaIntro, Route123_Text_KaylaDefeat
-	msgbox Route123_Text_KaylaPostBattle, MSGBOX_AUTOCLOSE
+Route9_EventScript_Kayla::
+	trainerbattle_single TRAINER_KAYLA, MtPyre_3F_Text_KaylaIntro, MtPyre_3F_Text_KaylaDefeat
+	msgbox MtPyre_3F_Text_KaylaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route9_EventScript_Alexis::
@@ -32,7 +32,7 @@ Route9_EventScript_Zander::
 	end
 
 Route9_EventScript_Simon::
-	trainerbattle_single TRAINER_SIMON, Route109_SeashoreHouse_Text_SimonIntro, Route109_SeashoreHouse_Text_SimonDefeat
+	trainerbattle_single TRAINER_SIMON, Route109_SeashoreHouse_Text_SimonIntro, Route109_SeashoreHouse_Text_SimonDefeated
 	msgbox Route109_SeashoreHouse_Text_SimonPostBattle, MSGBOX_AUTOCLOSE
 	end
 

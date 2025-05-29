@@ -71,68 +71,148 @@ CastleTownAndy_Gym_EventScript_Kathleen::
 	msgbox CastleTownAndy_Gym_Text_KathleenPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-CastleTownAndy_Gym_EventScript_Roxanne::
+CastleTownAndy_Gym_EventScript_Jade::
 	goto_if_set FLAG_DEFEATED_RUSTBORO_GYM, CastleTownAndy_Gym_Text_AndyPostBattle
-    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownAndy_Gym_EventScript_Roxanne_ZeroBadge
-	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownAndy_Gym_EventScript_Roxanne_OneBadge
-	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownAndy_Gym_EventScript_Roxanne_TwoBadge
-	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownAndy_Gym_EventScript_Roxanne_ThreeBadge
-	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownAndy_Gym_EventScript_Roxanne_FourBadge
-	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownAndy_Gym_EventScript_Roxanne_FiveBadge
-	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownAndy_Gym_EventScript_Roxanne_SixBadge
-	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownAndy_Gym_EventScript_Roxanne_SevenBadge
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownAndy_Gym_EventScript_Jade_ZeroBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownAndy_Gym_EventScript_Jade_OneBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownAndy_Gym_EventScript_Jade_TwoBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownAndy_Gym_EventScript_Jade_ThreeBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownAndy_Gym_EventScript_Jade_FourBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownAndy_Gym_EventScript_Jade_FiveBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownAndy_Gym_EventScript_Jade_SixBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownAndy_Gym_EventScript_Jade_SevenBadge
 	release
 	end
 
-CastleTownAndy_Gym_EventScript_Roxanne_ZeroBadge::
-	trainerbattle_single TRAINER_JADE_1, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_PostBattle, MSGBOX_DEFAULT
+CastleTownAndy_Gym_EventScript_Jade_ZeroBadge::
+	trainerbattle_single TRAINER_JADE_1, CastleTownAndy_Gym_Text_JadeIntro, CastleTownAndy_Gym_Text_JadePostBattle, CastleTownAndy_Gym_EventScript_JadeDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_JadePostBattle, MSGBOX_DEFAULT
 	release
 	end
 
-CastleTownAndy_Gym_EventScript_Roxanne_OneBadge::
-	trainerbattle_single TRAINER_JADE_2, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_PostBattle, MSGBOX_DEFAULT
+CastleTownAndy_Gym_EventScript_Jade_OneBadge::
+	trainerbattle_single TRAINER_JADE_2, CastleTownAndy_Gym_Text_JadeIntro, CastleTownAndy_Gym_Text_JadePostBattle, CastleTownAndy_Gym_EventScript_JadeDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_JadePostBattle, MSGBOX_DEFAULT
 	release
 	end
 
-CastleTownAndy_Gym_EventScript_Roxanne_TwoBadge::
-	trainerbattle_single TRAINER_JADE_3, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_PostBattle, MSGBOX_DEFAULT
+CastleTownAndy_Gym_EventScript_Jade_TwoBadge::
+	trainerbattle_single TRAINER_JADE_3, CastleTownAndy_Gym_Text_JadeIntro, CastleTownAndy_Gym_Text_JadePostBattle, CastleTownAndy_Gym_EventScript_JadeDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_JadePostBattle, MSGBOX_DEFAULT
 	release
 	end
 
-CastleTownAndy_Gym_EventScript_Roxanne_ThreeBadge::
-	trainerbattle_single TRAINER_JADE_4, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_PostBattle, MSGBOX_DEFAULT
+CastleTownAndy_Gym_EventScript_Jade_ThreeBadge::
+	trainerbattle_single TRAINER_JADE_4, CastleTownAndy_Gym_Text_JadeIntro, CastleTownAndy_Gym_Text_JadePostBattle, CastleTownAndy_Gym_EventScript_JadeDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_JadePostBattle, MSGBOX_DEFAULT
 	release
 	end
 
-CastleTownAndy_Gym_EventScript_Roxanne_FourBadge::
-	trainerbattle_single TRAINER_JADE_5, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_PostBattle, MSGBOX_DEFAULT
+CastleTownAndy_Gym_EventScript_Jade_FourBadge::
+	trainerbattle_single TRAINER_JADE_5, CastleTownAndy_Gym_Text_JadeIntro, CastleTownAndy_Gym_Text_JadePostBattle, CastleTownAndy_Gym_EventScript_JadeDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_JadePostBattle, MSGBOX_DEFAULT
 	release
 	end
 
-CastleTownAndy_Gym_EventScript_Roxanne_FiveBadge::
-	trainerbattle_single TRAINER_JADE_6, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_PostBattle, MSGBOX_DEFAULT
+CastleTownAndy_Gym_EventScript_Jade_FiveBadge::
+	trainerbattle_single TRAINER_JADE_6, CastleTownAndy_Gym_Text_JadeIntro, CastleTownAndy_Gym_Text_JadePostBattle, CastleTownAndy_Gym_EventScript_JadeDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_JadePostBattle, MSGBOX_DEFAULT
 	release
 	end
 
-CastleTownAndy_Gym_EventScript_Roxanne_SixBadge::
-	trainerbattle_single TRAINER_JADE_7, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_PostBattle, MSGBOX_DEFAULT
+CastleTownAndy_Gym_EventScript_Jade_SixBadge::
+	trainerbattle_single TRAINER_JADE_7, CastleTownAndy_Gym_Text_JadeIntro, CastleTownAndy_Gym_Text_JadePostBattle, CastleTownAndy_Gym_EventScript_JadeDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_JadePostBattle, MSGBOX_DEFAULT
 	release
 	end
 
-CastleTownAndy_Gym_EventScript_Roxanne_SevenBadge::
-	trainerbattle_single TRAINER_JADE_8, CastleTownAndy_Gym_Text_Intro, CastleTownAndy_Gym_Text_PostBattle, CastleTownAndy_Gym_EventScript_RoxanneDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_PostBattle, MSGBOX_DEFAULT
+CastleTownAndy_Gym_EventScript_Jade_SevenBadge::
+	trainerbattle_single TRAINER_JADE_8, CastleTownAndy_Gym_Text_JadeIntro, CastleTownAndy_Gym_Text_JadePostBattle, CastleTownAndy_Gym_EventScript_JadeDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_JadePostBattle, MSGBOX_DEFAULT
 	release
 	end
 
-CastleTownAndy_Gym_EventScript_RoxanneDefeated::
+CastleTownAndy_Gym_EventScript_JadeDefeated::
+	message CastleTownAndy_Gym_Text_ReceivedAvianBadge
+	waitmessage
+	call Common_EventScript_PlayGymBadgeFanfare
+	msgbox CastleTownAndy_Gym_Text_AvianBadgeInfoTakeThis, MSGBOX_DEFAULT
+	setflag FLAG_DEFEATED_RUSTBORO_GYM
+	call Common_EventScript_UpdateBadgesCollected
+	setvar VAR_0x8008, 10
+	call Common_EventScript_SetGymTrainers
+	call CastleTownAndy_Gym_EventScript_GiveAerialAce
+	closemessage
+	delay 30
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox CastleTownAndy_Gym_Text_RegisteredAndy, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_Rintalia::
+	goto_if_set FLAG_DEFEATED_RUSTBORO_GYM, CastleTownAndy_Gym_Text_AndyPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownAndy_Gym_EventScript_Rintalia_ZeroBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownAndy_Gym_EventScript_Rintalia_OneBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownAndy_Gym_EventScript_Rintalia_TwoBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownAndy_Gym_EventScript_Rintalia_ThreeBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownAndy_Gym_EventScript_Rintalia_FourBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownAndy_Gym_EventScript_Rintalia_FiveBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownAndy_Gym_EventScript_Rintalia_SixBadge
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownAndy_Gym_EventScript_Rintalia_SevenBadge
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_Rintalia_ZeroBadge::
+	trainerbattle_single TRAINER_RINTALIA_1, CastleTownAndy_Gym_Text_RintaliaIntro, CastleTownAndy_Gym_Text_RintaliaPostBattle, CastleTownAndy_Gym_EventScript_RintaliaDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_RintaliaPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_Rintalia_OneBadge::
+	trainerbattle_single TRAINER_RINTALIA_2, CastleTownAndy_Gym_Text_RintaliaIntro, CastleTownAndy_Gym_Text_RintaliaPostBattle, CastleTownAndy_Gym_EventScript_RintaliaDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_RintaliaPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_Rintalia_TwoBadge::
+	trainerbattle_single TRAINER_RINTALIA_3, CastleTownAndy_Gym_Text_RintaliaIntro, CastleTownAndy_Gym_Text_RintaliaPostBattle, CastleTownAndy_Gym_EventScript_RintaliaDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_RintaliaPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_Rintalia_ThreeBadge::
+	trainerbattle_single TRAINER_RINTALIA_4, CastleTownAndy_Gym_Text_RintaliaIntro, CastleTownAndy_Gym_Text_RintaliaPostBattle, CastleTownAndy_Gym_EventScript_RintaliaDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_RintaliaPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_Rintalia_FourBadge::
+	trainerbattle_single TRAINER_RINTALIA_5, CastleTownAndy_Gym_Text_RintaliaIntro, CastleTownAndy_Gym_Text_RintaliaPostBattle, CastleTownAndy_Gym_EventScript_RintaliaDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_RintaliaPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_Rintalia_FiveBadge::
+	trainerbattle_single TRAINER_RINTALIA_6, CastleTownAndy_Gym_Text_RintaliaIntro, CastleTownAndy_Gym_Text_RintaliaPostBattle, CastleTownAndy_Gym_EventScript_RintaliaDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_RintaliaPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_Rintalia_SixBadge::
+	trainerbattle_single TRAINER_RINTALIA_7, CastleTownAndy_Gym_Text_RintaliaIntro, CastleTownAndy_Gym_Text_RintaliaPostBattle, CastleTownAndy_Gym_EventScript_RintaliaDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_RintaliaPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_Rintalia_SevenBadge::
+	trainerbattle_single TRAINER_RINTALIA_8, CastleTownAndy_Gym_Text_RintaliaIntro, CastleTownAndy_Gym_Text_RintaliaPostBattle, CastleTownAndy_Gym_EventScript_RintaliaDefeated, NO_MUSIC
+	msgbox CastleTownAndy_Gym_Text_RintaliaPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_RintaliaDefeated::
 	message CastleTownAndy_Gym_Text_ReceivedAvianBadge
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
@@ -277,10 +357,16 @@ CastleTownAndy_Gym_Text_GymStatueCertified:
 	.string "ANDY'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
-CastleTownAndy_Gym_Text_Intro:
+CastleTownAndy_Gym_Text_JadeIntro:
 	.string "Let's battle!$"
 
-CastleTownAndy_Gym_Text_PostBattle:
+CastleTownAndy_Gym_Text_RintaliaIntro:
+	.string "Let's battle!$"
+
+CastleTownAndy_Gym_Text_JadePostBattle:
+	.string "Good job!$"
+
+CastleTownAndy_Gym_Text_RintaliaPostBattle:
 	.string "Good job!$"
 
 CastleTownAndy_Gym_Text_ReceivedAvianBadge:
