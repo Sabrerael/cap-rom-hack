@@ -1,2 +1,42 @@
 Route12_MapScripts::
 	.byte 0
+
+Route12_EventScript_Sheila::
+	trainerbattle_single TRAINER_SHEILA, MtChimney_Text_SheilaIntro, MtChimney_Text_SheilaDefeat
+	msgbox MtChimney_Text_SheilaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route12_EventScript_Shirley::
+	trainerbattle_single TRAINER_SHIRLEY, MtChimney_Text_ShirleyIntro, MtChimney_Text_ShirleyDefeat
+	msgbox MtChimney_Text_ShirleyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route12_EventScript_Jessica::
+	trainerbattle_single TRAINER_JESSICA_1, Route121_Text_JessicaIntro, Route121_Text_JessicaDefeat
+	msgbox Route121_Text_JessicaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route12_EventScript_Tiffany::
+	trainerbattle_single TRAINER_TIFFANY, SootopolisCity_Gym_B1F_Text_TiffanyIntro, SootopolisCity_Gym_B1F_Text_TiffanyDefeat
+	msgbox SootopolisCity_Gym_B1F_Text_TiffanyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route12_EventScript_Edwin::
+	trainerbattle_single TRAINER_EDWIN_1, Route110_Text_EdwinIntro, Route110_Text_EdwinDefeated
+	msgbox Route110_Text_EdwinPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route12_EventScript_Hector::
+	trainerbattle_single TRAINER_HECTOR,  Route115_Text_HectorIntro,  Route115_Text_HectorDefeat
+	msgbox  Route115_Text_HectorPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route12_EventScript_Keigo::
+	trainerbattle_single TRAINER_KEIGO, Route120_Text_KeigoIntro, Route120_Text_KeigoDefeat
+	msgbox Route120_Text_KeigoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route12_EventScript_Riley::
+	trainerbattle_single TRAINER_RILEY, Route120_Text_RileyIntro, Route120_Text_RileyDefeat
+	msgbox Route120_Text_RileyPostBattle, MSGBOX_AUTOCLOSE
+	end
