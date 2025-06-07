@@ -678,7 +678,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 /***** Route 1 Trainers *****/
 
 === TRAINER_RICK ===
-Name: RICK
+Name: Rick
 Class: Bug Catcher
 Pic: Bug Catcher
 Gender: Male
@@ -695,7 +695,7 @@ Level Modifier: 2
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TIANA ===
-Name: TIANA
+Name: Tiana
 Class: Lass
 Pic: Lass
 Gender: Female
@@ -731,7 +731,7 @@ Level Modifier: 2
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ALLEN ===
-Name: ALLEN
+Name: Allen
 Class: Youngster
 Pic: Youngster
 Gender: Male
@@ -775,7 +775,7 @@ Level Modifier: 2
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HALEY_1 ===
-Name: HALEY
+Name: Haley
 Class: Lass
 Pic: Lass
 Gender: Female
@@ -815,7 +815,7 @@ Level Modifier: 1
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_KAREN_1 ===
-Name: KAREN
+Name: Karen
 Class: School Kid
 Pic: School Kid F
 Gender: Female
@@ -976,7 +976,7 @@ Level Modifier: 1
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_BROOKE ===
-Name: BROOKE
+Name: Brooke
 Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
@@ -1136,7 +1136,7 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 /***** Route 7 Trainers *****/
 
 === TRAINER_BEAU ===
-Name: BEAU
+Name: Beau
 Class: Camper
 Pic: Camper
 Gender: Male
@@ -1157,7 +1157,7 @@ Level Modifier: 1
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BECKY ===
-Name: BECKY
+Name: Becky
 Class: Picnicker
 Pic: Picnicker
 Gender: Female
@@ -1182,7 +1182,7 @@ Level Modifier: 1
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DREW ===
-Name: DREW
+Name: Drew
 Class: Camper
 Pic: Camper
 Gender: Male
@@ -1203,7 +1203,7 @@ Level Modifier: 1
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HEIDI ===
-Name: HEIDI
+Name: Heidi
 Class: Picnicker
 Pic: Picnicker
 Gender: Female
@@ -1220,7 +1220,7 @@ Level Modifier: 2
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_IRENE ===
-Name: IRENE
+Name: Irene
 Class: Picnicker
 Pic: Picnicker
 Gender: Female
@@ -1249,7 +1249,7 @@ Level Modifier: 3
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
 === TRAINER_TRAVIS ===
-Name: TRAVIS
+Name: Travis
 Class: Camper
 Pic: Camper
 Gender: Male
@@ -1274,7 +1274,7 @@ Level Modifier: 1
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_DUSTY_1 ===
-Name: DUSTY
+Name: Dusty
 Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
@@ -1305,7 +1305,15 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
+Mienfoo
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
 Meditite
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Pancham
 Level Modifier: 1
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
@@ -1319,12 +1327,16 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Roselia
-Level Modifier: 1
+Quaxwell
+Level Modifier: 3
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Medicham
-Level Modifier: 1
+Roselia
+Level Modifier: 3
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Hattrem
+Level Modifier: 2
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_FABIAN ===
@@ -1335,6 +1347,18 @@ Gender: Male
 Music: Intense
 Double Battle: No
 AI: Check Bad Move
+
+Cufant
+Level Modifier: 4
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Blitzle
+Level Modifier: 4
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Varoom
+Level Modifier: 4
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Manectric
 Level Modifier: 1
@@ -1349,11 +1373,15 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Slugma
-Level Modifier: 1
+Larvesta
+Level Modifier: 3
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Numel
+Slugma
+Level Modifier: 2
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Carkol
 Level Modifier: 1
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
@@ -1448,7 +1476,7 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 /***** Route 9 Trainers *****/
 
 === TRAINER_KAYLA ===
-Name: KAYLA
+Name: Kayla
 Class: Psychic
 Pic: Psychic F
 Gender: Female
@@ -1457,19 +1485,19 @@ Double Battle: No
 AI: Check Bad Move
 
 Wobbuffet
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Natu
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Kadabra
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_ALEXIS ===
-Name: ALEXIS
+Name: Alexis
 Class: Psychic
 Pic: Psychic F
 Gender: Female
@@ -1478,15 +1506,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Kirlia
-Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Xatu
-Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_DECLAN ===
-Name: DECLAN
+Name: Declan
 Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
@@ -1495,11 +1523,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Gyarados
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_FREDRICK ===
-Name: FREDRICK
+Name: Fredrick
 Class: Expert
 Pic: Expert M
 Gender: Male
@@ -1508,15 +1536,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Makuhita
-Level: 30
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Machoke
-Level: 30
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_MATT ===
-Name: MATT
+Name: Matt
 Class: Aqua Admin
 Pic: Aqua Admin M
 Gender: Male
@@ -1526,15 +1554,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Mightyena
-Level: 34
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Golbat
-Level: 34
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_ZANDER ===
-Name: ZANDER
+Name: Zander
 Class: Black Belt
 Pic: Black Belt
 Gender: Male
@@ -1543,11 +1571,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Hariyama
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_SIMON ===
-Name: SIMON
+Name: Simon
 Class: Tuber M
 Pic: Tuber M
 Gender: Male
@@ -1556,15 +1584,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Azurill
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Marill
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_CHARLIE ===
-Name: CHARLIE
+Name: Charlie
 Class: Tuber M
 Pic: Tuber M
 Gender: Male
@@ -1573,8 +1601,8 @@ Double Battle: No
 AI: Check Bad Move
 
 Marill
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 /***** Route 10 Trainers *****/
 
@@ -1587,8 +1615,8 @@ Music: Girl
 Double Battle: No
 
 Marill
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_HUDSON ===
 Name: Hudson
@@ -1600,8 +1628,8 @@ Double Battle: No
 AI: Check Bad Move
 
 Wailmer
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_CONOR ===
 Name: Conor
@@ -1613,12 +1641,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Chinchou
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Hariyama
-Level: 33
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 /***** Route 11 Trainers *****/
 
@@ -1633,12 +1661,12 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Shiftry
-Level: 34
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Nosepass
-Level: 34
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_FELIX ===
 Name: Felix
@@ -1651,15 +1679,12 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Medicham
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Psychic
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Claydol
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Skill Swap
-- Earthquake
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_VIOLET ===
 Name: Violet
@@ -1671,12 +1696,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Roselia
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Gloom
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_CHIP ===
 Name: Chip
@@ -1688,28 +1713,16 @@ Double Battle: No
 AI: Check Bad Move
 
 Baltoy
-Level: 27
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Psybeam
-- Self Destruct
-- Sandstorm
-- Ancient Power
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Sandshrew
-Level: 27
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Sandslash
-Level: 27
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_FOSTER ===
 Name: Foster
@@ -1721,20 +1734,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Sandshrew
-Level: 25
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Sandslash
-Level: 25
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_CARLEE ===
 Name: Carlee
@@ -1746,8 +1751,8 @@ Double Battle: No
 AI: Check Bad Move
 
 Seaking
-Level: 35
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_CAROL ===
 Name: Carol
@@ -1759,12 +1764,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Taillow
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Lombre
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 /***** Route 12 Trainers *****/
 
@@ -1778,8 +1783,8 @@ Double Battle: No
 AI: Check Bad Move
 
 Shroomish
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_SHIRLEY ===
 Name: SHIRLEY
@@ -1791,8 +1796,8 @@ Double Battle: No
 AI: Check Bad Move
 
 Numel
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_JESSICA_1 ===
 Name: JESSICA
@@ -1804,20 +1809,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Kecleon
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bind
-- Lick
-- Fury Swipes
-- Feint Attack
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Seviper
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Tail
-- Screech
-- Glare
-- Crunch
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_TIFFANY ===
 Name: TIFFANY
@@ -1829,12 +1826,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Carvanha
-Level: 39
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Sharpedo
-Level: 39
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_EDWIN_1 ===
 Name: EDWIN
@@ -1846,12 +1843,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Lombre
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Nuzleaf
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_HECTOR ===
 Name: HECTOR
@@ -1863,12 +1860,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Zangoose
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Seviper
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_KEIGO ===
 Name: KEIGO
@@ -1880,20 +1877,12 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint
 
 Koffing
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Gas
-- Self Destruct
-- Sludge
-- Smokescreen
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Ninjask
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sand Attack
-- Double Team
-- Fury Cutter
-- Swords Dance
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_RILEY ===
 Name: RILEY
@@ -1905,25 +1894,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint
 
 Nincada
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Leech Life
-- Fury Swipes
-- Mind Reader
-- Dig
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Koffing
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Self Destruct
-- Sludge
-- Smokescreen
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 /***** Route 13 Trainers *****/
 
 === TRAINER_MARIELA ===
-Name: MARIELA
+Name: Mariela
 Class: Psychic
 Pic: Psychic F
 Gender: Female
@@ -1931,11 +1912,11 @@ Music: Intense
 Double Battle: No
 
 Chimecho
-Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_ALVARO ===
-Name: ALVARO
+Name: Alvaro
 Class: Psychic
 Pic: Psychic M
 Gender: Male
@@ -1943,15 +1924,15 @@ Music: Intense
 Double Battle: No
 
 Banette
-Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Kadabra
-Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_EVERETT ===
-Name: EVERETT
+Name: Everett
 Class: Gentleman
 Pic: Gentleman
 Gender: Male
@@ -1959,11 +1940,11 @@ Music: Rich
 Double Battle: No
 
 Wobbuffet
-Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_JULIO ===
-Name: JULIO
+Name: Julio
 Class: Triathlete
 Pic: Cycling Triathlete M
 Gender: Male
@@ -1972,11 +1953,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Magnemite
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_MARLEY ===
-Name: MARLEY
+Name: Marley
 Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
@@ -1986,15 +1967,11 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Manectric
-Level: 34
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Bite
-- Roar
-- Thunder Wave
-- Thunderbolt
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_REYNA ===
-Name: REYNA
+Name: Reyna
 Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
@@ -2003,15 +1980,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Meditite
-Level: 33
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Hariyama
-Level: 33
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_WARREN ===
-Name: WARREN
+Name: Warren
 Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
@@ -2021,15 +1998,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Graveler
-Level: 33
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Ludicolo
-Level: 33
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_WENDY ===
-Name: WENDY
+Name: Wendy
 Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
@@ -2039,33 +2016,21 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
 Mawile
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Baton Pass
-- Feint Attack
-- Fake Tears
-- Bite
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Roselia
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Mega Drain
-- Magical Leaf
-- Grass Whistle
-- Leech Seed
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Pelipper
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Fly
-- Water Gun
-- Mist
-- Protect
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 /***** Route 14 Trainers *****/
 
 === TRAINER_MICHELLE ===
-Name: MICHELLE
+Name: Michelle
 Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
@@ -2075,19 +2040,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Torkoal
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Medicham
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Ludicolo
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_CAROLINE ===
-Name: CAROLINE
+Name: Caroline
 Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
@@ -2097,15 +2062,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Skarmory
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Sableye
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_JULIE ===
-Name: JULIE
+Name: Julie
 Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
@@ -2115,16 +2080,16 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Sandslash
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Ninetales
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Tropius
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_ALBERT ===
 Name: Albert
@@ -2137,12 +2102,12 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Magneton
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Muk
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_SAMUEL ===
 Name: Samuel
@@ -2155,16 +2120,16 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Swellow
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Mawile
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Kadabra
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_VITO ===
 Name: Vito
@@ -2177,19 +2142,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Dodrio
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level Modifier: 1
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Kadabra
-Level: 42
+Level Modifier: 1
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Electrode
-Level: 42
+Level Modifier: 1
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Shiftry
-Level: 42
+Level Modifier: 1
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_OWEN ===
@@ -2203,15 +2168,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Kecleon
-Level: 42
+Level Modifier: 1
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Graveler
-Level: 42
+Level Modifier: 1
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Wailord
-Level: 42
+Level Modifier: 1
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 /***** Route 15 Trainers *****/
@@ -2449,7 +2414,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 /***** Route 16 Trainers *****/
 
 === TRAINER_VICTORIA ===
-Name: VICTORIA
+Name: Victoria
 Class: Winstrate
 Pic: Pokefan F
 Gender: Female
@@ -2458,11 +2423,11 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint
 
 Roselia @ Oran Berry
-Level: 17
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Level Modifier: 1
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_VANESSA ===
-Name: VANESSA
+Name: Vanessa
 Class: Pokefan
 Pic: Pokefan F
 Gender: Female
@@ -2471,8 +2436,8 @@ Double Battle: No
 AI: Check Bad Move
 
 Pikachu @ Oran Berry
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level Modifier: 1
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 /***** Castle Town BlindJim Trainers */
 
@@ -7118,6 +7083,189 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 /***** Victory Road Trainers *****/
 
+=== TRAINER_JENNIFER ===
+Name: Jennifer
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Items: Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Sableye
+Level Modifier: 1
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+=== TRAINER_HOPE ===
+Name: Hope
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Items: Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Roselia
+Level Modifier: 1
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+=== TRAINER_SHANNON ===
+Name: Shannon
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Items: Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Claydol
+Level Modifier: 1
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+=== TRAINER_BRAXTON ===
+Name: Braxton
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Items: Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Swellow
+Level Modifier: 1
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Focus Energy
+- Quick Attack
+- Wing Attack
+- Endeavor
+
+Trapinch
+Level Modifier: 1
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Bite
+- Dig
+- Feint Attack
+- Sand Tomb
+
+Wailmer
+Level Modifier: 1
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rollout
+- Whirlpool
+- Astonish
+- Water Pulse
+
+Magneton
+Level Modifier: 1
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Thunderbolt
+- Supersonic
+- Thunder Wave
+- Sonic Boom
+
+Shiftry
+Level Modifier: 1
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Giga Drain
+- Feint Attack
+- Double Team
+- Swagger
+
+=== TRAINER_VINCENT ===
+Name: Vincent
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Items: Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Sableye
+Level Modifier: 1
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Medicham
+Level Modifier: 1
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Sharpedo
+Level Modifier: 1
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+=== TRAINER_LEROY ===
+Name: Leroy
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Items: Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Mawile
+Level Modifier: 1
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Starmie
+Level Modifier: 1
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+=== TRAINER_MOLLIE ===
+Name: Mollie
+Class: Expert
+Pic: Expert F
+Gender: Female
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Whiscash
+Level Modifier: 1
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Meditite
+Level Modifier: 1
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+=== TRAINER_AURON ===
+Name: Auron
+Class: Expert
+Pic: Expert M
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Manectric
+Level Modifier: 1
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Machamp
+Level Modifier: 1
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+=== TRAINER_AARON ===
+Name: Aaron
+Class: Dragon Tamer
+Pic: Dragon Tamer
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Bagon
+Level Modifier: 1
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dragon Breath
+- Headbutt
+- Focus Energy
+- Ember
+
 /***** Elite Four Trainers *****/
 
 === TRAINER_HAROLD ===
@@ -7415,7 +7563,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Alluring Voice
 
-/* Unused Trainers */
+/***** Unused Trainers *****/
 
 === TRAINER_GABRIELLE_1 ===
 Name: GABRIELLE
@@ -8153,96 +8301,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Tail Whip
 - Surf
 
-=== TRAINER_BRAXTON ===
-Name: BRAXTON
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Items: Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Swellow
-Level: 28
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Energy
-- Quick Attack
-- Wing Attack
-- Endeavor
-
-Trapinch
-Level: 28
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bite
-- Dig
-- Feint Attack
-- Sand Tomb
-
-Wailmer
-Level: 28
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Rollout
-- Whirlpool
-- Astonish
-- Water Pulse
-
-Magneton
-Level: 28
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunderbolt
-- Supersonic
-- Thunder Wave
-- Sonic Boom
-
-Shiftry
-Level: 28
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Giga Drain
-- Feint Attack
-- Double Team
-- Swagger
-
-=== TRAINER_VINCENT ===
-Name: VINCENT
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Items: Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Sableye
-Level: 44
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Medicham
-Level: 44
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Sharpedo
-Level: 44
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_LEROY ===
-Name: LEROY
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Items: Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Mawile
-Level: 46
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Starmie
-Level: 46
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
 === TRAINER_WILTON_1 ===
 Name: WILTON
 Class: Cooltrainer
@@ -8386,48 +8444,6 @@ Level: 45
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Manectric
-Level: 45
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_JENNIFER ===
-Name: JENNIFER
-Class: Cooltrainer
-Pic: Cooltrainer F
-Gender: Female
-Music: Cool
-Items: Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Sableye
-Level: 30
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-=== TRAINER_HOPE ===
-Name: HOPE
-Class: Cooltrainer
-Pic: Cooltrainer F
-Gender: Female
-Music: Cool
-Items: Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Roselia
-Level: 45
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_SHANNON ===
-Name: SHANNON
-Class: Cooltrainer
-Pic: Cooltrainer F
-Gender: Female
-Music: Cool
-Items: Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Claydol
 Level: 45
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -8919,23 +8935,6 @@ AI: Check Bad Move
 Zigzagoon @ Nugget
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_MOLLIE ===
-Name: MOLLIE
-Class: Expert
-Pic: Expert F
-Gender: Female
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Whiscash
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Meditite
-Level: 33
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_GARRET ===
 Name: GARRET
@@ -12467,23 +12466,6 @@ Shelgon @ Dragon Fang
 Level: 49
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
-=== TRAINER_AARON ===
-Name: AARON
-Class: Dragon Tamer
-Pic: Dragon Tamer
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Bagon
-Level: 34
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Dragon Breath
-- Headbutt
-- Focus Energy
-- Ember
-
 === TRAINER_PERRY ===
 Name: PERRY
 Class: Bird Keeper
@@ -14029,23 +14011,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Weather Ball
 - Flamethrower
 - Solar Beam
-
-=== TRAINER_AURON ===
-Name: AURON
-Class: Expert
-Pic: Expert M
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Manectric
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Machamp
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_KELVIN ===
 Name: KELVIN
