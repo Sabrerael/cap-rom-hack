@@ -1,2 +1,42 @@
 Route16_MapScripts::
 	.byte 0
+
+Route16_EventScript_Victoria::
+	trainerbattle_single TRAINER_VICTORIA, Route111_Text_VictoriaIntro, Route111_Text_VictoriaDefeat
+	msgbox Route111_Text_VictoriaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route16_EventScript_Vanessa::
+	trainerbattle_single TRAINER_VANESSA, Route121_Text_VanessaIntro, Route121_Text_VanessaDefeat
+	msgbox Route121_Text_VanessaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route16_EventScript_Wilton::
+	trainerbattle_single TRAINER_WILTON_1, Route111_Text_WiltonIntro, Route111_Text_WiltonDefeat
+	msgbox Route111_Text_WiltonPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route16_EventScript_Benny::
+	trainerbattle_single TRAINER_BENNY, Route110_TrickHousePuzzle6_Text_BennyIntro, Route110_TrickHousePuzzle6_Text_BennyDefeat
+	msgbox Route110_TrickHousePuzzle6_Text_BennyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route16_EventScript_Chester::
+	trainerbattle_single TRAINER_CHESTER, Route118_Text_ChesterIntro, Route118_Text_ChesterDefeat
+	msgbox Route118_Text_ChesterPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route16_EventScript_Tyron::
+	trainerbattle_single TRAINER_TYRON, Route111_Text_TyronIntro, Route111_Text_TyronDefeat
+	msgbox Route111_Text_TyronPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route16_EventScript_Celina::
+	trainerbattle_single TRAINER_CELINA, Route111_Text_CelinaIntro, Route111_Text_CelinaDefeat
+	msgbox Route111_Text_CelinaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route16_EventScript_Bianca::
+	trainerbattle_single TRAINER_BIANCA, Route111_Text_BiancaIntro, Route111_Text_BiancaDefeat
+	msgbox Route111_Text_BiancaPostBattle, MSGBOX_AUTOCLOSE
+	end

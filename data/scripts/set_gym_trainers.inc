@@ -117,6 +117,7 @@ CastleTownAndy_Gym_SetGymTrainers::
 	settrainerflag TRAINER_KATHLEEN
 	settrainerflag TRAINER_SYLVIA
 	settrainerflag TRAINER_JOSH
+	settrainerflag TRAINER_LEAH
 	return
 
 CastleTownHermes_Gym_SetGymTrainers::

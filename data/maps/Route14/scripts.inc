@@ -1,42 +1,42 @@
 Route14_MapScripts::
 	.byte 0
 
-Route14_EventScript_Mariela::
-	trainerbattle_single TRAINER_MARIELA, MtChimney_Text_SheilaIntro, MtChimney_Text_SheilaDefeat
+Route14_EventScript_Michelle::
+	trainerbattle_single TRAINER_MICHELLE, MtChimney_Text_SheilaIntro, MtChimney_Text_SheilaDefeat
 	msgbox MtChimney_Text_SheilaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route14_EventScript_Alvaro::
-	trainerbattle_single TRAINER_ALVARO, MtChimney_Text_ShirleyIntro, MtChimney_Text_ShirleyDefeat
+Route14_EventScript_Caroline::
+	trainerbattle_single TRAINER_CAROLINE, MtChimney_Text_ShirleyIntro, MtChimney_Text_ShirleyDefeat
 	msgbox MtChimney_Text_ShirleyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route14_EventScript_Everett::
-	trainerbattle_single TRAINER_EVERETT, Route121_Text_JessicaIntro, Route121_Text_JessicaDefeat
+Route14_EventScript_Julie::
+	trainerbattle_single TRAINER_JULIE, Route121_Text_JessicaIntro, Route121_Text_JessicaDefeat
 	msgbox Route121_Text_JessicaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route14_EventScript_Julio::
-	trainerbattle_single TRAINER_JULIO, SootopolisCity_Gym_B1F_Text_TiffanyIntro, SootopolisCity_Gym_B1F_Text_TiffanyDefeat
+Route14_EventScript_Albert::
+	trainerbattle_single TRAINER_ALBERT, SootopolisCity_Gym_B1F_Text_TiffanyIntro, SootopolisCity_Gym_B1F_Text_TiffanyDefeat
 	msgbox SootopolisCity_Gym_B1F_Text_TiffanyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route14_EventScript_Marley::
-	trainerbattle_single TRAINER_MARLEY, Route110_Text_EdwinIntro, Route110_Text_EdwinDefeated
+Route14_EventScript_Samuel::
+	trainerbattle_single TRAINER_SAMUEL, Route110_Text_EdwinIntro, Route110_Text_EdwinDefeated
 	msgbox Route110_Text_EdwinPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route14_EventScript_Reyna::
-	trainerbattle_single TRAINER_REYNA,  Route115_Text_HectorIntro,  Route115_Text_HectorDefeat
-	msgbox  Route115_Text_HectorPostBattle, MSGBOX_AUTOCLOSE
+Route14_EventScript_Vito::
+	trainerbattle_single TRAINER_VITO,  VictoryRoad_B2F_Text_VitoIntro, VictoryRoad_B2F_Text_VitoDefeat
+	msgbox VictoryRoad_B2F_Text_VitoPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route14_EventScript_Warren::
-	trainerbattle_single TRAINER_WARREN, Route120_Text_KeigoIntro, Route120_Text_KeigoDefeat
-	msgbox Route120_Text_KeigoPostBattle, MSGBOX_AUTOCLOSE
+Route14_EventScript_Owen::
+	trainerbattle_single TRAINER_OWEN, VictoryRoad_B2F_Text_OwenIntro, VictoryRoad_B2F_Text_OwenDefeat
+	msgbox VictoryRoad_B2F_Text_OwenPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route14_EventScript_Wendy::
-	trainerbattle_single TRAINER_WENDY, Route120_Text_RileyIntro, Route120_Text_RileyDefeat
-	msgbox Route120_Text_RileyPostBattle, MSGBOX_AUTOCLOSE
+Route14_EventScript_Johanna::
+	trainerbattle_single TRAINER_JOHANNA, Route109_SeashoreHouse_Text_JohannaIntro, Route109_SeashoreHouse_Text_JohannaDefeated
+	msgbox Route109_SeashoreHouse_Text_JohannaPostBattle, MSGBOX_AUTOCLOSE
 	end
