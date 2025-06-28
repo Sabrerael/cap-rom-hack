@@ -1,9 +1,9 @@
 .set LOCALID_PEHBBLE, 1
 
 Pehbble_EventScript_StartPehbbleBattleTwo::
-    call_if_ge VAR_PEHBBLE_STATE, 3, Pehbble_EventScript_AfterPehbbleBattleTwoOverworld
+    call_if_ge VAR_PEHBBLE_STATE, 2, Pehbble_EventScript_AfterPehbbleBattleTwoOverworld
 	lockall
-	msgbox Pehbble_Text_BattleTwoIntro, MSGBOX_DEFAULT
+	msgbox Pehbble_Text_BattleTwoIntro, MSGBOX_NPC
 	trainerbattle_no_intro TRAINER_PEHBBLE_2, Pehbble_Text_BattleTwoDefeated
 	goto Pehbble_EventScript_AfterPehbbleBattleTwo
 	end
@@ -15,8 +15,9 @@ Pehbble_EventScript_AfterPehbbleBattleTwo::
 	applymovement LOCALID_PEHBBLE, Pehbble_Movement_PehbbleBattleTwoMovement
     waitmovement 0
     applymovement LOCALID_PEHBBLE, Common_Movement_WalkInPlaceFasterDown
-	setvar VAR_PEHBBLE_STATE, 3
-	setflag FLAG_HIDE_PEHBBLE_BATTLE_3
+	setvar VAR_PEHBBLE_STATE, 2
+	setflag FLAG_HIDE_PEHBBLE_BATTLE_2
+	clearflag FLAG_HIDE_PEHBBLE_BATTLE_3
 	savebgm MUS_DUMMY
 	fadedefaultbgm
 	releaseall
