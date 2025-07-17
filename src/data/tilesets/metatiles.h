@@ -211,6 +211,12 @@ const u16 gMetatileAttributes_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/
 const u16 gMetatiles_CastleTownBlindJimGym[] = INCBIN_U16("data/tilesets/secondary/castle_town_blindjim_gym/metatiles.bin");
 const u16 gMetatileAttributes_CastleTownBlindJimGym[] = INCBIN_U16("data/tilesets/secondary/castle_town_blindjim_gym/metatile_attributes.bin");
 
+const u16 gMetatiles_CastleTownHermesGym[] = INCBIN_U16("data/tilesets/secondary/castle_town_hermes_gym/metatiles.bin");
+const u16 gMetatileAttributes_CastleTownHermesGym[] = INCBIN_U16("data/tilesets/secondary/castle_town_hermes_gym/metatile_attributes.bin");
+
+const u16 gMetatiles_CastleTownJadeRinGym[] = INCBIN_U16("data/tilesets/secondary/castle_town_jaderin_gym/metatiles.bin");
+const u16 gMetatileAttributes_CastleTownJadeRinGym[] = INCBIN_U16("data/tilesets/secondary/castle_town_jaderin_gym/metatile_attributes.bin");
+
 const u16 gMetatiles_CastleTownSabreGym[] = INCBIN_U16("data/tilesets/secondary/castle_town_sabre_gym/metatiles.bin");
 const u16 gMetatileAttributes_CastleTownSabreGym[] = INCBIN_U16("data/tilesets/secondary/castle_town_sabre_gym/metatile_attributes.bin");
 

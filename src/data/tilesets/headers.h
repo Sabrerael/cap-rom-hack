@@ -837,6 +837,28 @@ const struct Tileset gTileset_CastleTownBlindJimGym =
     .callback = NULL,
 };
 
+const struct Tileset gTileset_CastleTownHermesGym =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_CastleTownHermesGym,
+    .palettes = gTilesetPalettes_CastleTownHermesGym,
+    .metatiles = gMetatiles_CastleTownHermesGym,
+    .metatileAttributes = gMetatileAttributes_CastleTownHermesGym,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_CastleTownJadeRinGym =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_CastleTownJadeRinGym,
+    .palettes = gTilesetPalettes_CastleTownJadeRinGym,
+    .metatiles = gMetatiles_CastleTownJadeRinGym,
+    .metatileAttributes = gMetatileAttributes_CastleTownJadeRinGym,
+    .callback = NULL,
+};
+
 const struct Tileset gTileset_CastleTownSabreGym =
 {
     .isCompressed = TRUE,

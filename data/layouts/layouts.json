@@ -4764,10 +4764,10 @@
     {
       "id": "LAYOUT_CASTLE_TOWN_HERMES_GYM",
       "name": "CastleTownHermes_Gym_Layout",
-      "width": 20,
-      "height": 30,
+      "width": 40,
+      "height": 70,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_PetalburgGym",
+      "secondary_tileset": "gTileset_CastleTownHermesGym",
       "border_filepath": "data/layouts/CastleTownHermes_Gym/border.bin",
       "blockdata_filepath": "data/layouts/CastleTownHermes_Gym/map.bin"
     },
@@ -4787,7 +4787,7 @@
       "width": 30,
       "height": 45,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_FortreeGym",
+      "secondary_tileset": "gTileset_CastleTownJadeRinGym",
       "border_filepath": "data/layouts/CastleTownAndy_Gym/border.bin",
       "blockdata_filepath": "data/layouts/CastleTownAndy_Gym/map.bin"
     },
