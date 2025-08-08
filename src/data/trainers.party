@@ -3656,40 +3656,36 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
+Yamper
 Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Flamigo
+Fidough
 Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Pelipper
+Boltund
 Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_MARC ===
 Name: Marc
-Class: Hiker
-Pic: Hiker
+Class: Gentleman
+Pic: Gentleman
 Gender: Male
-Music: Hiker
+Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Squawkabilly Blue Plumage
+Purrloin
 Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Squawkabilly Green Plumage
+Poochyena
 Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Squawkabilly Yellow Plumage
-Level Modifier: 2
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Squawkabilly White Plumage
+Liepard
 Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -3723,15 +3719,15 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rookidee
+Lillipup
 Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Masquerain
+Glameow
 Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Corvisquire
+Herdier
 Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
@@ -3786,15 +3782,15 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Hoothoot
+Meowth
 Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Delibird
+Meowth Alolan
 Level Modifier: 2
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Noctowl
+Meowth Galarian
 Level Modifier: 1
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 

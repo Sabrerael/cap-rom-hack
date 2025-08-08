@@ -4784,8 +4784,8 @@
     {
       "id": "LAYOUT_CASTLE_TOWN_ANDY_GYM",
       "name": "CastleTownAndy_Gym_Layout",
-      "width": 30,
-      "height": 45,
+      "width": 40,
+      "height": 75,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_CastleTownJadeRinGym",
       "border_filepath": "data/layouts/CastleTownAndy_Gym/border.bin",
