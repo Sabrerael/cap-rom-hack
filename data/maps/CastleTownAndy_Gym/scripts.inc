@@ -36,6 +36,16 @@ CastleTownAndy_Gym_EventScript_GymGuidePostVictory::
 	release
 	end
 
+CastleTownAndy_Gym_EventScript_FogTrigger::
+	setweather WEATHER_FOG_HORIZONTAL
+	doweather
+	end
+
+CastleTownAndy_Gym_EventScript_SunTrigger::
+	setweather WEATHER_SUNNY
+	doweather
+	end
+
 CastleTownAndy_Gym_EventScript_Josh::
 	trainerbattle_single TRAINER_JOSH, CastleTownAndy_Gym_Text_JoshIntro, CastleTownAndy_Gym_Text_JoshDefeat
 	msgbox CastleTownAndy_Gym_Text_JoshPostBattle, MSGBOX_AUTOCLOSE
@@ -277,32 +287,31 @@ CastleTownAndy_Gym_Text_GymGuidePostVictory:
 	.string "and occult! Way to go!$"
 
 CastleTownAndy_Gym_Text_JoshIntro:
-	.string "Don't take us GYM TRAINERS lightly!\n"
+	.string "Don't take us Gym Trainers lightly!\n"
 	.string "I'll show you why we're better!$"
 
 CastleTownAndy_Gym_Text_JoshDefeat:
 	.string "You were too good for me…$"
 
 CastleTownAndy_Gym_Text_JoshPostBattle:
-	.string "You haven't seen anything of the ROCK\n"
-	.string "type's terrifying power!$"
+	.string "My poor Meowths…\n$"
 
 CastleTownAndy_Gym_Text_TommyIntro:
 	.string "If you can't beat me, you won't stand\n"
-	.string "a chance against Andy!$"
+	.string "a chance against Rintalia!$"
 
 CastleTownAndy_Gym_Text_TommyDefeat:
 	.string "Wow! You've got some potential!$"
 
 CastleTownAndy_Gym_Text_TommyPostBattle:
-	.string "Andy is stronger than me by\n"
+	.string "Rintalia is stronger than me by\n"
 	.string "several times.\p"
 	.string "You'd better be on your guard!$"
 
 CastleTownAndy_Gym_Text_MarcIntro:
 	.string "We might be in the middle of town,\n"
 	.string "but so what?\p"
-	.string "My ROCK POKéMON need room to\n"
+	.string "My cat Pokémon need room to\n"
 	.string "rampage!$"
 
 CastleTownAndy_Gym_Text_MarcDefeat:
@@ -310,9 +319,9 @@ CastleTownAndy_Gym_Text_MarcDefeat:
 	.string "Our challenger is one feisty customer!$"
 
 CastleTownAndy_Gym_Text_MarcPostBattle:
-	.string "I have to hand it to our LEADER.\p"
-	.string "It took smarts and sense for her to\n"
-	.string "pick the ROCK type at her young age.$"
+	.string "I have to hand it to our Gym Leaders.\p"
+	.string "They are both very capable despite\n"
+	.string "receiving the role recently.$"
 
 CastleTownAndy_Gym_Text_SylviaIntro:
 	.string "Even at the risk of life, I will win\n"
@@ -360,7 +369,7 @@ CastleTownAndy_Gym_Text_MaceyDefeat:
 
 CastleTownAndy_Gym_Text_MaceyPostBattle:
 	.string "Humph! You may be strong, but you're\n"
-	.string "not suitable for the PSYCHIC type!\p"
+	.string "not suitable for the Ghost type!\p"
 	.string "The way you battle is somehow brutal!$"
 
 CastleTownAndy_Gym_Text_LeahIntro:
@@ -372,10 +381,9 @@ CastleTownAndy_Gym_Text_LeahDefeat:
 	.string "You're durable.$"
 
 CastleTownAndy_Gym_Text_LeahPostBattle:
-	.string "Our family has been TRAINERS here\n"
-	.string "since my great-grandmother's time…\p"
-	.string "It is my duty to protect this\n"
-	.string "mountain…$"
+	.string "All we do is for the greatness\n"
+	.string "of the Entity…\p"
+	.string "Begone survivor…$"
 
 CastleTownAndy_Gym_Text_GymStatue:
 	.string "MEW YORK CITY POKéMON GYM$"

@@ -9662,7 +9662,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 3684
-            .species = SPECIES_POOCHYENA,
+            .species = SPECIES_GLAMEOW,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 3686
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
@@ -9784,7 +9784,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 3726
-            .species = SPECIES_GLAMEOW,
+            .species = SPECIES_POOCHYENA,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 3728
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
