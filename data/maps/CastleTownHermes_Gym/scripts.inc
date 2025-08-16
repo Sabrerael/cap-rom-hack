@@ -162,12 +162,12 @@ CastleTownHermes_Gym_EventScript_GiveFlashCannon::
 CastleTownHermes_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
-	.string "FORTREE GYM LEADER WINONA is\n"
-	.string "a master of FLYING-type POKéMON.\p"
-	.string "She's waiting at the back of this GYM,\n"
-	.string "behind the rotating doors.\p"
-	.string "She's waiting for new challengers\n"
-	.string "who are trying to take wing!\p"
+	.string "Mercury' Crossing Gym Leader Hermes is\n"
+	.string "a master of Steel-type Pokémon.\p"
+	.string "You will have to navigate the\n"
+	.string "conveyor belts to reach him.\p"
+	.string "He's waiting for new challengers\n"
+	.string "who are trying to prove their mettle!\p"
 	.string "Okay, go for it!$"
 
 CastleTownHermes_Gym_Text_GymGuidePostVictory:
@@ -337,7 +337,8 @@ CastleTownHermes_Gym_Text_MachinaBadgeInfoTakeThis:
 	.string "Claiming it has entitled to new\n"
 	.string "benefits in the Guild Hall.\p"
 	.string "Your strategy was like a perfect machine\n"
-	.string "every cog turning at just the right moment.\p"
+	.string "every cog turning at just\l"
+	.string "the right moment.\p"
 	.string "A brillent mind such as yourself will\n"
 	.string "be able to make good use of this\l"
 	.string "Techinical Machine.$"

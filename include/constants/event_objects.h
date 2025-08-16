@@ -397,6 +397,7 @@
 #define OBJ_EVENT_PAL_TAG_PIRATE_RYAN             0x112B
 #define OBJ_EVENT_PAL_TAG_TOT                     0x112C
 #define OBJ_EVENT_PAL_TAG_SALSA                   0x112D
+#define OBJ_EVENT_PAL_TAG_HERMES                  0x112E
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla

@@ -4237,12 +4237,12 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BlindJim = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Hermes = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_4,
+    .paletteTag = OBJ_EVENT_PAL_TAG_HERMES,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 256,
     .width = 16,
     .height = 32,
-    .paletteSlot = PALSLOT_NPC_4,
+    .paletteSlot = PALSLOT_NPC_SPECIAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4256,7 +4256,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Hermes = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Salsa = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_GFX_SALSA,
+    .paletteTag = OBJ_EVENT_PAL_TAG_SALSA,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 256,
     .width = 16,
