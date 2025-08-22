@@ -11,6 +11,6 @@ CastleTownAndy_EventScript_GymSign::
 	end
 
 CastleTownAndy_Text_GymSign:
-	.string "MISTRALI CITY ANDY POKéMON GYM\n"
-	.string "LEADER: ANDY\p"
-	.string "“The high-flying historian!”$"
+	.string "MEW YORK CITY POKéMON GYM\n"
+	.string "LEADERS: JADE AND RIN\p"
+	.string "“The dynamic duo!”$"

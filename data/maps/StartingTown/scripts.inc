@@ -654,8 +654,6 @@ StartingTown_Text_JadedosaPostBattle:
 	.string "all the places you'll go!\p"
 	.string "May the fog always welcome you…$"
 
-
-
 StartingTown_EventScript_Dominy::
 	lock
 	faceplayer

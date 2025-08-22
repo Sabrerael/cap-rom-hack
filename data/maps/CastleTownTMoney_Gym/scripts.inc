@@ -72,7 +72,7 @@ CastleTownTMoney_Gym_EventScript_Crissy::
 	end
 
 CastleTownTMoney_Gym_EventScript_Winona::
-	goto_if_set FLAG_DEFEATED_FORTREE_GYM, CastleTownTMoney_Gym_Text_TMoneyPostBattle
+	goto_if_set FLAG_DEFEATED_FORTREE_GYM, CastleTownTMoney_Gym_EventScript_TMoneyPostBattle
     goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTMoney_Gym_EventScript_Winona_ZeroBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTMoney_Gym_EventScript_Winona_OneBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownTMoney_Gym_EventScript_Winona_TwoBadge
@@ -129,6 +129,11 @@ CastleTownTMoney_Gym_EventScript_Winona_SixBadge::
 CastleTownTMoney_Gym_EventScript_Winona_SevenBadge::
 	trainerbattle_single TRAINER_TMONEY_8, CastleTownTMoney_Gym_Text_Intro, CastleTownTMoney_Gym_Text_PostBattle, CastleTownTMoney_Gym_EventScript_WinonaDefeated, NO_MUSIC
 	msgbox CastleTownTMoney_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownTMoney_Gym_EventScript_TMoneyPostBattle::
+	msgbox CastleTownTMoney_Gym_Text_TMoneyPostBattle, MSGBOX_NPC
 	release
 	end
 

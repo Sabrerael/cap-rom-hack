@@ -87,7 +87,7 @@ CastleTownAndy_Gym_EventScript_Leah::
 	end
 
 CastleTownAndy_Gym_EventScript_Jade::
-	goto_if_set FLAG_DEFEATED_RUSTBORO_GYM, CastleTownAndy_Gym_Text_AndyPostBattle
+	goto_if_set FLAG_DEFEATED_RUSTBORO_GYM, CastleTownAndy_Gym_EventScript_JadePostBattle
     goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownAndy_Gym_EventScript_Jade_ZeroBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownAndy_Gym_EventScript_Jade_OneBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownAndy_Gym_EventScript_Jade_TwoBadge
@@ -101,49 +101,54 @@ CastleTownAndy_Gym_EventScript_Jade::
 
 CastleTownAndy_Gym_EventScript_Jade_ZeroBadge::
 	trainerbattle_single TRAINER_JADE_1, CastleTownAndy_Gym_Text_JadeIntro, CastleTownAndy_Gym_Text_JadeDefeated, CastleTownAndy_Gym_EventScript_JadeDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_AndyPostBattle, MSGBOX_DEFAULT
+	msgbox CastleTownAndy_Gym_Text_JadeStillNeedToBeatRin, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownAndy_Gym_EventScript_Jade_OneBadge::
 	trainerbattle_single TRAINER_JADE_2, CastleTownAndy_Gym_Text_JadeIntro, CastleTownAndy_Gym_Text_JadeDefeated, CastleTownAndy_Gym_EventScript_JadeDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_AndyPostBattle, MSGBOX_DEFAULT
+	msgbox CastleTownAndy_Gym_Text_JadeStillNeedToBeatRin, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownAndy_Gym_EventScript_Jade_TwoBadge::
 	trainerbattle_single TRAINER_JADE_3, CastleTownAndy_Gym_Text_JadeIntro, CastleTownAndy_Gym_Text_JadeDefeated, CastleTownAndy_Gym_EventScript_JadeDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_AndyPostBattle, MSGBOX_DEFAULT
+	msgbox CastleTownAndy_Gym_Text_JadeStillNeedToBeatRin, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownAndy_Gym_EventScript_Jade_ThreeBadge::
 	trainerbattle_single TRAINER_JADE_4, CastleTownAndy_Gym_Text_JadeIntro, CastleTownAndy_Gym_Text_JadeDefeated, CastleTownAndy_Gym_EventScript_JadeDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_AndyPostBattle, MSGBOX_DEFAULT
+	msgbox CastleTownAndy_Gym_Text_JadeStillNeedToBeatRin, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownAndy_Gym_EventScript_Jade_FourBadge::
 	trainerbattle_single TRAINER_JADE_5, CastleTownAndy_Gym_Text_JadeIntro, CastleTownAndy_Gym_Text_JadeDefeated, CastleTownAndy_Gym_EventScript_JadeDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_AndyPostBattle, MSGBOX_DEFAULT
+	msgbox CastleTownAndy_Gym_Text_JadeStillNeedToBeatRin, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownAndy_Gym_EventScript_Jade_FiveBadge::
 	trainerbattle_single TRAINER_JADE_6, CastleTownAndy_Gym_Text_JadeIntro, CastleTownAndy_Gym_Text_JadeDefeated, CastleTownAndy_Gym_EventScript_JadeDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_AndyPostBattle, MSGBOX_DEFAULT
+	msgbox CastleTownAndy_Gym_Text_JadeStillNeedToBeatRin, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownAndy_Gym_EventScript_Jade_SixBadge::
 	trainerbattle_single TRAINER_JADE_7, CastleTownAndy_Gym_Text_JadeIntro, CastleTownAndy_Gym_Text_JadeDefeated, CastleTownAndy_Gym_EventScript_JadeDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_AndyPostBattle, MSGBOX_DEFAULT
+	msgbox CastleTownAndy_Gym_Text_JadeStillNeedToBeatRin, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownAndy_Gym_EventScript_Jade_SevenBadge::
 	trainerbattle_single TRAINER_JADE_8, CastleTownAndy_Gym_Text_JadeIntro, CastleTownAndy_Gym_Text_JadeDefeated, CastleTownAndy_Gym_EventScript_JadeDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_AndyPostBattle, MSGBOX_DEFAULT
+	msgbox CastleTownAndy_Gym_Text_JadeStillNeedToBeatRin, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_JadePostBattle::
+	msgbox CastleTownAndy_Gym_Text_AndyPostBattle, MSGBOX_NPC
 	release
 	end
 
@@ -175,7 +180,7 @@ CastleTownAndy_Gym_EventScript_JadeBothDefeated::
 	end
 
 CastleTownAndy_Gym_EventScript_Rintalia::
-	goto_if_set FLAG_DEFEATED_RUSTBORO_GYM, CastleTownAndy_Gym_Text_AndyPostBattle
+	goto_if_set FLAG_DEFEATED_RUSTBORO_GYM, CastleTownAndy_Gym_EventScript_RintaliaPostBattle
     goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownAndy_Gym_EventScript_Rintalia_ZeroBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownAndy_Gym_EventScript_Rintalia_OneBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownAndy_Gym_EventScript_Rintalia_TwoBadge
@@ -189,49 +194,54 @@ CastleTownAndy_Gym_EventScript_Rintalia::
 
 CastleTownAndy_Gym_EventScript_Rintalia_ZeroBadge::
 	trainerbattle_single TRAINER_RINTALIA_1, CastleTownAndy_Gym_Text_RintaliaIntro, CastleTownAndy_Gym_Text_RintaliaDefeated, CastleTownAndy_Gym_EventScript_RintaliaDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_AndyPostBattle, MSGBOX_DEFAULT
+	msgbox CastleTownAndy_Gym_Text_RintaliaStillNeedToBeatJade, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownAndy_Gym_EventScript_Rintalia_OneBadge::
 	trainerbattle_single TRAINER_RINTALIA_2, CastleTownAndy_Gym_Text_RintaliaIntro, CastleTownAndy_Gym_Text_RintaliaDefeated, CastleTownAndy_Gym_EventScript_RintaliaDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_AndyPostBattle, MSGBOX_DEFAULT
+	msgbox CastleTownAndy_Gym_Text_RintaliaStillNeedToBeatJade, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownAndy_Gym_EventScript_Rintalia_TwoBadge::
 	trainerbattle_single TRAINER_RINTALIA_3, CastleTownAndy_Gym_Text_RintaliaIntro, CastleTownAndy_Gym_Text_RintaliaDefeated, CastleTownAndy_Gym_EventScript_RintaliaDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_AndyPostBattle, MSGBOX_DEFAULT
+	msgbox CastleTownAndy_Gym_Text_RintaliaStillNeedToBeatJade, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownAndy_Gym_EventScript_Rintalia_ThreeBadge::
 	trainerbattle_single TRAINER_RINTALIA_4, CastleTownAndy_Gym_Text_RintaliaIntro, CastleTownAndy_Gym_Text_RintaliaDefeated, CastleTownAndy_Gym_EventScript_RintaliaDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_AndyPostBattle, MSGBOX_DEFAULT
+	msgbox CastleTownAndy_Gym_Text_RintaliaStillNeedToBeatJade, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownAndy_Gym_EventScript_Rintalia_FourBadge::
 	trainerbattle_single TRAINER_RINTALIA_5, CastleTownAndy_Gym_Text_RintaliaIntro, CastleTownAndy_Gym_Text_RintaliaDefeated, CastleTownAndy_Gym_EventScript_RintaliaDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_AndyPostBattle, MSGBOX_DEFAULT
+	msgbox CastleTownAndy_Gym_Text_RintaliaStillNeedToBeatJade, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownAndy_Gym_EventScript_Rintalia_FiveBadge::
 	trainerbattle_single TRAINER_RINTALIA_6, CastleTownAndy_Gym_Text_RintaliaIntro, CastleTownAndy_Gym_Text_RintaliaDefeated, CastleTownAndy_Gym_EventScript_RintaliaDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_AndyPostBattle, MSGBOX_DEFAULT
+	msgbox CastleTownAndy_Gym_Text_RintaliaStillNeedToBeatJade, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownAndy_Gym_EventScript_Rintalia_SixBadge::
 	trainerbattle_single TRAINER_RINTALIA_7, CastleTownAndy_Gym_Text_RintaliaIntro, CastleTownAndy_Gym_Text_RintaliaDefeated, CastleTownAndy_Gym_EventScript_RintaliaDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_AndyPostBattle, MSGBOX_DEFAULT
+	msgbox CastleTownAndy_Gym_Text_RintaliaStillNeedToBeatJade, MSGBOX_DEFAULT
 	release
 	end
 
 CastleTownAndy_Gym_EventScript_Rintalia_SevenBadge::
 	trainerbattle_single TRAINER_RINTALIA_8, CastleTownAndy_Gym_Text_RintaliaIntro, CastleTownAndy_Gym_Text_RintaliaDefeated, CastleTownAndy_Gym_EventScript_RintaliaDefeated, NO_MUSIC
-	msgbox CastleTownAndy_Gym_Text_AndyPostBattle, MSGBOX_DEFAULT
+	msgbox CastleTownAndy_Gym_Text_RintaliaStillNeedToBeatJade, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_RintaliaPostBattle::
+	msgbox CastleTownAndy_Gym_Text_AndyPostBattle, MSGBOX_NPC
 	release
 	end
 

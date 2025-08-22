@@ -121,7 +121,7 @@ CastleTownBlindJim_Gym_EventScript_Lilith::
 	end
 
 CastleTownBlindJim_Gym_EventScript_Brawly::
-	goto_if_set FLAG_DEFEATED_DEWFORD_GYM, CastleTownBlindJim_Gym_Text_BlindJimPostBattle
+	goto_if_set FLAG_DEFEATED_DEWFORD_GYM, CastleTownBlindJim_Gym_EventScript_BlindJimPostBattle
     goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownBlindJim_Gym_EventScript_Brawly_ZeroBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownBlindJim_Gym_EventScript_Brawly_OneBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownBlindJim_Gym_EventScript_Brawly_TwoBadge
@@ -179,6 +179,11 @@ CastleTownBlindJim_Gym_EventScript_Brawly_SixBadge::
 CastleTownBlindJim_Gym_EventScript_Brawly_SevenBadge::
 	trainerbattle_single TRAINER_BLIND_JIM_8, CastleTownBlindJim_Gym_Text_Intro, CastleTownBlindJim_Gym_Text_PostBattle, CastleTownBlindJim_Gym_EventScript_BrawlyDefeated, NO_MUSIC
 	msgbox CastleTownBlindJim_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownBlindJim_Gym_EventScript_BlindJimPostBattle::
+	msgbox CastleTownBlindJim_Gym_Text_BlindJimPostBattle, MSGBOX_NPC
 	release
 	end
 

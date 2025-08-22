@@ -839,7 +839,7 @@ CastleTownSabre_Gym_EventScript_Quiz7CompleteTrainer::
 	return
 
 CastleTownSabre_Gym_EventScript_Juan::
-	goto_if_set FLAG_DEFEATED_SOOTOPOLIS_GYM, CastleTownSabre_Gym_Text_SabrePostBattle
+	goto_if_set FLAG_DEFEATED_SOOTOPOLIS_GYM, CastleTownSabre_Gym_EventScript_SabrePostBattle
     goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownSabre_GymEventScript_Juan_ZeroBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownSabre_GymEventScript_Juan_OneBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownSabre_GymEventScript_Juan_TwoBadge
@@ -896,6 +896,11 @@ CastleTownSabre_GymEventScript_Juan_SixBadge::
 CastleTownSabre_GymEventScript_Juan_SevenBadge::
 	trainerbattle_single TRAINER_SABRE_8, CastleTownSabre_Gym_Text_Intro, CastleTownSabre_Gym_Text_PostBattle, CastleTownSabre_GymEventScript_JuanDefeated, NO_MUSIC
 	msgbox CastleTownSabre_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownSabre_Gym_EventScript_SabrePostBattle::
+	msgbox CastleTownSabre_Gym_Text_SabrePostBattle, MSGBOX_NPC
 	release
 	end
 

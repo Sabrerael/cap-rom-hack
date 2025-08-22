@@ -72,7 +72,7 @@ CastleTownHermes_Gym_EventScript_Jody::
 	end
 
 CastleTownHermes_Gym_EventScript_Norman::
-	goto_if_set FLAG_DEFEATED_PETALBURG_GYM, CastleTownHermes_Gym_Text_HermesPostBattle
+	goto_if_set FLAG_DEFEATED_PETALBURG_GYM, CastleTownHermes_Gym_EventScript_HermesPostBattle
     goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownHermes_Gym_EventScript_Norman_ZeroBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownHermes_Gym_EventScript_Norman_OneBadge
 	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownHermes_Gym_EventScript_Norman_TwoBadge
@@ -129,6 +129,11 @@ CastleTownHermes_Gym_EventScript_Norman_SixBadge::
 CastleTownHermes_Gym_EventScript_Norman_SevenBadge::
 	trainerbattle_single TRAINER_HERMES_8, CastleTownHermes_Gym_Text_Intro, CastleTownHermes_Gym_Text_PostBattle, CastleTownHermes_Gym_EventScript_NormanDefeated, NO_MUSIC
 	msgbox CastleTownHermes_Gym_Text_PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+CastleTownHermes_Gym_EventScript_HermesPostBattle::
+	msgbox CastleTownHermes_Gym_Text_HermesPostBattle, MSGBOX_NPC
 	release
 	end
 
