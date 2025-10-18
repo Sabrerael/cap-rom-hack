@@ -283,6 +283,48 @@ const u32 gTrainerPalette_RubySapphireBrendan[] = INCBIN_U32("graphics/trainers/
 const u32 gTrainerFrontPic_RubySapphireMay[] = INCBIN_U32("graphics/trainers/front_pics/may_rs.4bpp.lz");
 const u32 gTrainerPalette_RubySapphireMay[] = INCBIN_U32("graphics/trainers/palettes/may_rs.gbapal.lz");
 
+const u32 gTrainerFrontPic_ModeratorSabre[] = INCBIN_U32("graphics/trainers/front_pics/moderator_sabre.4bpp.lz");
+const u32 gTrainerPalette_ModeratorSabre[] = INCBIN_U32("graphics/trainers/front_pics/moderator_sabre.gbapal.lz");
+
+const u32 gTrainerFrontPic_ModeratorBlindJim[] = INCBIN_U32("graphics/trainers/front_pics/moderator_blindjim.4bpp.lz");
+const u32 gTrainerPalette_ModeratorBlindJim[] = INCBIN_U32("graphics/trainers/front_pics/moderator_blindjim.gbapal.lz");
+
+const u32 gTrainerFrontPic_ModeratorHermes[] = INCBIN_U32("graphics/trainers/front_pics/moderator_hermes.4bpp.lz");
+const u32 gTrainerPalette_ModeratorHermes[] = INCBIN_U32("graphics/trainers/front_pics/moderator_hermes.gbapal.lz");
+
+const u32 gTrainerFrontPic_ModeratorJade[] = INCBIN_U32("graphics/trainers/front_pics/moderator_jadedosa.4bpp.lz");
+const u32 gTrainerPalette_ModeratorJade[] = INCBIN_U32("graphics/trainers/front_pics/moderator_jadedosa.gbapal.lz");
+
+const u32 gTrainerFrontPic_ModeratorRintalia[] = INCBIN_U32("graphics/trainers/front_pics/moderator_rintalia.4bpp.lz");
+const u32 gTrainerPalette_ModeratorRintalia[] = INCBIN_U32("graphics/trainers/front_pics/moderator_rintalia.gbapal.lz");
+
+const u32 gTrainerFrontPic_ModeratorSalsa[] = INCBIN_U32("graphics/trainers/front_pics/moderator_salsa.4bpp.lz");
+const u32 gTrainerPalette_ModeratorSalsa[] = INCBIN_U32("graphics/trainers/front_pics/moderator_salsa.gbapal.lz");
+
+const u32 gTrainerFrontPic_ModeratorTot[] = INCBIN_U32("graphics/trainers/front_pics/moderator_tot.4bpp.lz");
+const u32 gTrainerPalette_ModeratorTot[] = INCBIN_U32("graphics/trainers/front_pics/moderator_tot.gbapal.lz");
+
+const u32 gTrainerFrontPic_ModeratorTreble[] = INCBIN_U32("graphics/trainers/front_pics/moderator_treble.4bpp.lz");
+const u32 gTrainerPalette_ModeratorTreble[] = INCBIN_U32("graphics/trainers/front_pics/moderator_treble.gbapal.lz");
+
+const u32 gTrainerFrontPic_ModeratorTmoney[] = INCBIN_U32("graphics/trainers/front_pics/moderator_tmoney.4bpp.lz");
+const u32 gTrainerPalette_ModeratorTmoney[] = INCBIN_U32("graphics/trainers/front_pics/moderator_tmoney.gbapal.lz");
+
+const u32 gTrainerFrontPic_Pehbble[] = INCBIN_U32("graphics/trainers/front_pics/pehbble.4bpp.lz");
+const u32 gTrainerPalette_Pehbble[] = INCBIN_U32("graphics/trainers/front_pics/pehbble.gbapal.lz");
+
+const u32 gTrainerFrontPic_EliteFourHarold[] = INCBIN_U32("graphics/trainers/front_pics/elite_four_harold.4bpp.lz");
+const u32 gTrainerPalette_EliteFourHarold[] = INCBIN_U32("graphics/trainers/front_pics/elite_four_harold.gbapal.lz");
+
+const u32 gTrainerFrontPic_EliteFourPirate[] = INCBIN_U32("graphics/trainers/front_pics/elite_four_pirate.4bpp.lz");
+const u32 gTrainerPalette_EliteFourPirate[] = INCBIN_U32("graphics/trainers/front_pics/elite_four_pirate.gbapal.lz");
+
+const u32 gTrainerFrontPic_EliteFourSusflame[] = INCBIN_U32("graphics/trainers/front_pics/elite_four_susflame.4bpp.lz");
+const u32 gTrainerPalette_EliteFourSusflame[] = INCBIN_U32("graphics/trainers/front_pics/elite_four_susflame.gbapal.lz");
+
+const u32 gTrainerFrontPic_EliteFourMuscle[] = INCBIN_U32("graphics/trainers/front_pics/elite_four_muscle.4bpp.lz");
+const u32 gTrainerPalette_EliteFourMuscle[] = INCBIN_U32("graphics/trainers/front_pics/elite_four_muscle.gbapal.lz");
+
 const u8 gTrainerBackPic_Brendan[] = INCBIN_U8("graphics/trainers/back_pics/brendan.4bpp");
 const u8 gTrainerBackPic_May[] = INCBIN_U8("graphics/trainers/back_pics/may.4bpp");
 const u8 gTrainerBackPic_Red[] = INCBIN_U8("graphics/trainers/back_pics/red.4bpp");
@@ -406,6 +448,20 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(RS_BRENDAN, RubySapphireBrendan),
     TRAINER_SPRITE(RS_MAY, RubySapphireMay),
     TRAINER_SPRITE(RYAN, Ryan),
+    TRAINER_SPRITE(MODERATOR_SABRE, ModeratorSabre),
+    TRAINER_SPRITE(MODERATOR_BLINDJIM, ModeratorBlindJim),
+    TRAINER_SPRITE(MODERATOR_HERMES, ModeratorHermes),
+    TRAINER_SPRITE(MODERATOR_JADE, ModeratorJade),
+    TRAINER_SPRITE(MODERATOR_RINTALIA, ModeratorRintalia),
+    TRAINER_SPRITE(MODERATOR_SALSA, ModeratorSalsa),
+    TRAINER_SPRITE(MODERATOR_TOT, ModeratorTot),
+    TRAINER_SPRITE(MODERATOR_TREBLE, ModeratorTreble),
+    TRAINER_SPRITE(MODERATOR_TMONEY, ModeratorTmoney),
+    TRAINER_SPRITE(PEHBBLE, Pehbble),
+    TRAINER_SPRITE(ELITE_FOUR_HAROLD, EliteFourHarold),
+    TRAINER_SPRITE(ELITE_FOUR_PIRATE, EliteFourPirate),
+    TRAINER_SPRITE(ELITE_FOUR_SUSFLAME, EliteFourSusflame),
+    TRAINER_SPRITE(ELITE_FOUR_MUSCLE, EliteFourMuscle),
 };
 
 static const union AnimCmd sAnimCmd_Hoenn[] =

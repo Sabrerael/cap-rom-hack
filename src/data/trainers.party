@@ -2703,7 +2703,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 === TRAINER_BLIND_JIM_1 ===
 Name: BlindJim
 Class: Moderator
-Pic: Leader Brawly
+Pic: Moderator Blindjim
 Gender: Male
 Music: Male
 Items: Potion / Potion
@@ -2740,7 +2740,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 === TRAINER_BLIND_JIM_2 ===
 Name: BlindJim
 Class: Moderator
-Pic: Leader Brawly
+Pic: Moderator Blindjim
 Gender: Male
 Music: Male
 Items: Potion / Potion
@@ -2785,7 +2785,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 === TRAINER_BLIND_JIM_3 ===
 Name: BlindJim
 Class: Moderator
-Pic: Leader Brawly
+Pic: Moderator Blindjim
 Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
@@ -2830,7 +2830,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 === TRAINER_BLIND_JIM_4 ===
 Name: BlindJim
 Class: Moderator
-Pic: Leader Brawly
+Pic: Moderator Blindjim
 Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
@@ -2875,7 +2875,7 @@ IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 === TRAINER_BLIND_JIM_5 ===
 Name: BlindJim
 Class: Moderator
-Pic: Leader Brawly
+Pic: Moderator Blindjim
 Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
@@ -2920,7 +2920,7 @@ IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 === TRAINER_BLIND_JIM_6 ===
 Name: BlindJim
 Class: Moderator
-Pic: Leader Brawly
+Pic: Moderator Blindjim
 Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
@@ -2974,7 +2974,7 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 === TRAINER_BLIND_JIM_7 ===
 Name: BlindJim
 Class: Moderator
-Pic: Leader Brawly
+Pic: Moderator Blindjim
 Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
@@ -3028,7 +3028,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 === TRAINER_BLIND_JIM_8 ===
 Name: BlindJim
 Class: Moderator
-Pic: Leader Brawly
+Pic: Moderator Blindjim
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore
@@ -3231,7 +3231,7 @@ IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 === TRAINER_HERMES_1 ===
 Name: Hermes
 Class: Moderator
-Pic: Leader Norman
+Pic: Moderator Hermes
 Gender: Male
 Music: Male
 Items: Potion / Potion
@@ -3268,7 +3268,7 @@ IVs: 24 HP / 0 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 === TRAINER_HERMES_2 ===
 Name: Hermes
 Class: Moderator
-Pic: Leader Norman
+Pic: Moderator Hermes
 Gender: Male
 Music: Male
 Items: Potion / Potion
@@ -3314,7 +3314,7 @@ IVs: 26 HP / 0 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 === TRAINER_HERMES_3 ===
 Name: Hermes
 Class: Moderator
-Pic: Leader Norman
+Pic: Moderator Hermes
 Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
@@ -3360,7 +3360,7 @@ IVs: 26 HP / 0 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 === TRAINER_HERMES_4 ===
 Name: Hermes
 Class: Moderator
-Pic: Leader Norman
+Pic: Moderator Hermes
 Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
@@ -3406,7 +3406,7 @@ IVs: 27 HP / 0 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 === TRAINER_HERMES_5 ===
 Name: Hermes
 Class: Moderator
-Pic: Leader Norman
+Pic: Moderator Hermes
 Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
@@ -3454,7 +3454,7 @@ IVs: 28 HP / 0 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 === TRAINER_HERMES_6 ===
 Name: Hermes
 Class: Moderator
-Pic: Leader Norman
+Pic: Moderator Hermes
 Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
@@ -3511,7 +3511,7 @@ IVs: 29 HP / 0 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 === TRAINER_HERMES_7 ===
 Name: Hermes
 Class: Moderator
-Pic: Leader Norman
+Pic: Moderator Hermes
 Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
@@ -3571,7 +3571,7 @@ Nature: Timid
 === TRAINER_HERMES_8 ===
 Name: Hermes
 Class: Moderator
-Pic: Leader Norman
+Pic: Moderator Hermes
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore
@@ -3818,7 +3818,7 @@ IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 === TRAINER_JADE_1 ===
 Name: Jade
 Class: Moderator
-Pic: Leader Roxanne
+Pic: Moderator Jade
 Gender: Male
 Music: Female
 Items: Potion / Potion
@@ -3855,7 +3855,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 === TRAINER_JADE_2 ===
 Name: Jade
 Class: Moderator
-Pic: Leader Roxanne
+Pic: Moderator Jade
 Gender: Male
 Music: Female
 Items: Potion / Potion
@@ -3901,7 +3901,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_JADE_3 ===
 Name: Jade
 Class: Moderator
-Pic: Leader Roxanne
+Pic: Moderator Jade
 Gender: Male
 Music: Female
 Items: Super Potion / Super Potion
@@ -3947,7 +3947,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 === TRAINER_JADE_4 ===
 Name: Jade
 Class: Moderator
-Pic: Leader Roxanne
+Pic: Moderator Jade
 Gender: Male
 Music: Female
 Items: Super Potion / Super Potion
@@ -3993,7 +3993,7 @@ IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 === TRAINER_JADE_5 ===
 Name: Jade
 Class: Moderator
-Pic: Leader Roxanne
+Pic: Moderator Jade
 Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion
@@ -4039,7 +4039,7 @@ IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 === TRAINER_JADE_6 ===
 Name: Jade
 Class: Moderator
-Pic: Leader Roxanne
+Pic: Moderator Jade
 Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion
@@ -4093,7 +4093,7 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 === TRAINER_JADE_7 ===
 Name: Jade
 Class: Moderator
-Pic: Leader Roxanne
+Pic: Moderator Jade
 Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion
@@ -4147,7 +4147,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 === TRAINER_JADE_8 ===
 Name: Jade
 Class: Moderator
-Pic: Leader Roxanne
+Pic: Moderator Jade
 Gender: Male
 Music: Female
 Items: Full Restore / Full Restore
@@ -4201,7 +4201,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 === TRAINER_RINTALIA_1 ===
 Name: Rintalia
 Class: Moderator
-Pic: Leader Roxanne
+Pic: Moderator Rintalia
 Gender: Male
 Music: Female
 Items: Potion / Potion
@@ -4236,7 +4236,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 === TRAINER_RINTALIA_2 ===
 Name: Rintalia
 Class: Moderator
-Pic: Leader Roxanne
+Pic: Moderator Rintalia
 Gender: Male
 Music: Female
 Items: Potion / Potion
@@ -4281,7 +4281,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RINTALIA_3 ===
 Name: Rintalia
 Class: Moderator
-Pic: Leader Roxanne
+Pic: Moderator Rintalia
 Gender: Male
 Music: Female
 Items: Super Potion / Super Potion
@@ -4326,7 +4326,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 === TRAINER_RINTALIA_4 ===
 Name: Rintalia
 Class: Moderator
-Pic: Leader Roxanne
+Pic: Moderator Rintalia
 Gender: Male
 Music: Female
 Items: Super Potion / Super Potion
@@ -4370,7 +4370,7 @@ IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 === TRAINER_RINTALIA_5 ===
 Name: Rintalia
 Class: Moderator
-Pic: Leader Roxanne
+Pic: Moderator Rintalia
 Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion
@@ -4415,7 +4415,7 @@ IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 === TRAINER_RINTALIA_6 ===
 Name: Rintalia
 Class: Moderator
-Pic: Leader Roxanne
+Pic: Moderator Rintalia
 Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion
@@ -4469,7 +4469,7 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 === TRAINER_RINTALIA_7 ===
 Name: Rintalia
 Class: Moderator
-Pic: Leader Roxanne
+Pic: Moderator Rintalia
 Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion
@@ -4524,7 +4524,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 === TRAINER_RINTALIA_8 ===
 Name: Rintalia
 Class: Moderator
-Pic: Leader Roxanne
+Pic: Moderator Rintalia
 Gender: Male
 Music: Female
 Items: Full Restore / Full Restore
@@ -4728,7 +4728,7 @@ IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 === TRAINER_SABRE_1 ===
 Name: Sabre
 Class: Moderator
-Pic: Leader Juan
+Pic: Moderator Sabre
 Gender: Male
 Music: Male
 Items: Potion / Potion
@@ -4764,7 +4764,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 === TRAINER_SABRE_2 ===
 Name: Sabre
 Class: Moderator
-Pic: Leader Juan
+Pic: Moderator Sabre
 Gender: Male
 Music: Male
 Items: Potion / Potion
@@ -4809,7 +4809,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 === TRAINER_SABRE_3 ===
 Name: Sabre
 Class: Moderator
-Pic: Leader Juan
+Pic: Moderator Sabre
 Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
@@ -4854,7 +4854,7 @@ IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 === TRAINER_SABRE_4 ===
 Name: Sabre
 Class: Moderator
-Pic: Leader Juan
+Pic: Moderator Sabre
 Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
@@ -4899,7 +4899,7 @@ IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 === TRAINER_SABRE_5 ===
 Name: Sabre
 Class: Moderator
-Pic: Leader Juan
+Pic: Moderator Sabre
 Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
@@ -4944,7 +4944,7 @@ IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 === TRAINER_SABRE_6 ===
 Name: Sabre
 Class: Moderator
-Pic: Leader Juan
+Pic: Moderator Sabre
 Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
@@ -4998,7 +4998,7 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 === TRAINER_SABRE_7 ===
 Name: Sabre
 Class: Moderator
-Pic: Leader Juan
+Pic: Moderator Sabre
 Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
@@ -5052,7 +5052,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 === TRAINER_SABRE_8 ===
 Name: Sabre
 Class: Moderator
-Pic: Leader Juan
+Pic: Moderator Sabre
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore
@@ -5255,7 +5255,7 @@ IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 === TRAINER_SALSA_1 ===
 Name: Salsa
 Class: Moderator
-Pic: Leader Flannery
+Pic: Moderator Salsa
 Gender: Female
 Music: Female
 Items: Potion / Potion
@@ -5291,7 +5291,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 === TRAINER_SALSA_2 ===
 Name: Salsa
 Class: Moderator
-Pic: Leader Flannery
+Pic: Moderator Salsa
 Gender: Female
 Music: Female
 Items: Potion / Potion
@@ -5336,7 +5336,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 === TRAINER_SALSA_3 ===
 Name: Salsa
 Class: Moderator
-Pic: Leader Flannery
+Pic: Moderator Salsa
 Gender: Female
 Music: Female
 Items: Super Potion / Super Potion
@@ -5381,7 +5381,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 === TRAINER_SALSA_4 ===
 Name: Salsa
 Class: Moderator
-Pic: Leader Flannery
+Pic: Moderator Salsa
 Gender: Female
 Music: Female
 Items: Super Potion / Super Potion
@@ -5426,7 +5426,7 @@ IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 === TRAINER_SALSA_5 ===
 Name: Salsa
 Class: Moderator
-Pic: Leader Flannery
+Pic: Moderator Salsa
 Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
@@ -5471,7 +5471,7 @@ IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 === TRAINER_SALSA_6 ===
 Name: Salsa
 Class: Moderator
-Pic: Leader Flannery
+Pic: Moderator Salsa
 Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
@@ -5526,7 +5526,7 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 === TRAINER_SALSA_7 ===
 Name: Salsa
 Class: Moderator
-Pic: Leader Flannery
+Pic: Moderator Salsa
 Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
@@ -5581,7 +5581,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 === TRAINER_SALSA_8 ===
 Name: Salsa
 Class: Moderator
-Pic: Leader Flannery
+Pic: Moderator Salsa
 Gender: Female
 Music: Female
 Items: Full Restore / Full Restore
@@ -5757,7 +5757,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 === TRAINER_TMONEY_1 ===
 Name: TMoney
 Class: Moderator
-Pic: Leader Winona
+Pic: Moderator Tmoney
 Gender: Female
 Music: Female
 Items: Potion / Potion
@@ -5794,7 +5794,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 === TRAINER_TMONEY_2 ===
 Name: TMoney
 Class: Moderator
-Pic: Leader Winona
+Pic: Moderator Tmoney
 Gender: Female
 Music: Female
 Items: Potion / Potion
@@ -5840,7 +5840,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 === TRAINER_TMONEY_3 ===
 Name: TMoney
 Class: Moderator
-Pic: Leader Winona
+Pic: Moderator Tmoney
 Gender: Female
 Music: Female
 Items: Super Potion / Super Potion
@@ -5886,7 +5886,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 === TRAINER_TMONEY_4 ===
 Name: TMoney
 Class: Moderator
-Pic: Leader Winona
+Pic: Moderator Tmoney
 Gender: Female
 Music: Female
 Items: Super Potion / Super Potion
@@ -5932,7 +5932,7 @@ IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 === TRAINER_TMONEY_5 ===
 Name: TMoney
 Class: Moderator
-Pic: Leader Winona
+Pic: Moderator Tmoney
 Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
@@ -5978,7 +5978,7 @@ IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 === TRAINER_TMONEY_6 ===
 Name: TMoney
 Class: Moderator
-Pic: Leader Winona
+Pic: Moderator Tmoney
 Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
@@ -6033,7 +6033,7 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 === TRAINER_TMONEY_7 ===
 Name: TMoney
 Class: Moderator
-Pic: Leader Winona
+Pic: Moderator Tmoney
 Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
@@ -6088,7 +6088,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 === TRAINER_TMONEY_8 ===
 Name: TMoney
 Class: Moderator
-Pic: Leader Winona
+Pic: Moderator Tmoney
 Gender: Female
 Music: Female
 Items: Full Restore / Full Restore
@@ -6301,7 +6301,7 @@ IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 === TRAINER_TOT_1 ===
 Name: Tot
 Class: Moderator
-Pic: Leader Tate And Liza
+Pic: Moderator Tot
 Gender: Male
 Music: Female
 Items: Potion / Potion
@@ -6337,7 +6337,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 === TRAINER_TOT_2 ===
 Name: Tot
 Class: Moderator
-Pic: Leader Tate And Liza
+Pic: Moderator Tot
 Gender: Male
 Music: Female
 Items: Potion / Potion
@@ -6382,7 +6382,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_TOT_3 ===
 Name: Tot
 Class: Moderator
-Pic: Leader Tate And Liza
+Pic: Moderator Tot
 Gender: Male
 Music: Female
 Items: Super Potion / Super Potion
@@ -6427,7 +6427,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 === TRAINER_TOT_4 ===
 Name: Tot
 Class: Moderator
-Pic: Leader Tate And Liza
+Pic: Moderator Tot
 Gender: Male
 Music: Female
 Items: Super Potion / Super Potion
@@ -6472,7 +6472,7 @@ IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 === TRAINER_TOT_5 ===
 Name: Tot
 Class: Moderator
-Pic: Leader Tate And Liza
+Pic: Moderator Tot
 Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion
@@ -6517,7 +6517,7 @@ IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 === TRAINER_TOT_6 ===
 Name: Tot
 Class: Moderator
-Pic: Leader Tate And Liza
+Pic: Moderator Tot
 Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion
@@ -6571,7 +6571,7 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 === TRAINER_TOT_7 ===
 Name: Tot
 Class: Moderator
-Pic: Leader Tate And Liza
+Pic: Moderator Tot
 Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion
@@ -6625,7 +6625,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 === TRAINER_TOT_8 ===
 Name: Tot
 Class: Moderator
-Pic: Leader Tate And Liza
+Pic: Moderator Tot
 Gender: Male
 Music: Female
 Items: Full Restore / Full Restore
@@ -6828,7 +6828,7 @@ IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 === TRAINER_TREBLE_1 ===
 Name: Treble
 Class: Moderator
-Pic: Leader Wattson
+Pic: Moderator Treble
 Gender: Female
 Music: Female
 Items: Potion / Potion
@@ -6865,7 +6865,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 === TRAINER_TREBLE_2 ===
 Name: Treble
 Class: Moderator
-Pic: Leader Wattson
+Pic: Moderator Treble
 Gender: Female
 Music: Female
 Items: Potion / Potion
@@ -6911,7 +6911,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 === TRAINER_TREBLE_3 ===
 Name: Treble
 Class: Moderator
-Pic: Leader Wattson
+Pic: Moderator Treble
 Gender: Female
 Music: Female
 Items: Super Potion / Super Potion
@@ -6957,7 +6957,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 === TRAINER_TREBLE_4 ===
 Name: Treble
 Class: Moderator
-Pic: Leader Wattson
+Pic: Moderator Treble
 Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
@@ -7003,7 +7003,7 @@ IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 === TRAINER_TREBLE_5 ===
 Name: Treble
 Class: Moderator
-Pic: Leader Wattson
+Pic: Moderator Treble
 Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
@@ -7049,7 +7049,7 @@ IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 === TRAINER_TREBLE_6 ===
 Name: Treble
 Class: Moderator
-Pic: Leader Wattson
+Pic: Moderator Treble
 Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
@@ -7103,7 +7103,7 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 === TRAINER_TREBLE_7 ===
 Name: Treble
 Class: Moderator
-Pic: Leader Wattson
+Pic: Moderator Treble
 Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
@@ -7158,7 +7158,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 === TRAINER_TREBLE_8 ===
 Name: Treble
 Class: Moderator
-Pic: Leader Wattson
+Pic: Moderator Treble
 Gender: Female
 Music: Female
 Items: Full Restore / Full Restore
@@ -7400,7 +7400,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 === TRAINER_HAROLD ===
 Name: Harold
 Class: Elite Four
-Pic: Elite Four Sidney
+Pic: Elite Four Harold
 Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
@@ -7459,7 +7459,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 === TRAINER_BUFF_RYAN ===
 Name: Buff Ryan
 Class: Elite Four
-Pic: Elite Four Phoebe
+Pic: Elite Four Muscle
 Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
@@ -7518,7 +7518,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 === TRAINER_PIRATE ===
 Name: PirateRyan
 Class: Elite Four
-Pic: Elite Four Glacia
+Pic: Elite Four Pirate
 Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
@@ -7577,7 +7577,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 === TRAINER_SUSFLAME ===
 Name: Susflame
 Class: Elite Four
-Pic: Elite Four Drake
+Pic: Elite Four Susflame
 Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
@@ -7636,7 +7636,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 === TRAINER_ROCKHAB ===
 Name: Rockhab
 Class: Champion
-Pic: Champion Wallace
+Pic: Ryan
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore

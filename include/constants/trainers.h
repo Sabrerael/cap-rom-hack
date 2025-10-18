@@ -109,7 +109,21 @@
 #define TRAINER_PIC_RS_BRENDAN            91
 #define TRAINER_PIC_RS_MAY                92
 #define TRAINER_PIC_RYAN                  93
-#define TRAINER_PIC_COUNT                 94
+#define TRAINER_PIC_MODERATOR_SABRE       94
+#define TRAINER_PIC_MODERATOR_BLINDJIM    95
+#define TRAINER_PIC_MODERATOR_HERMES      96
+#define TRAINER_PIC_MODERATOR_JADE        97
+#define TRAINER_PIC_MODERATOR_RINTALIA    98
+#define TRAINER_PIC_MODERATOR_SALSA       99
+#define TRAINER_PIC_MODERATOR_TOT        100
+#define TRAINER_PIC_MODERATOR_TREBLE     101
+#define TRAINER_PIC_MODERATOR_TMONEY     102
+#define TRAINER_PIC_PEHBBLE              103
+#define TRAINER_PIC_ELITE_FOUR_HAROLD    104
+#define TRAINER_PIC_ELITE_FOUR_PIRATE    105
+#define TRAINER_PIC_ELITE_FOUR_SUSFLAME  106
+#define TRAINER_PIC_ELITE_FOUR_MUSCLE    107
+#define TRAINER_PIC_COUNT                108
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_RYAN                   0
