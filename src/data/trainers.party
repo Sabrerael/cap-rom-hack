@@ -2449,7 +2449,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Pikachu @ Oran Berry
-Level: 30
+Level Modifier: 1
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WILTON_1 ===
@@ -2463,15 +2463,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Electrike
-Level: 17
+Level Modifier: 1
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Wailmer
-Level: 17
+Level Modifier: 1
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Makuhita
-Level: 17
+Level Modifier: 1
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_BENNY ===
@@ -2484,15 +2484,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Swellow
-Level: 36
+Level Modifier: 1
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pelipper
-Level: 36
+Level Modifier: 1
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Xatu
-Level: 36
+Level Modifier: 1
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHESTER ===
@@ -2505,11 +2505,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Taillow
-Level: 25
+Level Modifier: 1
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Swellow
-Level: 25
+Level Modifier: 1
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TYRON ===
@@ -2522,7 +2522,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Sandshrew
-Level: 19
+Level Modifier: 1
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CELINA ===
@@ -2535,7 +2535,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Roselia
-Level: 18
+Level Modifier: 1
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BIANCA ===
@@ -2548,7 +2548,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Shroomish
-Level: 18
+Level Modifier: 1
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 /***** Castle Town BlindJim Trainers */

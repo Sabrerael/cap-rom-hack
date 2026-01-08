@@ -60,25 +60,26 @@ EverGrandeCity_PhoebesRoom_EventScript_Defeated::
 
 EverGrandeCity_PhoebesRoom_Text_IntroSpeech:
 	.string "Ahahaha!\p"
-	.string "I'm PHOEBE of the ELITE FOUR.\n"
-	.string "I did my training on MT. PYRE.\p"
-	.string "While I trained, I gained the ability\n"
-	.string "to commune with GHOST-type POKéMON.\p"
-	.string "Yes, the bond I developed with POKéMON\n"
-	.string "is extremely tight.\p"
-	.string "So, come on, just try and see if you can\n"
-	.string "even inflict damage on my POKéMON!$"
+	.string "Look at my manly muscles!\n"
+	.string "See how they glisten! Magnificent!\p"
+	.string "Me and my muscley Pokémon will be\n"
+	.string "your next opponent!\p"
+	.string "Our perfect physique will stop you\n"
+	.string "will stop you in your tracks!\p"
+	.string "No, I will not put on actual clothes!\p"
+	.string "We will do battle under the radiance\n"
+	.string "of my glorious body!$"
 
 EverGrandeCity_PhoebesRoom_Text_Defeat:
-	.string "Oh, darn.\n"
-	.string "I've gone and lost.$"
+	.string "This cannot be… How could a perfect\n"
+	.string "speciman like myself lose?$"
 
 EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech:
-	.string "There's a definite bond between you\n"
-	.string "and your POKéMON, too.\p"
-	.string "I didn't recognize it, so it's only\n"
-	.string "natural that I lost.\p"
-	.string "Yup, I'd like to see how far your bond\n"
-	.string "will carry you.\p"
-	.string "Go ahead, move on to the next room.$"
+	.string "Oh well. Even defeat is a change\n"
+	.string "for growth.\p"
+	.string "I will reflect on my defeat and\n"
+	.string "come back stronger than ever!\p"
+	.string "First though, I need a soak in\n"
+	.string "the hot tub… Continue forward\l"
+	.string "and take on your next opponent!$"
 

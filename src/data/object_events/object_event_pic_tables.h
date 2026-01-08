@@ -1415,3 +1415,7 @@ static const struct SpriteFrameImage sPicTable_Jadedosa[] = {
 static const struct SpriteFrameImage sPicTable_Rintalia[] = {
     overworld_ascending_frames(gObjectEventPic_Rintalia, 2, 4),
 };
+
+static const struct SpriteFrameImage sPicTable_Susflame[] = {
+    overworld_ascending_frames(gObjectEventPic_Susflame, 2, 4),
+};

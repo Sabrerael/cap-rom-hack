@@ -62,31 +62,29 @@ EverGrandeCity_DrakesRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_DrakesRoom_Text_IntroSpeech:
-	.string "I am the last of the POKéMON LEAGUE\n"
-	.string "ELITE FOUR, DRAKE the DRAGON master!\p"
-	.string "In their natural state, POKéMON are\n"
-	.string "wild living things. They are free.\p"
-	.string "At times, they hinder us.\n"
-	.string "At times, they help us.\p"
-	.string "For us to battle with POKéMON as\n"
-	.string "partners, do you know what it takes?\p"
-	.string "Do you know what is needed?\p"
-	.string "If you don't, then you will never\n"
-	.string "prevail over me!$"
+	.string "OOOH HELLLOOO DEARIE!\p"
+	.string "I am Miss Susflame!\p"
+	.string "… … …\p"
+	.string "What do you mean, I'm just Ryan\n"
+	.string "in a dress and wig? How absurd.\p"
+	.string "Sounds like me and my adorable\n"
+	.string "Pokémon need to teach you some\l"
+	.string "manners…\p"
+	.string "Prepare for a trouncing!$"
 
 EverGrandeCity_DrakesRoom_Text_Defeat:
-	.string "Superb, it should be said.$"
+	.string "Outstanding, dearie!$"
 
 EverGrandeCity_DrakesRoom_Text_PostBattleSpeech:
+	.string "What a wonderful battle that was.\p"
 	.string "You deserve every credit for coming\n"
-	.string "this far as a TRAINER of POKéMON.\p"
-	.string "You do seem to know what is needed.\p"
+	.string "this far as a Trainer of Pokémon.\p"
 	.string "Yes, what a TRAINER needs is a\n"
 	.string "virtuous heart.\p"
-	.string "POKéMON touch the good hearts of\n"
-	.string "TRAINERS and learn good from wrong.\p"
+	.string "Pokémon touch the good hearts of\n"
+	.string "Trainers and learn good from wrong.\p"
 	.string "They touch the good hearts of\n"
-	.string "TRAINERS and grow strong.\p"
+	.string "Trainers and grow strong.\p"
 	.string "Go! Go onwards!\n"
-	.string "The CHAMPION is waiting!$"
+	.string "The Champion is waiting!$"
 
