@@ -6605,8 +6605,10 @@ F_TRAINER_FEMALE |
             .heldItem = ITEM_ORAN_BERRY,
 #line 2453
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 2454
+            .lvl = 100,
 #line 2452
-            .lvl = 30,
+            .levelModifier = 1,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -6639,8 +6641,10 @@ F_TRAINER_FEMALE |
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 2467
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+#line 2468
+            .lvl = 100,
 #line 2466
-            .lvl = 17,
+            .levelModifier = 1,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -6650,8 +6654,10 @@ F_TRAINER_FEMALE |
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 2471
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+#line 2472
+            .lvl = 100,
 #line 2470
-            .lvl = 17,
+            .levelModifier = 1,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -6661,8 +6667,10 @@ F_TRAINER_FEMALE |
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 2475
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+#line 2476
+            .lvl = 100,
 #line 2474
-            .lvl = 17,
+            .levelModifier = 1,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -6693,8 +6701,10 @@ F_TRAINER_FEMALE |
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 2488
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 2489
+            .lvl = 100,
 #line 2487
-            .lvl = 36,
+            .levelModifier = 1,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -6704,8 +6714,10 @@ F_TRAINER_FEMALE |
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 2492
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 2493
+            .lvl = 100,
 #line 2491
-            .lvl = 36,
+            .levelModifier = 1,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -6715,8 +6727,10 @@ F_TRAINER_FEMALE |
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 2496
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 2497
+            .lvl = 100,
 #line 2495
-            .lvl = 36,
+            .levelModifier = 1,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -6747,8 +6761,10 @@ F_TRAINER_FEMALE |
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 2509
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 2510
+            .lvl = 100,
 #line 2508
-            .lvl = 25,
+            .levelModifier = 1,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -6758,8 +6774,10 @@ F_TRAINER_FEMALE |
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 2513
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 2514
+            .lvl = 100,
 #line 2512
-            .lvl = 25,
+            .levelModifier = 1,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -6790,8 +6808,10 @@ F_TRAINER_FEMALE |
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 2526
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 2527
+            .lvl = 100,
 #line 2525
-            .lvl = 19,
+            .levelModifier = 1,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -6824,8 +6844,10 @@ F_TRAINER_FEMALE |
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 2539
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 2540
+            .lvl = 100,
 #line 2538
-            .lvl = 18,
+            .levelModifier = 1,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -6858,8 +6880,10 @@ F_TRAINER_FEMALE |
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 2552
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 2553
+            .lvl = 100,
 #line 2551
-            .lvl = 18,
+            .levelModifier = 1,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
