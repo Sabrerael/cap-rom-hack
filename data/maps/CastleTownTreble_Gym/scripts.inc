@@ -205,6 +205,7 @@ CastleTownTreble_Gym_EventScript_BerryQuiz1Wrong::
 	waitmessage
 	waitbuttonpress
 	goto_if_not_defeated TRAINER_VIVIAN, CastleTownTreble_Gym_EventScript_BattleVivian
+	goto_if_not_defeated TRAINER_VIVIAN_2, CastleTownTreble_Gym_EventScript_BattleVivian
 	releaseall
 	end
 
@@ -217,9 +218,29 @@ CastleTownTreble_Gym_EventScript_BerryQuiz1Complete::
 	return
 
 CastleTownTreble_Gym_EventScript_BattleVivian::
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTreble_Gym_EventScript_BattleVivianBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTreble_Gym_EventScript_BattleVivianBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownTreble_Gym_EventScript_BattleVivianAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownTreble_Gym_EventScript_BattleVivianAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownTreble_Gym_EventScript_BattleVivianAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownTreble_Gym_EventScript_BattleVivianAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownTreble_Gym_EventScript_BattleVivianAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownTreble_Gym_EventScript_BattleVivianAdvanced
+	return
+
+CastleTownTreble_Gym_EventScript_BattleVivianBeginner::
 	call CastleTownTreble_Gym_EventScript_VivianApproach
 	msgbox CastleTownTreble_Gym_Text_VivianIntro
 	trainerbattle_no_intro TRAINER_VIVIAN, CastleTownTreble_Gym_Text_VivianDefeat
+	goto_if_set FLAG_TREBLE_GYM_TREES_1, CastleTownTreble_Gym_EventScript_DoorAlreadyOpen
+	call CastleTownTreble_Gym_EventScript_BerryQuiz1Complete
+	releaseall
+	end
+
+CastleTownTreble_Gym_EventScript_BattleVivianAdvanced::
+	call CastleTownTreble_Gym_EventScript_VivianApproach
+	msgbox CastleTownTreble_Gym_Text_VivianIntro
+	trainerbattle_no_intro TRAINER_VIVIAN_2, CastleTownTreble_Gym_Text_VivianDefeat
 	goto_if_set FLAG_TREBLE_GYM_TREES_1, CastleTownTreble_Gym_EventScript_DoorAlreadyOpen
 	call CastleTownTreble_Gym_EventScript_BerryQuiz1Complete
 	releaseall
@@ -245,8 +266,30 @@ CastleTownTreble_Gym_EventScript_BerryQuiz1CompleteTrainer::
 	return
 
 CastleTownTreble_Gym_EventScript_Vivian::
-	trainerbattle_single TRAINER_VIVIAN, CastleTownTreble_Gym_Text_VivianIntro, CastleTownTreble_Gym_Text_VivianDefeat, CastleTownTreble_Gym_EventScript_DefeatedVivian
+	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, CastleTownTreble_Gym_EventScript_VivianPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTreble_Gym_EventScript_VivianBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTreble_Gym_EventScript_VivianBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownTreble_Gym_EventScript_VivianAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownTreble_Gym_EventScript_VivianAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownTreble_Gym_EventScript_VivianAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownTreble_Gym_EventScript_VivianAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownTreble_Gym_EventScript_VivianAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownTreble_Gym_EventScript_VivianAdvanced
 	msgbox CastleTownTreble_Gym_Text_VivianPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_VivianBeginner::
+	trainerbattle_single TRAINER_VIVIAN, CastleTownTreble_Gym_Text_VivianIntro, CastleTownTreble_Gym_Text_VivianDefeat, CastleTownTreble_Gym_EventScript_DefeatedVivian
+	end
+
+CastleTownTreble_Gym_EventScript_VivianAdvanced::
+	trainerbattle_single TRAINER_VIVIAN, CastleTownTreble_Gym_Text_VivianIntro, CastleTownTreble_Gym_Text_VivianDefeat, CastleTownTreble_Gym_EventScript_DefeatedVivian
+	end
+
+CastleTownTreble_Gym_EventScript_VivianPostBattle::
+	msgbox CastleTownTreble_Gym_Text_VivianPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_GymSign2::
@@ -272,6 +315,7 @@ CastleTownTreble_Gym_EventScript_BerryQuiz2Wrong::
 	waitmessage
 	waitbuttonpress
 	goto_if_not_defeated TRAINER_NADIA, CastleTownTreble_Gym_EventScript_BattleNadia
+	goto_if_not_defeated TRAINER_NADIA_2, CastleTownTreble_Gym_EventScript_BattleNadia
 	releaseall
 	end
 
@@ -284,9 +328,29 @@ CastleTownTreble_Gym_EventScript_BerryQuiz2Complete::
 	return
 
 CastleTownTreble_Gym_EventScript_BattleNadia::
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTreble_Gym_EventScript_BattleNadiaBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTreble_Gym_EventScript_BattleNadiaBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownTreble_Gym_EventScript_BattleNadiaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownTreble_Gym_EventScript_BattleNadiaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownTreble_Gym_EventScript_BattleNadiaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownTreble_Gym_EventScript_BattleNadiaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownTreble_Gym_EventScript_BattleNadiaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownTreble_Gym_EventScript_BattleNadiaAdvanced
+	return
+
+CastleTownTreble_Gym_EventScript_BattleNadiaBeginner::
 	call CastleTownTreble_Gym_EventScript_NadiaApproach
 	msgbox CastleTownTreble_Gym_Text_NadiaIntro
 	trainerbattle_no_intro TRAINER_NADIA, CastleTownTreble_Gym_Text_NadiaDefeat
+	goto_if_set FLAG_TREBLE_GYM_TREES_2, CastleTownTreble_Gym_EventScript_DoorAlreadyOpen
+	call CastleTownTreble_Gym_EventScript_BerryQuiz2Complete
+	releaseall
+	end
+
+CastleTownTreble_Gym_EventScript_BattleNadiaAdvanced::
+	call CastleTownTreble_Gym_EventScript_NadiaApproach
+	msgbox CastleTownTreble_Gym_Text_NadiaIntro
+	trainerbattle_no_intro TRAINER_NADIA_2, CastleTownTreble_Gym_Text_NadiaDefeat
 	goto_if_set FLAG_TREBLE_GYM_TREES_2, CastleTownTreble_Gym_EventScript_DoorAlreadyOpen
 	call CastleTownTreble_Gym_EventScript_BerryQuiz2Complete
 	releaseall
@@ -314,8 +378,30 @@ CastleTownTreble_Gym_EventScript_BerryQuiz2CompleteTrainer::
 	return
 
 CastleTownTreble_Gym_EventScript_Nadia::
-	trainerbattle_single TRAINER_NADIA, CastleTownTreble_Gym_Text_NadiaIntro, CastleTownTreble_Gym_Text_NadiaDefeat, CastleTownTreble_Gym_EventScript_DefeatedNadia
+	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, CastleTownTreble_Gym_EventScript_NadiaPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTreble_Gym_EventScript_NadiaBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTreble_Gym_EventScript_NadiaBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownTreble_Gym_EventScript_NadiaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownTreble_Gym_EventScript_NadiaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownTreble_Gym_EventScript_NadiaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownTreble_Gym_EventScript_NadiaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownTreble_Gym_EventScript_NadiaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownTreble_Gym_EventScript_NadiaAdvanced
 	msgbox CastleTownTreble_Gym_Text_NadiaPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_NadiaBeginner::
+	trainerbattle_single TRAINER_NADIA, CastleTownTreble_Gym_Text_NadiaIntro, CastleTownTreble_Gym_Text_NadiaDefeat, CastleTownTreble_Gym_EventScript_DefeatedNadia
+	end
+
+CastleTownTreble_Gym_EventScript_NadiaAdvanced::
+	trainerbattle_single TRAINER_NADIA_2, CastleTownTreble_Gym_Text_NadiaIntro, CastleTownTreble_Gym_Text_NadiaDefeat, CastleTownTreble_Gym_EventScript_DefeatedNadia
+	end
+
+CastleTownTreble_Gym_EventScript_NadiaPostBattle::
+	msgbox CastleTownTreble_Gym_Text_NadiaPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_GymSign3::
@@ -341,6 +427,7 @@ CastleTownTreble_Gym_EventScript_BerryQuiz3Wrong::
 	waitmessage
 	waitbuttonpress
 	goto_if_not_defeated TRAINER_KIRK, CastleTownTreble_Gym_EventScript_BattleKirk
+	goto_if_not_defeated TRAINER_KIRK_2, CastleTownTreble_Gym_EventScript_BattleKirk
 	releaseall
 	end
 
@@ -353,9 +440,29 @@ CastleTownTreble_Gym_EventScript_BerryQuiz3Complete::
 	return
 
 CastleTownTreble_Gym_EventScript_BattleKirk::
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTreble_Gym_EventScript_BattleKirkBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTreble_Gym_EventScript_BattleKirkBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownTreble_Gym_EventScript_BattleKirkAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownTreble_Gym_EventScript_BattleKirkAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownTreble_Gym_EventScript_BattleKirkAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownTreble_Gym_EventScript_BattleKirkAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownTreble_Gym_EventScript_BattleKirkAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownTreble_Gym_EventScript_BattleKirkAdvanced
+	return
+
+CastleTownTreble_Gym_EventScript_BattleKirkBeginner::
 	call CastleTownTreble_Gym_EventScript_KirkApproach
 	msgbox CastleTownTreble_Gym_Text_KirkIntro
 	trainerbattle_no_intro TRAINER_KIRK, CastleTownTreble_Gym_Text_KirkDefeat
+	goto_if_set FLAG_TREBLE_GYM_TREES_3, CastleTownTreble_Gym_EventScript_DoorAlreadyOpen
+	call CastleTownTreble_Gym_EventScript_BerryQuiz3Complete
+	releaseall
+	end
+
+CastleTownTreble_Gym_EventScript_BattleKirkAdvanced::
+	call CastleTownTreble_Gym_EventScript_KirkApproach
+	msgbox CastleTownTreble_Gym_Text_KirkIntro
+	trainerbattle_no_intro TRAINER_KIRK_2, CastleTownTreble_Gym_Text_KirkDefeat
 	goto_if_set FLAG_TREBLE_GYM_TREES_3, CastleTownTreble_Gym_EventScript_DoorAlreadyOpen
 	call CastleTownTreble_Gym_EventScript_BerryQuiz3Complete
 	releaseall
@@ -383,8 +490,30 @@ CastleTownTreble_Gym_EventScript_BerryQuiz3CompleteTrainer::
 	return
 
 CastleTownTreble_Gym_EventScript_Kirk::
-	trainerbattle_single TRAINER_KIRK, CastleTownTreble_Gym_Text_KirkIntro, CastleTownTreble_Gym_Text_KirkDefeat, CastleTownTreble_Gym_EventScript_DefeatedKirk
+	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, CastleTownTreble_Gym_EventScript_KirkPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTreble_Gym_EventScript_KirkBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTreble_Gym_EventScript_KirkBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownTreble_Gym_EventScript_KirkAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownTreble_Gym_EventScript_KirkAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownTreble_Gym_EventScript_KirkAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownTreble_Gym_EventScript_KirkAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownTreble_Gym_EventScript_KirkAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownTreble_Gym_EventScript_KirkAdvanced
 	msgbox CastleTownTreble_Gym_Text_KirkPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_KirkBeginner::
+	trainerbattle_single TRAINER_KIRK, CastleTownTreble_Gym_Text_KirkIntro, CastleTownTreble_Gym_Text_KirkDefeat, CastleTownTreble_Gym_EventScript_DefeatedKirk
+	end
+
+CastleTownTreble_Gym_EventScript_KirkAdvanced::
+	trainerbattle_single TRAINER_KIRK_2, CastleTownTreble_Gym_Text_KirkIntro, CastleTownTreble_Gym_Text_KirkDefeat, CastleTownTreble_Gym_EventScript_DefeatedKirk
+	end
+
+CastleTownTreble_Gym_EventScript_KirkPostBattle::
+	msgbox CastleTownTreble_Gym_Text_KirkPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_GymSign4::
@@ -422,9 +551,29 @@ CastleTownTreble_Gym_EventScript_BerryQuiz4Complete::
 	return
 
 CastleTownTreble_Gym_EventScript_BattleJen::
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTreble_Gym_EventScript_BattleJenBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTreble_Gym_EventScript_BattleJenBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownTreble_Gym_EventScript_BattleJenAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownTreble_Gym_EventScript_BattleJenAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownTreble_Gym_EventScript_BattleJenAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownTreble_Gym_EventScript_BattleJenAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownTreble_Gym_EventScript_BattleJenAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownTreble_Gym_EventScript_BattleJenAdvanced
+	return
+
+CastleTownTreble_Gym_EventScript_BattleJenBeginner::
 	call CastleTownTreble_Gym_EventScript_JenApproach
 	msgbox CastleTownTreble_Gym_Text_JenIntro
 	trainerbattle_no_intro TRAINER_JEN, CastleTownTreble_Gym_Text_JenDefeat
+	goto_if_set FLAG_TREBLE_GYM_TREES_4, CastleTownTreble_Gym_EventScript_DoorAlreadyOpen
+	call CastleTownTreble_Gym_EventScript_BerryQuiz4Complete
+	releaseall
+	end
+
+CastleTownTreble_Gym_EventScript_BattleJenAdvanced::
+	call CastleTownTreble_Gym_EventScript_JenApproach
+	msgbox CastleTownTreble_Gym_Text_JenIntro
+	trainerbattle_no_intro TRAINER_JEN_2, CastleTownTreble_Gym_Text_JenDefeat
 	goto_if_set FLAG_TREBLE_GYM_TREES_4, CastleTownTreble_Gym_EventScript_DoorAlreadyOpen
 	call CastleTownTreble_Gym_EventScript_BerryQuiz4Complete
 	releaseall
@@ -452,23 +601,111 @@ CastleTownTreble_Gym_EventScript_BerryQuiz4CompleteTrainer::
 	return
 
 CastleTownTreble_Gym_EventScript_Jen::
-	trainerbattle_single TRAINER_JEN, CastleTownTreble_Gym_Text_JenIntro, CastleTownTreble_Gym_Text_JenDefeat, CastleTownTreble_Gym_EventScript_DefeatedJen
+	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, CastleTownTreble_Gym_EventScript_JenPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTreble_Gym_EventScript_JenBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTreble_Gym_EventScript_JenBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownTreble_Gym_EventScript_JenAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownTreble_Gym_EventScript_JenAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownTreble_Gym_EventScript_JenAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownTreble_Gym_EventScript_JenAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownTreble_Gym_EventScript_JenAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownTreble_Gym_EventScript_JenAdvanced
 	msgbox CastleTownTreble_Gym_Text_JenPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_JenBeginner::
+	trainerbattle_single TRAINER_JEN, CastleTownTreble_Gym_Text_JenIntro, CastleTownTreble_Gym_Text_JenDefeat, CastleTownTreble_Gym_EventScript_DefeatedJen
+	end
+
+CastleTownTreble_Gym_EventScript_JenAdvanced::
+	trainerbattle_single TRAINER_JEN_2, CastleTownTreble_Gym_Text_JenIntro, CastleTownTreble_Gym_Text_JenDefeat, CastleTownTreble_Gym_EventScript_DefeatedJen
+	end
+
+CastleTownTreble_Gym_EventScript_JenPostBattle::
+	msgbox CastleTownTreble_Gym_Text_JenPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_Shawn::
-	trainerbattle_single TRAINER_SHAWN, CastleTownTreble_Gym_Text_ShawnIntro, CastleTownTreble_Gym_Text_ShawnDefeat
+	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, CastleTownTreble_Gym_EventScript_ShawnPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTreble_Gym_EventScript_ShawnBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTreble_Gym_EventScript_ShawnBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownTreble_Gym_EventScript_ShawnAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownTreble_Gym_EventScript_ShawnAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownTreble_Gym_EventScript_ShawnAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownTreble_Gym_EventScript_ShawnAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownTreble_Gym_EventScript_ShawnAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownTreble_Gym_EventScript_ShawnAdvanced
 	msgbox CastleTownTreble_Gym_Text_ShawnPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_ShawnBeginner::
+	trainerbattle_single TRAINER_SHAWN, CastleTownTreble_Gym_Text_ShawnIntro, CastleTownTreble_Gym_Text_ShawnDefeat
+	end
+
+CastleTownTreble_Gym_EventScript_ShawnAdvanced::
+	trainerbattle_single TRAINER_SHAWN_2, CastleTownTreble_Gym_Text_ShawnIntro, CastleTownTreble_Gym_Text_ShawnDefeat
+	end
+
+CastleTownTreble_Gym_EventScript_ShawnPostBattle::
+	msgbox CastleTownTreble_Gym_Text_ShawnPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_Angel::
-	trainerbattle_single TRAINER_ANGEL, CastleTownTreble_Gym_Text_AngelIntro, CastleTownTreble_Gym_Text_AngelDefeat
+	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, CastleTownTreble_Gym_EventScript_AngelPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTreble_Gym_EventScript_AngelBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTreble_Gym_EventScript_AngelBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownTreble_Gym_EventScript_AngelAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownTreble_Gym_EventScript_AngelAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownTreble_Gym_EventScript_AngelAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownTreble_Gym_EventScript_AngelAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownTreble_Gym_EventScript_AngelAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownTreble_Gym_EventScript_AngelAdvanced
 	msgbox CastleTownTreble_Gym_Text_AngelPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_AngelBeginner::
+	trainerbattle_single TRAINER_ANGEL, CastleTownTreble_Gym_Text_AngelIntro, CastleTownTreble_Gym_Text_AngelDefeat
+	end
+
+CastleTownTreble_Gym_EventScript_AngelAdvanced::
+	trainerbattle_single TRAINER_ANGEL_2, CastleTownTreble_Gym_Text_AngelIntro, CastleTownTreble_Gym_Text_AngelDefeat
+	end
+
+CastleTownTreble_Gym_EventScript_AngelPostBattle::
+	msgbox CastleTownTreble_Gym_Text_AngelPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_Bethany::
-	trainerbattle_single TRAINER_BETHANY, CastleTownTreble_Gym_Text_BethanyIntro, CastleTownTreble_Gym_Text_BethanyDefeat
+	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, CastleTownTreble_Gym_EventScript_BethanyPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownTreble_Gym_EventScript_BethanyBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownTreble_Gym_EventScript_BethanyBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownTreble_Gym_EventScript_BethanyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownTreble_Gym_EventScript_BethanyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownTreble_Gym_EventScript_BethanyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownTreble_Gym_EventScript_BethanyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownTreble_Gym_EventScript_BethanyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownTreble_Gym_EventScript_BethanyAdvanced
 	msgbox CastleTownTreble_Gym_Text_BethanyPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownTreble_Gym_EventScript_BethanyBeginner::
+	trainerbattle_single TRAINER_BETHANY, CastleTownTreble_Gym_Text_BethanyIntro, CastleTownTreble_Gym_Text_BethanyDefeat
+	end
+
+CastleTownTreble_Gym_EventScript_BethanyAdvanced::
+	trainerbattle_single TRAINER_BETHANY_2, CastleTownTreble_Gym_Text_BethanyIntro, CastleTownTreble_Gym_Text_BethanyDefeat
+	end
+
+CastleTownTreble_Gym_EventScript_BethanyPostBattle::
+	msgbox CastleTownTreble_Gym_Text_BethanyPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_Treble::

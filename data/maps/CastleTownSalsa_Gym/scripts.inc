@@ -126,40 +126,194 @@ CastleTownSalsa_Gym_EventScript_StopCountingIngredients::
 	return
 
 CastleTownSalsa_Gym_EventScript_Cole::
-	trainerbattle_single TRAINER_COLE, CastleTownSalsa_Gym_Text_ColeIntro, CastleTownSalsa_Gym_Text_ColeDefeat
+	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, CastleTownSalsa_Gym_EventScript_ColePostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownSalsa_Gym_EventScript_ColeBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownSalsa_Gym_EventScript_ColeBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownSalsa_Gym_EventScript_ColeAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownSalsa_Gym_EventScript_ColeAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownSalsa_Gym_EventScript_ColeAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownSalsa_Gym_EventScript_ColeAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownSalsa_Gym_EventScript_ColeAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownSalsa_Gym_EventScript_ColeAdvanced
 	msgbox CastleTownSalsa_Gym_Text_ColePostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownSalsa_Gym_EventScript_ColeBeginner::
+	trainerbattle_single TRAINER_COLE, CastleTownSalsa_Gym_Text_ColeIntro, CastleTownSalsa_Gym_Text_ColeDefeat
+	end
+
+CastleTownSalsa_Gym_EventScript_ColeAdvanced::
+	trainerbattle_single TRAINER_COLE_2, CastleTownSalsa_Gym_Text_ColeIntro, CastleTownSalsa_Gym_Text_ColeDefeat
+	end
+
+CastleTownSalsa_Gym_EventScript_ColePostBattle::
+	msgbox CastleTownSalsa_Gym_Text_ColePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_Axle::
-	trainerbattle_single TRAINER_AXLE, CastleTownSalsa_Gym_Text_AxleIntro, CastleTownSalsa_Gym_Text_AxleDefeat
+	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, CastleTownSalsa_Gym_EventScript_AxlePostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownSalsa_Gym_EventScript_AxleBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownSalsa_Gym_EventScript_AxleBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownSalsa_Gym_EventScript_AxleAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownSalsa_Gym_EventScript_AxleAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownSalsa_Gym_EventScript_AxleAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownSalsa_Gym_EventScript_AxleAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownSalsa_Gym_EventScript_AxleAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownSalsa_Gym_EventScript_AxleAdvanced
 	msgbox CastleTownSalsa_Gym_Text_AxlePostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownSalsa_Gym_EventScript_AxleBeginner::
+	trainerbattle_single TRAINER_AXLE, CastleTownSalsa_Gym_Text_AxleIntro, CastleTownSalsa_Gym_Text_AxleDefeat
+	end
+
+CastleTownSalsa_Gym_EventScript_AxleAdvanced::
+	trainerbattle_single TRAINER_AXLE_2, CastleTownSalsa_Gym_Text_AxleIntro, CastleTownSalsa_Gym_Text_AxleDefeat
+	end
+
+CastleTownSalsa_Gym_EventScript_AxlePostBattle::
+	msgbox CastleTownSalsa_Gym_Text_AxlePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_Keegan::
-	trainerbattle_single TRAINER_KEEGAN, CastleTownSalsa_Gym_Text_KeeganIntro, CastleTownSalsa_Gym_Text_KeeganDefeat
+	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, CastleTownSalsa_Gym_EventScript_KeeganPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownSalsa_Gym_EventScript_KeeganBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownSalsa_Gym_EventScript_KeeganBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownSalsa_Gym_EventScript_KeeganAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownSalsa_Gym_EventScript_KeeganAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownSalsa_Gym_EventScript_KeeganAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownSalsa_Gym_EventScript_KeeganAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownSalsa_Gym_EventScript_KeeganAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownSalsa_Gym_EventScript_KeeganAdvanced
 	msgbox CastleTownSalsa_Gym_Text_KeeganPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownSalsa_Gym_EventScript_KeeganBeginner::
+	trainerbattle_single TRAINER_KEEGAN, CastleTownSalsa_Gym_Text_KeeganIntro, CastleTownSalsa_Gym_Text_KeeganDefeat
+	end
+
+CastleTownSalsa_Gym_EventScript_KeeganAdvanced::
+	trainerbattle_single TRAINER_KEEGAN_2, CastleTownSalsa_Gym_Text_KeeganIntro, CastleTownSalsa_Gym_Text_KeeganDefeat
+	end
+
+CastleTownSalsa_Gym_EventScript_KeeganPostBattle::
+	msgbox CastleTownSalsa_Gym_Text_KeeganPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_Danielle::
-	trainerbattle_single TRAINER_DANIELLE, CastleTownSalsa_Gym_Text_DanielleIntro, CastleTownSalsa_Gym_Text_DanielleDefeat
+	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, CastleTownSalsa_Gym_EventScript_DaniellePostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownSalsa_Gym_EventScript_DanielleBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownSalsa_Gym_EventScript_DanielleBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownSalsa_Gym_EventScript_DanielleAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownSalsa_Gym_EventScript_DanielleAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownSalsa_Gym_EventScript_DanielleAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownSalsa_Gym_EventScript_DanielleAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownSalsa_Gym_EventScript_DanielleAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownSalsa_Gym_EventScript_DanielleAdvanced
 	msgbox CastleTownSalsa_Gym_Text_DaniellePostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownSalsa_Gym_EventScript_DanielleBeginner::
+	trainerbattle_single TRAINER_DANIELLE, CastleTownSalsa_Gym_Text_DanielleIntro, CastleTownSalsa_Gym_Text_DanielleDefeat
+	end
+
+CastleTownSalsa_Gym_EventScript_DanielleAdvanced::
+	trainerbattle_single TRAINER_DANIELLE_2, CastleTownSalsa_Gym_Text_DanielleIntro, CastleTownSalsa_Gym_Text_DanielleDefeat
+	end
+
+CastleTownSalsa_Gym_EventScript_DaniellePostBattle::
+	msgbox CastleTownSalsa_Gym_Text_DaniellePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_Gerald::
-	trainerbattle_single TRAINER_GERALD, CastleTownSalsa_Gym_Text_GeraldIntro, CastleTownSalsa_Gym_Text_GeraldDefeat
+	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, CastleTownSalsa_Gym_EventScript_GeraldPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownSalsa_Gym_EventScript_GeraldBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownSalsa_Gym_EventScript_GeraldBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownSalsa_Gym_EventScript_GeraldAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownSalsa_Gym_EventScript_GeraldAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownSalsa_Gym_EventScript_GeraldAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownSalsa_Gym_EventScript_GeraldAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownSalsa_Gym_EventScript_GeraldAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownSalsa_Gym_EventScript_GeraldAdvanced
 	msgbox CastleTownSalsa_Gym_Text_GeraldPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownSalsa_Gym_EventScript_GeraldBeginner::
+	trainerbattle_single TRAINER_GERALD, CastleTownSalsa_Gym_Text_GeraldIntro, CastleTownSalsa_Gym_Text_GeraldDefeat
+	end
+
+CastleTownSalsa_Gym_EventScript_GeraldAdvanced::
+	trainerbattle_single TRAINER_GERALD_2, CastleTownSalsa_Gym_Text_GeraldIntro, CastleTownSalsa_Gym_Text_GeraldDefeat
+	end
+
+CastleTownSalsa_Gym_EventScript_GeraldPostBattle::
+	msgbox CastleTownSalsa_Gym_Text_GeraldPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_Jace::
-	trainerbattle_single TRAINER_JACE, CastleTownSalsa_Gym_Text_JaceIntro, CastleTownSalsa_Gym_Text_JaceDefeat
+	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, CastleTownSalsa_Gym_EventScript_JacePostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownSalsa_Gym_EventScript_JaceBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownSalsa_Gym_EventScript_JaceBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownSalsa_Gym_EventScript_JaceAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownSalsa_Gym_EventScript_JaceAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownSalsa_Gym_EventScript_JaceAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownSalsa_Gym_EventScript_JaceAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownSalsa_Gym_EventScript_JaceAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownSalsa_Gym_EventScript_JaceAdvanced
 	msgbox CastleTownSalsa_Gym_Text_JacePostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownSalsa_Gym_EventScript_JaceBeginner::
+	trainerbattle_single TRAINER_JACE, CastleTownSalsa_Gym_Text_JaceIntro, CastleTownSalsa_Gym_Text_JaceDefeat
+	end
+
+CastleTownSalsa_Gym_EventScript_JaceAdvanced::
+	trainerbattle_single TRAINER_JACE_2, CastleTownSalsa_Gym_Text_JaceIntro, CastleTownSalsa_Gym_Text_JaceDefeat
+	end
+
+CastleTownSalsa_Gym_EventScript_JacePostBattle::
+	msgbox CastleTownSalsa_Gym_Text_JacePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_Jeff::
-	trainerbattle_single TRAINER_JEFF, CastleTownSalsa_Gym_Text_JeffIntro, CastleTownSalsa_Gym_Text_JeffDefeat
+	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, CastleTownSalsa_Gym_EventScript_JeffPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownSalsa_Gym_EventScript_JeffBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownSalsa_Gym_EventScript_JeffBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownSalsa_Gym_EventScript_JeffAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownSalsa_Gym_EventScript_JeffAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownSalsa_Gym_EventScript_JeffAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownSalsa_Gym_EventScript_JeffAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownSalsa_Gym_EventScript_JeffAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownSalsa_Gym_EventScript_JeffAdvanced
 	msgbox CastleTownSalsa_Gym_Text_JeffPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
+CastleTownSalsa_Gym_EventScript_JeffBeginner::
+	trainerbattle_single TRAINER_JEFF, CastleTownSalsa_Gym_Text_JeffIntro, CastleTownSalsa_Gym_Text_JeffDefeat
+	end
+
+CastleTownSalsa_Gym_EventScript_JeffAdvanced::
+	trainerbattle_single TRAINER_JEFF_2, CastleTownSalsa_Gym_Text_JeffIntro, CastleTownSalsa_Gym_Text_JeffDefeat
+	end
+
+CastleTownSalsa_Gym_EventScript_JeffPostBattle::
+	msgbox CastleTownSalsa_Gym_Text_JeffPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+	
 CastleTownSalsa_Gym_EventScript_Flannery::
 	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, CastleTownSalsa_Gym_EventScript_SalsaPostBattle
     goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownSalsa_Gym_EventScript_Flannery_ZeroBadge

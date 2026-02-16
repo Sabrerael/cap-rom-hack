@@ -11,6 +11,7 @@ Common_EventScript_UpdateBadgesCollected::
 Common_EventScript_BadgesCollectedOne::
     setvar VAR_BADGES_COLLECTED, 1
     setflag FLAG_BADGE01_GET
+	setvar VAR_ROUTE1_WILD_SET, 1
 	clearflag FLAG_HIDE_HM_GUY
 	clearflag FLAG_HIDE_MOVE_RELEARNER
 	clearflag FLAG_HIDE_OLD_ROD_GUY

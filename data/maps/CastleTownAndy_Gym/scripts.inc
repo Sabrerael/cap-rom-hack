@@ -47,43 +47,219 @@ CastleTownAndy_Gym_EventScript_SunTrigger::
 	end
 
 CastleTownAndy_Gym_EventScript_Josh::
-	trainerbattle_single TRAINER_JOSH, CastleTownAndy_Gym_Text_JoshIntro, CastleTownAndy_Gym_Text_JoshDefeat
+	goto_if_set FLAG_DEFEATED_RUSTBORO_GYM, CastleTownAndy_Gym_EventScript_JoshPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownAndy_Gym_EventScript_JoshBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownAndy_Gym_EventScript_JoshBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownAndy_Gym_EventScript_JoshAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownAndy_Gym_EventScript_JoshAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownAndy_Gym_EventScript_JoshAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownAndy_Gym_EventScript_JoshAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownAndy_Gym_EventScript_JoshAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownAndy_Gym_EventScript_JoshAdvanced
 	msgbox CastleTownAndy_Gym_Text_JoshPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_JoshBeginner::
+	trainerbattle_single TRAINER_JOSH, CastleTownAndy_Gym_Text_JoshIntro, CastleTownAndy_Gym_Text_JoshDefeat
+	end
+
+CastleTownAndy_Gym_EventScript_JoshAdvanced::
+	trainerbattle_single TRAINER_JOSH_2, CastleTownAndy_Gym_Text_JoshIntro, CastleTownAndy_Gym_Text_JoshDefeat
+	end
+
+CastleTownAndy_Gym_EventScript_JoshPostBattle::
+	msgbox CastleTownAndy_Gym_Text_JoshPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_Tommy::
-	trainerbattle_single TRAINER_TOMMY, CastleTownAndy_Gym_Text_TommyIntro, CastleTownAndy_Gym_Text_TommyDefeat
+	goto_if_set FLAG_DEFEATED_RUSTBORO_GYM, CastleTownAndy_Gym_EventScript_TommyPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownAndy_Gym_EventScript_TommyBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownAndy_Gym_EventScript_TommyBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownAndy_Gym_EventScript_TommyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownAndy_Gym_EventScript_TommyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownAndy_Gym_EventScript_TommyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownAndy_Gym_EventScript_TommyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownAndy_Gym_EventScript_TommyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownAndy_Gym_EventScript_TommyAdvanced
 	msgbox CastleTownAndy_Gym_Text_TommyPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_TommyBeginner::
+	trainerbattle_single TRAINER_TOMMY, CastleTownAndy_Gym_Text_TommyIntro, CastleTownAndy_Gym_Text_TommyDefeat
+	end
+
+CastleTownAndy_Gym_EventScript_TommyAdvanced::
+	trainerbattle_single TRAINER_TOMMY_2, CastleTownAndy_Gym_Text_TommyIntro, CastleTownAndy_Gym_Text_TommyDefeat
+	end
+
+CastleTownAndy_Gym_EventScript_TommyPostBattle::
+	msgbox CastleTownAndy_Gym_Text_TommyPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_Marc::
-	trainerbattle_single TRAINER_MARC, CastleTownAndy_Gym_Text_MarcIntro, CastleTownAndy_Gym_Text_MarcDefeat
+	goto_if_set FLAG_DEFEATED_RUSTBORO_GYM, CastleTownAndy_Gym_EventScript_MarcPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownAndy_Gym_EventScript_MarcBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownAndy_Gym_EventScript_MarcBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownAndy_Gym_EventScript_MarcAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownAndy_Gym_EventScript_MarcAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownAndy_Gym_EventScript_MarcAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownAndy_Gym_EventScript_MarcAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownAndy_Gym_EventScript_MarcAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownAndy_Gym_EventScript_MarcAdvanced
 	msgbox CastleTownAndy_Gym_Text_MarcPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_MarcBeginner::
+	trainerbattle_single TRAINER_MARC, CastleTownAndy_Gym_Text_MarcIntro, CastleTownAndy_Gym_Text_MarcDefeat
+	end
+
+CastleTownAndy_Gym_EventScript_MarcAdvanced::
+	trainerbattle_single TRAINER_MARC, CastleTownAndy_Gym_Text_MarcIntro, CastleTownAndy_Gym_Text_MarcDefeat
+	end
+
+CastleTownAndy_Gym_EventScript_MarcPostBattle::
+	msgbox CastleTownAndy_Gym_Text_MarcPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_Sylvia::
-	trainerbattle_single TRAINER_SYLVIA, CastleTownAndy_Gym_Text_SylviaIntro, CastleTownAndy_Gym_Text_SylviaDefeat
+	goto_if_set FLAG_DEFEATED_RUSTBORO_GYM, CastleTownAndy_Gym_EventScript_SylviaPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownAndy_Gym_EventScript_SylviaBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownAndy_Gym_EventScript_SylviaBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownAndy_Gym_EventScript_SylviaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownAndy_Gym_EventScript_SylviaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownAndy_Gym_EventScript_SylviaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownAndy_Gym_EventScript_SylviaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownAndy_Gym_EventScript_SylviaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownAndy_Gym_EventScript_SylviaAdvanced
 	msgbox CastleTownAndy_Gym_Text_SylviaPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_SylviaBeginner::
+	trainerbattle_single TRAINER_SYLVIA, CastleTownAndy_Gym_Text_SylviaIntro, CastleTownAndy_Gym_Text_SylviaDefeat
+	end
+
+CastleTownAndy_Gym_EventScript_SylviaAdvanced::
+	trainerbattle_single TRAINER_SYLVIA_2, CastleTownAndy_Gym_Text_SylviaIntro, CastleTownAndy_Gym_Text_SylviaDefeat
+	end
+
+CastleTownAndy_Gym_EventScript_SylviaPostBattle::
+	msgbox CastleTownAndy_Gym_Text_SylviaPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_Macey::
-	trainerbattle_single TRAINER_MACEY, CastleTownAndy_Gym_Text_MaceyIntro, CastleTownAndy_Gym_Text_MaceyDefeat
+	goto_if_set FLAG_DEFEATED_RUSTBORO_GYM, CastleTownAndy_Gym_EventScript_MaceyPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownAndy_Gym_EventScript_MaceyBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownAndy_Gym_EventScript_MaceyBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownAndy_Gym_EventScript_MaceyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownAndy_Gym_EventScript_MaceyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownAndy_Gym_EventScript_MaceyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownAndy_Gym_EventScript_MaceyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownAndy_Gym_EventScript_MaceyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownAndy_Gym_EventScript_MaceyAdvanced
 	msgbox CastleTownAndy_Gym_Text_MaceyPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_MaceyBeginner::
+	trainerbattle_single TRAINER_MACEY, CastleTownAndy_Gym_Text_MaceyIntro, CastleTownAndy_Gym_Text_MaceyDefeat
+	end
+
+CastleTownAndy_Gym_EventScript_MaceyAdvanced::
+	trainerbattle_single TRAINER_MACEY_2, CastleTownAndy_Gym_Text_MaceyIntro, CastleTownAndy_Gym_Text_MaceyDefeat
+	end
+
+CastleTownAndy_Gym_EventScript_MaceyPostBattle::
+	msgbox CastleTownAndy_Gym_Text_MaceyPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_Clifford::
-	trainerbattle_single TRAINER_CLIFFORD, CastleTownAndy_Gym_Text_CliffordIntro, CastleTownAndy_Gym_Text_CliffordDefeat
+	goto_if_set FLAG_DEFEATED_RUSTBORO_GYM, CastleTownAndy_Gym_EventScript_CliffordPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownAndy_Gym_EventScript_CliffordBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownAndy_Gym_EventScript_CliffordBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownAndy_Gym_EventScript_CliffordAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownAndy_Gym_EventScript_CliffordAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownAndy_Gym_EventScript_CliffordAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownAndy_Gym_EventScript_CliffordAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownAndy_Gym_EventScript_CliffordAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownAndy_Gym_EventScript_CliffordAdvanced
 	msgbox CastleTownAndy_Gym_Text_CliffordPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_CliffordBeginner::
+	trainerbattle_single TRAINER_CLIFFORD, CastleTownAndy_Gym_Text_CliffordIntro, CastleTownAndy_Gym_Text_CliffordDefeat
+	end
+
+CastleTownAndy_Gym_EventScript_CliffordAdvanced::
+	trainerbattle_single TRAINER_CLIFFORD_2, CastleTownAndy_Gym_Text_CliffordIntro, CastleTownAndy_Gym_Text_CliffordDefeat
+	end
+
+CastleTownAndy_Gym_EventScript_CliffordPostBattle::
+	msgbox CastleTownAndy_Gym_Text_CliffordPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_Kathleen::
-	trainerbattle_single TRAINER_KATHLEEN, CastleTownAndy_Gym_Text_KathleenIntro, CastleTownAndy_Gym_Text_KathleenDefeat
+	goto_if_set FLAG_DEFEATED_RUSTBORO_GYM, CastleTownAndy_Gym_EventScript_KathleenPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownAndy_Gym_EventScript_KathleenBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownAndy_Gym_EventScript_KathleenBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownAndy_Gym_EventScript_KathleenAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownAndy_Gym_EventScript_KathleenAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownAndy_Gym_EventScript_KathleenAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownAndy_Gym_EventScript_KathleenAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownAndy_Gym_EventScript_KathleenAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownAndy_Gym_EventScript_KathleenAdvanced
 	msgbox CastleTownAndy_Gym_Text_KathleenPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_KathleenBeginner::
+	trainerbattle_single TRAINER_KATHLEEN, CastleTownAndy_Gym_Text_KathleenIntro, CastleTownAndy_Gym_Text_KathleenDefeat
+	end
+
+CastleTownAndy_Gym_EventScript_KathleenAdvanced::
+	trainerbattle_single TRAINER_KATHLEEN_2, CastleTownAndy_Gym_Text_KathleenIntro, CastleTownAndy_Gym_Text_KathleenDefeat
+	end
+
+CastleTownAndy_Gym_EventScript_KathleenPostBattle::
+	msgbox CastleTownAndy_Gym_Text_KathleenPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_Leah::
-	trainerbattle_single TRAINER_LEAH, CastleTownAndy_Gym_Text_LeahIntro, CastleTownAndy_Gym_Text_LeahDefeat
+	goto_if_set FLAG_DEFEATED_RUSTBORO_GYM, CastleTownAndy_Gym_EventScript_LeahPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownAndy_Gym_EventScript_LeahBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownAndy_Gym_EventScript_LeahBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownAndy_Gym_EventScript_LeahAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownAndy_Gym_EventScript_LeahAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownAndy_Gym_EventScript_LeahAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownAndy_Gym_EventScript_LeahAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownAndy_Gym_EventScript_LeahAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownAndy_Gym_EventScript_LeahAdvanced
 	msgbox CastleTownAndy_Gym_Text_LeahPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownAndy_Gym_EventScript_LeahBeginner::
+	trainerbattle_single TRAINER_LEAH, CastleTownAndy_Gym_Text_LeahIntro, CastleTownAndy_Gym_Text_LeahDefeat
+	end
+
+CastleTownAndy_Gym_EventScript_LeahAdvanced::
+	trainerbattle_single TRAINER_LEAH_2, CastleTownAndy_Gym_Text_LeahIntro, CastleTownAndy_Gym_Text_LeahDefeat
+	end
+
+CastleTownAndy_Gym_EventScript_LeahPostBattle::
+	msgbox CastleTownAndy_Gym_Text_LeahPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_Jade::

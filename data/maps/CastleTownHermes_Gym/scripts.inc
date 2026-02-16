@@ -37,38 +37,192 @@ CastleTownHermes_Gym_EventScript_GymStatue::
 	end
 
 CastleTownHermes_Gym_EventScript_Randall::
-	trainerbattle_single TRAINER_RANDALL, CastleTownHermes_Gym_Text_RandallIntro, CastleTownHermes_Gym_Text_RandallDefeat
+	goto_if_set FLAG_DEFEATED_PETALBURG_GYM, CastleTownHermes_Gym_EventScript_RandallPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownHermes_Gym_EventScript_RandallBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownHermes_Gym_EventScript_RandallBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownHermes_Gym_EventScript_RandallAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownHermes_Gym_EventScript_RandallAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownHermes_Gym_EventScript_RandallAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownHermes_Gym_EventScript_RandallAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownHermes_Gym_EventScript_RandallAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownHermes_Gym_EventScript_RandallAdvanced
 	msgbox CastleTownHermes_Gym_Text_RandallPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownHermes_Gym_EventScript_RandallBeginner::
+	trainerbattle_single TRAINER_RANDALL, CastleTownHermes_Gym_Text_RandallIntro, CastleTownHermes_Gym_Text_RandallDefeat
+	end
+
+CastleTownHermes_Gym_EventScript_RandallAdvanced::
+	trainerbattle_single TRAINER_RANDALL_2, CastleTownHermes_Gym_Text_RandallIntro, CastleTownHermes_Gym_Text_RandallDefeat
+	end
+
+CastleTownHermes_Gym_EventScript_RandallPostBattle::
+	msgbox CastleTownHermes_Gym_Text_RandallPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_Parker::
-	trainerbattle_single TRAINER_PARKER, CastleTownHermes_Gym_Text_ParkerIntro, CastleTownHermes_Gym_Text_ParkerDefeat
+	goto_if_set FLAG_DEFEATED_PETALBURG_GYM, CastleTownHermes_Gym_EventScript_ParkerPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownHermes_Gym_EventScript_ParkerBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownHermes_Gym_EventScript_ParkerBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownHermes_Gym_EventScript_ParkerAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownHermes_Gym_EventScript_ParkerAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownHermes_Gym_EventScript_ParkerAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownHermes_Gym_EventScript_ParkerAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownHermes_Gym_EventScript_ParkerAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownHermes_Gym_EventScript_ParkerAdvanced
 	msgbox CastleTownHermes_Gym_Text_ParkerPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownHermes_Gym_EventScript_ParkerBeginner::
+	trainerbattle_single TRAINER_PARKER, CastleTownHermes_Gym_Text_ParkerIntro, CastleTownHermes_Gym_Text_ParkerDefeat
+	end
+
+CastleTownHermes_Gym_EventScript_ParkerAdvanced::
+	trainerbattle_single TRAINER_PARKER_2, CastleTownHermes_Gym_Text_ParkerIntro, CastleTownHermes_Gym_Text_ParkerDefeat
+	end
+
+CastleTownHermes_Gym_EventScript_ParkerPostBattle::
+	msgbox CastleTownHermes_Gym_Text_ParkerPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_George::
-	trainerbattle_single TRAINER_GEORGE, CastleTownHermes_Gym_Text_GeorgeIntro, CastleTownHermes_Gym_Text_GeorgeDefeat
+	goto_if_set FLAG_DEFEATED_PETALBURG_GYM, CastleTownHermes_Gym_EventScript_GeorgePostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownHermes_Gym_EventScript_GeorgeBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownHermes_Gym_EventScript_GeorgeBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownHermes_Gym_EventScript_GeorgeAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownHermes_Gym_EventScript_GeorgeAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownHermes_Gym_EventScript_GeorgeAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownHermes_Gym_EventScript_GeorgeAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownHermes_Gym_EventScript_GeorgeAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownHermes_Gym_EventScript_GeorgeAdvanced
 	msgbox CastleTownHermes_Gym_Text_GeorgePostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownHermes_Gym_EventScript_GeorgeBeginner::
+	trainerbattle_single TRAINER_GEORGE, CastleTownHermes_Gym_Text_GeorgeIntro, CastleTownHermes_Gym_Text_GeorgeDefeat
+	end
+
+CastleTownHermes_Gym_EventScript_GeorgeAdvanced::
+	trainerbattle_single TRAINER_GEORGE_2, CastleTownHermes_Gym_Text_GeorgeIntro, CastleTownHermes_Gym_Text_GeorgeDefeat
+	end
+
+CastleTownHermes_Gym_EventScript_GeorgePostBattle::
+	msgbox CastleTownHermes_Gym_Text_GeorgePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_Berke::
-	trainerbattle_single TRAINER_BERKE, CastleTownHermes_Gym_Text_BerkeIntro, CastleTownHermes_Gym_Text_BerkeDefeat
+	goto_if_set FLAG_DEFEATED_PETALBURG_GYM, CastleTownHermes_Gym_EventScript_BerkePostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownHermes_Gym_EventScript_BerkeBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownHermes_Gym_EventScript_BerkeBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownHermes_Gym_EventScript_BerkeAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownHermes_Gym_EventScript_BerkeAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownHermes_Gym_EventScript_BerkeAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownHermes_Gym_EventScript_BerkeAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownHermes_Gym_EventScript_BerkeAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownHermes_Gym_EventScript_BerkeAdvanced
 	msgbox CastleTownHermes_Gym_Text_BerkePostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownHermes_Gym_EventScript_BerkeBeginner::
+	trainerbattle_single TRAINER_BERKE, CastleTownHermes_Gym_Text_BerkeIntro, CastleTownHermes_Gym_Text_BerkeDefeat
+	end
+
+CastleTownHermes_Gym_EventScript_BerkeAdvanced::
+	trainerbattle_single TRAINER_BERKE_2, CastleTownHermes_Gym_Text_BerkeIntro, CastleTownHermes_Gym_Text_BerkeDefeat
+	end
+
+CastleTownHermes_Gym_EventScript_BerkePostBattle::
+	msgbox CastleTownHermes_Gym_Text_BerkePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_Mary::
-	trainerbattle_single TRAINER_MARY, CastleTownHermes_Gym_Text_MaryIntro, CastleTownHermes_Gym_Text_MaryDefeat
+	goto_if_set FLAG_DEFEATED_PETALBURG_GYM, CastleTownHermes_Gym_EventScript_MaryPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownHermes_Gym_EventScript_MaryBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownHermes_Gym_EventScript_MaryBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownHermes_Gym_EventScript_MaryAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownHermes_Gym_EventScript_MaryAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownHermes_Gym_EventScript_MaryAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownHermes_Gym_EventScript_MaryAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownHermes_Gym_EventScript_MaryAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownHermes_Gym_EventScript_MaryAdvanced
 	msgbox CastleTownHermes_Gym_Text_MaryPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownHermes_Gym_EventScript_MaryBeginner::
+	trainerbattle_single TRAINER_MARY, CastleTownHermes_Gym_Text_MaryIntro, CastleTownHermes_Gym_Text_MaryDefeat
+	end
+
+CastleTownHermes_Gym_EventScript_MaryAdvanced::
+	trainerbattle_single TRAINER_MARY_2, CastleTownHermes_Gym_Text_MaryIntro, CastleTownHermes_Gym_Text_MaryDefeat
+	end
+
+CastleTownHermes_Gym_EventScript_MaryPostBattle::
+	msgbox CastleTownHermes_Gym_Text_MaryPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_Alexia::
-	trainerbattle_single TRAINER_ALEXIA, CastleTownHermes_Gym_Text_AlexiaIntro, CastleTownHermes_Gym_Text_AlexiaDefeat
+	goto_if_set FLAG_DEFEATED_PETALBURG_GYM, CastleTownHermes_Gym_EventScript_AlexiaPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownHermes_Gym_EventScript_AlexiaBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownHermes_Gym_EventScript_AlexiaBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownHermes_Gym_EventScript_AlexiaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownHermes_Gym_EventScript_AlexiaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownHermes_Gym_EventScript_AlexiaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownHermes_Gym_EventScript_AlexiaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownHermes_Gym_EventScript_AlexiaAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownHermes_Gym_EventScript_AlexiaAdvanced
 	msgbox CastleTownHermes_Gym_Text_AlexiaPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownHermes_Gym_EventScript_AlexiaBeginner::
+	trainerbattle_single TRAINER_ALEXIA, CastleTownHermes_Gym_Text_AlexiaIntro, CastleTownHermes_Gym_Text_AlexiaDefeat
+	end
+
+CastleTownHermes_Gym_EventScript_AlexiaAdvanced::
+	trainerbattle_single TRAINER_ALEXIA_2, CastleTownHermes_Gym_Text_AlexiaIntro, CastleTownHermes_Gym_Text_AlexiaDefeat
+	end
+
+CastleTownHermes_Gym_EventScript_AlexiaPostBattle::
+	msgbox CastleTownHermes_Gym_Text_AlexiaPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_Jody::
-	trainerbattle_single TRAINER_JODY, CastleTownHermes_Gym_Text_JodyIntro, CastleTownHermes_Gym_Text_JodyDefeat
+	goto_if_set FLAG_DEFEATED_PETALBURG_GYM, CastleTownHermes_Gym_EventScript_JodyPostBattle
+    goto_if_eq VAR_BADGES_COLLECTED, 0, CastleTownHermes_Gym_EventScript_JodyBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 1, CastleTownHermes_Gym_EventScript_JodyBeginner
+	goto_if_eq VAR_BADGES_COLLECTED, 2, CastleTownHermes_Gym_EventScript_JodyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 3, CastleTownHermes_Gym_EventScript_JodyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 4, CastleTownHermes_Gym_EventScript_JodyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 5, CastleTownHermes_Gym_EventScript_JodyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 6, CastleTownHermes_Gym_EventScript_JodyAdvanced
+	goto_if_eq VAR_BADGES_COLLECTED, 7, CastleTownHermes_Gym_EventScript_JodyAdvanced
 	msgbox CastleTownHermes_Gym_Text_JodyPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+CastleTownHermes_Gym_EventScript_JodyBeginner::
+	trainerbattle_single TRAINER_JODY, CastleTownHermes_Gym_Text_JodyIntro, CastleTownHermes_Gym_Text_JodyDefeat
+	end
+
+CastleTownHermes_Gym_EventScript_JodyAdvanced::
+	trainerbattle_single TRAINER_JODY, CastleTownHermes_Gym_Text_JodyIntro, CastleTownHermes_Gym_Text_JodyDefeat
+	end
+
+CastleTownHermes_Gym_EventScript_JodyPostBattle::
+	msgbox CastleTownHermes_Gym_Text_JodyPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_Norman::
