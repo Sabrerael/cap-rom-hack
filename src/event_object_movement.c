@@ -10653,3 +10653,8 @@ void GetDaycareGraphics(struct ScriptContext *ctx)
     }
     gSpecialVar_Result = i;
 }
+
+u16 GetObjectEventTrainerSightFlagByObjectEventId(u8 objEventId)
+{
+    return GetObjectEventTemplateByLocalIdAndMap(gObjectEvents[objEventId].localId, gObjectEvents[objEventId].mapNum, gObjectEvents[objEventId].mapGroup)->trainerType;
+}

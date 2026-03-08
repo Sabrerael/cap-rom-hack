@@ -1,8 +1,8 @@
 {
-  "id": "MAP_MIDDLE_TOWN_WEST_POKEMON_CENTER_2F",
-  "name": "MiddleTownWest_PokemonCenter_2F",
-  "layout": "LAYOUT_POKEMON_CENTER_2F",
-  "music": "MUS_POKE_CENTER",
+  "id": "MAP_MIDDLE_TOWN_WEST_HOUSE2",
+  "name": "MiddleTownWest_House2",
+  "layout": "LAYOUT_HOUSE2",
+  "music": "MUS_FALLARBOR",
   "region_map_section": "MAPSEC_BASHETT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -18,11 +18,18 @@
   ],
   "warp_events": [
     {
-      "x": 1,
-      "y": 6,
+      "x": 4,
+      "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_MIDDLE_TOWN_WEST_POKEMON_CENTER_1F",
-      "dest_warp_id": "2"
+      "dest_map": "MAP_MIDDLE_TOWN_WEST",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_MIDDLE_TOWN_WEST",
+      "dest_warp_id": "3"
     }
   ],
   "coord_events": [

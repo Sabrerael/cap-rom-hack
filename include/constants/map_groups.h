@@ -635,6 +635,8 @@
 #define MAP_MIDDLE_TOWN_WEST_POKEMON_CENTER_1F (0 | (35 << 8))
 #define MAP_MIDDLE_TOWN_WEST_POKEMON_CENTER_2F (1 | (35 << 8))
 #define MAP_MIDDLE_TOWN_WEST_MART              (2 | (35 << 8))
+#define MAP_MIDDLE_TOWN_WEST_HOUSE1            (3 | (35 << 8))
+#define MAP_MIDDLE_TOWN_WEST_HOUSE2            (4 | (35 << 8))
 
 // gMapGroup_IndoorMiddleTownEast
 #define MAP_MIDDLE_TOWN_EAST_POKEMON_CENTER_1F (0 | (36 << 8))

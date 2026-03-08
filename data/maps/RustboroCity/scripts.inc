@@ -37,7 +37,7 @@ RustboroCity_OnFrame:
 
 RustboroCity_EventScript_ScientistAddMatchCall::
 	lockall
-	setvar VAR_ROUTE104_STATE, 1
+	setvar VAR_ROUTE4_WILD_SET, 1
 	applymovement OBJ_EVENT_ID_PLAYER, RustboroCity_Movement_PlayerWalkDown
 	waitmovement 0
 	playse SE_EXIT
@@ -310,7 +310,7 @@ RustboroCity_EventScript_StolenGoodsScene::
 	setflag FLAG_DEVON_GOODS_STOLEN
 	setvar VAR_RUSTBORO_CITY_STATE, 2
 	setvar VAR_RUSTURF_TUNNEL_STATE, 2
-	setvar VAR_ROUTE116_STATE, 1
+	setvar VAR_ROUTE16_WILD_SET, 1
 	clearflag FLAG_HIDE_ROUTE_116_MR_BRINEY
 	clearflag FLAG_HIDE_RUSTURF_TUNNEL_PEEKO
 	clearflag FLAG_HIDE_RUSTURF_TUNNEL_AQUA_GRUNT
@@ -846,7 +846,7 @@ RustboroCity_EventScript_MayEncounter::
 	delay 30
 	setflag FLAG_ENABLE_RIVAL_MATCH_CALL
 	setvar VAR_RUSTBORO_CITY_STATE, 8
-	setvar VAR_ROUTE104_STATE, 2
+	setvar VAR_ROUTE4_WILD_SET, 2
 	setvar VAR_0x8008, 0
 	msgbox RustboroCity_Text_MayPassedBrineyWantToBattle, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleMay
@@ -914,7 +914,7 @@ RustboroCity_EventScript_BrendanEncounter::
 	delay 30
 	setflag FLAG_ENABLE_RIVAL_MATCH_CALL
 	setvar VAR_RUSTBORO_CITY_STATE, 8
-	setvar VAR_ROUTE104_STATE, 2
+	setvar VAR_ROUTE4_WILD_SET, 2
 	msgbox RustboroCity_Text_BrendanPassedBrineyWantToBattle, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleBrendan
 	msgbox RustboroCity_Text_BrendanNoConfidenceInPokemon, MSGBOX_DEFAULT

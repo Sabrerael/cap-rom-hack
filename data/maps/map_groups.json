@@ -677,7 +677,9 @@
   "gMapGroup_IndoorMiddleTownWest": [
     "MiddleTownWest_PokemonCenter_1F",
     "MiddleTownWest_PokemonCenter_2F",
-    "MiddleTownWest_Mart"
+    "MiddleTownWest_Mart",
+    "MiddleTownWest_House1",
+    "MiddleTownWest_House2"
   ],
   "gMapGroup_IndoorMiddleTownEast": [
     "MiddleTownEast_PokemonCenter_1F",

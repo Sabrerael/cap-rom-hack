@@ -1243,3 +1243,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/MiddleTownSouth_House1/scripts.inc"
 
 	.include "data/maps/MiddleTownSouth_House2/scripts.inc"
+
+	.include "data/maps/MiddleTownWest_House1/scripts.inc"
+
+	.include "data/maps/MiddleTownWest_House2/scripts.inc"
