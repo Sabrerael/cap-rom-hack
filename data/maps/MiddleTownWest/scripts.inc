@@ -31,9 +31,10 @@ MiddleTownWest_Text_Man:
 	.string "that I haven't seen yet!$"
 
 MiddleTownWest_Text_Woman:
-    .string "That young man seems stuck.\n"
-	.string "How on earth did he get over\l"
-	.string "there in the first place?$"
+    .string "What is this weather?\p"
+	.string "A sunny beach to the west and\n"
+	.string "a snowy canyon to the south?\p"
+	.string "My poor joints…$"
 
 MiddleTownWest_Text_TownSign:
 	.string "Bashett Town$"

@@ -20,20 +20,32 @@ MiddleTownEast_EventScript_Woman::
 	release
 	end
 
+MiddleTownEast_EventScript_Boy::
+	lock
+	faceplayer
+	msgbox MiddleTownEast_Text_Boy, MSGBOX_DEFAULT
+	release
+	end
+
 MiddleTownEast_EventScript_TownSign::
 	msgbox MiddleTownEast_Text_TownSign, MSGBOX_SIGN
 	end
 
 MiddleTownEast_Text_Man:
-    .string "Ah, what a beautiful day!\p"
-	.string "Maybe I'll head over to the Safari Zone\n"
-	.string "today. There's got to be a rare Pokemon\l"
-	.string "that I haven't seen yet!$"
+    .string "Ugh… I want to go gamble in the\n"
+	.string "next town over.\p"
+	.string "But I'd have to hike over all\n"
+	.string "that rough terrain…\p"
+	.string "Guess I'll save my money…$"
 
 MiddleTownEast_Text_Woman:
-    .string "That young man seems stuck.\n"
-	.string "How on earth did he get over\l"
-	.string "there in the first place?$"
+    .string "The forest to the south is so\n"
+	.string "mysterious. I've heard rumors\l"
+	.string "that it's full of ghosts!$"
+
+MiddleTownEast_Text_Boy:
+    .string "I need uppies!\p"
+	.string "Give me uppies!$"
 
 MiddleTownEast_Text_TownSign:
 	.string "Bargewright Town$"

@@ -166,7 +166,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_STAR_PIECE",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_ROUTE_134_STAR_PIECE"
+      "flag": "FLAG_ITEM_MIDDLE_TOWN_EAST_STAR_PIECE"
     }
   ],
   "warp_events": [

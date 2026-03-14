@@ -22,8 +22,8 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_PEHBBLE",
-      "x": 11,
-      "y": 26,
+      "x": 30,
+      "y": 32,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -36,22 +36,22 @@
   ],
   "warp_events": [
     {
-      "x": 19,
-      "y": 18,
+      "x": 24,
+      "y": 11,
       "elevation": 0,
       "dest_map": "MAP_CASTLE_TOWN_ANDY_POKEMON_CENTER_1F",
       "dest_warp_id": "0"
     },
     {
-      "x": 19,
-      "y": 25,
+      "x": 30,
+      "y": 11,
       "elevation": 0,
       "dest_map": "MAP_CASTLE_TOWN_ANDY_MART",
       "dest_warp_id": "0"
     },
     {
-      "x": 11,
-      "y": 25,
+      "x": 30,
+      "y": 31,
       "elevation": 0,
       "dest_map": "MAP_CASTLE_TOWN_ANDY_GYM",
       "dest_warp_id": "0"
@@ -63,8 +63,8 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 7,
-      "y": 24,
+      "x": 26,
+      "y": 30,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "CastleTownAndy_EventScript_GymSign"
