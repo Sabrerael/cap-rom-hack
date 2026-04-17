@@ -23,6 +23,22 @@ Pehbble_EventScript_AfterPehbbleBattleTwo::
 	releaseall
 	end
 
+Pehbble_EventScript_RivalFlyAway::
+	closemessage
+	applymovement VAR_LAST_TALKED, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	delay 50
+	setfieldeffectargument 0, 1
+	dofieldeffect FLDEFF_NPCFLY_OUT
+	delay 15
+	removeobject VAR_LAST_TALKED
+	waitfieldeffect FLDEFF_NPCFLY_OUT
+	savebgm MUS_DUMMY
+	fadedefaultbgm
+	setflag FLAG_MET_RIVAL_LILYCOVE
+	release
+	end
+
 Pehbble_EventScript_AfterPehbbleBattleTwoOverworld::
     msgbox Pehbble_Text_AfterBattleTwo, MSGBOX_NPC
     end
