@@ -195,10 +195,14 @@ CastleTownSalsa_Gym_EventScript_Keegan::
 
 CastleTownSalsa_Gym_EventScript_KeeganBeginner::
 	trainerbattle_single TRAINER_KEEGAN, CastleTownSalsa_Gym_Text_KeeganIntro, CastleTownSalsa_Gym_Text_KeeganDefeat
+	msgbox CastleTownSalsa_Gym_Text_KeeganPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_KeeganAdvanced::
 	trainerbattle_single TRAINER_KEEGAN_2, CastleTownSalsa_Gym_Text_KeeganIntro, CastleTownSalsa_Gym_Text_KeeganDefeat
+	msgbox CastleTownSalsa_Gym_Text_KeeganPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_KeeganPostBattle::

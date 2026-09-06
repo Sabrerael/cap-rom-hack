@@ -73,8 +73,8 @@
 #define FLAG_SALSA_PEPPERS           0x3C
 #define FLAG_JADE_DEFEATED           0x3D
 #define FLAG_RIN_DEFEATED            0x3E
-#define FLAG_UNUSED_0x03F    0x3F // Unused Flag
-#define FLAG_UNUSED_0x040    0x40 // Unused Flag
+#define FLAG_UNUSED_0x03F    0x3F // Testing for use with Trainer Scripts
+#define FLAG_UNUSED_0x040    0x40 // Testing for use with Trainer Scripts
 #define FLAG_UNUSED_0x041    0x41 // Unused Flag
 #define FLAG_UNUSED_0x042    0x42 // Unused Flag
 #define FLAG_UNUSED_0x043    0x43 // Unused Flag

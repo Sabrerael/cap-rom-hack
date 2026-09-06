@@ -35,10 +35,10 @@
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_RUN_SCRIPT",
+      "trainer_type": "FLAG_UNUSED_0x03F",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "CastleTownSalsa_Gym_EventScript_Jace",
-      "flag": "TRAINER_JACE"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_5",
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_RUN_SCRIPT",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "CastleTownSalsa_Gym_EventScript_Axle",
-      "flag": "TRAINER_AXLE"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_5",
@@ -64,7 +64,7 @@
       "trainer_type": "TRAINER_TYPE_RUN_SCRIPT",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "CastleTownSalsa_Gym_EventScript_Gerald",
-      "flag": "TRAINER_GERALD"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_5",
@@ -74,10 +74,10 @@
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_RUN_SCRIPT",
+      "trainer_type": "FLAG_UNUSED_0x040",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "CastleTownSalsa_Gym_EventScript_Keegan",
-      "flag": "TRAINER_KEEGAN"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
@@ -90,7 +90,7 @@
       "trainer_type": "TRAINER_TYPE_RUN_SCRIPT",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "CastleTownSalsa_Gym_EventScript_Danielle",
-      "flag": "TRAINER_DANIELLE"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_5",
@@ -103,7 +103,7 @@
       "trainer_type": "TRAINER_TYPE_RUN_SCRIPT",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "CastleTownSalsa_Gym_EventScript_Jeff",
-      "flag": "TRAINER_JEFF"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_5",
@@ -116,7 +116,7 @@
       "trainer_type": "TRAINER_TYPE_RUN_SCRIPT",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "CastleTownSalsa_Gym_EventScript_Cole",
-      "flag": "TRAINER_COLE"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_2",
