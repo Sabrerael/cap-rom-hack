@@ -199,7 +199,7 @@ CastleTownBlindJim_Gym_EventScript_LauraBeginner::
 	end
 
 CastleTownBlindJim_Gym_EventScript_LauraAdvanced::
-	trainerbattle_single TRAINER_LAURA_2, CastleTownBlindJim_Gym_Text_LauraIntro, CastleTownBlindJim_Gym_Text_LauraDefea
+	trainerbattle_single TRAINER_LAURA_2, CastleTownBlindJim_Gym_Text_LauraIntro, CastleTownBlindJim_Gym_Text_LauraDefeat
 	msgbox CastleTownBlindJim_Gym_Text_LauraPostBattle, MSGBOX_AUTOCLOSE
 	release
 	end
