@@ -75,21 +75,21 @@
 #define FLAG_RIN_DEFEATED            0x3E
 #define FLAG_UNUSED_0x03F    0x3F // Testing for use with Trainer Scripts
 #define FLAG_UNUSED_0x040    0x40 // Testing for use with Trainer Scripts
-#define FLAG_UNUSED_0x041    0x41 // Unused Flag
-#define FLAG_UNUSED_0x042    0x42 // Unused Flag
-#define FLAG_UNUSED_0x043    0x43 // Unused Flag
-#define FLAG_UNUSED_0x044    0x44 // Unused Flag
-#define FLAG_UNUSED_0x045    0x45 // Unused Flag
-#define FLAG_UNUSED_0x046    0x46 // Unused Flag
-#define FLAG_UNUSED_0x047    0x47 // Unused Flag
-#define FLAG_UNUSED_0x048    0x48 // Unused Flag
-#define FLAG_UNUSED_0x049    0x49 // Unused Flag
-#define FLAG_UNUSED_0x04A    0x4A // Unused Flag
-#define FLAG_UNUSED_0x04B    0x4B // Unused Flag
-#define FLAG_UNUSED_0x04C    0x4C // Unused Flag
-#define FLAG_UNUSED_0x04D    0x4D // Unused Flag
-#define FLAG_UNUSED_0x04E    0x4E // Unused Flag
-#define FLAG_UNUSED_0x04F    0x4F // Unused Flag
+#define FLAG_UNUSED_0x041    0x41 // Salsa's Gym Trainers
+#define FLAG_UNUSED_0x042    0x42 // Salsa's Gym Trainers
+#define FLAG_UNUSED_0x043    0x43 // Salsa's Gym Trainers
+#define FLAG_UNUSED_0x044    0x44 // Salsa's Gym Trainers
+#define FLAG_UNUSED_0x045    0x45 // Salsa's Gym Trainers
+#define FLAG_UNUSED_0x046    0x46 // Hermes' Gym Trainers
+#define FLAG_UNUSED_0x047    0x47 // Hermes' Gym Trainers
+#define FLAG_UNUSED_0x048    0x48 // Hermes' Gym Trainers
+#define FLAG_UNUSED_0x049    0x49 // Hermes' Gym Trainers
+#define FLAG_UNUSED_0x04A    0x4A // Hermes' Gym Trainers
+#define FLAG_UNUSED_0x04B    0x4B // Hermes' Gym Trainers
+#define FLAG_UNUSED_0x04C    0x4C // Hermes' Gym Trainers
+#define FLAG_UNUSED_0x04D    0x4D // Treble's Gym Trainers
+#define FLAG_UNUSED_0x04E    0x4E // Treble's Gym Trainers
+#define FLAG_UNUSED_0x04F    0x4F // Treble's Gym Trainers
 
 // Scripts
 #define FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA_STILL  0x50

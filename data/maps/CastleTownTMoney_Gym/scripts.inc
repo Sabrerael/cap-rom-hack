@@ -52,10 +52,14 @@ CastleTownTMoney_Gym_EventScript_Jared::
 
 CastleTownTMoney_Gym_EventScript_JaredBeginner::
 	trainerbattle_single TRAINER_JARED, CastleTownTMoney_Gym_Text_JaredIntro, CastleTownTMoney_Gym_Text_JaredDefeat
+	msgbox CastleTownTMoney_Gym_Text_JaredPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTMoney_Gym_EventScript_JaredAdvanced::
 	trainerbattle_single TRAINER_JARED_2, CastleTownTMoney_Gym_Text_JaredIntro, CastleTownTMoney_Gym_Text_JaredDefeat
+	msgbox CastleTownTMoney_Gym_Text_JaredPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTMoney_Gym_EventScript_JaredPostBattle::
@@ -79,10 +83,14 @@ CastleTownTMoney_Gym_EventScript_Edwardo::
 
 CastleTownTMoney_Gym_EventScript_EdwardoBeginner::
 	trainerbattle_single TRAINER_EDWARDO, CastleTownTMoney_Gym_Text_EdwardoIntro, CastleTownTMoney_Gym_Text_EdwardoDefeat
+	msgbox CastleTownTMoney_Gym_Text_EdwardoPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTMoney_Gym_EventScript_EdwardoAdvanced::
 	trainerbattle_single TRAINER_EDWARDO_2, CastleTownTMoney_Gym_Text_EdwardoIntro, CastleTownTMoney_Gym_Text_EdwardoDefeat
+	msgbox CastleTownTMoney_Gym_Text_EdwardoPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTMoney_Gym_EventScript_EdwardoPostBattle::
@@ -106,10 +114,14 @@ CastleTownTMoney_Gym_EventScript_Flint::
 
 CastleTownTMoney_Gym_EventScript_FlintBeginner::
 	trainerbattle_single TRAINER_FLINT, CastleTownTMoney_Gym_Text_FlintIntro, CastleTownTMoney_Gym_Text_FlintDefeat
+	msgbox CastleTownTMoney_Gym_Text_FlintPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTMoney_Gym_EventScript_FlintAdvanced::
 	trainerbattle_single TRAINER_FLINT_2, CastleTownTMoney_Gym_Text_FlintIntro, CastleTownTMoney_Gym_Text_FlintDefeat
+	msgbox CastleTownTMoney_Gym_Text_FlintPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTMoney_Gym_EventScript_FlintPostBattle::
@@ -133,10 +145,14 @@ CastleTownTMoney_Gym_EventScript_Ashley::
 
 CastleTownTMoney_Gym_EventScript_AshleyBeginner::
 	trainerbattle_single TRAINER_ASHLEY, CastleTownTMoney_Gym_Text_AshleyIntro, CastleTownTMoney_Gym_Text_AshleyDefeat
+	msgbox CastleTownTMoney_Gym_Text_AshleyPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTMoney_Gym_EventScript_AshleyAdvanced::
 	trainerbattle_single TRAINER_ASHLEY_2, CastleTownTMoney_Gym_Text_AshleyIntro, CastleTownTMoney_Gym_Text_AshleyDefeat
+	msgbox CastleTownTMoney_Gym_Text_AshleyPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTMoney_Gym_EventScript_AshleyPostBattle::
@@ -160,10 +176,14 @@ CastleTownTMoney_Gym_EventScript_Humberto::
 
 CastleTownTMoney_Gym_EventScript_HumbertoBeginner::
 	trainerbattle_single TRAINER_HUMBERTO, CastleTownTMoney_Gym_Text_HumbertoIntro, CastleTownTMoney_Gym_Text_HumbertoDefeat
+	msgbox CastleTownTMoney_Gym_Text_HumbertoPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTMoney_Gym_EventScript_HumbertoAdvanced::
 	trainerbattle_single TRAINER_HUMBERTO_2, CastleTownTMoney_Gym_Text_HumbertoIntro, CastleTownTMoney_Gym_Text_HumbertoDefeat
+	msgbox CastleTownTMoney_Gym_Text_HumbertoPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTMoney_Gym_EventScript_HumbertoPostBattle::
@@ -187,10 +207,14 @@ CastleTownTMoney_Gym_EventScript_Darius::
 
 CastleTownTMoney_Gym_EventScript_DariusBeginner::
 	trainerbattle_single TRAINER_DARIUS, CastleTownTMoney_Gym_Text_DariusIntro, CastleTownTMoney_Gym_Text_DariusDefeat
+	msgbox CastleTownTMoney_Gym_Text_DariusPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTMoney_Gym_EventScript_DariusAdvanced::
 	trainerbattle_single TRAINER_DARIUS_2, CastleTownTMoney_Gym_Text_DariusIntro, CastleTownTMoney_Gym_Text_DariusDefeat
+	msgbox CastleTownTMoney_Gym_Text_DariusPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTMoney_Gym_EventScript_DariusPostBattle::
@@ -214,10 +238,14 @@ CastleTownTMoney_Gym_EventScript_Crissy::
 
 CastleTownTMoney_Gym_EventScript_CrissyBeginner::
 	trainerbattle_single TRAINER_CRISSY, CastleTownTMoney_Gym_Text_CrissyIntro, CastleTownTMoney_Gym_Text_CrissyDefeat
+	msgbox CastleTownTMoney_Gym_Text_CrissyPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTMoney_Gym_EventScript_CrissyAdvanced::
 	trainerbattle_single TRAINER_CRISSY_2, CastleTownTMoney_Gym_Text_CrissyIntro, CastleTownTMoney_Gym_Text_CrissyDefeat
+	msgbox CastleTownTMoney_Gym_Text_CrissyPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTMoney_Gym_EventScript_CrissyPostBattle::

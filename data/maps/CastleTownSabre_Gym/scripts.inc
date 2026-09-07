@@ -270,10 +270,14 @@ CastleTownSabre_Gym_EventScript_Bridget::
 
 CastleTownSabre_Gym_EventScript_BridgetBeginner::
 	trainerbattle_single TRAINER_BRIDGET, CastleTownSabre_Gym_Text_BridgetIntro, CastleTownSabre_Gym_Text_BridgetDefeat, CastleTownSabre_Gym_EventScript_DefeatedBridget
+	msgbox CastleTownSabre_Gym_Text_BridgetPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSabre_Gym_EventScript_BridgetAdvanced::
 	trainerbattle_single TRAINER_BRIDGET_2, CastleTownSabre_Gym_Text_BridgetIntro, CastleTownSabre_Gym_Text_BridgetDefeat, CastleTownSabre_Gym_EventScript_DefeatedBridget
+	msgbox CastleTownSabre_Gym_Text_BridgetPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSabre_Gym_EventScript_BridgetPostBattle::
@@ -412,10 +416,14 @@ CastleTownSabre_Gym_EventScript_Daphne::
 
 CastleTownSabre_Gym_EventScript_DaphneBeginner::
 	trainerbattle_single TRAINER_DAPHNE, CastleTownSabre_Gym_Text_DaphneIntro, CastleTownSabre_Gym_Text_DaphneDefeat, CastleTownSabre_Gym_EventScript_DefeatedDaphne
+	msgbox CastleTownSabre_Gym_Text_DaphnePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSabre_Gym_EventScript_DaphneAdvanced::
 	trainerbattle_single TRAINER_DAPHNE_2, CastleTownSabre_Gym_Text_DaphneIntro, CastleTownSabre_Gym_Text_DaphneDefeat, CastleTownSabre_Gym_EventScript_DefeatedDaphne
+	msgbox CastleTownSabre_Gym_Text_DaphnePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSabre_Gym_EventScript_DaphnePostBattle::
@@ -554,10 +562,14 @@ CastleTownSabre_Gym_EventScript_Manfred::
 
 CastleTownSabre_Gym_EventScript_ManfredBeginner::
 	trainerbattle_single TRAINER_MANFRED, CastleTownSabre_Gym_Text_ManfredIntro, CastleTownSabre_Gym_Text_ManfredDefeat, CastleTownSabre_Gym_EventScript_DefeatedManfred
+	msgbox CastleTownSabre_Gym_Text_ManfredPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSabre_Gym_EventScript_ManfredAdvanced::
 	trainerbattle_single TRAINER_MANFRED_2, CastleTownSabre_Gym_Text_ManfredIntro, CastleTownSabre_Gym_Text_ManfredDefeat, CastleTownSabre_Gym_EventScript_DefeatedManfred
+	msgbox CastleTownSabre_Gym_Text_ManfredPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSabre_Gym_EventScript_ManfredPostBattle::
@@ -696,10 +708,14 @@ CastleTownSabre_Gym_EventScript_Steve::
 
 CastleTownSabre_Gym_EventScript_SteveBeginner::
 	trainerbattle_single TRAINER_STEVE, CastleTownSabre_Gym_Text_SteveIntro, CastleTownSabre_Gym_Text_SteveDefeat, CastleTownSabre_Gym_EventScript_DefeatedSteve
+	msgbox CastleTownSabre_Gym_Text_StevePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSabre_Gym_EventScript_SteveAdvanced::
 	trainerbattle_single TRAINER_STEVE_2, CastleTownSabre_Gym_Text_SteveIntro, CastleTownSabre_Gym_Text_SteveDefeat, CastleTownSabre_Gym_EventScript_DefeatedSteve
+	msgbox CastleTownSabre_Gym_Text_StevePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSabre_Gym_EventScript_StevePostBattle::
@@ -838,10 +854,14 @@ CastleTownSabre_Gym_EventScript_Charlotte::
 
 CastleTownSabre_Gym_EventScript_CharlotteBeginner::
 	trainerbattle_single TRAINER_CHARLOTTE, CastleTownSabre_Gym_Text_CharlotteIntro, CastleTownSabre_Gym_Text_CharlotteDefeat, CastleTownSabre_Gym_EventScript_DefeatedCharlotte
+	msgbox CastleTownSabre_Gym_Text_CharlottePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSabre_Gym_EventScript_CharlotteAdvanced::
 	trainerbattle_single TRAINER_CHARLOTTE_2, CastleTownSabre_Gym_Text_CharlotteIntro, CastleTownSabre_Gym_Text_CharlotteDefeat, CastleTownSabre_Gym_EventScript_DefeatedCharlotte
+	msgbox CastleTownSabre_Gym_Text_CharlottePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSabre_Gym_EventScript_CharlottePostBattle::
@@ -980,10 +1000,14 @@ CastleTownSabre_Gym_EventScript_Elliott::
 
 CastleTownSabre_Gym_EventScript_ElliottBeginner::
 	trainerbattle_single TRAINER_ELLIOTT, CastleTownSabre_Gym_Text_ElliottIntro, CastleTownSabre_Gym_Text_ElliottDefeat, CastleTownSabre_Gym_EventScript_DefeatedElliott
+	msgbox CastleTownSabre_Gym_Text_ElliottPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSabre_Gym_EventScript_ElliottAdvanced::
 	trainerbattle_single TRAINER_ELLIOTT_2, CastleTownSabre_Gym_Text_ElliottIntro, CastleTownSabre_Gym_Text_ElliottDefeat, CastleTownSabre_Gym_EventScript_DefeatedElliott
+	msgbox CastleTownSabre_Gym_Text_ElliottPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSabre_Gym_EventScript_ElliottPostBattle::
@@ -1133,10 +1157,14 @@ CastleTownSabre_Gym_EventScript_Jeanette::
 
 CastleTownSabre_Gym_EventScript_JeanetteBeginner::
 	trainerbattle_single TRAINER_JEANETTE, CastleTownSabre_Gym_Text_JeanetteIntro, CastleTownSabre_Gym_Text_JeanetteDefeat, CastleTownSabre_Gym_EventScript_DefeatedJeanette
+	msgbox CastleTownSabre_Gym_Text_JeanettePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSabre_Gym_EventScript_JeanetteAdvanced::
 	trainerbattle_single TRAINER_JEANETTE_2, CastleTownSabre_Gym_Text_JeanetteIntro, CastleTownSabre_Gym_Text_JeanetteDefeat, CastleTownSabre_Gym_EventScript_DefeatedJeanette
+	msgbox CastleTownSabre_Gym_Text_JeanettePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSabre_Gym_EventScript_JeanettePostBattle::

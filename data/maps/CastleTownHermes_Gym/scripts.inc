@@ -52,10 +52,14 @@ CastleTownHermes_Gym_EventScript_Randall::
 
 CastleTownHermes_Gym_EventScript_RandallBeginner::
 	trainerbattle_single TRAINER_RANDALL, CastleTownHermes_Gym_Text_RandallIntro, CastleTownHermes_Gym_Text_RandallDefeat
+	msgbox CastleTownHermes_Gym_Text_RandallPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_RandallAdvanced::
 	trainerbattle_single TRAINER_RANDALL_2, CastleTownHermes_Gym_Text_RandallIntro, CastleTownHermes_Gym_Text_RandallDefeat
+	msgbox CastleTownHermes_Gym_Text_RandallPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_RandallPostBattle::
@@ -79,10 +83,14 @@ CastleTownHermes_Gym_EventScript_Parker::
 
 CastleTownHermes_Gym_EventScript_ParkerBeginner::
 	trainerbattle_single TRAINER_PARKER, CastleTownHermes_Gym_Text_ParkerIntro, CastleTownHermes_Gym_Text_ParkerDefeat
+	msgbox CastleTownHermes_Gym_Text_ParkerPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_ParkerAdvanced::
 	trainerbattle_single TRAINER_PARKER_2, CastleTownHermes_Gym_Text_ParkerIntro, CastleTownHermes_Gym_Text_ParkerDefeat
+	msgbox CastleTownHermes_Gym_Text_ParkerPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_ParkerPostBattle::
@@ -106,10 +114,14 @@ CastleTownHermes_Gym_EventScript_George::
 
 CastleTownHermes_Gym_EventScript_GeorgeBeginner::
 	trainerbattle_single TRAINER_GEORGE, CastleTownHermes_Gym_Text_GeorgeIntro, CastleTownHermes_Gym_Text_GeorgeDefeat
+	msgbox CastleTownHermes_Gym_Text_GeorgePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_GeorgeAdvanced::
 	trainerbattle_single TRAINER_GEORGE_2, CastleTownHermes_Gym_Text_GeorgeIntro, CastleTownHermes_Gym_Text_GeorgeDefeat
+	msgbox CastleTownHermes_Gym_Text_GeorgePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_GeorgePostBattle::
@@ -133,10 +145,14 @@ CastleTownHermes_Gym_EventScript_Berke::
 
 CastleTownHermes_Gym_EventScript_BerkeBeginner::
 	trainerbattle_single TRAINER_BERKE, CastleTownHermes_Gym_Text_BerkeIntro, CastleTownHermes_Gym_Text_BerkeDefeat
+	msgbox CastleTownHermes_Gym_Text_BerkePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_BerkeAdvanced::
 	trainerbattle_single TRAINER_BERKE_2, CastleTownHermes_Gym_Text_BerkeIntro, CastleTownHermes_Gym_Text_BerkeDefeat
+	msgbox CastleTownHermes_Gym_Text_BerkePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_BerkePostBattle::
@@ -160,10 +176,14 @@ CastleTownHermes_Gym_EventScript_Mary::
 
 CastleTownHermes_Gym_EventScript_MaryBeginner::
 	trainerbattle_single TRAINER_MARY, CastleTownHermes_Gym_Text_MaryIntro, CastleTownHermes_Gym_Text_MaryDefeat
+	msgbox CastleTownHermes_Gym_Text_MaryPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_MaryAdvanced::
 	trainerbattle_single TRAINER_MARY_2, CastleTownHermes_Gym_Text_MaryIntro, CastleTownHermes_Gym_Text_MaryDefeat
+	msgbox CastleTownHermes_Gym_Text_MaryPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_MaryPostBattle::
@@ -187,10 +207,14 @@ CastleTownHermes_Gym_EventScript_Alexia::
 
 CastleTownHermes_Gym_EventScript_AlexiaBeginner::
 	trainerbattle_single TRAINER_ALEXIA, CastleTownHermes_Gym_Text_AlexiaIntro, CastleTownHermes_Gym_Text_AlexiaDefeat
+	msgbox CastleTownHermes_Gym_Text_AlexiaPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_AlexiaAdvanced::
 	trainerbattle_single TRAINER_ALEXIA_2, CastleTownHermes_Gym_Text_AlexiaIntro, CastleTownHermes_Gym_Text_AlexiaDefeat
+	msgbox CastleTownHermes_Gym_Text_AlexiaPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_AlexiaPostBattle::
@@ -214,10 +238,14 @@ CastleTownHermes_Gym_EventScript_Jody::
 
 CastleTownHermes_Gym_EventScript_JodyBeginner::
 	trainerbattle_single TRAINER_JODY, CastleTownHermes_Gym_Text_JodyIntro, CastleTownHermes_Gym_Text_JodyDefeat
+	msgbox CastleTownHermes_Gym_Text_JodyPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_JodyAdvanced::
 	trainerbattle_single TRAINER_JODY, CastleTownHermes_Gym_Text_JodyIntro, CastleTownHermes_Gym_Text_JodyDefeat
+	msgbox CastleTownHermes_Gym_Text_JodyPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownHermes_Gym_EventScript_JodyPostBattle::

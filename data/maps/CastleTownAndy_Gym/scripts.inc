@@ -62,10 +62,14 @@ CastleTownAndy_Gym_EventScript_Josh::
 
 CastleTownAndy_Gym_EventScript_JoshBeginner::
 	trainerbattle_single TRAINER_JOSH, CastleTownAndy_Gym_Text_JoshIntro, CastleTownAndy_Gym_Text_JoshDefeat
+	msgbox CastleTownAndy_Gym_Text_JoshPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_JoshAdvanced::
 	trainerbattle_single TRAINER_JOSH_2, CastleTownAndy_Gym_Text_JoshIntro, CastleTownAndy_Gym_Text_JoshDefeat
+	msgbox CastleTownAndy_Gym_Text_JoshPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_JoshPostBattle::
@@ -89,10 +93,14 @@ CastleTownAndy_Gym_EventScript_Tommy::
 
 CastleTownAndy_Gym_EventScript_TommyBeginner::
 	trainerbattle_single TRAINER_TOMMY, CastleTownAndy_Gym_Text_TommyIntro, CastleTownAndy_Gym_Text_TommyDefeat
+	msgbox CastleTownAndy_Gym_Text_TommyPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_TommyAdvanced::
 	trainerbattle_single TRAINER_TOMMY_2, CastleTownAndy_Gym_Text_TommyIntro, CastleTownAndy_Gym_Text_TommyDefeat
+	msgbox CastleTownAndy_Gym_Text_TommyPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_TommyPostBattle::
@@ -116,10 +124,14 @@ CastleTownAndy_Gym_EventScript_Marc::
 
 CastleTownAndy_Gym_EventScript_MarcBeginner::
 	trainerbattle_single TRAINER_MARC, CastleTownAndy_Gym_Text_MarcIntro, CastleTownAndy_Gym_Text_MarcDefeat
+	msgbox CastleTownAndy_Gym_Text_MarcPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_MarcAdvanced::
 	trainerbattle_single TRAINER_MARC, CastleTownAndy_Gym_Text_MarcIntro, CastleTownAndy_Gym_Text_MarcDefeat
+	msgbox CastleTownAndy_Gym_Text_MarcPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_MarcPostBattle::
@@ -143,10 +155,14 @@ CastleTownAndy_Gym_EventScript_Sylvia::
 
 CastleTownAndy_Gym_EventScript_SylviaBeginner::
 	trainerbattle_single TRAINER_SYLVIA, CastleTownAndy_Gym_Text_SylviaIntro, CastleTownAndy_Gym_Text_SylviaDefeat
+	msgbox CastleTownAndy_Gym_Text_SylviaPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_SylviaAdvanced::
 	trainerbattle_single TRAINER_SYLVIA_2, CastleTownAndy_Gym_Text_SylviaIntro, CastleTownAndy_Gym_Text_SylviaDefeat
+	msgbox CastleTownAndy_Gym_Text_SylviaPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_SylviaPostBattle::
@@ -170,10 +186,14 @@ CastleTownAndy_Gym_EventScript_Macey::
 
 CastleTownAndy_Gym_EventScript_MaceyBeginner::
 	trainerbattle_single TRAINER_MACEY, CastleTownAndy_Gym_Text_MaceyIntro, CastleTownAndy_Gym_Text_MaceyDefeat
+	msgbox CastleTownAndy_Gym_Text_MaceyPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_MaceyAdvanced::
 	trainerbattle_single TRAINER_MACEY_2, CastleTownAndy_Gym_Text_MaceyIntro, CastleTownAndy_Gym_Text_MaceyDefeat
+	msgbox CastleTownAndy_Gym_Text_MaceyPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_MaceyPostBattle::
@@ -197,10 +217,14 @@ CastleTownAndy_Gym_EventScript_Clifford::
 
 CastleTownAndy_Gym_EventScript_CliffordBeginner::
 	trainerbattle_single TRAINER_CLIFFORD, CastleTownAndy_Gym_Text_CliffordIntro, CastleTownAndy_Gym_Text_CliffordDefeat
+	msgbox CastleTownAndy_Gym_Text_CliffordPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_CliffordAdvanced::
 	trainerbattle_single TRAINER_CLIFFORD_2, CastleTownAndy_Gym_Text_CliffordIntro, CastleTownAndy_Gym_Text_CliffordDefeat
+	msgbox CastleTownAndy_Gym_Text_CliffordPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_CliffordPostBattle::
@@ -224,10 +248,14 @@ CastleTownAndy_Gym_EventScript_Kathleen::
 
 CastleTownAndy_Gym_EventScript_KathleenBeginner::
 	trainerbattle_single TRAINER_KATHLEEN, CastleTownAndy_Gym_Text_KathleenIntro, CastleTownAndy_Gym_Text_KathleenDefeat
+	msgbox CastleTownAndy_Gym_Text_KathleenPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_KathleenAdvanced::
 	trainerbattle_single TRAINER_KATHLEEN_2, CastleTownAndy_Gym_Text_KathleenIntro, CastleTownAndy_Gym_Text_KathleenDefeat
+	msgbox CastleTownAndy_Gym_Text_KathleenPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_KathleenPostBattle::
@@ -251,10 +279,14 @@ CastleTownAndy_Gym_EventScript_Leah::
 
 CastleTownAndy_Gym_EventScript_LeahBeginner::
 	trainerbattle_single TRAINER_LEAH, CastleTownAndy_Gym_Text_LeahIntro, CastleTownAndy_Gym_Text_LeahDefeat
+	msgbox CastleTownAndy_Gym_Text_LeahPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_LeahAdvanced::
 	trainerbattle_single TRAINER_LEAH_2, CastleTownAndy_Gym_Text_LeahIntro, CastleTownAndy_Gym_Text_LeahDefeat
+	msgbox CastleTownAndy_Gym_Text_LeahPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownAndy_Gym_EventScript_LeahPostBattle::

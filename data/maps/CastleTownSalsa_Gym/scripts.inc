@@ -141,10 +141,14 @@ CastleTownSalsa_Gym_EventScript_Cole::
 
 CastleTownSalsa_Gym_EventScript_ColeBeginner::
 	trainerbattle_single TRAINER_COLE, CastleTownSalsa_Gym_Text_ColeIntro, CastleTownSalsa_Gym_Text_ColeDefeat
+	msgbox CastleTownSalsa_Gym_Text_ColePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_ColeAdvanced::
 	trainerbattle_single TRAINER_COLE_2, CastleTownSalsa_Gym_Text_ColeIntro, CastleTownSalsa_Gym_Text_ColeDefeat
+	msgbox CastleTownSalsa_Gym_Text_ColePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_ColePostBattle::
@@ -168,10 +172,14 @@ CastleTownSalsa_Gym_EventScript_Axle::
 
 CastleTownSalsa_Gym_EventScript_AxleBeginner::
 	trainerbattle_single TRAINER_AXLE, CastleTownSalsa_Gym_Text_AxleIntro, CastleTownSalsa_Gym_Text_AxleDefeat
+	msgbox CastleTownSalsa_Gym_Text_AxlePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_AxleAdvanced::
 	trainerbattle_single TRAINER_AXLE_2, CastleTownSalsa_Gym_Text_AxleIntro, CastleTownSalsa_Gym_Text_AxleDefeat
+	msgbox CastleTownSalsa_Gym_Text_AxlePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_AxlePostBattle::
@@ -226,10 +234,14 @@ CastleTownSalsa_Gym_EventScript_Danielle::
 
 CastleTownSalsa_Gym_EventScript_DanielleBeginner::
 	trainerbattle_single TRAINER_DANIELLE, CastleTownSalsa_Gym_Text_DanielleIntro, CastleTownSalsa_Gym_Text_DanielleDefeat
+	msgbox CastleTownSalsa_Gym_Text_DaniellePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_DanielleAdvanced::
 	trainerbattle_single TRAINER_DANIELLE_2, CastleTownSalsa_Gym_Text_DanielleIntro, CastleTownSalsa_Gym_Text_DanielleDefeat
+	msgbox CastleTownSalsa_Gym_Text_DaniellePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_DaniellePostBattle::
@@ -253,10 +265,14 @@ CastleTownSalsa_Gym_EventScript_Gerald::
 
 CastleTownSalsa_Gym_EventScript_GeraldBeginner::
 	trainerbattle_single TRAINER_GERALD, CastleTownSalsa_Gym_Text_GeraldIntro, CastleTownSalsa_Gym_Text_GeraldDefeat
+	msgbox CastleTownSalsa_Gym_Text_GeraldPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_GeraldAdvanced::
 	trainerbattle_single TRAINER_GERALD_2, CastleTownSalsa_Gym_Text_GeraldIntro, CastleTownSalsa_Gym_Text_GeraldDefeat
+	msgbox CastleTownSalsa_Gym_Text_GeraldPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_GeraldPostBattle::
@@ -280,10 +296,14 @@ CastleTownSalsa_Gym_EventScript_Jace::
 
 CastleTownSalsa_Gym_EventScript_JaceBeginner::
 	trainerbattle_single TRAINER_JACE, CastleTownSalsa_Gym_Text_JaceIntro, CastleTownSalsa_Gym_Text_JaceDefeat
+	msgbox CastleTownSalsa_Gym_Text_JacePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_JaceAdvanced::
 	trainerbattle_single TRAINER_JACE_2, CastleTownSalsa_Gym_Text_JaceIntro, CastleTownSalsa_Gym_Text_JaceDefeat
+	msgbox CastleTownSalsa_Gym_Text_JacePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_JacePostBattle::
@@ -307,10 +327,14 @@ CastleTownSalsa_Gym_EventScript_Jeff::
 
 CastleTownSalsa_Gym_EventScript_JeffBeginner::
 	trainerbattle_single TRAINER_JEFF, CastleTownSalsa_Gym_Text_JeffIntro, CastleTownSalsa_Gym_Text_JeffDefeat
+	msgbox CastleTownSalsa_Gym_Text_JeffPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_JeffAdvanced::
 	trainerbattle_single TRAINER_JEFF_2, CastleTownSalsa_Gym_Text_JeffIntro, CastleTownSalsa_Gym_Text_JeffDefeat
+	msgbox CastleTownSalsa_Gym_Text_JeffPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownSalsa_Gym_EventScript_JeffPostBattle::

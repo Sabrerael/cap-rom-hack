@@ -281,10 +281,14 @@ CastleTownTreble_Gym_EventScript_Vivian::
 
 CastleTownTreble_Gym_EventScript_VivianBeginner::
 	trainerbattle_single TRAINER_VIVIAN, CastleTownTreble_Gym_Text_VivianIntro, CastleTownTreble_Gym_Text_VivianDefeat, CastleTownTreble_Gym_EventScript_DefeatedVivian
+	msgbox CastleTownTreble_Gym_Text_VivianPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_VivianAdvanced::
 	trainerbattle_single TRAINER_VIVIAN, CastleTownTreble_Gym_Text_VivianIntro, CastleTownTreble_Gym_Text_VivianDefeat, CastleTownTreble_Gym_EventScript_DefeatedVivian
+	msgbox CastleTownTreble_Gym_Text_VivianPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_VivianPostBattle::
@@ -393,10 +397,14 @@ CastleTownTreble_Gym_EventScript_Nadia::
 
 CastleTownTreble_Gym_EventScript_NadiaBeginner::
 	trainerbattle_single TRAINER_NADIA, CastleTownTreble_Gym_Text_NadiaIntro, CastleTownTreble_Gym_Text_NadiaDefeat, CastleTownTreble_Gym_EventScript_DefeatedNadia
+	msgbox CastleTownTreble_Gym_Text_NadiaPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_NadiaAdvanced::
 	trainerbattle_single TRAINER_NADIA_2, CastleTownTreble_Gym_Text_NadiaIntro, CastleTownTreble_Gym_Text_NadiaDefeat, CastleTownTreble_Gym_EventScript_DefeatedNadia
+	msgbox CastleTownTreble_Gym_Text_NadiaPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_NadiaPostBattle::
@@ -505,10 +513,14 @@ CastleTownTreble_Gym_EventScript_Kirk::
 
 CastleTownTreble_Gym_EventScript_KirkBeginner::
 	trainerbattle_single TRAINER_KIRK, CastleTownTreble_Gym_Text_KirkIntro, CastleTownTreble_Gym_Text_KirkDefeat, CastleTownTreble_Gym_EventScript_DefeatedKirk
+	msgbox CastleTownTreble_Gym_Text_KirkPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_KirkAdvanced::
 	trainerbattle_single TRAINER_KIRK_2, CastleTownTreble_Gym_Text_KirkIntro, CastleTownTreble_Gym_Text_KirkDefeat, CastleTownTreble_Gym_EventScript_DefeatedKirk
+	msgbox CastleTownTreble_Gym_Text_KirkPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_KirkPostBattle::
@@ -616,10 +628,14 @@ CastleTownTreble_Gym_EventScript_Jen::
 
 CastleTownTreble_Gym_EventScript_JenBeginner::
 	trainerbattle_single TRAINER_JEN, CastleTownTreble_Gym_Text_JenIntro, CastleTownTreble_Gym_Text_JenDefeat, CastleTownTreble_Gym_EventScript_DefeatedJen
+	msgbox CastleTownTreble_Gym_Text_JenPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_JenAdvanced::
 	trainerbattle_single TRAINER_JEN_2, CastleTownTreble_Gym_Text_JenIntro, CastleTownTreble_Gym_Text_JenDefeat, CastleTownTreble_Gym_EventScript_DefeatedJen
+	msgbox CastleTownTreble_Gym_Text_JenPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_JenPostBattle::
@@ -643,10 +659,14 @@ CastleTownTreble_Gym_EventScript_Shawn::
 
 CastleTownTreble_Gym_EventScript_ShawnBeginner::
 	trainerbattle_single TRAINER_SHAWN, CastleTownTreble_Gym_Text_ShawnIntro, CastleTownTreble_Gym_Text_ShawnDefeat
+	msgbox CastleTownTreble_Gym_Text_ShawnPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_ShawnAdvanced::
 	trainerbattle_single TRAINER_SHAWN_2, CastleTownTreble_Gym_Text_ShawnIntro, CastleTownTreble_Gym_Text_ShawnDefeat
+	msgbox CastleTownTreble_Gym_Text_ShawnPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_ShawnPostBattle::
@@ -670,10 +690,14 @@ CastleTownTreble_Gym_EventScript_Angel::
 
 CastleTownTreble_Gym_EventScript_AngelBeginner::
 	trainerbattle_single TRAINER_ANGEL, CastleTownTreble_Gym_Text_AngelIntro, CastleTownTreble_Gym_Text_AngelDefeat
+	msgbox CastleTownTreble_Gym_Text_AngelPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_AngelAdvanced::
 	trainerbattle_single TRAINER_ANGEL_2, CastleTownTreble_Gym_Text_AngelIntro, CastleTownTreble_Gym_Text_AngelDefeat
+	msgbox CastleTownTreble_Gym_Text_AngelPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_AngelPostBattle::
@@ -697,10 +721,14 @@ CastleTownTreble_Gym_EventScript_Bethany::
 
 CastleTownTreble_Gym_EventScript_BethanyBeginner::
 	trainerbattle_single TRAINER_BETHANY, CastleTownTreble_Gym_Text_BethanyIntro, CastleTownTreble_Gym_Text_BethanyDefeat
+	msgbox CastleTownTreble_Gym_Text_BethanyPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_BethanyAdvanced::
 	trainerbattle_single TRAINER_BETHANY_2, CastleTownTreble_Gym_Text_BethanyIntro, CastleTownTreble_Gym_Text_BethanyDefeat
+	msgbox CastleTownTreble_Gym_Text_BethanyPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTreble_Gym_EventScript_BethanyPostBattle::

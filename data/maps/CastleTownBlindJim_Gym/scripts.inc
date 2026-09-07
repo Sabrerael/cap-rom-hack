@@ -101,10 +101,14 @@ CastleTownBlindJim_Gym_EventScript_Eli::
 
 CastleTownBlindJim_Gym_EventScript_EliBeginner::
 	trainerbattle_single TRAINER_ELI, CastleTownBlindJim_Gym_Text_EliIntro, CastleTownBlindJim_Gym_Text_EliDefeat
+	msgbox CastleTownBlindJim_Gym_Text_EliPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownBlindJim_Gym_EventScript_EliAdvanced::
 	trainerbattle_single TRAINER_ELI_2, CastleTownBlindJim_Gym_Text_EliIntro, CastleTownBlindJim_Gym_Text_EliDefeat
+	msgbox CastleTownBlindJim_Gym_Text_EliPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownBlindJim_Gym_EventScript_EliPostBattle::
@@ -128,10 +132,14 @@ CastleTownBlindJim_Gym_EventScript_Takao::
 
 CastleTownBlindJim_Gym_EventScript_TakaoBeginner::
 	trainerbattle_single TRAINER_TAKAO, CastleTownBlindJim_Gym_Text_TakaoIntro, CastleTownBlindJim_Gym_Text_TakaoDefeat
+	msgbox CastleTownBlindJim_Gym_Text_TakaoPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownBlindJim_Gym_EventScript_TakaoAdvanced::
 	trainerbattle_single TRAINER_TAKAO_2, CastleTownBlindJim_Gym_Text_TakaoIntro, CastleTownBlindJim_Gym_Text_TakaoDefeat
+	msgbox CastleTownBlindJim_Gym_Text_TakaoPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownBlindJim_Gym_EventScript_TakaoPostBattle::
@@ -155,10 +163,14 @@ CastleTownBlindJim_Gym_EventScript_Jocelyn::
 
 CastleTownBlindJim_Gym_EventScript_JocelynBeginner::
 	trainerbattle_single TRAINER_JOCELYN, CastleTownBlindJim_Gym_Text_JocelynIntro, CastleTownBlindJim_Gym_Text_JocelynDefeat
+	msgbox CastleTownBlindJim_Gym_Text_JocelynPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownBlindJim_Gym_EventScript_JocelynAdvanced::
 	trainerbattle_single TRAINER_JOCELYN_2, CastleTownBlindJim_Gym_Text_JocelynIntro, CastleTownBlindJim_Gym_Text_JocelynDefeat
+	msgbox CastleTownBlindJim_Gym_Text_JocelynPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownBlindJim_Gym_EventScript_JocelynPostBattle::
@@ -182,10 +194,14 @@ CastleTownBlindJim_Gym_EventScript_Laura::
 
 CastleTownBlindJim_Gym_EventScript_LauraBeginner::
 	trainerbattle_single TRAINER_LAURA, CastleTownBlindJim_Gym_Text_LauraIntro, CastleTownBlindJim_Gym_Text_LauraDefeat
+	msgbox CastleTownBlindJim_Gym_Text_LauraPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownBlindJim_Gym_EventScript_LauraAdvanced::
-	trainerbattle_single TRAINER_LAURA_2, CastleTownBlindJim_Gym_Text_LauraIntro, CastleTownBlindJim_Gym_Text_LauraDefeat
+	trainerbattle_single TRAINER_LAURA_2, CastleTownBlindJim_Gym_Text_LauraIntro, CastleTownBlindJim_Gym_Text_LauraDefea
+	msgbox CastleTownBlindJim_Gym_Text_LauraPostBattle, MSGBOX_AUTOCLOSE
+	releaset
 	end
 
 CastleTownBlindJim_Gym_EventScript_LauraPostBattle::
@@ -209,10 +225,14 @@ CastleTownBlindJim_Gym_EventScript_Brenden::
 
 CastleTownBlindJim_Gym_EventScript_BrendenBeginner::
 	trainerbattle_single TRAINER_BRENDEN, CastleTownBlindJim_Gym_Text_BrendenIntro, CastleTownBlindJim_Gym_Text_BrendenDefeat
+	msgbox CastleTownBlindJim_Gym_Text_BrendenPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownBlindJim_Gym_EventScript_BrendenAdvanced::
 	trainerbattle_single TRAINER_BRENDEN_2, CastleTownBlindJim_Gym_Text_BrendenIntro, CastleTownBlindJim_Gym_Text_BrendenDefeat
+	msgbox CastleTownBlindJim_Gym_Text_BrendenPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownBlindJim_Gym_EventScript_BrendenPostBattle::
@@ -236,10 +256,14 @@ CastleTownBlindJim_Gym_EventScript_Cristian::
 
 CastleTownBlindJim_Gym_EventScript_CristianBeginner::
 	trainerbattle_single TRAINER_CRISTIAN, CastleTownBlindJim_Gym_Text_CristianIntro, CastleTownBlindJim_Gym_Text_CristianDefeat
+	msgbox CastleTownBlindJim_Gym_Text_CristianPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownBlindJim_Gym_EventScript_CristianAdvanced::
 	trainerbattle_single TRAINER_CRISTIAN_2, CastleTownBlindJim_Gym_Text_CristianIntro, CastleTownBlindJim_Gym_Text_CristianDefeat
+	msgbox CastleTownBlindJim_Gym_Text_CristianPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownBlindJim_Gym_EventScript_CristianPostBattle::
@@ -263,10 +287,14 @@ CastleTownBlindJim_Gym_EventScript_Lilith::
 
 CastleTownBlindJim_Gym_EventScript_LilithBeginner::
 	trainerbattle_single TRAINER_LILITH, CastleTownBlindJim_Gym_Text_LilithIntro, CastleTownBlindJim_Gym_Text_LilithDefeat
+	msgbox CastleTownBlindJim_Gym_Text_LilithPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownBlindJim_Gym_EventScript_LilithAdvanced::
 	trainerbattle_single TRAINER_LILITH_2, CastleTownBlindJim_Gym_Text_LilithIntro, CastleTownBlindJim_Gym_Text_LilithDefeat
+	msgbox CastleTownBlindJim_Gym_Text_LilithPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownBlindJim_Gym_EventScript_LilithPostBattle::

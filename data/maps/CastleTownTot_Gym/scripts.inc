@@ -116,10 +116,14 @@ CastleTownTot_Gym_EventScript_Preston::
 
 CastleTownTot_Gym_EventScript_PrestonBeginner::
 	trainerbattle_single TRAINER_PRESTON, CastleTownTot_Gym_Text_PrestonIntro, CastleTownTot_Gym_Text_PrestonDefeat, CastleTownTot_Gym_EventScript_CheckTrees
+	msgbox CastleTownTot_Gym_Text_PrestonPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTot_Gym_EventScript_PrestonAdvanced::
 	trainerbattle_single TRAINER_PRESTON_2, CastleTownTot_Gym_Text_PrestonIntro, CastleTownTot_Gym_Text_PrestonDefeat, CastleTownTot_Gym_EventScript_CheckTrees
+	msgbox CastleTownTot_Gym_Text_PrestonPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTot_Gym_EventScript_PrestonPostBattle::
@@ -143,10 +147,14 @@ CastleTownTot_Gym_EventScript_Virgil::
 
 CastleTownTot_Gym_EventScript_VirgilBeginner::
 	trainerbattle_single TRAINER_VIRGIL, CastleTownTot_Gym_Text_VirgilIntro, CastleTownTot_Gym_Text_VirgilDefeat, CastleTownTot_Gym_EventScript_CheckTrees
+	msgbox CastleTownTot_Gym_Text_VirgilPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTot_Gym_EventScript_VirgilAdvanced::
 	trainerbattle_single TRAINER_VIRGIL_2, CastleTownTot_Gym_Text_VirgilIntro, CastleTownTot_Gym_Text_VirgilDefeat, CastleTownTot_Gym_EventScript_CheckTrees
+	msgbox CastleTownTot_Gym_Text_VirgilPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTot_Gym_EventScript_VirgilPostBattle::
@@ -170,10 +178,14 @@ CastleTownTot_Gym_EventScript_Blake::
 
 CastleTownTot_Gym_EventScript_BlakeBeginner::
 	trainerbattle_single TRAINER_BLAKE, CastleTownTot_Gym_Text_BlakeIntro, CastleTownTot_Gym_Text_BlakeDefeat, CastleTownTot_Gym_EventScript_CheckTrees
+	msgbox CastleTownTot_Gym_Text_BlakePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTot_Gym_EventScript_BlakeAdvanced::
 	trainerbattle_single TRAINER_BLAKE_2, CastleTownTot_Gym_Text_BlakeIntro, CastleTownTot_Gym_Text_BlakeDefeat, CastleTownTot_Gym_EventScript_CheckTrees
+	msgbox CastleTownTot_Gym_Text_BlakePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTot_Gym_EventScript_BlakePostBattle::
@@ -197,10 +209,14 @@ CastleTownTot_Gym_EventScript_Hannah::
 
 CastleTownTot_Gym_EventScript_HannahBeginner::
 	trainerbattle_single TRAINER_HANNAH, CastleTownTot_Gym_Text_HannahIntro, CastleTownTot_Gym_Text_HannahDefeat, CastleTownTot_Gym_EventScript_CheckTrees
+	msgbox CastleTownTot_Gym_Text_HannahPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTot_Gym_EventScript_HannahAdvanced::
 	trainerbattle_single TRAINER_HANNAH_2, CastleTownTot_Gym_Text_HannahIntro, CastleTownTot_Gym_Text_HannahDefeat, CastleTownTot_Gym_EventScript_CheckTrees
+	msgbox CastleTownTot_Gym_Text_HannahPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTot_Gym_EventScript_HannahPostBattle::
@@ -224,10 +240,14 @@ CastleTownTot_Gym_EventScript_Samantha::
 
 CastleTownTot_Gym_EventScript_SamanthaBeginner::
 	trainerbattle_single TRAINER_SAMANTHA, CastleTownTot_Gym_Text_SamanthaIntro, CastleTownTot_Gym_Text_SamanthaDefeat, CastleTownTot_Gym_EventScript_CheckTrees
+	msgbox CastleTownTot_Gym_Text_SamanthaPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTot_Gym_EventScript_SamanthaAdvanced::
 	trainerbattle_single TRAINER_SAMANTHA_2, CastleTownTot_Gym_Text_SamanthaIntro, CastleTownTot_Gym_Text_SamanthaDefeat, CastleTownTot_Gym_EventScript_CheckTrees
+	msgbox CastleTownTot_Gym_Text_SamanthaPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTot_Gym_EventScript_SamanthaPostBattle::
@@ -251,10 +271,14 @@ CastleTownTot_Gym_EventScript_Maura::
 
 CastleTownTot_Gym_EventScript_MauraBeginner::
 	trainerbattle_single TRAINER_MAURA, CastleTownTot_Gym_Text_MauraIntro, CastleTownTot_Gym_Text_MauraDefeat, CastleTownTot_Gym_EventScript_CheckTrees
+	msgbox CastleTownTot_Gym_Text_MauraPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTot_Gym_EventScript_MauraAdvanced::
 	trainerbattle_single TRAINER_MAURA_2, CastleTownTot_Gym_Text_MauraIntro, CastleTownTot_Gym_Text_MauraDefeat, CastleTownTot_Gym_EventScript_CheckTrees
+	msgbox CastleTownTot_Gym_Text_MauraPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTot_Gym_EventScript_MauraPostBattle::
@@ -278,10 +302,14 @@ CastleTownTot_Gym_EventScript_Nate::
 
 CastleTownTot_Gym_EventScript_NateBeginner::
 	trainerbattle_single TRAINER_NATE, CastleTownTot_Gym_Text_NateIntro, CastleTownTot_Gym_Text_NateDefeat, CastleTownTot_Gym_EventScript_CheckTrees
+	msgbox CastleTownTot_Gym_Text_NatePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTot_Gym_EventScript_NateAdvanced::
 	trainerbattle_single TRAINER_NATE_2, CastleTownTot_Gym_Text_NateIntro, CastleTownTot_Gym_Text_NateDefeat, CastleTownTot_Gym_EventScript_CheckTrees
+	msgbox CastleTownTot_Gym_Text_NatePostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 CastleTownTot_Gym_EventScript_NatePostBattle::
