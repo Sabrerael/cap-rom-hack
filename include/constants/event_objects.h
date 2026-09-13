@@ -399,6 +399,7 @@
 #define OBJ_EVENT_PAL_TAG_TOT                     0x112C
 #define OBJ_EVENT_PAL_TAG_SALSA                   0x112D
 #define OBJ_EVENT_PAL_TAG_HERMES                  0x112E
+#define OBJ_EVENT_PAL_TAG_JADE                    0x112F
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla
