@@ -2815,13 +2815,12 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
         }
     }
 
-    u16 species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES, NULL);
     // If Mon can learn HM02 and action list consists of < 4 moves, add FLY to action list
-    if (sPartyMenuInternal->numActions < 5 && CanLearnTeachableMove(species, MOVE_FLY) && CheckBagHasItem(ITEM_HM_FLY, 1)) {
-        AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, 5 + MENU_FIELD_MOVES);
+    if (sPartyMenuInternal->numActions < 5 && CanLearnTeachableMove(GetMonData(&mons[slotId], MON_DATA_SPECIES_OR_EGG), ITEM_HM02 - ITEM_TM01) && CheckBagHasItem(ITEM_HM_FLY, 1)) {
+        AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, 1 + MENU_FIELD_MOVES);
     }
     // If Mon can learn HM05 and action list consists of < 4 moves, add FLASH to action list
-    if (sPartyMenuInternal->numActions < 5 && CanLearnTeachableMove(species, MOVE_FLASH) && CheckBagHasItem(ITEM_HM_FLASH, 1)) {
+    if (sPartyMenuInternal->numActions < 5 && CanLearnTeachableMove(GetMonData(&mons[slotId], MON_DATA_SPECIES_OR_EGG), ITEM_HM05 - ITEM_TM01) && CheckBagHasItem(ITEM_HM_FLASH, 1)) {
         AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, 1 + MENU_FIELD_MOVES);
     }
 
@@ -5302,7 +5301,6 @@ bool8 BoxMonKnowsMove(struct BoxPokemon *boxMon, u16 move)
 
 int MoveToHM(u16 move)
 {
-    u8 i;
     int item;
     switch (move)
     {

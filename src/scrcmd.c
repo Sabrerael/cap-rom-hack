@@ -1873,7 +1873,7 @@ bool8 ScrCmd_checkpartymove(struct ScriptContext *ctx)
             u16 species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES, NULL);
             if (!species)
                 break;
-            if (!GetMonData(&gPlayerParty[i], MON_DATA_IS_EGG) && CanLearnTeachableMove(species, moveId))
+            if (!GetMonData(&gPlayerParty[i], MON_DATA_IS_EGG) && CanLearnTeachableMove(GetMonData(&gPlayerParty[i], MON_DATA_SPECIES_OR_EGG), MoveToHM(moveId) - ITEM_TM01))
             {
                 gSpecialVar_Result = i;
                 gSpecialVar_0x8004 = species;
