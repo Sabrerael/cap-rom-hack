@@ -1502,7 +1502,7 @@
 
 #define FLAG_RECEIVED_POKEDEX_FROM_BIRCH            (SYSTEM_FLAGS + 0x84)
 
-#define FLAG_VISITED_STARTING_TOWN                  (SYSTEM_FLAGS + 0x85)
+#define FLAG_UNUSED_0x85                            (SYSTEM_FLAGS + 0x85)
 #define FLAG_VISITED_MIDDLE_TOWN_NORTH              (SYSTEM_FLAGS + 0x86)
 #define FLAG_VISITED_MIDDLE_TOWN_EAST               (SYSTEM_FLAGS + 0x87)
 #define FLAG_VISITED_MIDDLE_TOWN_SOUTH              (SYSTEM_FLAGS + 0x88)
