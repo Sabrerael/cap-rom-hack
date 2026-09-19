@@ -515,12 +515,12 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_TOT] =                      &gObjectEventGraphicsInfo_Tot,
     [OBJ_EVENT_GFX_ANDY] =                     &gObjectEventGraphicsInfo_Andy,
     [OBJ_EVENT_GFX_PEHBBLE] =                  &gObjectEventGraphicsInfo_Pehbble,
+    [OBJ_EVENT_GFX_RYAN_NORMAL] =              &gObjectEventGraphicsInfo_RyanNormal,
     [OBJ_EVENT_GFX_HAROLD] =                   &gObjectEventGraphicsInfo_Harold,
     [OBJ_EVENT_GFX_SLING_RYAN] =               &gObjectEventGraphicsInfo_SlingRyan,
     [OBJ_EVENT_GFX_PIRATE_RYAN] =              &gObjectEventGraphicsInfo_PirateRyan,
-    [OBJ_EVENT_GFX_RYAN_NORMAL] =              &gObjectEventGraphicsInfo_RyanNormal,
-    [OBJ_EVENT_GFX_RINTALIA] =                 &gObjectEventGraphicsInfo_Rintalia,
     [OBJ_EVENT_GFX_JADEDOSA] =                 &gObjectEventGraphicsInfo_Jadedosa,
+    [OBJ_EVENT_GFX_RINTALIA] =                 &gObjectEventGraphicsInfo_Rintalia,
     [OBJ_EVENT_GFX_SUSFLAME] =                 &gObjectEventGraphicsInfo_Susflame,
 };
 
