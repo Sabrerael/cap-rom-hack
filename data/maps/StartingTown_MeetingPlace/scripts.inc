@@ -50,6 +50,7 @@ StartingTown_MeetingPlace_TMGuy:
 	end
 
 StartingTown_MeetingPlace_EventScript_HMGuy::
+    goto_if_set FLAG_HM_GUY_GIVEN_HMs, StartingTown_MeetingPlace_EventScript_HMGuyGiven
 	msgbox StartingTown_MeetingPlace_Text_HMGuy, MSGBOX_NPC
 	giveitem ITEM_HM_CUT
 	giveitem ITEM_HM_FLY
@@ -59,6 +60,11 @@ StartingTown_MeetingPlace_EventScript_HMGuy::
 	giveitem ITEM_HM_ROCK_SMASH
 	giveitem ITEM_HM_WATERFALL
 	giveitem ITEM_HM_DIVE
+	setflag FLAG_HM_GUY_GIVEN_HMs
+	end
+
+StartingTown_MeetingPlace_EventScript_HMGuyGiven::
+	msgbox StartingTown_MeetingPlace_Text_HMGuy, MSGBOX_NPC
 	end
 
 StartingTown_MeetingPlace_EventScript_MoveRelearner::
@@ -388,14 +394,23 @@ StartingTown_MeetingPlace_Text_Receptionist:
 	.string "of this area?$"
 
 StartingTown_MeetingPlace_Text_ReceptionistFarewell:
-	.string "Hello and welcome to the Guild Hall.\n"
-	.string "Would you like to hear a description\l"
-	.string "of this area?$"
+	.string "Farewell, we await your return.$"
 
 StartingTown_MeetingPlace_Text_ReceptionistDescription:
-	.string "Hello and welcome to the Guild Hall.\n"
-	.string "Would you like to hear a description\l"
-	.string "of this area?$"
+	.string "The Guild Hall is a gathering place\n"
+	.string "for all sorts of people.\p"
+	.string "As you collect Badges from the\n"
+	.string "Moderators from around the Guild\l"
+	.string "Lands, more people will join us\l"
+	.string "here and provide their services.\p"
+	.string "In addition, you will receive\n"
+	.string "packages with various items upon\l"
+	.string "beating each Moderator and returning\l"
+	.string "here.\p"
+	.string "It is highly encouraged to return here\n"
+	.string "after each successful Moderator battle\l"
+	.string "to meet the new people and collect\l"
+	.string "your rewards.$"
 
 StartingTown_MeetingPlace_Text_TMGuy:
 	.string "Hey there. I've got some TMs\n"
@@ -407,3 +422,7 @@ StartingTown_MeetingPlace_Text_TMGuy_Leave:
 StartingTown_MeetingPlace_Text_HMGuy:
 	.string "Hey there! I've got HMs\n"
 	.string "for you! No charge!$"
+
+StartingTown_MeetingPlace_Text_HMGuyDone:
+	.string "Now you should be able to\n"
+	.string "go anywhere! Have fun exploring!$"

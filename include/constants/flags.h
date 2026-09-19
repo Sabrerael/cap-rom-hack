@@ -1363,7 +1363,7 @@
 #define NUM_BADGES                                   (1 + FLAG_BADGE08_GET - FLAG_BADGE01_GET)
 
 // Towns and Cities
-#define FLAG_VISITED_LITTLEROOT_TOWN                (SYSTEM_FLAGS + 0xF)
+#define FLAG_VISITED_STARTING_TOWN                  (SYSTEM_FLAGS + 0xF)
 #define FLAG_VISITED_OLDALE_TOWN                    (SYSTEM_FLAGS + 0x10)
 #define FLAG_VISITED_DEWFORD_TOWN                   (SYSTEM_FLAGS + 0x11)
 #define FLAG_VISITED_LAVARIDGE_TOWN                 (SYSTEM_FLAGS + 0x12)
@@ -1515,7 +1515,7 @@
 #define FLAG_VISITED_CASTLE_TOWN_TMONEY             (SYSTEM_FLAGS + 0x8F)
 #define FLAG_VISITED_CASTLE_TOWN_TOT                (SYSTEM_FLAGS + 0x90)
 #define FLAG_VISITED_CASTLE_TOWN_TREBLE             (SYSTEM_FLAGS + 0x91)
-#define FLAG_UNUSED_0x8F2                           (SYSTEM_FLAGS + 0x92) // Unused Flag
+#define FLAG_HM_GUY_GIVEN_HMs                       (SYSTEM_FLAGS + 0x92)
 #define FLAG_UNUSED_0x8F3                           (SYSTEM_FLAGS + 0x93) // Unused Flag
 #define FLAG_UNUSED_0x8F4                           (SYSTEM_FLAGS + 0x94) // Unused Flag
 #define FLAG_UNUSED_0x8F5                           (SYSTEM_FLAGS + 0x95) // Unused Flag
